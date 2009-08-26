@@ -24,7 +24,7 @@ a {color: black; }
 
 <?php
 
-$dbcnx = @mysql_connect('localhost', 'dsfinder_user', 'Ch4rli3F0xtr0t!');
+$dbcnx = @mysql_connect('localhost', 'dsfinder_user', 'password');
 if (!$dbcnx) {
   echo "<p> unable to connect to database 1</p>";
   exit();
