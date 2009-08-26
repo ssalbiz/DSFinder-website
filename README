@@ -1,0 +1,6 @@
+to install, copy the contents of this directory to server root (/var/www/htdocs, or similar)
+edit files:
+  * process.sh (change the environment variables at the top of the file)
+  * cgi-bin/view.cgi (change the variable $benchmark_root)
+
+These files assume the sources for the benchmarks are laid out according to the same structure of the tarball.
