@@ -1,0 +1,106 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+com.finalist.jag.skelet.ModuleData: *java.lang.Object* [private] value
+com.finalist.jag.util.TreeItem: *java.lang.Object* [private] dataField
+com.finalist.util.genelv.exceptions.WrappedEJBException: *java.lang.Throwable* [private] wrappedEjbException
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+com.finalist.jag.template.parser.JagBlockImpl: [private] down
+com.finalist.jag.template.parser.JagBlockImpl: [private] right
+com.finalist.jag.util.DirectoryIterator: [protected] currInterator
+com.finalist.jag.util.TreeItem: [private] up
+com.finalist.jag.util.TreeItem: [private] down
+com.finalist.jag.util.TreeItem: [private] right
+com.finalist.jag.util.TreeItem: [private] left
+com.finalist.uml14.simpleuml.SimpleUmlPackage: [private] ownerSimpleUmlPackage
+Non-Object Fields:
+com.finalist.util.genelv.exceptions.BusinessLogicException: *java.lang.Exception* [private] wrappedBusinessException
+java.lang.Object Fields:
+com.finalist.tools.database.StatementExecutor: *java.lang.Object* [protected] bindBean
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+com.finalist.ant.tasks.docbook.AbstractDocBookTask: *java.util.HashMap* [private] paramMap
+com.finalist.jag.PageContext: *com.finalist.jag.SessionContext* [private] sessionContext
+com.finalist.jag.PageContext: *com.finalist.jag.AttributeMap* [private] pageAttributes
+com.finalist.jag.skelet.JagSkeletConfig: *java.util.Collection* [private] templates
+com.finalist.jag.skelet.SkeletModule: *java.util.Collection* [private] refs
+com.finalist.jag.TagEngine: *java.util.HashMap* [private] processMap
+com.finalist.jag.TagEngine: *java.util.HashMap* [private] libraryMap
+com.finalist.jag.TagEngine: *java.util.List* [private] stackValidatorList
+com.finalist.jag.TagEngine: *java.util.Stack* [private] bodyContents
+com.finalist.jag.taglib.TagDef: *java.util.Collection* [private] attrDefs
+com.finalist.jag.taglib.TagLibrary: *java.util.Collection* [private] tagDefs
+com.finalist.jag.uml.Jag2UMLGenerator: *java.util.HashMap* [private] typeMappings
+com.finalist.jaggenerator.DatabaseManager$JarClassLoader: *java.util.HashMap* [private] alreadyLoaded
+com.finalist.jaggenerator.ExtensionsFileFilter: *java.util.ArrayList* [private] [final] acceptFilter
+com.finalist.jaggenerator.HtmlContentPopUp: *java.util.ArrayList* [private] [final] pageHistory
+com.finalist.jaggenerator.modules.Session: *java.util.ArrayList* [private] relationRefs
+com.finalist.jaggenerator.SelectRefs: *java.util.ArrayList* [private] refList
+com.finalist.jaggenerator.SkeletValidator: *java.util.HashMap* [private] entitiesByTableName
+com.finalist.jaggenerator.template.TemplateConfigPanel: *java.util.HashMap* [private] configComponents
+com.finalist.strutstags.ErrorsTDTag: *java.util.HashSet* [private] propertiesSet
+com.finalist.tools.ant.taskdefs.CheckoutLibTask: *java.util.List* [private] libs
+com.finalist.tools.ant.taskdefs.CheckoutLibTask: *java.util.List* [private] localLibs
+com.finalist.tools.ant.taskdefs.DistGenTask: *java.util.List* [private] filesets
+com.finalist.tools.ant.taskdefs.DistGenTask: *java.util.List* [private] metaInfs
+com.finalist.tools.ant.taskdefs.DocletFixTask: *java.util.ArrayList* [private] fileSets
+com.finalist.tools.ant.taskdefs.LibAvailableTask: *java.util.List* [private] libs
+com.finalist.tools.database.PartialResult: *java.util.ArrayList* [private] arrayList
+com.finalist.tools.database.Query: *java.util.ArrayList* bindIdentifiers
+com.finalist.tools.database.StatementExecutor: *java.util.Map* [private] [final] preparedStatementCache
+com.finalist.tools.database.StatementExecutor: *java.util.Map* [private] [final] queryCache
+com.finalist.tools.database.StatementExecutor: *java.util.Map* [protected] [final] bindVars
+com.finalist.uml14.simpleuml.SimpleClassifier: *java.util.HashMap* [private] simpleAttributes
+com.finalist.uml14.simpleuml.SimpleClassifier: *java.util.HashMap* [private] simpleOperations
+com.finalist.uml14.simpleuml.SimpleModel: *java.util.Collection* [private] simpleDependencies
+com.finalist.uml14.simpleuml.SimpleModel: *java.util.Collection* [private] simpleAssociations
+com.finalist.uml14.simpleuml.SimpleModel: *java.util.Collection* [private] simpleGeneralizations
+com.finalist.uml14.simpleuml.SimpleModel: *java.util.Collection* [private] simpleAbstractions
+com.finalist.uml14.simpleuml.SimpleOperation: *java.util.List* [private] sortedParameters
+com.finalist.uml14.simpleuml.SimpleOperation: *java.util.HashMap* [private] parameters
+com.finalist.uml14.simpleuml.SimpleUmlPackage: *java.util.HashMap* [private] simpleClassifiers
+com.finalist.uml14.simpleuml.SimpleUmlPackage: *java.util.HashMap* [private] simpleUmlPackages
+com.finalist.uml14.simpleuml.SimpleUmlPackage: *java.util.Collection* [private] simpleDiagrams
+com.finalist.util.Diff: *java.util.HashMap* [private] lineCounter
+com.finalist.util.ejb.validation.ModelErrors: *java.util.HashMap* [protected] errors
+com.finalist.util.sequencegenerator.tablecreator.TableCreator: *java.util.Properties* [protected] props
+
+ARRAYS REPORT
+=============
+
+com.finalist.ant.tasks.docbook.AbstractDocBookTask: *java.lang.String[]* [private] files
+com.finalist.jag.template.HeaderLine: *java.lang.String[]* [private] identArray [no-stores]
+com.finalist.jag.template.HeaderLine: *com.finalist.jag.template.parser.JagParameter[]* [private] paramArray [no-stores]
+com.finalist.jag.template.TemplateHeaderCollection: *com.finalist.jag.template.HeaderLine[]* [private] headerLines [no-stores]
+com.finalist.jag.template.TemplateTag: *com.finalist.jag.template.parser.JagParameter[]* [private] paramArray
+com.finalist.jag.util.DirectoryIterator: *java.io.File[]* [protected] currentFiles [no-stores]
+com.finalist.jaggenerator.ConnectDialog: *java.lang.String[]* [private] showTableTypes
+com.finalist.jaggenerator.GenericJdbcManager: *java.lang.String[]* [private] displayTypes [no-stores]
+com.finalist.jaggenerator.JagGenerator$35: *java.lang.String[]* [final] val$args [no-stores]
+com.finalist.jaggenerator.template.Template: *com.finalist.jaggenerator.template.TemplateConfigParameter[]* [private] configParams [no-stores]
+com.finalist.jaggenerator.template.TemplateConfigParameter: *java.lang.String[]* [private] presetValues [no-stores]
+com.finalist.util.ejb.validation.ModelError: *java.lang.Object[]* [private] values
+com.finalist.util.sequencegenerator.tablecreator.TableCreator: *java.lang.String[]* [protected] sequenceColumnNames
+
+N-CYCLES
+========
+[com/finalist/jaggenerator/menu/RecentMenu, com/finalist/jaggenerator/JagGenerator]
+[com/finalist/jaggenerator/modules/Field, com/finalist/jaggenerator/modules/RelationPanel, com/finalist/jaggenerator/modules/Relation]
+[com/finalist/jag/template/TemplateTag, com/finalist/jag/template/TemplateTreeItem, com/finalist/jag/template/TemplateStructure, com/finalist/jag/PageContext]

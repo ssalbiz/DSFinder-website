@@ -1,0 +1,116 @@
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+M001=&Open
+M002=&Afsluiten
+
+M003=&Help
+M004=&Licentie
+M005=&Overzicht wijzigingen
+M006=&Over Highlight...
+M007=&Bestand
+M008=&Taal
+M009=&Tips
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Kies Bestanden
+L004=Doelformaat
+L005=Gebruik stijl in de uitvoer
+L006=Gebruik ankers voor de lijnen
+L011=Bestand toe te voegen in
+L009=Bestand referentiestijl:
+L010=Kleurthema:
+L013=Voeg lijnnummers toe
+L014=Verberg hoofding en voetnoot
+L008=Genereer indexbestand
+L015=Converteer bestanden
+L022=Kies Bestand
+L002=Doelmap
+L007=Herformateer:
+L025=Fout
+L026=Gelieve Highlight te herstarten...
+L027=Lange lijnen omslagen
+L028=Intelligent wrap
+L029=Aanhalingstekens beschermen
+L030=Tab breedte:
+L031=Vullen met nullen
+L032=Schrijf naar de bronmap
+L033=Verwijder selectie
+L034=Overzicht fouten
+L035=stijl
+L036=Encodering:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Info
+L023=Klaar: %d bestanden in %ld ms.
+L003=Wis lijst met bestanden
+L016=<Geen bestanden geselecteerd>
+L020=Gelieve een geldige doelmap te kiezen.
+L021=Gelieve een doelstijl te kiezen.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Alleen C, C++, C# en Java bestanden kunnen geherformateerd worden.
+E001=Fout bij het uitvoeren van Notepad.exe
+E002=Taal definitie %s.lang werd niet gevonden!
+E003=Bestand kon niet gelezen worden:
+E004=Bestand kon niet geschreven worden:
+E005=Kon de stijlen niet lezen. Gelieve uw installatie na te kijken.
+E006=Fout bij het schrijven van het voorkeurenbestand!
+E007=Kon het indexbestand niet aanmaken.
+E008=Kon de bestandsextensies niet lezen. Gelieve uw installatie na te kijken.
+E009=Kon de indentatieschemas niet lezen. Gelieve uw installatie na te kijken.
+E010=Kon niet herformateren:
+
+T001=Voeg te converteren bestanden toe. Drag en drop is mogelijk.
+T002=Kies doelmap.
+T003=Kies stijl-bestand toe te voegen aan de finale stijldefinitie.
+T004=Wis lijst bronbestanden.
+T005=Naam van het stijl-doelbestand.
+T006=Pad van het stijl-bronbestand.
+T007=Pad van de doelmap.
+T008=Voeg informatie over de formattering toe aan de doelbestanden.
+T009=Verberg hoofding en voetnoot in the doel bestanden.
+T010=Voeg lijnnummers toe.
+T011=Voeg HTML ankers toe aan de lijnnummers.
+T012=Herformateer en indenteer C, C++, C# en Java broncode.
+T013=Kies één van de doelformaten.
+T014=Start de conversie van uw bronbestanden.
+T015=Genereer indexbestand met hyperlinks naar de doelbestanden.
+T016=Kies een formaterings- en indenteringsstijl.
+T017=Kies een kleurstijl.
+T018=Sla lijnen langer dan 80 (75 als lijnnummers geactiveerd werden) characters om.
+T019=Wrap lines and indent statements and function parameters.
+T020=Bescherm aanhalingstekens met \dq. Nuttig wanneer je in LaTeX het Duits gebruikt.
+T021=Vervang tabs door het gekozen aantal blancos (vervang niet indien de waarde 0 is).
+T022=Vervang de leidende blancos van de lijnnummers door nullen.
+T023=Bewaar het resultaat in de mappen van de bronbestanden.
+T024=Verwijder de geselecteerde elementen van de lijst met bronbestanden.
+T025=Gebruik een doelencodering, die overeenkomt met de bronencodering.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+
+L024=Klaar.
+L017=Bestanden worden verwerkt....

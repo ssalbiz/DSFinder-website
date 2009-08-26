@@ -1,0 +1,330 @@
+DSFinder has run for 0 min. 9 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.openscience.cdk.applications.swing.JExternalFrame: *java.awt.Component* [private] theComponent
+org.openscience.cdk.applications.swing.JExternalFrame: *java.awt.Container* [private] theParent
+org.openscience.cdk.applications.swing.PeriodicTablePanel: *javax.swing.JPanel* [private] panel
+org.openscience.cdk.graph.MinimalPathIterator: *java.lang.Object* [private] targetVertex
+org.openscience.cdk.qsar.descriptors.atomic.PartialTChargePEOEDescriptor: *org.openscience.cdk.qsar.AbstractAtomicDescriptor* [private] sigmaCharge
+org.openscience.cdk.qsar.descriptors.atomic.PartialTChargePEOEDescriptor: *org.openscience.cdk.qsar.AbstractAtomicDescriptor* [private] piCharge
+
+Linked List-like Data Structures:
+org.openscience.cdk.graph.MinimalPathIterator: *java.lang.Object* [private] next
+org.openscience.cdk.graph.MinimalPathIterator$MyBreadthFirstIterator: *java.lang.Object* [private] firstVertexOfNextLevel
+org.openscience.cdk.iupac.parser.NomParser$JJCalls: next
+org.openscience.cdk.iupac.parser.Token: [public] next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.openscience.cdk.iupac.parser.Token: [public] specialToken
+org.openscience.cdk.tools.HOSECodeGenerator$TreeNode: source
+org.openscience.cdk.tools.LoggingTool: [private] logger
+Non-Object Fields:
+java.lang.Object Fields:
+org.openscience.cdk.dict.Entry: *java.lang.Object* [private] rawContent
+org.openscience.cdk.graph.MinimalPathIterator: *java.lang.Object* [private] sourceVertex
+org.openscience.cdk.qsar.descriptors.atomic.BondsToAtomDescriptor: *java.lang.Object* startVertex
+org.openscience.cdk.qsar.descriptors.atomic.BondsToAtomDescriptor: *java.lang.Object* endVertex
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.openscience.cdk.graph.MinimalPathIterator: *java.util.Stack* [private] edgeIteratorStack
+org.openscience.cdk.graph.MinimalPathIterator: *java.util.Stack* [private] vertexStack
+org.openscience.cdk.ringsearch.cyclebasis.CycleBasis: *java.util.List* [private] mulitEdgeCycles
+org.openscience.cdk.ringsearch.cyclebasis.CycleBasis: *java.util.List* [private] multiEdgeList
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis: *java.util.List* [private] edgeList
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis: *java.util.HashMap* [private] edgeIndexMap
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph: *java.util.HashMap* vertexMap0
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph: *java.util.HashMap* vertexMap1
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph: *java.util.HashMap* auxVertexMap
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph: *java.util.Map* auxEdgeMap
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph2: *java.util.HashMap* [private] vertexMap00
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph2: *java.util.HashMap* [private] vertexMap01
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph2: *java.util.HashMap* [private] vertexMap10
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph2: *java.util.HashMap* [private] vertexMap11
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph2: *java.util.HashMap* [private] auxVertexMap
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis$AuxiliaryGraph2: *java.util.Map* [private] auxEdgeMap
+org.openscience.cdk.structgen.stochastic.operator.CrossoverMachine: *java.util.List* children
+org.openscience.cdk.tools.HOSECodeGenerator$TreeNode: *java.util.List* childs
+==
+org.openscience.cdk.applications.FileConvertor: *java.util.Vector* [private] chemObjectNames
+org.openscience.cdk.applications.plugin.CDKPluginManager: *java.util.Hashtable* [private] cdkPlugins
+org.openscience.cdk.applications.swing.ChemObjectPropertyEditorTableModel: *java.util.Vector* [private] names
+org.openscience.cdk.applications.swing.ChemObjectPropertyEditorTableModel: *java.util.Vector* [private] values
+org.openscience.cdk.applications.swing.DictRefEditorTableModel: *java.util.Vector* [private] fields
+org.openscience.cdk.applications.swing.DictRefEditorTableModel: *java.util.Vector* [private] dicts
+org.openscience.cdk.applications.swing.DictRefEditorTableModel: *java.util.Vector* [private] entries
+org.openscience.cdk.applications.swing.MoleculeListPanel: *java.util.List* [protected] moleculeViewerPanels
+org.openscience.cdk.applications.swing.PeriodicTablePanel: *java.util.Vector* listeners
+org.openscience.cdk.applications.swing.SortedTableModel: *java.util.List* sortingColumns
+org.openscience.cdk.applications.undoredo.AddHydrogenEdit: *java.util.HashMap* [private] hydrogenAtomMap
+org.openscience.cdk.applications.undoredo.AdjustBondOrdersEdit: *java.util.HashMap* [private] changedBondOrders
+org.openscience.cdk.applications.undoredo.ChangeCoordsEdit: *java.util.HashMap* [private] atomCoordsMap
+org.openscience.cdk.applications.undoredo.MergeMoleculesEdit: *java.util.ArrayList* [private] undoredoContainer
+org.openscience.cdk.applications.undoredo.MoveAtomEdit: *java.util.HashMap* [private] renderingCoordinates
+org.openscience.cdk.AtomContainer: *java.util.Hashtable* [protected] atomParities
+org.openscience.cdk.BioPolymer: *java.util.Hashtable* [private] strands
+org.openscience.cdk.ChemObject: *java.util.List* [private] chemObjectListeners
+org.openscience.cdk.ChemObject: *java.util.Hashtable* [private] properties
+org.openscience.cdk.config.AtomTypeFactory: *java.util.List* [private] atomTypes
+org.openscience.cdk.config.atomtypes.AtomTypeHandler: *java.util.List* [private] atomTypes
+org.openscience.cdk.config.ElementPTFactory: *java.util.Vector* [private] elements
+org.openscience.cdk.config.elements.ElementPTHandler: *java.util.Vector* [private] elements
+org.openscience.cdk.config.IsotopeFactory: *java.util.List* [private] isotopes
+org.openscience.cdk.config.IsotopeFactory: *java.util.HashMap* [private] majorIsotopes
+org.openscience.cdk.config.isotopes.IsotopeHandler: *java.util.List* [private] isotopes
+org.openscience.cdk.controller.AbstractController2D: *java.util.Vector* [protected] lastAction
+org.openscience.cdk.controller.AbstractController2D: *java.util.Vector* [private] listeners
+org.openscience.cdk.controller.AbstractController2D: *java.util.Vector* [private] commonElements
+org.openscience.cdk.controller.AbstractController2D: *java.util.HashMap* [private] currentCommonElement
+org.openscience.cdk.controller.AbstractController2D: *java.util.HashMap* [private] funcgroupsmap
+org.openscience.cdk.dict.Dictionary: *java.util.Hashtable* [private] entries
+org.openscience.cdk.dict.DictionaryDatabase: *java.util.Hashtable* [private] dictionaries
+org.openscience.cdk.dict.Entry: *java.util.Vector* [private] descriptorInfo
+org.openscience.cdk.geometry.surface.NeighborList: *java.util.HashMap* boxes
+org.openscience.cdk.graph.BiconnectivityInspector: *java.util.List* [private] biconnectedSets
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.Map* [protected] atomEnumeration
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] elsym
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] eltitles
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] elid
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] formalCharges
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] partialCharges
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] isotope
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] x3
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] y3
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] z3
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] x2
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] y2
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] xfract
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] yfract
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] zfract
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] hCounts
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] atomParities
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] atomDictRefs
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] spinMultiplicities
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] occupancies
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] bondid
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] bondARef1
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] bondARef2
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] order
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] bondStereo
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] bondDictRefs
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] bondElid
+org.openscience.cdk.io.cml.CMLCoreModule: *java.util.List* [protected] bondAromaticity
+org.openscience.cdk.io.cml.CMLHandler: *java.util.Hashtable* [private] userConventions
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] altLocV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] chainIDV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] hetAtomV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] iCodeV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] nameV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] oxtV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] recordV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] resNameV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] resSeqV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] segIDV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] serialV
+org.openscience.cdk.io.cml.PDBConvention: *java.util.ArrayList* [private] tempFactorV
+org.openscience.cdk.io.CMLReader: *java.util.Map* [private] userConventions
+org.openscience.cdk.io.DefaultChemObjectReader: *java.util.Vector* [private] listenerList
+org.openscience.cdk.io.DefaultChemObjectWriter: *java.util.Vector* [private] listenerList
+org.openscience.cdk.io.iterator.DefaultIteratingChemObjectReader: *java.util.Vector* [private] listenerList
+org.openscience.cdk.io.iterator.event.DefaultEventChemObjectReader: *java.util.Vector* [private] listenerList
+org.openscience.cdk.io.iterator.event.EventCMLHandler: *java.util.Hashtable* [private] atomEnumeration
+org.openscience.cdk.io.listener.PropertiesListener: *java.util.Properties* [private] props
+org.openscience.cdk.io.MDLRXNWriter: *java.util.Map* [public] rdFields
+org.openscience.cdk.io.MDLWriter: *java.util.Map* [public] sdFields
+org.openscience.cdk.io.PCCompoundASNReader: *java.util.Map* atomIDs
+org.openscience.cdk.io.PDBReader: *java.util.Map* [private] atomNumberMap
+org.openscience.cdk.io.PMPReader: *java.util.Hashtable* [private] atomids
+org.openscience.cdk.io.PMPReader: *java.util.Hashtable* [private] atomGivenIds
+org.openscience.cdk.io.PMPReader: *java.util.Hashtable* [private] atomZOrders
+org.openscience.cdk.io.PMPReader: *java.util.Hashtable* [private] bondids
+org.openscience.cdk.io.PMPReader: *java.util.Hashtable* [private] bondAtomOnes
+org.openscience.cdk.io.PMPReader: *java.util.Hashtable* [private] bondAtomTwos
+org.openscience.cdk.io.PMPReader: *java.util.Hashtable* [private] bondOrders
+org.openscience.cdk.io.RssWriter: *java.util.Map* [private] linkmap
+org.openscience.cdk.io.RssWriter: *java.util.Map* [private] datemap
+org.openscience.cdk.io.RssWriter: *java.util.Map* [private] titlemap
+org.openscience.cdk.io.RssWriter: *java.util.Map* [private] creatormap
+org.openscience.cdk.io.RssWriter: *java.util.Map* [private] inchimap
+org.openscience.cdk.io.RssWriter: *java.util.Map* [private] multiMap
+org.openscience.cdk.io.setting.OptionIOSetting: *java.util.Vector* [private] settings
+org.openscience.cdk.isomorphism.matchers.InverseSymbolSetQueryAtom: *java.util.HashSet* [private] symbols
+org.openscience.cdk.isomorphism.matchers.smarts.OperatorContainer: *java.util.Vector* con
+org.openscience.cdk.isomorphism.matchers.SymbolSetQueryAtom: *java.util.HashSet* [private] symbols
+org.openscience.cdk.isomorphism.mcss.RGraph: *java.util.List* graph
+org.openscience.cdk.isomorphism.mcss.RGraph: *java.util.List* solutionList
+org.openscience.cdk.iupac.parser.AttachedGroup: *java.util.Vector* [private] locations
+org.openscience.cdk.iupac.parser.NomParser: *java.util.Vector* [private] jj_expentries
+org.openscience.cdk.layout.StructureDiagramGenerator: *java.util.List* [private] ringSystems
+org.openscience.cdk.layout.TemplateHandler: *java.util.Vector* [private] templates
+org.openscience.cdk.libio.md.MDMolecule: *java.util.List* [private] residues
+org.openscience.cdk.libio.md.MDMolecule: *java.util.List* [private] chargeGroups
+org.openscience.cdk.modeling.builder3d.AtomPlacer3D: *java.util.Hashtable* [private] pSet
+org.openscience.cdk.modeling.builder3d.AtomTetrahedralLigandPlacer3D: *java.util.Hashtable* [private] pSet
+org.openscience.cdk.modeling.builder3d.ForceFieldConfigurator: *java.util.Vector* [private] atomTypes
+org.openscience.cdk.modeling.builder3d.ForceFieldConfigurator: *java.util.Hashtable* [private] parameterSet
+org.openscience.cdk.modeling.builder3d.MM2BasedAtomTypePattern: *java.util.Vector* [private] atomTypePatterns
+org.openscience.cdk.modeling.builder3d.MM2BasedParameterSetReader: *java.util.Hashtable* [private] parameterSet
+org.openscience.cdk.modeling.builder3d.MM2BasedParameterSetReader: *java.util.Vector* [private] atomTypes
+org.openscience.cdk.modeling.builder3d.MMFF94BasedAtomTypePattern: *java.util.Vector* [private] atomTypePatterns
+org.openscience.cdk.modeling.builder3d.MMFF94BasedParameterSetReader: *java.util.Hashtable* [private] parameterSet
+org.openscience.cdk.modeling.builder3d.MMFF94BasedParameterSetReader: *java.util.Vector* [private] atomTypes
+org.openscience.cdk.modeling.builder3d.MMFF94ParametersCall: *java.util.Hashtable* [private] pSet
+org.openscience.cdk.modeling.builder3d.ModelBuilder3D: *java.util.Hashtable* [private] parameterSet
+org.openscience.cdk.modeling.builder3d.TemplateHandler3D: *java.util.List* fingerprintData
+org.openscience.cdk.modeling.builder3d.TemplateHandler3D: *java.util.List* ringTemplates
+org.openscience.cdk.modeling.forcefield.GeometricMinimizer: *java.util.Hashtable* PotentialParameterSet
+org.openscience.cdk.Polymer: *java.util.Hashtable* [private] monomers
+org.openscience.cdk.protein.data.PDBPolymer: *java.util.List* sequentialListOfMonomers
+org.openscience.cdk.protein.data.PDBPolymer: *java.util.List* secondaryStructures
+org.openscience.cdk.protein.data.PDBStrand: *java.util.List* sequentialListOfMonomers
+org.openscience.cdk.protein.ProteinPocketFinder: *java.util.Hashtable* visited
+org.openscience.cdk.protein.ProteinPocketFinder: *java.util.Vector* pockets
+org.openscience.cdk.qsar.AbstractAtomicDescriptor: *java.util.Map* [private] cachedDescriptorValues
+org.openscience.cdk.qsar.AbstractBondDescriptor: *java.util.Map* [private] cachedDescriptorValues
+org.openscience.cdk.qsar.DescriptorEngine: *java.util.List* [private] classNames
+org.openscience.cdk.qsar.DescriptorEngine: *java.util.List* [private] descriptors
+org.openscience.cdk.qsar.DescriptorEngine: *java.util.List* [private] speclist
+org.openscience.cdk.qsar.descriptors.atomic.AtomValenceDescriptor: *java.util.Map* [public] valencesTable
+org.openscience.cdk.qsar.descriptors.atomic.BondsToAtomDescriptor: *java.util.List* mylist
+org.openscience.cdk.qsar.descriptors.atomic.PeriodicTablePositionDescriptor: *java.util.Hashtable* [public] periodicTable
+org.openscience.cdk.qsar.descriptors.molecular.KappaShapeIndicesDescriptor: *java.util.ArrayList* [private] singlePaths
+org.openscience.cdk.qsar.descriptors.molecular.KappaShapeIndicesDescriptor: *java.util.ArrayList* [private] doublePaths
+org.openscience.cdk.qsar.descriptors.molecular.KappaShapeIndicesDescriptor: *java.util.ArrayList* [private] triplePaths
+org.openscience.cdk.qsar.descriptors.molecular.TaeAminoAcidDescriptor: *java.util.HashMap* [private] TAEParams
+org.openscience.cdk.qsar.descriptors.molecular.TaeAminoAcidDescriptor: *java.util.HashMap* [private] nametrans
+org.openscience.cdk.qsar.descriptors.molecular.WHIMDescriptor: *java.util.Hashtable* hashatwt
+org.openscience.cdk.qsar.descriptors.molecular.WHIMDescriptor: *java.util.Hashtable* hashvdw
+org.openscience.cdk.qsar.descriptors.molecular.WHIMDescriptor: *java.util.Hashtable* hasheneg
+org.openscience.cdk.qsar.descriptors.molecular.WHIMDescriptor: *java.util.Hashtable* hashpol
+org.openscience.cdk.qsar.result.DoubleArrayResult: *java.util.List* [private] array
+org.openscience.cdk.qsar.result.IntegerArrayResult: *java.util.List* [private] array
+org.openscience.cdk.renderer.GraphRendererModel: *java.util.Vector* [private] functions
+org.openscience.cdk.renderer.GraphRendererModel: *java.util.Vector* [private] colors
+org.openscience.cdk.renderer.Renderer2DModel: *java.util.Hashtable* [private] colorHash
+org.openscience.cdk.renderer.Renderer2DModel: *java.util.Vector* [private] listeners
+org.openscience.cdk.renderer.Renderer2DModel: *java.util.Vector* [private] lassoPoints
+org.openscience.cdk.renderer.Renderer2DModel: *java.util.HashMap* [private] toolTipTextMap
+org.openscience.cdk.renderer.Renderer2DModel: *java.util.HashMap* [private] merge
+org.openscience.cdk.renderer.Renderer2DModel: *java.util.HashMap* [private] renderingCoordinates
+org.openscience.cdk.ringsearch.AllRingsFinder: *java.util.List* newPaths
+org.openscience.cdk.ringsearch.AllRingsFinder: *java.util.List* potentialRings
+org.openscience.cdk.ringsearch.AllRingsFinder: *java.util.List* removePaths
+org.openscience.cdk.ringsearch.cyclebasis.CycleBasis: *java.util.List* [private] subgraphBases
+org.openscience.cdk.ringsearch.cyclebasis.SimpleCycleBasis: *java.util.List* [private] cycles
+org.openscience.cdk.smiles.DeduceBondSystemTool: *java.util.List* [private] listOfRings
+org.openscience.cdk.smiles.SmilesGenerator: *java.util.Vector* [private] brokenBonds
+org.openscience.cdk.Strand: *java.util.Hashtable* [private] monomers
+org.openscience.cdk.structgen.stochastic.operator.ChemGraph: *java.util.List* [protected] subGraph
+org.openscience.cdk.structgen.stochastic.operator.CrossoverMachine: *java.util.List* [private] redAtoms
+org.openscience.cdk.structgen.stochastic.operator.CrossoverMachine: *java.util.List* [private] blueAtoms
+org.openscience.cdk.tools.AtomicProperties: *java.util.Hashtable* [private] htMass
+org.openscience.cdk.tools.AtomicProperties: *java.util.Hashtable* [private] htVdWVolume
+org.openscience.cdk.tools.AtomicProperties: *java.util.Hashtable* [private] htElectronegativity
+org.openscience.cdk.tools.AtomicProperties: *java.util.Hashtable* [private] htPolarizability
+org.openscience.cdk.tools.BremserOneSphereHOSECodePredictor: *java.util.Hashtable* ht
+org.openscience.cdk.tools.GenerateFragments: *java.util.List* [private] murckoFragments
+org.openscience.cdk.tools.GenerateFragments: *java.util.List* [private] ringFragments
+org.openscience.cdk.tools.GenerateFragments: *java.util.List* [private] linkerFragments
+org.openscience.cdk.tools.HOSECodeGenerator: *java.util.List* [protected] sphereNodes
+org.openscience.cdk.tools.HOSECodeGenerator: *java.util.List* [protected] sphereNodesWithAtoms
+org.openscience.cdk.tools.HOSECodeGenerator: *java.util.List* [protected] nextSphereNodes
+org.openscience.cdk.validate.ValidationReport: *java.util.Vector* [private] errors
+org.openscience.cdk.validate.ValidationReport: *java.util.Vector* [private] warnings
+org.openscience.cdk.validate.ValidationReport: *java.util.Vector* [private] oks
+org.openscience.cdk.validate.ValidationReport: *java.util.Vector* [private] cdkErrors
+org.openscience.cdk.validate.ValidatorEngine: *java.util.Hashtable* [private] validators
+org.openscience.cdk.Vibration: *java.util.Vector* [private] atomVectors
+org.openscience.dadml.DBDATA: *java.util.Vector* [private] v
+org.openscience.dadml.DBDEF: *java.util.Vector* [private] v
+org.openscience.dadml.DBDEFLIST: *java.util.Vector* [private] v
+org.openscience.dadml.DBLIST: *java.util.Vector* [private] v
+org.openscience.dadml.FIELD: *java.util.Vector* [private] v
+
+ARRAYS REPORT
+=============
+
+org.openscience.cdk.applications.swing.AtomicTable$AtomContainerModel: *java.lang.String[]* [final] columnNames
+org.openscience.cdk.applications.swing.ChemObjectPropertyEditorTableModel: *java.lang.String[]* [private] columnNames
+org.openscience.cdk.applications.swing.DictRefEditorTableModel: *java.lang.String[]* [private] columnNames
+org.openscience.cdk.applications.swing.MoleculesTable$MoleculeContainerModel: *java.lang.String[]* [final] columnNames
+org.openscience.cdk.applications.swing.SortedTableModel: *java.lang.Integer[]* indexes
+org.openscience.cdk.Association: *org.openscience.cdk.Atom[]* [protected] atoms [arraycopy] [hashcode]
+org.openscience.cdk.AtomContainer: *org.openscience.cdk.interfaces.IAtom[]* [protected] atoms [arraycopy] [hashcode]
+org.openscience.cdk.AtomContainer: *org.openscience.cdk.interfaces.IBond[]* [protected] bonds [arraycopy] [hashcode]
+org.openscience.cdk.AtomContainer: *org.openscience.cdk.interfaces.ILonePair[]* [protected] lonePairs [arraycopy] [hashcode]
+org.openscience.cdk.AtomContainer: *org.openscience.cdk.interfaces.ISingleElectron[]* [protected] singleElectrons [arraycopy] [hashcode]
+org.openscience.cdk.AtomContainerSet: *org.openscience.cdk.interfaces.IAtomContainer[]* [protected] atomContainers [arraycopy] [hashcode]
+org.openscience.cdk.AtomParity: *org.openscience.cdk.interfaces.IAtom[]* [private] neighbors [hashcode]
+org.openscience.cdk.atomtype.HybridizationStateATMatcher: *org.openscience.cdk.interfaces.IAtomType[]* [private] type [no-stores]
+org.openscience.cdk.atomtype.MM2AtomTypeMatcher: *java.lang.String[]* atomTypeIds
+org.openscience.cdk.atomtype.MMFF94AtomTypeMatcher: *java.lang.String[]* atomTypeIds [mod]
+org.openscience.cdk.Bond: *org.openscience.cdk.interfaces.IAtom[]* [protected] atoms [hashcode]
+org.openscience.cdk.ChemFile: *org.openscience.cdk.interfaces.IChemSequence[]* [protected] chemSequences [arraycopy]
+org.openscience.cdk.ChemSequence: *org.openscience.cdk.interfaces.IChemModel[]* [protected] chemModels [arraycopy]
+org.openscience.cdk.controller.Controller2DModel: *java.lang.String[]* [private] commonElements
+org.openscience.cdk.dict.DictionaryDatabase: *java.lang.String[]* [private] dictionaryNames
+org.openscience.cdk.dict.DictionaryDatabase: *java.lang.String[]* [private] dictionaryTypes
+org.openscience.cdk.geometry.alignment.KabschAlignment: *javax.vecmath.Point3d[]* [private] p1
+org.openscience.cdk.geometry.alignment.KabschAlignment: *javax.vecmath.Point3d[]* [private] p2
+org.openscience.cdk.geometry.alignment.KabschAlignment: *javax.vecmath.Point3d[]* [private] rp
+org.openscience.cdk.geometry.surface.NeighborList: *org.openscience.cdk.interfaces.IAtom[]* atoms [no-stores]
+org.openscience.cdk.geometry.surface.NumericalSurface: *org.openscience.cdk.interfaces.IAtom[]* atoms
+org.openscience.cdk.geometry.surface.NumericalSurface: *java.util.ArrayList[]* surf_points
+org.openscience.cdk.geometry.surface.Tessellate: *org.openscience.cdk.geometry.surface.Triangle[]* oldtess
+org.openscience.cdk.graph.AtomContainerPermutor: *java.lang.Object[]* objects
+org.openscience.cdk.graph.rebond.Bspt$EnumerateAll: *org.openscience.cdk.graph.rebond.Bspt$Node[]* stack
+org.openscience.cdk.graph.rebond.Bspt$EnumerateNear: *org.openscience.cdk.graph.rebond.Bspt$Node[]* stack
+org.openscience.cdk.graph.rebond.Bspt$EnumerateSphere: *org.openscience.cdk.graph.rebond.Bspt$Node[]* stack
+org.openscience.cdk.graph.rebond.Bspt$Leaf: *org.openscience.cdk.graph.rebond.Bspt$Tuple[]* tuples
+org.openscience.cdk.io.cml.CMLStack: *java.lang.String[]* stack [arraycopy]
+org.openscience.cdk.io.VASPReader: *java.lang.String[]* anames
+org.openscience.cdk.iupac.parser.NomParser: *org.openscience.cdk.iupac.parser.NomParser$JJCalls[]* [private] [final] jj_2_rtns
+org.openscience.cdk.iupac.parser.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+org.openscience.cdk.Mapping: *org.openscience.cdk.interfaces.IChemObject[]* [private] relation
+org.openscience.cdk.math.qm.GaussiansBasis: *org.openscience.cdk.math.Vector[]* [private] r
+org.openscience.cdk.math.qm.GaussiansBasis: *org.openscience.cdk.math.Vector[]* [private] rN
+org.openscience.cdk.modeling.builder3d.ForceFieldConfigurator: *java.lang.String[]* [private] fftypes
+org.openscience.cdk.modeling.forcefield.ElectrostaticInteractions: *java.lang.Object[]* params [mod]
+org.openscience.cdk.modeling.forcefield.LineSearchForTheWolfeConditions: *javax.vecmath.GVector[]* [private] dfInAlpha
+org.openscience.cdk.modeling.forcefield.Torsions: *org.openscience.cdk.interfaces.IBond[]* bond [mod]
+org.openscience.cdk.modeling.forcefield.Torsions: *org.openscience.cdk.interfaces.IAtom[]* atomInBond [mod]
+org.openscience.cdk.modeling.forcefield.Torsions: *org.openscience.cdk.interfaces.IBond[]* bondConnectedBefore [mod]
+org.openscience.cdk.modeling.forcefield.Torsions: *org.openscience.cdk.interfaces.IBond[]* bondConnectedAfter [mod]
+org.openscience.cdk.modeling.forcefield.VanDerWaalsInteractions: *java.lang.Object[]* params [mod]
+org.openscience.cdk.qsar.DescriptorValue: *java.lang.String[]* [private] parameterNames
+org.openscience.cdk.qsar.DescriptorValue: *java.lang.Object[]* [private] parameterSettings
+org.openscience.cdk.qsar.DescriptorValue: *java.lang.String[]* [private] descriptorNames
+org.openscience.cdk.Reaction: *org.openscience.cdk.interfaces.IMapping[]* [protected] map [arraycopy]
+org.openscience.cdk.ReactionSet: *org.openscience.cdk.interfaces.IReaction[]* [private] reactions [arraycopy] [hashcode]
+org.openscience.cdk.smiles.SmilesParser: *org.openscience.cdk.interfaces.IAtom[]* rings [hashcode]
+org.openscience.cdk.structgen.stochastic.operator.CrossoverMachine: *org.openscience.cdk.interfaces.IAtomContainer[]* [private] redChild
+org.openscience.cdk.structgen.stochastic.operator.CrossoverMachine: *org.openscience.cdk.interfaces.IAtomContainer[]* [private] blueChild
+org.openscience.cdk.tools.HOSECodeGenerator: *java.util.List[]* [protected] spheres
+org.openscience.cdk.tools.HOSECodeGenerator: *java.util.List[]* [protected] spheresWithAtoms
+org.openscience.cdk.tools.HOSECodeGenerator: *java.lang.String[]* [protected] sphereDelimiters
+org.openscience.cdk.tools.HOSECodeGenerator: *java.lang.String[]* [protected] bondSymbols
+
+N-CYCLES
+========
+[org/openscience/cdk/io/ReaderFactory, org/openscience/cdk/io/iterator/IteratingMDLReader]
+[org/openscience/cdk/tools/HOSECodeGenerator$TreeNode, org/openscience/cdk/tools/HOSECodeGenerator]
+[org/openscience/cdk/tools/ValencyChecker, org/openscience/cdk/reaction/type/BreakingBondReaction]
+[org/openscience/cdk/applications/swing/PeriodicTablePanel, org/openscience/cdk/applications/swing/PeriodicTablePanel$ElementButton]
+[org/openscience/cdk/layout/TemplateHandler, org/openscience/cdk/layout/RingPlacer, org/openscience/cdk/layout/StructureDiagramGenerator]
+[org/openscience/cdk/applications/swing/MoleculeListPanel$StrucContainer, org/openscience/cdk/applications/swing/MoleculeListPanel]
+[org/openscience/cdk/tools/ValencyHybridChecker, org/openscience/cdk/tools/HydrogenAdder, org/openscience/cdk/smiles/SmilesParser]
+[org/openscience/cdk/io/iterator/event/EventCMLHandler, org/openscience/cdk/io/iterator/event/EventCMLReader, org/openscience/cdk/applications/demo/EventCMLDemo]
+[org/openscience/cdk/tools/AtomTypeTools, org/openscience/cdk/atomtype/MMFF94AtomTypeMatcher]

@@ -1,0 +1,117 @@
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+M001=Ö&ffnen
+M002=&Beenden
+
+M003=&Hilfe
+M004=&Lizenz
+M005=&Changelog
+M006=Ü&ber Highlight...
+M007=&Datei
+M008=&Sprache
+M009=&Tipps
+M010=&Projekt
+M011=&Laden
+M012=&Speichern
+M013=Lade &Default-Projekt
+
+L001=Dateien wählen
+L004=Ausgabeformat
+L005=Style in Ausgabe einbetten
+L006=HTML Anker einfügen
+L011=Datei einfügen in
+L009=Referenzierte Style-Datei:
+L010=Farbschema:
+L013=Zeilennummerierung
+L014=Kopf- und Fußteil auslassen
+L008=Indexdatei erzeugen
+L015=Konvertieren
+L022=Datei wählen
+L002=Ausgabeverzeichnis
+L007=Formatieren:
+L025=Fehler
+L027=Autom. Zeilenumbruch
+L028=Intelligenter Umbruch
+L029=LaTeX Quotes ersetzen
+L030=Tabulatorbreite:
+L031=Führende Nullen anzeigen
+L032=In Quellverzeichnisse schreiben
+L033=Auswahl entfernen
+L034=Fehlerübersicht
+L035=Style
+L036=Encoding:
+L037=HTML nummerierte Liste
+L038=LaTeX Babel Kompatibilität
+L039=RTF Papierformat:
+L040=Speichern unter...
+L041=Default-Projekt
+L042=HTML Dateiname als Anker
+L043=Vorschau (%s):
+L044=Erzeuge Vorschau...
+L045=keine Datei gewählt
+L046=Zeilenlänge:
+L047=Schlüsselwort Case:
+L019=Info
+L023=Fertig: %d Dateien in %ld ms.
+L003=Dateiliste leeren
+L016=<leer>
+L020=Bitte geben Sie ein gültiges Ausgabeverzeichnis an.
+L021=Bitte geben Sie die Style-Ausgabedatei an.
+L026=Bitte Highlight neu starten...
+L048=Inline CSS
+L049=Zwischenablage
+L050=Schliesse in <pre> ein
+
+E000=Nur C, C++, C# und Java Dateien können formatiert werden.
+E001=Fehler beim Ausführen von Notepad.exe
+E002=Sprachbeschreibung %s.lang nicht gefunden!
+E003=Konnte nicht lesen:
+E004=Konnte nicht schreiben:
+E005=Konnte Farbschemen nicht finden. Installation prüfen.
+E006=Konnte Voreinstellungen nicht schreiben.
+E007=Konnte Indexdatei nicht anlegen.
+E008=Konnte Dateierweiterungen nicht laden. Installation prüfen.
+E009=Konnte Formatierungsvorlagen nicht laden. Installation prüfen.
+E010=Konnte nicht neu formatieren:
+
+T001=Füge Quelltextdateien hinzu.\nAuch Drag und Drop möglich.
+T002=Wähle ein Ausgabeverzeichnis.
+T003=Wähle eine Datei, die in die Style-Ausgabe eingefügt werden soll.
+T004=Lösche die Eingabeliste.
+T005=Name der Style-Ausgabedatei.
+T006=Name der Style-Eingabedatei.
+T007=Pfad des Ausgabeverzeichnisses.
+T008=Füge Formatierungsinformationen in Ausgabedateien ein.
+T009=Gib unvollständige Dokumente ohne Header und Footer aus.
+T010=Gib Zeilennummern aus.
+T011=Füge HTML Anker zu den Zeilennummern hinzu.
+T012=Formatiere C, C++, C# und Java Quelltext.
+T013=Wähle ein Ausgabeformat.
+T014=Starte die Konvertierung der Quelltextdateien.
+T015=Erzeuge Indexdatei mit Links auf Ausgabedateien.
+T016=Wähle einen Formatierungs-Stil.
+T017=Wähle ein Farbschema.
+T018=Breche Zeilen mit mehr als 80 (75 bei Zeilennummerierung) Zeichen um.
+T019=Breche Zeilen um und rücke Anweisungen und Funktionsparameter passend ein.
+T020=Ersetze Anführungsstriche durch \dq. Nützlich wenn das German-Paket in LaTeX benutzt wird.
+T021=Ersetze Tabulatoren durch angegebene Anzahl von Leerzeichen.\nKeine Ersetzung bei Null.
+T022=Ersetze führende Leerzeichen der Zeilennummern mit Null.
+T023=Speichere Ausgabe in den Verzeichnissen der Eingabedateien.
+T024=Entferne markierte Einträge aus der Dateiliste.
+T025=Lege ein Encoding fest, welches mit dem Encoding der Eingabedatei übereinstimmt.
+T026=Quelltextzeilen als nummerierte Liste ausgeben.
+T027=Babel Shorthands in der LaTeX-Ausgabe deaktivieren
+T028=Seitenformat für RTF Ausgabe angeben
+T029=Name der Eingabedatei als Bezeichnung des HTML-Ankers verwenden
+T030=Klicke auf eine Eingabedatei, um den Inhalt mit den aktuellen Einstellungen anzuzeigen (max. 500 Zeilen).
+T031=Maximale Zeilenlänge bis zum Umbruch.
+T032=Gib alle Schlüsselwörter in Groß- oder Kleinschreibung aus, wenn die Syntax nicht case-sensitiv ist.
+T033=Fügt CSS als Direktformatierung für jedes HTML-Element ein (erzeugt große Dateien).
+T034=Kopiere formatierte Ausgabe der gewählten Datei in die Zwischenablage.
+T035=Schliesse die fragmentierte Ausgabe in einem pre Tag ein.
+
+L024=Bereit.
+L017=Konvertierung läuft....

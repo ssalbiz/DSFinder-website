@@ -1,0 +1,85 @@
+DSFinder has run for 0 min. 11 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/jasper/jasperreports-3.5.1/build/classes:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/ant-1.5.1.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/antlr-2.7.5.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-anim.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-awt-util.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-bridge.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-css.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-dom.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-ext.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-gvt.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-parser.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-script.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-svg-dom.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-svggen.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-util.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/batik-xml.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/bsh-2.0b4.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/commons-beanutils-1.7.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/commons-collections-2.1.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/commons-digester-1.7.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/commons-javaflow-20060411.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/commons-logging-1.0.2.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/groovy-all-1.5.5.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/hibernate3.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/hsqldb-1.7.1.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/iText-2.1.0.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/jakarta-bcel-20050813.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/jaxen-1.1.1.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/jcommon-1.0.15.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/jdt-compiler-3.1.1.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/jfreechart-1.0.12.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/jpa.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/jxl-2.6.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/log4j-1.2.15.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/mondrian-2.3.2.8944.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/png-encoder-1.5.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/poi-3.2-FINAL-20081019.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/rhino-1.7R1.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/saaj-api-1.3.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/servlet.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/spring-beans.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/spring-core.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/xalan.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/xercesImpl.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/xml-apis-ext.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/xml-apis.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/eigenbase-resgen.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/eigenbase-xom.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/bcprov-jdk15-143.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/commons-dbcp-1.2.1.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/bcmail-jdk15-143.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/commons-pool-1.3.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/commons-vfs-1.0.jar:/home/albiz/dev/jasper/jasperreports-3.5.1/lib/activemq-4.0.1.jar, -p, --include=net/sf/, --title=/home/albiz/dev/sootOutput/logs/jasper.ds-finder.log, net.sf.jasperreports.engine.data.JRXmlDataSource]
+Processed 1437 non-library classes (15921 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						0
+Parents/outers						4
+Others (9 java.lang.Object, 4 non-Object fields)	13
+ exact matching fields					2
+
+Distinct classes containing linked lists and parents:	4
+
+N-cycles						19
+
+Arrays							77
+	 read-only:					36
+	 w/arraycopy:					9
+	 hashtable-like:				2
+	 (error bars:) [3]				23
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.Map						201
+java.util.List						128
+java.util.Set						19
+java.util.Collection					10
+java.util.LinkedList					8
+Others							16
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+net.sf.jasperreports.engine.fill.JRBaseFiller		15
+net.sf.jasperreports.engine.JRExpressionCollector	4
+net.sf.jasperreports.engine.fill.JRFillObjectFactory	2
+net.sf.jasperreports.olap.mondrian.JRMondrianMember	1
+Others							0
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.HashMap					572
+java.util.ArrayList					466
+java.util.HashSet					70
+org.apache.commons.collections.ReferenceMap		36
+java.util.LinkedList					22
+Others							58
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+net.sf.jasperreports.engine.JRExpressionCollector	4
+net.sf.jasperreports.engine.fill.JRFillObjectFactory	2
+net.sf.jasperreports.olap.mondrian.JRMondrianMember	1
+Others							0
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			0
+Collections are potential data structures		194
+
+
+java.lang.String					0
+java.lang.Object					0
+Ad-Hoc types:
+=============
+Others							0
+
+System types:
+==============
+Others							0
+
+TEMPLATE PARAMETERS					0
+UNKNOWN							382
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

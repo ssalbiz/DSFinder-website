@@ -1,0 +1,137 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.jmeter.gui.util.TextAreaTableCellEditor$EditorDelegate: *java.lang.Object* [protected] value
+org.apache.jmeter.testelement.property.ObjectProperty: *java.lang.Object* value
+org.apache.jmeter.testelement.property.ObjectProperty: *java.lang.Object* savedValue
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+org.apache.jmeter.JMeter: [private] parent
+org.apache.jmeter.samplers.SampleResult: [private] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.apache.jmeter.util.SlowSSLSocket: *javax.net.ssl.SSLSocket* [private] [final] sslSock
+java.lang.Object Fields:
+org.apache.jmeter.services.FileServer$FileEntry: *java.lang.Object* [private] inputOutputObject
+org.apache.jmeter.util.BeanShellInterpreter: *java.lang.Object* [private] bshInstance
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.apache.jmeter.control.GenericController: *java.util.LinkedList* [private] iterationListeners
+org.apache.jmeter.control.GenericController: *java.util.List* [protected] subControllersAndSamplers
+org.apache.jmeter.engine.ClientJMeterEngine: *org.apache.jorphan.collections.HashTree* test
+org.apache.jmeter.engine.StandardJMeterEngine: *java.util.Map* [private] allThreads
+org.apache.jmeter.engine.StandardJMeterEngine: *org.apache.jorphan.collections.HashTree* [private] test
+org.apache.jmeter.engine.TreeCloner: *org.apache.jorphan.collections.ListedHashTree* [private] newTree
+org.apache.jmeter.engine.TreeCloner: *java.util.LinkedList* [private] objects
+org.apache.jmeter.engine.util.AbstractTransformer: *java.util.Map* [protected] variables
+org.apache.jmeter.engine.util.CompoundVariable: *java.util.LinkedList* [private] compiledComponents
+org.apache.jmeter.engine.util.DisabledComponentRemover: *org.apache.jorphan.collections.HashTree* tree
+org.apache.jmeter.engine.util.DisabledComponentRemover: *java.util.LinkedList* stack
+org.apache.jmeter.engine.util.ValueReplacer: *java.util.Map* [private] variables
+org.apache.jmeter.functions.gui.FunctionHelper: *java.util.Map* [private] functionMap
+org.apache.jmeter.gui.action.ActionRouter: *java.util.Map* [private] commands
+org.apache.jmeter.gui.action.ActionRouter: *java.util.Map* [private] preActionListeners
+org.apache.jmeter.gui.action.ActionRouter: *java.util.Map* [private] postActionListeners
+org.apache.jmeter.gui.action.CheckDirty: *java.util.Map* [private] previousGuiItems
+org.apache.jmeter.gui.action.RemoteStart: *java.util.Map* [private] remoteEngines
+org.apache.jmeter.gui.GuiPackage: *java.util.Map* [private] nodesToGui
+org.apache.jmeter.gui.GuiPackage: *java.util.Map* [private] guis
+org.apache.jmeter.gui.GuiPackage: *java.util.Map* [private] testBeanGUIs
+org.apache.jmeter.gui.MainFrame: *java.util.Set* [private] hosts
+org.apache.jmeter.gui.util.FileListPanel: *java.util.List* [private] listeners
+org.apache.jmeter.gui.util.FilePanel: *java.util.List* listeners
+org.apache.jmeter.gui.util.JMeterMenuBar: *java.util.List* [private] file_load_recent_files
+org.apache.jmeter.gui.util.JMeterMenuBar: *java.util.Collection* [private] remote_engine_start
+org.apache.jmeter.gui.util.JMeterMenuBar: *java.util.Collection* [private] remote_engine_stop
+org.apache.jmeter.gui.util.JMeterMenuBar: *java.util.Collection* [private] remote_engine_exit
+org.apache.jmeter.JMeter: *java.util.Properties* [private] remoteProps
+org.apache.jmeter.JMeter$ListenToTest: *java.util.List* [private] engines
+org.apache.jmeter.reporters.FileReporter: *java.util.Hashtable* [private] data
+org.apache.jmeter.reporters.FileReporter$GraphPanel: *java.util.Hashtable* data
+org.apache.jmeter.reporters.FileReporter$GraphPanel: *java.util.Vector* keys
+org.apache.jmeter.reporters.FileReporter$GraphPanel: *java.util.Vector* colorList
+org.apache.jmeter.reporters.ResultCollector: *java.util.Set* [private] [final] hosts
+org.apache.jmeter.samplers.BatchSampleSender: *java.util.List* [private] sampleStore
+org.apache.jmeter.samplers.Entry: *java.util.Map* [private] configSet
+org.apache.jmeter.samplers.Entry: *java.util.List* [private] assertions
+org.apache.jmeter.samplers.HoldSampleSender: *java.util.List* [private] sampleStore
+org.apache.jmeter.samplers.SampleResult: *java.util.List* [private] assertionResults
+org.apache.jmeter.samplers.SampleResult: *java.util.List* [private] subResults
+org.apache.jmeter.samplers.SampleResult: *java.util.Set* [private] files
+org.apache.jmeter.samplers.StatisticalSampleSender: *java.util.List* [private] sampleStore
+org.apache.jmeter.samplers.StatisticalSampleSender: *java.util.Map* [private] sampleTable
+org.apache.jmeter.save.ListenerResultWrapper: *java.util.Collection* calculatedResults
+org.apache.jmeter.save.ScriptWrapper: *org.apache.jorphan.collections.HashTree* testPlan
+org.apache.jmeter.save.TestElementSaver: *java.util.LinkedList* [private] stack
+org.apache.jmeter.save.TestResultWrapper: *java.util.Collection* sampleResults
+org.apache.jmeter.services.FileServer: *java.util.Map* [private] [final] files
+org.apache.jmeter.testbeans.gui.GenericTestBeanCustomizer: *java.util.Map* [private] propertyMap
+org.apache.jmeter.testbeans.gui.TestBeanGUI: *java.util.Map* [private] customizers
+org.apache.jmeter.testbeans.gui.TestBeanGUI: *java.util.Map* [private] propertyMap
+org.apache.jmeter.testelement.AbstractTestElement: *java.util.Map* [private] propMap
+org.apache.jmeter.testelement.AbstractTestElement: *java.util.Set* [private] temporaryProperties
+org.apache.jmeter.testelement.property.CollectionProperty: *java.util.Collection* [private] value
+org.apache.jmeter.testelement.property.CollectionProperty: *java.util.Collection* [private] savedValue
+org.apache.jmeter.testelement.property.MapProperty: *java.util.Map* [private] value
+org.apache.jmeter.testelement.property.MapProperty: *java.util.Map* [private] savedValue
+org.apache.jmeter.testelement.TestPlan: *java.util.List* [private] threadGroups
+org.apache.jmeter.testelement.VariablesCollection: *java.util.Map* [private] varMap
+org.apache.jmeter.threads.JMeterThread: *org.apache.jorphan.collections.HashTree* [private] testTree
+org.apache.jmeter.threads.JMeterThread: *java.util.Collection* [private] testListeners
+org.apache.jmeter.threads.JMeterVariables: *java.util.Map* [private] variables
+org.apache.jmeter.threads.ListenerNotifier: *org.apache.commons.collections.Buffer* [private] listenerEvents
+org.apache.jmeter.threads.SamplePackage: *java.util.List* sampleListeners
+org.apache.jmeter.threads.SamplePackage: *java.util.List* timers
+org.apache.jmeter.threads.SamplePackage: *java.util.List* assertions
+org.apache.jmeter.threads.SamplePackage: *java.util.List* postProcessors
+org.apache.jmeter.threads.SamplePackage: *java.util.List* preProcessors
+org.apache.jmeter.threads.SamplePackage: *java.util.List* responseModifiers
+org.apache.jmeter.threads.SamplePackage: *java.util.List* configs
+org.apache.jmeter.threads.SamplePackage: *java.util.List* modifiers
+org.apache.jmeter.threads.SamplePackage: *java.util.List* controllers
+org.apache.jmeter.threads.TestCompiler: *java.util.LinkedList* [private] stack
+org.apache.jmeter.threads.TestCompiler: *java.util.Map* [private] samplerConfigMap
+org.apache.jmeter.threads.TestCompiler: *java.util.Map* [private] transactionControllerConfigMap
+org.apache.jmeter.threads.TestCompiler: *org.apache.jorphan.collections.HashTree* [private] testTree
+org.apache.jmeter.threads.ThreadGroup: *java.util.LinkedList* [private] listeners
+org.apache.jmeter.threads.ThreadGroup: *java.util.LinkedList* [private] remoteListeners
+org.apache.jmeter.threads.ThreadGroup$SampleQueue: *java.util.List* occurredQ
+org.apache.jmeter.util.JsseSSLManager: *java.security.Provider* [private] pro
+org.apache.jmeter.visualizers.SamplingStatCalculator: *java.util.List* [private] [final] storedValues
+
+ARRAYS REPORT
+=============
+
+org.apache.jmeter.gui.JMeterFileFilter: *java.lang.String[]* [private] [final] exts [no-stores]
+org.apache.jmeter.gui.tree.JMeterTreeListener: *org.apache.jmeter.gui.tree.JMeterTreeNode[]* [private] draggedNodes
+org.apache.jmeter.gui.util.JMeterMenuBar: *java.lang.String[]* [private] remoteHosts
+org.apache.jmeter.gui.util.PowerTableModel: *java.lang.Class[]* columnClasses [arraycopy]
+org.apache.jmeter.samplers.SampleEvent: *java.lang.String[]* [private] [final] values
+org.apache.jmeter.testbeans.BeanInfoSupport: *java.awt.Image[]* [private] icons
+org.apache.jmeter.testbeans.gui.ComboStringEditor: *java.lang.String[]* [private] tags [no-stores]
+org.apache.jmeter.testbeans.gui.GenericTestBeanCustomizer: *java.beans.PropertyDescriptor[]* [private] descriptors
+org.apache.jmeter.testbeans.gui.GenericTestBeanCustomizer: *java.beans.PropertyEditor[]* [private] editors
+org.apache.jmeter.util.keystore.DefaultKeyStore: *java.security.cert.X509Certificate[]* [private] certChain
+
+N-CYCLES
+========
+[org/apache/jmeter/gui/tree/JMeterTreeListener, org/apache/jmeter/gui/GuiPackage]
+[org/apache/jmeter/threads/ThreadGroup$SampleQueue, org/apache/jmeter/threads/ThreadGroup]
+[org/apache/jmeter/threads/JMeterThread, org/apache/jmeter/threads/JMeterContext]
+[org/apache/jmeter/control/TransactionController, org/apache/jmeter/control/TransactionSampler]
+[org/apache/jmeter/gui/util/TextAreaTableCellEditor$EditorDelegate, org/apache/jmeter/gui/util/TextAreaTableCellEditor]

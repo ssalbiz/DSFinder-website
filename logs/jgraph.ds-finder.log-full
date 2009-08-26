@@ -1,0 +1,117 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+com.mxgraph.model.mxCell: *java.lang.Object* [protected] value
+com.mxgraph.model.mxGeometry: *com.mxgraph.util.mxPoint* [protected] targetPoint
+com.mxgraph.model.mxGraphModel$mxValueChange: *java.lang.Object* [protected] value
+com.mxgraph.swing.handler.mxGraphHandler: *javax.swing.JComponent* [protected] preview
+
+Linked List-like Data Structures:
+com.mxgraph.model.mxGraphModel$mxChildChange: *java.lang.Object* [protected] previous
+com.mxgraph.model.mxGraphModel$mxRootChange: *java.lang.Object* [protected] previous
+com.mxgraph.model.mxGraphModel$mxTerminalChange: *java.lang.Object* [protected] previous
+com.mxgraph.model.mxGraphModel$mxValueChange: *java.lang.Object* [protected] previous
+com.mxgraph.view.mxGraphView$mxCurrentRootChange: *java.lang.Object* [protected] previous
+
+Parent- and outer-type Data Structures:
+com.mxgraph.algebra.mxFibonacciHeap$Node: parent
+com.mxgraph.algebra.mxUnionFind$Node: [protected] parent
+com.mxgraph.model.mxGraphModel$mxChildChange: *java.lang.Object* [protected] parent
+
+Whitelisted, probable data structures:
+com.mxgraph.algebra.mxFibonacciHeap$Node: child
+
+
+Others:
+Exact Field Matches:
+com.mxgraph.algebra.mxFibonacciHeap$Node: left
+com.mxgraph.algebra.mxFibonacciHeap$Node: right
+Non-Object Fields:
+com.mxgraph.model.mxGeometry: *com.mxgraph.util.mxRectangle* [protected] alternateBounds
+com.mxgraph.model.mxGeometry: *com.mxgraph.util.mxPoint* [protected] sourcePoint
+com.mxgraph.model.mxGeometry: *com.mxgraph.util.mxPoint* [protected] offset
+com.mxgraph.view.mxCellState: *com.mxgraph.util.mxPoint* [protected] origin
+com.mxgraph.view.mxCellState: *com.mxgraph.util.mxPoint* [protected] absoluteOffset
+com.mxgraph.view.mxCellState: *com.mxgraph.util.mxRectangle* [protected] labelBounds
+com.mxgraph.view.mxCellState: *com.mxgraph.util.mxRectangle* [protected] boundingBox
+java.lang.Object Fields:
+com.mxgraph.algebra.mxFibonacciHeap$Node: *java.lang.Object* userObject
+com.mxgraph.io.mxObjectCodec: *java.lang.Object* template
+com.mxgraph.model.mxGraphModel$mxChildChange: *java.lang.Object* [protected] child
+com.mxgraph.model.mxGraphModel$mxCollapseChange: *java.lang.Object* [protected] cell
+com.mxgraph.model.mxGraphModel$mxGeometryChange: *java.lang.Object* [protected] cell
+com.mxgraph.model.mxGraphModel$mxRootChange: *java.lang.Object* [protected] root
+com.mxgraph.model.mxGraphModel$mxStyleChange: *java.lang.Object* [protected] cell
+com.mxgraph.model.mxGraphModel$mxTerminalChange: *java.lang.Object* [protected] cell
+com.mxgraph.model.mxGraphModel$mxTerminalChange: *java.lang.Object* [protected] terminal
+com.mxgraph.model.mxGraphModel$mxValueChange: *java.lang.Object* [protected] cell
+com.mxgraph.model.mxGraphModel$mxVisibleChange: *java.lang.Object* [protected] cell
+com.mxgraph.swing.handler.mxGraphHandler: *java.lang.Object* [protected] cell
+com.mxgraph.swing.handler.mxGraphHandler: *java.lang.Object* [protected] initialCell
+com.mxgraph.swing.mxGraphComponent$14: *java.lang.Object* [final] val$cell
+com.mxgraph.swing.util.mxCellOverlay: *java.lang.Object* [protected] align
+com.mxgraph.swing.util.mxCellOverlay: *java.lang.Object* [protected] verticalAlign
+com.mxgraph.swing.view.mxCellEditor: *java.lang.Object* [protected] editingCell
+com.mxgraph.util.mxEventSource: *java.lang.Object* [protected] eventSource
+com.mxgraph.util.mxUndoableEdit: *java.lang.Object* [protected] source
+com.mxgraph.view.mxCellState: *java.lang.Object* [protected] cell
+com.mxgraph.view.mxGraph: *java.lang.Object* [protected] defaultParent
+com.mxgraph.view.mxGraphView: *java.lang.Object* [protected] currentRoot
+com.mxgraph.view.mxGraphView$mxCurrentRootChange: *java.lang.Object* [protected] root
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+com.mxgraph.model.mxCell: *java.util.List* [protected] children
+com.mxgraph.model.mxCell: *java.util.List* [protected] edges
+==
+com.mxgraph.algebra.mxFibonacciHeap: *java.util.Map* [protected] nodes
+com.mxgraph.algebra.mxUnionFind: *java.util.Map* [protected] nodes
+com.mxgraph.canvas.mxGraphics2DCanvas: *java.util.Hashtable* [protected] imageCache
+com.mxgraph.io.mxCodec: *java.util.Hashtable* [protected] objects
+com.mxgraph.io.mxObjectCodec: *java.util.Set* exclude
+com.mxgraph.io.mxObjectCodec: *java.util.Set* idrefs
+com.mxgraph.io.mxObjectCodec: *java.util.Map* mapping
+com.mxgraph.io.mxObjectCodec: *java.util.Map* reverse
+com.mxgraph.model.mxGeometry: *java.util.List* [protected] points
+com.mxgraph.model.mxGraphModel: *java.util.Hashtable* [protected] cells
+com.mxgraph.sharing.mxSharedDiagram: *java.util.List* [protected] diagramChangeListeners
+com.mxgraph.swing.handler.mxGraphHandler: *java.util.Map* [protected] handlers
+com.mxgraph.swing.mxGraphComponent: *java.util.Hashtable* [protected] components
+com.mxgraph.swing.mxGraphComponent: *java.util.Hashtable* [protected] overlays
+com.mxgraph.util.mxEventSource: *java.util.List* [protected] eventListeners
+com.mxgraph.util.mxUndoableEdit: *java.util.List* [protected] changes
+com.mxgraph.util.mxUndoManager: *java.util.List* [protected] history
+com.mxgraph.view.mxCellState: *java.util.Hashtable* [protected] style
+com.mxgraph.view.mxCellState: *java.util.List* [protected] absolutePoints
+com.mxgraph.view.mxGraphSelectionModel: *java.util.Set* [protected] cells
+com.mxgraph.view.mxGraphSelectionModel$mxSelectionChange: *java.util.Collection* [protected] added
+com.mxgraph.view.mxGraphSelectionModel$mxSelectionChange: *java.util.Collection* [protected] removed
+com.mxgraph.view.mxGraphView: *java.util.Hashtable* [protected] states
+com.mxgraph.view.mxMultiplicity: *java.util.Collection* [protected] validNeighbors
+com.mxgraph.view.mxStylesheet: *java.util.Hashtable* [protected] styles
+com.mxgraph.view.mxTemporaryCellStates: *java.util.Hashtable* [protected] oldStates
+
+ARRAYS REPORT
+=============
+
+com.mxgraph.swing.handler.mxCellHandler: *java.awt.Rectangle[]* [protected] handles [no-stores]
+com.mxgraph.swing.handler.mxEdgeHandler: *java.awt.Point[]* [protected] p
+com.mxgraph.swing.handler.mxGraphHandler: *java.lang.Object[]* [protected] cells
+com.mxgraph.swing.handler.mxGraphHandler: *java.lang.Object[]* [protected] dragCells
+com.mxgraph.swing.handler.mxGraphTransferHandler: *java.lang.Object[]* [protected] originalCells [no-stores]
+com.mxgraph.swing.handler.mxGraphTransferHandler: *java.lang.Object[]* [protected] lastImported [no-stores]
+com.mxgraph.swing.util.mxGraphTransferable: *java.lang.Object[]* [protected] cells [arraycopy]
+com.mxgraph.util.mxEventObject: *java.lang.Object[]* [protected] args [no-stores]
+com.mxgraph.view.mxGraph: *com.mxgraph.view.mxMultiplicity[]* [protected] multiplicities [mod]
+
+N-CYCLES
+========
+[com/mxgraph/view/mxGraphSelectionModel, com/mxgraph/view/mxGraphView, com/mxgraph/view/mxGraph]
+[com/mxgraph/swing/handler/mxCellMarker, com/mxgraph/swing/handler/mxGraphHandler, com/mxgraph/swing/handler/mxPanningHandler, com/mxgraph/swing/mxGraphComponent$mxGraphControl, com/mxgraph/swing/mxGraphComponent, com/mxgraph/swing/handler/mxConnectionHandler]
+[com/mxgraph/swing/mxGraphOutline$MouseTracker, com/mxgraph/swing/mxGraphOutline]

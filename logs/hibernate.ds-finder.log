@@ -1,0 +1,93 @@
+DSFinder has run for 0 min. 5 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/hibernate//build/classes:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/hibernate//lib/ant-1.6.5.jar:/home/albiz/dev/hibernate//lib/ant-antlr-1.6.5.jar:/home/albiz/dev/hibernate//lib/ant-junit-1.6.5.jar:/home/albiz/dev/hibernate//lib/ant-launcher-1.6.5.jar:/home/albiz/dev/hibernate//lib/ant-swing-1.6.5.jar:/home/albiz/dev/hibernate//lib/antlr-2.7.6rc1.jar:/home/albiz/dev/hibernate//lib/asm-attrs.jar:/home/albiz/dev/hibernate//lib/asm.jar:/home/albiz/dev/hibernate//lib/c3p0-0.9.0.jar:/home/albiz/dev/hibernate//lib/cglib-2.1.3.jar:/home/albiz/dev/hibernate//lib/cleanimports.jar:/home/albiz/dev/hibernate//lib/commons-collections-2.1.1.jar:/home/albiz/dev/hibernate//lib/commons-logging-1.0.4.jar:/home/albiz/dev/hibernate//lib/concurrent-1.3.2.jar:/home/albiz/dev/hibernate//lib/connector.jar:/home/albiz/dev/hibernate//lib/dom4j-1.6.1.jar:/home/albiz/dev/hibernate//lib/ehcache-1.1.jar:/home/albiz/dev/hibernate//lib/jaas.jar:/home/albiz/dev/hibernate//lib/jacc-1_0-fr.jar:/home/albiz/dev/hibernate//lib/jaxen-1.1-beta-7.jar:/home/albiz/dev/hibernate//lib/jboss-cache.jar:/home/albiz/dev/hibernate//lib/jboss-common.jar:/home/albiz/dev/hibernate//lib/jboss-jmx.jar:/home/albiz/dev/hibernate//lib/jboss-system.jar:/home/albiz/dev/hibernate//lib/jdbc2_0-stdext.jar:/home/albiz/dev/hibernate//lib/jgroups-2.2.8.jar:/home/albiz/dev/hibernate//lib/jta.jar:/home/albiz/dev/hibernate//lib/junit-3.8.1.jar:/home/albiz/dev/hibernate//lib/log4j-1.2.11.jar:/home/albiz/dev/hibernate//lib/oscache-2.1.jar:/home/albiz/dev/hibernate//lib/proxool-0.8.3.jar:/home/albiz/dev/hibernate//lib/swarmcache-1.0rc2.jar:/home/albiz/dev/hibernate//lib/syndiag2.jar:/home/albiz/dev/hibernate//lib/versioncheck.jar:/home/albiz/dev/hibernate//lib/xerces-2.6.2.jar:/home/albiz/dev/hibernate//lib/xml-apis.jar:/home/albiz/dev/hibernate//lib/servlet-4.0.6.jar:/home/albiz/dev/hibernate//lib/asm-util.jar:/home/albiz/dev/hibernate//lib/asm-1.5.jar, -s, -p, --include=org/hibernate/, --title=/home/albiz/dev/sootOutput/logs/hibernate.ds-finder.log, org.hibernate.ScrollMode]
+Processed 1143 non-library classes (7890 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						4
+Parents/outers						1
+Others (55 java.lang.Object, 5 non-Object fields)	60
+ exact matching fields					2
+
+Distinct classes containing linked lists and parents:	4
+
+N-cycles						8
+
+Arrays							92
+	 read-only:					82
+	 w/arraycopy:					14
+	 hashtable-like:				6
+	 (error bars:) [3]				62
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.Map						174
+java.util.List						81
+java.util.Set						36
+java.util.ArrayList					18
+java.util.Properties					11
+Others							44
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+org.hibernate.hql.ast.tree.FromClause			6
+org.hibernate.engine.JoinSequence			5
+Others							0
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.ArrayList					506
+java.util.HashMap					368
+java.util.HashSet					176
+java.util.Properties					54
+java.util.LinkedList					40
+Others							142
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+org.hibernate.engine.JoinSequence			7
+org.hibernate.impl.IteratorImpl				2
+org.hibernate.action.EntityUpdateAction			1
+Others							0
+
+
+INSTANTIATED ARRAYS
+===================
+org.hibernate.util.ArrayHelper				9
+org.hibernate.type.ComponentType			5
+org.hibernate.type.TypeFactory				4
+org.hibernate.type.BinaryType				3
+org.hibernate.type.AnyType				3
+Others							7
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			0
+Collections are potential data structures		169
+
+
+java.lang.String					0
+java.lang.Object					0
+Ad-Hoc types:
+=============
+Others							0
+
+System types:
+==============
+Others							0
+
+TEMPLATE PARAMETERS					0
+UNKNOWN							364
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

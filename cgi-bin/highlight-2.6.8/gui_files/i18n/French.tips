@@ -1,0 +1,14 @@
+Vous pouvez lancer Highlight en ligne de commande en lui passant des noms de fichiers en paramètre.
+Vous pouvez glisser-déposer des fichiers directement dans la fenêtre d'Highlight.
+Vous pouvez convertir plusieurs types de code source en une seule fois.
+Vous devriez toujours utiliser des fichiers CSS référencés dans les fichiers HTML, de cette manière vous gardez vos définitions de styles au même endroit.
+Utilisez l'option "Remplacer les guillemets" pour générer du code LaTeX, ceci lui permettant d'être utilisé avec le package Allemand.
+La sortie XSL-FO est compatible avec le projet Apache FOP.
+Générer des sorties TRF utilisables dans des éditeurs de texte.
+Avec le retour de ligne activé, Highlight indente les paramètre de fonctions lorsqu'il rencontre de très longues lignes.
+Utilisez l'option "Omettre les entêtes et les pieds de page" pour générer des fragments de code pouvant être insérés dans des documents existants.
+L'option "Echapper les guillemets" est disponible si une sortie LaTeX et l'option "Omettre les entêtes et les pieds de page" sont sélectionnées.
+Vous pouvez inclure vos propres définitions CSS dans le fichier CSS généré.
+Vous pouvez définir de nouveaux thèmes de langage et de couleurs. Voir le fichier README (NDT: LisezMoi) pour plus d'instructions.
+L'option "Reformat" permet un reformatage automatique de code C, C++, C# et Java.
+Voir le site web officiel d'Highlight pour obtenir une version console (Win32 et Unix).

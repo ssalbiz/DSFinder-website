@@ -1,0 +1,14 @@
+Highlight kan gestart worden met bronbestandsnamen als commandolijnparameters.
+Het is mogelijk om bronbestanden te slepen naar het Highlight venster.
+Het is mogelijk op verschillende types broncode tegelijk te converteren.
+Je dient ervoor te zorgen dat je steeds de gerefereerde CSS bestanden in je HTML toevoegt, om de stijldefinities op één plaats te hebben.
+Gebruik "Bescherm aanhalingstekens" optie om LaTeX code te genereren, die gebruikt kan worden met de Duits.
+De XSL-FO doelbestanden zijn compatibel met Apache FOP.
+Genereer RTF om de doelbestanden in een tekstverwerker te kunnen gebruiken.
+Indien omslagen lijnen geactiveerd werd, zal Highlight in lange lijnen voorkomende functieparameters en -toekenningen indenteren.
+Gebruik de "Verberg hoofding en voetnoot" optie om codefragmenten te genereren die in bestaande documenten gevoegd kunnen worden.
+De "Bescherm aanhalingstekens" optie is beschikbaar indien als doeltype LaTeX gekozen en de "Verberg hoofding en voetnoot" optie aangevinkt is.
+Je kunt je eigen CSS definities invoegen in de finale CSS doelcode.
+Je kunt een nieuw kleurthema en taaldefinitie definieren. Lees de Highlight "README" voor meer instructie
+De "Herformateer" mogelijkheid is beschikbaar voor het formateren van C, C++, Java en C# code.
+Zie de Highlight webstek voor consolversie (Win32 en Unix versies).

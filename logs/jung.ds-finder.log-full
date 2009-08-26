@@ -1,0 +1,218 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.lang.Object* [private] target [TV;]
+edu.uci.ics.jung.algorithms.importance.RandomWalkSTBetweenness: *java.lang.Object* mTarget [TV;]
+edu.uci.ics.jung.algorithms.util.BasicMapEntry: *java.lang.Object* [final] key [TK;]
+edu.uci.ics.jung.algorithms.util.BasicMapEntry: *java.lang.Object* value [TV;]
+edu.uci.ics.jung.visualization.GraphZoomScrollPane: *javax.swing.JComponent* [protected] corner
+edu.uci.ics.jung.visualization.GraphZoomScrollPane: *javax.swing.JPanel* [protected] south
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+edu.uci.ics.jung.graph.OrderedKAryTree$VertexData: *java.lang.Object* parent_edge [TE;]
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+edu.uci.ics.jung.visualization.control.SatelliteVisualizationViewer: *edu.uci.ics.jung.visualization.VisualizationViewer* [protected] master [Ledu/uci/ics/jung/visualization/VisualizationViewer<TV;TE;>;]
+java.lang.Object Fields:
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.lang.Object* [private] source [TV;]
+edu.uci.ics.jung.algorithms.importance.RandomWalkSTBetweenness: *java.lang.Object* mSource [TV;]
+edu.uci.ics.jung.algorithms.importance.Ranking: *java.lang.Object* [private] ranked [TV;]
+edu.uci.ics.jung.algorithms.layout.util.VisRunner: *java.lang.Object* [public] pauseObject
+edu.uci.ics.jung.algorithms.scoring.util.VEPair: *java.lang.Object* [private] v [TV;]
+edu.uci.ics.jung.algorithms.scoring.util.VEPair: *java.lang.Object* [private] e [TE;]
+edu.uci.ics.jung.algorithms.util.WeightedChoice$ItemPair: *java.lang.Object* light [TT;]
+edu.uci.ics.jung.algorithms.util.WeightedChoice$ItemPair: *java.lang.Object* heavy [TT;]
+edu.uci.ics.jung.graph.DelegateTree: *java.lang.Object* [protected] root [TV;]
+edu.uci.ics.jung.graph.event.GraphEvent$Edge: *java.lang.Object* [protected] edge [TE;]
+edu.uci.ics.jung.graph.event.GraphEvent$Vertex: *java.lang.Object* [protected] vertex [TV;]
+edu.uci.ics.jung.graph.OrderedKAryTree: *java.lang.Object* [protected] root [TV;]
+edu.uci.ics.jung.graph.util.Context: *java.lang.Object* [public] graph [TG;]
+edu.uci.ics.jung.graph.util.Context: *java.lang.Object* [public] element [TE;]
+edu.uci.ics.jung.graph.util.Pair: *java.lang.Object* [private] first [TT;]
+edu.uci.ics.jung.graph.util.Pair: *java.lang.Object* [private] second [TT;]
+edu.uci.ics.jung.io.graphml.EdgeMetadata: *java.lang.Object* [private] edge
+edu.uci.ics.jung.io.graphml.GraphMetadata: *java.lang.Object* [private] graph
+edu.uci.ics.jung.io.graphml.HyperEdgeMetadata: *java.lang.Object* [private] edge
+edu.uci.ics.jung.io.graphml.NodeMetadata: *java.lang.Object* [private] vertex
+edu.uci.ics.jung.io.GraphMLReader: *java.lang.Object* [protected] current_vertex [TV;]
+edu.uci.ics.jung.io.GraphMLReader: *java.lang.Object* [protected] current_edge [TE;]
+edu.uci.ics.jung.visualization.annotations.Annotation: *java.lang.Object* [protected] annotation [TT;]
+edu.uci.ics.jung.visualization.control.AnimatedPickingGraphMousePlugin: *java.lang.Object* [protected] vertex [TV;]
+edu.uci.ics.jung.visualization.control.EditingGraphMousePlugin: *java.lang.Object* [protected] startVertex [TV;]
+edu.uci.ics.jung.visualization.control.EditingPopupGraphMousePlugin$1: *java.lang.Object* [final] val$other
+edu.uci.ics.jung.visualization.control.EditingPopupGraphMousePlugin$1: *java.lang.Object* [final] val$vertex
+edu.uci.ics.jung.visualization.control.EditingPopupGraphMousePlugin$2: *java.lang.Object* [final] val$other
+edu.uci.ics.jung.visualization.control.EditingPopupGraphMousePlugin$2: *java.lang.Object* [final] val$vertex
+edu.uci.ics.jung.visualization.control.EditingPopupGraphMousePlugin$3: *java.lang.Object* [final] val$vertex
+edu.uci.ics.jung.visualization.control.EditingPopupGraphMousePlugin$4: *java.lang.Object* [final] val$edge
+edu.uci.ics.jung.visualization.control.LabelEditingGraphMousePlugin: *java.lang.Object* [protected] vertex [TV;]
+edu.uci.ics.jung.visualization.control.LabelEditingGraphMousePlugin: *java.lang.Object* [protected] edge [TE;]
+edu.uci.ics.jung.visualization.control.PickingGraphMousePlugin: *java.lang.Object* [protected] vertex [TV;]
+edu.uci.ics.jung.visualization.control.PickingGraphMousePlugin: *java.lang.Object* [protected] edge [TE;]
+edu.uci.ics.jung.visualization.util.DefaultChangeEventSupport: *java.lang.Object* eventSource
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+edu.uci.ics.jung.algorithms.blockmodel.VertexPartition: *java.util.Map* [private] vertex_partition_map [Ljava/util/Map<TV;Ljava/util/Set<TV;>;>;]
+edu.uci.ics.jung.algorithms.blockmodel.VertexPartition: *java.util.Collection* [private] vertex_sets [Ljava/util/Collection<Ljava/util/Set<TV;>;>;]
+edu.uci.ics.jung.algorithms.cluster.EdgeBetweennessClusterer: *java.util.Map* [private] edges_removed [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.util.Set* [private] mMinCutEdges [Ljava/util/Set<TE;>;]
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.util.Map* [private] edgeFlowMap [Ljava/util/Map<TE;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.generators.random.BarabasiAlbertGenerator: *java.util.List* [protected] vertex_index [Ljava/util/List<TV;>;]
+edu.uci.ics.jung.algorithms.generators.random.BarabasiAlbertGenerator: *java.util.Map* [protected] index_vertex [Ljava/util/Map<TV;Ljava/lang/Integer;>;]
+edu.uci.ics.jung.algorithms.importance.AbstractRanker: *java.util.Map* [protected] vertexRankScores [Ljava/util/Map<Ljava/lang/Object;Ljava/util/Map<TV;Ljava/lang/Number;>;>;]
+edu.uci.ics.jung.algorithms.importance.AbstractRanker: *java.util.Map* [protected] edgeRankScores [Ljava/util/Map<Ljava/lang/Object;Ljava/util/Map<TE;Ljava/lang/Number;>;>;]
+edu.uci.ics.jung.algorithms.importance.AbstractRanker: *java.util.Map* [private] edgeWeights [Ljava/util/Map<TE;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.layout.CircleLayout: *java.util.List* [private] vertex_ordered_list [Ljava/util/List<TV;>;]
+edu.uci.ics.jung.algorithms.layout.CircleLayout: *java.util.Map* circleVertexDataMap [Ljava/util/Map<TV;Ledu/uci/ics/jung/algorithms/layout/CircleLayout$CircleVertexData;>;]
+edu.uci.ics.jung.algorithms.layout.FRLayout: *java.util.Map* [private] frVertexData [Ljava/util/Map<TV;Ledu/uci/ics/jung/algorithms/layout/FRLayout$FRVertexData;>;]
+edu.uci.ics.jung.algorithms.layout.FRLayout2: *java.util.Map* [private] frVertexData [Ljava/util/Map<TV;Ljava/awt/geom/Point2D;>;]
+edu.uci.ics.jung.algorithms.layout.ISOMLayout: *java.util.Map* isomVertexData [Ljava/util/Map<TV;Ledu/uci/ics/jung/algorithms/layout/ISOMLayout$ISOMVertexData;>;]
+edu.uci.ics.jung.algorithms.layout.SpringLayout: *java.util.Map* [protected] springVertexData [Ljava/util/Map<TV;Ledu/uci/ics/jung/algorithms/layout/SpringLayout$SpringVertexData;>;]
+edu.uci.ics.jung.algorithms.matrix.RealMatrixElementOperations: *java.util.Map* [private] edgeData [Ljava/util/Map<TE;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.scoring.BetweennessCentrality: *java.util.Map* [protected] vertex_scores [Ljava/util/Map<TV;Ljava/lang/Double;>;]
+edu.uci.ics.jung.algorithms.scoring.BetweennessCentrality: *java.util.Map* [protected] edge_scores [Ljava/util/Map<TE;Ljava/lang/Double;>;]
+edu.uci.ics.jung.algorithms.scoring.BetweennessCentrality: *java.util.Map* [protected] vertex_data [Ljava/util/Map<TV;Ledu/uci/ics/jung/algorithms/scoring/BetweennessCentrality<TV;TE;>.BetweennessData;>;]
+edu.uci.ics.jung.algorithms.scoring.BetweennessCentrality$BetweennessData: *java.util.List* incomingEdges [Ljava/util/List<TE;>;]
+edu.uci.ics.jung.algorithms.shortestpath.DijkstraShortestPath$SourcePathData: *java.util.Map* [protected] tentativeIncomingEdges [Ljava/util/Map<TV;TE;>;]
+edu.uci.ics.jung.algorithms.shortestpath.DijkstraShortestPath$SourcePathData: *java.util.LinkedHashMap* [protected] incomingEdges [Ljava/util/LinkedHashMap<TV;TE;>;]
+edu.uci.ics.jung.algorithms.shortestpath.UnweightedShortestPath: *java.util.Map* [private] mIncomingEdgeMap [Ljava/util/Map<TV;Ljava/util/Map<TV;TE;>;>;]
+edu.uci.ics.jung.graph.DelegateTree: *java.util.Map* [protected] vertex_depths [Ljava/util/Map<TV;Ljava/lang/Integer;>;]
+edu.uci.ics.jung.graph.DirectedSparseGraph: *java.util.Map* [protected] edges [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.graph.DirectedSparseMultigraph: *java.util.Map* [protected] edges [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.graph.OrderedKAryTree: *java.util.Map* [protected] edge_vpairs [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.graph.OrderedKAryTree: *java.util.Map* [protected] vertex_data [Ljava/util/Map<TV;Ledu/uci/ics/jung/graph/OrderedKAryTree<TV;TE;>.VertexData;>;]
+edu.uci.ics.jung.graph.SetHypergraph: *java.util.Map* [protected] edges [Ljava/util/Map<TH;Ljava/util/Set<TV;>;>;]
+edu.uci.ics.jung.graph.SparseGraph: *java.util.Map* [protected] vertex_maps [Ljava/util/Map<TV;[Ljava/util/Map<TV;TE;>;>;]
+edu.uci.ics.jung.graph.SparseGraph: *java.util.Map* [protected] directed_edges [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.graph.SparseGraph: *java.util.Map* [protected] undirected_edges [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.graph.SparseMultigraph: *java.util.Map* [protected] edges [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.graph.SparseMultigraph: *java.util.Set* [protected] directedEdges [Ljava/util/Set<TE;>;]
+edu.uci.ics.jung.graph.UndirectedSparseGraph: *java.util.Map* [protected] edges [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.graph.UndirectedSparseMultigraph: *java.util.Map* [protected] edges [Ljava/util/Map<TE;Ledu/uci/ics/jung/graph/util/Pair<TV;>;>;]
+edu.uci.ics.jung.graph.util.DefaultParallelEdgeIndexFunction: *java.util.Map* [protected] edge_index [Ljava/util/Map<Ledu/uci/ics/jung/graph/util/Context<Ledu/uci/ics/jung/graph/Graph<TV;TE;>;TE;>;Ljava/lang/Integer;>;]
+edu.uci.ics.jung.graph.util.IncidentEdgeIndexFunction: *java.util.Map* [protected] edge_index [Ljava/util/Map<TE;Ljava/lang/Integer;>;]
+edu.uci.ics.jung.io.graphml.GraphMetadata: *java.util.Map* [private] [final] edges [Ljava/util/Map<Ljava/lang/Object;Ledu/uci/ics/jung/io/graphml/EdgeMetadata;>;]
+edu.uci.ics.jung.io.graphml.GraphMetadata: *java.util.Map* [private] [final] hyperEdges [Ljava/util/Map<Ljava/lang/Object;Ledu/uci/ics/jung/io/graphml/HyperEdgeMetadata;>;]
+edu.uci.ics.jung.io.GraphMLReader: *org.apache.commons.collections15.BidiMap* [protected] vertex_ids [Lorg/apache/commons/collections15/BidiMap<TV;Ljava/lang/String;>;]
+edu.uci.ics.jung.io.GraphMLReader: *org.apache.commons.collections15.BidiMap* [protected] edge_ids [Lorg/apache/commons/collections15/BidiMap<TE;Ljava/lang/String;>;]
+edu.uci.ics.jung.io.GraphMLReader: *java.util.Map* [protected] vertex_metadata [Ljava/util/Map<Ljava/lang/String;Ledu/uci/ics/jung/io/GraphMLMetadata<TV;>;>;]
+edu.uci.ics.jung.io.GraphMLReader: *java.util.Map* [protected] edge_metadata [Ljava/util/Map<Ljava/lang/String;Ledu/uci/ics/jung/io/GraphMLMetadata<TE;>;>;]
+edu.uci.ics.jung.io.GraphMLReader: *java.util.Map* [protected] vertex_desc [Ljava/util/Map<TV;Ljava/lang/String;>;]
+edu.uci.ics.jung.io.GraphMLReader: *java.util.Map* [protected] edge_desc [Ljava/util/Map<TE;Ljava/lang/String;>;]
+edu.uci.ics.jung.io.GraphMLReader: *java.util.Collection* [protected] hyperedge_vertices [Ljava/util/Collection<TV;>;]
+edu.uci.ics.jung.io.GraphMLWriter: *java.util.Map* [protected] vertex_data [Ljava/util/Map<Ljava/lang/String;Ledu/uci/ics/jung/io/GraphMLMetadata<TV;>;>;]
+edu.uci.ics.jung.io.GraphMLWriter: *java.util.Map* [protected] edge_data [Ljava/util/Map<Ljava/lang/String;Ledu/uci/ics/jung/io/GraphMLMetadata<TE;>;>;]
+edu.uci.ics.jung.visualization.util.PredicatedParallelEdgeIndexFunction: *java.util.Map* [protected] edge_index [Ljava/util/Map<TE;Ljava/lang/Integer;>;]
+==
+edu.uci.ics.jung.algorithms.cluster.BicomponentClusterer: *java.util.Map* [protected] dfs_num [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.cluster.BicomponentClusterer: *java.util.Map* [protected] high [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.cluster.BicomponentClusterer: *java.util.Map* [protected] parents [Ljava/util/Map<TV;TV;>;]
+edu.uci.ics.jung.algorithms.cluster.BicomponentClusterer: *java.util.Stack* [protected] stack [Ljava/util/Stack<TE;>;]
+edu.uci.ics.jung.algorithms.cluster.VoltageClusterer$MapValueArrayComparator: *java.util.Map* [private] map [Ljava/util/Map<TV;[D>;]
+edu.uci.ics.jung.algorithms.filters.KNeighborhoodFilter: *java.util.Set* [private] rootNodes [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.util.Set* [private] mSourcePartitionNodes [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.util.Set* [private] mSinkPartitionNodes [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.util.Map* [private] residualCapacityMap [Ljava/util/Map<TE;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.util.Map* [private] parentMap [Ljava/util/Map<TV;TV;>;]
+edu.uci.ics.jung.algorithms.flows.EdmondsKarpMaxFlow: *java.util.Map* [private] parentCapacityMap [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.generators.Lattice2DGenerator: *java.util.List* [private] v_array [Ljava/util/List<TV;>;]
+edu.uci.ics.jung.algorithms.importance.BetweennessCentrality$BetweennessData: *java.util.List* predecessors [Ljava/util/List<TV;>;]
+edu.uci.ics.jung.algorithms.importance.KStepMarkov: *java.util.HashMap* mPreviousRankingsMap [Ljava/util/HashMap<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.importance.MarkovCentrality: *org.apache.commons.collections15.BidiMap* [private] mIndexer [Lorg/apache/commons/collections15/BidiMap<TV;Ljava/lang/Integer;>;]
+edu.uci.ics.jung.algorithms.importance.RandomWalkSTBetweenness: *org.apache.commons.collections15.BidiMap* [private] mIndexer [Lorg/apache/commons/collections15/BidiMap<TV;Ljava/lang/Integer;>;]
+edu.uci.ics.jung.algorithms.importance.RelativeAuthorityRanker: *java.util.Set* [private] mPriors [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.algorithms.importance.RelativeAuthorityRanker: *java.util.Map* [protected] priorRankScoreMap [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.importance.WeightedNIPaths: *java.util.Set* [private] mPriors [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.algorithms.importance.WeightedNIPaths: *java.util.Map* [private] pathIndices [Ljava/util/Map<TE;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.importance.WeightedNIPaths: *java.util.Map* [private] roots [Ljava/util/Map<Ljava/lang/Object;TV;>;]
+edu.uci.ics.jung.algorithms.importance.WeightedNIPaths: *java.util.Map* [private] pathsSeenMap [Ljava/util/Map<TV;Ljava/util/Set<Ljava/lang/Number;>;>;]
+edu.uci.ics.jung.algorithms.layout.AbstractLayout: *java.util.Set* [private] dontmove [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.algorithms.layout.AbstractLayout: *java.util.Map* [protected] locations [Ljava/util/Map<TV;Ljava/awt/geom/Point2D;>;]
+edu.uci.ics.jung.algorithms.layout.AggregateLayout: *java.util.Map* [protected] layouts [Ljava/util/Map<Ledu/uci/ics/jung/algorithms/layout/Layout<TV;TE;>;Ljava/awt/geom/Point2D;>;]
+edu.uci.ics.jung.algorithms.layout.BalloonLayout: *java.util.Map* [protected] polarLocations [Ljava/util/Map<TV;Ledu/uci/ics/jung/algorithms/layout/PolarPoint;>;]
+edu.uci.ics.jung.algorithms.layout.BalloonLayout: *java.util.Map* [protected] radii [Ljava/util/Map<TV;Ljava/lang/Double;>;]
+edu.uci.ics.jung.algorithms.layout.DAGLayout: *java.util.Map* [private] minLevels [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.layout.ISOMLayout: *java.util.List* [private] queue [Ljava/util/List<TV;>;]
+edu.uci.ics.jung.algorithms.layout.RadialTreeLayout: *java.util.Map* [protected] polarLocations [Ljava/util/Map<TV;Ledu/uci/ics/jung/algorithms/layout/PolarPoint;>;]
+edu.uci.ics.jung.algorithms.layout.TreeLayout: *java.util.Map* [protected] basePositions [Ljava/util/Map<TV;Ljava/lang/Integer;>;]
+edu.uci.ics.jung.algorithms.layout.TreeLayout: *java.util.Map* [protected] locations [Ljava/util/Map<TV;Ljava/awt/geom/Point2D;>;]
+edu.uci.ics.jung.algorithms.layout.TreeLayout: *java.util.Set* [protected] alreadyDone [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.algorithms.scoring.AbstractIterativeScorer: *java.util.Map* [private] output [Ljava/util/Map<TV;TT;>;]
+edu.uci.ics.jung.algorithms.scoring.AbstractIterativeScorer: *java.util.Map* [private] current_values [Ljava/util/Map<TV;TT;>;]
+edu.uci.ics.jung.algorithms.scoring.DistanceCentralityScorer: *java.util.Map* [protected] output [Ljava/util/Map<TV;Ljava/lang/Double;>;]
+edu.uci.ics.jung.algorithms.scoring.util.ScoringUtils$1: *java.util.Collection* [final] val$inner_roots
+edu.uci.ics.jung.algorithms.scoring.util.ScoringUtils$2: *java.util.Collection* [final] val$inner_roots
+edu.uci.ics.jung.algorithms.scoring.VoltageScorer: *java.util.Map* [protected] source_voltages [Ljava/util/Map<TV;+Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.scoring.VoltageScorer: *java.util.Collection* [protected] sinks [Ljava/util/Collection<TV;>;]
+edu.uci.ics.jung.algorithms.shortestpath.BFSDistanceLabeler: *java.util.Map* [private] distanceDecorator [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.shortestpath.BFSDistanceLabeler: *java.util.List* [private] mCurrentList [Ljava/util/List<TV;>;]
+edu.uci.ics.jung.algorithms.shortestpath.BFSDistanceLabeler: *java.util.Set* [private] mUnvisitedVertices [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.algorithms.shortestpath.BFSDistanceLabeler: *java.util.List* [private] mVerticesInOrderVisited [Ljava/util/List<TV;>;]
+edu.uci.ics.jung.algorithms.shortestpath.BFSDistanceLabeler: *java.util.Map* [private] mPredecessorMap [Ljava/util/Map<TV;Ljava/util/HashSet<TV;>;>;]
+edu.uci.ics.jung.algorithms.shortestpath.DijkstraDistance: *java.util.Map* [protected] sourceMap [Ljava/util/Map<TV;Ledu/uci/ics/jung/algorithms/shortestpath/DijkstraDistance<TV;TE;>.SourceData;>;]
+edu.uci.ics.jung.algorithms.shortestpath.DijkstraDistance$SourceData: *java.util.LinkedHashMap* [protected] distances [Ljava/util/LinkedHashMap<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.shortestpath.DijkstraDistance$SourceData: *java.util.Map* [protected] estimatedDistances [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.shortestpath.DijkstraDistance$SourceData: *edu.uci.ics.jung.algorithms.util.MapBinaryHeap* [protected] unknownVertices [Ledu/uci/ics/jung/algorithms/util/MapBinaryHeap<TV;>;]
+edu.uci.ics.jung.algorithms.shortestpath.DijkstraDistance$VertexComparator: *java.util.Map* [private] distances [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.shortestpath.MinimumSpanningForest: *java.util.Map* [protected] weights [Ljava/util/Map<TE;Ljava/lang/Double;>;]
+edu.uci.ics.jung.algorithms.shortestpath.UnweightedShortestPath: *java.util.Map* [private] mDistanceMap [Ljava/util/Map<TV;Ljava/util/Map<TV;Ljava/lang/Number;>;>;]
+edu.uci.ics.jung.algorithms.shortestpath.UnweightedShortestPath: *java.util.Map* [private] distances [Ljava/util/Map<TV;Ljava/lang/Number;>;]
+edu.uci.ics.jung.algorithms.transformation.VertexPartitionCollapser: *java.util.Map* [protected] set_collapsedv [Ljava/util/Map<Ljava/util/Set<TV;>;TCV;>;]
+edu.uci.ics.jung.algorithms.util.ConstantMap: *java.util.Map* [private] delegate [Ljava/util/Map<TK;TV;>;]
+edu.uci.ics.jung.algorithms.util.MapBinaryHeap: *java.util.Vector* [private] heap [Ljava/util/Vector<TT;>;]
+edu.uci.ics.jung.algorithms.util.MapBinaryHeap: *java.util.Map* [private] object_indices [Ljava/util/Map<TT;Ljava/lang/Integer;>;]
+edu.uci.ics.jung.algorithms.util.MapBinaryHeap$ComparableComparator: *edu.uci.ics.jung.algorithms.util.MapBinaryHeap* [final] this$0
+edu.uci.ics.jung.algorithms.util.MapSettableTransformer: *java.util.Map* [protected] map [Ljava/util/Map<TI;TO;>;]
+edu.uci.ics.jung.algorithms.util.WeightedChoice: *java.util.List* [private] item_pairs [Ljava/util/List<Ledu/uci/ics/jung/algorithms/util/WeightedChoice<TT;>.ItemPair;>;]
+edu.uci.ics.jung.graph.DirectedSparseGraph: *java.util.Map* [protected] vertices [Ljava/util/Map<TV;Ledu/uci/ics/jung/graph/util/Pair<Ljava/util/Map<TV;TE;>;>;>;]
+edu.uci.ics.jung.graph.DirectedSparseMultigraph: *java.util.Map* [protected] vertices [Ljava/util/Map<TV;Ledu/uci/ics/jung/graph/util/Pair<Ljava/util/Set<TE;>;>;>;]
+edu.uci.ics.jung.graph.ObservableGraph: *java.util.List* listenerList [Ljava/util/List<Ledu/uci/ics/jung/graph/event/GraphEventListener<TV;TE;>;>;]
+edu.uci.ics.jung.graph.SetHypergraph: *java.util.Map* [protected] vertices [Ljava/util/Map<TV;Ljava/util/Set<TH;>;>;]
+edu.uci.ics.jung.graph.SparseMultigraph: *java.util.Map* [protected] vertices [Ljava/util/Map<TV;Ledu/uci/ics/jung/graph/util/Pair<Ljava/util/Set<TE;>;>;>;]
+edu.uci.ics.jung.graph.UndirectedSparseGraph: *java.util.Map* [protected] vertices [Ljava/util/Map<TV;Ljava/util/Map<TV;TE;>;>;]
+edu.uci.ics.jung.graph.UndirectedSparseMultigraph: *java.util.Map* [protected] vertices [Ljava/util/Map<TV;Ljava/util/Set<TE;>;>;]
+edu.uci.ics.jung.graph.util.Pair$PairIterator: *edu.uci.ics.jung.graph.util.Pair* [final] this$0
+edu.uci.ics.jung.io.graphml.GraphMetadata: *java.util.Map* [private] [final] nodes [Ljava/util/Map<Ljava/lang/Object;Ledu/uci/ics/jung/io/graphml/NodeMetadata;>;]
+edu.uci.ics.jung.io.GraphMLReader: *java.util.Map* [protected] graph_metadata [Ljava/util/Map<Ljava/lang/String;Ledu/uci/ics/jung/io/GraphMLMetadata<TG;>;>;]
+edu.uci.ics.jung.io.GraphMLReader: *java.util.Map* [protected] graph_desc [Ljava/util/Map<TG;Ljava/lang/String;>;]
+edu.uci.ics.jung.io.GraphMLReader: *java.util.List* [protected] graphs [Ljava/util/List<TG;>;]
+edu.uci.ics.jung.io.GraphMLWriter: *java.util.Map* [protected] graph_data [Ljava/util/Map<Ljava/lang/String;Ledu/uci/ics/jung/io/GraphMLMetadata<Ledu/uci/ics/jung/graph/Hypergraph<TV;TE;>;>;>;]
+edu.uci.ics.jung.io.MatrixFile: *java.util.Map* [private] mWeightKey [Ljava/util/Map<TE;Ljava/lang/Number;>;]
+edu.uci.ics.jung.visualization.BasicVisualizationServer: *java.util.Map* [protected] renderingHints [Ljava/util/Map<Ljava/awt/RenderingHints$Key;Ljava/lang/Object;>;]
+edu.uci.ics.jung.visualization.decorators.DefaultVertexIconTransformer: *java.util.Map* [protected] iconMap [Ljava/util/Map<TV;Ljavax/swing/Icon;>;]
+edu.uci.ics.jung.visualization.decorators.VertexIconShapeTransformer: *java.util.Map* [protected] iconMap [Ljava/util/Map<TV;Ljavax/swing/Icon;>;]
+edu.uci.ics.jung.visualization.layout.CachingLayout: *java.util.Map* [protected] locationMap [Ljava/util/Map<TV;Ljava/awt/geom/Point2D;>;]
+edu.uci.ics.jung.visualization.layout.ObservableCachingLayout: *java.util.Map* [protected] locationMap [Ljava/util/Map<TV;Ljava/awt/geom/Point2D;>;]
+edu.uci.ics.jung.visualization.layout.PersistentLayoutImpl: *java.util.Map* [protected] map [Ljava/util/Map<TV;Ledu/uci/ics/jung/visualization/layout/PersistentLayout$Point;>;]
+edu.uci.ics.jung.visualization.layout.PersistentLayoutImpl: *java.util.Set* [protected] dontmove [Ljava/util/Set<TV;>;]
+edu.uci.ics.jung.visualization.picking.MultiPickedState: *java.util.Set* [protected] picked [Ljava/util/Set<TT;>;]
+edu.uci.ics.jung.visualization.renderers.VertexLabelAsShapeRenderer: *java.util.Map* [protected] shapes [Ljava/util/Map<TV;Ljava/awt/Shape;>;]
+edu.uci.ics.jung.visualization.VisualizationImageServer: *java.util.Map* renderingHints [Ljava/util/Map<Ljava/awt/RenderingHints$Key;Ljava/lang/Object;>;]
+
+ARRAYS REPORT
+=============
+
+edu.uci.ics.jung.algorithms.layout.KKLayout: *java.lang.Object[]* [private] vertices [[TV;]
+edu.uci.ics.jung.algorithms.layout.KKLayout: *java.awt.geom.Point2D[]* [private] xydata
+edu.uci.ics.jung.graph.OrderedKAryTree$VertexData: *java.lang.Object[]* child_edges [[TE;] [no-stores]
+edu.uci.ics.jung.visualization.control.PluggableGraphMouse: *java.awt.event.MouseListener[]* mouseListeners [no-stores]
+edu.uci.ics.jung.visualization.control.PluggableGraphMouse: *java.awt.event.MouseMotionListener[]* mouseMotionListeners [no-stores]
+edu.uci.ics.jung.visualization.control.PluggableGraphMouse: *java.awt.event.MouseWheelListener[]* mouseWheelListeners [no-stores]
+
+N-CYCLES
+========
+[edu/uci/ics/jung/visualization/annotations/AnnotationPaintable, edu/uci/ics/jung/visualization/annotations/AnnotationManager]

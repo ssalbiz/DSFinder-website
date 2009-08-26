@@ -1,0 +1,102 @@
+ POUŽITÍ: highlight [afghlpqrvwzACEILPRTXYVWZ] [-i vstupní soubor] [-o výstupní soubor]
+                    [-S syntaxe] [-O výstupní adresář] [-B zástupný symbol]
+		    [-t počet] [-c výst. CSS soubor] [-e vst. CSS soubor] [-s CSS styl]
+		    [-D nový adresář s daty] [-E adresář s daty] [vstupní soubory]
+
+ Obecné volby:
+
+ -B, --batch-recursive=<zást. symb> převedení všech vyhovujících souborů, hledají
+                                    se i v podadresářích (př: highlight -B '*.cpp')
+ -D, --data-dir=<adresář>           nastavení adresářové cesty na zadanou
+ -E, --add-data-dir=<adresář>       nastavení další adresářové cestu na zadanou,
+                                    tato bude prohledávána jako první
+     --add-config-dir=<dir>         set path to an additional config directory
+ -h, --help                         výpis této nápovědu
+     --help-int=<jazyk>             výpis nápovědy ve zvoleném jazyce
+                                    <jazyk> = ["cs", "en", "es", "de", "fr"]
+ -i, --input=<soubor>               název jednoho vstupního souboru
+ -o, --output=<soubor>              název jednoho výstupního souboru
+ -O, --outdir=<adresář>             název výstupního adresáře
+ -p, --list-langs                   výpis seznamu nainstalovaných definic jazyků
+ -P, --progress                     grafické znázornění postupu konverze
+                                    v dávkovém režimu 
+ -q, --quiet                        potlačení výpisů v dávkovém režimu
+ -S, --syntax=<typ>                 určení typu vstupního souboru
+ -v, --verbose                      výpis ladicích informací
+ -w, --list-themes                  výpis nainstalovaných barevných schémat
+     --force                        generate output if language type is unknown
+     --print-config                 print path configuration
+     --validate-input               test if input is a valid text file
+     --version                      výpis informací o verzi a autorských právech
+
+
+ Výstupní formáty:
+
+ -H, --html                         HTML (default)
+ -A, --ansi                         terminálové (ANSI) řídicí kódy
+ -L, --latex                        LaTeX
+ -M, --xterm256                     terminálové (xterm 256) řídicí kódy
+ -R, --rtf                          RTF
+ -T, --tex                          TeX
+ -X, --xhtml                        XHTML 1.1
+ -Z, --xml                          XML
+
+
+ Volby výstupního formátu:
+
+ -c, --style-outfile=<file>         name of style file or output to stdout, if
+                                    "stdout" is given as file argument
+ -d, --doc-title=<title>            document title
+ -e, --style-infile=<soubor>        soubor, který bude vložen do definice stylu
+ -I, --include-style                vložení definice stylu
+ -f, --fragment                     vynechání hlavičky a patky
+ -F, --reformat=<způsob>            přeformátování výst. souboru daným způsobem
+                                    <způsob> = ["ansi", "gnu", "java", "kr", "linux"]
+ -J, --line-length=<num>            line length before wrapping (see -W, -V)
+ -j, --line-number-length=<num>     line number width incl. left padding
+ -k, --font=<font>                  defines font (specific to output format)
+ -K, --font-size=<num?>             defines font size (specific to output format)
+ -l, --linenumbers                  zapnutí číslování řádek
+ -s, --style=<styl>                 volba barevného stylu
+ -t, --replace-tabs=<počet>         nahražení tabelátorů daným počtem mezer
+ -u, --encoding=<enc>               define output encoding which matches input file
+                                    encoding; omit encoding info if enc=NONE
+ -V, --wrap-simple                  zalomení dlouhých řádek bez odsazení příkazů a
+                                    parametrů funkcí
+ -W, --wrap                         zalomení dlouhých řádek
+ -x, --zeroes                       čísla řádek budou v případě nutnosti uvozena nulami
+     --kw-case=<case>               change case of case insensitive keywords
+                                    <case> =  ['upper', 'lower', 'capitalize']
+
+ Volby pro (X)HTML:
+
+ -a, --anchors                      přidání kotev (záložek) k číslům řádek
+ -y, --anchor-prefix=<str>          define anchor name prefix
+ -N, --anchor-filename              use input file name as anchor name
+ -G, --class-name=<str>             define CSS class name prefix
+ -C, --print-index                  vypsání souboru s odkazy do výst. souborů
+     --inline-css                   output CSS within each tag (generates verbose output)
+     --mark-line="n[=txt]; m"       mark given lines n..m and add optional help texts
+                                    as tooltips
+     --enclose-pre                  enclose fragmented output with pre tag 
+                                    (assumes -f)
+
+ Volby pro LaTeX:
+
+ -r, --replace-quotes               nahražení uvozovek za \dq{} (předpokládá se -f)
+
+
+ -t je ignorováno při současném použití -F
+ -i nebo -o je ignorováno při současném použití -b nebo -B
+ -r je ignorováno, pokud zároveň není použito -f
+ -c bude ignorováno, pokud výst. formát neumožňuje vytvářet soubory s odkazy
+ Pokud není zadán vstupní nebo výstupní soubor, bude pro vstup/výstup použit
+ standardní vstup, resp. standardní výstup (stdin/stdout).
+ Pokud nebude zadán formát výst. souboru, bude předpokládán výstup do HTML.
+ Definice stylu budou uloženy do souboru highlight.css (HTML, XHTML) nebo
+ highlight.sty (LaTeX, TeX), pokud není použito -c nebo -I.
+ Přeformátování kódu funguje jen s C, C++, C# a Javou.
+ Zalomení řádek volbami -V a -W může zapříčinit chybné zvýraznění textu. Dávejte
+ při použití těchto voleb pozor.
+
+ Nové verze a informace: http://www.andre-simon.de/

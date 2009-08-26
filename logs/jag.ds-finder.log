@@ -1,0 +1,78 @@
+DSFinder has run for 0 min. 6 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/jag-6.1/classes:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/jag-6.1/lib/acegi-security-1.0.0-RC2.jar:/home/albiz/dev/jag-6.1/lib/acegi-security-tiger-1.0.0-RC2.jar:/home/albiz/dev/jag-6.1/lib/andromda.jar:/home/albiz/dev/jag-6.1/lib/ant-jmeter-2.0.3.jar:/home/albiz/dev/jag-6.1/lib/ant-optional-1.5.3-1.jar:/home/albiz/dev/jag-6.1/lib/antlr-2.7.6.jar:/home/albiz/dev/jag-6.1/lib/asm-1.5.3.jar:/home/albiz/dev/jag-6.1/lib/asm-attrs-1.5.3.jar:/home/albiz/dev/jag-6.1/lib/axis-1.2.jar:/home/albiz/dev/jag-6.1/lib/axis-ant-1.2.jar:/home/albiz/dev/jag-6.1/lib/axis-jaxrpc-1.2.jar:/home/albiz/dev/jag-6.1/lib/axis-saaj-1.2.jar:/home/albiz/dev/jag-6.1/lib/axis-wsdl4j-1.2.jar:/home/albiz/dev/jag-6.1/lib/c3p0-0.9.0.jar:/home/albiz/dev/jag-6.1/lib/castor-0.9.7.jar:/home/albiz/dev/jag-6.1/lib/cglib-2.1_3.jar:/home/albiz/dev/jag-6.1/lib/checkstyle-all-4.0-beta4.jar:/home/albiz/dev/jag-6.1/lib/commons-attributes-api-2.1.jar:/home/albiz/dev/jag-6.1/lib/commons-attributes-compiler-2.1.jar:/home/albiz/dev/jag-6.1/lib/commons-beanutils-1.7.0.jar:/home/albiz/dev/jag-6.1/lib/commons-codec-1.3.jar:/home/albiz/dev/jag-6.1/lib/commons-collections-3.1.jar:/home/albiz/dev/jag-6.1/lib/commons-configuration-1.1.jar:/home/albiz/dev/jag-6.1/lib/commons-digester-1.7.jar:/home/albiz/dev/jag-6.1/lib/commons-discovery-0.2.jar:/home/albiz/dev/jag-6.1/lib/commons-email-1.0.jar:/home/albiz/dev/jag-6.1/lib/commons-fileupload-1.0.jar:/home/albiz/dev/jag-6.1/lib/commons-httpclient-3.0.jar:/home/albiz/dev/jag-6.1/lib/commons-io-1.1.jar:/home/albiz/dev/jag-6.1/lib/commons-lang-2.1.jar:/home/albiz/dev/jag-6.1/lib/commons-logging-1.0.4.jar:/home/albiz/dev/jag-6.1/lib/commons-math-1.0.jar:/home/albiz/dev/jag-6.1/lib/commons-net-1.4.1.jar:/home/albiz/dev/jag-6.1/lib/commons-validator-1.1.3.jar:/home/albiz/dev/jag-6.1/lib/displaytag-1.1.jar:/home/albiz/dev/jag-6.1/lib/displaytag-export-poi-1.1.jar:/home/albiz/dev/jag-6.1/lib/dom4j-1.6.1.jar:/home/albiz/dev/jag-6.1/lib/ehcache-0.9.jar:/home/albiz/dev/jag-6.1/lib/ejb-3.0-edr2.jar:/home/albiz/dev/jag-6.1/lib/ejb3-persistence-3.1beta8.jar:/home/albiz/dev/jag-6.1/lib/emma-2.0.5312.jar:/home/albiz/dev/jag-6.1/lib/emma_ant-2.0.5312.jar:/home/albiz/dev/jag-6.1/lib/errors-taglib-1.1.jar:/home/albiz/dev/jag-6.1/lib/finalist-ant-1.3.jar:/home/albiz/dev/jag-6.1/lib/finalist-taglib-1.0.jar:/home/albiz/dev/jag-6.1/lib/generic-exceptions-1.0.jar:/home/albiz/dev/jag-6.1/lib/generic-exceptions-struts-1.2.jar:/home/albiz/dev/jag-6.1/lib/geronimo-activation_1.0.2_spec-1.0.jar:/home/albiz/dev/jag-6.1/lib/geronimo-javamail_1.3.1_spec-1.0.jar:/home/albiz/dev/jag-6.1/lib/hibernate-2.1.7c.jar:/home/albiz/dev/jag-6.1/lib/hibernate-3.1.2.jar:/home/albiz/dev/jag-6.1/lib/hibernate-annotations-3.1beta8.jar:/home/albiz/dev/jag-6.1/lib/hibernate-tools-3.0.jar:/home/albiz/dev/jag-6.1/lib/hivemind-1.1.1.jar:/home/albiz/dev/jag-6.1/lib/hivemind-lib-1.1.1.jar:/home/albiz/dev/jag-6.1/lib/hsqldb-1.7.3.3.jar:/home/albiz/dev/jag-6.1/lib/itext-1.3.1.jar:/home/albiz/dev/jag-6.1/lib/j2ee.jar:/home/albiz/dev/jag-6.1/lib/jag.jar:/home/albiz/dev/jag-6.1/lib/jakarta-regexp-1.3.jar:/home/albiz/dev/jag-6.1/lib/jasperreports-1.2.0.jar:/home/albiz/dev/jag-6.1/lib/javassist-3.0.jar:/home/albiz/dev/jag-6.1/lib/jaxen-1.1-beta-8.jar:/home/albiz/dev/jag-6.1/lib/jdbc2_0-stdext.jar:/home/albiz/dev/jag-6.1/lib/jdom-1.0.jar:/home/albiz/dev/jag-6.1/lib/jdt-compiler-3.1.1.jar:/home/albiz/dev/jag-6.1/lib/jfreechart-1.0.0.jar:/home/albiz/dev/jag-6.1/lib/jfreechart-common-1.0.0.jar:/home/albiz/dev/jag-6.1/lib/jmi.jar:/home/albiz/dev/jag-6.1/lib/jmiuml14di.jar:/home/albiz/dev/jag-6.1/lib/jmiutils.jar:/home/albiz/dev/jag-6.1/lib/jstl-1.1.2.jar:/home/albiz/dev/jag-6.1/lib/jta1.0.1.jar:/home/albiz/dev/jag-6.1/lib/junit-3.8.1.jar:/home/albiz/dev/jag-6.1/lib/log4j-1.2.8.jar:/home/albiz/dev/jag-6.1/lib/mdrapi.jar:/home/albiz/dev/jag-6.1/lib/mof.jar:/home/albiz/dev/jag-6.1/lib/mysql-connector-java-3.1.12-bin.jar:/home/albiz/dev/jag-6.1/lib/nbmdr.jar:/home/albiz/dev/jag-6.1/lib/odmg-3.0.jar:/home/albiz/dev/jag-6.1/lib/ognl-2.6.7.jar:/home/albiz/dev/jag-6.1/lib/openide-lookup.jar:/home/albiz/dev/jag-6.1/lib/oro-2.0.8.jar:/home/albiz/dev/jag-6.1/lib/poi-2.5.1.jar:/home/albiz/dev/jag-6.1/lib/postgresql-8.0-312.jdbc3.jar:/home/albiz/dev/jag-6.1/lib/quartz-1.5.1.jar:/home/albiz/dev/jag-6.1/lib/rome-0.8.jar:/home/albiz/dev/jag-6.1/lib/sequencegenerator-ejb-1.0-sunone-client.jar:/home/albiz/dev/jag-6.1/lib/sequencegenerator-ejb-1.0.jar:/home/albiz/dev/jag-6.1/lib/simpleuml-1.0.1.jar:/home/albiz/dev/jag-6.1/lib/spring-1.2.6.jar:/home/albiz/dev/jag-6.1/lib/spring-mock-1.2.6.jar:/home/albiz/dev/jag-6.1/lib/standard-1.1.2.jar:/home/albiz/dev/jag-6.1/lib/statementexecutor-1.1.jar:/home/albiz/dev/jag-6.1/lib/stax-api-1.0.jar:/home/albiz/dev/jag-6.1/lib/struts-1.2.4.jar:/home/albiz/dev/jag-6.1/lib/tacos4-beta-1-lib.jar:/home/albiz/dev/jag-6.1/lib/tapestry-4.0.1.jar:/home/albiz/dev/jag-6.1/lib/tapestry-annotations-4.0.1.jar:/home/albiz/dev/jag-6.1/lib/tapestry-contrib-4.0.1.jar:/home/albiz/dev/jag-6.1/lib/tapestry-portlet-4.0.1.jar:/home/albiz/dev/jag-6.1/lib/velocity-dep-1.4.jar:/home/albiz/dev/jag-6.1/lib/wsdl4j-1.5.2.jar:/home/albiz/dev/jag-6.1/lib/wstx-asl-2.9.1.jar:/home/albiz/dev/jag-6.1/lib/xbean-2.1.0.jar:/home/albiz/dev/jag-6.1/lib/xbean-spring-2.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-1.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-apache-module-1.2.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-bea-module-1.2-patch.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-ejb-module-1.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-hibernate-module-1.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-jboss-module-1.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-jmx-module-1.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-oracle-module-1.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-spring-module-1.2.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-sun-module-1.2-cmr-patch.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-web-module-1.2.jar:/home/albiz/dev/jag-6.1/lib/xdoclet-xdoclet-module-1.2.jar:/home/albiz/dev/jag-6.1/lib/xfire-all-1.0.jar:/home/albiz/dev/jag-6.1/lib/xfire-jsr181-api-1.0-M1.jar:/home/albiz/dev/jag-6.1/lib/xjavadoc-1.0.2.jar:/home/albiz/dev/jag-6.1/lib/xjavadoc-1.5-snapshot050611.jar:/home/albiz/dev/jag-6.1/lib/commons-logging.jar:/home/albiz/dev/jag-6.1/lib/openide-4.33.jar:/home/albiz/dev/jag-6.1/lib/ant.jar, -p, --include=com/finalist/, --title=/home/albiz/dev/sootOutput/logs/jag.ds-finder.log, com.finalist.jag.uml.UML2JagGenerator]
+Processed 344 non-library classes (7190 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						0
+Parents/outers						0
+Others (1 java.lang.Object, 9 non-Object fields)	10
+ exact matching fields					8
+
+Distinct classes containing linked lists and parents:	0
+
+N-cycles						7
+
+Arrays							12
+	 read-only:					8
+	 w/arraycopy:					0
+	 hashtable-like:				0
+	 (error bars:) [3]				2
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.HashMap					14
+java.util.Collection					9
+java.util.ArrayList					7
+java.util.List						7
+java.util.Map						3
+Others							5
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+Others							0
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.ArrayList					206
+java.util.HashMap					102
+java.util.HashSet					18
+java.util.Vector					16
+java.util.LinkedList					14
+Others							26
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+Others							0
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			0
+Collections are potential data structures		30
+
+
+java.lang.String					0
+java.lang.Object					0
+Ad-Hoc types:
+=============
+Others							0
+
+System types:
+==============
+Others							0
+
+TEMPLATE PARAMETERS					0
+UNKNOWN							45
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

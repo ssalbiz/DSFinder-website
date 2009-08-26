@@ -1,0 +1,570 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+sandmark.gui.DynamicBirthmarkPanel: *javax.swing.JPanel* [private] mInsetPanel
+sandmark.gui.ObfuscatePanel: *javax.swing.JPanel* [private] mInsetPanel
+sandmark.gui.OptimisePanel: *javax.swing.JPanel* [private] mInsetPanel
+sandmark.gui.PropertyInfo: *java.lang.Object* [protected] mOrigValue
+sandmark.gui.QuickProtectPanel: *javax.swing.JPanel* [private] mInsetPanel
+sandmark.gui.StaticBirthmarkPanel: *javax.swing.JPanel* [private] mInsetPanel
+sandmark.gui.VSplitPanel: *javax.swing.JSplitPane* [private] mSplitPane
+sandmark.gui.WebBrowser: *javax.swing.JFrame* [private] m_sParent
+sandmark.util.ConfigProperties$PropSpec: *java.lang.Object* [public] value
+sandmark.util.newexprtree.BranchExpr: *sandmark.util.newexprtree.Expr* [private] exprTarget
+sandmark.util.newexprtree.NegateArithmeticExpr: *sandmark.util.newexprtree.ValueExpr* [private] value
+sandmark.util.Node: *java.lang.Object* data
+sandmark.watermark.execpath.VarValue: *java.lang.Object* [private] value
+
+Linked List-like Data Structures:
+sandmark.birthmark.windows.Window: prev
+sandmark.program.util.AllMethods: *java.lang.Object* [private] next
+sandmark.util.newgraph.codec.CycleAndPathWrapper$CycleState: *java.lang.Object* nextSinkNode
+sandmark.util.newgraph.codec.CycleAndPathWrapper$CycleState: *java.lang.Object* nextSourceNode
+sandmark.util.Node: next/prev
+sandmark.util.opaquepredicatelib.smNode: [public] next/prev
+sandmark.util.PriorityQueue$Ascending: *java.lang.Object* nextElmt
+sandmark.util.PriorityQueue$Descending: *java.lang.Object* nextElmt
+sandmark.util.SparseVector$Iterator: *java.lang.Object* nextElmt
+sandmark.watermark.ct.FindWindows$Window: prev
+sandmark.watermark.execpath.SMLinkedList: next
+
+Parent- and outer-type Data Structures:
+sandmark.program.Object: [private] parent
+sandmark.util.newgraph.DomNodeWrapper: parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+sandmark.analysis.controlflowgraph.BasicBlock: fallthroughTo
+sandmark.analysis.controlflowgraph.BasicBlock: fallthroughFrom
+sandmark.birthmark.wpp.symbol: p
+sandmark.birthmark.wpp.symbol: n
+sandmark.util.ConfigProperties: [private] mParent
+sandmark.util.InstructionTree$BTN: [public] left
+sandmark.util.InstructionTree$BTN: [public] right
+sandmark.util.newexprtree.BasicBlock: fallthroughTo
+sandmark.util.newexprtree.BasicBlock: fallthroughFrom
+sandmark.util.newgraph.codec.PlantedPlaneCubicTree$BTreeNode: right
+sandmark.util.newgraph.codec.PlantedPlaneCubicTree$BTreeNode: left
+sandmark.util.newgraph.DomNodeWrapper: label
+sandmark.util.newgraph.DomNodeWrapper: ancestor
+sandmark.util.newgraph.DomNodeWrapper: idom
+sandmark.util.opaquepredicatelib.ExprTree: [private] left
+sandmark.util.opaquepredicatelib.ExprTree: [private] right
+Non-Object Fields:
+sandmark.analysis.stacksimulator.ClearStackContext: *sandmark.analysis.stacksimulator.Context* [private] c
+sandmark.analysis.stacksimulator.CompositeBooleanData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp1
+sandmark.analysis.stacksimulator.CompositeBooleanData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp2
+sandmark.analysis.stacksimulator.CompositeDoubleData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp1
+sandmark.analysis.stacksimulator.CompositeDoubleData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp2
+sandmark.analysis.stacksimulator.CompositeFloatData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp1
+sandmark.analysis.stacksimulator.CompositeFloatData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp2
+sandmark.analysis.stacksimulator.CompositeIntData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp1
+sandmark.analysis.stacksimulator.CompositeIntData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp2
+sandmark.analysis.stacksimulator.CompositeLongData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp1
+sandmark.analysis.stacksimulator.CompositeLongData: *sandmark.analysis.stacksimulator.PrimitiveData* [private] myOp2
+sandmark.analysis.stacksimulator.PopContext: *sandmark.analysis.stacksimulator.Context* [private] c
+sandmark.analysis.stacksimulator.PushContext: *sandmark.analysis.stacksimulator.Context* [private] c
+sandmark.analysis.stacksimulator.ReplaceStackContext: *sandmark.analysis.stacksimulator.Context* [private] c
+sandmark.analysis.stacksimulator.ReplaceVarContext: *sandmark.analysis.stacksimulator.Context* [private] c
+sandmark.program.Object: *sandmark.program.Application* [private] application
+sandmark.util.javagen.Cast: *sandmark.util.javagen.Expression* expr
+sandmark.util.javagen.CondNotNullExpr: *sandmark.util.javagen.Expression* cond
+sandmark.util.javagen.CondNotNullExpr: *sandmark.util.javagen.Expression* expr1
+sandmark.util.javagen.CondNotNullExpr: *sandmark.util.javagen.Expression* expr2
+sandmark.util.javagen.FieldRef: *sandmark.util.javagen.Expression* left
+sandmark.util.javagen.LoadIndex: *sandmark.util.javagen.Expression* array
+sandmark.util.javagen.LoadIndex: *sandmark.util.javagen.Expression* idx
+sandmark.util.javagen.VirtualFunCall: *sandmark.util.javagen.Expression* obj
+sandmark.util.newexprtree.ArrayLengthExpr: *sandmark.util.newexprtree.ValueExpr* [private] array
+sandmark.util.newexprtree.ArrayLoadExpr: *sandmark.util.newexprtree.ValueExpr* [private] array
+sandmark.util.newexprtree.ArrayLoadExpr: *sandmark.util.newexprtree.ValueExpr* [private] index
+sandmark.util.newexprtree.BinaryArithmeticExpr: *sandmark.util.newexprtree.ValueExpr* [private] left
+sandmark.util.newexprtree.BinaryArithmeticExpr: *sandmark.util.newexprtree.ValueExpr* [private] right
+sandmark.util.newexprtree.ComparisonExpr: *sandmark.util.newexprtree.ValueExpr* [private] left
+sandmark.util.newexprtree.ComparisonExpr: *sandmark.util.newexprtree.ValueExpr* [private] right
+sandmark.util.newexprtree.ConversionExpr: *sandmark.util.newexprtree.ValueExpr* [private] from
+sandmark.util.newexprtree.GetFieldExpr: *sandmark.util.newexprtree.ValueExpr* [private] ref
+sandmark.util.newexprtree.InstanceofExpr: *sandmark.util.newexprtree.ValueExpr* [private] ref
+sandmark.util.newexprtree.InvokeExpr: *sandmark.util.newexprtree.ValueExpr* [private] ref
+sandmark.util.newgraph.DomNodeWrapper: *sandmark.util.newgraph.NodeWrapper* orig
+sandmark.util.newgraph.DoubleEdgeWrapperIterator: *sandmark.util.newgraph.EdgeWrapperIterator* [private] a
+sandmark.util.newgraph.DoubleEdgeWrapperIterator: *sandmark.util.newgraph.EdgeWrapperIterator* [private] b
+sandmark.util.newgraph.DoubleNodeWrapperIterator: *sandmark.util.newgraph.NodeWrapperIterator* [private] inner
+sandmark.util.newgraph.ExtraEdgeWrapperIterator: *sandmark.util.newgraph.EdgeWrapperIterator* [private] i
+sandmark.util.newgraph.ExtraNodeWrapperIterator: *sandmark.util.newgraph.NodeWrapperIterator* [private] i
+sandmark.util.newgraph.Graph$1: *sandmark.util.newgraph.NodeWrapperIterator* [private] i
+sandmark.util.newgraph.Graph$2: *sandmark.util.newgraph.NodeWrapperIterator* [private] i
+sandmark.util.newgraph.MissingEdgeWrapperIterator: *sandmark.util.newgraph.EdgeWrapperIterator* [private] i
+sandmark.util.newgraph.MissingNodeGraph$1: *sandmark.util.newgraph.NodeWrapperIterator* [private] i
+sandmark.util.newgraph.MissingStuffGraph$MissingEdgeWrapperIterator: *sandmark.util.newgraph.EdgeWrapperIterator* [private] i
+sandmark.util.newgraph.MissingStuffGraph$MissingNodeWrapperIterator: *sandmark.util.newgraph.NodeWrapperIterator* [private] i
+sandmark.util.newgraph.RecursiveGraph: *sandmark.util.newgraph.Graph* g
+sandmark.util.newgraph.RecursiveGraph: *sandmark.util.newgraph.Graph* [private] consolidated
+sandmark.util.newgraph.ReversedGraph$ReversedEdgeIterator: *sandmark.util.newgraph.EdgeWrapperIterator* [private] i
+sandmark.watermark.ct.embed.Distribute$ClassHierarchy: *sandmark.analysis.classhierarchy.ClassHierarchy* origClassHierarchy
+java.lang.Object Fields:
+sandmark.analysis.callgraph.CallGraphEdge: *java.lang.Object* [private] sourceNode
+sandmark.analysis.callgraph.CallGraphEdge: *java.lang.Object* [private] sinkNode
+sandmark.analysis.controlflowgraph.Edge: *java.lang.Object* [private] mSrc
+sandmark.analysis.controlflowgraph.Edge: *java.lang.Object* [private] mDest
+sandmark.analysis.controlflowgraph.MethodCFG$BasicBlockIterator: *java.lang.Object* [private] o
+sandmark.diff.methoddiff.CFGTreeNode: *java.lang.Object* obj
+sandmark.gui.AppTree$AppTreeModel$ModelNode: *java.lang.Object* object
+sandmark.util.graph.graphview.NodeDisplayInfo: *java.lang.Object* [private] myNode
+sandmark.util.MultiIter: *java.lang.Object* result
+sandmark.util.newgraph.codec.PlantedPlaneCubicTree$BTreeNode: *java.lang.Object* node
+sandmark.util.newgraph.codec.PlantedPlaneCubicTree$NTreeNode: *java.lang.Object* node
+sandmark.util.newgraph.EdgeImpl: *java.lang.Object* [private] from
+sandmark.util.newgraph.EdgeImpl: *java.lang.Object* [private] to
+sandmark.util.newgraph.EditableGraphStyle$Pair: *java.lang.Object* g
+sandmark.util.newgraph.EditableGraphStyle$Pair: *java.lang.Object* o
+sandmark.util.newgraph.ExtraNodeIterator: *java.lang.Object* [private] n
+sandmark.util.newgraph.MissingNodeIterator: *java.lang.Object* [private] n
+sandmark.util.newgraph.MutableGraph: *java.lang.Object* [private] root
+sandmark.util.newgraph.MutableIteratorWrapper: *java.lang.Object* [protected] last
+sandmark.util.newgraph.NodeWrapper: *java.lang.Object* [public] node
+sandmark.util.SingleObjectIterator: *java.lang.Object* [private] o
+sandmark.watermark.execpath.WMCodeGen$PushBackIterator: *java.lang.Object* lastItem
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+sandmark.analysis.stacksimulator.StackSimulator: *java.util.HashMap* [private] bb2edges
+sandmark.newstatistics.CFGdepth: *java.util.Stack* [private] edgeStack
+sandmark.newstatistics.CFGwidth: *java.util.Stack* [private] edgeStack
+sandmark.newstatistics.CFGwidth$Range: *java.util.ArrayList* [public] edgelist
+sandmark.util.graph.graphview.GraphLayout: *java.util.HashMap* [protected] edgeMap
+sandmark.util.graph.graphview.GraphPanel: *java.util.ArrayList* [private] myDrawnEdges
+sandmark.util.graph.graphview.LayeredDrawingLayout: *java.util.ArrayList* [private] myRemovedEdges
+sandmark.util.graph.graphview.LayeredDrawingLayout: *java.util.HashMap* [private] myReversedEdges
+sandmark.util.newgraph.AbstractStyle: *java.util.Map* [private] edgeAttrs
+sandmark.util.newgraph.DomTree: *java.util.Map* [private] edges
+sandmark.util.newgraph.EditableGraphStyle: *java.util.Map* [private] edgePairs
+sandmark.util.newgraph.EditableGraphStyle: *java.util.Map* [private] edges
+sandmark.util.newgraph.ExtraStuffGraph: *java.util.Map* [private] edges
+sandmark.util.newgraph.GraphImpl: *java.util.Map* [private] edges
+sandmark.util.newgraph.MissingStuffGraph: *java.util.Map* [private] edges
+sandmark.watermark.ct.encode.Graph2IR$Path: *java.util.LinkedList* edges
+==
+sandmark.analysis.callgraph.CallGraphEdge: *java.util.HashSet* [private] handles
+sandmark.analysis.classhierarchy.ClassHierarchy: *java.util.HashMap* [private] name2class
+sandmark.analysis.controlflowgraph.BasicBlock: *java.util.ArrayList* instructions
+sandmark.analysis.controlflowgraph.MethodCFG: *java.util.Hashtable* instr2bb
+sandmark.analysis.defuse.DUWeb: *java.util.Set* [private] mDefs
+sandmark.analysis.defuse.DUWeb: *java.util.Set* [private] mUses
+sandmark.analysis.defuse.ReachingDefs: *java.util.Hashtable* [private] mDefToInt
+sandmark.analysis.defuse.ReachingDefs: *java.util.Hashtable* [private] mBBToInfo
+sandmark.analysis.defuse.ReachingDefs: *java.util.Set* [private] mUses
+sandmark.analysis.liveness.Liveness: *java.util.Hashtable* [private] mBBToInfo
+sandmark.analysis.liveness.Liveness: *java.util.Hashtable* [private] mUseToInt
+sandmark.analysis.slicingtools.AnalysisBlock: *java.util.ArrayList* [private] in
+sandmark.analysis.slicingtools.AnalysisBlock: *java.util.ArrayList* [private] out
+sandmark.analysis.slicingtools.AnalysisBlock: *java.util.ArrayList* [private] gen
+sandmark.analysis.slicingtools.AnalysisBlock: *java.util.ArrayList* [private] kill
+sandmark.analysis.slicingtools.MethodSlice: *java.util.ArrayList* metBlockList
+sandmark.analysis.slicingtools.MethodSlice: *java.util.ArrayList* analysisBlockList
+sandmark.analysis.slicingtools.MethodSlice: *java.util.ArrayList* slice
+sandmark.analysis.slicingtools.MethodSlice: *java.util.ArrayList* affectedVars
+sandmark.analysis.slicingtools.MethodSlice: *java.util.HashMap* analysisBlockMap
+sandmark.analysis.slicingtools.MethodSlice: *java.util.ArrayList* sliceTrees
+sandmark.analysis.stacksimulator.StackSimulator: *java.util.HashMap* [private] ih2c
+sandmark.analysis.stacksimulator.StackSimulator: *java.util.HashMap* [private] bb2incoming
+sandmark.analysis.stacksimulator.StackSimulator: *java.util.HashSet* [private] seenjsrs
+sandmark.birthmark.Birthmark: *java.util.Properties* props
+sandmark.birthmark.Birthmark: *java.util.Hashtable* ht
+sandmark.birthmark.windows.WindowState: *java.util.Hashtable* mWindows
+sandmark.birthmark.windows.WindowState: *java.util.Set* mFilter
+sandmark.birthmark.wpp.Tracer: *java.util.LinkedList* [private] list
+sandmark.diff.Coloring: *java.util.Vector* [private] v
+sandmark.diff.methoddiff.CFGTreeNode: *sandmark.diff.methoddiff.Tuple* tuple
+sandmark.gui.AlgorithmComboBox: *java.util.ArrayList* [private] listeners
+sandmark.gui.AppTree$AppTreeModel: *java.util.Hashtable* [private] mObjectToNode
+sandmark.gui.AppTree$AppTreeModel: *java.util.Set* [private] mListeners
+sandmark.gui.AppTree$AppTreeModel$ModelNode: *java.util.ArrayList* kids
+sandmark.gui.AppTree$TreeViewState: *java.util.ArrayList* expandedNodes
+sandmark.gui.ConfigPropertyPanel: *java.util.HashSet* [private] mProperties
+sandmark.gui.diff.DiffFrame: *java.util.Vector* [private] algorithms
+sandmark.gui.FilenameBox: *sandmark.gui.FilenameBox$FileList* [private] m_hist
+sandmark.gui.MetricTableModel: *java.util.Hashtable* [private] mMetricValues
+sandmark.gui.MetricTableModel$MetricCalculator: *java.util.LinkedList* queue
+sandmark.gui.ObfDialog: *java.util.Hashtable* [private] mCachedConstraints
+sandmark.gui.SliceRenderer: *java.util.List* [private] mSliceInstrs
+sandmark.gui.SMAlgHierTreePane: *java.util.Hashtable* [private] mKeyToNode
+sandmark.gui.StatTableModel: *java.util.Hashtable* [private] mStatValues
+sandmark.gui.StatTableModel$StatCalculator: *java.util.LinkedList* queue
+sandmark.metric.HalsteadUtil: *java.util.Vector* [private] operTypeVector
+sandmark.metric.HalsteadUtil: *java.util.Vector* [private] operandVector
+sandmark.metric.NestingLevelComplexity: *java.util.ArrayList* myNodes
+sandmark.newstatistics.CFGdepth: *java.util.ArrayList* [private] currloopscope
+sandmark.newstatistics.CFGwidth: *java.util.Stack* [private] rangeStack
+sandmark.newstatistics.StatisticsRecord: *java.util.Vector* [private] myNonStaticFields
+sandmark.newstatistics.StatisticsRecord: *java.util.Vector* [private] myVectorDimensions
+sandmark.newstatistics.Stats: *java.util.Vector* [private] myRecords
+sandmark.newstatistics.Stats: *java.util.Vector* [private] myPackages
+sandmark.newstatistics.Stats: *java.util.Vector* [private] numArrayDimensions
+sandmark.obfuscate.boguspredicates.bogusPredicates: *java.util.ArrayList* pred_list
+sandmark.obfuscate.boolsplitter.BoolSplitter: *java.util.ArrayList* boollist
+sandmark.obfuscate.boolsplitter.BoolSplitter: *java.util.ArrayList* nonboollist
+sandmark.obfuscate.boolsplitter.BoolSplitter: *java.util.ArrayList* unknownlist
+sandmark.obfuscate.boolsplitter.BoolSplitter: *java.util.HashMap* indexmap
+sandmark.obfuscate.dynamicinliner.DynamicInliner: *java.util.Hashtable* [private] inlinedMethods
+sandmark.obfuscate.interleavemethods.InterleaveMethods: *java.util.HashMap* [private] amap
+sandmark.obfuscate.interleavemethods.InterleaveMethods: *java.util.HashMap* [private] bmap
+sandmark.obfuscate.interleavemethods.InterleaveMethods: *java.util.HashMap* [private] orig2new
+sandmark.obfuscate.interleavemethods.InterleaveMethods: *java.util.HashMap* [private] bbytes
+sandmark.obfuscate.interleavemethods.Interleaver: *java.util.ArrayList* [private] ils1
+sandmark.obfuscate.interleavemethods.Interleaver: *java.util.ArrayList* [private] ils2
+sandmark.obfuscate.interleavemethods.Interleaver: *java.util.HashMap* [private] start2end
+sandmark.obfuscate.interleavemethods.Interleaver: *java.util.HashMap* [private] old2new
+sandmark.obfuscate.interleavemethods.Interleaver: *java.util.HashMap* [private] new2old
+sandmark.obfuscate.interleavemethods.Interleaver: *java.util.HashMap* target2value
+sandmark.obfuscate.modifyifelse.ModifyIfElse: *java.util.ArrayList* rlist
+sandmark.obfuscate.modifyifelse.ModifyIfElse: *java.util.ArrayList* llist
+sandmark.obfuscate.modifyifelse.ModifyIfElse: *java.util.ArrayList* ldom
+sandmark.obfuscate.modifyifelse.ModifyIfElse: *java.util.ArrayList* rdom
+sandmark.program.Application: *java.util.ArrayList* [private] mPathChangeListeners
+sandmark.program.Object: *java.util.HashMap* [private] cacheMap
+sandmark.program.Object: *java.util.ArrayList* [private] members
+sandmark.program.Object: *java.util.Set* [private] mMemberChangeListeners
+sandmark.program.Object: *java.util.HashSet* [private] mMarkListeners
+sandmark.program.UserObjectConstraints: *java.util.HashMap* [private] myOffAlgorithms
+sandmark.util.ConfigProperties: *java.util.Vector* [private] mPropSpecs
+sandmark.util.ConfigProperties: *java.util.Hashtable* [private] mPropNameToIndex
+sandmark.util.ConfigProperties$PropSpec: *java.util.ArrayList* [private] listeners
+sandmark.util.ConfigProperties$PropSpec: *java.util.List* choices
+sandmark.util.exec.EventThread: *java.util.List* [private] breakpointRequestList
+sandmark.util.exec.EventThread: *java.util.Hashtable* [private] breakpointTable
+sandmark.util.exec.Heap: *java.util.HashSet* seen
+sandmark.util.exec.Heap: *java.util.LinkedList* queue
+sandmark.util.exec.Heap: *java.util.LinkedList* objects
+sandmark.util.exec.Overseer: *java.util.List* [protected] breakPoints
+sandmark.util.exprtree.DependencyGraph: *java.util.HashMap* BToG
+sandmark.util.exprtree.DependencyGraph: *java.util.HashMap* NToG
+sandmark.util.exprtree.DependencyGraph: *java.util.HashMap* GToN
+sandmark.util.exprtree.ExprTree: *java.util.HashMap* IToN
+sandmark.util.exprtree.ExprTree: *java.util.HashMap* NToI
+sandmark.util.exprtree.ExprTree: *java.util.HashMap* NToInfo
+sandmark.util.exprtree.ExprTree: *java.util.HashMap* BToG
+sandmark.util.exprtree.ExprTree: *java.util.HashMap* BToL
+sandmark.util.exprtree.ExprTree: *java.util.ArrayList* ilist
+sandmark.util.exprtree.ExprTree$GraphComparator: *java.util.HashMap* NToInfo
+sandmark.util.exprtree.ExprTree$NodeComparator: *java.util.HashMap* NToInfo
+sandmark.util.graph.graphview.EdgeDisplayInfo: *java.util.ArrayList* [private] myBends
+sandmark.util.graph.graphview.EdgeDisplayInfo: *java.util.ArrayList* [private] myOriginalBends
+sandmark.util.graph.graphview.GraphLayout: *java.util.HashMap* [protected] nodeMap
+sandmark.util.graph.graphview.GraphList: *java.util.ArrayList* [private] myGraphList
+sandmark.util.graph.graphview.LayeredDrawingLayout: *java.util.HashMap* [private] myNodes
+sandmark.util.graph.graphview.LayeredDrawingLayout$EdgeInfo: *java.util.ArrayList* [public] dummyNodes
+sandmark.util.graph.graphview.LayeredDrawingLayout$LayerInfo: *java.util.HashMap* [public] crossings
+sandmark.util.javagen.List: *java.util.LinkedList* list
+sandmark.util.newexprtree.BasicBlock: *java.util.ArrayList* instList
+sandmark.util.newexprtree.ComputeExprTree: *java.util.HashMap* IToN
+sandmark.util.newexprtree.ComputeExprTree: *java.util.HashMap* NToI
+sandmark.util.newexprtree.ComputeExprTree: *java.util.HashMap* NToInfo
+sandmark.util.newexprtree.ComputeExprTree: *java.util.HashMap* BToG
+sandmark.util.newexprtree.ComputeExprTree: *java.util.HashMap* BToL
+sandmark.util.newexprtree.ComputeExprTree: *java.util.ArrayList* ilist
+sandmark.util.newexprtree.ComputeExprTree$GraphComparator: *java.util.HashMap* NToInfo
+sandmark.util.newexprtree.ComputeExprTree$NodeComparator: *java.util.HashMap* NToInfo
+sandmark.util.newexprtree.DependencyGraph: *java.util.HashMap* BToG
+sandmark.util.newexprtree.DependencyGraph: *java.util.HashMap* NToG
+sandmark.util.newexprtree.DependencyGraph: *java.util.HashMap* GToN
+sandmark.util.newexprtree.ExprTree: *java.util.ArrayList* instructionList
+sandmark.util.newexprtree.ExprTree: *java.util.ArrayList* defs
+sandmark.util.newexprtree.ExprTree: *java.util.ArrayList* uses
+sandmark.util.newexprtree.ExprTree: *java.util.ArrayList* exprTreeNodeList
+sandmark.util.newexprtree.ExprTreeBlock: *java.util.ArrayList* exprTreeList
+sandmark.util.newexprtree.MethodExprTree: *java.util.ArrayList* exprTreeBlockList
+sandmark.util.newexprtree.MethodExprTree: *java.util.HashMap* BlockToETB
+sandmark.util.newgraph.AbstractStyle: *java.util.Map* [private] nodeAttrs
+sandmark.util.newgraph.Afs: *java.util.ArrayList* queue
+sandmark.util.newgraph.Afs: *java.util.HashMap* parent
+sandmark.util.newgraph.Afs: *java.util.HashSet* seen
+sandmark.util.newgraph.Afs: *java.util.Hashtable* [private] distance
+sandmark.util.newgraph.codec.PlantedPlaneCubicTree$NTreeNode: *java.util.List* kids
+sandmark.util.newgraph.codec.ReduciblePermutationGraph$Decoder: *java.util.TreeSet* [private] available
+sandmark.util.newgraph.DomNodeWrapper: *java.util.Set* bucket
+sandmark.util.newgraph.DomTree: *java.util.Map* [private] wrappers
+sandmark.util.newgraph.EdgelessGraph: *java.util.Map* [private] nodes
+sandmark.util.newgraph.EditableGraphStyle: *java.util.Map* [private] nodePairs
+sandmark.util.newgraph.EditableGraphStyle: *java.util.Map* [private] graphs
+sandmark.util.newgraph.EditableGraphStyle: *java.util.Map* [private] nodes
+sandmark.util.newgraph.ExtraStuffGraph: *java.util.Map* [private] nodes
+sandmark.util.newgraph.Graph: *java.util.Map* [private] reachableSets
+sandmark.util.newgraph.Graph$BreadthFirstIterator: *java.util.LinkedList* [private] nodes
+sandmark.util.newgraph.Graph$BreadthFirstIterator: *java.util.LinkedList* [private] iterators
+sandmark.util.newgraph.Graph$BreadthFirstIterator: *java.util.LinkedList* [private] marked
+sandmark.util.newgraph.Graph$DepthFirstIterator: *java.util.Stack* [private] stack
+sandmark.util.newgraph.Graph$DepthFirstIterator: *java.util.LinkedList* [private] marked
+sandmark.util.newgraph.Graph$PostOrderIterator: *java.util.Stack* [private] path
+sandmark.util.newgraph.Graph$PostOrderIterator: *java.util.LinkedList* [private] visited
+sandmark.util.newgraph.GraphImpl: *java.util.Map* [private] nodes
+sandmark.util.newgraph.MissingStuffGraph: *java.util.Map* [private] nodes
+sandmark.util.newgraph.Path: *java.util.Vector* path
+sandmark.util.newgraph.Path: *java.util.HashSet* nodes
+sandmark.util.newgraph.ReversedGraph: *java.util.Map* [private] reversedWrappers
+sandmark.util.newgraph.ReversedGraph: *java.util.Map* [private] wrappers
+sandmark.util.outliner.LiveVar: *java.util.ArrayList* defList
+sandmark.util.outliner.LiveVar: *java.util.ArrayList* useList
+sandmark.util.outliner.OutlineUtil: *java.util.ArrayList* [private] updateExTable
+sandmark.util.outliner.OutlineUtil: *java.util.ArrayList* [private] updateExType
+sandmark.util.outliner.OutlineUtil: *java.util.HashMap* typeTable
+sandmark.util.ParamReorder: *java.util.Map* old2new
+sandmark.util.ParamReorder: *java.util.Map* new2old
+sandmark.util.PriorityQueue: *java.util.TreeMap* int2object
+sandmark.util.PriorityQueue: *java.util.Hashtable* object2int
+sandmark.util.SparseVector: *java.util.Vector* elements
+sandmark.util.stealth.Cluster: *java.util.Vector* [private] methodMeasure
+sandmark.util.WeakBuffer: *java.util.WeakHashMap* [private] buffer
+sandmark.visualize.heap.HeapVisualizer: *java.util.LinkedList* buffer
+sandmark.watermark.addmethfield.AddMethField$Recognizer: *java.util.Vector* result
+sandmark.watermark.arboit.ArboitAlg$Recognizer: *java.util.Vector* result
+sandmark.watermark.arboit.Bundle: *java.util.ArrayList* [private] indexList
+sandmark.watermark.arboit.DynamicAA: *java.util.Vector* [private] result
+sandmark.watermark.arboit.trace.Tracer: *java.util.LinkedList* [private] list
+sandmark.watermark.arboit.trace.Tracer: *java.util.LinkedList* [private] callStackList
+sandmark.watermark.assignlv.AssignLV$Recognizer: *java.util.Vector* result
+sandmark.watermark.bogusexp.BogusExpression$Recognizer: *java.util.Vector* result
+sandmark.watermark.bogusinitializer.BogusInitializer$Recognizer: *java.util.Vector* result
+sandmark.watermark.bogusswitch.Bogus_Switch$Recognizer: *java.util.Vector* result
+sandmark.watermark.constantstring.ConstantString$Recognizer: *java.util.Vector* result
+sandmark.watermark.ct.embed.AddParameters: *java.util.HashSet* methodSet
+sandmark.watermark.ct.embed.AddParameters: *java.util.HashSet* changeSet
+sandmark.watermark.ct.embed.InsertionPoints: *java.util.ArrayList* insertionPoints
+sandmark.watermark.ct.encode.Encoder: *java.util.Hashtable* [private] fieldsRequiringCasts
+sandmark.watermark.ct.encode.ir.List: *java.util.LinkedList* list
+sandmark.watermark.ct.encode.ir2ir.AddCasts: *java.util.Hashtable* needCasts
+sandmark.watermark.ct.encode.storage.GlobalStorage: *java.util.Hashtable* store
+sandmark.watermark.ct.FindWindows$WindowState: *java.util.Hashtable* mWindows
+sandmark.watermark.ct.FindWindows$WindowState: *java.util.Set* mFilter
+sandmark.watermark.ct.recognize.Recognizer$Graphs: *java.util.HashSet* seen
+sandmark.watermark.ct.trace.callforest.AllPathsIterator: *java.util.Vector* forest
+sandmark.watermark.ct.trace.callforest.Build: *java.util.Vector* forest
+sandmark.watermark.ct.trace.callforest.Build: *java.util.Hashtable* root2Graph
+sandmark.watermark.ct.trace.callforest.Decorate: *java.util.Vector* forest
+sandmark.watermark.ct.trace.callforest.Forest: *java.util.Vector* forest
+sandmark.watermark.ct.trace.callforest.PathGenerator: *java.util.ArrayList* orderedPaths
+sandmark.watermark.ct.trace.Tracer: *java.util.LinkedList* [private] list
+sandmark.watermark.dm.DM$Relinker: *java.util.Vector* table
+sandmark.watermark.dm.DM$Relinker: *java.util.Vector* watermark
+sandmark.watermark.execpath.Analyzer: *java.util.Hashtable* [private] threadInfo
+sandmark.watermark.execpath.Analyzer$InstructionInfo: *java.util.List* succs
+sandmark.watermark.execpath.Analyzer$ThreadInfo: *java.util.Hashtable* instructionInfo
+sandmark.watermark.execpath.Analyzer$ThreadInfo: *java.util.ArrayList* nodeList
+sandmark.watermark.execpath.ConditionGenerator: *java.util.ArrayList* [private] storedTraceNodes
+sandmark.watermark.execpath.NodeIterator: *java.util.List* [private] offsetList
+sandmark.watermark.execpath.TraceGetter: *com.sun.jdi.event.EventSet* [private] exitEvent
+sandmark.watermark.execpath.TraceIndexer: *java.util.Hashtable* [private] bb2OffsetList
+sandmark.watermark.execpath.TraceIndexer: *java.util.Hashtable* [private] threadToLength
+sandmark.watermark.hattrick.HatTrick$Recognizer: *java.util.Vector* result
+sandmark.watermark.objectwm.Config: *java.util.Vector* [public] origVector
+sandmark.watermark.objectwm.Insertion: *java.util.Vector* [private] numMethods
+sandmark.watermark.objectwm.InstructionEmbedUtil: *java.util.Vector* [private] localtable
+sandmark.watermark.objectwm.ObjectWatermark$Recognizer: *java.util.Vector* result
+sandmark.watermark.objectwm.Profiler: *java.util.Hashtable* masterTable
+sandmark.watermark.steganography.Steganography$StegIterator: *java.util.List* wmarks
+sandmark.watermark.util.EveryBlockMarker$CountOrderer: *java.util.HashMap* [private] counts
+sandmark.watermark.util.MD5Marker: *java.util.HashMap* [private] instanceFields
+sandmark.watermark.util.StaticWriteParityMarker: *java.util.HashMap* [private] instanceFields
+sandmark.wizard.ChoiceRunner: *java.util.HashSet* [private] mListeners
+sandmark.wizard.decision.AllAlgsOnce: *java.util.HashSet* [private] mUsedAlgs
+sandmark.wizard.decision.priority.MaxPriorityStrategy: *java.util.ArrayList* [protected] mChoicePQ
+sandmark.wizard.DefaultAlgorithmProvider: *java.util.ArrayList* [private] mAlgs
+sandmark.wizard.DefaultObjectProvider: *java.util.ArrayList* [protected] mObjects
+sandmark.wizard.evaluation.FixedChange: *java.util.Hashtable* [private] mObjectToRunCount
+sandmark.wizard.evaluation.FixedChange: *java.util.HashSet* [private] mListeners
+sandmark.wizard.evaluation.hprof.Hprof: *java.util.HashMap* [private] mCPUInfo
+sandmark.wizard.evaluation.hprof.Hprof: *java.util.HashSet* [private] mListeners
+sandmark.wizard.evaluation.hprof.Hprof$CPU_Data: *java.util.ArrayList* [public] traceNumbers
+sandmark.wizard.evaluation.swmetric.MetricChange: *java.util.HashSet* [private] mListeners
+sandmark.wizard.executive.DAGWatermark: *java.util.ArrayList* [private] appliedWM
+sandmark.wizard.executive.RandomWatermark: *java.util.ArrayList* [private] myPostProhibits
+sandmark.wizard.executive.RandomWatermark: *java.util.ArrayList* [private] appliedWM
+sandmark.wizard.executive.RandomWatermark: *java.util.ArrayList* [private] watermarkers
+sandmark.wizard.modeling.dfa.DFA: *java.util.HashMap* [protected] rangeMap
+sandmark.wizard.modeling.dfa.DFAModel: *java.util.HashSet* [private] mListeners
+sandmark.wizard.modeling.dfa.DFAModel$ChoiceList: *java.util.ArrayList* [private] mChoices
+sandmark.wizard.modeling.lazydfa.LazyDFA: *java.util.ArrayList* [private] myStates
+sandmark.wizard.modeling.lazydfa.LazyDFA: *java.util.HashMap* [private] myRangeMap
+sandmark.wizard.modeling.lazydfa.LazyDFAModel: *java.util.HashSet* [private] mListeners
+sandmark.wizard.modeling.lazydfa.LazyDFANode: *java.util.HashMap* [private] ranList
+sandmark.wizard.modeling.lazydfa.LazyDFANode: *java.util.HashMap* [private] prohibList
+sandmark.wizard.modeling.lazydfa.LazyDFANode: *java.util.LinkedList* [private] reqList
+sandmark.wizard.modeling.lazydfa.LazyDFANode: *java.util.HashMap* [private] mRangeMap
+sandmark.wizard.modeling.set.CandidateSet: *java.util.Set* [private] unfilledPostreqs
+sandmark.wizard.modeling.set.CandidateSet: *java.util.Set* [private] unfilledPostsuggs
+sandmark.wizard.modeling.set.CandidateSet: *java.util.Set* [private] runProperties
+sandmark.wizard.modeling.set.CandidateSet: *java.util.List* [private] runnableAlgorithms
+sandmark.wizard.modeling.set.PriorityQueue: *java.util.LinkedList* [private] myList
+sandmark.wizard.modeling.set.SetModel: *java.util.HashMap* [private] objectToSet
+sandmark.wizard.modeling.set.SetModel: *java.util.ArrayList* [private] mObjects
+sandmark.wizard.modeling.set.SetModel: *java.util.HashSet* [private] mListeners
+sandmark.wizard.modeling.set.SetModel$ChoiceList: *java.util.ArrayList* [private] mChoices
+sandmark.wizard.modeling.wmdag.WMDAG: *java.util.HashSet* [private] mListeners
+sandmark.wizard.modeling.wmdag.WMDAGNode: *java.util.ArrayList* [private] currentPostprohibits
+
+ARRAYS REPORT
+=============
+
+sandmark.analysis.controlflowgraph.CallingCallGenerator: *org.apache.bcel.generic.Type[]* [private] mDestArgTypes [no-stores]
+sandmark.analysis.controlflowgraph.ExceptionEdge: *org.apache.bcel.generic.CodeExceptionGen[]* mCEGs
+sandmark.analysis.controlflowgraph.NullNENullCallGenerator: *org.apache.bcel.generic.Type[]* [private] mDestArgTypes [no-stores]
+sandmark.analysis.controlflowgraph.TopoMaintainingCallGenerator: *org.apache.bcel.generic.Type[]* [private] mDestArgTypes [no-stores]
+sandmark.analysis.stacksimulator.Context: *java.lang.StackTraceElement[]* [public] stack
+sandmark.analysis.stacksimulator.MergeContext: *sandmark.analysis.stacksimulator.StackData[][]* [private] stack
+sandmark.analysis.stacksimulator.MergeContext: *sandmark.analysis.stacksimulator.StackData[][]* [private] locals
+sandmark.analysis.stacksimulator.PushContext: *sandmark.analysis.stacksimulator.StackData[]* [private] data [no-stores]
+sandmark.analysis.stacksimulator.ReplaceStackContext: *sandmark.analysis.stacksimulator.StackData[]* [private] data [no-stores]
+sandmark.analysis.stacksimulator.ReplaceVarContext: *sandmark.analysis.stacksimulator.StackData[]* [private] data [no-stores]
+sandmark.analysis.stacksimulator.UndefinedContext: *sandmark.analysis.stacksimulator.StackData[][]* [private] stack
+sandmark.analysis.stacksimulator.UndefinedContext: *sandmark.analysis.stacksimulator.StackData[][]* [private] locals
+sandmark.birthmark.DynamicBirthMarkParameters: *java.lang.String[]* [public] suspectArgv
+sandmark.birthmark.DynamicBirthMarkParameters: *java.lang.String[]* [public] originalArgv
+sandmark.birthmark.windows.WindowState: *sandmark.birthmark.windows.Window[]* mCurrentWindows
+sandmark.birthmark.wpp.WPP: *sandmark.birthmark.wpp.TracePoint[]* annotationPoints [no-stores] [hashcode]
+sandmark.diff.DiffAlgorithm: *sandmark.diff.Result[]* [protected] results [no-stores]
+sandmark.gui.AppTree$TreeViewState: *javax.swing.tree.TreePath[]* selectionPaths [no-stores]
+sandmark.gui.ClassPropertyInfo: *sandmark.program.Class[]* mSelectedClasses [no-stores]
+sandmark.gui.MethodPropertyInfo: *sandmark.program.Method[]* mSelectedMethods [no-stores]
+sandmark.gui.MetricTableModel: *sandmark.metric.Metric[]* [private] mMetrics [no-stores]
+sandmark.gui.ObfDialog$ObfListModel: *java.lang.String[]* [private] applicableAlgShortNames
+sandmark.gui.StatTableModel: *sandmark.gui.StatTableModel$Stat[]* [private] stats
+sandmark.newstatistics.StatisticsRecord: *sandmark.program.Method[]* [private] myMethods [mod]
+sandmark.obfuscate.ArrayObfuscation.IntArraySplitter: *sandmark.program.Method[]* [private] methods1 [mod]
+sandmark.obfuscate.ArrayObfuscation.IntArraySplitter: *org.apache.bcel.generic.Instruction[]* in [mod]
+sandmark.obfuscate.ArrayObfuscation.IntArraySplitter: *org.apache.bcel.generic.InstructionHandle[]* to_del [mod]
+sandmark.obfuscate.boolsplitter.BoolSplitter: *org.apache.bcel.generic.InstructionHandle[]* ih [no-stores]
+sandmark.obfuscate.dynamicinliner.DynamicInliner: *org.apache.bcel.generic.InstructionHandle[]* [private] ihs
+sandmark.obfuscate.instructionordering.InstructionOrdering: *org.apache.bcel.generic.InstructionHandle[]* [public] ih [no-stores]
+sandmark.obfuscate.instructionordering.InstructionOrdering: *org.apache.bcel.generic.CodeExceptionGen[]* exceptions [no-stores]
+sandmark.util.ArrayIterator: *java.lang.Object[]* [private] a [no-stores]
+sandmark.util.exec.Breakpoint: *java.lang.String[]* [public] excludeClasses
+sandmark.util.exec.EventHandler: *java.lang.String[]* [public] excludeClasses [no-stores]
+sandmark.util.exec.EventHandler: *java.lang.String[]* [public] includeClasses [no-stores]
+sandmark.util.exec.Overseer: *java.lang.String[]* [protected] excludeClasses [no-stores]
+sandmark.util.exec.Overseer: *java.lang.String[]* [protected] includeClasses [no-stores]
+sandmark.util.exec.Overseer: *java.lang.String[]* argv [no-stores]
+sandmark.util.exprtree.DependencyGraph: *org.apache.bcel.generic.InstructionHandle[]* [public] ih [no-stores]
+sandmark.util.exprtree.DependencyGraph: *org.apache.bcel.generic.CodeExceptionGen[]* exceptions [no-stores]
+sandmark.util.exprtree.ExprTree: *org.apache.bcel.generic.InstructionHandle[]* ih [no-stores]
+sandmark.util.javagen.Class: *java.lang.String[]* attributes
+sandmark.util.javagen.Field: *java.lang.String[]* attributes [no-stores]
+sandmark.util.javagen.Method: *java.lang.String[]* attributes [no-stores]
+sandmark.util.MultiIter: *java.util.Iterator[]* enums
+sandmark.util.MultiIter: *java.lang.Object[]* elmts
+sandmark.util.newexprtree.ComputeExprTree: *org.apache.bcel.generic.InstructionHandle[]* ih [no-stores]
+sandmark.util.newexprtree.DependencyGraph: *org.apache.bcel.generic.InstructionHandle[]* [public] ih [no-stores]
+sandmark.util.newexprtree.DependencyGraph: *org.apache.bcel.generic.CodeExceptionGen[]* exceptions [no-stores]
+sandmark.util.newexprtree.ExprTreeCFG: *sandmark.util.newexprtree.ExceptionInfo[]* [private] exceptionInfo
+sandmark.util.newexprtree.InvokeExpr: *sandmark.util.newexprtree.ValueExpr[]* [private] args [no-stores]
+sandmark.util.newexprtree.NewArrayExpr: *sandmark.util.newexprtree.ValueExpr[]* [private] counts [no-stores]
+sandmark.util.newexprtree.SwitchExpr: *org.apache.bcel.generic.InstructionHandle[]* [private] handleTargets [no-stores]
+sandmark.util.newexprtree.SwitchExpr: *sandmark.util.newexprtree.Expr[]* [private] exprTargets [no-stores]
+sandmark.util.newgraph.DomTree: *sandmark.util.newgraph.DomNodeWrapper[]* [private] nodes [arraycopy]
+sandmark.util.newgraph.EdgeSet: *sandmark.util.newgraph.EdgeWrapper[]* [private] edgeArray [arraycopy]
+sandmark.util.newgraph.EdgeSet: *sandmark.util.newgraph.NodeWrapper[]* [private] sourceList [arraycopy]
+sandmark.util.newgraph.EdgeSet: *sandmark.util.newgraph.NodeWrapper[]* [private] sinkList [arraycopy]
+sandmark.util.newgraph.EdgeSet$WrapperListIterator: *sandmark.util.newgraph.NodeWrapper[]* [private] list [no-stores]
+sandmark.util.newgraph.EdgeWrapperArrayIterator: *sandmark.util.newgraph.EdgeWrapper[]* [private] a [no-stores]
+sandmark.util.newgraph.TreeNodeWrapper: *sandmark.util.newgraph.EdgeWrapper[]* down [arraycopy]
+sandmark.util.Options: *java.lang.String[]* [private] key [mod]
+sandmark.util.Options: *java.lang.String[]* [private] var [mod]
+sandmark.util.Options: *java.lang.String[]* [private] dflt [mod]
+sandmark.util.Options: *java.lang.String[]* [private] descr [mod]
+sandmark.util.Options: *java.lang.String[]* [private] value [mod]
+sandmark.util.outliner.OutlineUtil: *org.apache.bcel.generic.InstructionHandle[]* [private] sPC [mod]
+sandmark.util.outliner.OutlineUtil: *org.apache.bcel.generic.InstructionHandle[]* [private] ePC [mod]
+sandmark.util.outliner.OutlineUtil: *org.apache.bcel.generic.InstructionHandle[]* [private] hPC [mod]
+sandmark.util.outliner.OutlineUtil: *org.apache.bcel.generic.ObjectType[]* [private] exctype [mod]
+sandmark.util.ParamReorder: *org.apache.bcel.generic.Type[]* [private] oldAT [arraycopy]
+sandmark.util.ParamReorder: *org.apache.bcel.generic.Type[]* [private] newAT [arraycopy]
+sandmark.util.primitivepromotion.ParamPromoter: *org.apache.bcel.generic.Type[]* oldAT
+sandmark.util.primitivepromotion.ParamPromoter: *org.apache.bcel.generic.Type[]* newAT
+sandmark.util.primitivepromotion.ReturnPromoter: *org.apache.bcel.generic.Type[]* [private] argTypes
+sandmark.util.SignatureBludgeoner: *org.apache.bcel.generic.Type[]* oldAT
+sandmark.util.SignatureBludgeoner: *org.apache.bcel.generic.Type[]* [final] newAT
+sandmark.watermark.ct.embed.AddParameters: *java.lang.String[][]* storageCreators
+sandmark.watermark.ct.embed.AddParameters: *sandmark.util.MethodID[]* methods
+sandmark.watermark.ct.embed.Distribute: *sandmark.watermark.ct.trace.TracePoint[]* traceData
+sandmark.watermark.ct.embed.Distribute: *sandmark.watermark.ct.trace.TracePoint[]* newTraceData
+sandmark.watermark.ct.embed.Distribute: *sandmark.watermark.ct.embed.Distribute$TraceLocation[]* traceLocations
+sandmark.watermark.ct.embed.Distribute: *sandmark.util.MethodID[]* allMeths
+sandmark.watermark.ct.embed.Distribute: *sandmark.watermark.ct.embed.EmbedData[]* embedData
+sandmark.watermark.ct.embed.EmbedData: *sandmark.util.MethodID[]* [public] methods [no-stores]
+sandmark.watermark.ct.embed.InsertionPoint: *sandmark.util.MethodID[]* [public] methods [no-stores]
+sandmark.watermark.ct.embed.InsertionPoints: *sandmark.util.MethodID[]* allMeth [no-stores]
+sandmark.watermark.ct.embed.InsertStorageCreators: *java.lang.String[][]* storageCreators [no-stores]
+sandmark.watermark.ct.embed.ReplaceMarkCalls: *sandmark.watermark.ct.embed.EmbedData[]* embedData
+sandmark.watermark.ct.encode.Encoder: *sandmark.util.newgraph.MutableGraph[]* [private] subGraphs
+sandmark.watermark.ct.encode.ir.Build: *sandmark.util.newgraph.MutableGraph[]* [public] subGraphs
+sandmark.watermark.ct.encode.ir2ir.AddFormals: *java.lang.String[][]* storageCreators [no-stores]
+sandmark.watermark.ct.encode.ir2ir.Protect: *java.lang.String[]* protectionMethods
+sandmark.watermark.ct.encode.Split: *sandmark.util.newgraph.MutableGraph[]* [public] subGraphs
+sandmark.watermark.ct.FindWindows$WindowState: *sandmark.watermark.ct.FindWindows$Window[]* mCurrentWindows
+sandmark.watermark.ct.trace.callforest.Build: *sandmark.watermark.ct.trace.TracePoint[]* annotationPoints [arraycopy]
+sandmark.watermark.ct.trace.callforest.Build: *sandmark.watermark.ct.encode.storage.StorageClass[]* storageClasses [arraycopy]
+sandmark.watermark.ct.trace.callforest.Decorate: *sandmark.watermark.ct.encode.storage.StorageClass[]* storageClasses [arraycopy]
+sandmark.watermark.ct.trace.callforest.Forest: *sandmark.watermark.ct.trace.TracePoint[]* annotationPoints
+sandmark.watermark.ct.trace.TracePoint: *sandmark.util.StackFrame[]* [public] stack [no-stores] [hashcode]
+sandmark.watermark.dm.DM$Relinker: *sandmark.analysis.controlflowgraph.BasicBlock[]* blocks [no-stores]
+sandmark.watermark.DynamicRecognizeParameters: *java.lang.String[]* [public] programCmdLine [no-stores]
+sandmark.watermark.DynamicTraceParameters: *java.lang.String[]* [public] programCmdLine [no-stores]
+sandmark.watermark.execpath.Analyzer$ThreadInfo: *sandmark.watermark.execpath.TraceNode[]* nodes [no-stores]
+sandmark.watermark.execpath.ConditionGenerator: *org.apache.bcel.generic.Type[]* [private] types
+sandmark.watermark.execpath.ContextCodeGen: *java.util.Iterator[]* [protected] mGens [mod]
+sandmark.watermark.execpath.TraceNode: *sandmark.watermark.execpath.VarValue[]* [private] varvalues [no-stores]
+sandmark.watermark.gtw.GTWRecognizer: *sandmark.watermark.gtw.GTWRecognizer$MarkedMethod[]* [private] mMarkedMethods [mod]
+sandmark.watermark.gtw.GTWRecognizer$MarkedMethod: *java.math.BigInteger[]* marks [no-stores]
+sandmark.watermark.objectwm.CodeBook: *java.lang.String[][][]* inInstr
+sandmark.watermark.objectwm.CodeBook: *java.lang.String[][][]* outInstr
+sandmark.watermark.objectwm.CodeBook: *java.lang.String[][]* embedInstr
+sandmark.watermark.objectwm.CodeBook: *java.lang.String[][]* nullifyInstr
+sandmark.watermark.objectwm.CodeBook: *java.lang.String[][]* vectorGrp
+sandmark.watermark.objectwm.MethodCopyUtil: *org.apache.bcel.generic.InstructionHandle[]* [private] targetsObj
+sandmark.watermark.objectwm.MethodCopyUtil: *org.apache.bcel.generic.Type[]* [private] mcopy_arg_types
+sandmark.watermark.objectwm.MethodCopyUtil: *java.lang.String[]* [private] mcopy_arg_names
+sandmark.watermark.objectwm.MethodCopyUtil: *org.apache.bcel.generic.InstructionHandle[]* [private] mcopy_instrHandles
+sandmark.watermark.objectwm.SubstitutionUtil: *org.apache.bcel.generic.InstructionHandle[]* targetsObj
+sandmark.wizard.executive.DAGWatermark: *java.lang.String[]* [private] watermarks [mod]
+sandmark.wizard.executive.DAGWatermark: *sandmark.Algorithm[]* [private] watermarkers [mod]
+sandmark.wizard.executive.RandomWatermark: *java.lang.String[]* [private] watermarks [mod]
+sandmark.wizard.modeling.lazydfa.LazyDFAModel$DFAEdgeIterator: *sandmark.wizard.modeling.lazydfa.LazyDFAEdge[]* [private] mEdges [no-stores]
+sandmark.wizard.modeling.lazydfa.LazyDFANode: *sandmark.wizard.modeling.lazydfa.LazyDFAEdge[]* [private] myEdges [no-stores]
+sandmark.wizard.modeling.wmdag.WMDAG: *sandmark.Algorithm[]* seq
+
+N-CYCLES
+========
+[sandmark/program/ConstantPoolGen, sandmark/program/Class]
+[sandmark/util/newgraph/EdgeWrapper, sandmark/util/newgraph/TreeNodeWrapper, sandmark/util/newgraph/DomNodeWrapper]
+[sandmark/analysis/controlflowgraph/BasicBlock, sandmark/analysis/controlflowgraph/MethodCFG]
+[sandmark/util/newgraph/EditableGraphStyle$EdgeAttributes, sandmark/util/newgraph/EditableGraphStyle$NodeAttributes, sandmark/util/newgraph/EditableGraphStyle]
+[sandmark/util/newgraph/ImplNodeAttributes, sandmark/util/newgraph/ImplNodeWrapper]
+[sandmark/analysis/defuse/ReachingDefs$CachedDef, sandmark/analysis/defuse/ReachingDefs]
+[sandmark/util/InstructionTree$BTN, sandmark/util/InstructionTree]
+[sandmark/util/exec/EventThread, sandmark/util/exec/Overseer]
+[sandmark/util/exprtree/ExprTree, sandmark/util/exprtree/DependencyGraph]
+[sandmark/util/graph/graphview/GraphZoomSlider, sandmark/util/graph/graphview/GraphLayout, sandmark/util/graph/graphview/GraphPanel, sandmark/util/graph/graphview/GraphViewFrame]
+[sandmark/gui/StringPropertyInfo$Widget, sandmark/gui/StringPropertyInfo]
+[sandmark/gui/StaticRecognizePanel, sandmark/gui/StaticEmbedPanel, sandmark/gui/StaticWatermarkPanel]
+[sandmark/diff/DiffAlgorithm, sandmark/gui/diff/DiffFrame$BytecodeEP, sandmark/gui/diff/ResultsPane, sandmark/gui/diff/DiffFrame]
+[sandmark/gui/ObfDialog$ObfListModel, sandmark/gui/ObfDialog]
+[sandmark/gui/StatTableModel$StatCalculator, sandmark/gui/StatTableModel]
+[sandmark/util/newexprtree/ExprTreeBlock, sandmark/analysis/slicingtools/MethodSlice]
+[sandmark/gui/MetricTableModel$MetricCalculator, sandmark/gui/MetricTableModel]
+[sandmark/gui/DynamicRecognizePanel, sandmark/gui/DynamicTracePanel, sandmark/gui/DynamicEmbedPanel, sandmark/gui/DynamicWatermarkPanel]
+[sandmark/watermark/ct/recognize/Recognizer$DecodedGraph, sandmark/watermark/ct/recognize/Recognizer$Watermarks]
+[sandmark/birthmark/wpp/guard, sandmark/birthmark/wpp/rule]
+[sandmark/wizard/modeling/set/SetModel, sandmark/wizard/modeling/set/SetModel$SetModelIterator, sandmark/wizard/modeling/set/SetModel$ChoiceList]
+[sandmark/watermark/objectwm/VectorExtraction, sandmark/watermark/objectwm/ObjectWatermark]
+[sandmark/watermark/objectwm/MethodCopyUtil, sandmark/watermark/objectwm/InstructionEmbedUtil, sandmark/watermark/objectwm/Insertion]
+[sandmark/util/newexprtree/BasicBlock, sandmark/util/newexprtree/ExprTreeCFG]
+[sandmark/wizard/modeling/wmdag/WMDAG, sandmark/wizard/executive/DAGWatermark]
+[sandmark/watermark/ct/embed/ReplaceWMClass, sandmark/watermark/ct/embed/Distribute, sandmark/watermark/ct/embed/Embedder]

@@ -1,0 +1,8 @@
+# Java indentation scheme
+
+$java-style=true
+$indent-brackets=false
+$indent-spaces=4
+$brackets=attach
+$indent-switches=false
+

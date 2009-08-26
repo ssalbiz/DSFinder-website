@@ -1,0 +1,58 @@
+Developer/Maintainer:
+André Simon <andre.simon1 at gmx de>
+
+Developer of the Artistic Style classes:
+Tal Davidson <davidsont at bigfoot com>
+
+Developer of the DirStream class:
+Benjamin Kaufmann <hume at c-plusplus de>
+
+Developer of Regex classes:
+Jeffery Stuart <mail_address>
+
+Developer of xterm 256 colour best matching functions:
+Wolfgang Frisch <wf at frexx de>
+
+
+CLI translators:
+French: Gauthier S. (help)
+Spanish: David Villa <dvilla@gmx.net> (help + manual (README_ES) )
+
+GUI translators:
+French: Alexandre Bonneau <acid@cpm-fr.com>
+Russian: Eugene A. Simonenko <easimonenko@mail.ru>
+Turkish: Orhan Biyiklioglu <orhanb@cs.itu.edu.tr>
+Czech: Petr Sladek <http://slady.net>
+Spanish: Ramirez Luelmo Sergio Ivan <hey_sergio@lycos.com>
+Norwegian: Stein Morten Petersen <stein.petersen@siemens.com>
+Portuguese: António Cruz <mail.me@netcabo.pt>
+Simplified Chinese: Gu Mingqiu <gumingqiu@dftl.dressingsim.com>
+Italian: Tommaso Loreto <t.loreto@fastwebnet.it>
+Romanian: Fanache Alex (aka Birkoff) <php4@as.ro>
+Dutch: Wim Rosseel
+Korean: Ji Min Kyoo
+Estonian: Tauno Talimaa <tauntz@ut.ee>
+Brazilian Portuguese: Yorick
+
+Authors of language definitions:
+Christian Perle (Povray)
+Andreas Schoenberg (AWK)
+Olivier Girondel (Pike)
+Christian Siefkes (NG Relax Compact)
+Paul Connell (Coldfusion MX)
+Peter Bartke (Miranda)
+
+Authors of colour themes:
+David (matlab)
+Mark Hessling (THE)
+Alexandre Bonneau (Acid)
+Sunrise Telephone Systems Ltd. (ide-xcode)
+
+Authors of patches:
+Marc Duponcheel (gcc 3.x compability)
+Jonas Fonseca (Ruby language definition)
+Georg Young (gcc 3.x compability)
+weasel@debian.org (suppress compile warnings of Debian package)
+Jeremy Weinberger (RTF bugfix)
+Alan Briolat (shebang recognition with stdin stream)
+Jeremy Bopp (makefile prefix/destdir variables)

@@ -1,0 +1,759 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.hibernate.cache.ReadWriteCache$Item: *java.lang.Object* [private] [final] value
+org.hibernate.collection.PersistentBag$SimpleAdd: *java.lang.Object* [private] value
+org.hibernate.collection.PersistentIndexedElementHolder$IndexedValue: *java.lang.Object* value
+org.hibernate.collection.PersistentList$Add: *java.lang.Object* [private] value
+org.hibernate.collection.PersistentList$Set: *java.lang.Object* [private] value
+org.hibernate.collection.PersistentList$SimpleAdd: *java.lang.Object* [private] value
+org.hibernate.collection.PersistentList$SimpleRemove: *java.lang.Object* [private] value
+org.hibernate.collection.PersistentMap$Put: *java.lang.Object* [private] value
+org.hibernate.collection.PersistentSet$SimpleAdd: *java.lang.Object* [private] value
+org.hibernate.collection.PersistentSet$SimpleRemove: *java.lang.Object* [private] value
+org.hibernate.criterion.IdentifierEqExpression: *java.lang.Object* [private] [final] value
+org.hibernate.criterion.IlikeExpression: *java.lang.Object* [private] [final] value
+org.hibernate.criterion.SimpleExpression: *java.lang.Object* [private] [final] value
+org.hibernate.criterion.SimpleSubqueryExpression: *java.lang.Object* [private] value
+org.hibernate.engine.EntityUniqueKey: *java.lang.Object* [private] [final] key
+org.hibernate.engine.TypedValue: *java.lang.Object* [private] [final] value
+org.hibernate.engine.VersionValue: *java.lang.Object* [private] [final] value
+org.hibernate.exception.NestableException: *java.lang.Throwable* [private] cause
+org.hibernate.exception.NestableRuntimeException: *java.lang.Throwable* [private] cause
+org.hibernate.hql.ast.DetailedSemanticException: *java.lang.Throwable* [private] cause
+org.hibernate.proxy.AbstractLazyInitializer: *java.lang.Object* [private] target
+org.hibernate.util.IdentityMap$IdentityKey: *java.lang.Object* [private] key
+org.hibernate.util.IdentityMap$IdentityMapEntry: *java.lang.Object* [private] key
+org.hibernate.util.IdentityMap$IdentityMapEntry: *java.lang.Object* [private] value
+org.hibernate.util.SingletonIterator: *java.lang.Object* [private] value
+
+Linked List-like Data Structures:
+org.hibernate.action.EntityUpdateAction: *java.lang.Object* [private] [final] previousVersion
+org.hibernate.action.EntityUpdateAction: *java.lang.Object* [private] nextVersion
+org.hibernate.engine.JoinSequence: [private] next
+org.hibernate.impl.IteratorImpl: *java.lang.Object* [private] nextResult
+
+Parent- and outer-type Data Structures:
+org.hibernate.hql.ast.tree.FromClause: [private] parentFromClause
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.hibernate.hql.ast.tree.FromElement: [private] origin
+org.hibernate.hql.classic.QueryTranslatorImpl: [private] superQuery
+Non-Object Fields:
+org.hibernate.mapping.DenormalizedTable: *org.hibernate.mapping.Table* [private] [final] includedTable
+org.hibernate.mapping.Subclass: *org.hibernate.mapping.PersistentClass* [private] superclass
+org.hibernate.type.AdaptedImmutableType: *org.hibernate.type.NullableType* [private] [final] mutableType
+java.lang.Object Fields:
+org.hibernate.action.EntityAction: *java.lang.Object* [private] [final] instance
+org.hibernate.action.EntityDeleteAction: *java.lang.Object* [private] [final] version
+org.hibernate.action.EntityInsertAction: *java.lang.Object* [private] version
+org.hibernate.action.EntityInsertAction: *java.lang.Object* [private] cacheEntry
+org.hibernate.action.EntityUpdateAction: *java.lang.Object* [private] [final] rowId
+org.hibernate.action.EntityUpdateAction: *java.lang.Object* [private] cacheEntry
+org.hibernate.cache.AbstractJndiBoundCacheProvider: *java.lang.Object* [private] cache
+org.hibernate.cache.entry.CacheEntry: *java.lang.Object* [private] [final] version
+org.hibernate.cache.ReadWriteCache$Item: *java.lang.Object* [private] [final] version
+org.hibernate.cache.ReadWriteCache$Lock: *java.lang.Object* [private] [final] version
+org.hibernate.collection.AbstractPersistentCollection: *java.lang.Object* [private] owner
+org.hibernate.collection.PersistentArrayHolder: *java.lang.Object* [protected] array
+org.hibernate.collection.PersistentList$Remove: *java.lang.Object* [private] old
+org.hibernate.collection.PersistentList$Set: *java.lang.Object* [private] old
+org.hibernate.collection.PersistentMap$Put: *java.lang.Object* [private] index
+org.hibernate.collection.PersistentMap$Put: *java.lang.Object* [private] old
+org.hibernate.collection.PersistentMap$Remove: *java.lang.Object* [private] index
+org.hibernate.collection.PersistentMap$Remove: *java.lang.Object* [private] old
+org.hibernate.criterion.BetweenExpression: *java.lang.Object* [private] [final] lo
+org.hibernate.criterion.BetweenExpression: *java.lang.Object* [private] [final] hi
+org.hibernate.criterion.Example: *java.lang.Object* [private] [final] entity
+org.hibernate.engine.CollectionLoadContext$LoadingCollectionEntry: *java.lang.Object* [final] resultSetId
+org.hibernate.engine.EntityEntry: *java.lang.Object* [private] version
+org.hibernate.engine.EntityEntry: *java.lang.Object* [private] [final] rowId
+org.hibernate.engine.ForeignKeys$Nullifier: *java.lang.Object* [private] [final] self
+org.hibernate.engine.QueryParameters: *java.lang.Object* [private] optionalObject
+org.hibernate.event.def.FlushVisitor: *java.lang.Object* [private] owner
+org.hibernate.event.DeleteEvent: *java.lang.Object* [private] object
+org.hibernate.event.EvictEvent: *java.lang.Object* [private] object
+org.hibernate.event.FlushEntityEvent: *java.lang.Object* [private] entity
+org.hibernate.event.LoadEvent: *java.lang.Object* [private] instanceToLoad
+org.hibernate.event.LoadEvent: *java.lang.Object* [private] result
+org.hibernate.event.LockEvent: *java.lang.Object* [private] object
+org.hibernate.event.MergeEvent: *java.lang.Object* [private] original
+org.hibernate.event.MergeEvent: *java.lang.Object* [private] entity
+org.hibernate.event.MergeEvent: *java.lang.Object* [private] result
+org.hibernate.event.PersistEvent: *java.lang.Object* [private] object
+org.hibernate.event.PostDeleteEvent: *java.lang.Object* [private] entity
+org.hibernate.event.PostInsertEvent: *java.lang.Object* [private] entity
+org.hibernate.event.PostLoadEvent: *java.lang.Object* [private] entity
+org.hibernate.event.PostUpdateEvent: *java.lang.Object* [private] entity
+org.hibernate.event.PreDeleteEvent: *java.lang.Object* [private] entity
+org.hibernate.event.PreInsertEvent: *java.lang.Object* [private] entity
+org.hibernate.event.PreLoadEvent: *java.lang.Object* [private] entity
+org.hibernate.event.PreUpdateEvent: *java.lang.Object* [private] entity
+org.hibernate.event.RefreshEvent: *java.lang.Object* [private] object
+org.hibernate.event.ReplicateEvent: *java.lang.Object* [private] object
+org.hibernate.event.SaveOrUpdateEvent: *java.lang.Object* [private] object
+org.hibernate.event.SaveOrUpdateEvent: *java.lang.Object* [private] entity
+org.hibernate.impl.AbstractQueryImpl: *java.lang.Object* [private] optionalObject
+org.hibernate.impl.CollectionFilterImpl: *java.lang.Object* [private] collection
+org.hibernate.impl.IteratorImpl: *java.lang.Object* [private] currentResult
+org.hibernate.proxy.BasicLazyInitializer: *java.lang.Object* [private] replacement
+org.hibernate.transaction.WebSphereExtendedJTATransactionLookup$TransactionManagerAdapter$TransactionAdapter: *java.lang.Object* [private] [final] extendedJTATransaction
+org.hibernate.transform.DistinctRootEntityResultTransformer$Identity: *java.lang.Object* [final] entity
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.hibernate.hql.ast.tree.FromClause: *java.util.Set* [private] childFromClauses
+org.hibernate.impl.SessionImpl: *java.util.Map* [private] childSessionsByEntityMode
+==
+org.hibernate.action.BulkOperationCleanupAction: *java.util.Set* [private] [final] affectedEntityNames
+org.hibernate.action.BulkOperationCleanupAction: *java.util.Set* [private] [final] affectedCollectionRoles
+org.hibernate.cache.FilterKey: *java.util.Map* [private] filterParameters
+org.hibernate.cache.HashtableCache: *java.util.Map* [private] [final] hashtable
+org.hibernate.cache.QueryKey: *java.util.Map* [private] [final] namedParameters
+org.hibernate.cache.QueryKey: *java.util.Set* [private] [final] filters
+org.hibernate.cache.TreeCacheProvider$TransactionManagerLookupAdaptor: *java.util.Properties* [private] [final] props
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] classes
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] imports
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] collections
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] tables
+org.hibernate.cfg.Configuration: *java.util.List* [protected] auxiliaryDatabaseObjects
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] namedQueries
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] namedSqlQueries
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] sqlResultSetMappings
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] filterDefinitions
+org.hibernate.cfg.Configuration: *java.util.List* [protected] secondPasses
+org.hibernate.cfg.Configuration: *java.util.List* [protected] propertyReferences
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] extendsQueue
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] tableNameBinding
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] columnNameBindingPerTable
+org.hibernate.cfg.Configuration: *java.util.Properties* [private] properties
+org.hibernate.cfg.Configuration: *java.util.Map* [protected] typeDefs
+org.hibernate.cfg.HbmBinder$1: *java.util.Set* [private] [final] val$set
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] classes
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] collections
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] tables
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] queries
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] sqlqueries
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] resultSetMappings
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] typeDefs
+org.hibernate.cfg.Mappings: *java.util.List* [private] [final] secondPasses
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] imports
+org.hibernate.cfg.Mappings: *java.util.List* [private] [final] propertyReferences
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] filterDefinitions
+org.hibernate.cfg.Mappings: *java.util.List* [private] [final] auxiliaryDatabaseObjects
+org.hibernate.cfg.Mappings: *java.util.Map* [private] [final] extendsQueue
+org.hibernate.cfg.Mappings: *java.util.Map* [protected] [final] columnNameBindingPerTable
+org.hibernate.cfg.Mappings: *java.util.Map* [protected] [final] tableNameBinding
+org.hibernate.cfg.Mappings$ColumnNames: *java.util.Map* [public] logicalToPhysical
+org.hibernate.cfg.Mappings$ColumnNames: *java.util.Map* [public] physicalToLogical
+org.hibernate.cfg.Settings: *java.util.Map* [private] querySubstitutions
+org.hibernate.collection.AbstractPersistentCollection: *java.util.List* [private] operationQueue
+org.hibernate.collection.AbstractPersistentCollection$ListProxy: *java.util.List* [private] [final] list
+org.hibernate.collection.AbstractPersistentCollection$SetProxy: *java.util.Collection* [final] set
+org.hibernate.collection.PersistentArrayHolder: *java.util.List* [private] tempList
+org.hibernate.collection.PersistentBag: *java.util.List* [protected] bag
+org.hibernate.collection.PersistentBag$Clear: *org.hibernate.collection.PersistentBag* [private] [final] this$0
+org.hibernate.collection.PersistentBag$SimpleAdd: *org.hibernate.collection.PersistentBag* [private] [final] this$0
+org.hibernate.collection.PersistentIdentifierBag: *java.util.List* [protected] values
+org.hibernate.collection.PersistentIdentifierBag: *java.util.Map* [protected] identifiers
+org.hibernate.collection.PersistentList: *java.util.List* [protected] list
+org.hibernate.collection.PersistentList$Add: *org.hibernate.collection.PersistentList* [private] [final] this$0
+org.hibernate.collection.PersistentList$Clear: *org.hibernate.collection.PersistentList* [private] [final] this$0
+org.hibernate.collection.PersistentList$Remove: *org.hibernate.collection.PersistentList* [private] [final] this$0
+org.hibernate.collection.PersistentList$Set: *org.hibernate.collection.PersistentList* [private] [final] this$0
+org.hibernate.collection.PersistentList$SimpleAdd: *org.hibernate.collection.PersistentList* [private] [final] this$0
+org.hibernate.collection.PersistentList$SimpleRemove: *org.hibernate.collection.PersistentList* [private] [final] this$0
+org.hibernate.collection.PersistentMap: *java.util.Map* [protected] map
+org.hibernate.collection.PersistentMap$Clear: *org.hibernate.collection.PersistentMap* [private] [final] this$0
+org.hibernate.collection.PersistentMap$EntryIteratorProxy: *org.hibernate.collection.PersistentMap* [private] [final] this$0
+org.hibernate.collection.PersistentMap$EntrySetProxy: *java.util.Set* [private] [final] set
+org.hibernate.collection.PersistentMap$EntrySetProxy: *org.hibernate.collection.PersistentMap* [private] [final] this$0
+org.hibernate.collection.PersistentMap$MapEntryProxy: *org.hibernate.collection.PersistentMap* [private] [final] this$0
+org.hibernate.collection.PersistentMap$Put: *org.hibernate.collection.PersistentMap* [private] [final] this$0
+org.hibernate.collection.PersistentMap$Remove: *org.hibernate.collection.PersistentMap* [private] [final] this$0
+org.hibernate.collection.PersistentSet: *java.util.Set* [protected] set
+org.hibernate.collection.PersistentSet: *java.util.List* [protected] tempList
+org.hibernate.collection.PersistentSet$Clear: *org.hibernate.collection.PersistentSet* [private] [final] this$0
+org.hibernate.collection.PersistentSet$SimpleAdd: *org.hibernate.collection.PersistentSet* [private] [final] this$0
+org.hibernate.collection.PersistentSet$SimpleRemove: *org.hibernate.collection.PersistentSet* [private] [final] this$0
+org.hibernate.collection.PersistentSortedMap$SortedSubMap: *java.util.SortedMap* submap
+org.hibernate.collection.PersistentSortedMap$SortedSubMap: *org.hibernate.collection.PersistentSortedMap* [private] [final] this$0
+org.hibernate.collection.PersistentSortedSet$SubSetProxy: *org.hibernate.collection.PersistentSortedSet* [private] [final] this$0
+org.hibernate.connection.DriverManagerConnectionProvider: *java.util.Properties* [private] connectionProps
+org.hibernate.connection.DriverManagerConnectionProvider: *java.util.ArrayList* [private] [final] pool
+org.hibernate.context.JTASessionContext: *java.util.Map* [private] currentSessionMap
+org.hibernate.criterion.Example: *java.util.Set* [private] [final] excludedProperties
+org.hibernate.criterion.Junction: *java.util.List* [private] [final] criteria
+org.hibernate.criterion.ProjectionList: *java.util.List* [private] elements
+org.hibernate.dialect.Dialect: *java.util.Properties* [private] [final] properties
+org.hibernate.dialect.Dialect: *java.util.Map* [private] [final] sqlFunctions
+org.hibernate.dialect.Dialect: *java.util.Set* [private] [final] sqlKeywords
+org.hibernate.dialect.TypeNames: *java.util.HashMap* [private] weighted
+org.hibernate.dialect.TypeNames: *java.util.HashMap* [private] defaults
+org.hibernate.engine.ActionQueue: *java.util.ArrayList* [private] insertions
+org.hibernate.engine.ActionQueue: *java.util.ArrayList* [private] deletions
+org.hibernate.engine.ActionQueue: *java.util.ArrayList* [private] updates
+org.hibernate.engine.ActionQueue: *java.util.ArrayList* [private] collectionCreations
+org.hibernate.engine.ActionQueue: *java.util.ArrayList* [private] collectionUpdates
+org.hibernate.engine.ActionQueue: *java.util.ArrayList* [private] collectionRemovals
+org.hibernate.engine.ActionQueue: *java.util.ArrayList* [private] executions
+org.hibernate.engine.BatchFetchQueue: *java.util.Map* [private] [final] batchLoadableEntityKeys
+org.hibernate.engine.BatchFetchQueue: *java.util.Map* [private] [final] subselectsByEntityKey
+org.hibernate.engine.CollectionLoadContext: *java.util.Map* [private] [final] loadingCollections
+org.hibernate.engine.FilterDefinition: *java.util.Map* [private] [final] parameterTypes
+org.hibernate.engine.JoinSequence: *java.util.List* [private] [final] joins
+org.hibernate.engine.NamedQueryDefinition: *java.util.Map* [private] [final] parameterTypes
+org.hibernate.engine.NamedSQLQueryDefinition: *java.util.List* [private] [final] querySpaces
+org.hibernate.engine.query.HQLQueryPlan: *java.util.Set* [private] [final] querySpaces
+org.hibernate.engine.query.HQLQueryPlan: *java.util.Set* [private] [final] enabledFilterNames
+org.hibernate.engine.query.NativeSQLQuerySpecification: *java.util.Set* [private] [final] querySpaces
+org.hibernate.engine.query.ParameterMetadata: *java.util.Map* [private] [final] namedDescriptorMap
+org.hibernate.engine.query.ParamLocationRecognizer: *java.util.Map* [private] namedParameterLocationMap
+org.hibernate.engine.query.ParamLocationRecognizer: *java.util.List* [private] ordinalParameterLocationList
+org.hibernate.engine.query.QueryMetadata: *java.util.Set* [private] [final] querySpaces
+org.hibernate.engine.query.QueryPlanCache$FilterQueryPlanKey: *java.util.Set* [private] [final] filterNames
+org.hibernate.engine.query.QueryPlanCache$HQLQueryPlanKey: *java.util.Set* [private] [final] filterNames
+org.hibernate.engine.QueryParameters: *java.util.Map* [private] namedParameters
+org.hibernate.engine.QueryParameters: *java.util.Map* [private] lockModes
+org.hibernate.engine.ResultSetMappingDefinition: *java.util.List* [private] entityQueryReturns
+org.hibernate.engine.ResultSetMappingDefinition: *java.util.List* [private] scalarQueryReturns
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] [final] entitiesByKey
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] [final] entitiesByUniqueKey
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] entityEntries
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] proxiesByKey
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] [final] entitySnapshotsByKey
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] arrayHolders
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] collectionEntries
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] [final] collectionsByKey
+org.hibernate.engine.StatefulPersistenceContext: *java.util.HashSet* [private] nullifiableEntityKeys
+org.hibernate.engine.StatefulPersistenceContext: *java.util.HashSet* [private] nullAssociations
+org.hibernate.engine.StatefulPersistenceContext: *java.util.List* [private] nonlazyCollections
+org.hibernate.engine.StatefulPersistenceContext: *java.util.Map* [private] unownedCollections
+org.hibernate.engine.SubselectFetch: *java.util.Set* [private] [final] resultingEntityKeys
+org.hibernate.engine.SubselectFetch: *java.util.Map* [private] [final] namedParameterLocMap
+org.hibernate.event.AutoFlushEvent: *java.util.Set* [private] querySpaces
+org.hibernate.hql.ast.ErrorCounter: *java.util.List* [private] errorList
+org.hibernate.hql.ast.ErrorCounter: *java.util.List* [private] warningList
+org.hibernate.hql.ast.ErrorCounter: *java.util.List* [private] recognitionExceptions
+org.hibernate.hql.ast.HqlSqlWalker: *java.util.Set* [private] querySpaces
+org.hibernate.hql.ast.HqlSqlWalker: *java.util.Map* [private] tokenReplacements
+org.hibernate.hql.ast.HqlSqlWalker: *java.util.Map* [private] namedParameters
+org.hibernate.hql.ast.HqlSqlWalker: *java.util.ArrayList* [private] parameters
+org.hibernate.hql.ast.HqlSqlWalker: *java.util.ArrayList* [private] assignmentSpecifications
+org.hibernate.hql.ast.ParameterTranslationsImpl: *java.util.Map* [private] [final] namedParameters
+org.hibernate.hql.ast.ParameterTranslationsImpl$1NamedParamTempHolder: *java.util.List* positions
+org.hibernate.hql.ast.QueryTranslatorImpl: *java.util.Map* [private] tokenReplacements
+org.hibernate.hql.ast.QueryTranslatorImpl: *java.util.Map* [private] enabledFilters
+org.hibernate.hql.ast.SqlGenerator: *java.util.LinkedList* [private] outputStack
+org.hibernate.hql.ast.SqlGenerator$FunctionArguments: *java.util.List* [private] [final] args
+org.hibernate.hql.ast.tree.AssignmentSpecification: *java.util.Set* [private] [final] tableNames
+org.hibernate.hql.ast.tree.FromClause: *java.util.Set* [private] fromElements
+org.hibernate.hql.ast.tree.FromClause: *java.util.Map* [private] fromElementByClassAlias
+org.hibernate.hql.ast.tree.FromClause: *java.util.Map* [private] fromElementByTableAlias
+org.hibernate.hql.ast.tree.FromClause: *java.util.Map* [private] fromElementsByPath
+org.hibernate.hql.ast.tree.FromClause: *java.util.Map* [private] collectionJoinFromElementsByPath
+org.hibernate.hql.ast.tree.FromClause: *java.util.List* [private] impliedElements
+org.hibernate.hql.ast.tree.FromElement: *java.util.List* [private] destinations
+org.hibernate.hql.ast.tree.SelectClause: *java.util.List* [private] fromElementsForLoad
+org.hibernate.hql.ast.tree.SelectClause: *java.util.List* [private] collectionFromElements
+org.hibernate.hql.ast.util.ASTIterator: *java.util.LinkedList* [private] parents
+org.hibernate.hql.ast.util.ASTParentsFirstIterator: *java.util.LinkedList* [private] parents
+org.hibernate.hql.ast.util.ASTPrinter: *java.util.Map* [private] tokenTypeNamesByTokenType
+org.hibernate.hql.ast.util.SessionFactoryHelper: *java.util.Map* [private] collectionPropertyMappingByRole
+org.hibernate.hql.classic.ClauseParser: *java.util.List* [private] selectTokens
+org.hibernate.hql.classic.PathExpressionParser: *java.util.LinkedList* [private] collectionElements
+org.hibernate.hql.classic.PreprocessingParser: *java.util.Map* [private] replacements
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] typeMap
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] collections
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.List* [private] returnedTypes
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.List* [private] [final] fromTypes
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.List* [private] [final] scalarTypes
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] namedParameters
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] aliasNames
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] oneToOneOwnerNames
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] uniqueKeyOwnerReferences
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] decoratedPropertyMappings
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.List* [private] [final] scalarSelectTokens
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.List* [private] [final] whereTokens
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.List* [private] [final] havingTokens
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] joins
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.List* [private] [final] orderByTokens
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.List* [private] [final] groupByTokens
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Set* [private] [final] querySpaces
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Set* [private] [final] entitiesToFetch
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] pathAliases
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] [final] pathJoins
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] tokenReplacements
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.util.Map* [private] enabledFilters
+org.hibernate.hql.classic.SelectParser: *java.util.LinkedList* [private] aggregateFuncTokenList
+org.hibernate.hql.classic.WhereParser: *java.util.LinkedList* [private] nots
+org.hibernate.hql.classic.WhereParser: *java.util.LinkedList* [private] joins
+org.hibernate.hql.classic.WhereParser: *java.util.LinkedList* [private] booleanTests
+org.hibernate.impl.AbstractQueryImpl: *java.util.List* [private] values
+org.hibernate.impl.AbstractQueryImpl: *java.util.List* [private] types
+org.hibernate.impl.AbstractQueryImpl: *java.util.Map* [private] namedParameters
+org.hibernate.impl.AbstractQueryImpl: *java.util.Map* [private] namedParameterLists
+org.hibernate.impl.CriteriaImpl: *java.util.List* [private] criterionEntries
+org.hibernate.impl.CriteriaImpl: *java.util.List* [private] orderEntries
+org.hibernate.impl.CriteriaImpl: *java.util.List* [private] subcriteriaList
+org.hibernate.impl.CriteriaImpl: *java.util.Map* [private] fetchModes
+org.hibernate.impl.CriteriaImpl: *java.util.Map* [private] lockModes
+org.hibernate.impl.FilterImpl: *java.util.Map* [private] parameters
+org.hibernate.impl.QueryImpl: *java.util.Map* [private] lockModes
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] entityPersisters
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] classMetadata
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] collectionPersisters
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] collectionMetadata
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] collectionRolesByEntityParticipant
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] identifierGenerators
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] namedQueries
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] namedSqlQueries
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] sqlResultSetMappings
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] filters
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] imports
+org.hibernate.impl.SessionFactoryImpl: *java.util.Properties* [private] [final] properties
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] queryCaches
+org.hibernate.impl.SessionFactoryImpl: *java.util.Map* [private] [final] allCacheRegions
+org.hibernate.impl.SessionImpl: *java.util.Map* [private] enabledFilters
+org.hibernate.impl.SQLQueryImpl: *java.util.List* [private] [final] queryReturns
+org.hibernate.impl.SQLQueryImpl: *java.util.List* [private] [final] scalarQueryReturns
+org.hibernate.impl.SQLQueryImpl: *java.util.Collection* [private] [final] querySpaces
+org.hibernate.intercept.FieldInterceptor: *java.util.Set* [private] uninitializedFields
+org.hibernate.jdbc.AbstractBatcher: *java.util.HashSet* [private] statementsToClose
+org.hibernate.jdbc.AbstractBatcher: *java.util.HashSet* [private] resultSetsToClose
+org.hibernate.jdbc.ColumnNameCache: *java.util.Map* [private] [final] columnNameToIndexCache
+org.hibernate.jmx.HibernateService: *java.util.Properties* [private] properties
+org.hibernate.loader.collection.SubselectCollectionLoader: *java.util.Map* [private] [final] namedParameters
+org.hibernate.loader.collection.SubselectCollectionLoader: *java.util.Map* [private] [final] namedParameterLocMap
+org.hibernate.loader.collection.SubselectOneToManyLoader: *java.util.Map* [private] [final] namedParameters
+org.hibernate.loader.collection.SubselectOneToManyLoader: *java.util.Map* [private] [final] namedParameterLocMap
+org.hibernate.loader.criteria.CriteriaJoinWalker: *java.util.Set* [private] [final] querySpaces
+org.hibernate.loader.criteria.CriteriaJoinWalker: *java.util.List* [private] [final] userAliasList
+org.hibernate.loader.criteria.CriteriaLoader: *java.util.Set* [private] [final] querySpaces
+org.hibernate.loader.criteria.CriteriaQueryTranslator: *java.util.Map* [private] [final] criteriaEntityNames
+org.hibernate.loader.criteria.CriteriaQueryTranslator: *java.util.Map* [private] [final] criteriaSQLAliasMap
+org.hibernate.loader.criteria.CriteriaQueryTranslator: *java.util.Map* [private] [final] aliasCriteriaMap
+org.hibernate.loader.criteria.CriteriaQueryTranslator: *java.util.Map* [private] [final] associationPathCriteriaMap
+org.hibernate.loader.criteria.CriteriaQueryTranslator: *java.util.Map* [private] [final] associationPathJoinTypesMap
+org.hibernate.loader.custom.ColumnCollectionAliases: *java.util.Map* [private] userProvidedAliases
+org.hibernate.loader.custom.SQLCustomQuery: *java.util.Set* [private] [final] querySpaces
+org.hibernate.loader.custom.SQLCustomQuery: *java.util.Map* [private] [final] namedParameters
+org.hibernate.loader.custom.SQLQueryParser: *java.util.Map* [private] [final] entityPersisterByAlias
+org.hibernate.loader.custom.SQLQueryParser: *java.util.Map* [private] [final] returnByAlias
+org.hibernate.loader.custom.SQLQueryParser: *java.util.Map* [private] [final] namedParameters
+org.hibernate.loader.custom.SQLQueryParser$ParameterSubstitutionRecognizer: *java.util.Map* namedParameterBindPoints
+org.hibernate.loader.custom.SQLQueryReturn: *java.util.Map* [protected] propertyResults
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] [final] aliases
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] [final] persisters
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] [final] propertyResults
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] [final] lockModes
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.Map* [private] [final] alias2Persister
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.Map* [private] [final] alias2Return
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.Map* [private] [final] alias2OwnerAlias
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] [final] scalarTypes
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] [final] scalarColumnAliases
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] collectionOwnerAliases
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] collectionAliases
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] collectionPersisters
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *java.util.List* [private] collectionResults
+org.hibernate.loader.DefaultEntityAliases: *java.util.Map* [private] [final] userProvidedAliases
+org.hibernate.loader.GeneratedCollectionAliases: *java.util.Map* [private] userProvidedAliases
+org.hibernate.loader.hql.QueryLoader: *java.util.Map* [private] [final] sqlAliasByEntityAlias
+org.hibernate.loader.JoinWalker: *java.util.List* [protected] [final] associations
+org.hibernate.loader.JoinWalker: *java.util.Set* [private] [final] visitedAssociationKeys
+org.hibernate.loader.JoinWalker: *java.util.Map* [private] [final] enabledFilters
+org.hibernate.loader.OuterJoinableAssociation: *java.util.Map* [private] [final] enabledFilters
+org.hibernate.loader.OuterJoinLoader: *java.util.Map* [private] enabledFilters
+org.hibernate.mapping.AbstractAuxiliaryDatabaseObject: *java.util.HashSet* [private] [final] dialectScopes
+org.hibernate.mapping.Any: *java.util.Map* [private] metaValues
+org.hibernate.mapping.Collection: *java.util.Map* [private] [final] filters
+org.hibernate.mapping.Collection: *java.util.Map* [private] [final] manyToManyFilters
+org.hibernate.mapping.Collection: *java.util.Set* [private] [final] synchronizedTables
+org.hibernate.mapping.Component: *java.util.ArrayList* [private] properties
+org.hibernate.mapping.Component: *java.util.Map* [private] metaAttributes
+org.hibernate.mapping.Component: *java.util.Map* [private] tuplizerImpls
+org.hibernate.mapping.Constraint: *java.util.List* [private] [final] columns
+org.hibernate.mapping.ForeignKey: *java.util.List* [private] referencedColumns
+org.hibernate.mapping.Index: *java.util.List* [private] columns
+org.hibernate.mapping.Join: *java.util.ArrayList* [private] properties
+org.hibernate.mapping.MetaAttribute: *java.util.List* [private] values
+org.hibernate.mapping.PersistentClass: *java.util.ArrayList* [private] properties
+org.hibernate.mapping.PersistentClass: *java.util.ArrayList* [private] [final] subclasses
+org.hibernate.mapping.PersistentClass: *java.util.ArrayList* [private] [final] subclassProperties
+org.hibernate.mapping.PersistentClass: *java.util.ArrayList* [private] [final] subclassTables
+org.hibernate.mapping.PersistentClass: *java.util.Map* [private] metaAttributes
+org.hibernate.mapping.PersistentClass: *java.util.ArrayList* [private] joins
+org.hibernate.mapping.PersistentClass: *java.util.ArrayList* [private] [final] subclassJoins
+org.hibernate.mapping.PersistentClass: *java.util.Map* [private] [final] filters
+org.hibernate.mapping.PersistentClass: *java.util.Set* [protected] [final] synchronizedTables
+org.hibernate.mapping.PersistentClass: *java.util.Map* [private] tuplizerImpls
+org.hibernate.mapping.Property: *java.util.Map* [private] metaAttributes
+org.hibernate.mapping.SimpleValue: *java.util.List* [private] [final] columns
+org.hibernate.mapping.SimpleValue: *java.util.Properties* [private] identifierGeneratorProperties
+org.hibernate.mapping.SimpleValue: *java.util.Properties* [private] typeParameters
+org.hibernate.mapping.Table: *java.util.Map* [private] columns
+org.hibernate.mapping.Table: *java.util.Map* [private] indexes
+org.hibernate.mapping.Table: *java.util.Map* [private] foreignKeys
+org.hibernate.mapping.Table: *java.util.Map* [private] uniqueKeys
+org.hibernate.mapping.Table: *java.util.List* [private] checkConstraints
+org.hibernate.mapping.Table$ForeignKeyKey: *java.util.List* columns
+org.hibernate.mapping.Table$ForeignKeyKey: *java.util.List* referencedColumns
+org.hibernate.mapping.TypeDef: *java.util.Properties* [private] parameters
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.util.Map* [private] collectionPropertyColumnAliases
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.util.Map* [private] collectionPropertyColumnNames
+org.hibernate.persister.entity.AbstractEntityPersister: *java.util.Map* [private] [final] entityNameBySubclass
+org.hibernate.persister.entity.AbstractEntityPersister: *java.util.Set* [private] [final] lazyProperties
+org.hibernate.persister.entity.AbstractEntityPersister: *java.util.Map* [private] [final] uniqueKeyLoaders
+org.hibernate.persister.entity.AbstractEntityPersister: *java.util.Map* [private] [final] lockers
+org.hibernate.persister.entity.AbstractEntityPersister: *java.util.Map* [private] [final] loaders
+org.hibernate.persister.entity.AbstractEntityPersister: *java.util.Map* [private] [final] subclassPropertyAliases
+org.hibernate.persister.entity.AbstractEntityPersister: *java.util.Map* [private] [final] subclassPropertyColumnNames
+org.hibernate.persister.entity.AbstractPropertyMapping: *java.util.Map* [private] [final] typesByPropertyPath
+org.hibernate.persister.entity.AbstractPropertyMapping: *java.util.Map* [private] [final] columnsByPropertyPath
+org.hibernate.persister.entity.AbstractPropertyMapping: *java.util.Map* [private] [final] formulaTemplatesByPropertyPath
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.util.Map* [private] [final] subclassesByDiscriminatorValue
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.util.Map* [private] [final] subclassesByDiscriminatorValue
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.util.Map* [private] [final] propertyTableNumbersByNameAndSubclass
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.util.Map* [private] [final] sequentialSelectStringsByEntityName
+org.hibernate.persister.entity.UnionSubclassEntityPersister: *java.util.Map* [private] [final] subclassByDiscriminatorValue
+org.hibernate.pretty.Formatter: *java.util.LinkedList* [private] parenCounts
+org.hibernate.pretty.Formatter: *java.util.LinkedList* [private] afterByOrFromOrSelects
+org.hibernate.sql.CaseFragment: *java.util.Map* [protected] cases
+org.hibernate.sql.InFragment: *java.util.List* [private] values
+org.hibernate.sql.Insert: *java.util.Map* [private] columns
+org.hibernate.sql.InsertSelect: *java.util.List* [private] columnNames
+org.hibernate.sql.SelectFragment: *java.util.List* [private] columns
+org.hibernate.sql.SelectFragment: *java.util.List* [private] columnAliases
+org.hibernate.sql.SimpleSelect: *java.util.List* [private] columns
+org.hibernate.sql.SimpleSelect: *java.util.Map* [private] aliases
+org.hibernate.sql.SimpleSelect: *java.util.List* [private] whereTokens
+org.hibernate.sql.Update: *java.util.Map* [private] columns
+org.hibernate.sql.Update: *java.util.Map* [private] whereColumns
+org.hibernate.stat.StatisticsImpl: *java.util.Map* [private] [final] secondLevelCacheStatistics
+org.hibernate.stat.StatisticsImpl: *java.util.Map* [private] [final] entityStatistics
+org.hibernate.stat.StatisticsImpl: *java.util.Map* [private] [final] collectionStatistics
+org.hibernate.stat.StatisticsImpl: *java.util.Map* [private] [final] queryStatistics
+org.hibernate.tool.hbm2ddl.DatabaseMetadata: *java.util.Map* [private] [final] tables
+org.hibernate.tool.hbm2ddl.DatabaseMetadata: *java.util.Set* [private] [final] sequences
+org.hibernate.tool.hbm2ddl.ForeignKeyMetadata: *java.util.List* [private] [final] columns
+org.hibernate.tool.hbm2ddl.IndexMetadata: *java.util.List* [private] [final] columns
+org.hibernate.tool.hbm2ddl.SchemaExport: *java.util.List* [private] [final] exceptions
+org.hibernate.tool.hbm2ddl.SchemaExport$ProviderConnectionHelper: *java.util.Properties* [private] cfgProperties
+org.hibernate.tool.hbm2ddl.SchemaExportTask: *java.util.List* [private] fileSets
+org.hibernate.tool.hbm2ddl.SchemaUpdate: *java.util.List* [private] exceptions
+org.hibernate.tool.hbm2ddl.SchemaUpdateTask: *java.util.List* [private] fileSets
+org.hibernate.tool.hbm2ddl.SchemaValidatorTask: *java.util.List* [private] fileSets
+org.hibernate.tool.hbm2ddl.TableMetadata: *java.util.Map* [private] [final] columns
+org.hibernate.tool.hbm2ddl.TableMetadata: *java.util.Map* [private] [final] foreignKeys
+org.hibernate.tool.hbm2ddl.TableMetadata: *java.util.Map* [private] [final] indexes
+org.hibernate.transaction.JDBCTransaction: *java.util.List* [private] synchronizations
+org.hibernate.transaction.WebSphereExtendedJTATransactionLookup$TransactionManagerAdapter: *java.util.Properties* [private] [final] properties
+org.hibernate.tuple.Dom4jEntityTuplizer: *java.util.Set* [private] subclassNodeNames
+org.hibernate.tuple.Dom4jInstantiator: *java.util.HashSet* [private] [final] isInstanceNodeNames
+org.hibernate.tuple.DynamicMapInstantiator: *java.util.Set* [private] isInstanceEntityNames
+org.hibernate.tuple.EntityMetamodel: *java.util.Map* [private] [final] propertyIndexes
+org.hibernate.tuple.EntityMetamodel: *java.util.Set* [private] [final] subclassEntityNames
+org.hibernate.tuple.PojoEntityTuplizer: *java.util.Set* [private] [final] lazyPropertyNames
+org.hibernate.type.MetaType: *java.util.Map* [private] [final] values
+org.hibernate.type.MetaType: *java.util.Map* [private] [final] keys
+org.hibernate.util.ExternalSessionFactoryConfig: *java.util.Map* [private] additionalProperties
+org.hibernate.util.ExternalSessionFactoryConfig: *java.util.Set* [private] excludedPropertyNames
+org.hibernate.util.ExternalSessionFactoryConfig: *java.util.Map* [private] customListeners
+org.hibernate.util.FastHashMap: *java.util.HashMap* [private] map
+org.hibernate.util.IdentityMap: *java.util.Map* [private] [final] map
+org.hibernate.util.IdentitySet: *java.util.Map* [private] map
+org.hibernate.util.LazyIterator: *java.util.Map* [private] [final] map
+org.hibernate.util.SimpleMRUCache: *org.apache.commons.collections.LRUMap* [private] cache
+org.hibernate.util.SoftLimitMRUCache: *org.apache.commons.collections.ReferenceMap* [private] softReferenceCache
+org.hibernate.util.SoftLimitMRUCache: *org.apache.commons.collections.LRUMap* [private] strongReferenceCache
+org.hibernate.util.XMLHelper$ErrorLogger: *java.util.List* [private] errors
+
+ARRAYS REPORT
+=============
+
+org.hibernate.action.BulkOperationCleanupAction: *java.io.Serializable[]* [private] [final] spaces
+org.hibernate.action.EntityDeleteAction: *java.lang.Object[]* [private] [final] state [no-stores]
+org.hibernate.action.EntityIdentityInsertAction: *java.lang.Object[]* [private] [final] state [no-stores]
+org.hibernate.action.EntityInsertAction: *java.lang.Object[]* [private] state [no-stores]
+org.hibernate.action.EntityUpdateAction: *java.lang.Object[]* [private] [final] state [no-stores]
+org.hibernate.action.EntityUpdateAction: *java.lang.Object[]* [private] [final] previousState [no-stores]
+org.hibernate.cache.entry.CacheEntry: *java.io.Serializable[]* [private] [final] disassembledState [no-stores]
+org.hibernate.cache.QueryKey: *org.hibernate.type.Type[]* [private] [final] types [no-stores] [hashcode]
+org.hibernate.cache.QueryKey: *java.lang.Object[]* [private] [final] values [no-stores] [hashcode]
+org.hibernate.criterion.InExpression: *java.lang.Object[]* [private] [final] values [no-stores]
+org.hibernate.criterion.SQLCriterion: *org.hibernate.engine.TypedValue[]* [private] [final] typedValues
+org.hibernate.criterion.SQLProjection: *org.hibernate.type.Type[]* [private] [final] types [no-stores]
+org.hibernate.criterion.SQLProjection: *java.lang.String[]* [private] aliases [no-stores]
+org.hibernate.criterion.SQLProjection: *java.lang.String[]* [private] columnAliases [no-stores]
+org.hibernate.criterion.SubqueryExpression: *org.hibernate.type.Type[]* [private] types
+org.hibernate.dialect.function.SQLFunctionTemplate: *java.lang.String[]* [private] [final] chunks [no-stores]
+org.hibernate.engine.CascadeStyle$MultipleCascadeStyle: *org.hibernate.engine.CascadeStyle[]* [private] [final] styles [no-stores]
+org.hibernate.engine.EntityEntry: *java.lang.Object[]* [private] loadedState [no-stores]
+org.hibernate.engine.EntityEntry: *java.lang.Object[]* [private] deletedState [no-stores]
+org.hibernate.engine.JoinSequence$Join: *java.lang.String[]* [private] [final] lhsColumns [no-stores]
+org.hibernate.engine.NamedSQLQueryDefinition: *org.hibernate.loader.custom.SQLQueryReturn[]* [private] queryReturns [no-stores]
+org.hibernate.engine.NamedSQLQueryDefinition: *org.hibernate.loader.custom.SQLQueryScalarReturn[]* [private] scalarReturns [no-stores]
+org.hibernate.engine.query.HQLQueryPlan: *org.hibernate.hql.QueryTranslator[]* [private] [final] translators [arraycopy]
+org.hibernate.engine.query.HQLQueryPlan: *java.lang.String[]* [private] [final] sqlStrings [arraycopy]
+org.hibernate.engine.query.NativeSQLQuerySpecification: *org.hibernate.loader.custom.SQLQueryReturn[]* [private] [final] sqlQueryReturns [no-stores] [hashcode]
+org.hibernate.engine.query.NativeSQLQuerySpecification: *org.hibernate.loader.custom.SQLQueryScalarReturn[]* [private] [final] sqlQueryScalarReturns [no-stores] [hashcode]
+org.hibernate.engine.query.ParameterMetadata: *org.hibernate.engine.query.OrdinalParameterDescriptor[]* [private] [final] ordinalDescriptors [no-stores] [arraycopy]
+org.hibernate.engine.query.QueryMetadata: *java.lang.String[]* [private] [final] returnAliases [no-stores]
+org.hibernate.engine.query.QueryMetadata: *org.hibernate.type.Type[]* [private] [final] returnTypes [no-stores]
+org.hibernate.engine.query.ReturnMetadata: *java.lang.String[]* [private] [final] returnAliases [no-stores]
+org.hibernate.engine.query.ReturnMetadata: *org.hibernate.type.Type[]* [private] [final] returnTypes [no-stores]
+org.hibernate.engine.QueryParameters: *org.hibernate.type.Type[]* [private] positionalParameterTypes
+org.hibernate.engine.QueryParameters: *java.lang.Object[]* [private] positionalParameterValues
+org.hibernate.engine.QueryParameters: *java.io.Serializable[]* [private] collectionKeys
+org.hibernate.engine.QueryParameters: *org.hibernate.type.Type[]* [private] processedPositionalParameterTypes
+org.hibernate.engine.QueryParameters: *java.lang.Object[]* [private] processedPositionalParameterValues
+org.hibernate.event.EventListeners: *org.hibernate.event.LoadEventListener[]* [private] loadEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.SaveOrUpdateEventListener[]* [private] saveOrUpdateEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.MergeEventListener[]* [private] mergeEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PersistEventListener[]* [private] persistEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PersistEventListener[]* [private] persistOnFlushEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.ReplicateEventListener[]* [private] replicateEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.DeleteEventListener[]* [private] deleteEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.AutoFlushEventListener[]* [private] autoFlushEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.DirtyCheckEventListener[]* [private] dirtyCheckEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.FlushEventListener[]* [private] flushEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.EvictEventListener[]* [private] evictEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.LockEventListener[]* [private] lockEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.RefreshEventListener[]* [private] refreshEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.FlushEntityEventListener[]* [private] flushEntityEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.InitializeCollectionEventListener[]* [private] initializeCollectionEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PostLoadEventListener[]* [private] postLoadEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PreLoadEventListener[]* [private] preLoadEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PreDeleteEventListener[]* [private] preDeleteEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PreUpdateEventListener[]* [private] preUpdateEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PreInsertEventListener[]* [private] preInsertEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PostDeleteEventListener[]* [private] postDeleteEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PostUpdateEventListener[]* [private] postUpdateEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PostInsertEventListener[]* [private] postInsertEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PostDeleteEventListener[]* [private] postCommitDeleteEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PostUpdateEventListener[]* [private] postCommitUpdateEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.PostInsertEventListener[]* [private] postCommitInsertEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.SaveOrUpdateEventListener[]* [private] saveEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.SaveOrUpdateEventListener[]* [private] updateEventListeners
+org.hibernate.event.EventListeners: *org.hibernate.event.MergeEventListener[]* [private] saveOrUpdateCopyEventListeners
+org.hibernate.event.FlushEntityEvent: *java.lang.Object[]* [private] propertyValues [no-stores]
+org.hibernate.event.FlushEntityEvent: *java.lang.Object[]* [private] databaseSnapshot [no-stores]
+org.hibernate.event.PostDeleteEvent: *java.lang.Object[]* [private] deletedState [no-stores]
+org.hibernate.event.PostInsertEvent: *java.lang.Object[]* [private] state [no-stores]
+org.hibernate.event.PostUpdateEvent: *java.lang.Object[]* [private] state [no-stores]
+org.hibernate.event.PostUpdateEvent: *java.lang.Object[]* [private] oldState [no-stores]
+org.hibernate.event.PreDeleteEvent: *java.lang.Object[]* [private] deletedState [no-stores]
+org.hibernate.event.PreInsertEvent: *java.lang.Object[]* [private] state [no-stores]
+org.hibernate.event.PreLoadEvent: *java.lang.Object[]* [private] state [no-stores]
+org.hibernate.event.PreUpdateEvent: *java.lang.Object[]* [private] state [no-stores]
+org.hibernate.event.PreUpdateEvent: *java.lang.Object[]* [private] oldState [no-stores]
+org.hibernate.hql.ast.exec.MultiTableDeleteExecutor: *java.lang.String[]* [private] [final] deletes
+org.hibernate.hql.ast.exec.MultiTableUpdateExecutor: *java.lang.String[]* [private] [final] updates
+org.hibernate.hql.ast.exec.MultiTableUpdateExecutor: *org.hibernate.param.ParameterSpecification[][]* [private] [final] hqlParameters
+org.hibernate.hql.ast.ParameterTranslationsImpl: *org.hibernate.hql.ast.ParameterTranslationsImpl$ParameterInfo[]* [private] [final] ordinalParameters [no-stores]
+org.hibernate.hql.ast.tree.AssignmentSpecification: *org.hibernate.param.ParameterSpecification[]* [private] [final] hqlParameters
+org.hibernate.hql.ast.tree.ConstructorNode: *org.hibernate.type.Type[]* [private] constructorArgumentTypes
+org.hibernate.hql.ast.tree.DotNode: *java.lang.String[]* [private] columns [no-stores]
+org.hibernate.hql.ast.tree.FromElement: *java.lang.String[]* [private] columns [no-stores] [hashcode]
+org.hibernate.hql.ast.tree.FromElementFactory: *java.lang.String[]* [private] columns [no-stores]
+org.hibernate.hql.ast.tree.IntoClause: *org.hibernate.type.Type[]* [private] types [no-stores]
+org.hibernate.hql.ast.tree.MethodNode: *java.lang.String[]* [private] selectColumns [no-stores]
+org.hibernate.hql.ast.tree.SelectClause: *org.hibernate.type.Type[]* [private] queryReturnTypes
+org.hibernate.hql.ast.tree.SelectClause: *java.lang.String[][]* [private] columnNames
+org.hibernate.hql.ast.tree.SelectClause: *java.lang.String[]* [private] aliases
+org.hibernate.hql.classic.PathExpressionParser: *java.lang.String[]* [private] columns [no-stores]
+org.hibernate.hql.classic.PathExpressionParser$CollectionElement: *java.lang.String[]* elementColumns [no-stores]
+org.hibernate.hql.classic.QueryTranslatorImpl: *org.hibernate.persister.entity.Queryable[]* [private] persisters
+org.hibernate.hql.classic.QueryTranslatorImpl: *org.hibernate.type.EntityType[]* [private] ownerAssociationTypes
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.lang.String[]* [private] names
+org.hibernate.hql.classic.QueryTranslatorImpl: *org.hibernate.type.Type[]* [private] returnTypes
+org.hibernate.hql.classic.QueryTranslatorImpl: *org.hibernate.type.Type[]* [private] actualReturnTypes
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.lang.String[][]* [private] scalarColumnNames
+org.hibernate.hql.classic.QueryTranslatorImpl: *java.lang.String[]* [private] suffixes
+org.hibernate.hql.HolderInstantiator: *java.lang.String[]* [private] [final] queryReturnAliases [no-stores]
+org.hibernate.impl.AbstractScrollableResults: *org.hibernate.type.Type[]* [private] [final] types [no-stores]
+org.hibernate.impl.FetchingScrollableResultsImpl: *java.lang.Object[]* [private] currentRow
+org.hibernate.impl.IteratorImpl: *org.hibernate.type.Type[]* [private] [final] types
+org.hibernate.impl.IteratorImpl: *java.lang.String[][]* [private] [final] names
+org.hibernate.impl.ScrollableResultsImpl: *java.lang.Object[]* [private] currentRow
+org.hibernate.loader.BasicLoader: *org.hibernate.loader.EntityAliases[]* [private] descriptors
+org.hibernate.loader.BasicLoader: *org.hibernate.loader.CollectionAliases[]* [private] collectionDescriptors
+org.hibernate.loader.collection.BatchingCollectionInitializer: *org.hibernate.loader.Loader[]* [private] [final] loaders [arraycopy]
+org.hibernate.loader.collection.SubselectCollectionLoader: *java.io.Serializable[]* [private] [final] keys
+org.hibernate.loader.collection.SubselectCollectionLoader: *org.hibernate.type.Type[]* [private] [final] types
+org.hibernate.loader.collection.SubselectCollectionLoader: *java.lang.Object[]* [private] [final] values
+org.hibernate.loader.collection.SubselectOneToManyLoader: *java.io.Serializable[]* [private] [final] keys
+org.hibernate.loader.collection.SubselectOneToManyLoader: *org.hibernate.type.Type[]* [private] [final] types
+org.hibernate.loader.collection.SubselectOneToManyLoader: *java.lang.Object[]* [private] [final] values
+org.hibernate.loader.criteria.CriteriaJoinWalker: *org.hibernate.type.Type[]* [private] [final] resultTypes
+org.hibernate.loader.criteria.CriteriaJoinWalker: *java.lang.String[]* [private] [final] userAliases
+org.hibernate.loader.criteria.CriteriaLoader: *org.hibernate.type.Type[]* [private] [final] resultTypes
+org.hibernate.loader.criteria.CriteriaLoader: *java.lang.String[]* [private] [final] userAliases
+org.hibernate.loader.custom.ColumnCollectionAliases: *java.lang.String[]* [private] [final] keyAliases [no-stores]
+org.hibernate.loader.custom.ColumnCollectionAliases: *java.lang.String[]* [private] [final] indexAliases [no-stores]
+org.hibernate.loader.custom.ColumnCollectionAliases: *java.lang.String[]* [private] [final] elementAliases [no-stores]
+org.hibernate.loader.custom.CustomLoader: *org.hibernate.type.Type[]* [private] [final] resultTypes [arraycopy]
+org.hibernate.loader.custom.CustomLoader: *org.hibernate.persister.entity.Loadable[]* [private] [final] persisters [arraycopy]
+org.hibernate.loader.custom.CustomLoader: *org.hibernate.persister.collection.CollectionPersister[]* [private] [final] collectionPersisters [arraycopy]
+org.hibernate.loader.custom.CustomLoader: *org.hibernate.type.Type[]* [private] discoveredTypes [arraycopy]
+org.hibernate.loader.custom.CustomLoader: *java.lang.String[]* [private] discoveredColumnAliases [arraycopy]
+org.hibernate.loader.custom.SQLCustomQuery: *java.lang.String[]* [private] [final] entityNames
+org.hibernate.loader.custom.SQLCustomQuery: *java.lang.String[]* [private] [final] collectionRoles
+org.hibernate.loader.custom.SQLCustomQuery: *org.hibernate.LockMode[]* [private] [final] lockModes
+org.hibernate.loader.custom.SQLCustomQuery: *org.hibernate.type.Type[]* [private] [final] scalarTypes
+org.hibernate.loader.custom.SQLCustomQuery: *java.lang.String[]* [private] [final] scalarColumnAliases
+org.hibernate.loader.custom.SQLCustomQuery: *org.hibernate.loader.EntityAliases[]* [private] [final] entityDescriptors
+org.hibernate.loader.custom.SQLCustomQuery: *org.hibernate.loader.CollectionAliases[]* [private] [final] collectionDescriptors
+org.hibernate.loader.custom.SQLQueryParser: *java.lang.String[]* [private] [final] aliases [no-stores]
+org.hibernate.loader.custom.SQLQueryParser: *java.lang.String[]* [private] [final] suffixes [no-stores]
+org.hibernate.loader.custom.SQLQueryParser: *org.hibernate.persister.collection.SQLLoadableCollection[]* [private] [final] collectionPersisters [no-stores]
+org.hibernate.loader.custom.SQLQueryParser: *java.lang.String[]* [private] [final] collectionAliases [no-stores]
+org.hibernate.loader.custom.SQLQueryParser: *java.lang.String[]* [private] [final] collectionSuffixes [no-stores]
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *org.hibernate.loader.custom.SQLQueryReturn[]* [private] queryReturns [no-stores]
+org.hibernate.loader.custom.SQLQueryReturnProcessor: *org.hibernate.loader.custom.SQLQueryScalarReturn[]* [private] scalarQueryReturns [no-stores]
+org.hibernate.loader.DefaultEntityAliases: *java.lang.String[]* [private] [final] suffixedKeyColumns
+org.hibernate.loader.DefaultEntityAliases: *java.lang.String[]* [private] [final] suffixedVersionColumn
+org.hibernate.loader.DefaultEntityAliases: *java.lang.String[][]* [private] [final] suffixedPropertyColumns
+org.hibernate.loader.entity.BatchingEntityLoader: *org.hibernate.loader.Loader[]* [private] [final] loaders [arraycopy]
+org.hibernate.loader.GeneratedCollectionAliases: *java.lang.String[]* [private] [final] keyAliases [no-stores]
+org.hibernate.loader.GeneratedCollectionAliases: *java.lang.String[]* [private] [final] indexAliases [no-stores]
+org.hibernate.loader.GeneratedCollectionAliases: *java.lang.String[]* [private] [final] elementAliases [no-stores]
+org.hibernate.loader.hql.QueryLoader: *org.hibernate.persister.entity.Queryable[]* [private] entityPersisters
+org.hibernate.loader.hql.QueryLoader: *java.lang.String[]* [private] entityAliases
+org.hibernate.loader.hql.QueryLoader: *java.lang.String[]* [private] sqlAliases
+org.hibernate.loader.hql.QueryLoader: *java.lang.String[]* [private] sqlAliasSuffixes
+org.hibernate.loader.hql.QueryLoader: *java.lang.String[]* [private] collectionSuffixes
+org.hibernate.loader.hql.QueryLoader: *java.lang.String[][]* [private] scalarColumnNames
+org.hibernate.loader.hql.QueryLoader: *org.hibernate.type.Type[]* [private] queryReturnTypes
+org.hibernate.loader.hql.QueryLoader: *org.hibernate.type.EntityType[]* [private] ownerAssociationTypes
+org.hibernate.loader.hql.QueryLoader: *org.hibernate.persister.collection.QueryableCollection[]* [private] collectionPersisters
+org.hibernate.loader.hql.QueryLoader: *org.hibernate.LockMode[]* [private] defaultLockModes
+org.hibernate.loader.JoinWalker: *java.lang.String[]* [protected] suffixes
+org.hibernate.loader.JoinWalker: *java.lang.String[]* [protected] collectionSuffixes
+org.hibernate.loader.JoinWalker: *org.hibernate.persister.entity.Loadable[]* [protected] persisters
+org.hibernate.loader.JoinWalker: *org.hibernate.type.EntityType[]* [protected] ownerAssociationTypes
+org.hibernate.loader.JoinWalker: *org.hibernate.persister.collection.CollectionPersister[]* [protected] collectionPersisters
+org.hibernate.loader.JoinWalker: *java.lang.String[]* [protected] aliases
+org.hibernate.loader.JoinWalker: *org.hibernate.LockMode[]* [protected] lockModeArray
+org.hibernate.loader.JoinWalker$AssociationKey: *java.lang.String[]* [private] columns [no-stores] [hashcode]
+org.hibernate.loader.OuterJoinableAssociation: *java.lang.String[]* [private] [final] lhsColumns [no-stores]
+org.hibernate.loader.OuterJoinableAssociation: *java.lang.String[]* [private] [final] rhsColumns [no-stores]
+org.hibernate.loader.OuterJoinLoader: *org.hibernate.persister.entity.Loadable[]* [protected] persisters [no-stores]
+org.hibernate.loader.OuterJoinLoader: *org.hibernate.persister.collection.CollectionPersister[]* [protected] collectionPersisters [no-stores]
+org.hibernate.loader.OuterJoinLoader: *java.lang.String[]* [protected] aliases [no-stores]
+org.hibernate.loader.OuterJoinLoader: *org.hibernate.LockMode[]* [protected] lockModeArray [no-stores]
+org.hibernate.loader.OuterJoinLoader: *org.hibernate.type.EntityType[]* [protected] ownerAssociationTypes [no-stores]
+org.hibernate.loader.OuterJoinLoader: *java.lang.String[]* [protected] suffixes [no-stores]
+org.hibernate.loader.OuterJoinLoader: *java.lang.String[]* [protected] collectionSuffixes [no-stores]
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] keyColumnNames
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] indexColumnNames
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] indexFormulaTemplates
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] indexFormulas
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] elementColumnNames
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] elementFormulaTemplates
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] elementFormulas
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] indexColumnAliases
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] elementColumnAliases
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.lang.String[]* [protected] [final] keyColumnAliases
+org.hibernate.persister.collection.AbstractCollectionPersister: *java.io.Serializable[]* [private] [final] spaces
+org.hibernate.persister.collection.ElementPropertyMapping: *java.lang.String[]* [private] [final] elementColumns [no-stores]
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] rootTableKeyColumnNames
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] identifierAliases
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] propertySubclassNames
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[][]* [private] [final] propertyColumnAliases
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[][]* [private] [final] propertyColumnNames
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[][]* [private] [final] propertyColumnFormulaTemplates
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] lazyPropertyNames
+org.hibernate.persister.entity.AbstractEntityPersister: *org.hibernate.type.Type[]* [private] [final] lazyPropertyTypes
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[][]* [private] [final] lazyPropertyColumnAliases
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] subclassPropertyNameClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] subclassPropertySubclassNameClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *org.hibernate.type.Type[]* [private] [final] subclassPropertyTypeClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[][]* [private] [final] subclassPropertyFormulaTemplateClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[][]* [private] [final] subclassPropertyColumnNameClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *org.hibernate.FetchMode[]* [private] [final] subclassPropertyFetchModeClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *org.hibernate.engine.CascadeStyle[]* [private] [final] subclassPropertyCascadeStyleClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] subclassColumnClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] subclassColumnAliasClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] subclassFormulaClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] subclassFormulaTemplateClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] [final] subclassFormulaAliasClosure
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] sqlDeleteStrings
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] sqlInsertStrings
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] sqlUpdateStrings
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [private] sqlLazyUpdateStrings
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [protected] customSQLInsert
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [protected] customSQLUpdate
+org.hibernate.persister.entity.AbstractEntityPersister: *java.lang.String[]* [protected] customSQLDelete
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[]* [private] [final] tableNames
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[]* [private] [final] naturalOrderTableNames
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[][]* [private] [final] tableKeyColumns
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[][]* [private] [final] naturalOrderTableKeyColumns
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[]* [private] [final] spaces
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[]* [private] [final] subclassClosure
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[]* [private] [final] subclassTableNameClosure
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[][]* [private] [final] subclassTableKeyColumnClosure
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[]* [private] [final] discriminatorValues
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[]* [private] [final] notNullColumnNames
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[]* [private] [final] constraintOrderedTableNames
+org.hibernate.persister.entity.JoinedSubclassEntityPersister: *java.lang.String[][]* [private] [final] constraintOrderedKeyColumnNames
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.lang.String[]* [private] [final] qualifiedTableNames
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.lang.String[][]* [private] [final] keyColumnNames
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.lang.String[]* [private] [final] spaces
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.lang.String[]* [private] [final] subclassClosure
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.lang.String[]* [private] [final] subclassTableNameClosure
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.lang.String[][]* [private] [final] subclassTableKeyColumnClosure
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.lang.String[]* [private] [final] constraintOrderedTableNames
+org.hibernate.persister.entity.SingleTableEntityPersister: *java.lang.String[][]* [private] [final] constraintOrderedKeyColumnNames
+org.hibernate.persister.entity.UnionSubclassEntityPersister: *java.lang.String[]* [private] [final] subclassClosure
+org.hibernate.persister.entity.UnionSubclassEntityPersister: *java.lang.String[]* [private] [final] spaces
+org.hibernate.persister.entity.UnionSubclassEntityPersister: *java.lang.String[]* [private] [final] subclassSpaces
+org.hibernate.persister.entity.UnionSubclassEntityPersister: *java.lang.String[]* [private] [final] constraintOrderedTableNames
+org.hibernate.persister.entity.UnionSubclassEntityPersister: *java.lang.String[][]* [private] [final] constraintOrderedKeyColumnNames
+org.hibernate.property.ChainedPropertyAccessor: *org.hibernate.property.PropertyAccessor[]* [final] chain [no-stores]
+org.hibernate.proxy.CGLIBLazyInitializer: *java.lang.Class[]* [private] interfaces
+org.hibernate.proxy.CGLIBProxyFactory: *java.lang.Class[]* [private] interfaces [no-stores]
+org.hibernate.proxy.SerializableProxy: *java.lang.Class[]* [private] interfaces [no-stores]
+org.hibernate.proxy.SerializableProxy: *java.lang.Class[]* [private] setIdentifierMethodParams [no-stores]
+org.hibernate.sql.ConditionFragment: *java.lang.String[]* [private] lhs [no-stores]
+org.hibernate.sql.ConditionFragment: *java.lang.String[]* [private] rhs [no-stores]
+org.hibernate.sql.Delete: *java.lang.String[]* [private] primaryKeyColumnNames [no-stores]
+org.hibernate.sql.SelectFragment: *java.lang.String[]* [private] usedAliases [no-stores]
+org.hibernate.sql.Update: *java.lang.String[]* [private] primaryKeyColumnNames [no-stores]
+org.hibernate.tool.hbm2ddl.SchemaExport: *java.lang.String[]* [private] dropSQL [no-stores]
+org.hibernate.tool.hbm2ddl.SchemaExport: *java.lang.String[]* [private] createSQL [no-stores]
+org.hibernate.transform.AliasToBeanResultTransformer: *org.hibernate.property.Setter[]* [private] setters
+org.hibernate.tuple.AbstractComponentTuplizer: *org.hibernate.property.Getter[]* [protected] [final] getters
+org.hibernate.tuple.AbstractComponentTuplizer: *org.hibernate.property.Setter[]* [protected] [final] setters
+org.hibernate.tuple.AbstractEntityTuplizer: *org.hibernate.property.Getter[]* [protected] [final] getters
+org.hibernate.tuple.AbstractEntityTuplizer: *org.hibernate.property.Setter[]* [protected] [final] setters
+org.hibernate.tuple.EntityMetamodel: *org.hibernate.tuple.StandardProperty[]* [private] [final] properties
+org.hibernate.tuple.EntityMetamodel: *java.lang.String[]* [private] [final] propertyNames
+org.hibernate.tuple.EntityMetamodel: *org.hibernate.type.Type[]* [private] [final] propertyTypes
+org.hibernate.tuple.EntityMetamodel: *org.hibernate.engine.CascadeStyle[]* [private] [final] cascadeStyles
+org.hibernate.type.ComponentType: *org.hibernate.type.Type[]* [private] [final] propertyTypes [arraycopy]
+org.hibernate.type.ComponentType: *java.lang.String[]* [private] [final] propertyNames [arraycopy]
+org.hibernate.type.ComponentType: *org.hibernate.engine.CascadeStyle[]* [private] [final] cascade [arraycopy]
+org.hibernate.type.ComponentType: *org.hibernate.FetchMode[]* [private] [final] joinedFetch [arraycopy]
+org.hibernate.util.FilterHelper: *java.lang.String[]* [private] [final] filterNames
+org.hibernate.util.FilterHelper: *java.lang.String[]* [private] [final] filterConditions
+org.hibernate.util.IdentityMap: *java.util.Map$Entry[]* [private] entryArray
+org.hibernate.util.JoinedIterator: *java.util.Iterator[]* [private] iterators
+
+N-CYCLES
+========
+[org/hibernate/mapping/Component, org/hibernate/mapping/PersistentClass]
+[org/hibernate/mapping/Table, org/hibernate/mapping/Collection]
+[org/hibernate/persister/collection/CollectionPropertyMapping, org/hibernate/hql/ast/tree/FromElementType, org/hibernate/hql/ast/tree/FromElement]
+[org/hibernate/hql/ast/HqlParser, org/hibernate/hql/ast/QueryTranslatorImpl, org/hibernate/hql/ast/util/LiteralProcessor, org/hibernate/hql/ast/HqlSqlWalker]
+[org/hibernate/persister/entity/BasicEntityPropertyMapping, org/hibernate/persister/entity/AbstractEntityPersister]

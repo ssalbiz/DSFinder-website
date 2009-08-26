@@ -1,0 +1,8 @@
+# Linux indentation scheme
+
+$indent-brackets=false
+$indent-spaces=8
+$brackets=linux
+$indent-classes=false
+$indent-switches=false
+$indent-namespaces=false

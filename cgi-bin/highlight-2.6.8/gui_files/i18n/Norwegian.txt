@@ -1,0 +1,116 @@
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+M001=Åpne
+M002=Lukk
+
+M003=&Hjelp
+M004=&Lisens
+M005=&Endringslogg
+M006=&Om Highlight...
+M007=&Fil
+M008=&Språk
+M009=&Tips
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Velg filer
+L004=Utfil format
+L005=Inkluder CSS i resultat
+L006=Tilknytt anker til linjer
+L011=Inkluder fil i
+L009=Referanse CSS fil:
+L010=Farge tema:
+L013=Inkluder linje nummer
+L014=Utelat topptekst og bunntekst
+L008=Generer indeks fil
+L015=Konverter filer
+L022=Velg fil
+L002=Resultat katalog
+L007=Reformat:
+L025=Feil
+L026=Vennligst start Highlight på nytt...
+L027=Tekstbrytning
+L028=Intelligent wrap
+L029=Erstatt anførselstegn
+L030=Tabulator bredde:
+L031=Fill with zeroes
+L032=Write to source directories
+L033=Remove selection
+L034=Error summary
+L035=style
+L036=Encoding:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Info
+L023=Ferdig: %d filer på %ld ms.
+L003=Nullstill fil liste
+L016=<Ingen filer er valgt>
+L020=Vennligst velg en gyldig resultat katalog.
+L021=Vennligst velg en CSS resultat fil.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Kun C, C++, C# og Java filer kan bli reformattert.
+E001=Feil ved oppstart av Notepad.exe
+E002=Språk definisjon %s.lang finnes ikke!
+E003=Kan ikke åpne:
+E004=Kan ikke skrive:
+E005=Kan ikke lese temaer. Sjekk intallasjonen.
+E006=Feil ved skriving av instillinger til fil!
+E007=Kan ikke lage indeks fil.
+E008=Kan ikke lese filtyper. Sjekk installasjonen.
+E009=Could not read indentation schemes. Check installation.
+E010=Could not reformat:
+
+
+T001=Legg til kilde filene du ønsker å konverte.\nDra og slipp er også mulig.
+T002=Velg en resultat katalog
+T003=Velg en CSS fil å inkludere i CSS definisjon.
+T004=Nullstill fil listen.
+T005=Navn på CSS utfil.
+T006=Sti til CSS inkluder fil.
+T007=Sti til resultat katalog.
+T008=Inkluder CSS definisjoner i utfiler.
+T009=Utelat topp og bunntekst i utfiler.
+T010=Inkluder linje nummer i utfil.
+T011=Tilknytt HTML anker til linje nummer.
+T012=Reformatter med innrykk C, C++, C# og Java kilde kode.
+T013=Velg format for utfiler.
+T014=Start konvertering av valgte filer.
+T015=Generer indeks fil med hyperlinker til utfiler.
+T016=Velg format og innrykk stil.
+T017=Velg ønsket farge tema.
+T018=Bryt linjer som er mer enn 80 tegn (75 dersom linje nummer er aktivert).\nMerk: Lange en-linjers kommentarer og direktiver vil forårsake feil i fargelegging.
+T019=Wrap lines and indent statements and function parameters.
+T020=Erstatt anførselstegn med \dq. Nyttig ved bruk av Tysk pakke i LaTeX.
+T021=Erstatt tabulator med valgt antall mellomrom\n(erstatter ikke dersom valgt antall er lik null).
+T022=Fill leading space of line numbers with zeroes.
+T023=Save output in the directories of the input files.
+T024=Remove selected entries from input file list.
+T025=Use an output encoding, which matches the input file encoding.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Klar.
+L017=Prosesserer filer....

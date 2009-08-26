@@ -1,0 +1,20 @@
+# ide-msvcpp.style
+# This File is part of highlight, a universal source code converter.
+# See README in the highlight directory for documentation.
+
+$DEFAULTCOLOUR=#000000
+$BGCOLOUR=#ffffff
+$FONTSIZE=10
+$KW-GROUP(kwa)=#0000ff bold
+$KW-GROUP(kwb)=#0000ff
+$KW-GROUP(kwc)=#0000ff bold
+$KW-GROUP(kwd)=#000000
+$NUMBER=#000000
+$ESCAPECHAR=#000000
+$STRING=#000000
+$STRING-DIRECTIVE=#000000
+$COMMENT=#008000 italic
+$DIRECTIVE=#0000ff
+$LINE=#008000
+$SYMBOL=#000000
+$MARK-LINE=#ffffbb

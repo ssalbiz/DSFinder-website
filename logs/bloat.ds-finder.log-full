@@ -1,0 +1,278 @@
+DSFinder has run for 0 min. 2 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+EDU.purdue.cs.bloat.editor.FieldEditor: *java.lang.Object* [private] constantValue
+EDU.purdue.cs.bloat.reflect.Constant: *java.lang.Object* [private] value
+EDU.purdue.cs.bloat.tree.ConstantExpr: *java.lang.Object* value
+
+Linked List-like Data Structures:
+EDU.purdue.cs.bloat.cfg.FlowGraph$10: *java.lang.Object* next
+EDU.purdue.cs.bloat.cfg.FlowGraph$8: *java.lang.Object* next
+EDU.purdue.cs.bloat.editor.CodeArray$ByteCell: prev
+
+Parent- and outer-type Data Structures:
+EDU.purdue.cs.bloat.tree.Node: [protected] parent
+EDU.purdue.cs.bloat.util.UnionFind$Node: parent
+
+Whitelisted, probable data structures:
+EDU.purdue.cs.bloat.util.UnionFind$Node: child
+
+
+Others:
+Exact Field Matches:
+EDU.purdue.cs.bloat.cfg.Block: domParent
+EDU.purdue.cs.bloat.cfg.Block: pdomParent
+EDU.purdue.cs.bloat.cfg.Block: header
+EDU.purdue.cs.bloat.editor.Type: returnType
+Non-Object Fields:
+EDU.purdue.cs.bloat.cfg.FlowGraph: *EDU.purdue.cs.bloat.util.Graph* loopTree
+EDU.purdue.cs.bloat.tree.ArithExpr: *EDU.purdue.cs.bloat.tree.Expr* left
+EDU.purdue.cs.bloat.tree.ArithExpr: *EDU.purdue.cs.bloat.tree.Expr* right
+EDU.purdue.cs.bloat.tree.ArrayLengthExpr: *EDU.purdue.cs.bloat.tree.Expr* array
+EDU.purdue.cs.bloat.tree.ArrayRefExpr: *EDU.purdue.cs.bloat.tree.Expr* array
+EDU.purdue.cs.bloat.tree.ArrayRefExpr: *EDU.purdue.cs.bloat.tree.Expr* index
+EDU.purdue.cs.bloat.tree.CallMethodExpr: *EDU.purdue.cs.bloat.tree.Expr* receiver
+EDU.purdue.cs.bloat.tree.CastExpr: *EDU.purdue.cs.bloat.tree.Expr* expr
+EDU.purdue.cs.bloat.tree.CheckExpr: *EDU.purdue.cs.bloat.tree.Expr* expr
+EDU.purdue.cs.bloat.tree.Expr: *EDU.purdue.cs.bloat.tree.DefExpr* [private] def
+EDU.purdue.cs.bloat.tree.FieldExpr: *EDU.purdue.cs.bloat.tree.Expr* object
+EDU.purdue.cs.bloat.tree.InstanceOfExpr: *EDU.purdue.cs.bloat.tree.Expr* expr
+EDU.purdue.cs.bloat.tree.NegExpr: *EDU.purdue.cs.bloat.tree.Expr* expr
+EDU.purdue.cs.bloat.tree.NewArrayExpr: *EDU.purdue.cs.bloat.tree.Expr* size
+EDU.purdue.cs.bloat.tree.ShiftExpr: *EDU.purdue.cs.bloat.tree.Expr* expr
+EDU.purdue.cs.bloat.tree.ShiftExpr: *EDU.purdue.cs.bloat.tree.Expr* bits
+EDU.purdue.cs.bloat.tree.StoreExpr: *EDU.purdue.cs.bloat.tree.Expr* expr
+java.lang.Object Fields:
+EDU.purdue.cs.bloat.editor.Instruction: *java.lang.Object* [private] operand
+EDU.purdue.cs.bloat.trans.SSAPRE$Pair: *java.lang.Object* a
+EDU.purdue.cs.bloat.trans.SSAPRE$Pair: *java.lang.Object* b
+EDU.purdue.cs.bloat.tree.Expr: *java.lang.Object* [private] comparator
+EDU.purdue.cs.bloat.tree.Tree$1: *java.lang.Object* last
+EDU.purdue.cs.bloat.tree.Tree$2: *java.lang.Object* last
+EDU.purdue.cs.bloat.util.Graph$3: *java.lang.Object* last
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+EDU.purdue.cs.bloat.cfg.Block: *java.util.Set* domChildren
+EDU.purdue.cs.bloat.cfg.Block: *java.util.Set* pdomChildren
+EDU.purdue.cs.bloat.cfg.VerifyCFG$1: *java.util.ArrayList* [private] [final] val$children
+EDU.purdue.cs.bloat.trans.SSAPRE$16: *java.util.List* [private] [final] val$children
+==
+EDU.purdue.cs.bloat.cfg.Block: *java.util.Set* domFrontier
+EDU.purdue.cs.bloat.cfg.Block: *java.util.Set* pdomFrontier
+EDU.purdue.cs.bloat.cfg.FlowGraph: *java.util.Map* subroutines
+EDU.purdue.cs.bloat.cfg.FlowGraph: *java.util.List* catchBlocks
+EDU.purdue.cs.bloat.cfg.FlowGraph: *java.util.Map* handlers
+EDU.purdue.cs.bloat.cfg.FlowGraph: *java.util.List* trace
+EDU.purdue.cs.bloat.cfg.FlowGraph$10: *EDU.purdue.cs.bloat.cfg.FlowGraph$9* [private] [final] this$1
+EDU.purdue.cs.bloat.cfg.FlowGraph$2: *EDU.purdue.cs.bloat.util.ResizeableArrayList* [private] [final] val$defs
+EDU.purdue.cs.bloat.cfg.FlowGraph$5: *java.util.Set* [private] [final] val$hoistable
+EDU.purdue.cs.bloat.cfg.FlowGraph$8: *EDU.purdue.cs.bloat.cfg.FlowGraph$7* [private] [final] this$1
+EDU.purdue.cs.bloat.cfg.FlowGraph$LoopNode: *java.util.Set* elements
+EDU.purdue.cs.bloat.cfg.Handler: *java.util.Set* protectedBlocks
+EDU.purdue.cs.bloat.cfg.Subroutine: *java.util.ArrayList* paths
+EDU.purdue.cs.bloat.cfg.VerifyCFG: *java.util.Set* uses
+EDU.purdue.cs.bloat.cfg.VerifyCFG: *java.util.Set* nodes
+EDU.purdue.cs.bloat.codegen.CodeGenerator: *java.util.Set* [protected] visited
+EDU.purdue.cs.bloat.codegen.CodeGenerator: *java.util.Map* [protected] postponedInstructions
+EDU.purdue.cs.bloat.codegen.CodeGenerator$5: *java.util.HashMap* seen
+EDU.purdue.cs.bloat.codegen.Liveness$2: *java.util.List* [private] [final] val$defNodes
+EDU.purdue.cs.bloat.codegen.Liveness$3: *java.util.List* [private] [final] val$defNodes
+EDU.purdue.cs.bloat.codegen.Liveness$3: *java.util.List* [private] [final] val$phiCatchNodes
+EDU.purdue.cs.bloat.codegen.Liveness$NodeInfo: *java.util.List* defNodes
+EDU.purdue.cs.bloat.codegen.RegisterAllocator: *java.util.Map* colors
+EDU.purdue.cs.bloat.codegen.RegisterAllocator$1: *java.util.ArrayList* [private] [final] val$copies
+EDU.purdue.cs.bloat.codegen.RegisterAllocator$1: *java.util.ArrayList* [private] [final] val$precolor
+EDU.purdue.cs.bloat.codegen.RegisterAllocator$IGNode: *java.util.Set* defs
+EDU.purdue.cs.bloat.context.BloatContext: *java.util.Set* [protected] ignorePackages
+EDU.purdue.cs.bloat.context.BloatContext: *java.util.Set* [protected] ignoreClasses
+EDU.purdue.cs.bloat.context.BloatContext: *java.util.Set* [protected] ignoreMethods
+EDU.purdue.cs.bloat.context.BloatContext: *java.util.Set* [protected] ignoreFields
+EDU.purdue.cs.bloat.context.BloatContext: *java.util.Set* [protected] roots
+EDU.purdue.cs.bloat.context.BloatingClassLoader: *java.util.Map* [private] classBytes
+EDU.purdue.cs.bloat.context.CachingBloatContext: *java.util.Map* [protected] classRC
+EDU.purdue.cs.bloat.context.CachingBloatContext: *java.util.Map* [protected] methodRC
+EDU.purdue.cs.bloat.context.CachingBloatContext: *java.util.Map* [protected] fieldRC
+EDU.purdue.cs.bloat.context.PersistentBloatContext: *java.util.Map* [protected] classInfos
+EDU.purdue.cs.bloat.context.PersistentBloatContext: *java.util.Map* [protected] methodInfos
+EDU.purdue.cs.bloat.context.PersistentBloatContext: *java.util.Map* [protected] fieldInfos
+EDU.purdue.cs.bloat.context.PersistentBloatContext: *java.util.Map* [protected] classEditors
+EDU.purdue.cs.bloat.context.PersistentBloatContext: *java.util.Map* [protected] methodEditors
+EDU.purdue.cs.bloat.context.PersistentBloatContext: *java.util.Map* [protected] fieldEditors
+EDU.purdue.cs.bloat.diva.InductionVarAnalyzer: *java.util.HashMap* IndStore
+EDU.purdue.cs.bloat.diva.InductionVarAnalyzer: *java.util.HashMap* LocalStore
+EDU.purdue.cs.bloat.editor.ClassHierarchy: *java.util.Set* classes
+EDU.purdue.cs.bloat.editor.ClassHierarchy: *java.util.Map* [private] resolvesToCache
+EDU.purdue.cs.bloat.editor.ClassHierarchy: *java.util.LinkedList* worklist
+EDU.purdue.cs.bloat.editor.ClassHierarchy: *java.util.Set* inWorklist
+EDU.purdue.cs.bloat.editor.ClassHierarchy$ResolvesToWith: *java.util.HashSet* [public] rTypes
+EDU.purdue.cs.bloat.editor.CodeArray: *java.util.Map* [private] branches
+EDU.purdue.cs.bloat.editor.CodeArray: *java.util.Map* [private] longBranches
+EDU.purdue.cs.bloat.editor.CodeArray: *java.util.Map* [private] branchInsts
+EDU.purdue.cs.bloat.editor.CodeArray: *java.util.Map* [private] labels
+EDU.purdue.cs.bloat.editor.CodeArray: *java.util.List* [private] insts
+EDU.purdue.cs.bloat.editor.ConstantPool: *java.util.Map* [private] constantIndices
+EDU.purdue.cs.bloat.editor.ConstantPool: *EDU.purdue.cs.bloat.util.ResizeableArrayList* constants
+EDU.purdue.cs.bloat.editor.ConstantPool: *EDU.purdue.cs.bloat.util.ResizeableArrayList* resolved
+EDU.purdue.cs.bloat.editor.MethodEditor: *java.util.LinkedList* [private] code
+EDU.purdue.cs.bloat.editor.MethodEditor: *java.util.LinkedList* [private] tryCatches
+EDU.purdue.cs.bloat.editor.MethodEditor: *java.util.LinkedList* [private] lineNumbers
+EDU.purdue.cs.bloat.editor.MethodEditor: *java.util.Map* [private] locals
+EDU.purdue.cs.bloat.editor.UseMap: *java.util.Hashtable* [public] map
+EDU.purdue.cs.bloat.file.ClassFile: *java.util.List* [private] constants
+EDU.purdue.cs.bloat.file.ClassFileLoader: *java.util.Map* [private] openZipFiles
+EDU.purdue.cs.bloat.file.ClassFileLoader: *java.util.LinkedList* [private] cache
+EDU.purdue.cs.bloat.file.FunkyJar: *java.util.Set* [private] dirs
+EDU.purdue.cs.bloat.inline.CallGraph: *java.util.Set* [private] roots
+EDU.purdue.cs.bloat.inline.CallGraph: *java.util.Map* [private] calls
+EDU.purdue.cs.bloat.inline.CallGraph: *java.util.Set* [private] liveClasses
+EDU.purdue.cs.bloat.inline.CallGraph: *java.util.Map* [private] resolvesTo
+EDU.purdue.cs.bloat.inline.CallGraph: *java.util.Map* [private] blocked
+EDU.purdue.cs.bloat.inline.CallGraph: *java.util.List* worklist
+EDU.purdue.cs.bloat.inline.CallGraph: *java.util.Set* liveMethods
+EDU.purdue.cs.bloat.inline.Inline: *java.util.Map* [private] editors
+EDU.purdue.cs.bloat.inline.InlineStats: *java.util.Map* [private] morphicity
+EDU.purdue.cs.bloat.inline.InstructionStack: *java.util.HashMap* stacks
+EDU.purdue.cs.bloat.inline.InstructionStack: *java.util.LinkedList* currStack
+EDU.purdue.cs.bloat.inline.InstructionStack: *java.util.HashMap* preexists
+EDU.purdue.cs.bloat.inline.InstructionStack: *java.util.HashMap* currPreexists
+EDU.purdue.cs.bloat.inline.Mapper: *java.util.Map* [private] varsMap
+EDU.purdue.cs.bloat.inline.Mapper: *java.util.Map* [private] labelsMap
+EDU.purdue.cs.bloat.inline.Specialize: *java.util.Map* [private] staticMethods
+EDU.purdue.cs.bloat.inline.Specialize: *java.util.Set* [private] specialized
+EDU.purdue.cs.bloat.inline.StackHeightCounter: *java.util.HashMap* [private] labelHeights
+EDU.purdue.cs.bloat.inline.StackHeightCounter: *java.util.Set* tryCatches
+EDU.purdue.cs.bloat.ssa.SSA$1: *java.util.Map* [private] [final] val$infos
+EDU.purdue.cs.bloat.ssa.SSAConstructionInfo: *java.util.LinkedList* allReals
+EDU.purdue.cs.bloat.ssa.SSAConstructionInfo: *java.util.Set* defBlocks
+EDU.purdue.cs.bloat.ssa.SSAGraph: *java.util.HashMap* equiv
+EDU.purdue.cs.bloat.ssa.SSAGraph$2: *java.util.ArrayList* [private] [final] val$c
+EDU.purdue.cs.bloat.ssa.SSAGraph$3: *java.util.ArrayList* [private] [final] val$c
+EDU.purdue.cs.bloat.ssa.SSAGraph$5: *java.util.ArrayList* stack
+EDU.purdue.cs.bloat.ssa.SSAGraph$5: *java.util.List* [private] [final] val$postOrder
+EDU.purdue.cs.bloat.ssa.SSAGraph$8: *java.util.ArrayList* stack
+EDU.purdue.cs.bloat.ssa.SSAGraph$8: *java.util.List* [private] [final] val$postOrder
+EDU.purdue.cs.bloat.trans.DeadCodeElimination: *java.util.LinkedList* worklist
+EDU.purdue.cs.bloat.trans.SSAPRE: *java.util.HashMap* [protected] phiRelated
+EDU.purdue.cs.bloat.trans.SSAPRE$1: *java.util.Set* [private] [final] val$beginTry
+EDU.purdue.cs.bloat.trans.SSAPRE$11: *java.util.List* [private] [final] val$r
+EDU.purdue.cs.bloat.trans.SSAPRE$11: *java.util.List* [private] [final] val$a
+EDU.purdue.cs.bloat.trans.SSAPRE$12: *EDU.purdue.cs.bloat.trans.SSAPRE$11* [private] [final] this$2
+EDU.purdue.cs.bloat.trans.SSAPRE$2: *java.util.Set* [private] [final] val$inWorklist
+EDU.purdue.cs.bloat.trans.SSAPRE$2: *java.util.ArrayList* [private] [final] val$worklist
+EDU.purdue.cs.bloat.trans.SSAPRE$3: *java.util.ArrayList* [private] [final] val$leaves
+EDU.purdue.cs.bloat.trans.SSAPRE$7: *java.util.LinkedList* [private] [final] val$leaves
+EDU.purdue.cs.bloat.trans.SSAPRE$8: *java.util.LinkedList* [private] [final] val$leaves
+EDU.purdue.cs.bloat.trans.SSAPRE$ExprInfo: *java.util.Map* defs
+EDU.purdue.cs.bloat.trans.SSAPRE$ExprInfo: *java.util.Map* availDefs
+EDU.purdue.cs.bloat.trans.SSAPRE$ExprInfo: *java.util.Map* saves
+EDU.purdue.cs.bloat.trans.SSAPRE$ExprInfo: *java.util.Map* reloads
+EDU.purdue.cs.bloat.trans.SSAPRE$ExprWorklist: *java.util.Map* exprInfos
+EDU.purdue.cs.bloat.trans.SSAPRE$ExprWorklist: *java.util.LinkedList* exprs
+EDU.purdue.cs.bloat.trans.SSAPRE$Phi: *java.util.List* leaves
+EDU.purdue.cs.bloat.trans.StackPRE$3: *java.util.List* [private] [final] val$s
+EDU.purdue.cs.bloat.trans.StackPRE$5: *EDU.purdue.cs.bloat.trans.StackPRE$4* [private] [final] this$2
+EDU.purdue.cs.bloat.trans.StackPRE$6: *java.util.List* [private] [final] val$list
+EDU.purdue.cs.bloat.trans.StackPRE$ExprInfo: *java.util.Map* pushes
+EDU.purdue.cs.bloat.trans.StackPRE$ExprInfo: *java.util.Map* pops
+EDU.purdue.cs.bloat.trans.StackPRE$ExprInfo: *java.util.Map* defs
+EDU.purdue.cs.bloat.trans.StackPRE$ExprInfo: *java.util.ArrayList* cleanup
+EDU.purdue.cs.bloat.trans.StackPRE$Phi: *java.util.HashMap* operands
+EDU.purdue.cs.bloat.trans.StackPRE$Phi: *java.util.HashMap* saveOperand
+EDU.purdue.cs.bloat.trans.StackPRE$Worklist: *java.util.Map* exprInfos
+EDU.purdue.cs.bloat.trans.StackPRE$Worklist: *java.util.LinkedList* exprs
+EDU.purdue.cs.bloat.trans.ValueFolder: *EDU.purdue.cs.bloat.util.ResizeableArrayList* values
+EDU.purdue.cs.bloat.trans.ValueFolder: *java.util.ArrayList* clean
+EDU.purdue.cs.bloat.trans.ValueNumbering: *java.util.HashMap* tuples
+EDU.purdue.cs.bloat.trans.ValueNumbering$1: *java.util.HashMap* [private] [final] val$optimistic
+EDU.purdue.cs.bloat.trans.ValueNumbering$1: *java.util.HashMap* [private] [final] val$valid
+EDU.purdue.cs.bloat.tree.AscendVisitor: *java.util.Hashtable* defInfoMap
+EDU.purdue.cs.bloat.tree.AscendVisitor: *java.util.Hashtable* useInfoMap
+EDU.purdue.cs.bloat.tree.AscendVisitor: *java.util.Vector* visited
+EDU.purdue.cs.bloat.tree.DefExpr: *java.util.Set* uses
+EDU.purdue.cs.bloat.tree.DescendVisitor: *java.util.Hashtable* useInfoMap
+EDU.purdue.cs.bloat.tree.DescendVisitor: *java.util.Hashtable* defInfoMap
+EDU.purdue.cs.bloat.tree.EliminationInformation: *java.util.Vector* [public] Occurences
+EDU.purdue.cs.bloat.tree.JumpStmt: *java.util.Set* catchTargets
+EDU.purdue.cs.bloat.tree.LEGatherer: *java.util.Vector* LEs
+EDU.purdue.cs.bloat.tree.OperandStack: *java.util.ArrayList* stack
+EDU.purdue.cs.bloat.tree.PhiCatchStmt: *java.util.ArrayList* operands
+EDU.purdue.cs.bloat.tree.PhiJoinStmt: *java.util.Map* operands
+EDU.purdue.cs.bloat.tree.StackOptimizer: *java.util.Hashtable* defInfoMap
+EDU.purdue.cs.bloat.tree.StackOptimizer: *java.util.Hashtable* useInfoMap
+EDU.purdue.cs.bloat.tree.Tree: *EDU.purdue.cs.bloat.tree.Tree$StmtList* stmts
+EDU.purdue.cs.bloat.tree.Tree: *java.util.Stack* savedStack
+EDU.purdue.cs.bloat.tree.Tree$1: *EDU.purdue.cs.bloat.tree.Tree$StmtList* [private] [final] this$1
+EDU.purdue.cs.bloat.tree.Tree$2: *EDU.purdue.cs.bloat.tree.Tree$StmtList* [private] [final] this$1
+EDU.purdue.cs.bloat.util.Graph: *EDU.purdue.cs.bloat.util.Graph$NodeMap* [private] nodes
+EDU.purdue.cs.bloat.util.Graph: *EDU.purdue.cs.bloat.util.Graph$NodeList* [private] preOrder
+EDU.purdue.cs.bloat.util.Graph: *EDU.purdue.cs.bloat.util.Graph$NodeList* [private] postOrder
+EDU.purdue.cs.bloat.util.Graph: *java.util.Collection* [private] roots
+EDU.purdue.cs.bloat.util.Graph: *java.util.Collection* [private] revRoots
+EDU.purdue.cs.bloat.util.Graph$1: *java.util.Collection* [private] [final] val$entries
+EDU.purdue.cs.bloat.util.Graph$1: *EDU.purdue.cs.bloat.util.Graph$NodeMap* [private] [final] this$1
+EDU.purdue.cs.bloat.util.Graph$2: *EDU.purdue.cs.bloat.util.Graph$1* [private] [final] this$2
+EDU.purdue.cs.bloat.util.Graph$3: *EDU.purdue.cs.bloat.util.Graph$NodeList* [private] [final] this$1
+EDU.purdue.cs.bloat.util.Graph$4: *EDU.purdue.cs.bloat.util.Graph$EdgeSet* [private] [final] this$1
+EDU.purdue.cs.bloat.util.Graph$EdgeSet: *java.util.Set* set
+EDU.purdue.cs.bloat.util.Graph$NodeMap: *java.util.HashMap* map
+EDU.purdue.cs.bloat.util.GraphNode: *java.util.HashSet* [protected] succs
+EDU.purdue.cs.bloat.util.GraphNode: *java.util.HashSet* [protected] preds
+EDU.purdue.cs.bloat.util.UnionFind: *EDU.purdue.cs.bloat.util.ResizeableArrayList* nodes
+
+ARRAYS REPORT
+=============
+
+EDU.purdue.cs.bloat.codegen.Liveness$2: *java.util.List[]* [private] [final] val$nodes [no-stores]
+EDU.purdue.cs.bloat.codegen.Liveness$2: *java.util.Map[]* [private] [final] val$nodeIndices [no-stores]
+EDU.purdue.cs.bloat.codegen.Liveness$3: *java.util.List[]* [private] [final] val$nodes [no-stores]
+EDU.purdue.cs.bloat.codegen.Liveness$3: *java.util.Map[]* [private] [final] val$nodeIndices [no-stores]
+EDU.purdue.cs.bloat.editor.ClassEditor: *EDU.purdue.cs.bloat.editor.Type[]* [private] interfaces [hashcode]
+EDU.purdue.cs.bloat.editor.MethodEditor: *EDU.purdue.cs.bloat.editor.LocalVariable[]* [private] params [mod] [arraycopy] [hashcode]
+EDU.purdue.cs.bloat.editor.MethodEditor: *EDU.purdue.cs.bloat.editor.Type[]* [private] paramTypes [mod] [arraycopy] [hashcode]
+EDU.purdue.cs.bloat.editor.Switch: *EDU.purdue.cs.bloat.editor.Label[]* [private] targets [arraycopy]
+EDU.purdue.cs.bloat.editor.Type: *EDU.purdue.cs.bloat.editor.Type[]* paramTypes [arraycopy] [hashcode]
+EDU.purdue.cs.bloat.file.ClassFile: *EDU.purdue.cs.bloat.file.Field[]* [private] fields
+EDU.purdue.cs.bloat.file.ClassFile: *EDU.purdue.cs.bloat.file.Method[]* [private] methods
+EDU.purdue.cs.bloat.file.ClassFile: *EDU.purdue.cs.bloat.file.Attribute[]* [private] attrs
+EDU.purdue.cs.bloat.file.Code: *EDU.purdue.cs.bloat.reflect.Catch[]* [private] handlers [arraycopy]
+EDU.purdue.cs.bloat.file.Code: *EDU.purdue.cs.bloat.file.Attribute[]* [private] attrs [arraycopy]
+EDU.purdue.cs.bloat.file.Field: *EDU.purdue.cs.bloat.file.Attribute[]* [private] attrs
+EDU.purdue.cs.bloat.file.LineNumberTable: *EDU.purdue.cs.bloat.reflect.LineNumberDebugInfo[]* [private] lineNumbers
+EDU.purdue.cs.bloat.file.LocalVariableTable: *EDU.purdue.cs.bloat.reflect.LocalDebugInfo[]* [private] locals
+EDU.purdue.cs.bloat.file.Method: *EDU.purdue.cs.bloat.file.Attribute[]* [private] attrs
+EDU.purdue.cs.bloat.ssa.SSAConstructionInfo: *java.util.LinkedList[]* reals
+EDU.purdue.cs.bloat.ssa.SSAConstructionInfo: *EDU.purdue.cs.bloat.tree.PhiStmt[]* phis
+EDU.purdue.cs.bloat.trans.Peephole$Filter: *EDU.purdue.cs.bloat.editor.Instruction[]* replace
+EDU.purdue.cs.bloat.trans.PersistentCheckElimination$1: *java.util.BitSet[]* [private] [final] val$seen [no-stores]
+EDU.purdue.cs.bloat.trans.SSAPRE: *EDU.purdue.cs.bloat.util.ResizeableArrayList[]* [protected] kills
+EDU.purdue.cs.bloat.trans.SSAPRE$ExprInfo: *java.util.List[]* [private] reals
+EDU.purdue.cs.bloat.trans.SSAPRE$ExprInfo: *EDU.purdue.cs.bloat.trans.SSAPRE$Phi[]* [private] phis
+EDU.purdue.cs.bloat.trans.SSAPRE$Phi: *EDU.purdue.cs.bloat.trans.SSAPRE$Def[]* operands
+EDU.purdue.cs.bloat.trans.StackPRE: *java.util.List[]* [protected] varphis
+EDU.purdue.cs.bloat.trans.StackPRE: *java.util.List[]* [protected] stackvars
+EDU.purdue.cs.bloat.trans.StackPRE$ExprInfo: *java.util.ArrayList[]* vars
+EDU.purdue.cs.bloat.trans.StackPRE$ExprInfo: *EDU.purdue.cs.bloat.trans.StackPRE$Phi[]* phis
+EDU.purdue.cs.bloat.tree.CallExpr: *EDU.purdue.cs.bloat.tree.Expr[]* params [no-stores]
+EDU.purdue.cs.bloat.tree.InitStmt: *EDU.purdue.cs.bloat.tree.LocalExpr[]* targets
+EDU.purdue.cs.bloat.tree.NewMultiArrayExpr: *EDU.purdue.cs.bloat.tree.Expr[]* dimensions [hashcode]
+EDU.purdue.cs.bloat.tree.StackManipStmt: *EDU.purdue.cs.bloat.tree.StackExpr[]* target
+EDU.purdue.cs.bloat.tree.StackManipStmt: *EDU.purdue.cs.bloat.tree.StackExpr[]* source
+EDU.purdue.cs.bloat.tree.SwitchStmt: *EDU.purdue.cs.bloat.cfg.Block[]* targets [no-stores] [arraycopy]
+
+N-CYCLES
+========
+[EDU/purdue/cs/bloat/util/Graph$NodeList, EDU/purdue/cs/bloat/util/Graph$NodeMap, EDU/purdue/cs/bloat/util/Graph]
+[EDU/purdue/cs/bloat/tree/StackOptimizer, EDU/purdue/cs/bloat/tree/Tree$StmtList, EDU/purdue/cs/bloat/cfg/Subroutine, EDU/purdue/cs/bloat/tree/Tree, EDU/purdue/cs/bloat/cfg/FlowGraph, EDU/purdue/cs/bloat/cfg/Block]
+[EDU/purdue/cs/bloat/editor/CodeArray$ByteCell, EDU/purdue/cs/bloat/editor/CodeArray]
+[EDU/purdue/cs/bloat/codegen/Liveness, EDU/purdue/cs/bloat/codegen/RegisterAllocator]
+[EDU/purdue/cs/bloat/trans/StackPRE, EDU/purdue/cs/bloat/trans/StackPRE$Worklist]
+[EDU/purdue/cs/bloat/file/FunkyJar$Size, EDU/purdue/cs/bloat/file/FunkyJar]
+[EDU/purdue/cs/bloat/trans/SSAPRE$ExprWorklist, EDU/purdue/cs/bloat/trans/SideEffectChecker, EDU/purdue/cs/bloat/trans/SSAPRE]
+[EDU/purdue/cs/bloat/trans/SSAPRE$Phi, EDU/purdue/cs/bloat/trans/SSAPRE$6]

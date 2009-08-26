@@ -1,0 +1,384 @@
+DSFinder has run for 0 min. 7 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.lnicholls.galleon.app.AppException: *java.lang.Throwable* [private] mNestedException
+org.lnicholls.galleon.apps.internet.Internet: *com.tivo.hme.sdk.Resource* [private] mLargeFolderIcon
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshows: *com.tivo.hme.sdk.Resource* [private] mLargeFolderIcon
+org.lnicholls.galleon.apps.photos.Photos: *com.tivo.hme.sdk.Resource* [private] largeFolderIcon
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mLockIcon
+org.lnicholls.galleon.apps.togo.ToGo$ToGoScreen: *com.tivo.hme.bananas.BView* [private] mLock
+org.lnicholls.galleon.gui.HMEConfigurationPanel: *javax.swing.JPanel* [private] frame
+org.lnicholls.galleon.gui.HMEConfigurationPanel: *java.lang.Object* [private] target
+org.lnicholls.galleon.gui.InternalFrame: *javax.swing.JPanel* [private] mHeaderPanel
+org.lnicholls.galleon.util.FileSystemContainer$Item: *java.lang.Object* [private] mValue
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer$PathScreen: [private] mParent
+org.lnicholls.galleon.downloads.Download: d
+org.lnicholls.galleon.downloads.Downloader: d
+Non-Object Fields:
+org.lnicholls.galleon.apps.audioScrobbler.AudioScrobbler: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.audioScrobbler.AudioScrobbler: *com.tivo.hme.sdk.Resource* [private] mItemIcon
+org.lnicholls.galleon.apps.email.Email: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.email.Email: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.email.Email: *com.tivo.hme.sdk.Resource* [private] mViewerBackground
+org.lnicholls.galleon.apps.email.Email: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.email.Email: *com.tivo.hme.sdk.Resource* [private] mItemIcon
+org.lnicholls.galleon.apps.email.Email$EmailAccountMenuScreen: *com.tivo.hme.bananas.BView* [private] mImage
+org.lnicholls.galleon.apps.internet.Internet: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.internet.Internet: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.internet.Internet: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.internet.Internet: *com.tivo.hme.sdk.Resource* [private] mItemIcon
+org.lnicholls.galleon.apps.internet.Internet$ImageScreen: *com.tivo.hme.bananas.BView* [private] mImage
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshows: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshows: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshows: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshows: *com.tivo.hme.sdk.Resource* [private] mCameraIcon
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshows$SlideshowScreen: *com.tivo.hme.sdk.View* [private] mDescriptionBackground
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshows$SlideshowScreen: *com.tivo.hme.sdk.View* mPhoto
+org.lnicholls.galleon.apps.iTunes.iTunes: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.iTunes.iTunes: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.iTunes.iTunes: *com.tivo.hme.sdk.Resource* [private] mPlayerBackground
+org.lnicholls.galleon.apps.iTunes.iTunes: *com.tivo.hme.sdk.Resource* [private] mLyricsBackground
+org.lnicholls.galleon.apps.iTunes.iTunes: *com.tivo.hme.sdk.Resource* [private] mImagesBackground
+org.lnicholls.galleon.apps.iTunes.iTunes: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.iTunes.iTunes: *com.tivo.hme.sdk.Resource* [private] mCDIcon
+org.lnicholls.galleon.apps.iTunes.iTunes: *com.tivo.hme.sdk.Resource* [private] mPlaylistIcon
+org.lnicholls.galleon.apps.iTunes.iTunes$ImagesScreen: *com.tivo.hme.bananas.BView* [private] mImageView
+org.lnicholls.galleon.apps.jabber.Jabber: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.jabber.Jabber: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.jabber.Jabber: *com.tivo.hme.sdk.Resource* [private] mOfflineIcon
+org.lnicholls.galleon.apps.jabber.Jabber: *com.tivo.hme.sdk.Resource* [private] mOnlineIcon
+org.lnicholls.galleon.apps.jabber.Jabber: *com.tivo.hme.sdk.Resource* [private] mMessageIcon
+org.lnicholls.galleon.apps.jabber.Jabber: *com.tivo.hme.sdk.Resource* [private] mDndIcon
+org.lnicholls.galleon.apps.jukebox.Jukebox: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.jukebox.Jukebox: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.jukebox.Jukebox: *com.tivo.hme.sdk.Resource* [private] mPlayerBackground
+org.lnicholls.galleon.apps.jukebox.Jukebox: *com.tivo.hme.sdk.Resource* [private] mLyricsBackground
+org.lnicholls.galleon.apps.jukebox.Jukebox: *com.tivo.hme.sdk.Resource* [private] mImagesBackground
+org.lnicholls.galleon.apps.jukebox.Jukebox: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.jukebox.Jukebox: *com.tivo.hme.sdk.Resource* [private] mCDIcon
+org.lnicholls.galleon.apps.jukebox.Jukebox: *com.tivo.hme.sdk.Resource* [private] mPlaylistIcon
+org.lnicholls.galleon.apps.jukebox.Jukebox$ImagesScreen: *com.tivo.hme.bananas.BView* [private] mImageView
+org.lnicholls.galleon.apps.menu.Menu: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.menu.Menu: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.movies.Movies: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.movies.Movies: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.movies.Movies: *com.tivo.hme.sdk.Resource* [private] mImagesBackground
+org.lnicholls.galleon.apps.movies.Movies: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.movies.Movies: *com.tivo.hme.sdk.Resource* [private] mCDIcon
+org.lnicholls.galleon.apps.movies.Movies: *com.tivo.hme.sdk.Resource* [private] mFavoriteIcon
+org.lnicholls.galleon.apps.movies.Movies$ImagesScreen: *com.tivo.hme.bananas.BView* [private] mImageView
+org.lnicholls.galleon.apps.movies.Movies$MovieScreen: *com.tivo.hme.bananas.BView* [private] mImage
+org.lnicholls.galleon.apps.music.ImagesScreen: *com.tivo.hme.bananas.BView* [private] mImageView
+org.lnicholls.galleon.apps.music.Music: *com.tivo.hme.sdk.Resource* [private] menuBackground
+org.lnicholls.galleon.apps.music.Music: *com.tivo.hme.sdk.Resource* [private] infoBackground
+org.lnicholls.galleon.apps.music.Music: *com.tivo.hme.sdk.Resource* [private] playerBackground
+org.lnicholls.galleon.apps.music.Music: *com.tivo.hme.sdk.Resource* [private] lyricsBackground
+org.lnicholls.galleon.apps.music.Music: *com.tivo.hme.sdk.Resource* [private] imagesBackground
+org.lnicholls.galleon.apps.music.Music: *com.tivo.hme.sdk.Resource* [private] folderIcon
+org.lnicholls.galleon.apps.music.Music: *com.tivo.hme.sdk.Resource* [private] cdIcon
+org.lnicholls.galleon.apps.music.Music: *com.tivo.hme.sdk.Resource* [private] playlistIcon
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer: *com.tivo.hme.sdk.Resource* [private] mPlayerBackground
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer: *com.tivo.hme.sdk.Resource* [private] mLyricsBackground
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer: *com.tivo.hme.sdk.Resource* [private] mImagesBackground
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer: *com.tivo.hme.sdk.Resource* [private] mCDIcon
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer: *com.tivo.hme.sdk.Resource* [private] mPlaylistIcon
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer$ImagesScreen: *com.tivo.hme.bananas.BView* [private] mImageView
+org.lnicholls.galleon.apps.photos.Photos: *com.tivo.hme.sdk.Resource* [private] menuBackground
+org.lnicholls.galleon.apps.photos.Photos: *com.tivo.hme.sdk.Resource* [private] infoBackground
+org.lnicholls.galleon.apps.photos.Photos: *com.tivo.hme.sdk.Resource* [private] folderIcon
+org.lnicholls.galleon.apps.photos.Photos: *com.tivo.hme.sdk.Resource* [private] cameraIcon
+org.lnicholls.galleon.apps.photos.PhotosScreen: *com.tivo.hme.bananas.BView* [private] mThumbnail
+org.lnicholls.galleon.apps.photos.SlideshowScreen: *com.tivo.hme.sdk.View* mPhoto
+org.lnicholls.galleon.apps.playlists.Playlists: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.playlists.Playlists: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.playlists.Playlists: *com.tivo.hme.sdk.Resource* [private] mPlayerBackground
+org.lnicholls.galleon.apps.playlists.Playlists: *com.tivo.hme.sdk.Resource* [private] mLyricsBackground
+org.lnicholls.galleon.apps.playlists.Playlists: *com.tivo.hme.sdk.Resource* [private] mImagesBackground
+org.lnicholls.galleon.apps.playlists.Playlists: *com.tivo.hme.sdk.Resource* [private] mItemIcon
+org.lnicholls.galleon.apps.playlists.Playlists$ImagesScreen: *com.tivo.hme.bananas.BView* [private] mImageView
+org.lnicholls.galleon.apps.podcasting.Podcasting: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.podcasting.Podcasting: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.podcasting.Podcasting: *com.tivo.hme.sdk.Resource* [private] mPlayerBackground
+org.lnicholls.galleon.apps.podcasting.Podcasting: *com.tivo.hme.sdk.Resource* [private] mLyricsBackground
+org.lnicholls.galleon.apps.podcasting.Podcasting: *com.tivo.hme.sdk.Resource* [private] mImagesBackground
+org.lnicholls.galleon.apps.podcasting.Podcasting: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.podcasting.Podcasting: *com.tivo.hme.sdk.Resource* [private] mItemIcon
+org.lnicholls.galleon.apps.podcasting.Podcasting$PodcastItemScreen: *com.tivo.hme.bananas.BView* [private] mBack
+org.lnicholls.galleon.apps.podcasting.Podcasting$PodcastItemScreen: *com.tivo.hme.bananas.BView* [private] mStatusBarBg
+org.lnicholls.galleon.apps.podcasting.Podcasting$PodcastItemScreen: *com.tivo.hme.bananas.BView* [private] mStatusBar
+org.lnicholls.galleon.apps.podcasting.Podcasting$PodcastItemScreen: *com.tivo.hme.bananas.BView* [private] mImage
+org.lnicholls.galleon.apps.podcasting.Podcasting$PodcastScreen: *com.tivo.hme.bananas.BView* [private] mBack
+org.lnicholls.galleon.apps.podcasting.Podcasting$PodcastScreen: *com.tivo.hme.bananas.BView* [private] mImage
+org.lnicholls.galleon.apps.rss.RSS: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.rss.RSS: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.rss.RSS: *com.tivo.hme.sdk.Resource* [private] mViewerBackground
+org.lnicholls.galleon.apps.rss.RSS: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.rss.RSS: *com.tivo.hme.sdk.Resource* [private] mItemIcon
+org.lnicholls.galleon.apps.rss.RSS$RSSFeedMenuScreen: *com.tivo.hme.bananas.BView* [private] mImage
+org.lnicholls.galleon.apps.shoutcast.Shoutcast: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.shoutcast.Shoutcast: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.shoutcast.Shoutcast: *com.tivo.hme.sdk.Resource* [private] mPlayerBackground
+org.lnicholls.galleon.apps.shoutcast.Shoutcast: *com.tivo.hme.sdk.Resource* [private] mLyricsBackground
+org.lnicholls.galleon.apps.shoutcast.Shoutcast: *com.tivo.hme.sdk.Resource* [private] mImagesBackground
+org.lnicholls.galleon.apps.shoutcast.Shoutcast: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.shoutcast.Shoutcast: *com.tivo.hme.sdk.Resource* [private] mCDIcon
+org.lnicholls.galleon.apps.shoutcast.Shoutcast: *com.tivo.hme.sdk.Resource* [private] mPlaylistIcon
+org.lnicholls.galleon.apps.shoutcast.Shoutcast$ImagesScreen: *com.tivo.hme.bananas.BView* [private] mImageView
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mYellowIcon
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mYellowExclamationIcon
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mGreenIcon
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mRedIcon
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mBlueIcon
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mEmptyIcon
+org.lnicholls.galleon.apps.togo.ToGo: *com.tivo.hme.sdk.Resource* [private] mIcon
+org.lnicholls.galleon.apps.togo.ToGo$ToGoScreen: *com.tivo.hme.bananas.BView* [private] icon
+org.lnicholls.galleon.apps.togo.ToGo$ToGoScreen: *com.tivo.hme.bananas.BView* [private] statusBarBg
+org.lnicholls.galleon.apps.togo.ToGo$ToGoScreen: *com.tivo.hme.bananas.BView* [private] statusBar
+org.lnicholls.galleon.apps.traffic.Traffic: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.traffic.Traffic: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.traffic.Traffic: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.traffic.Traffic: *com.tivo.hme.sdk.Resource* [private] mIncidentIcon
+org.lnicholls.galleon.apps.traffic.Traffic: *com.tivo.hme.sdk.Resource* [private] mConstructionIcon
+org.lnicholls.galleon.apps.traffic.Traffic$SlideshowScreen: *com.tivo.hme.sdk.View* [private] mTitleBackground
+org.lnicholls.galleon.apps.traffic.Traffic$SlideshowScreen: *com.tivo.hme.sdk.View* [private] mDescriptionBackground
+org.lnicholls.galleon.apps.traffic.Traffic$SlideshowScreen: *com.tivo.hme.sdk.View* [private] mPhoto
+org.lnicholls.galleon.apps.upcoming.Upcoming: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.upcoming.Upcoming: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.upcoming.Upcoming: *com.tivo.hme.sdk.Resource* [private] mViewerBackground
+org.lnicholls.galleon.apps.upcoming.Upcoming: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.upcoming.Upcoming: *com.tivo.hme.sdk.Resource* [private] mItemIcon
+org.lnicholls.galleon.apps.videocasting.Videocasting: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.videocasting.Videocasting: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.videocasting.Videocasting: *com.tivo.hme.sdk.Resource* [private] mPlayerBackground
+org.lnicholls.galleon.apps.videocasting.Videocasting: *com.tivo.hme.sdk.Resource* [private] mLyricsBackground
+org.lnicholls.galleon.apps.videocasting.Videocasting: *com.tivo.hme.sdk.Resource* [private] mImagesBackground
+org.lnicholls.galleon.apps.videocasting.Videocasting: *com.tivo.hme.sdk.Resource* [private] mFolderIcon
+org.lnicholls.galleon.apps.videocasting.Videocasting: *com.tivo.hme.sdk.Resource* [private] mItemIcon
+org.lnicholls.galleon.apps.videocasting.Videocasting$VideocastItemScreen: *com.tivo.hme.bananas.BView* [private] mBack
+org.lnicholls.galleon.apps.videocasting.Videocasting$VideocastItemScreen: *com.tivo.hme.bananas.BView* [private] mStatusBarBg
+org.lnicholls.galleon.apps.videocasting.Videocasting$VideocastItemScreen: *com.tivo.hme.bananas.BView* [private] mStatusBar
+org.lnicholls.galleon.apps.videocasting.Videocasting$VideocastItemScreen: *com.tivo.hme.bananas.BView* [private] mImage
+org.lnicholls.galleon.apps.videocasting.Videocasting$VideocastScreen: *com.tivo.hme.bananas.BView* [private] mBack
+org.lnicholls.galleon.apps.videocasting.Videocasting$VideocastScreen: *com.tivo.hme.bananas.BView* [private] mImage
+org.lnicholls.galleon.apps.weather.Weather: *com.tivo.hme.sdk.Resource* [private] mMenuBackground
+org.lnicholls.galleon.apps.weather.Weather: *com.tivo.hme.sdk.Resource* [private] mInfoBackground
+org.lnicholls.galleon.apps.weather.Weather: *com.tivo.hme.sdk.Resource* [private] mAlertIcon
+org.lnicholls.galleon.apps.weather.Weather: *com.tivo.hme.sdk.Resource* [private] mIcon
+org.lnicholls.galleon.apps.weather.Weather: *com.tivo.hme.sdk.Resource* [private] mNA
+org.lnicholls.galleon.apps.weather.Weather$CurrentConditionsScreen: *com.tivo.hme.bananas.BView* [private] icon
+org.lnicholls.galleon.apps.weather.Weather$GenericWeatherScreen: *com.tivo.hme.bananas.BView* [private] mCurrentScreen
+org.lnicholls.galleon.apps.weather.Weather$LocalRadarScreen: *com.tivo.hme.bananas.BView* [private] image
+org.lnicholls.galleon.apps.weather.Weather$NationalRadarScreen: *com.tivo.hme.bananas.BView* [private] image
+org.lnicholls.galleon.util.DummySSLSocketFactory: *javax.net.ssl.SSLSocketFactory* [private] factory
+org.lnicholls.galleon.widget.DefaultApplication: *com.tivo.hme.sdk.Resource* [private] mBusyIcon
+org.lnicholls.galleon.widget.DefaultApplication: *com.tivo.hme.sdk.Resource* [private] mStarIcon
+org.lnicholls.galleon.widget.DefaultApplication: *com.tivo.hme.sdk.Resource* [private] lastImageResource
+org.lnicholls.galleon.widget.DefaultApplication: *com.tivo.hme.sdk.Resource* [private] mLastResource
+org.lnicholls.galleon.widget.DefaultScreen: *com.tivo.hme.bananas.BView* [protected] mBusy
+org.lnicholls.galleon.widget.DefaultScreen: *com.tivo.hme.bananas.BView* [protected] mTitleAnimation
+org.lnicholls.galleon.widget.Grid: *com.tivo.hme.sdk.View* [private] mMarker
+org.lnicholls.galleon.widget.MusicInfo: *com.tivo.hme.bananas.BView* [private] mCover
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mBar
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mBarLeft
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mBarMiddle
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mBarRight
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mBorder
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mProgress
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mShuttle
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mShuttleTop
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mShuttleBottom
+org.lnicholls.galleon.widget.PlayBar: *com.tivo.hme.bananas.BView* [private] mShuttleIcon
+org.lnicholls.galleon.winamp.PositionControl: *com.tivo.hme.sdk.View* [private] mBar
+org.lnicholls.galleon.winamp.ScrollTextControl: *com.tivo.hme.sdk.View* [private] mScrollingText
+org.lnicholls.galleon.winamp.WinampPlayer: *com.tivo.hme.sdk.View* [private] player
+org.lnicholls.galleon.winamp.WinampPlayer: *com.tivo.hme.sdk.View* [private] stereo
+org.lnicholls.galleon.winamp.WinampPlayer: *com.tivo.hme.sdk.View* [private] mono
+org.lnicholls.galleon.winamp.WinampPlayer: *com.tivo.hme.sdk.View* [private] stopIcon
+org.lnicholls.galleon.winamp.WinampPlayer: *com.tivo.hme.sdk.View* [private] playIcon
+org.lnicholls.galleon.winamp.WinampPlayer: *com.tivo.hme.sdk.View* [private] pauseIcon
+org.lnicholls.galleon.winamp.WinampPlayer: *com.tivo.hme.sdk.View* [private] repeat
+org.lnicholls.galleon.winamp.WinampPlayer: *com.tivo.hme.sdk.View* [private] shuffle
+java.lang.Object Fields:
+org.lnicholls.galleon.app.AppContext: *java.lang.Object* [private] mAppConfiguration
+org.lnicholls.galleon.widget.DefaultOptionList: *java.lang.Object* [private] font
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.lnicholls.galleon.apps.audioScrobbler.AudioScrobbler$AudioScrobblerFactory: *java.util.List* [private] mNotSubmitted
+org.lnicholls.galleon.apps.email.Email$EmailAccountMenuScreen: *java.util.List* [private] mList
+org.lnicholls.galleon.apps.email.EmailConfiguration: *java.util.List* [private] mAccounts
+org.lnicholls.galleon.apps.email.EmailOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.hdphotos.HDPhotosOptionsPanel: *java.util.ArrayList* [private] columnValues
+org.lnicholls.galleon.apps.internet.InternetConfiguration: *java.util.List* [private] mSharedUrls
+org.lnicholls.galleon.apps.internet.InternetOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshowsConfiguration: *java.util.List* [private] mPaths
+org.lnicholls.galleon.apps.internetSlideshows.InternetSlideshowsOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.iTunes.iTunes$ImagesScreen: *java.util.List* [private] mResults
+org.lnicholls.galleon.apps.iTunes.iTunesConfiguration: *java.util.List* [private] mPaths
+org.lnicholls.galleon.apps.iTunes.PlaylistParser$ListParser: *java.util.List* [private] mCurrentPlaylists
+org.lnicholls.galleon.apps.iTunes.PlaylistParser$TrackParser: *java.util.HashMap* [private] mTracks
+org.lnicholls.galleon.apps.jabber.Jabber$JabberFactory: *java.util.List* [private] mRoster
+org.lnicholls.galleon.apps.jabber.Jabber$JabberFactory: *java.util.List* [private] mPresence
+org.lnicholls.galleon.apps.jabber.Jabber$JabberFactory: *java.util.List* [private] mMessages
+org.lnicholls.galleon.apps.jabber.Jabber$JabberFactory: *java.util.HashMap* [private] mConversations
+org.lnicholls.galleon.apps.jabber.Jabber$JabberFactory: *java.util.List* [private] mPresenceListeners
+org.lnicholls.galleon.apps.jabber.Jabber$JabberFactory: *java.util.HashMap* [private] mMessageListeners
+org.lnicholls.galleon.apps.jukebox.Jukebox$ImagesScreen: *java.util.List* [private] mResults
+org.lnicholls.galleon.apps.movies.Movies$ImagesScreen: *java.util.List* [private] mResults
+org.lnicholls.galleon.apps.movies.Movies$MovieMenuScreen: *java.util.List* [private] mList
+org.lnicholls.galleon.apps.music.ImagesScreen: *java.util.List* [private] mResults
+org.lnicholls.galleon.apps.music.MusicConfiguration: *java.util.List* [private] mPaths
+org.lnicholls.galleon.apps.music.MusicOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizer$ImagesScreen: *java.util.List* [private] mResults
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizerConfiguration: *java.util.List* [private] mPaths
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizerConfiguration: *java.util.List* [private] mGroups
+org.lnicholls.galleon.apps.musicOrganizer.MusicOrganizerOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.photos.PGrid: *java.util.Vector* [private] mThreads
+org.lnicholls.galleon.apps.photos.PhotosConfiguration: *java.util.List* [private] mPaths
+org.lnicholls.galleon.apps.photos.PhotosOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.playlists.Playlists$ImagesScreen: *java.util.List* [private] mResults
+org.lnicholls.galleon.apps.playlists.PlaylistsConfiguration: *java.util.List* [private] mPlaylists
+org.lnicholls.galleon.apps.playlists.PlaylistsOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.podcasting.Podcasting$NowPlayingMenuScreen: *java.util.List* mList
+org.lnicholls.galleon.apps.podcasting.Podcasting$SubscribedMenuScreen: *java.util.List* mList
+org.lnicholls.galleon.apps.podcasting.PodcastingConfiguration: *java.util.List* [private] mDirectories
+org.lnicholls.galleon.apps.podcasting.PodcastingOptionsPanel: *java.util.ArrayList* [private] mSubscriptionsColumnValues
+org.lnicholls.galleon.apps.podcasting.PodcastingOptionsPanel: *java.util.ArrayList* [private] mDirectoriesColumnValues
+org.lnicholls.galleon.apps.rss.RSS$RSSFeedMenuScreen: *java.util.List* [private] mList
+org.lnicholls.galleon.apps.rss.RSSConfiguration: *java.util.List* [private] mSharedFeeds
+org.lnicholls.galleon.apps.rss.RSSOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.shoutcast.Shoutcast$ImagesScreen: *java.util.List* [private] mResults
+org.lnicholls.galleon.apps.shoutcast.ShoutcastOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.traffic.Traffic$TrafficMenuScreen: *java.util.List* [private] mResults
+org.lnicholls.galleon.apps.traffic.TrafficConfiguration: *java.util.List* [private] mLocations
+org.lnicholls.galleon.apps.traffic.TrafficOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.upcoming.Upcoming$UpcomingEventsLocationsMenuScreen: *java.util.List* [private] mList
+org.lnicholls.galleon.apps.upcoming.Upcoming$UpcomingEventsMenuScreen: *java.util.List* [private] mEvents
+org.lnicholls.galleon.apps.upcoming.Upcoming$UpcomingSearchScreen: *java.util.List* [private] mEvents
+org.lnicholls.galleon.apps.upcoming.Upcoming$UpcomingVenuesLocationsMenuScreen: *java.util.List* [private] mList
+org.lnicholls.galleon.apps.upcoming.Upcoming$UpcomingVenuesMenuScreen: *java.util.List* [private] mVenues
+org.lnicholls.galleon.apps.upcoming.UpcomingConfiguration: *java.util.List* [private] mLocations
+org.lnicholls.galleon.apps.upcoming.UpcomingOptionsPanel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.apps.upcoming.UpcomingOptionsPanel: *java.util.List* [private] mCountries
+org.lnicholls.galleon.apps.upcoming.UpcomingOptionsPanel: *java.util.List* [private] mStates
+org.lnicholls.galleon.apps.upcoming.UpcomingOptionsPanel: *java.util.List* [private] mMetros
+org.lnicholls.galleon.apps.videocasting.Videocasting$SubscribedMenuScreen: *java.util.List* mList
+org.lnicholls.galleon.apps.videocasting.VideocastingConfiguration: *java.util.List* [private] mDirectories
+org.lnicholls.galleon.apps.videocasting.VideocastingOptionsPanel: *java.util.ArrayList* [private] mSubscriptionsColumnValues
+org.lnicholls.galleon.apps.videocasting.VideocastingOptionsPanel: *java.util.ArrayList* [private] mDirectoriesColumnValues
+org.lnicholls.galleon.apps.weather.WeatherData: *java.util.ArrayList* [private] mLinks
+org.lnicholls.galleon.apps.weather.WeatherData: *java.util.ArrayList* [private] mAlerts
+org.lnicholls.galleon.apps.weather.WeatherData$Forecasts: *java.util.ArrayList* [private] mForecast
+org.lnicholls.galleon.apps.weather.WeatherData$Search: *java.util.ArrayList* [private] mLocations
+org.lnicholls.galleon.database.Playlist: *java.util.List* [private] tracks
+org.lnicholls.galleon.database.Podcast: *java.util.List* [private] tracks
+org.lnicholls.galleon.database.Theater: *java.util.List* [private] showtimes
+org.lnicholls.galleon.database.Videocast: *java.util.List* [private] tracks
+org.lnicholls.galleon.downloads.Downloader: *java.util.HashMap* dwl
+org.lnicholls.galleon.downloads.Downloader: *java.util.HashMap* sl
+org.lnicholls.galleon.downloads.DownloadThread: *java.util.HashMap* sl
+org.lnicholls.galleon.downloads.DownloadThread: *java.util.HashMap* dwl
+org.lnicholls.galleon.goback.ItemURL: *java.util.LinkedList* [private] mParameters
+org.lnicholls.galleon.goback.VideoServer$1: *java.util.HashMap* [final] val$dates
+org.lnicholls.galleon.gui.DownloadedPanel: *java.util.ArrayList* [private] mShows
+org.lnicholls.galleon.gui.DownloadManagerDialog: *java.util.List* [private] mDownloads
+org.lnicholls.galleon.gui.MainFrame$AddAppDialog: *java.util.List* [private] mApps
+org.lnicholls.galleon.gui.MainFrame$GoBackDialog: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.gui.OptionsTable: *java.util.ArrayList* [private] mFields
+org.lnicholls.galleon.gui.OptionsTableModel: *java.util.ArrayList* [private] mColumnNames
+org.lnicholls.galleon.gui.OptionsTableModel: *java.util.ArrayList* [private] mColumnValues
+org.lnicholls.galleon.gui.RecordedPanel: *java.util.List* [private] mRecorded
+org.lnicholls.galleon.gui.RecordedPanel: *java.util.List* [private] mTiVos
+org.lnicholls.galleon.gui.RulesPanel: *java.util.List* [private] mRules
+org.lnicholls.galleon.gui.TiVoPanel: *java.util.List* [private] mTiVos
+org.lnicholls.galleon.gui.TiVoPanel: *java.util.List* [private] mRecorded
+org.lnicholls.galleon.media.MediaRefreshThread: *java.util.ArrayList* [private] mPaths
+org.lnicholls.galleon.media.Playlist: *java.util.ArrayList* [protected] mItems
+org.lnicholls.galleon.skins.Descriptor: *java.util.List* [private] mImages
+org.lnicholls.galleon.skins.SkinDescriptor: *java.util.List* [private] mApps
+org.lnicholls.galleon.skins.SkinDescriptor$App: *java.util.List* [private] mScreens
+org.lnicholls.galleon.util.FileFilters$PositiveFilter: *java.util.ArrayList* [private] filters
+org.lnicholls.galleon.util.FileSorters$ChainedComparator: *java.util.ArrayList* [private] comparators
+org.lnicholls.galleon.util.FileSystemContainer$1: *java.util.ArrayList* [final] val$items
+org.lnicholls.galleon.widget.DefaultApplication: *java.util.ArrayList* [private] mCallbacks
+org.lnicholls.galleon.widget.DefaultApplication$Tracker: *java.util.List* [private] mList
+org.lnicholls.galleon.widget.DefaultApplication$Tracker: *java.util.ArrayList* [private] mRandomAvailable
+org.lnicholls.galleon.widget.MusicInfo: *java.util.List* [private] mResults
+org.lnicholls.galleon.widget.ScrollText: *java.util.LinkedList* [private] mTextLines
+org.lnicholls.galleon.widget.ScrollText: *java.util.LinkedList* [private] mTextLineViews
+org.lnicholls.galleon.widget.TileView: *java.util.List* [private] tiles [Ljava/util/List<Ljava/util/List<Lcom/tivo/hme/bananas/BView;>;>;]
+org.lnicholls.galleon.winamp.SkinLoader: *java.util.Hashtable* [private] mResources
+
+ARRAYS REPORT
+=============
+
+org.lnicholls.galleon.app.AppHost: *javax.jmdns.JmDNS[]* [protected] rv
+org.lnicholls.galleon.apps.photos.PhotosScreen: *com.tivo.hme.bananas.BView[]* [private] mStars [mod]
+org.lnicholls.galleon.apps.weather.Weather$ForecastScreen: *java.lang.String[]* [private] iconString
+org.lnicholls.galleon.apps.weather.Weather$ForecastScreen: *com.tivo.hme.bananas.BView[]* [private] icon
+org.lnicholls.galleon.apps.weather.Weather$ForecastScreen: *com.tivo.hme.bananas.BText[]* [private] dayText
+org.lnicholls.galleon.apps.weather.Weather$ForecastScreen: *com.tivo.hme.bananas.BText[]* [private] hiText
+org.lnicholls.galleon.apps.weather.Weather$ForecastScreen: *com.tivo.hme.bananas.BText[]* [private] loText
+org.lnicholls.galleon.apps.weather.Weather$ForecastScreen: *com.tivo.hme.bananas.BText[]* [private] descriptionText
+org.lnicholls.galleon.downloads.Downloader: *org.lnicholls.galleon.downloads.DownloadThread[]* dt
+org.lnicholls.galleon.downloads.Downloader: *org.lnicholls.galleon.downloads.Range[]* range
+org.lnicholls.galleon.downloads.DownloadManager: *org.lnicholls.galleon.downloads.Downloader[]* da [arraycopy]
+org.lnicholls.galleon.gui.HMEConfigurationPanel: *java.beans.PropertyDescriptor[]* [private] properties
+org.lnicholls.galleon.gui.HMEConfigurationPanel: *java.beans.PropertyEditor[]* [private] editors
+org.lnicholls.galleon.gui.HMEConfigurationPanel: *java.lang.Object[]* [private] values
+org.lnicholls.galleon.gui.HMEConfigurationPanel: *java.awt.Component[]* [private] views
+org.lnicholls.galleon.gui.HMEConfigurationPanel: *javax.swing.JLabel[]* [private] labels
+org.lnicholls.galleon.util.FileFilters$PrefixFilter: *java.lang.String[]* [private] prefix
+org.lnicholls.galleon.util.FileFilters$SuffixFilter: *java.lang.String[]* [private] suffix
+org.lnicholls.galleon.widget.MusicInfo: *com.tivo.hme.bananas.BView[]* [private] mStars
+org.lnicholls.galleon.widget.OptionsButton: *org.lnicholls.galleon.util.NameValue[]* [private] mNameValues [no-stores] [mod]
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mButtonReleasedImages
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mButtonPressedImages
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mPositionBar
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mReleasedPositionImage
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mPressedPositionImage
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mActiveModeImage
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mPassiveModeImage
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mTimeImage
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mIconsImage
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mReleasedEPSRImage
+org.lnicholls.galleon.winamp.ClassicSkin: *java.awt.Image[]* [private] mPressedEPSRImage
+org.lnicholls.galleon.winamp.ImageView: *com.tivo.hme.sdk.View[]* [private] mViews
+
+N-CYCLES
+========
+[org/lnicholls/galleon/downloads/DownloadManager$TDWL, org/lnicholls/galleon/downloads/DownloadManager$DWL, org/lnicholls/galleon/downloads/DownloadManager$TSL, org/lnicholls/galleon/downloads/DownloadManager$SL, org/lnicholls/galleon/downloads/DownloadManager]
+[org/lnicholls/galleon/togo/DownloadThread$CancelThread, org/lnicholls/galleon/togo/DownloadThread, org/lnicholls/galleon/togo/ToGoThread, org/lnicholls/galleon/server/Server]
+[org/lnicholls/galleon/downloads/Downloader$DWL, org/lnicholls/galleon/downloads/Downloader$SL, org/lnicholls/galleon/downloads/Downloader]
+[org/lnicholls/galleon/widget/DefaultApplication$Player, org/lnicholls/galleon/widget/DefaultApplication]
+[org/lnicholls/galleon/widget/MusicInfo$CoverChanger, org/lnicholls/galleon/widget/MusicInfo, org/lnicholls/galleon/widget/MusicPlayer]
+[org/lnicholls/galleon/gui/OptionsPanelManager, org/lnicholls/galleon/gui/AppTree, org/lnicholls/galleon/gui/MainFrame]
+[org/lnicholls/galleon/gui/MainFrame$ServerDialog, org/lnicholls/galleon/gui/MainFrame$NetworkDialog, org/lnicholls/galleon/gui/MainFrame$NetworkDialog$TiVoListener]
+[org/lnicholls/galleon/gui/RulesPanel, org/lnicholls/galleon/gui/ToGoDialog]
+[org/lnicholls/galleon/apps/menu/Menu$LocationMenuScreen, org/lnicholls/galleon/apps/menu/Menu]
+[org/lnicholls/galleon/apps/weather/Weather$AlertsScreen, org/lnicholls/galleon/apps/weather/Weather$NationalRadarScreen, org/lnicholls/galleon/apps/weather/Weather$LocalRadarScreen, org/lnicholls/galleon/apps/weather/Weather$ForecastTextScreen, org/lnicholls/galleon/apps/weather/Weather$ForecastScreen, org/lnicholls/galleon/apps/weather/Weather$CurrentConditionsScreen, org/lnicholls/galleon/apps/weather/Weather$GenericWeatherScreen]
+[org/lnicholls/galleon/apps/internetSlideshows/InternetSlideshows$Slideshow, org/lnicholls/galleon/apps/internetSlideshows/InternetSlideshows$SlideshowScreen]
+[org/lnicholls/galleon/apps/photos/SlideshowScreen, org/lnicholls/galleon/apps/photos/Slideshow]
+[org/lnicholls/galleon/apps/upcoming/Upcoming$UpcomingSearchScreen, org/lnicholls/galleon/apps/upcoming/Upcoming$UpcomingSearchScreen$EventsList]

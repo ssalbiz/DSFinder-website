@@ -1,0 +1,1269 @@
+DSFinder has run for 0 min. 16 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+com.aelitis.azureus.core.clientmessageservice.secure.impl.SecureMessageServiceClientMessageImpl: *java.lang.Object* [private] client_data
+com.aelitis.azureus.core.impl.AzureusCoreImpl$2$2: *java.lang.Object* [private] [final] val$target
+com.aelitis.azureus.plugins.extseed.ExternalSeedPeer$1: *java.lang.Object* [private] [final] val$data
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddy: *java.lang.Object* [private] rss_lock
+com.aelitis.azureus.ui.common.table.impl.TableViewImpl: *java.lang.Object* [private] parentDataSource
+org.gudy.azureus2.core3.disk.impl.access.impl.DiskManagerCheckRequestImpl: *java.lang.Object* [private] user_data
+org.gudy.azureus2.core3.disk.impl.access.impl.DiskManagerWriteRequestImpl: *java.lang.Object* [private] user_data
+org.gudy.azureus2.core3.peer.impl.PEPieceImpl: *java.lang.Object* [private] real_time_data
+org.gudy.azureus2.core3.torrent.impl.TOTorrentXMLDeserialiser$mapEntry: *java.lang.Object* value
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerPeerImpl: *java.lang.Object* [private] user_data
+org.gudy.azureus2.core3.util.ByteArrayHashMap$Entry: *java.lang.Object* value [TS;]
+org.gudy.azureus2.core3.util.DirectByteBufferPoolReal: *java.lang.Object* [private] [final] poolsLock
+org.gudy.azureus2.core3.util.ReferenceCountedDirectByteBuffer$ReferenceCountedDirectByteBufferDuplicate: *org.gudy.azureus2.core3.util.ReferenceCountedDirectByteBuffer* [final] this$0
+org.gudy.azureus2.plugins.ui.tables.TableRowMouseEvent: *java.lang.Object* [public] data
+org.gudy.azureus2.pluginsimpl.local.ddb.DDBaseKeyImpl: *java.lang.Object* [private] key
+org.gudy.azureus2.pluginsimpl.local.ddb.DDBaseValueImpl: *java.lang.Object* [private] value
+org.gudy.azureus2.pluginsimpl.local.ipc.IPCInterfaceImpl: *java.lang.Object* [private] target_use_accessor
+org.gudy.azureus2.pluginsimpl.local.peers.PeerImpl$2$1: *java.lang.Object* [private] [final] val$data
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl$3$1: *java.lang.Object* [private] [final] val$data
+org.gudy.azureus2.pluginsimpl.local.PluginInitializer$12: *java.lang.Object* [private] [final] val$value
+org.gudy.azureus2.pluginsimpl.local.PluginInterfaceImpl: *java.lang.Object* [private] initialiser_key
+org.gudy.azureus2.pluginsimpl.local.ui.components.UIComponentImpl$1: *java.lang.Object* [private] [final] val$property_value
+org.gudy.azureus2.pluginsimpl.local.ui.components.UIComponentImpl$1: *java.lang.Object* [private] [final] val$old_value
+org.gudy.azureus2.pluginsimpl.local.ui.menus.MenuItemImpl: *java.lang.Object* [private] data
+org.gudy.azureus2.pluginsimpl.local.ui.UIManagerEventAdapter: *java.lang.Object* [private] data
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl: *java.lang.Object* [private] result_informed_data
+org.gudy.azureus2.ui.swt.components.BufferedWidget: *java.lang.Object* [protected] data
+org.gudy.azureus2.ui.swt.mainwindow.UIFunctionsImpl$21: *java.lang.Object* [private] [final] val$dataSource
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTInstanceImpl$1: *java.lang.Object* [private] [final] val$data
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTInstanceImpl$2: *java.lang.Object* [private] [final] val$data
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTInstanceImpl$3: *java.lang.Object* [private] [final] val$data
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTInstanceImpl$7: *java.lang.Object* [private] [final] val$dataSource
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTInstanceImpl$8: *java.lang.Object* [private] [final] val$dataSource
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTViewEventImpl: *java.lang.Object* data
+org.gudy.azureus2.ui.swt.pluginsimpl.UISWTViewImpl: *java.lang.Object* [private] dataSource
+org.gudy.azureus2.ui.swt.progress.ProgressReporter: *java.lang.Object* [private] objectData
+org.gudy.azureus2.ui.swt.progress.ProgressReporter$ProgressReport: *java.lang.Object* [private] [final] objectData
+org.gudy.azureus2.ui.swt.progress.ProgressReporterStack: *java.lang.Object* [private] lockObject
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.lang.Object* [private] coreDataSource
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.lang.Object* [private] pluginDataSource
+org.gudy.azureus2.ui.swt.views.table.impl.TableRowImpl: *java.lang.Object* [private] coreDataSource
+org.gudy.azureus2.ui.swt.views.table.impl.TableRowImpl: *java.lang.Object* [private] pluginDataSource
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl$1QuickEditListener: *java.lang.Object* [private] [final] val$datasource
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl$45: *java.lang.Object* [private] [final] val$data_source
+
+Linked List-like Data Structures:
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerDownloader2$connectionEntry: [private] next/prev
+com.aelitis.net.udp.uc.PRUDPPacket: [private] previous_packet
+org.gudy.azureus2.core3.util.ByteArrayHashMap$Entry: next [Lorg/gudy/azureus2/core3/util/ByteArrayHashMap$Entry<TS;>;]
+
+Parent- and outer-type Data Structures:
+com.aelitis.azureus.core.neuronal.NeuralNetworkLayer: parentLayer
+com.aelitis.azureus.core.util.http.HTTPAuthHelper: [private] parent
+org.gudy.azureus2.pluginsimpl.local.ui.menus.MenuItemImpl: [private] parent
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl: [private] parent
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderFileImpl$1: *java.lang.Object* [private] [final] val$parent_tls
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderURLImpl$2: *java.lang.Object* [private] [final] val$parent_tls
+
+Whitelisted, probable data structures:
+com.aelitis.azureus.core.neuronal.NeuralNetworkLayer: childLayer
+
+
+Others:
+Exact Field Matches:
+com.aelitis.azureus.core.dht.router.impl.DHTRouterNodeImpl: [private] left
+com.aelitis.azureus.core.dht.router.impl.DHTRouterNodeImpl: [private] right
+com.aelitis.net.udp.uc.impl.PRUDPPacketHandlerImpl: [private] altProtocolDelegate
+org.gudy.azureus2.ui.swt.minibar.MiniBar: [protected] stucked
+Non-Object Fields:
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$12: *com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$DHTOperationListenerDemuxer* [private] [final] val$get_listener
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$7: *com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$DHTOperationListenerDemuxer* [private] [final] val$listener
+com.aelitis.azureus.core.util.DeleteFileOnCloseInputStream: *java.io.InputStream* [private] in
+com.aelitis.azureus.launcher.classloading.PrimaryClassloader: *java.lang.ClassLoader* [private] [final] packageLoader
+org.bouncycastle.asn1.ConstructedOctetStream: *java.io.InputStream* [private] _currentStream
+org.bouncycastle.asn1.LimitedInputStream: *java.io.InputStream* [protected] [final] _in
+org.bouncycastle.asn1.x509.AttCertIssuer: *org.bouncycastle.asn1.ASN1Encodable* obj
+org.gudy.azureus2.core3.security.impl.SESecurityManagerImpl$2: *java.lang.SecurityManager* [private] [final] val$old_sec_man
+org.gudy.azureus2.core3.util.ReferenceCountedDirectByteBuffer: *org.gudy.azureus2.core3.util.DirectByteBuffer* [private] basis
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderDelayedImpl: *org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl* [protected] delegate
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderMetaRefreshImpl: *org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl* [protected] delegate
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderMetaRefreshImpl: *org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl* [protected] current_delegate
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderRetryImpl: *org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl* [protected] delegate
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderTimeoutImpl: *org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl* [protected] delegate
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderTimeoutImpl: *org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl* [protected] current_downloader
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderTorrentImpl: *org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl* [protected] delegate
+org.gudy.azureus2.ui.swt.progress.ProgressReporterPanel: *org.eclipse.swt.widgets.Composite* [private] progressPanel
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionTransfer$2: *org.gudy.azureus2.ui.swt.config.ParameterChangeAdapter* me
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionTransfer$3: *org.gudy.azureus2.ui.swt.config.ParameterChangeAdapter* me
+java.lang.Object Fields:
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$DhtTaskSet: *java.lang.Object* [private] things
+com.aelitis.azureus.core.dht.db.impl.DHTDBMapping: *java.lang.Object* [private] ip_count_bloom_filter
+com.aelitis.azureus.core.networkmanager.impl.tcp.VirtualChannelSelectorImpl$RegistrationData: *java.lang.Object* [protected] [final] attachment
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPTransportHelper: *java.lang.Object* [private] read_attachment
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPTransportHelper: *java.lang.Object* [private] write_attachment
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.ltep.LTMessageEncoder: *java.lang.Object* [private] log_object
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerImpl: *java.lang.Object* [private] original_limits
+com.aelitis.azureus.core.util.CopyOnWriteList$CopyOnWriteListIterator: *java.lang.Object* [private] last [TT;]
+com.aelitis.azureus.core.util.CopyOnWriteSet$CopyOnWriteSetIterator: *java.lang.Object* [private] last [TT;]
+org.bouncycastle.x509.X509Util$Implementation: *java.lang.Object* engine
+org.gudy.azureus2.core3.ipfilter.impl.IpFilterAutoLoaderImpl: *java.lang.Object* [private] timerEventFilterReload
+org.gudy.azureus2.core3.ipfilter.impl.IpRangeImpl: *java.lang.Object* [private] descRef
+org.gudy.azureus2.core3.util.DebugWeakList$WeakListIterator: *java.lang.Object* [private] pending_result
+org.gudy.azureus2.core3.util.DebugWeakList$WeakListIterator: *java.lang.Object* [private] last_result
+org.gudy.azureus2.core3.util.NonDaemonTaskRunner$taskWrapper: *java.lang.Object* [protected] result
+org.gudy.azureus2.core3.xml.util.XMLElement: *java.lang.Object* [protected] single_content
+org.gudy.azureus2.pluginsimpl.local.ui.UIManagerEventAdapter: *java.lang.Object* [private] result
+org.gudy.azureus2.pluginsimpl.local.update.UpdateImpl: *java.lang.Object* [private] user_object
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderAlternateImpl: *java.lang.Object* [protected] result
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderFileImpl: *java.lang.Object* [protected] result
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderMetaRefreshImpl: *java.lang.Object* [protected] result
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderRetryImpl: *java.lang.Object* [protected] result
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderTimeoutImpl: *java.lang.Object* [protected] result
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderTorrentImpl: *java.lang.Object* [protected] result
+org.gudy.azureus2.pluginsimpl.remote.RPObject: *java.lang.Object* [protected] __delegate
+org.gudy.azureus2.pluginsimpl.remote.RPReply: *java.lang.Object* [public] response
+org.gudy.azureus2.ui.swt.mainwindow.MenuFactory$64: *java.lang.Object* [private] [final] val$o
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.lang.Object* [private] tooltip
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.lang.Object* [private] oToolTip
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+com.aelitis.azureus.core.util.http.HTTPAuthHelper: *java.util.Map* [private] children
+org.bouncycastle.jce.provider.PKIXPolicyNode: *java.util.List* [protected] children
+org.gudy.azureus2.pluginsimpl.local.PluginInterfaceImpl: *java.util.List* [protected] children
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl: *java.util.List* [private] children
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.util.ArrayList* [private] childCells
+==
+com.aelitis.azureus.core.clientmessageservice.impl.AEClientService: *java.util.ArrayList* [private] [final] received_messages
+com.aelitis.azureus.core.clientmessageservice.impl.ClientConnection: *java.util.ArrayList* [private] [final] sending_msgs
+com.aelitis.azureus.core.clientmessageservice.impl.ClientConnection: *java.util.Map* [private] user_data
+com.aelitis.azureus.core.clientmessageservice.impl.ClientMessage: *java.util.Map* [private] [final] payload
+com.aelitis.azureus.core.clientmessageservice.impl.NonBlockingReadWriteService: *java.util.ArrayList* [private] [final] connections
+com.aelitis.azureus.core.clientmessageservice.secure.impl.SecureMessageServiceClientImpl: *java.util.List* [private] messages
+com.aelitis.azureus.core.clientmessageservice.secure.impl.SecureMessageServiceClientImpl: *java.util.List* [private] listeners
+com.aelitis.azureus.core.clientmessageservice.secure.impl.SecureMessageServiceClientMessageImpl: *java.util.Map* [private] request
+com.aelitis.azureus.core.clientmessageservice.secure.impl.SecureMessageServiceClientMessageImpl: *java.util.Map* [private] reply
+com.aelitis.azureus.core.custom.impl.CustomizationManagerImpl: *java.util.Map* [private] customization_file_map
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl: *java.util.Map* [private] imported_state
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl: *java.util.List* [private] activities
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl: *java.util.Map* [private] local_estimate_values
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl: *java.util.List* [private] remote_estimate_values
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$12: *java.util.List* [private] found_values
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$13: *java.util.Set* contacts_to_query
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$13: *java.util.Map* level_map
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$13: *java.util.Map* contacts_queried
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$13: *java.util.Set* ok_contacts
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$13: *java.util.Set* values_found_set
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$7: *java.util.Set* [private] [final] val$things_written
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$8: *java.util.Set* [private] [final] val$things_written
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$sortedTransportContactSet: *java.util.TreeSet* [private] tree_set
+com.aelitis.azureus.core.dht.db.impl.DHTDBImpl: *java.util.Map* [private] stored_values
+com.aelitis.azureus.core.dht.db.impl.DHTDBImpl$6: *java.util.HashSet* [private] [final] val$anti_spoof_done
+com.aelitis.azureus.core.dht.db.impl.DHTDBImpl$6: *java.util.Map* [private] [final] val$republish
+com.aelitis.azureus.core.dht.db.impl.DHTDBMapping: *java.util.Map* [private] direct_originator_map_may_be_null
+com.aelitis.azureus.core.dht.db.impl.DHTDBMapping: *java.util.Map* [private] indirect_originator_value_map
+com.aelitis.azureus.core.dht.db.impl.DHTDBMapping$valueIterator: *java.util.List* [private] maps
+com.aelitis.azureus.core.dht.db.impl.DHTDBMapping$valueIterator: *java.util.Map* [private] map
+com.aelitis.azureus.core.dht.impl.DHTImpl: *java.util.Properties* [private] properties
+com.aelitis.azureus.core.dht.impl.Test: *java.util.Map* port_map
+com.aelitis.azureus.core.dht.nat.impl.DHTNATPuncherImpl: *java.util.Map* [private] rendezvous_bindings
+com.aelitis.azureus.core.dht.nat.impl.DHTNATPuncherImpl: *java.util.Map* [private] failed_rendezvous
+com.aelitis.azureus.core.dht.nat.impl.DHTNATPuncherImpl: *java.util.Map* [private] explicit_rendezvous_map
+com.aelitis.azureus.core.dht.nat.impl.DHTNATPuncherImpl: *java.util.List* [private] oustanding_punches
+com.aelitis.azureus.core.dht.netcoords.vivaldi.ver1.impl.tests.VivaldiVisualTest$1$1: *java.util.List* [private] [final] val$lPos
+com.aelitis.azureus.core.dht.router.impl.DHTRouterImpl: *java.util.List* [private] outstanding_pings
+com.aelitis.azureus.core.dht.router.impl.DHTRouterImpl: *java.util.List* [private] outstanding_adds
+com.aelitis.azureus.core.dht.router.impl.DHTRouterNodeImpl: *java.util.List* [private] buckets
+com.aelitis.azureus.core.dht.router.impl.DHTRouterNodeImpl: *java.util.List* [private] replacements
+com.aelitis.azureus.core.dht.speed.impl.DHTSpeedTesterImpl: *java.util.LinkedList* [private] pending_contacts
+com.aelitis.azureus.core.dht.speed.impl.DHTSpeedTesterImpl: *java.util.List* [private] active_pings
+com.aelitis.azureus.core.dht.speed.impl.DHTSpeedTesterImpl: *java.util.List* [private] new_listeners
+com.aelitis.azureus.core.dht.speed.impl.DHTSpeedTesterImpl$pingInstanceSet: *java.util.List* results
+com.aelitis.azureus.core.dht.transport.loopback.DHTTransportLoopbackImpl: *java.util.List* [private] listeners
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl: *java.util.Map* [private] transfer_handlers
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl: *java.util.Map* [private] read_transfers
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl: *java.util.Map* [private] write_transfers
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl: *java.util.Map* [private] call_transfers
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl: *java.util.List* [private] listeners
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl: *java.util.Map* [private] contact_history
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl: *java.util.Map* [private] routable_contact_history
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl: *java.util.Map* [private] recent_reports
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl$transferQueue: *java.util.Map* [private] transfers
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl$transferQueue: *java.util.List* [private] packets
+com.aelitis.azureus.core.dht.transport.udp.impl.packethandler.DHTUDPPacketHandlerFactory: *java.util.Map* [private] port_map
+com.aelitis.azureus.core.diskmanager.access.impl.DiskAccessControllerInstance: *java.util.Map* [private] torrent_dispatcher_map
+com.aelitis.azureus.core.diskmanager.access.impl.DiskAccessControllerInstance$groupSemaphore: *java.util.List* [private] waiters
+com.aelitis.azureus.core.diskmanager.access.impl.DiskAccessControllerInstance$requestDispatcher: *java.util.LinkedList* [private] requests
+com.aelitis.azureus.core.diskmanager.access.impl.DiskAccessControllerInstance$requestDispatcher: *java.util.Map* [private] request_map
+com.aelitis.azureus.core.diskmanager.cache.impl.CacheFileManagerImpl: *java.util.WeakHashMap* [protected] cache_files
+com.aelitis.azureus.core.diskmanager.cache.impl.CacheFileManagerImpl: *java.util.WeakHashMap* [protected] updated_cache_files
+com.aelitis.azureus.core.diskmanager.cache.impl.CacheFileManagerImpl: *java.util.LinkedHashMap* [protected] cache_entries
+com.aelitis.azureus.core.diskmanager.cache.impl.CacheFileManagerImpl: *java.util.Map* [protected] torrent_to_cache_file_map
+com.aelitis.azureus.core.diskmanager.cache.impl.CacheFileWithCache: *java.util.TreeSet* [protected] cache
+com.aelitis.azureus.core.diskmanager.file.impl.FMFileImpl: *java.util.List* [private] created_dirs
+com.aelitis.azureus.core.diskmanager.file.impl.FMFileManagerImpl: *java.util.LinkedHashMap* [protected] map
+com.aelitis.azureus.core.diskmanager.file.impl.FMFileManagerImpl: *java.util.HashMap* [protected] links
+com.aelitis.azureus.core.diskmanager.file.impl.FMFileManagerImpl: *java.util.List* [protected] close_queue
+com.aelitis.azureus.core.diskmanager.file.impl.FMFileManagerImpl: *java.util.List* [protected] files
+com.aelitis.azureus.core.diskmanager.MemoryMappedFile$MemoryMapPool: *java.util.Map* [private] [final] buffers
+com.aelitis.azureus.core.helpers.TorrentFolderWatcher: *java.util.ArrayList* [private] [final] to_delete
+com.aelitis.azureus.core.impl.AzureusCoreImpl: *java.util.List* [private] operation_listeners
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.List* [private] listeners
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.List* [private] requests
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Map* [private] other_instances
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Map* [private] tcp_lan_to_ext
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Map* [private] udp_lan_to_ext
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Map* [private] udp2_lan_to_ext
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Map* [private] tcp_ext_to_lan
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Map* [private] udp_ext_to_lan
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Map* [private] udp2_ext_to_lan
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Set* [private] lan_addresses
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.Set* [private] ext_addresses
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.List* [private] lan_subnets
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl: *java.util.List* [private] explicit_peers
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl$request: *java.util.Set* [private] reply_instances
+com.aelitis.azureus.core.instancemanager.impl.AZInstanceManagerImpl$request: *java.util.Map* [private] replies
+com.aelitis.azureus.core.instancemanager.impl.AZOtherInstanceImpl: *java.util.List* [private] internal_addresses
+com.aelitis.azureus.core.lws.LightWeightSeedManager: *java.util.Map* [private] lws_map
+com.aelitis.azureus.core.lws.LightWeightSeedManager: *java.util.Set* [private] dht_add_queue
+com.aelitis.azureus.core.lws.LWSDownload: *java.util.Map* [private] user_data
+com.aelitis.azureus.core.lws.LWSDownload: *java.util.Map* [private] torrent_attributes
+com.aelitis.azureus.core.nat.NATTraverser: *java.util.Map* [private] handlers
+com.aelitis.azureus.core.nat.NATTraverser$2: *java.util.Map* [private] [final] val$request
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl: *java.util.Set* [private] old_network_interfaces
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl: *java.util.List* [private] asn_ips_checked
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl: *java.util.List* [private] as_history
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl$10: *java.util.List* [private] [final] val$trace
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl$10$1: *java.util.List* [private] [final] val$trace
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl$11: *java.util.List* [private] [final] val$trace
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl$11$1: *java.util.List* [private] [final] val$trace
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl$8: *java.util.List* [private] [final] val$nodes
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminNATUDPReply: *java.util.Map* [private] payload
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminNATUDPRequest: *java.util.Map* [private] payload
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminSpeedTesterBTImpl$TorrentSpeedTestMonitorThread: *java.util.List* historyDownloadSpeed
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminSpeedTesterBTImpl$TorrentSpeedTestMonitorThread: *java.util.List* historyUploadSpeed
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminSpeedTesterBTImpl$TorrentSpeedTestMonitorThread: *java.util.List* timestamps
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminSpeedTestScheduledTestImpl$SpeedTestDownloadState: *java.util.Map* [private] torrentLimits
+com.aelitis.azureus.core.networkmanager.impl.EntityHandler: *java.util.HashMap* [private] [final] upgraded_connections
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPMessageDecoder: *java.util.List* [private] messages
+com.aelitis.azureus.core.networkmanager.impl.IncomingConnectionManager: *java.util.Map* [private] match_buffers_cow
+com.aelitis.azureus.core.networkmanager.impl.IncomingConnectionManager: *java.util.ArrayList* [private] [final] connections
+com.aelitis.azureus.core.networkmanager.impl.IncomingMessageQueueImpl: *java.util.ArrayList* [private] listeners
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerDownloader: *java.util.ArrayList* [private] connections_cow
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerDownloader2: *java.util.ArrayList* [private] connections_cow
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerDownloader2: *java.util.List* [private] pending_actions
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerUploader: *java.util.HashMap* [private] [final] waiting_connections
+com.aelitis.azureus.core.networkmanager.impl.MultiPeerUploader: *java.util.LinkedList* [private] [final] ready_connections
+com.aelitis.azureus.core.networkmanager.impl.OutgoingMessageQueueImpl: *java.util.LinkedList* [private] [final] queue
+com.aelitis.azureus.core.networkmanager.impl.OutgoingMessageQueueImpl: *java.util.ArrayList* [private] [final] delayed_notifications
+com.aelitis.azureus.core.networkmanager.impl.OutgoingMessageQueueImpl: *java.util.ArrayList* [private] listeners
+com.aelitis.azureus.core.networkmanager.impl.OutgoingMessageQueueImpl: *java.util.LinkedList* [private] [final] prev_sent
+com.aelitis.azureus.core.networkmanager.impl.ReadController: *java.util.ArrayList* [private] normal_priority_entities
+com.aelitis.azureus.core.networkmanager.impl.ReadController: *java.util.ArrayList* [private] high_priority_entities
+com.aelitis.azureus.core.networkmanager.impl.tcp.ProxyLoginHandler$3: *java.util.ArrayList* [private] [final] val$data
+com.aelitis.azureus.core.networkmanager.impl.tcp.TCPConnectionManager: *java.util.Map* [private] [final] pending_attempts [Ljava/util/Map<Lcom/aelitis/azureus/core/networkmanager/impl/tcp/TCPConnectionManager$ConnectionRequest;Ljava/lang/Object;>;]
+com.aelitis.azureus.core.networkmanager.impl.tcp.TCPTransportHelper: *java.util.Map* [private] user_data
+com.aelitis.azureus.core.networkmanager.impl.tcp.VirtualChannelSelectorImpl: *java.util.LinkedList* [private] [final] register_cancel_list [Ljava/util/LinkedList<Ljava/lang/Object;>;]
+com.aelitis.azureus.core.networkmanager.impl.tcp.VirtualNonBlockingServerChannelSelector: *java.util.List* [private] server_channels
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor: *java.util.HashMap* [private] [final] group_buckets
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor: *java.util.HashMap* [private] [final] connections
+com.aelitis.azureus.core.networkmanager.impl.TransportStats: *java.util.TreeMap* [private] [final] read_sizes
+com.aelitis.azureus.core.networkmanager.impl.TransportStats: *java.util.TreeMap* [private] [final] write_sizes
+com.aelitis.azureus.core.networkmanager.impl.udp.NetworkGlueLoopBack: *java.util.List* [private] message_queue
+com.aelitis.azureus.core.networkmanager.impl.udp.NetworkGlueUDP: *java.util.LinkedList* [private] msg_queue
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnection: *java.util.List* [private] read_buffers
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnectionManager: *java.util.Map* [private] [final] connection_sets
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnectionManager: *java.util.Map* [private] [final] recently_dead_keys
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnectionSet: *java.util.Map* [private] connections
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnectionSet: *java.util.LinkedList* [private] connection_writers
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnectionSet: *java.util.List* [private] transmit_unack_packets
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnectionSet: *java.util.LinkedList* [private] receive_done_sequences
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPConnectionSet: *java.util.List* [private] receive_out_of_order_packets
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPSelector: *java.util.List* [private] ready_set
+com.aelitis.azureus.core.networkmanager.impl.udp.UDPTransportHelper: *java.util.Map* [private] user_data
+com.aelitis.azureus.core.networkmanager.impl.WriteController: *java.util.ArrayList* [private] normal_priority_entities
+com.aelitis.azureus.core.networkmanager.impl.WriteController: *java.util.ArrayList* [private] high_priority_entities
+com.aelitis.azureus.core.peermanager.control.impl.PeerControlSchedulerPrioritised: *java.util.Map* [private] instance_map
+com.aelitis.azureus.core.peermanager.control.impl.PeerControlSchedulerPrioritised: *java.util.List* [private] pending_registrations
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZGenericMapPayload: *java.util.Map* [private] [final] msg_map
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZMessageDecoder: *java.util.ArrayList* [private] messages_last_read
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTMessageDecoder: *java.util.ArrayList* [private] messages_last_read
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.ltep.LTHandshake: *java.util.Map* [private] data_dict
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.ltep.LTMessageEncoder: *java.util.HashMap* [private] extension_map
+com.aelitis.azureus.core.peermanager.messaging.MessageManager: *java.util.List* [private] [final] messages
+com.aelitis.azureus.core.peermanager.nat.PeerNATTraverser: *java.util.Map* [private] initiators
+com.aelitis.azureus.core.peermanager.nat.PeerNATTraverser: *java.util.LinkedList* [private] pending_requests
+com.aelitis.azureus.core.peermanager.nat.PeerNATTraverser: *java.util.List* [private] active_requests
+com.aelitis.azureus.core.peermanager.peerdb.PeerDatabase: *java.util.HashMap* [private] [final] peer_connections
+com.aelitis.azureus.core.peermanager.peerdb.PeerDatabase: *java.util.LinkedList* [private] [final] discovered_peers
+com.aelitis.azureus.core.peermanager.peerdb.PeerExchangerItem: *java.util.Map* [private] [final] connected_peers [Ljava/util/Map<Lcom/aelitis/azureus/core/peermanager/peerdb/PeerItem;Ljava/lang/Object;>;]
+com.aelitis.azureus.core.peermanager.PeerManager: *java.util.Map* [private] [final] registered_legacy_managers
+com.aelitis.azureus.core.peermanager.PeerManager: *java.util.Map* [private] [final] registered_links
+com.aelitis.azureus.core.peermanager.PeerManager$PeerManagerRegistrationImpl: *java.util.List* [private] pending_connections
+com.aelitis.azureus.core.peermanager.PeerManager$PeerManagerRegistrationImpl: *java.util.Map* [private] links
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl: *java.util.Map* [protected] [final] peerListeners
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl: *java.util.List* [private] rarestStartedPieces
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl: *java.util.List* [private] endGameModeChunks
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl$2: *java.util.Map* [private] [final] val$block_time_order_peers_metrics
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl$2: *java.util.ArrayList* [private] [final] val$bestUploaders
+com.aelitis.azureus.core.peermanager.unchoker.DownloadingUnchoker: *java.util.ArrayList* [private] chokes
+com.aelitis.azureus.core.peermanager.unchoker.DownloadingUnchoker: *java.util.ArrayList* [private] unchokes
+com.aelitis.azureus.core.peermanager.unchoker.SeedingUnchoker: *java.util.ArrayList* [private] chokes
+com.aelitis.azureus.core.peermanager.unchoker.SeedingUnchoker: *java.util.ArrayList* [private] unchokes
+com.aelitis.azureus.core.peermanager.uploadslots.UploadSessionPicker: *java.util.LinkedList* [private] [final] next_optimistics
+com.aelitis.azureus.core.peermanager.uploadslots.UploadSessionPicker: *java.util.LinkedList* [private] [final] helpers
+com.aelitis.azureus.core.peermanager.utils.OutgoingBTHaveMessageAggregator: *java.util.ArrayList* [private] [final] pending_haves
+com.aelitis.azureus.core.peermanager.utils.OutgoingBTPieceMessageHandler: *java.util.LinkedList* [private] [final] requests
+com.aelitis.azureus.core.peermanager.utils.OutgoingBTPieceMessageHandler: *java.util.ArrayList* [private] [final] loading_messages
+com.aelitis.azureus.core.peermanager.utils.OutgoingBTPieceMessageHandler: *java.util.HashMap* [private] [final] queued_messages
+com.aelitis.azureus.core.peermanager.utils.PeerMessageLimiter: *java.util.HashMap* [private] [final] message_counts
+com.aelitis.azureus.core.peermanager.utils.PeerMessageLimiter$CountData: *java.util.LinkedList* [private] [final] counts
+com.aelitis.azureus.core.proxy.impl.AEProxyAddressMapperImpl: *java.util.Map* [protected] map
+com.aelitis.azureus.core.proxy.impl.AEProxyAddressMapperImpl: *java.util.Map* [protected] reverse_map
+com.aelitis.azureus.core.proxy.impl.AEProxyConnectionImpl: *java.util.List* [protected] listeners
+com.aelitis.azureus.core.proxy.impl.AEProxyImpl: *java.util.List* [private] processors
+com.aelitis.azureus.core.proxy.impl.AEProxyImpl: *java.util.HashMap* [private] [final] write_select_regs
+com.aelitis.azureus.core.security.impl.CryptoManagerImpl: *java.util.Map* [private] session_passwords
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerImpl: *java.util.Map* [private] contacts
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl: *java.util.LinkedList* [private] regions
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl: *java.util.LinkedList* [private] last_bad_ups
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl: *java.util.LinkedList* [private] last_bad_downs
+com.aelitis.azureus.core.speedmanager.impl.TestPingSourceImpl: *java.util.List* [private] listeners
+com.aelitis.azureus.core.speedmanager.impl.TestPingSourceImpl$testSource: *java.util.List* [private] listeners
+com.aelitis.azureus.core.speedmanager.impl.v1.SpeedManagerAlgorithmProviderV1: *java.util.Map* [private] ping_sources
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSourceManager: *java.util.Map* [private] [final] pingAverages
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMon: *java.util.List* listeners
+com.aelitis.azureus.core.speedmanager.impl.v2.SpeedManagerAlgorithmProviderDHTPing: *java.util.List* [private] pingTimeList
+com.aelitis.azureus.core.speedmanager.impl.v2.SpeedManagerAlgorithmProviderPingMap: *java.util.List* [private] pingTimeList
+com.aelitis.azureus.core.speedmanager.impl.v3.SpeedManagerAlgorithmProviderV3: *java.util.Map* [private] ping_sources
+com.aelitis.azureus.core.stats.AzureusCoreStats$2: *java.util.Map* [private] ave
+com.aelitis.azureus.core.util.CaseSensitiveFileMap: *java.util.Map* [private] map
+com.aelitis.azureus.core.util.CopyOnWriteList: *java.util.List* [private] list [Ljava/util/List<TT;>;]
+com.aelitis.azureus.core.util.CopyOnWriteMap: *java.util.Map* [private] map
+com.aelitis.azureus.core.util.CopyOnWriteSet: *java.util.Set* [private] set [Ljava/util/Set<TT;>;]
+com.aelitis.azureus.core.util.http.HTTPAuthHelper: *java.util.Map* [private] cookie_names_set
+com.aelitis.azureus.core.util.http.HTTPAuthHelper: *java.util.List* [private] processors
+com.aelitis.azureus.core.versioncheck.VersionCheckClient: *java.util.Map* [private] last_check_data_v4
+com.aelitis.azureus.core.versioncheck.VersionCheckClient: *java.util.Map* [private] last_check_data_v6
+com.aelitis.azureus.core.versioncheck.VersionCheckClientUDPReply: *java.util.Map* [private] payload
+com.aelitis.azureus.core.versioncheck.VersionCheckClientUDPRequest: *java.util.Map* [private] payload
+com.aelitis.azureus.core.vuzefile.VuzeFileImpl$comp: *java.util.Map* [private] contents
+com.aelitis.azureus.core.vuzefile.VuzeFileImpl$comp: *java.util.Map* [private] user_data
+com.aelitis.azureus.launcher.classloading.PrimaryClassloader: *java.util.ArrayList* [private] [final] peersLoaders
+com.aelitis.azureus.plugins.dht.DHTPlugin: *java.util.List* [private] listeners
+com.aelitis.azureus.plugins.dht.impl.DHTPluginStorageManager: *java.util.Map* [private] version_map
+com.aelitis.azureus.plugins.dht.impl.DHTPluginStorageManager: *java.util.Map* [private] recent_addresses
+com.aelitis.azureus.plugins.dht.impl.DHTPluginStorageManager: *java.util.Map* [private] remote_diversifications
+com.aelitis.azureus.plugins.dht.impl.DHTPluginStorageManager: *java.util.Map* [private] local_storage_keys
+com.aelitis.azureus.plugins.extseed.ExternalSeedPeer: *java.util.Map* [private] user_data
+com.aelitis.azureus.plugins.extseed.ExternalSeedPeer: *java.util.List* [private] request_list
+com.aelitis.azureus.plugins.extseed.ExternalSeedPlugin: *java.util.Map* [private] download_map
+com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderImpl: *java.util.List* [private] requests
+com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderImpl: *java.util.List* [private] listeners
+com.aelitis.azureus.plugins.extseed.impl.ExternalSeedReaderRequest: *java.util.List* [private] requests
+com.aelitis.azureus.plugins.magnet.MagnetPlugin$5: *java.util.Set* [private] found_set
+com.aelitis.azureus.plugins.magnet.MagnetPlugin$5: *java.util.List* [private] [final] val$potential_contacts
+com.aelitis.azureus.plugins.magnet.MagnetPlugin$5$2: *java.util.List* [private] [final] val$potential_contacts
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin$25: *java.util.Map* [private] status
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin$27: *java.util.Map* [private] [final] val$map
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin$28: *java.util.Map* [private] [final] val$map
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin$30: *java.util.List* [private] new_ygm_buddies
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin$8$1: *java.util.List* [private] [final] val$torrents
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginAZ2: *java.util.Map* [private] chats
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginAZ2$chatInstance: *java.util.Map* [private] participants
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginAZ2$chatInstance: *java.util.List* [private] history
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginAZ2$chatMessage: *java.util.Map* [private] map
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddy: *java.util.Map* [private] user_data [Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;]
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddy$4: *java.util.Map* [private] [final] val$content
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddy$buddyMessage: *java.util.Map* [private] request
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddy$fragmentHandler$fragmentAssembly: *java.util.Set* [private] chunks_received
+com.aelitis.azureus.plugins.net.buddy.BuddyPluginBuddyMessageHandler: *java.util.Map* [private] config_map
+com.aelitis.azureus.plugins.net.buddy.swt.BuddyPluginViewChat: *java.util.List* [private] participants
+com.aelitis.azureus.plugins.net.buddy.swt.BuddyPluginViewChat$6: *java.util.Map* [private] [final] val$msg
+com.aelitis.azureus.plugins.net.buddy.swt.BuddyPluginViewInstance: *java.util.List* [private] buddies
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker: *java.util.Set* [private] online_buddies
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker: *java.util.Map* [private] online_buddy_ips
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker: *java.util.Set* [private] tracked_downloads
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker: *java.util.Set* [private] last_processed_download_set
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker: *java.util.Map* [private] short_id_map
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker: *java.util.Map* [private] full_id_map
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker: *java.util.Set* [private] actively_tracking
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker$buddyData: *java.util.Set* [private] downloads_sent
+com.aelitis.azureus.plugins.net.buddy.tracker.BuddyPluginTracker$buddyData: *java.util.Map* [private] downloads_in_common
+com.aelitis.azureus.plugins.net.netstatus.NetStatusProtocolTester: *java.util.Map* [private] request_history
+com.aelitis.azureus.plugins.net.netstatus.NetStatusProtocolTester: *java.util.List* [private] active_tests
+com.aelitis.azureus.plugins.net.netstatus.NetStatusProtocolTester$4: *java.util.List* [private] [final] val$f_contacts
+com.aelitis.azureus.plugins.net.netstatus.NetStatusProtocolTesterBT: *java.util.List* [private] sessions
+com.aelitis.azureus.plugins.net.netstatus.NetStatusProtocolTesterBT$Session: *java.util.Set* [private] missing_pieces
+com.aelitis.azureus.plugins.net.netstatus.swt.NetStatusPluginTester$1: *java.util.Map* [private] [final] val$active_pings
+com.aelitis.azureus.plugins.net.netstatus.swt.NetStatusPluginTester$2: *java.util.Map* [private] [final] val$active_routes
+com.aelitis.azureus.plugins.net.netstatus.swt.NetStatusPluginTester$5: *java.util.List* [private] sessions
+com.aelitis.azureus.plugins.removerules.DownloadRemoveRulesPlugin: *java.util.Map* [protected] dm_listener_map
+com.aelitis.azureus.plugins.removerules.DownloadRemoveRulesPlugin: *java.util.List* [protected] monitored_downloads
+com.aelitis.azureus.plugins.sharing.hoster.ShareHosterPlugin: *java.util.Map* [protected] resource_dl_map
+com.aelitis.azureus.plugins.sharing.hoster.ShareHosterPlugin: *java.util.Map* [protected] resource_tt_map
+com.aelitis.azureus.plugins.startstoprules.always.RunEverythingPlugin: *java.util.Map* [private] downloads
+com.aelitis.azureus.plugins.startstoprules.defaultplugin.SeedingRankColumnListener: *java.util.Map* [private] downloadDataMap
+com.aelitis.azureus.plugins.startstoprules.defaultplugin.StartStopRulesDefaultPlugin: *java.util.Set* [private] ranksToRecalc
+com.aelitis.azureus.plugins.tracker.local.LocalTrackerPlugin: *java.util.Map* [private] downloads
+com.aelitis.azureus.plugins.tracker.local.LocalTrackerPlugin: *java.util.Map* [private] track_times
+com.aelitis.azureus.plugins.tracker.peerauth.TrackerPeerAuthPlugin: *java.util.Map* [private] dt_map
+com.aelitis.azureus.plugins.tracker.peerauth.TrackerPeerAuthPlugin$DownloadTracker$1: *java.util.List* [private] [final] val$to_check
+com.aelitis.azureus.plugins.upnp.UPnPMapping: *java.util.List* [protected] listeners
+com.aelitis.azureus.plugins.upnp.UPnPMappingManager: *java.util.List* [private] mappings
+com.aelitis.azureus.plugins.upnp.UPnPMappingManager: *java.util.List* [private] listeners
+com.aelitis.azureus.plugins.upnp.UPnPMappingManager$5: *java.util.List* [private] [final] val$config_mappings
+com.aelitis.azureus.plugins.upnp.UPnPMappingManager$6: *java.util.List* [private] [final] val$config_mappings
+com.aelitis.azureus.plugins.upnp.UPnPPlugin$10: *java.util.Set* exception_traces
+com.aelitis.azureus.plugins.upnp.UPnPPluginService$serviceMapping: *java.util.List* [private] mappings
+com.aelitis.azureus.plugins.upnp.UPnPPluginService$serviceMapping: *java.util.List* [private] logged_mappings
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.ArrayList* [private] cellRefreshListeners
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.ArrayList* [private] cellAddedListeners
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.ArrayList* [private] cellDisposeListeners
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.ArrayList* [private] cellToolTipListeners
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.ArrayList* [private] cellMouseListeners
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.ArrayList* [private] cellMouseMoveListeners
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.ArrayList* [private] cellVisibilityListeners
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.Map* [private] mapOtherCellListeners
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.ArrayList* [private] menuItems
+com.aelitis.azureus.ui.common.table.impl.TableColumnImpl: *java.util.Map* [private] userData
+com.aelitis.azureus.ui.selectedcontent.DownloadUrlInfo: *java.util.Map* [private] requestProperties
+com.aelitis.azureus.ui.selectedcontent.DownloadUrlInfo: *java.util.Map* [private] additionalProperties
+com.aelitis.azureus.ui.swt.UISkinnableManagerSWT: *java.util.Map* [private] mapSkinnables
+com.aelitis.azureus.ui.swt.uiupdater.UIUpdaterSWT: *java.util.ArrayList* [private] updateables
+com.aelitis.azureus.ui.swt.uiupdater.UIUpdaterSWT: *java.util.ArrayList* [private] alwaysUpdateables
+com.aelitis.azureus.ui.swt.uiupdater.UIUpdaterSWT: *java.util.Map* averageTimes
+com.aelitis.net.magneturi.impl.MagnetURIHandlerImpl: *java.util.List* [private] listeners
+com.aelitis.net.magneturi.impl.MagnetURIHandlerImpl: *java.util.Map* [private] info_map
+com.aelitis.net.natpmp.upnp.impl.NatPMPImpl: *java.util.List* [private] mappings
+com.aelitis.net.natpmp.upnp.impl.NatPMPUPnPImpl: *java.util.List* [private] listeners
+com.aelitis.net.udp.mc.impl.MCGroupImpl: *java.util.Map* [private] current_registrations
+com.aelitis.net.udp.uc.impl.PRUDPPacketHandlerImpl: *java.util.Map* [private] requests
+com.aelitis.net.udp.uc.impl.PRUDPPacketHandlerImpl: *java.util.List* [private] recv_queue
+com.aelitis.net.upnp.impl.device.UPnPDeviceImpl: *java.util.List* [private] devices
+com.aelitis.net.upnp.impl.device.UPnPDeviceImpl: *java.util.List* [private] services
+com.aelitis.net.upnp.impl.device.UPnPRootDeviceImpl: *java.util.List* [private] listeners
+com.aelitis.net.upnp.impl.services.UPnPActionInvocationImpl: *java.util.List* [protected] arg_names
+com.aelitis.net.upnp.impl.services.UPnPActionInvocationImpl: *java.util.List* [protected] arg_values
+com.aelitis.net.upnp.impl.services.UPnPServiceImpl: *java.util.List* [protected] actions
+com.aelitis.net.upnp.impl.services.UPnPServiceImpl: *java.util.List* [protected] state_vars
+com.aelitis.net.upnp.impl.services.UPnPSSWANConnectionImpl: *java.util.List* [private] mappings
+com.aelitis.net.upnp.impl.services.UPnPSSWANConnectionImpl: *java.util.List* [private] listeners
+com.aelitis.net.upnp.impl.ssdp.SSDPCore: *java.util.List* [private] listeners
+com.aelitis.net.upnp.impl.ssdp.SSDPCore: *java.util.List* [private] timer_queue
+com.aelitis.net.upnp.impl.ssdp.SSDPIGDImpl: *java.util.List* [private] listeners
+com.aelitis.net.upnp.impl.UPnPImpl: *java.util.List* [private] log_listeners
+com.aelitis.net.upnp.impl.UPnPImpl: *java.util.List* [private] log_history
+com.aelitis.net.upnp.impl.UPnPImpl: *java.util.List* [private] log_alert_history
+com.aelitis.net.upnp.impl.UPnPImpl: *java.util.List* [private] rd_listeners
+com.aelitis.net.upnp.impl.UPnPImpl: *java.util.Set* [private] device_dispatcher_pending
+org.bouncycastle.asn1.ASN1Sequence: *java.util.Vector* [private] seq
+org.bouncycastle.asn1.ASN1Set: *java.util.Vector* [protected] set
+org.bouncycastle.asn1.BERConstructedOctetString: *java.util.Vector* [private] octs
+org.bouncycastle.asn1.DEREncodableVector: *java.util.Vector* [private] v
+org.bouncycastle.asn1.x509.CertificatePolicies: *java.util.Vector* policies
+org.bouncycastle.asn1.x509.ExtendedKeyUsage: *java.util.Hashtable* usageTable
+org.bouncycastle.asn1.x509.IetfAttrSyntax: *java.util.Vector* values
+org.bouncycastle.asn1.x509.SubjectDirectoryAttributes: *java.util.Vector* [private] attributes
+org.bouncycastle.asn1.x509.V2TBSCertListGenerator: *java.util.Vector* [private] crlentries
+org.bouncycastle.asn1.x509.X509Extensions: *java.util.Hashtable* [private] extensions
+org.bouncycastle.asn1.x509.X509Extensions: *java.util.Vector* [private] ordering
+org.bouncycastle.asn1.x509.X509ExtensionsGenerator: *java.util.Hashtable* [private] extensions
+org.bouncycastle.asn1.x509.X509ExtensionsGenerator: *java.util.Vector* [private] extOrdering
+org.bouncycastle.asn1.x509.X509Name: *java.util.Vector* [private] ordering
+org.bouncycastle.asn1.x509.X509Name: *java.util.Vector* [private] values
+org.bouncycastle.asn1.x509.X509Name: *java.util.Vector* [private] added
+org.bouncycastle.jce.PKCS7SignedData: *java.util.Set* [private] digestalgos
+org.bouncycastle.jce.PKCS7SignedData: *java.util.Collection* [private] certs
+org.bouncycastle.jce.PKCS7SignedData: *java.util.Collection* [private] crls
+org.bouncycastle.jce.provider.JCEECPrivateKey: *java.util.Hashtable* [private] pkcs12Attributes
+org.bouncycastle.jce.provider.JCEECPrivateKey: *java.util.Vector* [private] pkcs12Ordering
+org.bouncycastle.jce.provider.PKIXCertPath: *java.util.List* [private] certificates
+org.bouncycastle.jce.provider.PKIXPolicyNode: *java.util.Set* [protected] expectedPolicies
+org.bouncycastle.jce.provider.PKIXPolicyNode: *java.util.Set* [protected] policyQualifiers
+org.bouncycastle.jce.provider.X509CertificateObject: *java.util.Hashtable* [private] pkcs12Attributes
+org.bouncycastle.jce.provider.X509CertificateObject: *java.util.Vector* [private] pkcs12Ordering
+org.bouncycastle.jce.X509V2CRLGenerator: *java.util.Hashtable* [private] extensions
+org.bouncycastle.jce.X509V2CRLGenerator: *java.util.Vector* [private] extOrdering
+org.bouncycastle.jce.X509V3CertificateGenerator: *java.util.Hashtable* [private] extensions
+org.bouncycastle.jce.X509V3CertificateGenerator: *java.util.Vector* [private] extOrdering
+org.bouncycastle.x509.X509Util$Implementation: *java.security.Provider* provider
+org.gudy.azureus2.core3.category.impl.CategoryImpl: *java.util.List* [private] managers
+org.gudy.azureus2.core3.category.impl.CategoryManagerImpl: *java.util.Map* [private] categories
+org.gudy.azureus2.core3.config.impl.ConfigurationDefaults: *java.util.Map* [private] def
+org.gudy.azureus2.core3.config.impl.ConfigurationDefaults: *java.util.Hashtable* [private] parameter_verifiers
+org.gudy.azureus2.core3.config.impl.ConfigurationManager: *java.util.Map* [private] propertiesMap
+org.gudy.azureus2.core3.config.impl.ConfigurationManager: *java.util.List* [private] transient_properties
+org.gudy.azureus2.core3.config.impl.ConfigurationManager: *java.util.List* [private] listeners
+org.gudy.azureus2.core3.config.impl.ConfigurationManager: *java.util.Hashtable* [private] parameterListeners
+org.gudy.azureus2.core3.config.impl.StringListImpl: *java.util.List* list
+org.gudy.azureus2.core3.disk.impl.access.impl.DMReaderImpl: *java.util.Set* [private] read_requests
+org.gudy.azureus2.core3.disk.impl.access.impl.DMReaderImpl$requestDispatcher: *java.util.List* [private] chunks
+org.gudy.azureus2.core3.disk.impl.access.impl.DMWriterImpl: *java.util.Set* [private] write_requests
+org.gudy.azureus2.core3.disk.impl.access.impl.DMWriterImpl$requestDispatcher: *java.util.List* [private] chunks
+org.gudy.azureus2.core3.disk.impl.DiskManagerAllocationScheduler: *java.util.List* [private] instances
+org.gudy.azureus2.core3.disk.impl.DiskManagerRecheckScheduler: *java.util.List* [private] instances
+org.gudy.azureus2.core3.disk.impl.piecemapper.impl.PieceMapperImpl: *java.util.ArrayList* [protected] btFileList
+org.gudy.azureus2.core3.download.impl.DownloadManagerController: *java.util.List* [private] external_rate_limiters_cow
+org.gudy.azureus2.core3.download.impl.DownloadManagerController$fileInfoFacade: *java.util.List* [private] listeners
+org.gudy.azureus2.core3.download.impl.DownloadManagerController$FileInfoFacadeSet$1: *java.util.List* [private] [final] val$delayed_prio_changes
+org.gudy.azureus2.core3.download.impl.DownloadManagerDefaultPaths$ParameterHelper: *java.util.Map* [private] settings
+org.gudy.azureus2.core3.download.impl.DownloadManagerImpl: *java.util.List* [private] current_peers
+org.gudy.azureus2.core3.download.impl.DownloadManagerImpl: *java.util.List* [private] current_pieces
+org.gudy.azureus2.core3.download.impl.DownloadManagerImpl: *java.util.Map* [private] data
+org.gudy.azureus2.core3.download.impl.DownloadManagerImpl$13: *java.util.HashSet* [private] [final] val$files_to_move
+org.gudy.azureus2.core3.download.impl.DownloadManagerImpl$9$1: *java.util.List* [private] [final] val$peers
+org.gudy.azureus2.core3.download.impl.DownloadManagerStateImpl: *java.util.Map* [private] parameters
+org.gudy.azureus2.core3.download.impl.DownloadManagerStateImpl: *java.util.Map* [private] attributes
+org.gudy.azureus2.core3.download.impl.DownloadManagerStateImpl$CachedStateWrapper: *java.util.Map* [private] cache
+org.gudy.azureus2.core3.download.impl.DownloadManagerStateImpl$CachedStateWrapper: *java.util.Map* [private] cache_attributes
+org.gudy.azureus2.core3.download.impl.DownloadManagerStateImpl$CachedStateWrapper: *java.util.Map* [private] cache_azp
+org.gudy.azureus2.core3.global.impl.GlobalManagerImpl: *java.util.Map* [private] manager_map
+org.gudy.azureus2.core3.global.impl.GlobalManagerImpl: *java.util.Map* [private] saved_download_manager_state
+org.gudy.azureus2.core3.global.impl.GlobalManagerImpl: *java.util.ArrayList* [private] paused_list
+org.gudy.azureus2.core3.global.impl.GlobalManagerImpl: *java.util.List* addingDMs
+org.gudy.azureus2.core3.global.impl.GlobalManagerImpl$13: *java.util.List* [private] [final] val$f_adapters
+org.gudy.azureus2.core3.internat.IntegratedResourceBundle: *java.util.Map* [private] messages
+org.gudy.azureus2.core3.internat.IntegratedResourceBundle: *java.util.Map* [private] used_messages
+org.gudy.azureus2.core3.internat.IntegratedResourceBundle: *java.util.List* [private] null_values
+org.gudy.azureus2.core3.ipchecker.extipchecker.impl.ExternalIPCheckerServiceImpl: *java.util.Vector* [private] listeners
+org.gudy.azureus2.core3.ipfilter.impl.BadIpsImpl: *java.util.Map* [private] bad_ip_map
+org.gudy.azureus2.core3.ipfilter.impl.IPAddressRangeManager: *java.util.ArrayList* [protected] entries
+org.gudy.azureus2.core3.ipfilter.impl.IpFilterImpl: *java.util.Map* [private] bannedIps
+org.gudy.azureus2.core3.ipfilter.impl.IpFilterImpl: *java.util.LinkedList* [private] ipsBlocked
+org.gudy.azureus2.core3.ipfilter.impl.IpFilterImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.core3.logging.impl.FileLogging: *java.util.ArrayList* [private] listeners
+org.gudy.azureus2.core3.logging.impl.LoggerImpl: *java.util.List* [private] logListeners
+org.gudy.azureus2.core3.logging.impl.LoggerImpl: *java.util.List* [private] alertListeners
+org.gudy.azureus2.core3.logging.impl.LoggerImpl: *java.util.List* [private] alertHistory
+org.gudy.azureus2.core3.peer.impl.control.PEPeerControlImpl: *java.util.Map* [private] user_data [Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;]
+org.gudy.azureus2.core3.peer.impl.PEPieceImpl: *java.util.List* [private] writes
+org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol: *java.util.ArrayList* [private] [final] requested
+org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol: *java.util.Map* [private] data
+org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol: *java.util.LinkedHashMap* [private] recent_outgoing_requests
+org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol: *java.util.List* [private] peer_listeners_cow
+org.gudy.azureus2.core3.peer.util.PeerIdentityDataID: *java.util.Map* [private] peer_map
+org.gudy.azureus2.core3.security.impl.SESecurityManagerImpl: *java.util.List* [protected] certificate_listeners
+org.gudy.azureus2.core3.security.impl.SESecurityManagerImpl: *java.util.Map* [protected] password_handlers
+org.gudy.azureus2.core3.security.impl.SESecurityManagerImpl: *java.util.Map* [protected] certificate_handlers
+org.gudy.azureus2.core3.security.impl.SESecurityManagerImpl: *java.util.List* [private] stoppable_threads
+org.gudy.azureus2.core3.torrent.impl.TOTorrentCreateImpl: *java.util.List* [protected] progress_listeners
+org.gudy.azureus2.core3.torrent.impl.TOTorrentCreateImpl: *java.util.Set* [protected] ignore_set
+org.gudy.azureus2.core3.torrent.impl.TOTorrentFileHasher: *java.util.Vector* [protected] pieces
+org.gudy.azureus2.core3.torrent.impl.TOTorrentFileImpl: *java.util.Map* [private] [final] additional_properties
+org.gudy.azureus2.core3.torrent.impl.TOTorrentImpl: *java.util.Map* [private] additional_properties
+org.gudy.azureus2.core3.torrent.impl.TOTorrentImpl: *java.util.Map* [private] additional_info_properties
+org.gudy.azureus2.core3.torrentdownloader.impl.TorrentDownloaderImpl: *java.util.Map* [private] request_properties
+org.gudy.azureus2.core3.torrentdownloader.impl.TorrentDownloaderManager: *java.util.ArrayList* [private] running
+org.gudy.azureus2.core3.torrentdownloader.impl.TorrentDownloaderManager: *java.util.ArrayList* [private] queued
+org.gudy.azureus2.core3.torrentdownloader.impl.TorrentDownloaderManager: *java.util.ArrayList* [private] errors
+org.gudy.azureus2.core3.tracker.client.impl.bt.TrackerChecker: *java.util.HashMap* [private] trackers
+org.gudy.azureus2.core3.tracker.client.impl.bt.TrackerStatus: *java.util.HashMap* [private] hashes
+org.gudy.azureus2.core3.tracker.client.impl.bt.TrackerStatus$2: *java.util.ArrayList* [private] [final] val$responses
+org.gudy.azureus2.core3.tracker.client.impl.bt.TRTrackerBTAnnouncerImpl: *java.util.List* [private] trackerUrlLists
+org.gudy.azureus2.core3.tracker.client.impl.dht.TRTrackerDHTScraperImpl: *java.util.Map* [private] responses
+org.gudy.azureus2.core3.tracker.client.impl.TRTrackerAnnouncerImpl: *java.util.Map* [private] tracker_peer_cache
+org.gudy.azureus2.core3.tracker.client.impl.TRTrackerAnnouncerResponseImpl: *java.util.Map* [protected] extensions
+org.gudy.azureus2.core3.tracker.host.impl.TRHostConfigImpl: *java.util.Map* [private] saved_stats
+org.gudy.azureus2.core3.tracker.host.impl.TRHostConfigImpl: *java.util.List* [private] saved_stats_to_delete
+org.gudy.azureus2.core3.tracker.host.impl.TRHostExternalTorrent: *java.util.Map* [protected] additional_properties
+org.gudy.azureus2.core3.tracker.host.impl.TRHostImpl: *java.util.Hashtable* [private] server_map
+org.gudy.azureus2.core3.tracker.host.impl.TRHostImpl: *java.util.List* [private] host_torrents
+org.gudy.azureus2.core3.tracker.host.impl.TRHostImpl: *java.util.Map* [private] host_torrent_hash_map
+org.gudy.azureus2.core3.tracker.host.impl.TRHostImpl: *java.util.Map* [private] host_torrent_map
+org.gudy.azureus2.core3.tracker.host.impl.TRHostImpl: *java.util.Map* [private] tracker_client_map
+org.gudy.azureus2.core3.tracker.host.impl.TRHostImpl: *java.util.List* [private] auth_listeners
+org.gudy.azureus2.core3.tracker.host.impl.TRHostImpl$3: *java.util.Set* [private] failed_ports
+org.gudy.azureus2.core3.tracker.host.impl.TRHostTorrentHostImpl: *java.util.List* [private] listeners_cow
+org.gudy.azureus2.core3.tracker.host.impl.TRHostTorrentHostImpl: *java.util.List* [private] removal_listeners
+org.gudy.azureus2.core3.tracker.host.impl.TRHostTorrentHostImpl: *java.util.HashMap* [private] data
+org.gudy.azureus2.core3.tracker.host.impl.TRHostTorrentPublishImpl: *java.util.List* [private] listeners_cow
+org.gudy.azureus2.core3.tracker.host.impl.TRHostTorrentPublishImpl: *java.util.List* [private] removal_listeners
+org.gudy.azureus2.core3.tracker.host.impl.TRHostTorrentPublishImpl: *java.util.HashMap* [private] data
+org.gudy.azureus2.core3.tracker.protocol.udp.PRUDPPacketRequestScrape: *java.util.List* [protected] hashes
+org.gudy.azureus2.core3.tracker.server.impl.tcp.nonblocking.TRNonBlockingServer: *java.util.List* [private] connections_to_close
+org.gudy.azureus2.core3.tracker.server.impl.tcp.nonblocking.TRNonBlockingServer: *java.util.List* [private] processors
+org.gudy.azureus2.core3.tracker.server.impl.tcp.TRTrackerServerTCP: *java.util.Map* DOS_map
+org.gudy.azureus2.core3.tracker.server.impl.tcp.TRTrackerServerTCP: *java.util.List* dos_list
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerImpl: *java.util.Vector* [protected] listeners
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerImpl: *java.util.List* [private] auth_listeners
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerImpl: *java.util.Vector* [private] request_listeners
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerImpl: *java.util.Set* [private] biased_peers
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerNATChecker: *java.util.List* [protected] check_queue
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerRequestImpl: *java.util.Map* [protected] response
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.util.List* [private] biased_peers
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.util.Map* [private] lightweight_seed_map
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.util.Map* [private] last_scrape
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.util.LinkedHashMap* [private] announce_cache
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.util.List* [private] peer_listeners
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.util.LinkedList* [private] queued_peers
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.util.List* [private] explicit_manual_biased_peers
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl$announceCacheEntry: *java.util.Map* [protected] data
+org.gudy.azureus2.core3.tracker.server.TRTrackerServerException: *java.util.Map* [private] response_headers
+org.gudy.azureus2.core3.tracker.server.TRTrackerServerException: *java.util.Map* [private] error_map
+org.gudy.azureus2.core3.util.AsyncDispatcher: *java.util.LinkedList* [private] queue
+org.gudy.azureus2.core3.util.ConcurrentHasher: *java.util.List* [protected] requests
+org.gudy.azureus2.core3.util.ConcurrentHasher: *java.util.List* [protected] hashers
+org.gudy.azureus2.core3.util.DebugWeakList: *java.util.List* [private] list
+org.gudy.azureus2.core3.util.DirectByteBufferPoolHeap: *java.util.Map* [private] sizes
+org.gudy.azureus2.core3.util.DirectByteBufferPoolReal: *java.util.Map* [private] [final] buffersMap
+org.gudy.azureus2.core3.util.DirectByteBufferPoolReal: *java.util.Map* [private] [final] handed_out
+org.gudy.azureus2.core3.util.DirectByteBufferPoolReal: *java.util.Map* [private] [final] size_counts
+org.gudy.azureus2.core3.util.jar.AEJarReader: *java.util.Map* [protected] entries
+org.gudy.azureus2.core3.util.LightHashMap$EntrySet: *org.gudy.azureus2.core3.util.LightHashMap* [final] this$0
+org.gudy.azureus2.core3.util.LightHashMap$EntrySet$EntrySetIterator: *org.gudy.azureus2.core3.util.LightHashMap$EntrySet* [final] this$1
+org.gudy.azureus2.core3.util.LightHashMap$HashIterator: *org.gudy.azureus2.core3.util.LightHashMap* [final] this$0
+org.gudy.azureus2.core3.util.LightHashMap$KeySet: *org.gudy.azureus2.core3.util.LightHashMap* [final] this$0
+org.gudy.azureus2.core3.util.LightHashMap$KeySet$KeySetIterator: *org.gudy.azureus2.core3.util.LightHashMap$KeySet* [final] this$1
+org.gudy.azureus2.core3.util.LightHashMap$Values: *org.gudy.azureus2.core3.util.LightHashMap* [final] this$0
+org.gudy.azureus2.core3.util.LightHashMap$Values$ValueIterator: *org.gudy.azureus2.core3.util.LightHashMap$Values* [final] this$1
+org.gudy.azureus2.core3.util.LightHashSet$HashIterator: *org.gudy.azureus2.core3.util.LightHashSet* [final] this$0
+org.gudy.azureus2.core3.util.ListenerManager: *java.util.List* [protected] listeners
+org.gudy.azureus2.core3.util.ListenerManager: *java.util.List* [protected] dispatch_queue
+org.gudy.azureus2.core3.util.ListenerManager$3: *java.util.List* [private] [final] val$listeners
+org.gudy.azureus2.core3.util.NonDaemonTaskRunner: *java.util.Stack* [protected] tasks
+org.gudy.azureus2.core3.util.NonDaemonTaskRunner: *java.util.List* [protected] wait_until_idle_list
+org.gudy.azureus2.core3.util.ThreadPool: *java.util.List* [private] busy
+org.gudy.azureus2.core3.util.ThreadPool: *java.util.List* [private] task_queue
+org.gudy.azureus2.core3.util.Timer: *java.util.Set* [private] events
+org.gudy.azureus2.core3.util.TrackersUtil: *java.util.List* [private] trackers
+org.gudy.azureus2.core3.util.TrackersUtil: *java.util.Map* [private] multiTrackers
+org.gudy.azureus2.core3.util.TrackersUtil: *java.util.Map* [private] webseeds
+org.gudy.azureus2.core3.xml.util.XMLElement: *java.util.Map* [protected] attributes
+org.gudy.azureus2.core3.xml.util.XMLElement: *java.util.Collection* [protected] contents
+org.gudy.azureus2.platform.macosx.PlatformManagerImpl: *java.util.HashSet* [private] [final] capabilitySet
+org.gudy.azureus2.platform.unix.PlatformManagerImpl: *java.util.HashSet* [private] [final] capabilitySet
+org.gudy.azureus2.platform.unix.ScriptBeforeStartup$1: *java.util.ArrayList* [private] [final] val$possibleDirs
+org.gudy.azureus2.platform.win32.access.impl.AEWin32AccessImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.platform.win32.PlatformManagerImpl: *java.util.Set* [private] [final] capabilitySet
+org.gudy.azureus2.platform.win32.PlatformManagerImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.config.ConfigParameterImpl: *java.util.List* [protected] listeners
+org.gudy.azureus2.pluginsimpl.local.config.PluginConfigSourceImpl: *java.util.Map* [private] data_map
+org.gudy.azureus2.pluginsimpl.local.config.PluginConfigSourceImpl: *org.gudy.azureus2.core3.util.LightHashSet* [private] params_monitored
+org.gudy.azureus2.pluginsimpl.local.ddb.DDBaseTTTorrent: *java.util.List* [private] external_downloads
+org.gudy.azureus2.pluginsimpl.local.ddb.DDBaseTTTorrent: *java.util.Map* [private] data_cache
+org.gudy.azureus2.pluginsimpl.local.disk.DiskManagerChannelImpl: *java.util.Set* [private] data_written
+org.gudy.azureus2.pluginsimpl.local.disk.DiskManagerChannelImpl: *java.util.List* [private] waiters
+org.gudy.azureus2.pluginsimpl.local.disk.DiskManagerChannelImpl$request: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl: *java.util.HashMap* [private] read_attribute_listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl: *java.util.HashMap* [private] write_attribute_listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadEventNotifierImpl$BaseDownloadListener: *java.util.ArrayList* [protected] listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadImpl: *java.util.List* [private] property_listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadImpl: *java.util.List* [private] tracker_listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadImpl: *java.util.List* [private] removal_listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadImpl: *java.util.Map* [private] peer_listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadImpl: *java.util.HashMap* [private] property_to_attribute_map
+org.gudy.azureus2.pluginsimpl.local.download.DownloadManagerImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.download.DownloadManagerImpl: *java.util.List* [private] downloads
+org.gudy.azureus2.pluginsimpl.local.download.DownloadManagerImpl: *java.util.Map* [private] pending_dls
+org.gudy.azureus2.pluginsimpl.local.download.DownloadManagerImpl: *java.util.Map* [private] download_map
+org.gudy.azureus2.pluginsimpl.local.installer.PluginInstallerImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.logging.LoggerChannelImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.logging.LoggerImpl: *java.util.List* [private] channels
+org.gudy.azureus2.pluginsimpl.local.logging.LoggerImpl: *java.util.Map* [private] alert_listeners_map
+org.gudy.azureus2.pluginsimpl.local.logging.LoggerImpl: *java.util.Map* [private] alert_listeners_map2
+org.gudy.azureus2.pluginsimpl.local.logging.LoggerImpl$2: *java.util.HashSet* [private] set
+org.gudy.azureus2.pluginsimpl.local.messaging.GenericMessageConnectionDirect: *java.util.List* [private] inbound_rls
+org.gudy.azureus2.pluginsimpl.local.messaging.GenericMessageConnectionDirect: *java.util.List* [private] outbound_rls
+org.gudy.azureus2.pluginsimpl.local.messaging.GenericMessageConnectionImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.messaging.GenericMessageConnectionImpl: *java.util.List* [private] inbound_rls
+org.gudy.azureus2.pluginsimpl.local.messaging.GenericMessageConnectionImpl: *java.util.List* [private] outbound_rls
+org.gudy.azureus2.pluginsimpl.local.messaging.GenericMessageDecoder: *java.util.List* [private] messages
+org.gudy.azureus2.pluginsimpl.local.messaging.MessageManagerImpl: *java.util.HashMap* [private] [final] compat_checks
+org.gudy.azureus2.pluginsimpl.local.messaging.MessageManagerImpl: *java.util.Map* [private] message_handlers
+org.gudy.azureus2.pluginsimpl.local.network.IncomingMessageQueueImpl: *java.util.HashMap* [private] [final] registrations
+org.gudy.azureus2.pluginsimpl.local.network.OutgoingMessageQueueImpl: *java.util.HashMap* [private] [final] registrations
+org.gudy.azureus2.pluginsimpl.local.peers.PeerForeignDelegate: *java.util.Map* [private] data
+org.gudy.azureus2.pluginsimpl.local.peers.PeerForeignDelegate: *java.util.HashMap* [private] peer_listeners
+org.gudy.azureus2.pluginsimpl.local.peers.PeerImpl: *java.util.HashMap* [private] peer_listeners
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl: *java.util.Map* [private] foreign_map
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl: *java.util.Map* [private] listener_map
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl$2: *java.util.Map* [private] [final] val$peer_map
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl$3: *java.util.Map* [private] [final] val$peer_map
+org.gudy.azureus2.pluginsimpl.local.PluginInitializer: *java.util.List* [private] loaded_pi_list
+org.gudy.azureus2.pluginsimpl.local.PluginInitializer: *java.util.List* [private] s_plugins
+org.gudy.azureus2.pluginsimpl.local.PluginInitializer: *java.util.List* [private] s_plugin_interfaces
+org.gudy.azureus2.pluginsimpl.local.PluginInitializer$7: *java.util.LinkedList* [private] [final] val$initQueue
+org.gudy.azureus2.pluginsimpl.local.PluginInterfaceImpl: *java.util.Properties* [private] props
+org.gudy.azureus2.pluginsimpl.local.PluginInterfaceImpl: *java.util.List* [private] configSections
+org.gudy.azureus2.pluginsimpl.local.PluginManagerDefaultsImpl: *java.util.List* [protected] disabled
+org.gudy.azureus2.pluginsimpl.local.sharing.ShareManagerImpl: *java.util.Map* [private] shares
+org.gudy.azureus2.pluginsimpl.local.sharing.ShareManagerImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.sharing.ShareResourceImpl: *java.util.Map* [protected] attributes
+org.gudy.azureus2.pluginsimpl.local.sharing.ShareResourceImpl: *java.util.List* [protected] change_listeners
+org.gudy.azureus2.pluginsimpl.local.sharing.ShareResourceImpl: *java.util.List* [protected] deletion_listeners
+org.gudy.azureus2.pluginsimpl.local.sharing.test.ShareTester: *java.util.Map* [protected] seed_transport_map
+org.gudy.azureus2.pluginsimpl.local.torrent.BaseTorrentAttributeImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.tracker.TrackerImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.tracker.TrackerImpl: *java.util.List* [private] auth_listeners
+org.gudy.azureus2.pluginsimpl.local.tracker.TrackerTorrentImpl: *java.util.List* [protected] listeners_cow
+org.gudy.azureus2.pluginsimpl.local.tracker.TrackerTorrentImpl: *java.util.List* [protected] removal_listeners
+org.gudy.azureus2.pluginsimpl.local.tracker.TrackerWCHelper: *java.util.List* [private] generators
+org.gudy.azureus2.pluginsimpl.local.tracker.TrackerWebContextImpl: *java.util.List* [protected] auth_listeners
+org.gudy.azureus2.pluginsimpl.local.tracker.TrackerWebPageResponseImpl: *java.util.Map* [private] header_map
+org.gudy.azureus2.pluginsimpl.local.ui.components.UIComponentImpl: *java.util.Properties* [protected] properties
+org.gudy.azureus2.pluginsimpl.local.ui.components.UIComponentImpl: *java.util.List* [protected] listeners
+org.gudy.azureus2.pluginsimpl.local.ui.components.UITextAreaImpl: *java.util.LinkedList* delay_text
+org.gudy.azureus2.pluginsimpl.local.ui.config.ConfigSectionRepository: *java.util.ArrayList* [private] items
+org.gudy.azureus2.pluginsimpl.local.ui.config.ParameterImpl: *java.util.List* [private] toDisable
+org.gudy.azureus2.pluginsimpl.local.ui.config.ParameterImpl: *java.util.List* [private] toEnable
+org.gudy.azureus2.pluginsimpl.local.ui.config.ParameterImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.ui.config.ParameterImpl: *java.util.List* [private] impl_listeners
+org.gudy.azureus2.pluginsimpl.local.ui.config.ParameterRepository: *java.util.HashMap* [private] params
+org.gudy.azureus2.pluginsimpl.local.update.UpdateCheckerImpl: *java.util.List* [protected] listeners
+org.gudy.azureus2.pluginsimpl.local.update.UpdateCheckerImpl: *java.util.List* [protected] progress_listeners
+org.gudy.azureus2.pluginsimpl.local.update.UpdateCheckInstanceImpl: *java.util.Map* [private] properties [Ljava/util/Map<Ljava/lang/Integer;Ljava/lang/Object;>;]
+org.gudy.azureus2.pluginsimpl.local.update.UpdateManagerImpl: *java.util.List* [protected] components
+org.gudy.azureus2.pluginsimpl.local.update.UpdateManagerImpl: *java.util.List* [protected] listeners
+org.gudy.azureus2.pluginsimpl.local.update.UpdateManagerImpl: *java.util.List* [protected] verification_listeners
+org.gudy.azureus2.pluginsimpl.local.update.UpdateManagerImpl: *java.util.List* [protected] installers
+org.gudy.azureus2.pluginsimpl.local.utils.LocaleUtilitiesImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl: *java.util.List* [private] listeners
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderBaseImpl: *java.util.Map* [private] lc_key_properties
+org.gudy.azureus2.pluginsimpl.local.utils.resourceuploader.ResourceUploaderURLImpl: *java.util.Map* [private] properties
+org.gudy.azureus2.pluginsimpl.local.utils.security.SESecurityManagerImpl: *java.util.Map* [private] password_listeners
+org.gudy.azureus2.pluginsimpl.local.utils.security.SESecurityManagerImpl: *java.util.Map* [private] certificate_listeners
+org.gudy.azureus2.pluginsimpl.local.utils.UtilitiesImpl$6: *java.util.List* list
+org.gudy.azureus2.pluginsimpl.remote.RPPluginConfig: *java.util.Properties* [protected] property_cache
+org.gudy.azureus2.pluginsimpl.remote.RPReply: *java.util.Map* [protected] properties
+org.gudy.azureus2.pluginsimpl.remote.RPRequestHandler: *java.util.Map* [protected] reply_cache
+org.gudy.azureus2.pluginsimpl.update.sf.impl2.SFPluginDetailsLoaderImpl: *java.util.List* [protected] plugin_ids
+org.gudy.azureus2.pluginsimpl.update.sf.impl2.SFPluginDetailsLoaderImpl: *java.util.Map* [protected] plugin_map
+org.gudy.azureus2.pluginsimpl.update.sf.impl2.SFPluginDetailsLoaderImpl: *java.util.List* [protected] listeners
+org.gudy.azureus2.ui.common.util.MenuItemManager: *java.util.Map* [private] items
+org.gudy.azureus2.ui.swt.auth.AuthenticatorWindow: *java.util.Map* [protected] auth_cache
+org.gudy.azureus2.ui.swt.components.LinkArea: *java.util.ArrayList* [private] links
+org.gudy.azureus2.ui.swt.components.shell.ShellManager: *java.util.Collection* [private] [final] shells
+org.gudy.azureus2.ui.swt.components.shell.ShellManager: *java.util.List* [private] [final] addHandlers
+org.gudy.azureus2.ui.swt.components.shell.ShellManager: *java.util.List* [private] [final] removeHandlers
+org.gudy.azureus2.ui.swt.components.widgets.PaginationWidget: *java.util.List* [private] listeners
+org.gudy.azureus2.ui.swt.config.generic.GenericBooleanParameter: *java.util.List* performers
+org.gudy.azureus2.ui.swt.config.Parameter: *java.util.List* [protected] change_listeners
+org.gudy.azureus2.ui.swt.config.RadioParameter: *java.util.List* performers
+org.gudy.azureus2.ui.swt.FileDownloadWindow: *java.util.Map* request_properties
+org.gudy.azureus2.ui.swt.help.HealthHelpWindow$3: *java.util.ArrayList* [private] [final] val$imagesToRelease
+org.gudy.azureus2.ui.swt.IconBar: *java.util.Map* itemKeyToControl
+org.gudy.azureus2.ui.swt.mainwindow.Initializer$3: *java.util.ArrayList* [private] [final] val$logEvents
+org.gudy.azureus2.ui.swt.mainwindow.Initializer$4: *java.util.ArrayList* [private] [final] val$logEvents
+org.gudy.azureus2.ui.swt.mainwindow.MainWindow: *java.util.HashMap* [private] downloadViews
+org.gudy.azureus2.ui.swt.mainwindow.MainWindow: *java.util.ArrayList* [private] events
+org.gudy.azureus2.ui.swt.mainwindow.MainWindow: *java.util.Map* pluginTabs
+org.gudy.azureus2.ui.swt.mainwindow.PluginsMenuHelper: *java.util.Map* [private] plugin_view_info_map
+org.gudy.azureus2.ui.swt.mainwindow.PluginsMenuHelper: *java.util.Map* [private] plugin_logs_view_info_map
+org.gudy.azureus2.ui.swt.mainwindow.PluginsMenuHelper: *java.util.List* [private] pluginAddedViewListener
+org.gudy.azureus2.ui.swt.mainwindow.SWTThread: *java.util.Map* [private] freq_map
+org.gudy.azureus2.ui.swt.maketorrent.MultiTrackerEditor: *java.util.List* trackers
+org.gudy.azureus2.ui.swt.maketorrent.NewTorrentWizard: *java.util.List* trackers
+org.gudy.azureus2.ui.swt.maketorrent.NewTorrentWizard: *java.util.Map* webseeds
+org.gudy.azureus2.ui.swt.maketorrent.WebSeedsEditor: *java.util.Map* webseeds
+org.gudy.azureus2.ui.swt.minibar.MiniBarManager: *java.util.ArrayList* [private] minibars
+org.gudy.azureus2.ui.swt.OpenTorrentWindow: *java.util.ArrayList* [private] dataFiles
+org.gudy.azureus2.ui.swt.OpenTorrentWindow: *java.util.ArrayList* [private] torrentList
+org.gudy.azureus2.ui.swt.OpenTorrentWindow: *java.util.ArrayList* [private] downloaders
+org.gudy.azureus2.ui.swt.OpenTorrentWindow: *java.util.ArrayList* [private] disposeList
+org.gudy.azureus2.ui.swt.OpenTorrentWindow: *java.util.Map* [private] [final] fileStatCache
+org.gudy.azureus2.ui.swt.OpenTorrentWindow: *java.util.Map* [private] [final] parentToRootCache
+org.gudy.azureus2.ui.swt.pluginsimpl.BasicPluginConfigImpl$6: *java.util.Map* [private] [final] val$comp_map
+org.gudy.azureus2.ui.swt.pluginsinstaller.InstallPluginWizard: *java.util.List* plugins
+org.gudy.azureus2.ui.swt.pluginsuninstaller.UnInstallPluginWizard: *java.util.List* plugins
+org.gudy.azureus2.ui.swt.progress.ProgressReporterStack: *java.util.Stack* [private] reporterStack
+org.gudy.azureus2.ui.swt.shells.AbstractWizardPage: *java.util.Map* [private] buttons
+org.gudy.azureus2.ui.swt.shells.GCStringPrinter: *java.util.List* [private] listUrlInfo
+org.gudy.azureus2.ui.swt.shells.GCStringPrinter$URLInfo: *java.util.List* [public] hitAreas
+org.gudy.azureus2.ui.swt.shells.MessageSlideShell: *java.util.ArrayList* [private] disposeList
+org.gudy.azureus2.ui.swt.shells.MultipageWizard: *java.util.Map* [private] pages
+org.gudy.azureus2.ui.swt.shells.MultipageWizard: *java.util.List* [private] initializedPages
+org.gudy.azureus2.ui.swt.shells.SpeedScaleShell: *java.util.LinkedHashMap* [private] mapOptions
+org.gudy.azureus2.ui.swt.Sleak: *java.util.Map* all
+org.gudy.azureus2.ui.swt.Sleak: *java.util.ArrayList* oldNonResources
+org.gudy.azureus2.ui.swt.StartServer: *java.util.List* [protected] queued_torrents
+org.gudy.azureus2.ui.swt.Tab: *java.util.HashMap* [private] tabs
+org.gudy.azureus2.ui.swt.TorrentUtil$8$1: *java.util.List* [private] [final] val$set
+org.gudy.azureus2.ui.swt.TrayWindow: *java.util.List* managers
+org.gudy.azureus2.ui.swt.TwistieLabel: *java.util.List* [private] listeners
+org.gudy.azureus2.ui.swt.UIExitUtilsSWT$1: *java.util.List* [private] [final] val$flistUnfinished
+org.gudy.azureus2.ui.swt.UIExitUtilsSWT$2: *java.util.List* [private] [final] val$flistUnfinished
+org.gudy.azureus2.ui.swt.update.UpdateAutoDownloader: *java.util.ArrayList* [private] downloaders
+org.gudy.azureus2.ui.swt.update.UpdateProgressWindow: *java.util.ArrayList* [protected] current_instances
+org.gudy.azureus2.ui.swt.update.UpdateWindow: *java.util.List* [private] downloaders
+org.gudy.azureus2.ui.swt.update.UpdateWindow: *java.util.Map* [private] downloadersToData
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionPlugins: *java.util.List* pluginIFs
+org.gudy.azureus2.ui.swt.views.ConfigView: *java.util.ArrayList* pluginSections
+org.gudy.azureus2.ui.swt.views.LoggerView: *java.util.LinkedList* [private] buffer
+org.gudy.azureus2.ui.swt.views.ManagerView: *java.util.ArrayList* [private] tabViews
+org.gudy.azureus2.ui.swt.views.PeersGraphicView: *java.util.List* [private] peers
+org.gudy.azureus2.ui.swt.views.stats.VivaldiPanel: *java.util.List* [private] lastContacts
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.util.ArrayList* [private] refreshListeners
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.util.ArrayList* [private] disposeListeners
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.util.ArrayList* [private] tooltipListeners
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.util.ArrayList* [private] cellMouseListeners
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.util.ArrayList* [private] cellMouseMoveListeners
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.util.ArrayList* [private] cellVisibilityListeners
+org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell: *java.util.ArrayList* [private] cellSWTPaintListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.util.ArrayList* [private] refreshListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.util.ArrayList* [private] disposeListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.util.ArrayList* [private] tooltipListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.util.ArrayList* [private] cellMouseListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.util.ArrayList* [private] cellMouseMoveListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.util.ArrayList* [private] cellVisibilityListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableCellImpl: *java.util.ArrayList* [private] cellSWTPaintListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableRowImpl: *java.util.Map* [private] mTableCells
+org.gudy.azureus2.ui.swt.views.table.impl.TableRowImpl: *java.util.ArrayList* [private] mouseListeners
+org.gudy.azureus2.ui.swt.views.table.impl.TableRowImpl: *java.util.Map* [private] dataList
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl: *java.util.Map* [private] mapDataSourceToRow [Ljava/util/Map<TDATASOURCETYPE;Lcom/aelitis/azureus/ui/common/table/TableRowCore;>;]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl: *org.gudy.azureus2.core3.util.LightHashSet* [private] dataSourcesToAdd
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl: *org.gudy.azureus2.core3.util.LightHashSet* [private] dataSourcesToRemove
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl: *java.util.List* [private] listSelectedCoreDataSources [Ljava/util/List<TDATASOURCETYPE;>;]
+org.gudy.azureus2.ui.swt.views.table.utils.TableColumnCreator$1: *java.util.Map* [private] [final] val$c
+org.gudy.azureus2.ui.swt.views.table.utils.TableColumnManager: *java.util.Map* [private] autoHideOrder
+org.gudy.azureus2.ui.swt.views.table.utils.TableColumnManager: *java.util.Map* [private] mapTablesConfig
+org.gudy.azureus2.ui.swt.views.table.utils.TableContextMenuManager: *java.util.Map* [private] items
+org.gudy.azureus2.ui.swt.views.tableitems.mytorrents.CompletionItem: *java.util.Map* [private] mapCellLastPercentDone
+org.gudy.azureus2.ui.swt.views.tableitems.mytorrents.TrackerNextAccessItem: *java.util.HashMap* map
+org.gudy.azureus2.ui.swt.views.TorrentOptionsView: *java.util.Map* [private] adhoc_parameters
+org.gudy.azureus2.ui.swt.views.TorrentOptionsView: *java.util.Map* [private] ds_parameters
+org.gudy.azureus2.ui.swt.wizard.Wizard: *java.util.List* listeners
+org.gudy.azureus2.ui.webplugin.WebPlugin: *java.util.Properties* [private] properties
+org.gudy.azureus2.update.UpdateJarPatcher: *java.util.Map* [protected] patch_entries
+
+ARRAYS REPORT
+=============
+
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$15: *com.aelitis.azureus.core.dht.transport.DHTTransportValue[][]* [private] [final] val$value_sets [no-stores]
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$7: *com.aelitis.azureus.core.dht.transport.DHTTransportValue[]* [private] [final] val$values
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$8: *com.aelitis.azureus.core.dht.transport.DHTTransportValue[][]* [private] [final] val$value_sets
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$9: *com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$DhtTaskSet[]* [private] [final] val$task_set [no-stores]
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$DHTTransportFindValueReplyImpl: *com.aelitis.azureus.core.dht.transport.DHTTransportValue[]* [private] values [arraycopy]
+com.aelitis.azureus.core.dht.control.impl.DHTControlImpl$DHTTransportFindValueReplyImpl: *com.aelitis.azureus.core.dht.transport.DHTTransportContact[]* [private] contacts [arraycopy]
+com.aelitis.azureus.core.dht.db.impl.DHTDBImpl$5: *com.aelitis.azureus.core.dht.db.DHTDBValue[]* [private] [final] val$values [no-stores]
+com.aelitis.azureus.core.dht.db.impl.DHTDBImpl$6: *java.lang.Object[]* [private] [final] val$data
+com.aelitis.azureus.core.dht.nat.impl.DHTNATPuncherImpl$16: *com.aelitis.azureus.core.dht.transport.DHTTransportValue[]* [private] [final] val$result_value
+com.aelitis.azureus.core.dht.nat.impl.DHTNATPuncherImpl$7: *com.aelitis.azureus.core.dht.transport.DHTTransportContact[]* [private] [final] val$new_rendezvous_target
+com.aelitis.azureus.core.dht.transport.loopback.DHTTransportLoopbackImpl$5: *com.aelitis.azureus.core.dht.transport.DHTTransportValue[][]* [private] [final] val$value_sets [no-stores]
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPContactImpl: *com.aelitis.azureus.core.dht.netcoords.DHTNetworkPosition[]* [private] network_positions [no-stores]
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl$10: *java.net.InetSocketAddress[]* [private] [final] val$result
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTTransportUDPImpl$14: *com.aelitis.azureus.core.dht.transport.DHTTransportFullStats[]* [private] [final] val$res
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTUDPPacketReply: *com.aelitis.azureus.core.dht.netcoords.DHTNetworkPosition[]* [private] network_positions [no-stores]
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTUDPPacketReplyFindNode: *com.aelitis.azureus.core.dht.transport.DHTTransportContact[]* [private] contacts [no-stores]
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTUDPPacketReplyFindValue: *com.aelitis.azureus.core.dht.transport.DHTTransportContact[]* [private] contacts [no-stores]
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTUDPPacketReplyFindValue: *com.aelitis.azureus.core.dht.transport.DHTTransportValue[]* [private] values [no-stores]
+com.aelitis.azureus.core.dht.transport.udp.impl.DHTUDPPacketRequestStore: *com.aelitis.azureus.core.dht.transport.DHTTransportValue[][]* [private] value_sets [no-stores]
+com.aelitis.azureus.core.diskmanager.access.impl.DiskAccessControllerInstance: *com.aelitis.azureus.core.diskmanager.access.impl.DiskAccessControllerInstance$requestDispatcher[]* [private] dispatchers
+com.aelitis.azureus.core.diskmanager.access.impl.DiskAccessControllerInstance$requestDispatcher: *org.gudy.azureus2.core3.util.AEThread2[]* [private] threads
+com.aelitis.azureus.core.diskmanager.cache.impl.CacheFileWithoutCacheMT: *com.aelitis.azureus.core.diskmanager.file.FMFile[]* [private] files [mod] [arraycopy]
+com.aelitis.azureus.core.diskmanager.MemoryMappedFile: *java.lang.Object[]* [private] mapKeys [mod]
+com.aelitis.azureus.core.impl.AzureusCoreImpl$11: *java.lang.Throwable[]* [private] [final] val$error
+com.aelitis.azureus.core.impl.AzureusCoreImpl$20: *com.aelitis.azureus.core.AzureusCoreOperationTask[]* [private] [final] val$f_task [no-stores]
+com.aelitis.azureus.core.lws.LWSDiskManager: *com.aelitis.azureus.core.lws.LWSDiskManager$sePiece[]* [private] pieces
+com.aelitis.azureus.core.lws.LWSDiskManager: *org.gudy.azureus2.core3.disk.impl.DiskManagerFileInfoImpl[]* [private] files
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminHTTPProxyImpl: *java.lang.String[]* [private] non_proxy_hosts
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminHTTPProxyImpl$1: *com.aelitis.azureus.core.networkmanager.admin.NetworkAdminException[]* [private] [final] val$error
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminHTTPProxyImpl$1: *com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminHTTPProxyImpl$ProxyDetails[]* [private] [final] val$details
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminHTTPProxyImpl$1$1: *com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminHTTPProxyImpl$ProxyDetails[]* [private] [final] val$details
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminHTTPProxyImpl$1$1: *com.aelitis.azureus.core.networkmanager.admin.NetworkAdminException[]* [private] [final] val$error
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl: *java.net.InetAddress[]* [private] currentBindIPs [mod]
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl$5: *java.net.InetAddress[]* [private] [final] val$can_connect
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminImpl$9: *com.aelitis.azureus.core.networkmanager.admin.NetworkAdminNode[]* [private] [final] val$nodes
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminSocksProxyImpl$1: *com.aelitis.azureus.core.networkmanager.admin.NetworkAdminException[]* [private] [final] val$error
+com.aelitis.azureus.core.networkmanager.admin.impl.NetworkAdminSocksProxyImpl$1$1: *com.aelitis.azureus.core.networkmanager.admin.NetworkAdminException[]* [private] [final] val$error
+com.aelitis.azureus.core.networkmanager.ConnectionEndpoint: *com.aelitis.azureus.core.networkmanager.ProtocolEndpoint[]* [private] protocols [arraycopy]
+com.aelitis.azureus.core.networkmanager.impl.http.HTTPMessage: *org.gudy.azureus2.core3.util.DirectByteBuffer[]* [private] data
+com.aelitis.azureus.core.networkmanager.impl.RawMessageImpl: *org.gudy.azureus2.core3.util.DirectByteBuffer[]* [private] [final] payload [no-stores]
+com.aelitis.azureus.core.networkmanager.impl.RawMessageImpl: *com.aelitis.azureus.core.peermanager.messaging.Message[]* [private] [final] to_remove [no-stores]
+com.aelitis.azureus.core.networkmanager.impl.tcp.IncomingSocketChannelManager: *java.net.InetAddress[]* [private] default_bind_addresses
+com.aelitis.azureus.core.networkmanager.impl.tcp.IncomingSocketChannelManager: *com.aelitis.azureus.core.networkmanager.VirtualServerChannelSelector[]* [private] serverSelectors
+com.aelitis.azureus.core.networkmanager.impl.tcp.ProxyLoginHandler$2: *java.nio.ByteBuffer[]* [private] [final] val$data [no-stores]
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor$ConnectionData: *com.aelitis.azureus.core.networkmanager.LimitedRateGroup[]* [private] groups [no-stores]
+com.aelitis.azureus.core.networkmanager.impl.TransferProcessor$ConnectionData: *com.aelitis.azureus.core.networkmanager.impl.TransferProcessor$GroupData[]* [private] group_datas [no-stores]
+com.aelitis.azureus.core.networkmanager.NetworkConnectionHelper: *com.aelitis.azureus.core.networkmanager.LimitedRateGroup[]* [private] upload_limiters [arraycopy]
+com.aelitis.azureus.core.networkmanager.NetworkConnectionHelper: *com.aelitis.azureus.core.networkmanager.LimitedRateGroup[]* [private] download_limiters [arraycopy]
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZHandshake: *java.lang.String[]* [private] [final] avail_ids
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZMessageDecoder: *java.nio.ByteBuffer[]* [private] [final] decode_array
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZMessageFactory$LegacyData: *com.aelitis.azureus.core.peermanager.messaging.Message[]* [protected] [final] to_remove [no-stores]
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZPeerExchange: *com.aelitis.azureus.core.peermanager.peerdb.PeerItem[]* [private] [final] peers_added
+com.aelitis.azureus.core.peermanager.messaging.azureus.AZPeerExchange: *com.aelitis.azureus.core.peermanager.peerdb.PeerItem[]* [private] [final] peers_dropped
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTBitfield: *org.gudy.azureus2.core3.util.DirectByteBuffer[]* [private] [final] buffer
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTKeepAlive: *org.gudy.azureus2.core3.util.DirectByteBuffer[]* [private] buffer
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTMessageDecoder: *java.nio.ByteBuffer[]* [private] [final] decode_array
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTMessageFactory$LegacyData: *com.aelitis.azureus.core.peermanager.messaging.Message[]* [protected] [final] to_remove [no-stores]
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.BTPiece: *org.gudy.azureus2.core3.util.DirectByteBuffer[]* [private] [final] buffer
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.ltep.LTHandshake: *org.gudy.azureus2.core3.util.DirectByteBuffer[]* [private] buffer_array
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.ltep.UTPeerExchange: *com.aelitis.azureus.core.peermanager.peerdb.PeerItem[]* [private] [final] peers_added [mod] [arraycopy]
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.ltep.UTPeerExchange: *com.aelitis.azureus.core.peermanager.peerdb.PeerItem[]* [private] [final] peersAddedNoSeeds [mod] [arraycopy]
+com.aelitis.azureus.core.peermanager.messaging.bittorrent.ltep.UTPeerExchange: *com.aelitis.azureus.core.peermanager.peerdb.PeerItem[]* [private] [final] peers_dropped [mod] [arraycopy]
+com.aelitis.azureus.core.peermanager.peerdb.PeerDatabase: *com.aelitis.azureus.core.peermanager.peerdb.PeerItem[]* [private] cached_peer_popularities
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl: *org.gudy.azureus2.core3.disk.DiskManagerPiece[]* [protected] [final] dmPieces [mod]
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl: *org.gudy.azureus2.core3.peer.PEPiece[]* [protected] [final] pePieces [mod]
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl$2: *java.util.Map[]* [private] [final] val$peer_randomiser [hashcode]
+com.aelitis.azureus.core.peermanager.piecepicker.impl.PiecePickerImpl$RealTimeData: *java.util.List[]* [private] peer_requests
+com.aelitis.azureus.core.peermanager.unchoker.UnchokerUtilTest$2: *org.gudy.azureus2.core3.peer.PEPeerStats[]* [private] [final] val$f_stats [no-stores]
+com.aelitis.azureus.core.peermanager.uploadslots.UploadSlotManager: *com.aelitis.azureus.core.peermanager.uploadslots.UploadSlot[]* [private] [final] slots
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerImpl: *com.aelitis.azureus.core.speedmanager.impl.SpeedManagerImpl$pingContact[]* [private] contacts_array
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerImpl: *com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl[]* [private] ping_mappers
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerImpl$6: *com.aelitis.azureus.core.dht.speed.DHTSpeedTesterContact[]* [private] last_contact_group
+com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl: *com.aelitis.azureus.core.speedmanager.impl.SpeedManagerPingMapperImpl$pingValue[]* [private] pings [mod] [arraycopy]
+com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper: *com.aelitis.azureus.core.speedmanager.impl.v2.PingSpaceMapper$GridRegion[][]* gridRegion
+com.aelitis.azureus.core.util.bloom.impl.BloomFilterRotator: *com.aelitis.azureus.core.util.bloom.BloomFilter[]* [private] [final] filters [mod]
+com.aelitis.azureus.core.vuzefile.VuzeFileImpl: *com.aelitis.azureus.core.vuzefile.VuzeFileComponent[]* [private] components [arraycopy]
+com.aelitis.azureus.launcher.MainExecutor$1: *java.lang.String[]* [private] [final] val$args
+com.aelitis.azureus.plugins.dht.DHTPlugin: *com.aelitis.azureus.plugins.dht.impl.DHTPluginImpl[]* [private] dhts
+com.aelitis.azureus.plugins.dht.impl.DHTPluginStorageManager: *com.aelitis.azureus.core.dht.DHTStorageBlock[]* [private] key_blocks_direct_cow [arraycopy]
+com.aelitis.azureus.plugins.extseed.impl.getright.ExternalSeedReaderGetRight: *com.aelitis.azureus.plugins.extseed.util.ExternalSeedHTTPDownloader[]* [private] http_downloaders
+com.aelitis.azureus.plugins.magnet.MagnetPlugin$5: *java.net.InetSocketAddress[]* [private] [final] val$sources [no-stores]
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin$32: *java.lang.Object[]* [private] [final] val$result
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin$33: *java.lang.Object[]* [private] [final] val$result
+com.aelitis.azureus.plugins.net.buddy.BuddyPlugin$34: *java.lang.Object[]* [private] [final] val$result
+com.aelitis.azureus.plugins.net.buddy.swt.BuddyPluginViewInstance$12: *java.lang.String[]* [private] [final] val$headers [no-stores]
+com.aelitis.azureus.plugins.net.buddy.swt.BuddyPluginViewInstance$25$1: *org.eclipse.swt.widgets.TableItem[]* [private] [final] val$selection [no-stores]
+com.aelitis.azureus.plugins.startstoprules.defaultplugin.StartStopRulesDefaultPlugin: *com.aelitis.azureus.plugins.startstoprules.defaultplugin.DefaultRankCalculator[]* [private] sortedArrayCache
+com.aelitis.azureus.plugins.tracker.dht.DHTTrackerPlugin: *com.aelitis.azureus.core.dht.netcoords.DHTNetworkPosition[]* [private] current_network_positions [mod] [arraycopy]
+com.aelitis.azureus.plugins.tracker.dht.DHTTrackerPlugin$12$2: *org.gudy.azureus2.plugins.download.DownloadAnnounceResultPeer[]* [private] [final] val$peers [no-stores]
+com.aelitis.azureus.plugins.tracker.dht.DHTTrackerPlugin$RegistrationDetails: *com.aelitis.azureus.plugins.tracker.dht.DHTTrackerPlugin$trackerTarget[]* [private] put_targets [no-stores] [arraycopy]
+com.aelitis.azureus.ui.swt.imageloader.ImageLoader: *java.lang.String[]* [private] [final] sSuffixChecks [hashcode]
+com.aelitis.azureus.ui.swt.imageloader.ImageLoaderRefInfo: *org.eclipse.swt.graphics.Image[]* [private] images
+com.aelitis.net.natpmp.upnp.impl.NatPMPUPnPRootDeviceImpl: *com.aelitis.net.upnp.UPnPService[]* [private] services
+com.aelitis.net.udp.mc.impl.MCGroupImpl: *java.lang.String[]* [private] selected_interfaces [no-stores]
+com.aelitis.net.udp.uc.impl.PRUDPPacketHandlerImpl: *java.util.List[]* [private] send_queues
+com.aelitis.net.udp.uc.impl.PRUDPPacketHandlerImpl$2: *org.gudy.azureus2.core3.util.TimerEventPeriodic[]* [private] [final] val$f_ev [no-stores]
+org.bouncycastle.asn1.pkcs.AuthenticatedSafe: *org.bouncycastle.asn1.pkcs.ContentInfo[]* info
+org.bouncycastle.asn1.x509.AuthorityInformationAccess: *org.bouncycastle.asn1.x509.AccessDescription[]* [private] descriptions
+org.bouncycastle.asn1.x509.TBSCertList: *org.bouncycastle.asn1.x509.TBSCertList$CRLEntry[]* revokedCertificates
+org.bouncycastle.jce.provider.JCEIESCipher: *java.lang.Class[]* [private] availableSpecs [arraycopy]
+org.bouncycastle.math.ec.ECCurve$F2m: *java.math.BigInteger[]* [private] si [no-stores] [arraycopy] [hashcode]
+org.gudy.azureus2.core3.disk.impl.access.impl.DMReaderImpl$1: *org.gudy.azureus2.core3.util.DirectByteBuffer[]* [private] [final] val$result
+org.gudy.azureus2.core3.disk.impl.access.impl.DMReaderImpl$3: *java.lang.Object[]* [private] [final] val$request_wrapper [no-stores]
+org.gudy.azureus2.core3.disk.impl.access.impl.DMReaderImpl$requestDispatcher$1: *java.lang.Throwable[]* [private] [final] val$error
+org.gudy.azureus2.core3.disk.impl.access.impl.DMWriterImpl$1: *java.lang.Throwable[]* [private] [final] val$op_failed
+org.gudy.azureus2.core3.disk.impl.access.impl.DMWriterImpl$requestDispatcher$1: *java.lang.Throwable[]* [private] [final] val$error
+org.gudy.azureus2.core3.disk.impl.DiskManagerFileInfoSetImpl: *org.gudy.azureus2.core3.disk.impl.DiskManagerFileInfoImpl[]* [final] files
+org.gudy.azureus2.core3.disk.impl.DiskManagerImpl: *org.gudy.azureus2.core3.disk.impl.DiskManagerPieceImpl[]* [private] pieces
+org.gudy.azureus2.core3.disk.impl.DiskManagerImpl: *org.gudy.azureus2.core3.disk.impl.DiskManagerFileInfoImpl[]* [private] files
+org.gudy.azureus2.core3.disk.impl.DiskManagerImpl$6: *org.gudy.azureus2.core3.disk.impl.DiskManagerImpl$FileSkeleton[]* [private] [final] val$res
+org.gudy.azureus2.core3.disk.impl.DiskManagerImpl$6$1: *org.gudy.azureus2.core3.disk.impl.DiskManagerImpl$FileSkeleton[]* [private] [final] val$res [no-stores]
+org.gudy.azureus2.core3.disk.impl.DiskManagerImpl$7: *org.gudy.azureus2.core3.disk.impl.DiskManagerImpl$FileSkeleton[]* [private] [final] val$res [no-stores]
+org.gudy.azureus2.core3.disk.impl.piecemapper.impl.DMPieceMapImpl: *org.gudy.azureus2.core3.disk.impl.piecemapper.DMPieceList[]* [private] piece_lists [no-stores]
+org.gudy.azureus2.core3.disk.impl.piecemapper.impl.PieceListImpl: *org.gudy.azureus2.core3.disk.impl.piecemapper.impl.PieceMapEntryImpl[]* [private] [final] pieces [no-stores]
+org.gudy.azureus2.core3.download.impl.DownloadManagerController$FileInfoFacadeSet: *org.gudy.azureus2.core3.download.impl.DownloadManagerController$fileInfoFacade[]* facadeFiles [mod]
+org.gudy.azureus2.core3.download.impl.DownloadManagerImpl: *java.lang.Object[]* [private] read_torrent_state [hashcode]
+org.gudy.azureus2.core3.download.impl.DownloadManagerStateImpl$CachedStateWrapper$cacheGroup: *org.gudy.azureus2.core3.torrent.TOTorrentAnnounceURLSet[]* [private] sets
+org.gudy.azureus2.core3.download.impl.DownloadManagerStateImpl$CachedStateWrapper$cacheGroup$cacheSet: *java.net.URL[]* [private] urls [no-stores]
+org.gudy.azureus2.core3.internat.LocaleUtil: *org.gudy.azureus2.core3.internat.LocaleUtilDecoder[]* [private] all_decoders
+org.gudy.azureus2.core3.internat.LocaleUtil: *org.gudy.azureus2.core3.internat.LocaleUtilDecoder[]* [private] general_decoders
+org.gudy.azureus2.core3.internat.LocaleUtilEncodingException: *java.lang.String[]* [protected] valid_charsets [no-stores]
+org.gudy.azureus2.core3.internat.LocaleUtilEncodingException: *java.lang.String[]* [protected] valid_names [no-stores]
+org.gudy.azureus2.core3.ipfilter.impl.IPAddressRangeManager: *org.gudy.azureus2.core3.ipfilter.IpRange[]* [protected] mergedRanges [no-stores] [mod]
+org.gudy.azureus2.core3.ipfilter.impl.IpRangeImpl: *org.gudy.azureus2.core3.ipfilter.IpRange[]* [private] my_merged_entries [arraycopy]
+org.gudy.azureus2.core3.logging.impl.FileLogging: *java.util.ArrayList[]* [private] ignoredComponents
+org.gudy.azureus2.core3.logging.LogAlert: *java.lang.Object[]* [public] relatedTo
+org.gudy.azureus2.core3.logging.LogEvent: *java.lang.Object[]* [public] relatedTo
+org.gudy.azureus2.core3.peer.impl.control.PEPeerControlImpl: *org.gudy.azureus2.core3.disk.DiskManagerPiece[]* [private] [final] dm_pieces [mod]
+org.gudy.azureus2.core3.peer.impl.control.PEPeerControlImpl: *org.gudy.azureus2.core3.peer.impl.PEPieceImpl[]* [private] pePieces [mod]
+org.gudy.azureus2.core3.peer.impl.control.PEPeerControlImpl: *org.gudy.azureus2.core3.peer.impl.control.SuperSeedPiece[]* [private] superSeedPieces [mod]
+org.gudy.azureus2.core3.peer.impl.PEPieceImpl: *java.lang.String[]* [private] [final] requested [mod]
+org.gudy.azureus2.core3.peer.impl.PEPieceImpl: *java.lang.String[]* [private] [final] writers [mod]
+org.gudy.azureus2.core3.peer.impl.transport.PEPeerTransportProtocol: *com.aelitis.azureus.core.peermanager.messaging.Message[]* [private] supported_messages [mod] [arraycopy]
+org.gudy.azureus2.core3.security.impl.SESecurityManagerImpl$4: *java.security.cert.X509Certificate[]* [private] [final] val$res [no-stores]
+org.gudy.azureus2.core3.torrent.impl.TOTorrentAnnounceURLGroupImpl: *org.gudy.azureus2.core3.torrent.TOTorrentAnnounceURLSet[]* [private] sets [arraycopy]
+org.gudy.azureus2.core3.torrent.impl.TOTorrentAnnounceURLSetImpl: *java.net.URL[]* [private] urls
+org.gudy.azureus2.core3.torrent.impl.TOTorrentImpl: *org.gudy.azureus2.core3.torrent.impl.TOTorrentFileImpl[]* [private] files [arraycopy]
+org.gudy.azureus2.core3.tracker.client.impl.bt.TRTrackerBTAnnouncerImpl: *java.lang.String[]* [private] peer_networks [mod] [arraycopy]
+org.gudy.azureus2.core3.tracker.client.impl.TRTrackerAnnouncerResponseImpl: *org.gudy.azureus2.core3.tracker.client.TRTrackerAnnouncerResponsePeer[]* [protected] peers [no-stores]
+org.gudy.azureus2.core3.tracker.host.impl.TRHostTorrentPublishImpl: *org.gudy.azureus2.core3.tracker.host.TRHostPeer[]* [private] peers
+org.gudy.azureus2.core3.tracker.server.impl.tcp.nonblocking.TRNonBlockingServerProcessor$1: *org.gudy.azureus2.core3.util.AESemaphore[]* [private] [final] val$went_async
+org.gudy.azureus2.core3.tracker.server.impl.tcp.nonblocking.TRNonBlockingServerProcessor$1: *java.io.ByteArrayOutputStream[]* [private] [final] val$async_stream
+org.gudy.azureus2.core3.tracker.server.impl.TRTrackerServerTorrentImpl: *java.net.URL[]* [private] redirects [mod] [arraycopy] [hashcode]
+org.gudy.azureus2.core3.util.AERunnableObject: *java.lang.Object[]* [private] returnValueObject
+org.gudy.azureus2.core3.util.AEThread2$threadWrapper: *java.lang.Object[]* [private] debug
+org.gudy.azureus2.core3.util.ByteArrayHashMap: *org.gudy.azureus2.core3.util.ByteArrayHashMap$Entry[]* [private] table [[Lorg/gudy/azureus2/core3/util/ByteArrayHashMap$Entry<TT;>;] [arraycopy]
+org.gudy.azureus2.core3.util.DirectByteBufferPoolHeap: *java.util.LinkedList[]* [private] [final] pools [no-stores]
+org.gudy.azureus2.core3.util.IPToHostNameResolver$2: *java.lang.Object[]* [private] [final] val$result
+org.gudy.azureus2.core3.util.LightHashMap: *java.lang.Object[]* data [mod] [hashcode]
+org.gudy.azureus2.core3.util.LightHashMap$HashIterator: *java.lang.Object[]* [protected] itData [no-stores]
+org.gudy.azureus2.core3.util.LightHashSet: *java.lang.Object[]* data [hashcode]
+org.gudy.azureus2.core3.util.LightHashSet$HashIterator: *java.lang.Object[]* [private] itData [no-stores]
+org.gudy.azureus2.core3.util.TimeLimitedTask$1: *java.lang.Object[]* [private] [final] val$result
+org.gudy.azureus2.core3.util.UrlUtils$1: *java.lang.Throwable[]* [private] [final] val$res
+org.gudy.azureus2.platform.macosx.access.cocoa.CocoaJavaBridge$1: *java.lang.Object[]* [private] [final] val$params
+org.gudy.azureus2.platform.macosx.access.cocoa.CocoaJavaBridge$2: *java.lang.Object[]* [private] [final] val$params
+org.gudy.azureus2.platform.unix.ScriptBeforeStartup$2: *java.lang.String[]* [private] [final] val$possibleDirNames [no-stores]
+org.gudy.azureus2.plugins.torrent.TorrentEncodingException: *java.lang.String[]* [public] valid_charsets [no-stores]
+org.gudy.azureus2.plugins.torrent.TorrentEncodingException: *java.lang.String[]* [public] valid_names [no-stores]
+org.gudy.azureus2.pluginsimpl.local.ddb.DDBaseTTTorrent$2: *org.gudy.azureus2.core3.util.TimerEventPeriodic[]* [private] [final] val$pe [no-stores]
+org.gudy.azureus2.pluginsimpl.local.installer.InstallablePluginImpl$1: *org.gudy.azureus2.plugins.PluginException[]* [private] [final] val$error
+org.gudy.azureus2.pluginsimpl.local.installer.PluginInstallerImpl$3$1: *org.gudy.azureus2.plugins.update.Update[]* [private] [final] val$updates [no-stores]
+org.gudy.azureus2.pluginsimpl.local.messaging.GenericMessageDecoder: *java.nio.ByteBuffer[]* [private] [final] buffers
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl: *org.gudy.azureus2.core3.disk.DiskManagerPiece[]* [private] [final] dm_pieces
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl: *org.gudy.azureus2.core3.peer.PEPiece[]* [private] [final] pe_pieces
+org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl: *org.gudy.azureus2.pluginsimpl.local.peers.PeerManagerImpl$pieceFacade[]* [private] piece_facades
+org.gudy.azureus2.pluginsimpl.local.PluginInitializer: *java.lang.String[][]* [private] builtin_plugins
+org.gudy.azureus2.pluginsimpl.local.sharing.ShareManagerImpl: *java.net.URL[]* [private] announce_urls
+org.gudy.azureus2.pluginsimpl.local.sharing.ShareResourceDirContentsImpl: *org.gudy.azureus2.plugins.sharing.ShareResource[]* [protected] children [no-stores]
+org.gudy.azureus2.pluginsimpl.local.sharing.ShareResourceDirContentsImpl$shareNode: *org.gudy.azureus2.plugins.sharing.ShareResource[]* [protected] node_children [no-stores]
+org.gudy.azureus2.pluginsimpl.local.ui.AbstractUIInputReceiver: *java.lang.String[]* [protected] messages
+org.gudy.azureus2.pluginsimpl.local.ui.AbstractUIMessage: *java.lang.String[]* [protected] messages
+org.gudy.azureus2.pluginsimpl.local.ui.config.FileParameter: *java.lang.String[]* [private] file_extensions [no-stores]
+org.gudy.azureus2.pluginsimpl.local.ui.config.IntsParameter: *java.lang.String[]* [private] labels [no-stores]
+org.gudy.azureus2.pluginsimpl.local.ui.config.StringListParameterImpl: *java.lang.String[]* [private] values [no-stores]
+org.gudy.azureus2.pluginsimpl.local.ui.config.StringListParameterImpl: *java.lang.String[]* [private] labels [no-stores]
+org.gudy.azureus2.pluginsimpl.local.update.UpdateCheckInstanceImpl: *org.gudy.azureus2.pluginsimpl.local.update.UpdatableComponentImpl[]* [private] components [arraycopy]
+org.gudy.azureus2.pluginsimpl.local.update.UpdateCheckInstanceImpl: *org.gudy.azureus2.pluginsimpl.local.update.UpdateCheckerImpl[]* [private] checkers [arraycopy]
+org.gudy.azureus2.pluginsimpl.local.update.UpdateImpl: *java.lang.String[]* [private] description [no-stores]
+org.gudy.azureus2.pluginsimpl.local.update.UpdateImpl: *org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloader[]* [private] downloaders [no-stores]
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderAlternateImpl: *org.gudy.azureus2.plugins.utils.resourcedownloader.ResourceDownloader[]* [protected] delegates
+org.gudy.azureus2.pluginsimpl.local.utils.resourcedownloader.ResourceDownloaderTorrentImpl: *org.gudy.azureus2.core3.torrent.TOTorrent[]* [protected] torrent_holder
+org.gudy.azureus2.pluginsimpl.local.utils.UtilitiesImpl$3: *java.lang.String[]* [private] [final] val$ip
+org.gudy.azureus2.pluginsimpl.local.utils.UtilitiesImpl$4: *java.lang.String[]* [private] [final] val$res
+org.gudy.azureus2.pluginsimpl.local.utils.xml.rss.RSSChannelImpl: *org.gudy.azureus2.plugins.utils.xml.rss.RSSItem[]* [private] items [no-stores]
+org.gudy.azureus2.pluginsimpl.local.utils.xml.rss.RSSFeedImpl: *org.gudy.azureus2.plugins.utils.xml.rss.RSSChannel[]* [private] channels [no-stores]
+org.gudy.azureus2.pluginsimpl.local.utils.xml.simpleparser.SimpleXMLParserDocumentNodeImpl: *org.gudy.azureus2.plugins.utils.xml.simpleparser.SimpleXMLParserDocumentNode[]* [protected] kids [no-stores]
+org.gudy.azureus2.pluginsimpl.remote.RPPluginConfig: *java.lang.String[]* [public] cached_property_names
+org.gudy.azureus2.pluginsimpl.remote.RPPluginConfig: *java.lang.Object[]* [public] cached_property_values
+org.gudy.azureus2.pluginsimpl.remote.RPRequest: *java.lang.Object[]* [public] params [no-stores]
+org.gudy.azureus2.ui.swt.auth.AuthenticatorWindow$1: *org.gudy.azureus2.ui.swt.auth.AuthenticatorWindow$authDialog[]* [private] [final] val$dialog
+org.gudy.azureus2.ui.swt.auth.CertificateCreatorWindow$createDialog$1: *org.eclipse.swt.widgets.Text[]* [private] [final] val$fields [no-stores]
+org.gudy.azureus2.ui.swt.auth.CertificateCreatorWindow$createDialog$1: *java.lang.String[]* [private] [final] val$field_rns [no-stores]
+org.gudy.azureus2.ui.swt.auth.CertificateTrustWindow$1: *org.gudy.azureus2.ui.swt.auth.CertificateTrustWindow$trustDialog[]* [private] [final] val$dialog
+org.gudy.azureus2.ui.swt.auth.CryptoWindow$1: *org.gudy.azureus2.ui.swt.auth.CryptoWindow$cryptoDialog[]* [private] [final] val$dialog
+org.gudy.azureus2.ui.swt.auth.CryptoWindow$2: *org.gudy.azureus2.ui.swt.auth.CryptoWindow$cryptoDialog[]* [private] [final] val$dialog
+org.gudy.azureus2.ui.swt.components.BufferedLabel$2: *java.lang.String[]* [private] [final] val$data [no-stores]
+org.gudy.azureus2.ui.swt.components.BufferedTableRow: *org.eclipse.swt.graphics.Image[]* [protected] image_values [mod] [arraycopy]
+org.gudy.azureus2.ui.swt.components.BufferedTableRow: *org.eclipse.swt.graphics.Color[]* [protected] foreground_colors [mod] [arraycopy]
+org.gudy.azureus2.ui.swt.components.graphics.Plot3D: *java.lang.String[]* [private] labels
+org.gudy.azureus2.ui.swt.components.graphics.Plot3D: *org.gudy.azureus2.ui.swt.components.graphics.ValueFormater[]* [private] formatters
+org.gudy.azureus2.ui.swt.components.graphics.Plot3D: *org.eclipse.swt.graphics.Color[]* [private] colours
+org.gudy.azureus2.ui.swt.components.graphics.SpeedGraphic: *org.eclipse.swt.graphics.Color[]* [public] colors [mod] [arraycopy]
+org.gudy.azureus2.ui.swt.components.Legend$1: *org.eclipse.swt.graphics.Color[]* [private] [final] val$blockColors [no-stores]
+org.gudy.azureus2.ui.swt.components.Legend$2: *org.eclipse.swt.graphics.Color[]* [private] [final] val$blockColors [no-stores]
+org.gudy.azureus2.ui.swt.components.Legend$2: *java.lang.String[]* [private] [final] val$keys [no-stores]
+org.gudy.azureus2.ui.swt.components.Legend$3: *java.lang.String[]* [private] [final] val$keys [no-stores]
+org.gudy.azureus2.ui.swt.components.Legend$3: *org.eclipse.swt.graphics.Color[]* [private] [final] val$blockColors [no-stores]
+org.gudy.azureus2.ui.swt.components.Legend$3: *org.eclipse.swt.graphics.Color[]* [private] [final] val$defaultColors [no-stores]
+org.gudy.azureus2.ui.swt.components.Legend$3$1: *org.eclipse.swt.graphics.Color[]* [private] [final] val$blockColors
+org.gudy.azureus2.ui.swt.components.Legend$3$2: *org.eclipse.swt.graphics.Color[]* [private] [final] val$blockColors
+org.gudy.azureus2.ui.swt.components.Legend$3$2: *org.eclipse.swt.graphics.Color[]* [private] [final] val$defaultColors
+org.gudy.azureus2.ui.swt.components.Legend$4: *org.eclipse.swt.graphics.Color[]* [private] [final] val$blockColors
+org.gudy.azureus2.ui.swt.components.Legend$4: *org.eclipse.swt.graphics.Color[]* [private] [final] val$defaultColors
+org.gudy.azureus2.ui.swt.components.Legend$4: *java.lang.String[]* [private] [final] val$keys
+org.gudy.azureus2.ui.swt.components.Legend$4: *org.gudy.azureus2.core3.config.ParameterListener[]* [private] [final] val$paramListeners
+org.gudy.azureus2.ui.swt.components.shell.LightBoxShell: *org.eclipse.swt.graphics.Image[]* [private] spinnerImages [no-stores]
+org.gudy.azureus2.ui.swt.components.widgets.BubbleButton: *org.eclipse.swt.graphics.Image[]* [private] backgroundImages
+org.gudy.azureus2.ui.swt.components.widgets.BubbleButton: *org.eclipse.swt.graphics.Image[]* [private] backgroundImages_hover
+org.gudy.azureus2.ui.swt.components.widgets.BubbleButton: *org.eclipse.swt.graphics.Color[]* [private] foregroundColors
+org.gudy.azureus2.ui.swt.components.widgets.PaginationWidget: *org.eclipse.swt.graphics.Rectangle[]* [private] pages
+org.gudy.azureus2.ui.swt.config.ChangeSelectionActionPerformer: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.DirectoryParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.ExclusiveSelectionActionPerformer: *org.eclipse.swt.widgets.Button[]* buttons [no-stores]
+org.gudy.azureus2.ui.swt.config.FileParameter: *java.lang.String[]* [protected] extension_list [no-stores]
+org.gudy.azureus2.ui.swt.config.GenericActionPerformer: *org.eclipse.swt.widgets.Control[]* [protected] controls [no-stores]
+org.gudy.azureus2.ui.swt.config.plugins.PluginBooleanParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.plugins.PluginColorParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.plugins.PluginDirectoryParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.plugins.PluginFileParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.plugins.PluginIntParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.plugins.PluginIntsParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.plugins.PluginStringParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.plugins.PluginStringsParameter: *org.eclipse.swt.widgets.Control[]* controls
+org.gudy.azureus2.ui.swt.config.StringListParameter: *java.lang.String[]* [private] [final] values [no-stores]
+org.gudy.azureus2.ui.swt.config.wizard.LanguagePanel$1: *java.util.Locale[]* [private] [final] val$locales [no-stores]
+org.gudy.azureus2.ui.swt.config.wizard.WelcomePanel$4: *java.lang.String[]* [private] [final] val$text
+org.gudy.azureus2.ui.swt.config.wizard.WelcomePanel$4: *java.lang.String[]* [private] [final] val$messTexts
+org.gudy.azureus2.ui.swt.config.wizard.WelcomePanel$4: *java.lang.String[]* [private] [final] val$links
+org.gudy.azureus2.ui.swt.ipchecker.ChooseServicePanel: *org.gudy.azureus2.core3.ipchecker.extipchecker.ExternalIPCheckerService[]* [private] services [no-stores]
+org.gudy.azureus2.ui.swt.LocaleUtilSWT$1: *org.gudy.azureus2.core3.internat.LocaleUtilDecoderCandidate[]* [private] [final] val$candidatesToChoose [no-stores]
+org.gudy.azureus2.ui.swt.LocaleUtilSWT$1: *org.gudy.azureus2.core3.internat.LocaleUtilDecoderCandidate[]* [private] [final] val$selected_candidate [no-stores]
+org.gudy.azureus2.ui.swt.LocaleUtilSWT$2: *org.gudy.azureus2.core3.internat.LocaleUtilDecoderCandidate[]* [private] [final] val$candidates [no-stores]
+org.gudy.azureus2.ui.swt.LocaleUtilSWT$2: *org.gudy.azureus2.core3.internat.LocaleUtilDecoderCandidate[]* [private] [final] val$selected_candidate [no-stores]
+org.gudy.azureus2.ui.swt.LocaleUtilSWT$3: *org.gudy.azureus2.core3.internat.LocaleUtilDecoderCandidate[]* [private] [final] val$candidates [no-stores]
+org.gudy.azureus2.ui.swt.LocaleUtilSWT$3: *org.gudy.azureus2.core3.internat.LocaleUtilDecoderCandidate[]* [private] [final] val$selected_candidate [no-stores]
+org.gudy.azureus2.ui.swt.mainwindow.Initializer: *java.lang.String[]* [private] args
+org.gudy.azureus2.ui.swt.mainwindow.MainStatusBar$24: *org.eclipse.swt.custom.CLabel[]* [private] [final] val$result
+org.gudy.azureus2.ui.swt.mainwindow.MainWindow$24: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dm_final [no-stores]
+org.gudy.azureus2.ui.swt.mainwindow.TorrentOpener$1: *java.lang.String[]* [private] [final] val$fileNames [no-stores]
+org.gudy.azureus2.ui.swt.mainwindow.TorrentOpener$1$1: *java.lang.String[]* [private] [final] val$fileNames [no-stores]
+org.gudy.azureus2.ui.swt.mainwindow.TorrentOpener$5: *java.lang.String[]* [private] [final] val$torrents [no-stores]
+org.gudy.azureus2.ui.swt.mainwindow.TorrentOpener$6: *java.lang.String[]* [private] [final] val$f_torrents [no-stores]
+org.gudy.azureus2.ui.swt.mainwindow.TorrentOpener$6$1: *java.lang.String[]* [private] [final] val$f_torrents [no-stores]
+org.gudy.azureus2.ui.swt.mainwindow.TorrentOpener$6$1$1: *java.lang.String[]* [private] [final] val$f_torrents [no-stores]
+org.gudy.azureus2.ui.swt.mainwindow.UIFunctionsImpl$31: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.maketorrent.ModePanel$8: *java.lang.String[]* [private] [final] val$localTrackerUrl
+org.gudy.azureus2.ui.swt.maketorrent.ModePanel$9: *java.lang.String[]* [private] [final] val$localTrackerUrl [no-stores]
+org.gudy.azureus2.ui.swt.MenuBuildUtils$MenuItemPluginMenuControllerImpl: *java.lang.Object[]* [private] objects [no-stores]
+org.gudy.azureus2.ui.swt.minibar.MiniBar: *org.eclipse.swt.widgets.Monitor[]* [protected] screens
+org.gudy.azureus2.ui.swt.networks.SWTNetworkSelection$1: *org.gudy.azureus2.ui.swt.networks.SWTNetworkSelection$classifierDialog[]* [private] [final] val$dialog
+org.gudy.azureus2.ui.swt.networks.SWTNetworkSelection$1: *java.lang.String[]* [private] [final] val$tracker_networks
+org.gudy.azureus2.ui.swt.networks.SWTNetworkSelection$classifierDialog: *java.lang.String[]* [protected] selection
+org.gudy.azureus2.ui.swt.networks.SWTNetworkSelection$classifierDialog: *org.eclipse.swt.widgets.Button[]* [private] checkboxes
+org.gudy.azureus2.ui.swt.OpenTorrentWindow$37: *org.gudy.azureus2.ui.swt.OpenTorrentWindow$TorrentFileInfo[]* [private] [final] val$files [no-stores]
+org.gudy.azureus2.ui.swt.OpenTorrentWindow$TorrentInfo: *org.gudy.azureus2.ui.swt.OpenTorrentWindow$TorrentFileInfo[]* [private] files
+org.gudy.azureus2.ui.swt.pluginsimpl.AbstractUISWTInputReceiver: *java.lang.String[]* [protected] choices [no-stores]
+org.gudy.azureus2.ui.swt.pluginsimpl.BasicPluginConfigImpl$3: *org.gudy.azureus2.ui.swt.config.ButtonParameter[]* [private] [final] val$reset_button_holder [no-stores]
+org.gudy.azureus2.ui.swt.pluginsimpl.BasicPluginConfigImpl$4: *org.gudy.azureus2.ui.swt.config.ButtonParameter[]* [private] [final] val$reset_button_holder [no-stores]
+org.gudy.azureus2.ui.swt.pluginsimpl.BasicPluginConfigImpl$6$1: *java.lang.Object[]* [private] [final] val$stuff [no-stores]
+org.gudy.azureus2.ui.swt.pluginsinstaller.InstallPluginWizard: *org.gudy.azureus2.plugins.installer.StandardPlugin[]* standard_plugins
+org.gudy.azureus2.ui.swt.pluginsinstaller.IPWListPanel$1$3: *org.gudy.azureus2.plugins.installer.StandardPlugin[]* [private] [final] val$plugins [no-stores]
+org.gudy.azureus2.ui.swt.progress.ProgressReporterWindow: *org.gudy.azureus2.ui.swt.progress.IProgressReporter[]* [private] pReporters
+org.gudy.azureus2.ui.swt.progress.ProgressWindow: *org.eclipse.swt.graphics.Image[]* [private] spinImages [no-stores]
+org.gudy.azureus2.ui.swt.progress.ProgressWindow$3: *java.lang.RuntimeException[]* [private] [final] val$error
+org.gudy.azureus2.ui.swt.sharing.ShareUtils$1$1: *java.lang.String[]* [private] [final] val$path
+org.gudy.azureus2.ui.swt.sharing.ShareUtils$2$1: *java.lang.String[]* [private] [final] val$path
+org.gudy.azureus2.ui.swt.shells.GCStringPrinter: *org.eclipse.swt.graphics.Image[]* [private] images [mod]
+org.gudy.azureus2.ui.swt.shells.GCStringPrinter$3: *org.eclipse.swt.graphics.Image[]* [private] [final] val$images [no-stores]
+org.gudy.azureus2.ui.swt.shells.InputShell: *java.lang.String[]* [private] p0
+org.gudy.azureus2.ui.swt.shells.InputShell: *java.lang.String[]* [private] p1
+org.gudy.azureus2.ui.swt.shells.MessageBoxShell: *java.lang.String[]* [private] [final] buttons
+org.gudy.azureus2.ui.swt.shells.MessageBoxShell: *java.lang.Object[]* [private] relatedObjects
+org.gudy.azureus2.ui.swt.shells.MessageSlideShell$PopupParams: *java.lang.Object[]* relatedTo [no-stores]
+org.gudy.azureus2.ui.swt.Sleak: *java.lang.Object[]* oldObjects [arraycopy]
+org.gudy.azureus2.ui.swt.Sleak: *java.lang.Error[]* oldErrors [arraycopy]
+org.gudy.azureus2.ui.swt.Sleak: *java.lang.Object[]* objects [arraycopy]
+org.gudy.azureus2.ui.swt.Sleak: *java.lang.Error[]* errors [arraycopy]
+org.gudy.azureus2.ui.swt.speedtest.SpeedTestSetLimitPanel$1: *java.lang.String[]* [private] [final] val$confValue [no-stores]
+org.gudy.azureus2.ui.swt.StartSocket: *java.lang.String[]* [private] [final] args [no-stores]
+org.gudy.azureus2.ui.swt.test.PrintTransferTypes: *java.lang.String[]* [private] names
+org.gudy.azureus2.ui.swt.test.Win32TransferTypes: *java.lang.String[]* [private] names
+org.gudy.azureus2.ui.swt.TorrentUtil$1: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.TorrentUtil$17: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms
+org.gudy.azureus2.ui.swt.TorrentUtil$25: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.TorrentUtil$26: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.TorrentUtil$27: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.TorrentUtil$6: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.TorrentUtil$DMTask: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] dms [no-stores]
+org.gudy.azureus2.ui.swt.TrackerChangerWindow$1: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.update.UpdateAutoDownloader: *org.gudy.azureus2.plugins.update.Update[]* [private] [final] updates [no-stores]
+org.gudy.azureus2.ui.swt.updater2.SWTVersionGetter: *java.lang.String[]* [private] mirrors
+org.gudy.azureus2.ui.swt.views.columnsetup.TableColumnSetupWindow: *com.aelitis.azureus.ui.common.table.TableColumnCore[]* [private] columnsChosen [arraycopy]
+org.gudy.azureus2.ui.swt.views.columnsetup.TableColumnSetupWindow: *com.aelitis.azureus.ui.common.table.TableColumnCore[]* [private] columnsOriginalOrder [arraycopy]
+org.gudy.azureus2.ui.swt.views.columnsetup.TableColumnSetupWindow: *org.eclipse.swt.widgets.Button[]* [private] radProficiency [arraycopy]
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionConnectionEncryption$1: *org.eclipse.swt.widgets.Control[]* [private] [final] val$ap_controls [no-stores]
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionConnectionProxy$1: *org.eclipse.swt.widgets.Control[]* [private] [final] val$proxy_controls [no-stores]
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionConnectionProxy$2: *org.eclipse.swt.widgets.Control[]* [private] [final] val$proxy_peer_controls [no-stores]
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionConnectionProxy$2: *org.eclipse.swt.widgets.Control[]* [private] [final] val$proxy_peer_details [no-stores]
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionInterfaceColor: *org.eclipse.swt.graphics.Color[]* [private] colorsToOverride
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionInterfaceColor: *org.eclipse.swt.widgets.Button[]* [private] btnColorReset
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionIPFilter: *org.gudy.azureus2.core3.ipfilter.IpRange[]* ipRanges
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionMode$4: *java.lang.String[]* [private] [final] val$text
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionMode$4: *java.lang.String[]* [private] [final] val$messTexts
+org.gudy.azureus2.ui.swt.views.configsections.ConfigSectionMode$4: *java.lang.String[]* [private] [final] val$links
+org.gudy.azureus2.ui.swt.views.file.FileInfoView: *org.eclipse.swt.graphics.Color[]* [private] blockColors [mod]
+org.gudy.azureus2.ui.swt.views.LoggerView: *java.lang.Object[]* [private] filter
+org.gudy.azureus2.ui.swt.views.LoggerView: *java.util.ArrayList[]* [private] ignoredComponents
+org.gudy.azureus2.ui.swt.views.MyTorrentsView: *com.aelitis.azureus.ui.common.table.TableRowCore[]* [private] drag_drop_rows [arraycopy]
+org.gudy.azureus2.ui.swt.views.MyTorrentsView$12$4: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.views.MyTorrentsView$12$5: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.views.MyTorrentsView$12$7: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] [final] val$dms [no-stores]
+org.gudy.azureus2.ui.swt.views.peer.PeerInfoView: *org.eclipse.swt.graphics.Color[]* [private] blockColors [mod]
+org.gudy.azureus2.ui.swt.views.piece.PieceInfoView: *org.eclipse.swt.graphics.Color[]* [private] blockColors [mod]
+org.gudy.azureus2.ui.swt.views.piece.PieceInfoView: *org.gudy.azureus2.ui.swt.views.piece.PieceInfoView$BlockInfo[]* oldBlockInfo [mod]
+org.gudy.azureus2.ui.swt.views.stats.DHTView: *org.eclipse.swt.widgets.Label[]* lblPings
+org.gudy.azureus2.ui.swt.views.stats.DHTView: *org.eclipse.swt.widgets.Label[]* lblFindNodes
+org.gudy.azureus2.ui.swt.views.stats.DHTView: *org.eclipse.swt.widgets.Label[]* lblFindValues
+org.gudy.azureus2.ui.swt.views.stats.DHTView: *org.eclipse.swt.widgets.Label[]* lblStores
+org.gudy.azureus2.ui.swt.views.stats.DHTView: *org.eclipse.swt.widgets.Label[]* lblData
+org.gudy.azureus2.ui.swt.views.stats.DHTView: *com.aelitis.azureus.core.dht.control.DHTControlActivity[]* activities
+org.gudy.azureus2.ui.swt.views.stats.StatsView: *org.eclipse.swt.widgets.TabItem[]* itemDHTs
+org.gudy.azureus2.ui.swt.views.stats.StatsView: *org.eclipse.swt.widgets.TabItem[]* itemVivaldis
+org.gudy.azureus2.ui.swt.views.stats.StatsView: *org.gudy.azureus2.ui.swt.views.stats.DHTView[]* viewDHTs
+org.gudy.azureus2.ui.swt.views.stats.StatsView: *org.gudy.azureus2.ui.swt.views.IView[]* viewVivaldis
+org.gudy.azureus2.ui.swt.views.stats.TransferStatsView: *org.gudy.azureus2.ui.swt.views.stats.TransferStatsView$plotView[]* plot_views [mod]
+org.gudy.azureus2.ui.swt.views.stats.TransferStatsView: *org.gudy.azureus2.ui.swt.views.stats.TransferStatsView$zoneView[]* zone_views [mod]
+org.gudy.azureus2.ui.swt.views.stats.TransferStatsView$limitToTextHelper: *java.lang.String[]* setable_types
+org.gudy.azureus2.ui.swt.views.stats.TransferStatsView$zoneView: *com.aelitis.azureus.core.speedmanager.SpeedManagerPingZone[]* [private] zones
+org.gudy.azureus2.ui.swt.views.stats.TransferStatsView$zoneView: *org.gudy.azureus2.ui.swt.components.graphics.ValueFormater[]* [private] formatters
+org.gudy.azureus2.ui.swt.views.stats.TransferStatsView$zoneView: *java.lang.String[]* [private] labels
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl: *com.aelitis.azureus.ui.common.table.TableColumnCore[]* [private] basicItems [mod] [arraycopy]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl: *com.aelitis.azureus.ui.common.table.TableColumnCore[]* [private] tableColumns [mod] [arraycopy]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl: *com.aelitis.azureus.ui.common.table.TableColumnCore[]* [private] columnsOrdered [mod] [arraycopy]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl: *org.gudy.azureus2.ui.swt.views.IView[]* [protected] coreTabViews [mod] [arraycopy]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl$35: *java.lang.Object[]* [private] [final] val$fDoneDataSources [no-stores]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl$35: *java.lang.Object[]* [private] [final] val$fRemainingDataSources [no-stores]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl$36: *java.lang.Object[]* [private] [final] val$dataSources [no-stores]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl$37: *java.lang.Object[]* [private] [final] val$dataSources [no-stores]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl$38: *java.lang.Object[]* [private] [final] val$dataSources [no-stores]
+org.gudy.azureus2.ui.swt.views.table.impl.TableViewSWTImpl$39: *com.aelitis.azureus.ui.common.table.TableRowCore[]* [private] [final] val$rows [no-stores]
+org.gudy.azureus2.ui.swt.views.table.utils.TableColumnInfoImpl: *java.lang.String[]* categories [no-stores] [arraycopy]
+org.gudy.azureus2.ui.swt.views.tableitems.ColumnDateSizer: *java.util.Date[]* maxWidthDate
+org.gudy.azureus2.ui.swt.views.TorrentInfoView: *org.gudy.azureus2.ui.swt.views.table.impl.FakeTableCell[]* [private] cells [mod]
+org.gudy.azureus2.ui.swt.views.TorrentOptionsView: *org.gudy.azureus2.core3.download.DownloadManager[]* [private] managers
+org.gudy.azureus2.ui.swt.welcome.WelcomeWindow$3: *java.lang.String[]* [private] [final] val$s
+
+N-CYCLES
+========
+[org/gudy/azureus2/core3/util/AEThread2$threadWrapper, org/gudy/azureus2/core3/util/AEThread2]
+[org/gudy/azureus2/pluginsimpl/local/PluginStateImpl, org/gudy/azureus2/pluginsimpl/local/ipc/IPCInterfaceImpl, org/gudy/azureus2/pluginsimpl/local/PluginInterfaceImpl, org/gudy/azureus2/pluginsimpl/local/PluginInitializer]
+[com/aelitis/azureus/core/custom/impl/CustomizationImpl, com/aelitis/azureus/core/custom/impl/CustomizationManagerImpl]
+[com/aelitis/azureus/core/networkmanager/impl/tcp/VirtualChannelSelectorImpl, com/aelitis/azureus/core/networkmanager/VirtualChannelSelector]
+[org/bouncycastle/asn1/x509/SubjectPublicKeyInfo, org/bouncycastle/asn1/x509/V3TBSCertificateGenerator]
+[org/bouncycastle/math/ec/ECPoint, org/bouncycastle/jce/spec/ECParameterSpec]
+[com/aelitis/azureus/core/networkmanager/impl/udp/UDPConnectionManager$ProtocolTimer, com/aelitis/azureus/core/networkmanager/impl/udp/UDPConnectionManager]
+[com/aelitis/azureus/core/networkmanager/impl/udp/UDPPacket, com/aelitis/azureus/core/networkmanager/impl/udp/UDPConnectionSet$SequenceGenerator, com/aelitis/azureus/core/networkmanager/impl/udp/UDPTransportHelper, com/aelitis/azureus/core/networkmanager/impl/udp/UDPConnection, com/aelitis/azureus/core/networkmanager/impl/udp/UDPConnectionSet]
+[com/aelitis/azureus/core/networkmanager/impl/MultiPeerDownloader2, com/aelitis/azureus/core/networkmanager/impl/MultiPeerUploader, com/aelitis/azureus/core/networkmanager/impl/EntityHandler]
+[com/aelitis/azureus/core/networkmanager/impl/IncomingMessageQueueImpl, com/aelitis/azureus/core/networkmanager/impl/NetworkConnectionImpl]
+[com/aelitis/azureus/core/peermanager/utils/OutgoingBTHaveMessageAggregator, com/aelitis/azureus/core/peermanager/utils/OutgoingBTPieceMessageHandler, org/gudy/azureus2/core3/peer/impl/transport/PEPeerTransportProtocol]
+[org/gudy/azureus2/pluginsimpl/local/network/TransportImpl, org/gudy/azureus2/pluginsimpl/local/network/ConnectionImpl]
+[com/aelitis/azureus/core/networkmanager/impl/http/HTTPNetworkConnection$networkConnectionKey, com/aelitis/azureus/core/networkmanager/impl/http/HTTPMessageDecoder, com/aelitis/azureus/core/networkmanager/impl/http/HTTPNetworkConnection, com/aelitis/azureus/core/networkmanager/impl/http/HTTPMessageEncoder]
+[com/aelitis/net/udp/uc/impl/PRUDPPacketHandlerStatsImpl, com/aelitis/net/udp/uc/impl/PRUDPPacketHandlerImpl]
+[com/aelitis/azureus/plugins/upnp/UPnPMappingManager, com/aelitis/azureus/plugins/upnp/UPnPPlugin]
+[com/aelitis/net/natpmp/upnp/impl/NatPMPUPnPRootDeviceImpl, com/aelitis/net/natpmp/upnp/impl/NatPMPUPnPImpl]
+[com/aelitis/net/upnp/impl/device/UPnPDeviceImpl, com/aelitis/net/upnp/impl/device/UPnPRootDeviceImpl]
+[org/gudy/azureus2/core3/tracker/client/impl/dht/TRTrackerDHTScraperImpl, org/gudy/azureus2/core3/tracker/client/impl/bt/TrackerChecker, org/gudy/azureus2/core3/tracker/client/impl/bt/TRTrackerBTScraperImpl, org/gudy/azureus2/core3/tracker/client/impl/TRTrackerScraperImpl]
+[com/aelitis/azureus/core/proxy/socks/impl/AESocksProxyPlugableConnectionDefault$proxyStateRelayData, com/aelitis/azureus/core/proxy/socks/impl/AESocksProxyPlugableConnectionDefault]
+[com/aelitis/azureus/core/networkmanager/admin/impl/NetworkAdminSpeedTestScheduledTestImpl$SpeedTestDownloadState, com/aelitis/azureus/core/networkmanager/admin/impl/NetworkAdminSpeedTestScheduledTestImpl]
+[org/gudy/azureus2/core3/torrent/impl/TOTorrentAnnounceURLGroupImpl, org/gudy/azureus2/core3/torrent/impl/TOTorrentImpl]
+[org/gudy/azureus2/pluginsimpl/local/utils/xml/simpleparser/SimpleXMLParserDocumentNodeImpl, org/gudy/azureus2/pluginsimpl/local/utils/xml/simpleparser/SimpleXMLParserDocumentImpl]
+[com/aelitis/azureus/core/clientmessageservice/impl/NonBlockingReadWriteService, com/aelitis/azureus/core/clientmessageservice/impl/AEClientService]
+[com/aelitis/azureus/core/clientmessageservice/impl/ClientMessage, com/aelitis/azureus/core/clientmessageservice/impl/ClientConnection$1]
+[org/gudy/azureus2/core3/download/impl/DownloadManagerController$FileInfoFacadeSet, org/gudy/azureus2/core3/download/impl/DownloadManagerStatsImpl, org/gudy/azureus2/core3/download/impl/DownloadManagerController, org/gudy/azureus2/core3/download/impl/DownloadManagerImpl]
+[com/aelitis/azureus/plugins/dht/impl/DHTPluginImpl, com/aelitis/azureus/plugins/dht/DHTPlugin]
+[com/aelitis/azureus/core/dht/transport/udp/impl/DHTTransportUDPStatsImpl, com/aelitis/azureus/core/dht/transport/udp/impl/DHTTransportUDPContactImpl, com/aelitis/azureus/core/dht/transport/udp/impl/DHTTransportUDPImpl]
+[org/gudy/azureus2/core3/ipfilter/impl/IpFilterAutoLoaderImpl, org/gudy/azureus2/core3/ipfilter/impl/IpFilterImpl]
+[com/aelitis/azureus/core/dht/control/impl/DHTControlStatsImpl, com/aelitis/azureus/core/dht/control/impl/DHTControlImpl]
+[com/aelitis/azureus/core/dht/control/impl/DHTControlImpl$controlActivity, com/aelitis/azureus/core/dht/control/impl/DHTControlImpl$DhtTask]
+[com/aelitis/azureus/core/dht/router/impl/DHTRouterStatsImpl, com/aelitis/azureus/core/dht/router/impl/DHTRouterNodeImpl, com/aelitis/azureus/core/dht/router/impl/DHTRouterImpl]
+[com/aelitis/azureus/core/peermanager/piecepicker/impl/PiecePickerImpl$DiskManagerListenerImpl, com/aelitis/azureus/core/peermanager/piecepicker/impl/PiecePickerImpl]
+[org/gudy/azureus2/core3/disk/impl/resume/RDResumeHandler, org/gudy/azureus2/core3/disk/impl/DiskManagerImpl]
+[com/aelitis/azureus/core/diskmanager/file/impl/FMFileAccessController, com/aelitis/azureus/core/diskmanager/file/impl/FMFileImpl]
+[org/gudy/azureus2/pluginsimpl/local/download/DownloadScrapeResultImpl, org/gudy/azureus2/pluginsimpl/local/download/DownloadStatsImpl, org/gudy/azureus2/pluginsimpl/local/download/DownloadImpl]
+[org/gudy/azureus2/pluginsimpl/local/download/DownloadEventNotifierImpl$DownloadCompletionNotifier, org/gudy/azureus2/pluginsimpl/local/download/DownloadEventNotifierImpl$DownloadWillBeRemovedNotifier, org/gudy/azureus2/pluginsimpl/local/download/DownloadEventNotifierImpl$DownloadTrackerNotifier, org/gudy/azureus2/pluginsimpl/local/download/DownloadEventNotifierImpl$DownloadPropertyNotifier, org/gudy/azureus2/pluginsimpl/local/download/DownloadEventNotifierImpl$DownloadPeerNotifier, org/gudy/azureus2/pluginsimpl/local/download/DownloadEventNotifierImpl$DownloadNotifier, org/gudy/azureus2/pluginsimpl/local/download/DownloadEventNotifierImpl$DownloadActivationNotifier, org/gudy/azureus2/pluginsimpl/local/download/DownloadEventNotifierImpl]
+[org/gudy/azureus2/ui/swt/Tab, org/gudy/azureus2/ui/swt/pluginsimpl/UISWTInstanceImpl, org/gudy/azureus2/ui/systray/SystemTraySWT, org/gudy/azureus2/ui/swt/TrayWindow, org/gudy/azureus2/ui/swt/mainwindow/MainStatusBar$CLabelPadding, org/gudy/azureus2/ui/swt/progress/ProgressReportingManager, org/gudy/azureus2/ui/swt/update/UpdateMonitor, org/gudy/azureus2/ui/swt/update/UpdateWindow, org/gudy/azureus2/ui/swt/mainwindow/MainStatusBar, org/gudy/azureus2/ui/swt/mainwindow/MainWindow]
+[org/gudy/azureus2/ui/swt/TwistieSection$TwistieContentPanel, org/gudy/azureus2/ui/swt/TwistieSection]
+[org/gudy/azureus2/ui/swt/views/table/impl/TableViewSWTImpl$ColumnMoveListener, org/gudy/azureus2/ui/swt/views/table/impl/TableViewSWTImpl]
+[org/gudy/azureus2/pluginsimpl/local/messaging/MessageManagerImpl, org/gudy/azureus2/pluginsimpl/local/messaging/GenericMessageConnectionImpl, org/gudy/azureus2/pluginsimpl/local/utils/security/SESTSConnectionImpl]
+[org/gudy/azureus2/pluginsimpl/local/messaging/GenericMessageConnectionDirect, org/gudy/azureus2/pluginsimpl/local/messaging/GenericMessageConnectionImpl$1]
+[org/gudy/azureus2/ui/swt/config/ConfigParameterAdapter, org/gudy/azureus2/ui/swt/config/Parameter]
+[org/gudy/azureus2/ui/swt/views/columnsetup/TableColumnSetupWindow$TableViewColumnSetup, org/gudy/azureus2/ui/swt/views/columnsetup/TableColumnSetupWindow]
+[org/gudy/azureus2/ui/swt/views/stats/StatsView$UpdateThread, org/gudy/azureus2/ui/swt/views/stats/CacheView, org/gudy/azureus2/ui/swt/views/stats/TransferStatsView, org/gudy/azureus2/ui/swt/views/stats/StatsView]
+[org/gudy/azureus2/ui/swt/views/stats/VivaldiPanel$Scale, org/gudy/azureus2/ui/swt/views/stats/VivaldiPanel]
+[com/aelitis/azureus/core/security/impl/CryptoSTSEngineImpl$InternalDH, com/aelitis/azureus/core/security/impl/CryptoSTSEngineImpl]
+[org/gudy/azureus2/ui/swt/config/wizard/NatPanel$Checker, org/gudy/azureus2/ui/swt/config/wizard/NatPanel]
+[org/gudy/azureus2/ui/swt/nat/NatTestWindow$Checker, org/gudy/azureus2/ui/swt/nat/NatTestWindow]
+[com/aelitis/azureus/plugins/startstoprules/defaultplugin/StartStopRulesDefaultPlugin$RecalcSeedingRanksTask, com/aelitis/azureus/plugins/startstoprules/defaultplugin/StartStopRulesDefaultPlugin, com/aelitis/azureus/plugins/startstoprules/defaultplugin/DefaultRankCalculator]
+[com/aelitis/azureus/plugins/net/buddy/tracker/BuddyPluginTracker, com/aelitis/azureus/plugins/net/buddy/BuddyPluginAZ2, com/aelitis/azureus/plugins/net/buddy/BuddyPlugin$publishDetails, com/aelitis/azureus/plugins/net/buddy/BuddyPlugin]
+[com/aelitis/azureus/plugins/net/buddy/BuddyPluginBuddyMessage, com/aelitis/azureus/plugins/net/buddy/BuddyPluginBuddyMessageHandler, com/aelitis/azureus/plugins/net/buddy/BuddyPluginBuddy$buddyMessage, com/aelitis/azureus/plugins/net/buddy/BuddyPluginBuddy]
+[com/aelitis/azureus/plugins/net/buddy/BuddyPluginBuddy$fragmentHandler$fragmentAssembly, com/aelitis/azureus/plugins/net/buddy/BuddyPluginBuddy$fragmentHandler]
+[com/aelitis/azureus/plugins/net/buddy/swt/BuddyPluginViewInstance, com/aelitis/azureus/plugins/net/buddy/swt/BuddyPluginView]
+[org/gudy/azureus2/ui/swt/views/PeersGraphicView$PeerComparator, org/gudy/azureus2/ui/swt/views/PeersGraphicView]
+[org/gudy/azureus2/ui/swt/views/piece/PieceInfoView, org/gudy/azureus2/ui/swt/views/PiecesView]
+[org/gudy/azureus2/pluginsimpl/local/disk/DiskManagerChannelImpl$request, org/gudy/azureus2/pluginsimpl/local/disk/DiskManagerChannelImpl]
+[org/gudy/azureus2/ui/swt/sharing/progress/ProgressWindow$progressDialog, org/gudy/azureus2/ui/swt/sharing/progress/ProgressWindow]
+[org/gudy/azureus2/ui/swt/views/configsections/ConfigSectionIPFilter$FilterComparator, org/gudy/azureus2/ui/swt/views/configsections/ConfigSectionIPFilter]
+[org/gudy/azureus2/ui/swt/views/configsections/ConfigSectionPlugins$FilterComparator, org/gudy/azureus2/ui/swt/views/configsections/ConfigSectionPlugins]
+[org/gudy/azureus2/pluginsimpl/local/sharing/ShareManagerImpl$shareScanner, org/gudy/azureus2/pluginsimpl/local/sharing/ShareConfigImpl, org/gudy/azureus2/pluginsimpl/local/sharing/ShareManagerImpl]
+[org/gudy/azureus2/core3/tracker/server/impl/TRTrackerServerStatsImpl, org/gudy/azureus2/core3/tracker/server/impl/TRTrackerServerImpl]
+[org/gudy/azureus2/core3/tracker/server/impl/TRTrackerServerTorrentStatsImpl, org/gudy/azureus2/core3/tracker/server/impl/TRTrackerServerTorrentImpl]
+[org/gudy/azureus2/core3/tracker/host/impl/TRHostConfigImpl, org/gudy/azureus2/core3/tracker/host/impl/TRHostImpl]
+[org/gudy/azureus2/core3/tracker/host/impl/TRHostTorrentHostImpl, org/gudy/azureus2/core3/tracker/host/impl/TRHostImpl$5]
+[com/aelitis/azureus/plugins/extseed/impl/ExternalSeedReaderRequest, com/aelitis/azureus/plugins/extseed/impl/ExternalSeedReaderImpl]
+[org/gudy/azureus2/core3/download/impl/DownloadManagerStateImpl$CachedStateWrapper$cacheGroup, org/gudy/azureus2/core3/download/impl/DownloadManagerStateImpl$CachedStateWrapper]
+[com/aelitis/azureus/core/helpers/TorrentFolderWatcher, org/gudy/azureus2/core3/global/impl/GlobalManagerStatsImpl, org/gudy/azureus2/core3/global/impl/GlobalManagerImpl$Checker, org/gudy/azureus2/core3/global/impl/GlobalManagerImpl]
+[com/aelitis/azureus/plugins/tracker/dht/DHTTrackerPlugin$RegistrationDetails, com/aelitis/azureus/plugins/tracker/dht/DHTTrackerPlugin$12]
+[com/aelitis/azureus/core/speedmanager/impl/SpeedManagerPingMapperImpl$limitEstimate, com/aelitis/azureus/core/speedmanager/impl/SpeedManagerPingMapperImpl$pingValue, com/aelitis/azureus/core/speedmanager/impl/SpeedManagerPingMapperImpl, com/aelitis/azureus/core/speedmanager/impl/SpeedManagerImpl]
+[com/aelitis/azureus/core/speedmanager/impl/v2/SpeedLimitListener, com/aelitis/azureus/core/speedmanager/impl/v2/PingSpaceMon, com/aelitis/azureus/core/speedmanager/impl/v2/SpeedLimitMonitor]
+[com/aelitis/azureus/core/instancemanager/impl/AZMyInstanceImpl, com/aelitis/azureus/core/instancemanager/impl/AZInstanceManagerImpl]
+[com/aelitis/azureus/plugins/net/netstatus/NetStatusProtocolTester$testXferType, com/aelitis/azureus/plugins/net/netstatus/NetStatusProtocolTester, com/aelitis/azureus/plugins/net/netstatus/NetStatusPlugin]
+[com/aelitis/azureus/plugins/net/netstatus/swt/NetStatusPluginTester, com/aelitis/azureus/plugins/net/netstatus/swt/NetStatusPluginView]
+[org/bouncycastle/asn1/x509/ObjectDigestInfo, org/bouncycastle/asn1/x509/IssuerSerial, org/bouncycastle/asn1/x509/Holder, org/bouncycastle/asn1/x509/AttributeCertificateInfo]
+[com/aelitis/azureus/core/lws/LWSTorrent, com/aelitis/azureus/core/lws/LWSDownload, com/aelitis/azureus/core/lws/LWSDiskManager, com/aelitis/azureus/core/lws/LightWeightSeed]
+[com/aelitis/azureus/core/diskmanager/cache/impl/CacheFileManagerStatsImpl, com/aelitis/azureus/core/diskmanager/cache/impl/CacheFileManagerImpl]
+[org/bouncycastle/asn1/pkcs/IssuerAndSerialNumber, org/bouncycastle/asn1/pkcs/SignerInfo]

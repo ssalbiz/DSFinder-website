@@ -1,0 +1,116 @@
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+M001=´ò¿ª(&O)
+M002=ÍË³ö(&E)
+
+M003=°ïÖú(&H)
+M004=Ðí¿ÉÖ¤(&L)
+M005=¸üÐÂÈÕÖ¾(&C)
+M006=¹ØÓÚ Highlight...(&A)
+M007=ÎÄ¼þ(&F)
+M008=ÓïÑÔ(&L)
+M009=Ð¡¼¼ÇÉ(&T)
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Ñ¡ÔñÎÄ¼þ
+L004=Êä³ö¸ñÊ½
+L005=ÔÚÊä³öÖÐ°üº¬CSS
+L006=°ÑÃª(anchors)¹ØÁªµ½ÐÐÉÏ
+L011=°üº¬ÎÄ¼þ
+L009=ÒýÓÃCSSÎÄ¼þ:
+L010=ÑÕÉ«Ö÷Ìâ:
+L013=°üº¬ÐÐºÅ
+L014=Ê¡ÂÔÒ³Ã¼ºÍÒ³½Å
+L008=Éú³ÉË÷ÒýÎÄ¼þ
+L015=×ª»»ÎÄ¼þ
+L022=Ñ¡ÔñÎÄ¼þ
+L002=Êä³öÄ¿Â¼
+L007=ÖØÐÂ¸ñÊ½»¯
+L025=´íÎó
+L026=ÇëÖØÆôHighlight...
+L027=¶Ô³¤ÐÐ×Ô¶¯»»ÐÐ
+L028=Intelligent wrap
+L029=Ìø¹ýÒýÓÃ
+L030=Tab¿í¶È:
+L031=Fill with zeroes
+L032=Write to source directories
+L033=Remove selection
+L034=Error summary
+L035=style
+L036=Encoding:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=ÐÅÏ¢
+L023=Íê³É: %d ÎÄ¼þÔÚ %ld ºÁÃë.
+L003=Çå³ýÎÄ¼þÁÐ±í
+L016=<Ã»ÓÐÑ¡ÖÐÎÄ¼þ>
+L020=ÇëÑ¡ÔñÒ»¸öÓÐÐ§µÄÊä³öÄ¿Â¼.
+L021=ÇëÑ¡ÔñÒ»¸öCSSÊä³öÎÄ¼þ.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Ö»ÓÐ C, C++, C# ºÍ Java ÎÄ¼þ»á±»ÖØÐÂ¸ñÊ½»¯.
+E001=Ö´ÐÐNotepad.exe´íÎó
+E002=ÓïÑÔ¶¨ÒåÎÄ¼þ %s.lang Ã»ÓÐÕÒµ½!
+E003=²»ÄÜ´ò¿ª:
+E004=²»ÄÜÐ´Èëµ½:
+E005=²»ÄÜ¶ÔÈ¥Ö÷Ìâ. Çë¼ì²éÊÇ·ñ°²×°ÕýÈ·.
+E006=Ð´ÈëÊ×Ñ¡ÏîÎÄ¼þ´íÎó!
+E007=²»ÄÜÉú³ÉË÷ÒýÎÄ¼þ.
+E008=²»ÄÜ¶ÁÈ¡ÎÄ¼þÀ©Õ¹Ãû. Çë¼ì²éÊÇ·ñ°²×°ÕýÈ·.
+E009=Could not read indentation schemes. Check installation.
+E010=Could not reformat:
+
+
+T001=Ìí¼ÓÄãÒª×ª»»µÄÔ´ÎÄ¼þ. Ò²¿ÉÒÔ½øÐÐÍÏ·Å.
+T002=Ñ¡ÔñÒ»¸öÊä³öÎÄ¼þ¼Ð.
+T003=Ñ¡Ôñ°üº¬ CSS ¶¨ÒåµÄ CSS ÊäÈëÎÄ¼þ.
+T004=Çå³ýÎÄ¼þÁÐ±í.
+T005=CSS Êä³öÎÄ¼þµÄÎÄ¼þÃû.
+T006=CSS ÊäÈëÎÄ¼þµÄÂ·¾¶.
+T007=Êä³öÄ¿Â¼µÄÂ·¾¶.
+T008=ÔÚÊä³öÎÄ¼þÖÐ°üº¬ CSS ¶¨Òå.
+T009=ºöÂÔÊä³öÎÄ¼þµÄÒ³Ã¼ºÍÒ³½Å.
+T010=Ìí¼ÓÐÐºÅ.
+T011=ÔÚÐÐºÅÉÏÌí¼ÓHTML¶¨Î».
+T012=ÖØÐÂ¸ñÊ½»¯²¢¶ÔÆë C, C++, C# ºÍ Java Ô´´úÂë.
+T013=Ñ¡ÔñÒ»ÖÖÊä³ö¸ñÊ½.
+T014=¿ªÊ¼×ª»»ÊäÈëÎÄ¼þ.
+T015=ÔÚÊä³öÎÄ¼þÖÐÉú³É´ø³¬Á´½ÓµÄË÷Òý
+T016=Ñ¡ÔñÒ»ÖÖ¸ñÊ½»¯ºÍ¶ÔÆëµÄ·ç¸ñ.
+T017=Ñ¡ÔñÒ»ÖÖÄãÏ²»¶µÄÑÕÉ«Ö÷Ìâ.
+T018=Îª³¬¹ý80(75£¬Èç¹û¹Ø±ÕÐÐºÅ)¸ö×Ö·ûÐÐ½øÐÐ×Ô¶¯»»ÐÐ. ×¢Òâ: ³¤µÄµ¥ÐÐ×¢ÊÍºÍÖ¸Áî»áµ¼ÖÂÓï·¨¸ßÁÁ³ö´í.
+T019=Wrap lines and indent statements and function parameters.
+T020=ÓÃ \dq Ìø¹ýÒýÓÃ. ÔÚÊ¹ÓÃµÂÎÄµÄLaTeX°üÊ±ºÜÓÐÓÃ.
+T021=ÓÃÑ¡¶¨µÄ¿Õ¸ñÊýÌæ»»Tab (µ±ÖµÎª0Ê±²»½øÐÐÌæ»»).
+T022=Fill leading space of line numbers with zeroes.
+T023=Save output in the directories of the input files.
+T024=Remove selected entries from input file list.
+T025=Use an output encoding, which matches the input file encoding.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Íê³É.
+L017=´¦ÀíÎÄ¼þÖÐ....

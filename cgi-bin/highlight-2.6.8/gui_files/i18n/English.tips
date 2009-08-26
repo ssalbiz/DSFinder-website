@@ -1,0 +1,14 @@
+Highlight may be invoked with input filenames as command line parameters.
+You can drag and drop input files onto the Highlight window.
+You can convert several types of source code at once.
+You should always use referenced CSS files in HTML, to have the style definition in one place.
+Use the "Escape Quotes" option to generate LaTeX code, which can be used with the German-package.
+Generate RTF output to use it in word processing software.
+With line wrapping enabled, Highlight will indent function parameters and assignments which occour in very long lines.
+Use the "Omit header and footer" option to generate code fragments which can be included in existing documents.
+The "Escape Quotes" option is available if LaTeX output and "Omit header and footer" is checked.
+You can include your own CSS definitions in the final CSS output.
+You can define new colour themes and language definitions. See the Highlight README for instructions.
+The "Reformat" feature enables a consistent formatting of C, C++, Java and C Sharp code.
+Use the "File name as anchor" option if you want to paste several files into one HTML document.
+See the Highlight homepage for console versions (Win32 and Unix builds).

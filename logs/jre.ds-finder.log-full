@@ -1,0 +1,405 @@
+DSFinder has run for 0 min. 8 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+java.util.AbstractMap$SimpleEntry: *java.lang.Object* key [TK;]
+java.util.AbstractMap$SimpleEntry: *java.lang.Object* value [TV;]
+java.util.AbstractMap$SimpleImmutableEntry: *java.lang.Object* [private] [final] key [TK;]
+java.util.AbstractMap$SimpleImmutableEntry: *java.lang.Object* [private] [final] value [TV;]
+java.util.concurrent.atomic.AtomicReference: *java.lang.Object* [private] value [TV;]
+java.util.concurrent.ConcurrentHashMap$HashEntry: *java.lang.Object* [final] key [TK;]
+java.util.concurrent.ConcurrentHashMap$HashEntry: *java.lang.Object* value [TV;]
+java.util.concurrent.ConcurrentHashMap$SimpleEntry: *java.lang.Object* key [TK;]
+java.util.concurrent.ConcurrentHashMap$SimpleEntry: *java.lang.Object* value [TV;]
+java.util.concurrent.ConcurrentSkipListMap$ComparableUsingComparator: *java.lang.Object* [final] actualKey [TK;]
+java.util.concurrent.ConcurrentSkipListMap$Iter: *java.lang.Object* nextValue [TV;]
+java.util.concurrent.ConcurrentSkipListMap$Node: *java.lang.Object* [final] key [TK;]
+java.util.concurrent.ConcurrentSkipListMap$Node: *java.lang.Object* value
+java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapIter: *java.lang.Object* nextValue [TV;]
+java.util.HashMap$Entry: *java.lang.Object* [final] key [TK;]
+java.util.HashMap$Entry: *java.lang.Object* value [TV;]
+java.util.Hashtable$Entry: *java.lang.Object* key [TK;]
+java.util.Hashtable$Entry: *java.lang.Object* value [TV;]
+java.util.logging.MemoryHandler: *java.util.logging.Handler* [private] target
+java.util.prefs.AbstractPreferences: *java.lang.Object* [protected] [final] lock
+java.util.regex.Pattern$CharProperty$1: *java.util.regex.Pattern$CharProperty* [final] this$0
+java.util.TimerTask: *java.lang.Object* [final] lock
+java.util.TreeMap$Entry: *java.lang.Object* key [TK;]
+java.util.TreeMap$Entry: *java.lang.Object* value [TV;]
+java.util.TreeMap$NavigableSubMap$SubMapIterator: *java.lang.Object* [final] fenceKey [TK;]
+java.util.TreeMap$SubMap: *java.lang.Object* [private] fromKey [TK;]
+java.util.TreeMap$SubMap: *java.lang.Object* [private] toKey [TK;]
+java.util.TreeMap$SubMapEntryIterator: *java.lang.Object* [private] [final] firstExcludedKey [TK;]
+java.util.WeakHashMap$Entry: *java.lang.Object* [private] value [TV;]
+java.util.WeakHashMap$HashIterator: *java.lang.Object* nextKey
+java.util.WeakHashMap$HashIterator: *java.lang.Object* currentKey
+
+Linked List-like Data Structures:
+java.util.concurrent.ArrayBlockingQueue$Itr: *java.lang.Object* [private] nextItem [TE;]
+java.util.concurrent.ConcurrentHashMap$HashEntry: [final] next [Ljava/util/concurrent/ConcurrentHashMap$HashEntry<TK;TV;>;]
+java.util.concurrent.ConcurrentLinkedQueue$Itr: *java.lang.Object* [private] nextItem [TE;]
+java.util.concurrent.ConcurrentLinkedQueue$Node: [private] next [Ljava/util/concurrent/ConcurrentLinkedQueue$Node<TE;>;]
+java.util.concurrent.ConcurrentSkipListMap$Node: next [Ljava/util/concurrent/ConcurrentSkipListMap$Node<TK;TV;>;]
+java.util.concurrent.LinkedBlockingDeque$AbstractItr: *java.lang.Object* nextItem [TE;]
+java.util.concurrent.LinkedBlockingDeque$Node: next/prev [Ljava/util/concurrent/LinkedBlockingDeque$Node<TE;>;]
+java.util.concurrent.LinkedBlockingQueue$Node: next [Ljava/util/concurrent/LinkedBlockingQueue$Node<TE;>;]
+java.util.concurrent.locks.AbstractQueuedLongSynchronizer$Node: next/prev
+java.util.concurrent.locks.AbstractQueuedLongSynchronizer$Node: nextWaiter
+java.util.concurrent.locks.AbstractQueuedSynchronizer$Node: next/prev
+java.util.concurrent.locks.AbstractQueuedSynchronizer$Node: nextWaiter
+java.util.concurrent.SynchronousQueue$Node: next
+java.util.concurrent.SynchronousQueue$TransferQueue$QNode: next
+java.util.concurrent.SynchronousQueue$TransferStack$SNode: next
+java.util.HashMap$Entry: next [Ljava/util/HashMap$Entry<TK;TV;>;]
+java.util.Hashtable$Entry: next [Ljava/util/Hashtable$Entry<TK;TV;>;]
+java.util.LinkedList$Entry: next/previous [Ljava/util/LinkedList$Entry<TE;>;]
+java.util.regex.Pattern$Branch: *java.util.regex.Pattern$Node* prev
+java.util.regex.Pattern$Node: next
+java.util.WeakHashMap$Entry: [private] next [Ljava/util/WeakHashMap$Entry<TK;TV;>;]
+
+Parent- and outer-type Data Structures:
+java.util.logging.Logger: [private] parent
+java.util.logging.LogManager$LogNode: parent
+java.util.prefs.AbstractPreferences: [final] parent
+java.util.ResourceBundle: [protected] parent
+java.util.TreeMap$Entry: parent [Ljava/util/TreeMap$Entry<TK;TV;>;]
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+java.util.concurrent.ConcurrentSkipListMap$Index: [final] down [Ljava/util/concurrent/ConcurrentSkipListMap$Index<TK;TV;>;]
+java.util.concurrent.ConcurrentSkipListMap$Index: right [Ljava/util/concurrent/ConcurrentSkipListMap$Index<TK;TV;>;]
+java.util.concurrent.SynchronousQueue$TransferStack$SNode: match
+java.util.LinkedHashMap$Entry: before [Ljava/util/LinkedHashMap$Entry<TK;TV;>;]
+java.util.LinkedHashMap$Entry: after [Ljava/util/LinkedHashMap$Entry<TK;TV;>;]
+java.util.prefs.AbstractPreferences: [private] [final] root
+java.util.Properties: [protected] defaults
+java.util.TreeMap$Entry: left [Ljava/util/TreeMap$Entry<TK;TV;>;]
+java.util.TreeMap$Entry: right [Ljava/util/TreeMap$Entry<TK;TV;>;]
+Non-Object Fields:
+java.util.jar.JarVerifier$VerifierStream: *java.io.InputStream* [private] is
+java.util.logging.FileHandler$MeteredStream: *java.io.OutputStream* out
+java.util.regex.Pattern$6: *java.util.regex.Pattern$CharProperty* [final] val$lhs
+java.util.regex.Pattern$6: *java.util.regex.Pattern$CharProperty* [final] val$rhs
+java.util.regex.Pattern$7: *java.util.regex.Pattern$CharProperty* [final] val$lhs
+java.util.regex.Pattern$7: *java.util.regex.Pattern$CharProperty* [final] val$rhs
+java.util.regex.Pattern$8: *java.util.regex.Pattern$CharProperty* [final] val$rhs
+java.util.regex.Pattern$8: *java.util.regex.Pattern$CharProperty* [final] val$lhs
+java.util.regex.Pattern$Add: *java.util.regex.Pattern$Node* lhs
+java.util.regex.Pattern$Add: *java.util.regex.Pattern$Node* rhs
+java.util.regex.Pattern$Behind: *java.util.regex.Pattern$Node* cond
+java.util.regex.Pattern$Both: *java.util.regex.Pattern$Node* lhs
+java.util.regex.Pattern$Both: *java.util.regex.Pattern$Node* rhs
+java.util.regex.Pattern$Conditional: *java.util.regex.Pattern$Node* cond
+java.util.regex.Pattern$Conditional: *java.util.regex.Pattern$Node* yes
+java.util.regex.Pattern$Conditional: *java.util.regex.Pattern$Node* not
+java.util.regex.Pattern$Curly: *java.util.regex.Pattern$Node* atom
+java.util.regex.Pattern$First: *java.util.regex.Pattern$Node* atom
+java.util.regex.Pattern$GroupCurly: *java.util.regex.Pattern$Node* atom
+java.util.regex.Pattern$Loop: *java.util.regex.Pattern$Node* body
+java.util.regex.Pattern$Neg: *java.util.regex.Pattern$Node* cond
+java.util.regex.Pattern$Not: *java.util.regex.Pattern$Node* atom
+java.util.regex.Pattern$NotBehind: *java.util.regex.Pattern$Node* cond
+java.util.regex.Pattern$Pos: *java.util.regex.Pattern$Node* cond
+java.util.regex.Pattern$Ques: *java.util.regex.Pattern$Node* atom
+java.util.SubList: *java.util.AbstractList* [private] l [Ljava/util/AbstractList<TE;>;]
+java.lang.Object Fields:
+java.util.Collections$CopiesList: *java.lang.Object* element [TE;]
+java.util.Collections$SingletonList: *java.lang.Object* [private] [final] element [TE;]
+java.util.Collections$SingletonMap: *java.lang.Object* [private] [final] k [TK;]
+java.util.Collections$SingletonMap: *java.lang.Object* [private] [final] v [TV;]
+java.util.Collections$SingletonMap$ImmutableEntry: *java.lang.Object* [final] k [TK;]
+java.util.Collections$SingletonMap$ImmutableEntry: *java.lang.Object* [final] v [TV;]
+java.util.Collections$SingletonSet: *java.lang.Object* [private] [final] element [TE;]
+java.util.Collections$SynchronizedCollection: *java.lang.Object* mutex
+java.util.Collections$SynchronizedMap: *java.lang.Object* mutex
+java.util.concurrent.atomic.AtomicMarkableReference$ReferenceBooleanPair: *java.lang.Object* [private] [final] reference [TT;]
+java.util.concurrent.atomic.AtomicStampedReference$ReferenceIntegerPair: *java.lang.Object* [private] [final] reference [TT;]
+java.util.concurrent.ConcurrentLinkedQueue$Node: *java.lang.Object* [private] item [TE;]
+java.util.concurrent.ConcurrentSkipListMap$SubMap: *java.lang.Object* [private] [final] lo [TK;]
+java.util.concurrent.ConcurrentSkipListMap$SubMap: *java.lang.Object* [private] [final] hi [TK;]
+java.util.concurrent.Exchanger$Node: *java.lang.Object* [public] [final] item
+java.util.concurrent.Executors$PrivilegedCallable: *java.lang.Object* [private] result [TT;]
+java.util.concurrent.Executors$PrivilegedCallableUsingCurrentClassLoader: *java.lang.Object* [private] result [TT;]
+java.util.concurrent.Executors$RunnableAdapter: *java.lang.Object* [final] result [TT;]
+java.util.concurrent.FutureTask$Sync: *java.lang.Object* [private] result [TV;]
+java.util.concurrent.LinkedBlockingDeque$Node: *java.lang.Object* item [TE;]
+java.util.concurrent.LinkedBlockingQueue$Itr: *java.lang.Object* [private] currentElement [TE;]
+java.util.concurrent.LinkedBlockingQueue$Node: *java.lang.Object* item [TE;]
+java.util.concurrent.SynchronousQueue$Node: *java.lang.Object* item
+java.util.concurrent.SynchronousQueue$TransferQueue$QNode: *java.lang.Object* item
+java.util.concurrent.SynchronousQueue$TransferStack$SNode: *java.lang.Object* item
+java.util.EventObject: *java.lang.Object* [protected] source
+java.util.LinkedList$Entry: *java.lang.Object* element [TE;]
+java.util.PriorityQueue$Itr: *java.lang.Object* [private] lastRetElt
+java.util.Scanner: *java.lang.Object* [private] typeCache
+java.util.Timer: *java.lang.Object* [private] threadReaper
+java.util.TreeMap$NavigableSubMap: *java.lang.Object* [final] lo [TK;]
+java.util.TreeMap$NavigableSubMap: *java.lang.Object* [final] hi [TK;]
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+java.util.logging.LogManager$LogNode: *java.util.HashMap* children [Ljava/util/HashMap<Ljava/lang/Object;Ljava/lang/Object;>;]
+==
+java.util.AbstractList$Itr: *java.util.AbstractList* [final] this$0
+java.util.AbstractList$ListItr: *java.util.AbstractList* [final] this$0
+java.util.AbstractMap: *java.util.Set* keySet [Ljava/util/Set<TK;>;]
+java.util.AbstractMap: *java.util.Collection* values [Ljava/util/Collection<TV;>;]
+java.util.AbstractMap$1: *java.util.AbstractMap* [final] this$0
+java.util.AbstractMap$1$1: *java.util.AbstractMap$1* [final] this$1
+java.util.AbstractMap$2: *java.util.AbstractMap* [final] this$0
+java.util.AbstractMap$2$1: *java.util.AbstractMap$2* [final] this$1
+java.util.ArrayDeque$DeqIterator: *java.util.ArrayDeque* [final] this$0
+java.util.ArrayDeque$DescendingIterator: *java.util.ArrayDeque* [final] this$0
+java.util.Collections$1: *java.util.Collection* [final] val$c
+java.util.Collections$AsLIFOQueue: *java.util.Deque* [private] [final] q [Ljava/util/Deque<TE;>;]
+java.util.Collections$CheckedCollection: *java.util.Collection* [final] c [Ljava/util/Collection<TE;>;]
+java.util.Collections$CheckedCollection$1: *java.util.Collections$CheckedCollection* [final] this$0
+java.util.Collections$CheckedList: *java.util.List* [final] list [Ljava/util/List<TE;>;]
+java.util.Collections$CheckedList$1: *java.util.Collections$CheckedList* [final] this$0
+java.util.Collections$CheckedMap: *java.util.Map* [private] [final] m [Ljava/util/Map<TK;TV;>;]
+java.util.Collections$CheckedMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.Collections$CheckedMap$CheckedEntrySet: *java.util.Set* s [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.Collections$CheckedMap$CheckedEntrySet$1: *java.util.Collections$CheckedMap$CheckedEntrySet* [final] this$0
+java.util.Collections$CheckedSortedMap: *java.util.SortedMap* [private] sm [Ljava/util/SortedMap<TK;TV;>;]
+java.util.Collections$CheckedSortedSet: *java.util.SortedSet* [private] [final] ss [Ljava/util/SortedSet<TE;>;]
+java.util.Collections$EmptySet$1: *java.util.Collections$EmptySet* [final] this$0
+java.util.Collections$SetFromMap: *java.util.Map* [private] [final] m [Ljava/util/Map<TE;Ljava/lang/Boolean;>;]
+java.util.Collections$SetFromMap: *java.util.Set* [private] s [Ljava/util/Set<TE;>;]
+java.util.Collections$SingletonMap: *java.util.Set* [private] keySet [Ljava/util/Set<TK;>;]
+java.util.Collections$SingletonMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.Collections$SingletonMap: *java.util.Collection* [private] values [Ljava/util/Collection<TV;>;]
+java.util.Collections$SingletonSet$1: *java.util.Collections$SingletonSet* [final] this$0
+java.util.Collections$SynchronizedCollection: *java.util.Collection* c [Ljava/util/Collection<TE;>;]
+java.util.Collections$SynchronizedList: *java.util.List* list [Ljava/util/List<TE;>;]
+java.util.Collections$SynchronizedMap: *java.util.Map* [private] m [Ljava/util/Map<TK;TV;>;]
+java.util.Collections$SynchronizedMap: *java.util.Set* [private] keySet [Ljava/util/Set<TK;>;]
+java.util.Collections$SynchronizedMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.Collections$SynchronizedMap: *java.util.Collection* [private] values [Ljava/util/Collection<TV;>;]
+java.util.Collections$SynchronizedSortedMap: *java.util.SortedMap* [private] sm [Ljava/util/SortedMap<TK;TV;>;]
+java.util.Collections$SynchronizedSortedSet: *java.util.SortedSet* [private] ss [Ljava/util/SortedSet<TE;>;]
+java.util.Collections$UnmodifiableCollection$1: *java.util.Collections$UnmodifiableCollection* [final] this$0
+java.util.Collections$UnmodifiableList$1: *java.util.Collections$UnmodifiableList* [final] this$0
+java.util.Collections$UnmodifiableMap: *java.util.Set* [private] keySet [Ljava/util/Set<TK;>;]
+java.util.Collections$UnmodifiableMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.Collections$UnmodifiableMap: *java.util.Collection* [private] values [Ljava/util/Collection<TV;>;]
+java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1: *java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet* [final] this$0
+java.util.Collections$UnmodifiableSortedMap: *java.util.SortedMap* [private] sm [Ljava/util/SortedMap<TK;+TV;>;]
+java.util.Collections$UnmodifiableSortedSet: *java.util.SortedSet* [private] ss [Ljava/util/SortedSet<TE;>;]
+java.util.concurrent.ArrayBlockingQueue$Itr: *java.util.concurrent.ArrayBlockingQueue* [final] this$0
+java.util.concurrent.ConcurrentHashMap: *java.util.Set* keySet [Ljava/util/Set<TK;>;]
+java.util.concurrent.ConcurrentHashMap: *java.util.Set* entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.concurrent.ConcurrentHashMap: *java.util.Collection* values [Ljava/util/Collection<TV;>;]
+java.util.concurrent.ConcurrentHashMap$EntryIterator: *java.util.concurrent.ConcurrentHashMap* [final] this$0
+java.util.concurrent.ConcurrentHashMap$EntrySet: *java.util.concurrent.ConcurrentHashMap* [final] this$0
+java.util.concurrent.ConcurrentHashMap$HashIterator: *java.util.concurrent.ConcurrentHashMap* [final] this$0
+java.util.concurrent.ConcurrentHashMap$KeyIterator: *java.util.concurrent.ConcurrentHashMap* [final] this$0
+java.util.concurrent.ConcurrentHashMap$KeySet: *java.util.concurrent.ConcurrentHashMap* [final] this$0
+java.util.concurrent.ConcurrentHashMap$ValueIterator: *java.util.concurrent.ConcurrentHashMap* [final] this$0
+java.util.concurrent.ConcurrentHashMap$Values: *java.util.concurrent.ConcurrentHashMap* [final] this$0
+java.util.concurrent.ConcurrentHashMap$WriteThroughEntry: *java.util.concurrent.ConcurrentHashMap* [final] this$0
+java.util.concurrent.ConcurrentLinkedQueue$Itr: *java.util.concurrent.ConcurrentLinkedQueue* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap: *java.util.concurrent.ConcurrentSkipListMap$KeySet* [private] keySet
+java.util.concurrent.ConcurrentSkipListMap: *java.util.concurrent.ConcurrentSkipListMap$EntrySet* [private] entrySet
+java.util.concurrent.ConcurrentSkipListMap: *java.util.concurrent.ConcurrentSkipListMap$Values* [private] values
+java.util.concurrent.ConcurrentSkipListMap: *java.util.concurrent.ConcurrentNavigableMap* [private] descendingMap [Ljava/util/concurrent/ConcurrentNavigableMap<TK;TV;>;]
+java.util.concurrent.ConcurrentSkipListMap$EntryIterator: *java.util.concurrent.ConcurrentSkipListMap* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap$EntrySet: *java.util.concurrent.ConcurrentNavigableMap* [private] [final] m [Ljava/util/concurrent/ConcurrentNavigableMap<TK1;TV1;>;]
+java.util.concurrent.ConcurrentSkipListMap$Iter: *java.util.concurrent.ConcurrentSkipListMap* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap$KeyIterator: *java.util.concurrent.ConcurrentSkipListMap* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap$KeySet: *java.util.concurrent.ConcurrentNavigableMap* [private] [final] m [Ljava/util/concurrent/ConcurrentNavigableMap<TE;Ljava/lang/Object;>;]
+java.util.concurrent.ConcurrentSkipListMap$SubMap: *java.util.concurrent.ConcurrentSkipListMap* [private] [final] m [Ljava/util/concurrent/ConcurrentSkipListMap<TK;TV;>;]
+java.util.concurrent.ConcurrentSkipListMap$SubMap: *java.util.concurrent.ConcurrentSkipListMap$KeySet* [private] keySetView [Ljava/util/concurrent/ConcurrentSkipListMap$KeySet<TK;>;]
+java.util.concurrent.ConcurrentSkipListMap$SubMap: *java.util.Set* [private] entrySetView [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.concurrent.ConcurrentSkipListMap$SubMap: *java.util.Collection* [private] valuesView [Ljava/util/Collection<TV;>;]
+java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapEntryIterator: *java.util.concurrent.ConcurrentSkipListMap$SubMap* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapIter: *java.util.concurrent.ConcurrentSkipListMap$SubMap* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapKeyIterator: *java.util.concurrent.ConcurrentSkipListMap$SubMap* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap$SubMap$SubMapValueIterator: *java.util.concurrent.ConcurrentSkipListMap$SubMap* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap$ValueIterator: *java.util.concurrent.ConcurrentSkipListMap* [final] this$0
+java.util.concurrent.ConcurrentSkipListMap$Values: *java.util.concurrent.ConcurrentNavigableMap* [private] [final] m [Ljava/util/concurrent/ConcurrentNavigableMap<Ljava/lang/Object;TE;>;]
+java.util.concurrent.ConcurrentSkipListSet: *java.util.concurrent.ConcurrentNavigableMap* [private] [final] m [Ljava/util/concurrent/ConcurrentNavigableMap<TE;Ljava/lang/Object;>;]
+java.util.concurrent.CopyOnWriteArrayList$COWSubList: *java.util.concurrent.CopyOnWriteArrayList* [private] [final] l [Ljava/util/concurrent/CopyOnWriteArrayList<TE;>;]
+java.util.concurrent.CopyOnWriteArraySet: *java.util.concurrent.CopyOnWriteArrayList* [private] [final] al [Ljava/util/concurrent/CopyOnWriteArrayList<TE;>;]
+java.util.concurrent.DelayQueue: *java.util.PriorityQueue* [private] [final] q [Ljava/util/PriorityQueue<TE;>;]
+java.util.concurrent.DelayQueue$Itr: *java.util.concurrent.DelayQueue* [final] this$0
+java.util.concurrent.ExecutorCompletionService: *java.util.concurrent.BlockingQueue* [private] [final] completionQueue [Ljava/util/concurrent/BlockingQueue<Ljava/util/concurrent/Future<TV;>;>;]
+java.util.concurrent.LinkedBlockingDeque$AbstractItr: *java.util.concurrent.LinkedBlockingDeque* [final] this$0
+java.util.concurrent.LinkedBlockingDeque$DescendingItr: *java.util.concurrent.LinkedBlockingDeque* [final] this$0
+java.util.concurrent.LinkedBlockingDeque$Itr: *java.util.concurrent.LinkedBlockingDeque* [final] this$0
+java.util.concurrent.LinkedBlockingQueue$Itr: *java.util.concurrent.LinkedBlockingQueue* [final] this$0
+java.util.concurrent.PriorityBlockingQueue: *java.util.PriorityQueue* [private] [final] q [Ljava/util/PriorityQueue<TE;>;]
+java.util.concurrent.PriorityBlockingQueue$Itr: *java.util.concurrent.PriorityBlockingQueue* [final] this$0
+java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue$1: *java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue* [final] this$0
+java.util.EnumMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.EnumMap$EntryIterator: *java.util.EnumMap* [final] this$0
+java.util.EnumMap$EntrySet: *java.util.EnumMap* [final] this$0
+java.util.EnumMap$EnumMapIterator: *java.util.EnumMap* [final] this$0
+java.util.EnumMap$KeyIterator: *java.util.EnumMap* [final] this$0
+java.util.EnumMap$KeySet: *java.util.EnumMap* [final] this$0
+java.util.EnumMap$ValueIterator: *java.util.EnumMap* [final] this$0
+java.util.EnumMap$Values: *java.util.EnumMap* [final] this$0
+java.util.HashMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.HashMap$EntryIterator: *java.util.HashMap* [final] this$0
+java.util.HashMap$EntrySet: *java.util.HashMap* [final] this$0
+java.util.HashMap$HashIterator: *java.util.HashMap* [final] this$0
+java.util.HashMap$KeyIterator: *java.util.HashMap* [final] this$0
+java.util.HashMap$KeySet: *java.util.HashMap* [final] this$0
+java.util.HashMap$ValueIterator: *java.util.HashMap* [final] this$0
+java.util.HashMap$Values: *java.util.HashMap* [final] this$0
+java.util.HashSet: *java.util.HashMap* [private] map [Ljava/util/HashMap<TE;Ljava/lang/Object;>;]
+java.util.Hashtable: *java.util.Set* [private] keySet [Ljava/util/Set<TK;>;]
+java.util.Hashtable: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.Hashtable: *java.util.Collection* [private] values [Ljava/util/Collection<TV;>;]
+java.util.Hashtable$EntrySet: *java.util.Hashtable* [final] this$0
+java.util.Hashtable$Enumerator: *java.util.Hashtable* [final] this$0
+java.util.Hashtable$KeySet: *java.util.Hashtable* [final] this$0
+java.util.Hashtable$ValueCollection: *java.util.Hashtable* [final] this$0
+java.util.IdentityHashMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.IdentityHashMap$EntryIterator: *java.util.IdentityHashMap* [final] this$0
+java.util.IdentityHashMap$EntrySet: *java.util.IdentityHashMap* [final] this$0
+java.util.IdentityHashMap$IdentityHashMapIterator: *java.util.IdentityHashMap* [final] this$0
+java.util.IdentityHashMap$KeyIterator: *java.util.IdentityHashMap* [final] this$0
+java.util.IdentityHashMap$KeySet: *java.util.IdentityHashMap* [final] this$0
+java.util.IdentityHashMap$ValueIterator: *java.util.IdentityHashMap* [final] this$0
+java.util.IdentityHashMap$Values: *java.util.IdentityHashMap* [final] this$0
+java.util.jar.Attributes: *java.util.Map* [protected] map [Ljava/util/Map<Ljava/lang/Object;Ljava/lang/Object;>;]
+java.util.jar.JarEntry: *java.util.jar.Attributes* attr
+java.util.jar.JarVerifier: *java.util.Hashtable* [private] verifiedSigners
+java.util.jar.JarVerifier: *java.util.Hashtable* [private] sigFileSigners
+java.util.jar.JarVerifier: *java.util.Hashtable* [private] sigFileData
+java.util.jar.JarVerifier: *java.util.ArrayList* [private] pendingBlocks
+java.util.jar.JarVerifier: *java.util.ArrayList* [private] signerCache
+java.util.jar.Manifest: *java.util.jar.Attributes* [private] attr
+java.util.jar.Manifest: *java.util.Map* [private] entries
+java.util.JumboEnumSet$EnumSetIterator: *java.util.JumboEnumSet* [final] this$0
+java.util.LinkedHashMap$EntryIterator: *java.util.LinkedHashMap* [final] this$0
+java.util.LinkedHashMap$KeyIterator: *java.util.LinkedHashMap* [final] this$0
+java.util.LinkedHashMap$LinkedHashIterator: *java.util.LinkedHashMap* [final] this$0
+java.util.LinkedHashMap$ValueIterator: *java.util.LinkedHashMap* [final] this$0
+java.util.LinkedList$DescendingIterator: *java.util.LinkedList* [final] this$0
+java.util.LinkedList$ListItr: *java.util.LinkedList* [final] this$0
+java.util.ListResourceBundle: *java.util.Map* [private] lookup
+java.util.logging.Logger: *java.util.ArrayList* [private] handlers
+java.util.logging.Logger: *java.util.ArrayList* [private] kids
+java.util.logging.LogManager: *java.util.Properties* [private] props
+java.util.Observable: *java.util.Vector* [private] obs
+java.util.prefs.AbstractPreferences: *java.util.Map* [private] kidCache
+java.util.prefs.FileSystemPreferences: *java.util.Map* [private] prefsCache
+java.util.prefs.FileSystemPreferences: *java.util.List* [final] changeLog
+java.util.PriorityQueue$Itr: *java.util.ArrayList* [private] forgetMeNot [Ljava/util/ArrayList<TE;>;]
+java.util.PriorityQueue$Itr: *java.util.PriorityQueue* [final] this$0
+java.util.Properties: [protected] defaults
+java.util.Properties$LineReader: *java.util.Properties* [final] this$0
+java.util.PropertyPermissionCollection: *java.util.Map* [private] perms
+java.util.PropertyResourceBundle: *java.util.Map* [private] lookup
+java.util.RegularEnumSet$EnumSetIterator: *java.util.RegularEnumSet* [final] this$0
+java.util.ServiceLoader: *java.util.LinkedHashMap* [private] providers [Ljava/util/LinkedHashMap<Ljava/lang/String;TS;>;]
+java.util.SubList: *java.util.AbstractList* [private] l [Ljava/util/AbstractList<TE;>;]
+java.util.SubList$1: *java.util.SubList* [final] this$0
+java.util.TreeMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.TreeMap$1: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$2: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$3: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$AscendingSubMap$AscendingEntrySetView: *java.util.TreeMap$AscendingSubMap* [final] this$0
+java.util.TreeMap$DescendingKeyIterator: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$DescendingSubMap$DescendingEntrySetView: *java.util.TreeMap$DescendingSubMap* [final] this$0
+java.util.TreeMap$EntryIterator: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$EntrySet: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$KeyIterator: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$KeySet: *java.util.NavigableMap* [private] [final] m [Ljava/util/NavigableMap<TE;Ljava/lang/Object;>;]
+java.util.TreeMap$NavigableSubMap: *java.util.TreeMap* [final] m [Ljava/util/TreeMap<TK;TV;>;]
+java.util.TreeMap$NavigableSubMap: *java.util.NavigableMap* descendingMapView [Ljava/util/NavigableMap<TK;TV;>;]
+java.util.TreeMap$NavigableSubMap: *java.util.TreeMap$NavigableSubMap$EntrySetView* entrySetView [Ljava/util/TreeMap$NavigableSubMap<TK;TV;>.EntrySetView;]
+java.util.TreeMap$NavigableSubMap: *java.util.TreeMap$KeySet* navigableKeySetView [Ljava/util/TreeMap$KeySet<TK;>;]
+java.util.TreeMap$NavigableSubMap$DescendingSubMapEntryIterator: *java.util.TreeMap$NavigableSubMap* [final] this$0
+java.util.TreeMap$NavigableSubMap$DescendingSubMapKeyIterator: *java.util.TreeMap$NavigableSubMap* [final] this$0
+java.util.TreeMap$NavigableSubMap$EntrySetView: *java.util.TreeMap$NavigableSubMap* [final] this$0
+java.util.TreeMap$NavigableSubMap$SubMapEntryIterator: *java.util.TreeMap$NavigableSubMap* [final] this$0
+java.util.TreeMap$NavigableSubMap$SubMapIterator: *java.util.TreeMap$NavigableSubMap* [final] this$0
+java.util.TreeMap$NavigableSubMap$SubMapKeyIterator: *java.util.TreeMap$NavigableSubMap* [final] this$0
+java.util.TreeMap$PrivateEntryIterator: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$SubMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.TreeMap$SubMap: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$SubMap$EntrySetView: *java.util.TreeMap$SubMap* [final] this$1
+java.util.TreeMap$SubMapEntryIterator: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$ValueIterator: *java.util.TreeMap* [final] this$0
+java.util.TreeMap$Values: *java.util.TreeMap* [final] this$0
+java.util.TreeSet: *java.util.SortedMap* [private] m [Ljava/util/SortedMap<TE;Ljava/lang/Object;>;]
+java.util.TreeSet: *java.util.Set* [private] keySet [Ljava/util/Set<TE;>;]
+java.util.Vector$1: *java.util.Vector* [final] this$0
+java.util.WeakHashMap: *java.util.Set* [private] entrySet [Ljava/util/Set<Ljava/util/Map$Entry<TK;TV;>;>;]
+java.util.WeakHashMap$EntryIterator: *java.util.WeakHashMap* [final] this$0
+java.util.WeakHashMap$EntrySet: *java.util.WeakHashMap* [final] this$0
+java.util.WeakHashMap$HashIterator: *java.util.WeakHashMap* [final] this$0
+java.util.WeakHashMap$KeyIterator: *java.util.WeakHashMap* [final] this$0
+java.util.WeakHashMap$KeySet: *java.util.WeakHashMap* [final] this$0
+java.util.WeakHashMap$ValueIterator: *java.util.WeakHashMap* [final] this$0
+java.util.WeakHashMap$Values: *java.util.WeakHashMap* [final] this$0
+java.util.zip.ZipFile: *java.util.Vector* [private] inflaters
+java.util.zip.ZipOutputStream: *java.util.Vector* [private] entries
+java.util.zip.ZipOutputStream: *java.util.Hashtable* [private] names
+
+ARRAYS REPORT
+=============
+
+java.util.ArrayDeque: *java.lang.Object[]* [private] elements [[TE;] [arraycopy]
+java.util.ArrayList: *java.lang.Object[]* [private] elementData [[TE;] [arraycopy]
+java.util.Arrays$ArrayList: *java.lang.Object[]* [private] a
+java.util.Collections$CheckedCollection: *java.lang.Object[]* [private] zeroLengthElementArray [[TE;] [no-stores]
+java.util.Collections$CheckedMap: *java.lang.Object[]* [private] zeroLengthKeyArray [[TK;] [no-stores] [hashcode]
+java.util.Collections$CheckedMap: *java.lang.Object[]* [private] zeroLengthValueArray [[TV;] [no-stores] [hashcode]
+java.util.concurrent.ArrayBlockingQueue: *java.lang.Object[]* [private] [final] items [[TE;]
+java.util.concurrent.atomic.AtomicReferenceArray: *java.lang.Object[]* [private] [final] array
+java.util.concurrent.ConcurrentHashMap: *java.util.concurrent.ConcurrentHashMap$Segment[]* [final] segments [hashcode]
+java.util.concurrent.ConcurrentHashMap$HashIterator: *java.util.concurrent.ConcurrentHashMap$HashEntry[]* currentTable [no-stores]
+java.util.concurrent.ConcurrentHashMap$Segment: *java.util.concurrent.ConcurrentHashMap$HashEntry[]* table
+java.util.concurrent.CopyOnWriteArrayList: *java.lang.Object[]* [private] array [[TE;] [arraycopy] [hashcode]
+java.util.concurrent.CopyOnWriteArrayList$COWIterator: *java.lang.Object[]* [private] [final] array [[TE;] [no-stores]
+java.util.concurrent.CopyOnWriteArrayList$COWSubList: *java.lang.Object[]* [private] expectedArray [[TE;] [no-stores]
+java.util.concurrent.Exchanger: *java.util.concurrent.Exchanger$Slot[]* [private] arena
+java.util.EnumMap: *java.lang.Enum[]* [private] keyUniverse [[TK;]
+java.util.EnumMap: *java.lang.Object[]* [private] vals
+java.util.EnumSet: *java.lang.Enum[]* [final] universe [no-stores]
+java.util.EnumSet$SerializationProxy: *java.lang.Enum[]* [private] [final] elements [no-stores]
+java.util.HashMap: *java.util.HashMap$Entry[]* table [hashcode]
+java.util.Hashtable: *java.util.Hashtable$Entry[]* [private] table [mod] [hashcode]
+java.util.Hashtable$Enumerator: *java.util.Hashtable$Entry[]* table [mod]
+java.util.IdentityHashMap: *java.lang.Object[]* [private] table
+java.util.IdentityHashMap$IdentityHashMapIterator: *java.lang.Object[]* traversalTable [arraycopy]
+java.util.jar.JarEntry: *java.security.cert.Certificate[]* certs [no-stores]
+java.util.jar.JarEntry: *java.security.CodeSigner[]* signers [no-stores]
+java.util.logging.FileHandler: *java.io.File[]* [private] files
+java.util.logging.LogRecord: *java.lang.Object[]* [private] parameters
+java.util.logging.MemoryHandler: *java.util.logging.LogRecord[]* [private] buffer [mod]
+java.util.logging.SimpleFormatter: *java.lang.Object[]* [private] args
+java.util.prefs.AbstractPreferences: *java.util.prefs.PreferenceChangeListener[]* [private] prefListeners [arraycopy]
+java.util.prefs.AbstractPreferences: *java.util.prefs.NodeChangeListener[]* [private] nodeListeners [arraycopy]
+java.util.PriorityQueue: *java.lang.Object[]* [private] queue [arraycopy]
+java.util.regex.Pattern: *java.util.regex.Pattern$GroupHead[]* groupNodes [arraycopy]
+java.util.TaskQueue: *java.util.TimerTask[]* [private] queue [arraycopy]
+java.util.Vector: *java.lang.Object[]* [protected] elementData [arraycopy] [hashcode]
+java.util.WeakHashMap: *java.util.WeakHashMap$Entry[]* [private] table
+
+N-CYCLES
+========
+[java/util/ResourceBundle$LoaderReference, java/util/ResourceBundle$ResourceCacheKey]
+[java/util/logging/LogManager$LogNode, java/util/logging/LogManager, java/util/logging/Logger]
+[java/util/concurrent/locks/AbstractQueuedSynchronizer, java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject]
+[java/util/TreeMap$NavigableSubMap$EntrySetView, java/util/TreeMap$NavigableSubMap]
+[java/util/concurrent/FutureTask$Sync, java/util/concurrent/FutureTask]
+[java/util/concurrent/locks/ReentrantReadWriteLock$WriteLock, java/util/concurrent/locks/ReentrantReadWriteLock]
+[java/util/concurrent/ConcurrentSkipListMap$Values, java/util/concurrent/ConcurrentSkipListMap$EntrySet, java/util/concurrent/ConcurrentSkipListMap]
+[java/util/concurrent/ConcurrentLinkedQueue, java/util/concurrent/ConcurrentLinkedQueue$Itr]
+[java/util/logging/FileHandler, java/util/logging/FileHandler$MeteredStream]
+[java/util/TimerThread, java/util/Timer]
+[java/util/concurrent/locks/AbstractQueuedLongSynchronizer, java/util/concurrent/locks/AbstractQueuedLongSynchronizer$ConditionObject]
+[java/util/ServiceLoader, java/util/ServiceLoader$LazyIterator]
+[java/util/prefs/FileSystemPreferences$NodeCreate, java/util/prefs/FileSystemPreferences]

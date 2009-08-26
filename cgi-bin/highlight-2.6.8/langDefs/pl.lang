@@ -1,0 +1,44 @@
+# Perl language definition file
+#
+# Author: Andre Simon
+#   Mail: andre.simon1@gmx.de
+#   Date: 28.01.2003
+# Update: 11.09.2007 (regex kwb)
+# ------------------------------------------
+# This file is a part of highlight, a free source code converter released under the GPL.
+#
+# The file is used to describe keywords and special symbols of programming languages.
+# See README in the highlight directory for details.
+#
+# New definition files for future releases of highlight are always appreciated ;)
+#
+# ----------
+# andre.simon1@gmx.de
+# http:/www.andre-simon.de/
+
+$DESCRIPTION=Perl
+
+$KW_LIST(kwa)=and cmp continue else elsif eq for foreach ge goto gt if last
+le lt do ne next not or package return sub switch unless until use while xor
+
+# TODO string functions, array functions etc
+$KW_LIST(kwc)=my local
+
+$STRINGDELIMITERS=" ' END
+
+$SL_COMMENT=#
+
+$IGNORECASE=false
+
+$ESCCHAR=regex(\\\d{3}|\\x\p{XDigit}{2}|\\[ntvbrfa\\\?'"])
+
+$ALLOWEXTESCAPE=true
+
+$KW_RE(kwb)=regex([$@%]\#?\w+)
+
+#$KW_RE(kwc)=regex((\$\{(\w+)\}))
+
+$KW_RE(kwd)=regex((->)?([a-zA-Z_]+)\s*[\(;])
+
+$SYMBOLS= ( ) [ ] { } , ; : & | < > !  = / * + - $ . ^ ~ %
+

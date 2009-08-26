@@ -1,0 +1,121 @@
+# Traduction par Alexandre Bonneau - acid at cpm-fr dot com - le 21/08/04 à 06:32
+# Traduction par Mohammad Ghoniem - mghoniem44 at hotmail dot com - le 09/08/05 à 21:07
+# Updated by André Simon, 16/03/04
+
+# M: Entrées du menu / Menu Entry
+# L: Labels / Label text
+# T: Bulles d'aide / Tool tips
+# E: Erreurs / Errors
+
+M001=&Ouvrir
+M002=&Quitter
+
+M003=&Aide
+M004=&Licence
+M005=&Changelog
+M006=&A propos de Highlight...
+M007=&Fichier
+M008=&Langue
+M009=&Trucs et astuces
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+
+L001=Choisir les fichiers
+L004=Format de sortie
+L005=Inclure un fichier CSS en plus
+L006=Attacher des ancres aux lignes
+L011=Fichier à inclure dans
+L009=Fichier CSS de référence:
+L010=Thèmes de couleurs:
+L013=Inclure les numéros de lignes
+L014=Omettre les entêtes et les pieds de page
+L008=Générer un fichier index
+L015=Convertir les fichiers
+L022=Choisir un fichier
+L002=Répertoire de destination
+L007=Reformater:
+L025=Erreur
+L026=Veuillez relancer Highlight...
+L027=Retour à la ligne des longues lignes
+L028=Retour à la ligne intelligent
+L029=Remplacer des guillemets
+L030=Largeur de Tabulation:
+L031=Remplir avec des zéros
+L032=Ecrire dans les répertoires source
+L033=Supprimer la sélection
+L034=Récapitulatif des erreurs
+L035=style
+L036=Encodage:
+L037=Liste HTML ordonnée
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Info
+L023=Fini: %d fichiers en %ld ms.
+L003=Vider la liste des fichiers
+L016=<Pas de fichiers sélectionnés>
+L020=Veuillez spécifier un répertoire de destination valide.
+L021=Veuillez spécifier le fichier CSS voulu.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Seuls les fichiers C, C++, C# et Java peuvent être reformatés.
+E001=Erreur dans l'exécution de Notepad.exe
+E002=La définition de langage %s.lang est introuvable !
+E003=Impossible d'ouvrir:
+E004=Impossible d'écrire:
+E005=Thèmes illisible. Mauvaise installation ?
+E006=Une erreur s'est produite lors de l'écriture du fichier de préférences !
+E007=Le fichier index n'a pas pu être créé.
+E008=Ne peux pas lire le fichier d'extensions. Mauvaise installation.
+E009=Impossible de lire les schémas d'indentation. Vérifier l'installation.
+E010=Impossible de reformater:
+
+
+T001=Ajouter les fichiers source que vous voulez convertir.\nLe 'glisser-déposer' est possible.
+T002=Choisir un répertoire de destination.
+T003=Choisir un fichier CSS à inclure dans la définition du CSS.
+T004=Effacer la liste d'entrées.
+T005=Nom du fichier CSS de sortie.
+T006=Chemin vers le fichier CSS d'entrée.
+T007=Chemin vers le répertoire de destination.
+T008=Inclure les définitions CSS dans le fichier de destination.
+T009=Omettre les entêtes et les pieds de page des fichiers à créer.
+T010=Attacher les numéros de lignes.
+T011=Attacher les ancres HTML aux numéros de lignes.
+T012=Reformater et indenter les fichiers source C, C++, C# et Java.
+T013=Choisir un des formats de sortie.
+T014=Démarrer la conversion des fichiers pris en entrée.
+T015=Générer un fichier index avec des hyperliens vers les fichiers créés.
+T016=Choisir un style de formatage et d'indentation.
+T017=Choisir un thème de couleurs que vous appréciez.
+T018=Retour à la ligne à partir de la 80ème colonne\n(75ème si les numéros de lignes sont activés).
+T019=Retour à la ligne, et indente les déclaration et paramètres de fonction.
+T020=Echapper les guillemets avec \dq. Utile lorsque que vous utilisez le package allemand dans LaTeX.
+T021=Remplace les tabulations par <num> espace(s).
+T022=Remplit les espaces de début de ligne avec des zéros.
+T023=Sauvegarder la sortie dans les mêmes répertoires que les fichiers d'entrée.
+T024=Supprimer les entrées sélectionnées de la liste des fichiers d'entrée.
+T025=Utiliser en sortie un encodage identique à celui des fichiers d'entrée.
+T026=Sortir les lignes du code source sous la forme d'une liste ordonnée d'éléments.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Prêt.
+L017=Travail en cours....

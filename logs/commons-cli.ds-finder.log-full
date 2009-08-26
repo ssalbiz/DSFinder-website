@@ -1,0 +1,44 @@
+DSFinder has run for 0 min. 2 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+java.lang.Object Fields:
+org.apache.commons.cli.Option: *java.lang.Object* [private] type
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.apache.commons.cli.CommandLine: *java.util.List* [private] args
+org.apache.commons.cli.CommandLine: *java.util.List* [private] options
+org.apache.commons.cli.MissingOptionException: *java.util.List* [private] missingOptions
+org.apache.commons.cli.Option: *java.util.List* [private] values
+org.apache.commons.cli.OptionGroup: *java.util.Map* [private] optionMap
+org.apache.commons.cli.Options: *java.util.Map* [private] shortOpts
+org.apache.commons.cli.Options: *java.util.Map* [private] longOpts
+org.apache.commons.cli.Options: *java.util.List* [private] requiredOpts
+org.apache.commons.cli.Options: *java.util.Map* [private] optionGroups
+org.apache.commons.cli.Parser: *java.util.List* [private] requiredOptions
+org.apache.commons.cli.PosixParser: *java.util.List* [private] tokens
+
+ARRAYS REPORT
+=============
+
+
+N-CYCLES
+========

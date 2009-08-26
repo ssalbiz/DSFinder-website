@@ -1,0 +1,119 @@
+# Contributed by Ramirez Luelmo Sergio Ivan <hey_sergio@lycos.com>
+# M: Entradas del menú
+# L: Etiquetas de texto
+# T: Tooltips
+# E: Errores
+
+M001=&Abrir
+M002=&Salir
+
+M003=A&yuda
+M004=&Licencia
+M005=L&ista de cambios
+M006=&Acerca de Highlight...
+M007=A&rchivo
+M008=&Idioma
+M009=&Tips
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Seleccionar archivos
+L004=Formato de salida
+L005=Incluir CSS en la salida
+L006=Añadir anchors en las lineas
+L011=Archivo a incluir en
+L009=Archivo CSS de referencia:
+L010=Combinación de colores:
+L013=Incluir números de línea
+L014=Omitir cabecera y pie de página
+L008=Generar archivo índice
+L015=Convertir archivos
+L022=Seleccione el archivo
+
+# Hack: line will be splitted
+L002=Seleccione el directorio donde%sguardar el archivo de salida.
+L007=Reformatear:
+L025=Error
+L026=Reinicie Highlight...
+L027=Truncar lineas largas
+L028=Intelligent wrap
+L029=Escape quotes
+L030=Tab width:
+L031=Fill with zeroes
+L032=Write to source directories
+L033=Remove selection
+L034=Error summary
+L035=style
+L036=Encoding:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Información
+L023=Terminado:  %d archivo(s) en %ld milisegundos.
+L003=Borrar lista
+L016=<No hay ningún archivo seleccionado>
+L020=Seleccione un directorio de salida válido.
+L021=Seleccione un archivo CSS de salida.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Solo los archivos C, C++, C# y Java pueden ser reformateados.
+E001=Error al ejecutar Notepad.exe
+E002=El analizador de código %s.lang no se encuentra! No se puede colorear el archivo fuente.
+E003=No se puede abrir:
+E004=No se puede escribir:
+E005=No se pueden leer las combinaciones de color. Probable mala instalación.
+E006=Erro al escribir al archivo de preferencias!
+E007=No se puede crear archivo índice.
+E008=Could not read file extensions. Check installation.
+E009=Could not read indentation schemes. Check installation.
+E010=Could not reformat:
+
+
+T001=Añada los archivos fuentes que desee convertir.\nTambien puede hacer arrastrar y soltar.
+T002=Seleccione un directorio de salida.
+T003=Seleccione un archivo de entrada CSS para incluirlo en la definición CSS.
+T004=Borra la lista de archivos de entrada.
+T005=Nombre del archivo CSS de salida.
+T006=Ruta de acceso del archivo CSS de entrada.
+T007=Ruta de acceso del directorio de salida.
+T008=Incluye definición CSS en los archivos de salida.
+T009=Omitir cabecera y pie de página de los archivos de salida.
+T010=Añade números de línea.
+T011=Añade anchors HTML a los números de línea.
+T012=Reformatea e indenta los archivos fuente C, C++, C# y Java.
+T013=Seleccione uno de los formatos de salida.
+T014=Comienza la conversión de los archivos fuente.
+T015=Genera archivo índice con hyper vínculos a los archivos de salida
+T016=Selecciona un estilo de formateo y de indentación.
+T017=Selecciona una combinación de colores que le agrade.
+T018=Trunca líneas de mas de 80 carácteres (75 si se activaron los números de línea).
+T019=Wrap lines and indent statements and function parameters.
+T020=Escape quotes with \dq.\nUtil cuando se usa el paquete Alemán con LaTeX.
+T021=Replace tabs by chosen number of spaces (do not replace if value equals zero).
+T022=Fill leading space of line numbers with zeroes.
+T023=Save output in the directories of the input files.
+T024=Remove selected entries from input file list.
+T025=Use an output encoding, which matches the input file encoding.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Listo.
+L017=Procesando archivos ...

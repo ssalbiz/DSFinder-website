@@ -1,0 +1,116 @@
+# Translation: Tauno Talimaa <tauntz@ut.ee>
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+M001=&Ava
+M002=&Välju
+
+M003=&Abi
+M004=&Litsents
+M005=&Muutuste nimekiri
+M006=&Teave Highlight kohta...
+M007=&Fail
+M008=&Keel
+M009=&Nõuanded
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Vali Failid
+L004=Väljundi formaat
+L005=Lisa väljundile stiil
+L006=HTML hüperlink
+L011=Fail, mis kaasata faili
+L009=Kasutatud stiili fail:
+L010=Värvi teema:
+L013=Lisa reanumbrid
+L014=Eemalda päis ja jalus
+L008=Genereeri indeks fail
+L015=Vorminda failid
+L022=Vali fail
+L002=Väljundfaili kataloog
+L007=Vorminda:
+L025=Viga
+L026=Palun taaskäivitage Highlight...
+L027=Reamurdmine
+L028=Tark reamurdmine
+L029=LaTeX Escape quotes
+L030=Tabulaatori laius:
+L031=Alusta numbrit nullidega
+L032=Kirjuta lähtefailide kataloogidesse
+L033=Eemalda valitud
+L034=Vea kokkuvõte
+L035=stiil
+L036=Kodeeritus:
+L037=HTML järjestatud nimekiri
+L038=LaTeX Babel ühilduvus
+L039=RTF lehekülje suurus:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Info
+L023=Tehtud: %d faili ajaga %ld ms.
+L003=Tühjenda failide nimekiri
+L016=<Ühtegi faili pole valitud>
+L020=Palun valige korrektne väljundkataloog.
+L021=Palun valige stiili väljundfail.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Vormindada saab ainult C, C++, C# ja Java faile.
+E001=Viga Notepad.exe käivitamisel
+E002=Ei leitud keeledefinitsioonifaili %s.lang !
+E003=Ei saanud lugeda:
+E004=Ei saanud kirjutada:
+E005=Ei saanud lugeda värviteemasid. Kontrolli installatsiooni.
+E006=Viga eelistustefaili kirjutamisel!
+E007=Ei saanud luua indeksfaili.
+E008=Ei saanud lugeda faililaiendeid. Kontrolli installatsiooni.
+E009=Ei saanud lugeda formaadi skeeme. Kontrolli installatsiooni.
+E010=Ei saanud vormindada:
+
+T001=Lisa lähtefailid, mida soovid vormindada.\nSamuti on võimalik faile siia hiirega lohistada.
+T002=Vali väljundfailide salvestamiseks kataloog.
+T003=Vali stiili jaoks sisendfail, mis kaasatakse lõpptulemuse stiili definitsiooni.
+T004=Tühjenda failide nimekiri.
+T005=Väljund stiilifaili nimi.
+T006=Stiili sisendfaili kataloog.
+T007=Väljundkataloogi tee.
+T008=Lisa väljundfailidele formaadi info.
+T009=Eemalda väljundfailides päis ja jalus.
+T010=Lisa reanumbrid.
+T011=Lisa HTML hüperlingid reanumbritele.
+T012=Vorminda C, C++, C# ja Java lähtekood uuesti valitud stiilis.
+T013=Vali üks väljundformaatidest
+T014=Alusta sisendfailide konverteerimist.
+T015=Tee indeksfail, kus on lingid väljundfailidele.
+T016=Vali vormindamise formaat.
+T017=Vali värvistiil väljundfailide jaoks.
+T018=Murra read, mis on pikemad kui 80 (75 kui on valitud reanumbrite kuvamine) märki.
+T019=Murra read ja paiguta funktsiooni parameetrid ja käsud õigesti.
+T020=Escape quotes with \\dq. Useful when using the German package in LaTeX.
+T021=Asenda Tab\'id vastava numbri tühikutega (ei asendata kui number on null).
+T022=Täida reanumbrite esikohad nullidega.
+T023=Salvesta väljundfailid samasse kataloogi, kus asuvad sisendfailid
+T024=Eemalda valitud failid sisendfailide nimekirjast.
+T025=Kasuta väljundfailis valitud encoding\'ut.
+T026=Väljasta lähtekoodi reanumbrid sorteeritud järjekorra elementidena.
+T027=Disable Babel shorthands in LaTeX output
+T028=RTF Lehekülje suurus
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Valmis.
+L017=Vormindan faile....

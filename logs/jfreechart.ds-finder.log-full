@@ -1,0 +1,268 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.jfree.chart.editor.DefaultAxisEditor: *javax.swing.JPanel* [private] slot1
+org.jfree.chart.editor.DefaultAxisEditor: *javax.swing.JPanel* [private] slot2
+org.jfree.ui.KeyedComboBoxModel: *java.lang.Object* [private] selectedItemValue
+org.jfree.ui.KeyedComboBoxModel$ComboBoxItemPair: *java.lang.Object* [private] key
+org.jfree.ui.KeyedComboBoxModel$ComboBoxItemPair: *java.lang.Object* [private] value
+org.jfree.ui.Spinner: *javax.swing.JPanel* [private] buttonPanel
+org.jfree.ui.tabbedui.AbstractTabbedUI: *javax.swing.JComponent* [private] currentToolbar
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+org.jfree.chart.plot.Plot: [private] parent
+org.jfree.data.xml.ItemHandler: *org.xml.sax.helpers.DefaultHandler* [private] parent
+org.jfree.ui.action.DowngradeActionMap: [private] parent
+org.jfree.util.StackableException: *java.lang.Exception* [private] parent
+org.jfree.util.StackableRuntimeException: *java.lang.Exception* [private] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.jfree.chart.axis.SegmentedTimeline: [private] baseTimeline
+Non-Object Fields:
+org.jfree.chart.axis.MonthDateFormat: *java.text.DateFormat* [private] yearFormatter
+org.jfree.chart.util.LogFormat: *java.text.NumberFormat* [private] formatter
+org.jfree.date.RelativeDayOfWeekRule: *org.jfree.date.AnnualDateRule* [private] subrule
+java.lang.Object Fields:
+org.jfree.base.log.PadMessage: *java.lang.Object* [private] [final] text
+org.jfree.chart.ChartPanel: *java.lang.Object* [private] mouseWheelHandler
+org.jfree.chart.entity.CategoryItemEntity: *java.lang.Object* [private] category
+org.jfree.chart.event.RendererChangeEvent: *java.lang.Object* [private] renderer
+org.jfree.data.ComparableObjectItem: *java.lang.Object* [private] obj
+org.jfree.data.KeyedObject: *java.lang.Object* [private] object
+org.jfree.ui.tabbedui.DetailEditor: *java.lang.Object* [private] object
+org.jfree.ui.WizardDialog: *java.lang.Object* [private] result
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.jfree.base.BasicProjectInfo: *java.util.List* [private] libraries
+org.jfree.base.BasicProjectInfo: *java.util.List* [private] optionalLibraries
+org.jfree.base.config.HierarchicalConfiguration: *java.util.Properties* [private] configuration
+org.jfree.base.modules.PackageManager: *java.util.ArrayList* [private] [final] modules
+org.jfree.base.modules.PackageManager: *java.util.ArrayList* [private] [final] initSections
+org.jfree.base.modules.PackageSorter$SortModule: *java.util.ArrayList* [private] dependSubsystems
+org.jfree.chart.axis.AxisCollection: *java.util.List* [private] axesAtTop
+org.jfree.chart.axis.AxisCollection: *java.util.List* [private] axesAtBottom
+org.jfree.chart.axis.AxisCollection: *java.util.List* [private] axesAtLeft
+org.jfree.chart.axis.AxisCollection: *java.util.List* [private] axesAtRight
+org.jfree.chart.axis.AxisState: *java.util.List* [private] ticks
+org.jfree.chart.axis.CategoryAxis: *java.util.Map* [private] tickLabelFontMap
+org.jfree.chart.axis.CategoryAxis: *java.util.Map* [private] tickLabelPaintMap
+org.jfree.chart.axis.CategoryAxis: *java.util.Map* [private] categoryLabelToolTips
+org.jfree.chart.axis.ExtendedCategoryAxis: *java.util.Map* [private] sublabels
+org.jfree.chart.axis.MarkerAxisBand: *java.util.List* [private] markers
+org.jfree.chart.axis.SegmentedTimeline: *java.util.List* [private] exceptionSegments
+org.jfree.chart.axis.SubCategoryAxis: *java.util.List* [private] subCategories
+org.jfree.chart.axis.SymbolAxis: *java.util.List* [private] symbols
+org.jfree.chart.axis.TickUnits: *java.util.List* [private] tickUnits
+org.jfree.chart.block.BlockContainer: *java.util.List* [private] blocks
+org.jfree.chart.ChartPanel: *java.util.List* [private] overlays
+org.jfree.chart.entity.StandardEntityCollection: *java.util.List* [private] entities
+org.jfree.chart.JFreeChart: *java.awt.RenderingHints* [private] renderingHints
+org.jfree.chart.JFreeChart: *java.util.List* [private] subtitles
+org.jfree.chart.labels.CustomXYToolTipGenerator: *java.util.List* [private] toolTipSeries
+org.jfree.chart.labels.MultipleXYSeriesLabelGenerator: *java.util.Map* [private] seriesLabelLists
+org.jfree.chart.LegendItemCollection: *java.util.List* [private] items
+org.jfree.chart.PaintMap: *java.util.Map* [private] store
+org.jfree.chart.panel.CrosshairOverlay: *java.util.List* [private] xCrosshairs
+org.jfree.chart.panel.CrosshairOverlay: *java.util.List* [private] yCrosshairs
+org.jfree.chart.plot.AbstractPieLabelDistributor: *java.util.List* [protected] labels
+org.jfree.chart.plot.CategoryPlot: *java.util.TreeMap* [private] datasetToDomainAxesMap
+org.jfree.chart.plot.CategoryPlot: *java.util.TreeMap* [private] datasetToRangeAxesMap
+org.jfree.chart.plot.CategoryPlot: *java.util.Map* [private] foregroundDomainMarkers
+org.jfree.chart.plot.CategoryPlot: *java.util.Map* [private] backgroundDomainMarkers
+org.jfree.chart.plot.CategoryPlot: *java.util.Map* [private] foregroundRangeMarkers
+org.jfree.chart.plot.CategoryPlot: *java.util.Map* [private] backgroundRangeMarkers
+org.jfree.chart.plot.CategoryPlot: *java.util.List* [private] annotations
+org.jfree.chart.plot.CombinedDomainCategoryPlot: *java.util.List* [private] subplots
+org.jfree.chart.plot.CombinedDomainXYPlot: *java.util.List* [private] subplots
+org.jfree.chart.plot.CombinedRangeCategoryPlot: *java.util.List* [private] subplots
+org.jfree.chart.plot.CombinedRangeXYPlot: *java.util.List* [private] subplots
+org.jfree.chart.plot.ContourPlot: *java.util.List* [private] domainMarkers
+org.jfree.chart.plot.ContourPlot: *java.util.List* [private] rangeMarkers
+org.jfree.chart.plot.ContourPlot: *java.util.List* [private] annotations
+org.jfree.chart.plot.dial.DialPlot: *java.util.List* [private] layers
+org.jfree.chart.plot.dial.DialPlot: *java.util.List* [private] pointers
+org.jfree.chart.plot.MeterPlot: *java.util.List* [private] intervals
+org.jfree.chart.plot.MultiplePiePlot: *java.util.Map* [private] sectionPaints
+org.jfree.chart.plot.PiePlot: *java.util.Map* [private] explodePercentages
+org.jfree.chart.plot.PlotRenderingInfo: *java.util.List* [private] subplotInfo
+org.jfree.chart.plot.PlotState: *java.util.Map* [private] sharedAxisStates
+org.jfree.chart.plot.PolarPlot: *java.util.List* [private] angleTicks
+org.jfree.chart.plot.PolarPlot: *java.util.List* [private] cornerTextItems
+org.jfree.chart.plot.XYPlot: *java.util.Map* [private] datasetToDomainAxesMap
+org.jfree.chart.plot.XYPlot: *java.util.Map* [private] datasetToRangeAxesMap
+org.jfree.chart.plot.XYPlot: *java.util.Map* [private] foregroundDomainMarkers
+org.jfree.chart.plot.XYPlot: *java.util.Map* [private] backgroundDomainMarkers
+org.jfree.chart.plot.XYPlot: *java.util.Map* [private] foregroundRangeMarkers
+org.jfree.chart.plot.XYPlot: *java.util.Map* [private] backgroundRangeMarkers
+org.jfree.chart.plot.XYPlot: *java.util.List* [private] annotations
+org.jfree.chart.renderer.LookupPaintScale: *java.util.List* [private] lookupTable
+org.jfree.chart.renderer.OutlierList: *java.util.List* [private] outliers
+org.jfree.chart.renderer.OutlierListCollection: *java.util.List* [private] outlierLists
+org.jfree.chart.renderer.WaferMapRenderer: *java.util.Map* [private] paintIndex
+org.jfree.chart.renderer.xy.AbstractXYItemRenderer: *java.util.List* [private] backgroundAnnotations
+org.jfree.chart.renderer.xy.AbstractXYItemRenderer: *java.util.List* [private] foregroundAnnotations
+org.jfree.chart.renderer.xy.DeviationRenderer$State: *java.util.List* [public] upperCoordinates
+org.jfree.chart.renderer.xy.DeviationRenderer$State: *java.util.List* [public] lowerCoordinates
+org.jfree.chart.renderer.xy.StackedXYAreaRenderer$StackedXYAreaRendererState: *java.util.Stack* [private] lastSeriesPoints
+org.jfree.chart.renderer.xy.StackedXYAreaRenderer$StackedXYAreaRendererState: *java.util.Stack* [private] currentSeriesPoints
+org.jfree.chart.renderer.xy.XYSplineRenderer: *java.util.Vector* [private] points
+org.jfree.chart.servlet.ChartDeleter: *java.util.List* [private] chartNames
+org.jfree.chart.StrokeMap: *java.util.Map* [private] store
+org.jfree.chart.urls.CustomCategoryURLGenerator: *java.util.ArrayList* [private] urlSeries
+org.jfree.chart.urls.CustomPieURLGenerator: *java.util.ArrayList* [private] urls
+org.jfree.chart.urls.CustomXYURLGenerator: *java.util.ArrayList* [private] urlSeries
+org.jfree.data.ComparableObjectSeries: *java.util.List* [protected] data
+org.jfree.data.DefaultKeyedValues: *java.util.ArrayList* [private] keys
+org.jfree.data.DefaultKeyedValues: *java.util.ArrayList* [private] values
+org.jfree.data.DefaultKeyedValues: *java.util.HashMap* [private] indexMap
+org.jfree.data.DefaultKeyedValues2D: *java.util.List* [private] rowKeys
+org.jfree.data.DefaultKeyedValues2D: *java.util.List* [private] columnKeys
+org.jfree.data.DefaultKeyedValues2D: *java.util.List* [private] rows
+org.jfree.data.gantt.Task: *java.util.List* [private] subtasks
+org.jfree.data.gantt.TaskSeries: *java.util.List* [private] tasks
+org.jfree.data.gantt.TaskSeriesCollection: *java.util.List* [private] keys
+org.jfree.data.gantt.TaskSeriesCollection: *java.util.List* [private] data
+org.jfree.data.general.CombinedDataset: *java.util.List* [private] datasetInfo
+org.jfree.data.jdbc.JDBCXYDataset: *java.util.ArrayList* [private] rows
+org.jfree.data.KeyedObjects: *java.util.List* [private] data
+org.jfree.data.KeyedObjects2D: *java.util.List* [private] rowKeys
+org.jfree.data.KeyedObjects2D: *java.util.List* [private] columnKeys
+org.jfree.data.KeyedObjects2D: *java.util.List* [private] rows
+org.jfree.data.KeyToGroupMap: *java.util.List* [private] groups
+org.jfree.data.KeyToGroupMap: *java.util.Map* [private] keyToGroupMap
+org.jfree.data.statistics.BoxAndWhiskerItem: *java.util.List* [private] outliers
+org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset: *java.util.List* [private] dates
+org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset: *java.util.List* [private] items
+org.jfree.data.statistics.HistogramDataset: *java.util.List* [private] list
+org.jfree.data.statistics.SimpleHistogramDataset: *java.util.List* [private] bins
+org.jfree.data.time.ohlc.OHLCSeriesCollection: *java.util.List* [private] data
+org.jfree.data.time.TimePeriodValues: *java.util.List* [private] data
+org.jfree.data.time.TimePeriodValuesCollection: *java.util.List* [private] data
+org.jfree.data.time.TimeSeries: *java.util.List* [protected] data
+org.jfree.data.time.TimeSeriesCollection: *java.util.List* [private] data
+org.jfree.data.xml.RootHandler: *java.util.Stack* [private] subHandlers
+org.jfree.data.xy.DefaultIntervalXYDataset: *java.util.List* [private] seriesKeys
+org.jfree.data.xy.DefaultIntervalXYDataset: *java.util.List* [private] seriesList
+org.jfree.data.xy.DefaultTableXYDataset: *java.util.List* [private] data
+org.jfree.data.xy.DefaultTableXYDataset: *java.util.HashSet* [private] xPoints
+org.jfree.data.xy.DefaultWindDataset: *java.util.List* [private] seriesKeys
+org.jfree.data.xy.DefaultWindDataset: *java.util.List* [private] allSeriesData
+org.jfree.data.xy.DefaultXYDataset: *java.util.List* [private] seriesKeys
+org.jfree.data.xy.DefaultXYDataset: *java.util.List* [private] seriesList
+org.jfree.data.xy.DefaultXYZDataset: *java.util.List* [private] seriesKeys
+org.jfree.data.xy.DefaultXYZDataset: *java.util.List* [private] seriesList
+org.jfree.data.xy.MatrixSeriesCollection: *java.util.List* [private] seriesList
+org.jfree.data.xy.VectorSeriesCollection: *java.util.List* [private] data
+org.jfree.data.xy.XIntervalSeriesCollection: *java.util.List* [private] data
+org.jfree.data.xy.XYIntervalSeriesCollection: *java.util.List* [private] data
+org.jfree.data.xy.XYSeries: *java.util.List* [protected] data
+org.jfree.data.xy.XYSeriesCollection: *java.util.List* [private] data
+org.jfree.data.xy.YIntervalSeriesCollection: *java.util.List* [private] data
+org.jfree.text.TextBlock: *java.util.List* [private] lines
+org.jfree.text.TextLine: *java.util.List* [private] fragments
+org.jfree.threads.ReaderWriterLock: *java.util.ArrayList* [private] waiters
+org.jfree.ui.about.AboutDialog: *java.util.List* [private] contributors
+org.jfree.ui.about.AboutFrame: *java.util.List* [private] contributors
+org.jfree.ui.about.ContributorsTableModel: *java.util.List* [private] contributors
+org.jfree.ui.about.ProjectInfo: *java.util.List* [private] contributors
+org.jfree.ui.about.SystemPropertiesTableModel: *java.util.List* [private] properties
+org.jfree.ui.action.ActionConcentrator: *java.util.ArrayList* [private] [final] actions
+org.jfree.ui.action.DowngradeActionMap: *java.util.HashMap* [private] [final] actionMap
+org.jfree.ui.action.DowngradeActionMap: *java.util.ArrayList* [private] [final] actionList
+org.jfree.ui.KeyedComboBoxModel: *java.util.ArrayList* [private] data
+org.jfree.ui.KeyedComboBoxModel: *java.util.ArrayList* [private] listdatalistener
+org.jfree.ui.tabbedui.AbstractTabbedUI: *java.util.ArrayList* [private] rootEditors
+org.jfree.ui.WizardDialog: *java.util.List* [private] panels
+org.jfree.util.HashNMap: *java.util.HashMap* [private] table
+org.jfree.util.Log: *java.util.HashMap* [private] logContexts
+org.jfree.util.ResourceBundleSupport: *java.util.TreeMap* [private] cache
+org.jfree.util.ResourceBundleSupport: *java.util.TreeSet* [private] lookupPath
+
+ARRAYS REPORT
+=============
+
+org.jfree.base.modules.AbstractModule: *org.jfree.base.modules.ModuleInfo[]* [private] requiredModules [no-stores] [arraycopy]
+org.jfree.base.modules.AbstractModule: *org.jfree.base.modules.ModuleInfo[]* [private] optionalModules [no-stores] [arraycopy]
+org.jfree.chart.axis.MonthDateFormat: *java.lang.String[]* [private] months
+org.jfree.chart.axis.PeriodAxis: *org.jfree.chart.axis.PeriodAxisLabelInfo[]* [private] labelInfo [hashcode]
+org.jfree.chart.axis.QuarterDateFormat: *java.lang.String[]* [private] quarters
+org.jfree.chart.editor.DefaultColorBarEditor: *org.jfree.chart.editor.PaletteSample[]* [private] availablePaletteSamples
+org.jfree.chart.editor.DefaultNumberAxisEditor: *org.jfree.ui.StrokeSample[]* [private] availableStrokeSamples
+org.jfree.chart.editor.DefaultPlotEditor: *org.jfree.ui.StrokeSample[]* [private] availableStrokeSamples
+org.jfree.chart.plot.CombinedDomainCategoryPlot: *java.awt.geom.Rectangle2D[]* [private] subplotAreas
+org.jfree.chart.plot.CombinedDomainXYPlot: *java.awt.geom.Rectangle2D[]* [private] subplotAreas
+org.jfree.chart.plot.CombinedRangeCategoryPlot: *java.awt.geom.Rectangle2D[]* [private] subplotArea
+org.jfree.chart.plot.CombinedRangeXYPlot: *java.awt.geom.Rectangle2D[]* [private] subplotAreas
+org.jfree.chart.plot.CompassPlot: *org.jfree.data.general.ValueDataset[]* [private] datasets [mod]
+org.jfree.chart.plot.CompassPlot: *org.jfree.chart.needle.MeterNeedle[]* [private] seriesNeedle [mod]
+org.jfree.chart.plot.DefaultDrawingSupplier: *java.awt.Paint[]* [private] paintSequence [mod]
+org.jfree.chart.plot.DefaultDrawingSupplier: *java.awt.Paint[]* [private] outlinePaintSequence [mod]
+org.jfree.chart.plot.DefaultDrawingSupplier: *java.awt.Paint[]* [private] fillPaintSequence [mod]
+org.jfree.chart.plot.DefaultDrawingSupplier: *java.awt.Stroke[]* [private] strokeSequence [mod]
+org.jfree.chart.plot.DefaultDrawingSupplier: *java.awt.Stroke[]* [private] outlineStrokeSequence [mod]
+org.jfree.chart.plot.DefaultDrawingSupplier: *java.awt.Shape[]* [private] shapeSequence [mod]
+org.jfree.chart.plot.ThermometerPlot: *java.awt.Paint[]* [private] subrangePaint
+org.jfree.chart.plot.XYPlot: *java.awt.Paint[]* [private] quadrantPaint
+org.jfree.chart.renderer.xy.CyclicXYItemRenderer$OverwriteDataSet: *java.lang.Double[]* x
+org.jfree.chart.renderer.xy.CyclicXYItemRenderer$OverwriteDataSet: *java.lang.Double[]* y
+org.jfree.chart.title.LegendTitle: *org.jfree.chart.LegendItemSource[]* [private] sources
+org.jfree.data.category.DefaultIntervalCategoryDataset: *java.lang.Comparable[]* [private] seriesKeys [arraycopy]
+org.jfree.data.category.DefaultIntervalCategoryDataset: *java.lang.Comparable[]* [private] categoryKeys [arraycopy]
+org.jfree.data.category.DefaultIntervalCategoryDataset: *java.lang.Number[][]* [private] startData [arraycopy]
+org.jfree.data.category.DefaultIntervalCategoryDataset: *java.lang.Number[][]* [private] endData [arraycopy]
+org.jfree.data.contour.DefaultContourDataset: *java.lang.Number[]* [protected] xValues
+org.jfree.data.contour.DefaultContourDataset: *java.lang.Number[]* [protected] yValues
+org.jfree.data.contour.DefaultContourDataset: *java.lang.Number[]* [protected] zValues
+org.jfree.data.jdbc.JDBCXYDataset: *java.lang.String[]* [private] columnNames
+org.jfree.data.time.DynamicTimeSeriesCollection: *java.lang.Comparable[]* [private] seriesKeys [mod]
+org.jfree.data.time.DynamicTimeSeriesCollection: *org.jfree.data.time.RegularTimePeriod[]* [protected] pointsInTime [mod]
+org.jfree.data.time.DynamicTimeSeriesCollection: *org.jfree.data.time.DynamicTimeSeriesCollection$ValueSequence[]* [protected] valueHistory [mod]
+org.jfree.data.xy.DefaultHighLowDataset: *java.util.Date[]* [private] date
+org.jfree.data.xy.DefaultHighLowDataset: *java.lang.Number[]* [private] high
+org.jfree.data.xy.DefaultHighLowDataset: *java.lang.Number[]* [private] low
+org.jfree.data.xy.DefaultHighLowDataset: *java.lang.Number[]* [private] open
+org.jfree.data.xy.DefaultHighLowDataset: *java.lang.Number[]* [private] close
+org.jfree.data.xy.DefaultHighLowDataset: *java.lang.Number[]* [private] volume
+org.jfree.data.xy.DefaultOHLCDataset: *org.jfree.data.xy.OHLCDataItem[]* [private] data [no-stores] [arraycopy]
+org.jfree.date.SerialDateUtilities: *java.lang.String[]* [private] weekdays [no-stores]
+org.jfree.date.SerialDateUtilities: *java.lang.String[]* [private] months [no-stores]
+org.jfree.ui.about.LibraryTableModel: *org.jfree.base.Library[]* [private] libraries [no-stores]
+org.jfree.ui.DateChooserPanel: *javax.swing.JButton[]* [private] buttons [mod] [arraycopy]
+org.jfree.ui.FilesystemFilter: *java.lang.String[]* [private] fileext
+org.jfree.ui.KeyedComboBoxModel: *javax.swing.event.ListDataListener[]* [private] tempListeners [no-stores]
+org.jfree.ui.SerialDateChooserPanel: *javax.swing.JButton[]* [private] buttons
+org.jfree.util.AbstractObjectList: *java.lang.Object[]* [private] objects [arraycopy] [hashcode]
+org.jfree.util.FastStack: *java.lang.Object[]* [private] contents [arraycopy]
+org.jfree.util.Log: *org.jfree.util.LogTarget[]* [private] logTargets [arraycopy]
+org.jfree.util.Log$SimpleMessage: *java.lang.Object[]* [private] param
+org.jfree.util.ObjectTable: *java.lang.Object[][]* [private] data [arraycopy]
+
+N-CYCLES
+========
+[org/jfree/chart/axis/MarkerAxisBand, org/jfree/chart/axis/NumberAxis]
+[org/jfree/chart/plot/Plot, org/jfree/chart/axis/Axis]
+[org/jfree/text/TextBlock, org/jfree/chart/title/TextTitle]
+[org/jfree/chart/ChartRenderingInfo, org/jfree/chart/plot/PlotRenderingInfo]
+[org/jfree/base/modules/PackageManager, org/jfree/base/AbstractBoot]
+[org/jfree/chart/renderer/WaferMapRenderer, org/jfree/chart/plot/WaferMapPlot]
+[org/jfree/chart/editor/DefaultAxisEditor, org/jfree/chart/editor/DefaultPlotEditor, org/jfree/chart/editor/DefaultChartEditor]
+[org/jfree/chart/axis/ColorBar, org/jfree/chart/plot/ContourPlot]
+[org/jfree/ui/action/ActionRadioButton$ActionEnablePropertyChangeHandler, org/jfree/ui/action/ActionRadioButton]
+[org/jfree/ui/action/ActionButton$ActionEnablePropertyChangeHandler, org/jfree/ui/action/ActionButton]
+[org/jfree/ui/WizardPanel, org/jfree/ui/WizardDialog]
+[org/jfree/ui/about/SystemPropertiesPanel, org/jfree/ui/about/SystemPropertiesPanel$PopupListener]
+[org/jfree/ui/action/ActionMenuItem, org/jfree/ui/action/ActionMenuItem$ActionEnablePropertyChangeHandler]

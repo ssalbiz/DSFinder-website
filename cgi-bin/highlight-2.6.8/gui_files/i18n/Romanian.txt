@@ -1,0 +1,116 @@
+# Translation: Fanache Alex (aka Birkoff) <php4@as.ro>
+# M: Intrarile de meniu
+# L: Textul din etichete
+# E: Erori
+
+M001=&Deschide
+M002=&Inchide
+
+M003=&Ajutor
+M004=&Licenta
+M005=&Log Schimbari
+M006=&Despre Highlight...
+M007=&Fisier
+M008=&Limbaj
+M009=&Trucuri
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Alege fisierul
+L004=Salveaza fisierul ca:
+L005=Include CSS la salvare
+L006=Ataseaza ancore la linii
+L011=Fisierul de inclus in
+L009=Fisierul CSS de referinta:
+L010=Culoarea temei:
+L013=Include numarul de linii
+L014=Omite headere si footere
+L008=Genereaza fisier index
+L015=Modifica fisierul
+L022=Alege fisierul
+L002=Calea unde se salveaza
+L007=Reformatare:
+L025=Eroare
+L026=Va rog sa reporniti Highlight...
+L027=Impacheteaza liniile lungi
+L028=Intelligent wrap
+L029=Scoaterea ghilimelelor
+L030=Nr de spatii la tab:
+L031=Pune si 0 la numere
+L032=Write to source directories
+L033=Remove selection
+L034=Error summary
+L035=style
+L036=Encoding:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Informatii
+L023=Terminat: %d físiere in %ld ms.
+L003=Sterge lista de fisiere
+L016=<Nici un fisier selectat>
+L020=Va rog,alegeti un director valid pentru salvare.
+L021=Va rog sa alegeti un CSS pentru salvare.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Doar fisiere C, C++, C# si Java pot fi reformatate.
+E001=Eroare la executarea Notepad.exe
+E002=Limbajul precizat %s. nu a fost gasit!
+E003=Nu se poate deschide:
+E004=Nu se poate scrie:
+E005=Nu se poate citi tema. Verificati instalarea.
+E006=Eroare la scrierea preferintelor fisierului!
+E007=Nu se poate crea fisierul index.
+E008=Nu se poate citi extensia fisierului. Verificati instalarea.
+E009=Nu se poate citi schema ceruta. Verificati instalarea.
+E010=Could not reformat:
+
+
+T001=Adaugati sursa fisierului pe care doriti sa il modificati.\nSe poate face si prin Drag and drop.
+T002=Alegeti un director pentru salvare.
+T003=Alegeti fisierul CSS care trebuie inclus in definitia CSS.
+T004=Stergeti lista de fisiere introduse.
+T005=Numele de iesire al fisierului CSS.
+T006=Calea de intrare a fisierului CSS.
+T007=Calea catre directorul unde se salveaza.
+T008=Include definitia CSS in salvarea fisierului.
+T009=Omite headerele si footerele fisierelor salvate.
+T010=Adauga numere la linii.
+T011=Adauga ancore HTML la numerele de linie.
+T012=Reformatarea codului sursa  C, C++, C# si Java.
+T013=Alegeti un format pentru salvare.
+T014=Porneste modificarea fisierului introdus.
+T015=Genereaza la salvare fisierul index cu hiperlink
+T016=Alegeti un stil de formatare si modificare.
+T017=Alegeti schema de culori care va place.
+T018=Impacheteaza liniile mai lungi de 80 (75 daca se adauga si numere) de caractere.
+T019=Wrap lines and indent statements and function parameters.
+T020=Scoate ghilimelele cu \dq. Util daca folositi pachetul German in LaTeX.
+T021=Inlocuiti tab-ul cu numarul ales de spatii\n(nu se inlocuieste daca valoarea este egala cu zero).
+T022=Inlocuiti spatiile dinaintea numerelor cu zerouri.
+T023=Save output in the directories of the input files.
+T024=Remove selected entries from input file list.
+T025=Use an output encoding, which matches the input file encoding.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Gata.
+L017=Proceseaza fisierul....

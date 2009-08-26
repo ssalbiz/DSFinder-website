@@ -1,0 +1,85 @@
+DSFinder has run for 0 min. 2 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/BLOAT/classes:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/workspace/azureus2/build/libs/apple-extensions.jar:/home/albiz/dev/workspace/azureus2/build/libs/commons-cli.jar:/home/albiz/dev/workspace/azureus2/build/libs/junit.jar:/home/albiz/dev/workspace/azureus2/build/libs/log4j.jar:/home/albiz/dev/workspace/azureus2/build/libs/swt-win32.jar:/home/albiz/dev/workspace/azureus2/build/libs/swt-xosx.jar, -p, --include=EDU/, --title=/home/albiz/dev/sootOutput/logs/bloat.ds-finder.log, org.apache.bcel.util.BCELifier]
+Processed 332 non-library classes (2409 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						3
+Parents/outers						2
+Others (7 java.lang.Object, 21 non-Object fields)	28
+ exact matching fields					4
+
+Distinct classes containing linked lists and parents:	5
+
+N-cycles						11
+
+Arrays							25
+	 read-only:					7
+	 w/arraycopy:					7
+	 hashtable-like:				5
+	 (error bars:) [3]				8
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.Map						41
+java.util.Set						30
+java.util.List						17
+java.util.HashMap					15
+java.util.ArrayList					14
+Others							48
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+EDU.purdue.cs.bloat.tree.Node				19
+EDU.purdue.cs.bloat.editor.CodeArray$ByteCell		2
+EDU.purdue.cs.bloat.util.UnionFind$Node			2
+Others							0
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.HashSet					206
+java.util.ArrayList					200
+java.util.HashMap					148
+java.util.LinkedList					76
+EDU.purdue.cs.bloat.util.ResizeableArrayList		22
+Others							70
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+EDU.purdue.cs.bloat.util.UnionFind$Node			2
+EDU.purdue.cs.bloat.editor.CodeArray$ByteCell		1
+EDU.purdue.cs.bloat.cfg.FlowGraph$10			1
+EDU.purdue.cs.bloat.cfg.FlowGraph$8			1
+Others							0
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			0
+Collections are potential data structures		91
+
+
+java.lang.String					0
+java.lang.Object					0
+Ad-Hoc types:
+=============
+Others							0
+
+System types:
+==============
+Others							0
+
+TEMPLATE PARAMETERS					0
+UNKNOWN							165
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

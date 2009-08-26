@@ -1,0 +1,120 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+jcm.gui.doc.docview: *javax.swing.JPanel* edit
+jcm.gui.gen.interacmap$intmap: *java.awt.Component* added
+jcm.gui.nav.paramValueChooser: *javax.swing.Box* horizbox
+jcm.gui.plot.mapplot: *javax.swing.JPanel* intpan
+jcm.gui.plot.scaleview: *java.awt.Component* aboveleft
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+jcm.core.tls.meminfo: parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+jcm.core.cur.curve: [private] qa
+jcm.core.cur.curve: [private] qb
+jcm.core.ob.infob: [public] owner
+jcm.core.par.param: [public] pair
+jcm.core.reg.region: superset
+jcm.gui.nav.jcmTree: [final] treemaker
+Non-Object Fields:
+jcm.mod.luc.futureLUC: *jcm.core.ob.loopcalc* [public] history
+jcm.mod.luc.futureLUC: *jcm.core.ob.loopcalc* [public] base
+jcm.mod.luc.futureLUC: *jcm.core.ob.loopcalc* [public] quota
+jcm.mod.regemit.AviaShipEmit: *jcm.core.ob.loopcalc* [public] emitbase
+jcm.mod.regemit.AviaShipEmit: *jcm.core.ob.loopcalc* [public] emitmitig
+jcm.mod.regemit.emitbase: *jcm.core.ob.loopcalc* [public] history
+jcm.mod.regemit.emitbase: *jcm.core.ob.loopcalc* [public] future
+jcm.mod.regemit.shares: *jcm.core.ob.loopcalc* [public] history
+jcm.mod.socio.popgdp: *jcm.core.ob.loopcalc* [public] history
+jcm.mod.socio.popgdp: *jcm.core.ob.loopcalc* [public] future
+java.lang.Object Fields:
+jcm.core.data.interpolator: *java.lang.Object* source
+jcm.core.par.param: *java.lang.Object* [public] chosen [TT;]
+jcm.core.par.param: *java.lang.Object* [public] defchosen [TT;]
+jcm.core.par.param$1: *java.lang.Object* [final] val$o
+jcm.core.tls.meminfo: *java.lang.Object* ob
+jcm.gui.nav.dragdrop: *java.lang.Object* [public] carrying
+jcm.gui.nav.showpan$3: *java.lang.Object* [final] val$o
+jcm.mod.resp.attribMarginal: *java.lang.Object* mitigorig
+jcm.mod.resp.attribMarginal: *java.lang.Object* emitoptorig
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+jcm.core.cur.curvar: *java.util.List* [public] linkqq [Ljava/util/List<Ljcm/core/cur/curveset;>;]
+jcm.core.cur.curveset: *java.util.Map* [public] map [Ljava/util/Map<Ljava/lang/Object;Ljcm/core/cur/curve;>;]
+jcm.core.ob.infob: *java.util.Set* [public] obs [Ljava/util/Set<Ljcm/core/ob/infob;>;]
+jcm.core.ob.interacob: *java.util.Vector* [public] vaffectedby [Ljava/util/Vector<Ljcm/core/ob/interacob;>;]
+jcm.core.ob.interacob: *java.util.Vector* [public] vaffects [Ljava/util/Vector<Ljcm/core/ob/interacob;>;]
+jcm.core.reg.region: *java.util.List* [public] reg [Ljava/util/List<Ljcm/core/reg/region;>;]
+jcm.core.tls.meminfo: *java.util.List* sub [Ljava/util/List<Ljcm/core/tls/meminfo;>;]
+jcm.gui.nav.circmenu: *java.util.Map* segs [Ljava/util/Map<Ljava/awt/geom/Area;Ljava/lang/Object;>;]
+jcm.gui.nav.jcmMenu: *java.util.List* [public] list
+jcm.gui.plot.histoplot: *java.util.List* regs
+
+ARRAYS REPORT
+=============
+
+jcm.core.ob.infob: *java.lang.annotation.Annotation[]* [public] notes [hashcode]
+jcm.core.par.param: *java.lang.Object[]* [public] menulist [[TT;] [mod]
+jcm.core.par.param: *jcm.core.complexity[]* [public] itemcomplexity [mod]
+jcm.core.reg.edge: *java.awt.Point[]* p [no-stores]
+jcm.core.setup$8: *java.lang.String[][]* [final] val$list [no-stores]
+jcm.core.setup$9: *java.lang.String[]* [final] val$s [no-stores]
+jcm.gui.doc.label$smd: *java.lang.String[]* [public] tags
+jcm.gui.nav.showpan$4: *java.lang.Object[]* [final] val$args [no-stores]
+jcm.mod.carbon.carbonatechemistry: *java.lang.String[]* chemoptions
+jcm.mod.carbon.carbonatechemistry: *jcm.core.complexity[]* chemcomplex
+jcm.mod.carbon.carbonstorage: *jcm.core.cur.curve[]* [public] curve
+jcm.mod.cli.glotemp: *jcm.core.cur.curve[]* boxtempqt
+jcm.mod.cli.oceantemp: *jcm.core.cur.curve[]* [public] curve
+jcm.mod.cli.radfor: *jcm.core.cur.curve[]* [public] splitrf
+jcm.mod.cli.udebclimod: *Jama.Matrix[]* MV
+jcm.mod.cli.udebclimod: *Jama.Matrix[]* MVI
+jcm.mod.luc.LUCdata$biomeclassification: *java.lang.String[]* [public] names
+jcm.mod.luc.LUCdata$biomeclassification: *java.awt.Color[]* [public] colors
+jcm.mod.obj.controller: *java.lang.String[]* objopt
+jcm.mod.obj.controller: *jcm.core.complexity[]* objcomp
+jcm.mod.obj.stabilisation: *java.lang.String[]* indicators
+jcm.mod.obj.stabilisation: *jcm.core.complexity[]* indiccomplex
+jcm.mod.obj.stabilisation: *java.lang.String[]* concscenname
+jcm.mod.ogas.fgas: *jcm.core.cur.curve[]* [public] fgemit [mod]
+jcm.mod.ogas.fgas: *jcm.core.cur.curve[]* [public] fgconc [mod]
+jcm.mod.ogas.fgas: *jcm.core.cur.curve[]* [public] fgrf [mod]
+jcm.mod.ogas.othgasemit: *java.lang.String[]* emitoptions [mod]
+jcm.mod.ogas.othgasemit: *jcm.core.complexity[]* emitcomplex [mod]
+jcm.mod.regemit.shares: *jcm.core.complexity[]* distribcomplex
+jcm.mod.regimp.regcli: *java.lang.String[]* [public] datasets
+jcm.mod.regimp.regcli: *java.lang.String[]* [public] quantities
+jcm.mod.regimp.regcli: *java.lang.String[]* [public] months
+jcm.mod.regimp.regcli: *jcm.core.complexity[]* datacomplex
+jcm.mod.regimp.regcli: *jcm.core.complexity[]* quantcomplex
+jcm.mod.resp.attribMarginal: *jcm.core.cur.curve[]* emitqt
+jcm.mod.resp.attribMarginal: *jcm.core.cur.curve[]* emitorig
+
+N-CYCLES
+========
+[jcm/core/reg/edge, jcm/core/reg/region]
+[jcm/core/cur/curve, jcm/core/cur/curveset]
+[jcm/core/ob/infob, jcm/gui/nav/jcmMenu]
+[jcm/gui/nav/jcmTree$jcmTreeModel, jcm/gui/nav/jcmTree]
+[jcm/gui/doc/docview$JCMEditorPane, jcm/gui/doc/docview]
+[jcm/mod/obj/globco2emit, jcm/mod/regemit/AviaShipEmit, jcm/mod/ogas/AviationForcing, jcm/mod/ogas/aerosol, jcm/mod/ogas/fgas, jcm/mod/cli/radfor]
+[jcm/mod/socio/popgdp, jcm/mod/obj/regset, jcm/mod/resp/attribMarginal, jcm/mod/resp/responsibility, jcm/mod/resp/attribTracer, jcm/mod/regemit/emitbase, jcm/mod/regemit/shares]
+[jcm/mod/luc/CalcLucEmit, jcm/mod/luc/futureLUC]
+[jcm/gui/nav/paramValueChooser, jcm/gui/nav/paramValueChooser$jcmslider]
+[jcm/gui/gen/interacmap$node, jcm/gui/gen/interacmap]
+[jcm/gui/plot/scaleview, jcm/gui/plot/baseplot]

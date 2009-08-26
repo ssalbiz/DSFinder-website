@@ -1,0 +1,14 @@
+Highlight'i saab käivitada andes talle käsurealt parameetritena ette sisendfailide nimed.
+Highlight'i aknasse saab hiirega faile vabalt lohistada.
+Sa saad korraga vormindada mitut erinevat tüüpi lähtekoodi.
+Kasuta alus CSS faili HTML dokumendis, et kogu stiili informatsioon oleks ühes kohas.
+kasuta "Escape Quotes" valikut et genereerida LaTeX'i koodi, mida saab kasutada saksakeelse paketiga..
+XSL-FO väljund ja Apache FOP on ühilduvad.
+Tekstitöötluses kasutamiseks genereeri RTF fail.
+Kui ridade murdmine on valitud, siis paigutab Highlight pikkades ridades esinevad muutujad ja käsud õigetesse kohtadesse.
+Kui tahad genereeritud koodi kasutada olemasolevates lehekülgedes, siis vali "Eemalda päis ja jalus".
+The "Escape Quotes" option is available if LaTeX output and "Omit header and footer" is checked.
+Sa saad lõpptulemuse css stiilifaili lisada ka oma stiilifaili.
+Sa saad defineerida oma kasutajaliidese keele või värviteema. Vaata Highlight'i README faili õpetuste jaoks.
+"Vorminda" valik võimaldab ühest C, C++, Java ja C Sharp koodi uuesti vormindamist.
+Konsooliversioonida jaoks vaata Highlight'i kodulehekülge (Win32 and Unix builds).

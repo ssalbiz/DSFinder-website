@@ -1,0 +1,358 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.log4j.chainsaw.MyTableModel: *java.lang.Object* [private] [final] mLock
+org.apache.log4j.config.PropertySetterException: *java.lang.Throwable* [protected] rootCause
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor: *java.lang.Object* [protected] _value
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.lang.Object* [protected] _lock
+org.apache.lucene.document.AbstractField: *java.lang.Object* [protected] fieldsData
+org.apache.lucene.search.FieldCacheImpl$CreationPlaceholder: *java.lang.Object* value
+org.apache.lucene.store.VerifyingLockFactory$CheckedLock: *org.apache.lucene.store.Lock* [private] lock
+
+Linked List-like Data Structures:
+org.apache.log4j.helpers.PatternConverter: [public] next
+org.apache.log4j.spi.Filter: [public] next
+org.apache.lucene.index.DocFieldProcessorPerField: next
+org.apache.lucene.index.DocumentsWriter$DocWriter: next
+org.apache.lucene.index.TermsHash: [final] nextTermsHash
+org.apache.lucene.index.TermsHashPerField: [final] nextPerField
+org.apache.lucene.index.TermsHashPerThread: [final] nextPerThread
+org.apache.lucene.queryParser.QueryParser$JJCalls: next
+org.apache.lucene.queryParser.Token: [public] next
+org.apache.lucene.search.BooleanScorer$Bucket: next
+org.apache.lucene.search.BooleanScorer$SubScorer: [public] next
+org.apache.lucene.search.HitDoc: next/prev
+org.apache.lucene.search.PhrasePositions: next
+org.apache.lucene.search.spans.NearSpansUnordered$SpansCell: [private] next
+
+Parent- and outer-type Data Structures:
+org.apache.log4j.Category: [protected] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.apache.lucene.index.SegmentReader: [private] referencedSegmentReader
+org.apache.lucene.index.TermInfosWriter: [private] other
+org.apache.lucene.index.TermsHash: [private] primaryTermsHash
+org.apache.lucene.queryParser.Token: [public] specialToken
+Non-Object Fields:
+org.apache.lucene.analysis.PerFieldAnalyzerWrapper: *org.apache.lucene.analysis.Analyzer* [private] defaultAnalyzer
+org.apache.lucene.analysis.TokenFilter: *org.apache.lucene.analysis.TokenStream* [protected] input
+org.apache.lucene.index.CompoundFileReader: *org.apache.lucene.store.Directory* [private] directory
+org.apache.lucene.index.CompoundFileReader$CSIndexInput: *org.apache.lucene.store.IndexInput* base
+org.apache.lucene.index.DocFieldConsumers: *org.apache.lucene.index.DocFieldConsumer* [final] one
+org.apache.lucene.index.DocFieldConsumers: *org.apache.lucene.index.DocFieldConsumer* [final] two
+org.apache.lucene.index.DocFieldConsumers$PerDoc: *org.apache.lucene.index.DocumentsWriter$DocWriter* one
+org.apache.lucene.index.DocFieldConsumers$PerDoc: *org.apache.lucene.index.DocumentsWriter$DocWriter* two
+org.apache.lucene.index.DocFieldConsumersPerField: *org.apache.lucene.index.DocFieldConsumerPerField* [final] one
+org.apache.lucene.index.DocFieldConsumersPerField: *org.apache.lucene.index.DocFieldConsumerPerField* [final] two
+org.apache.lucene.index.DocFieldConsumersPerThread: *org.apache.lucene.index.DocFieldConsumerPerThread* [final] one
+org.apache.lucene.index.DocFieldConsumersPerThread: *org.apache.lucene.index.DocFieldConsumerPerThread* [final] two
+org.apache.lucene.index.FilterIndexReader: *org.apache.lucene.index.IndexReader* [protected] in
+org.apache.lucene.index.FilterIndexReader$FilterTermEnum: *org.apache.lucene.index.TermEnum* [protected] in
+org.apache.lucene.index.ParallelReader$ParallelTermEnum: *org.apache.lucene.index.TermEnum* [private] termEnum
+org.apache.lucene.index.SnapshotDeletionPolicy$MyCommitPoint: *org.apache.lucene.index.IndexCommit* cp
+org.apache.lucene.search.BooleanScorer2: *org.apache.lucene.search.Scorer* [private] countingSumScorer
+org.apache.lucene.search.BooleanScorer2$SingleMatchScorer: *org.apache.lucene.search.Scorer* [private] scorer
+org.apache.lucene.search.CachingSpanFilter: *org.apache.lucene.search.SpanFilter* [protected] filter
+org.apache.lucene.search.CachingWrapperFilter: *org.apache.lucene.search.Filter* [protected] filter
+org.apache.lucene.search.ConstantScoreQuery$ConstantScorer: *org.apache.lucene.search.DocIdSetIterator* [final] docIdSetIterator
+org.apache.lucene.search.FilteredQuery: *org.apache.lucene.search.Query* query
+org.apache.lucene.search.FilteredQuery$1$1: *org.apache.lucene.search.Scorer* [private] [final] val$scorer
+org.apache.lucene.search.FilteredQuery$1$1: *org.apache.lucene.search.DocIdSetIterator* [private] [final] val$docIdSetIterator
+org.apache.lucene.search.FilteredTermEnum: *org.apache.lucene.index.TermEnum* [private] actualEnum
+org.apache.lucene.search.function.CustomScoreQuery: *org.apache.lucene.search.Query* [private] subQuery
+org.apache.lucene.search.function.CustomScoreQuery$CustomScorer: *org.apache.lucene.search.Scorer* [private] subQueryScorer
+org.apache.lucene.search.MultiSearcher$1: *org.apache.lucene.search.HitCollector* [private] [final] val$results
+org.apache.lucene.search.ParallelMultiSearcher$1: *org.apache.lucene.search.HitCollector* [private] [final] val$results
+org.apache.lucene.search.RemoteCachingWrapperFilter: *org.apache.lucene.search.Filter* [protected] filter
+org.apache.lucene.search.ReqExclScorer: *org.apache.lucene.search.Scorer* [private] reqScorer
+org.apache.lucene.search.ReqExclScorer: *org.apache.lucene.search.Scorer* [private] exclScorer
+org.apache.lucene.search.ReqOptSumScorer: *org.apache.lucene.search.Scorer* [private] reqScorer
+org.apache.lucene.search.ReqOptSumScorer: *org.apache.lucene.search.Scorer* [private] optScorer
+org.apache.lucene.search.SimilarityDelegator: *org.apache.lucene.search.Similarity* [private] delegee
+org.apache.lucene.search.spans.SpanFirstQuery: *org.apache.lucene.search.spans.SpanQuery* [private] match
+org.apache.lucene.search.spans.SpanNotQuery: *org.apache.lucene.search.spans.SpanQuery* [private] include
+org.apache.lucene.search.spans.SpanNotQuery: *org.apache.lucene.search.spans.SpanQuery* [private] exclude
+org.apache.lucene.search.TimeLimitedCollector: *org.apache.lucene.search.HitCollector* [private] [final] hc
+org.apache.lucene.store.ChecksumIndexInput: *org.apache.lucene.store.IndexInput* main
+org.apache.lucene.store.ChecksumIndexOutput: *org.apache.lucene.store.IndexOutput* main
+org.apache.lucene.store.VerifyingLockFactory: *org.apache.lucene.store.LockFactory* lf
+org.apache.lucene.util.cache.Cache$SynchronizedCache: *org.apache.lucene.util.cache.Cache* cache
+org.apache.lucene.util.cache.SimpleMapCache$SynchronizedSimpleMapCache: *org.apache.lucene.util.cache.SimpleMapCache* cache
+java.lang.Object Fields:
+org.apache.log4j.config.PropertyGetter: *java.lang.Object* [protected] obj
+org.apache.log4j.config.PropertySetter: *java.lang.Object* [protected] obj
+org.apache.log4j.MDC: *java.lang.Object* tlm
+org.apache.log4j.spi.LoggingEvent: *java.lang.Object* [private] message
+org.apache.lucene.search.FieldCacheImpl$Entry: *java.lang.Object* [final] custom
+org.apache.lucene.util.cache.Cache$SynchronizedCache: *java.lang.Object* mutex
+org.apache.lucene.util.cache.SimpleMapCache$SynchronizedSimpleMapCache: *java.lang.Object* mutex
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.apache.log4j.AsyncAppender: *java.util.List* [private] [final] buffer
+org.apache.log4j.AsyncAppender: *java.util.Map* [private] [final] discardMap
+org.apache.log4j.AsyncAppender$Dispatcher: *java.util.List* [private] [final] buffer
+org.apache.log4j.AsyncAppender$Dispatcher: *java.util.Map* [private] [final] discardMap
+org.apache.log4j.chainsaw.MyTableModel: *java.util.SortedSet* [private] [final] mAllEvents
+org.apache.log4j.chainsaw.MyTableModel: *java.util.List* [private] [final] mPendingEvents
+org.apache.log4j.config.PropertyPrinter: *java.util.Hashtable* [protected] appenderNames
+org.apache.log4j.config.PropertyPrinter: *java.util.Hashtable* [protected] layoutNames
+org.apache.log4j.helpers.AppenderAttachableImpl: *java.util.Vector* [protected] appenderList
+org.apache.log4j.Hierarchy: *java.util.Vector* [private] listeners
+org.apache.log4j.Hierarchy: *java.util.Hashtable* ht
+org.apache.log4j.jdbc.JDBCAppender: *java.util.ArrayList* [protected] buffer
+org.apache.log4j.jdbc.JDBCAppender: *java.util.ArrayList* [protected] removes
+org.apache.log4j.jmx.AppenderDynamicMBean: *java.util.Vector* [private] dAttributes
+org.apache.log4j.jmx.AppenderDynamicMBean: *java.util.Hashtable* [private] dynamicProps
+org.apache.log4j.jmx.HierarchyDynamicMBean: *java.util.Vector* [private] vAttributes
+org.apache.log4j.jmx.LayoutDynamicMBean: *java.util.Vector* [private] dAttributes
+org.apache.log4j.jmx.LayoutDynamicMBean: *java.util.Hashtable* [private] dynamicProps
+org.apache.log4j.jmx.LoggerDynamicMBean: *java.util.Vector* [private] dAttributes
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath: *java.util.LinkedList* [protected] _categoryElements
+org.apache.log4j.lf5.viewer.configure.MRUFileManager: *java.util.LinkedList* [private] _mruFileList
+org.apache.log4j.lf5.viewer.FilteredLogTableModel: *java.util.List* [protected] _allRecords
+org.apache.log4j.lf5.viewer.FilteredLogTableModel: *java.util.List* [protected] _filteredRecords
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.List* [protected] _displayedLogBrokerProperties
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.Map* [protected] _logLevelMenuItems
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.Map* [protected] _logTableColumnMenuItems
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.List* [protected] _levels
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.List* [protected] _columns
+org.apache.log4j.net.SocketHubAppender: *java.util.Vector* [private] oosList
+org.apache.log4j.net.SocketHubAppender$ServerMonitor: *java.util.Vector* [private] oosList
+org.apache.log4j.net.SocketServer: *java.util.Hashtable* hierarchyMap
+org.apache.log4j.net.TelnetAppender$SocketHandler: *java.util.Vector* [private] writers
+org.apache.log4j.net.TelnetAppender$SocketHandler: *java.util.Vector* [private] connections
+org.apache.log4j.or.RendererMap: *java.util.Hashtable* map
+org.apache.log4j.PropertyConfigurator: *java.util.Hashtable* [protected] registry
+org.apache.log4j.spi.LoggingEvent: *java.util.Hashtable* [private] mdcCopy
+org.apache.log4j.spi.VectorWriter: *java.util.Vector* [private] v
+org.apache.log4j.varia.FallbackErrorHandler: *java.util.Vector* loggers
+org.apache.log4j.xml.DOMConfigurator: *java.util.Hashtable* appenderBag
+org.apache.log4j.xml.DOMConfigurator: *java.util.Properties* props
+org.apache.lucene.analysis.CachingTokenFilter: *java.util.List* [private] cache
+org.apache.lucene.analysis.CharArraySet$CharArraySetIterator: *org.apache.lucene.analysis.CharArraySet* [private] [final] this$0
+org.apache.lucene.analysis.PerFieldAnalyzerWrapper: *java.util.Map* [private] analyzerMap
+org.apache.lucene.analysis.SinkTokenizer: *java.util.List* [protected] lst
+org.apache.lucene.analysis.standard.StandardAnalyzer: *java.util.Set* [private] stopSet
+org.apache.lucene.analysis.StopAnalyzer: *java.util.Set* [private] stopWords
+org.apache.lucene.analysis.StopFilter: *org.apache.lucene.analysis.CharArraySet* [private] [final] stopWords
+org.apache.lucene.document.Document: *java.util.List* fields
+org.apache.lucene.document.MapFieldSelector: *java.util.Map* fieldSelections
+org.apache.lucene.document.SetBasedFieldSelector: *java.util.Set* [private] fieldsToLoad
+org.apache.lucene.document.SetBasedFieldSelector: *java.util.Set* [private] lazyFieldsToLoad
+org.apache.lucene.index.BufferedDeletes: *java.util.HashMap* terms
+org.apache.lucene.index.BufferedDeletes: *java.util.HashMap* queries
+org.apache.lucene.index.BufferedDeletes: *java.util.List* docIDs
+org.apache.lucene.index.CheckIndex$Status: *java.util.List* [public] segmentsChecked
+org.apache.lucene.index.CheckIndex$Status: *java.util.List* [public] segmentInfos
+org.apache.lucene.index.CheckIndex$Status: *org.apache.lucene.index.SegmentInfos* newSegments
+org.apache.lucene.index.CompoundFileReader: *java.util.HashMap* [private] entries
+org.apache.lucene.index.CompoundFileWriter: *java.util.HashSet* [private] ids
+org.apache.lucene.index.CompoundFileWriter: *java.util.LinkedList* [private] entries
+org.apache.lucene.index.ConcurrentMergeScheduler: *java.util.List* [protected] mergeThreads
+org.apache.lucene.index.ConcurrentMergeScheduler: *java.util.List* [private] exceptions
+org.apache.lucene.index.DirectoryIndexReader: *org.apache.lucene.index.SegmentInfos* [private] segmentInfos
+org.apache.lucene.index.DirectoryIndexReader: *java.util.HashSet* [private] [final] synced
+org.apache.lucene.index.DirectoryIndexReader: *org.apache.lucene.index.SegmentInfos* [private] rollbackSegmentInfos
+org.apache.lucene.index.DirectoryIndexReader$ReaderCommit: *java.util.Collection* files
+org.apache.lucene.index.DocumentsWriter: *java.util.HashMap* [private] [final] threadBindings
+org.apache.lucene.index.DocumentsWriter: *java.util.List* newFiles
+org.apache.lucene.index.DocumentsWriter: *java.util.Collection* [private] abortedFiles
+org.apache.lucene.index.DocumentsWriter: *java.util.List* [final] openFiles
+org.apache.lucene.index.DocumentsWriter: *java.util.List* [final] closedFiles
+org.apache.lucene.index.DocumentsWriter: *java.util.ArrayList* [private] freeIntBlocks
+org.apache.lucene.index.DocumentsWriter: *java.util.ArrayList* [private] freeCharBlocks
+org.apache.lucene.index.DocumentsWriter$ByteBlockAllocator: *java.util.ArrayList* freeByteBlocks
+org.apache.lucene.index.DocumentsWriter$FlushState: *java.util.Collection* flushedFiles
+org.apache.lucene.index.FieldInfos: *java.util.ArrayList* [private] byNumber
+org.apache.lucene.index.FieldInfos: *java.util.HashMap* [private] byName
+org.apache.lucene.index.FieldSortedTermVectorMapper: *java.util.Map* [private] fieldToTerms
+org.apache.lucene.index.FieldSortedTermVectorMapper: *java.util.SortedSet* [private] currentSet
+org.apache.lucene.index.IndexFileDeleter: *java.util.List* [private] deletable
+org.apache.lucene.index.IndexFileDeleter: *java.util.Map* [private] refCounts
+org.apache.lucene.index.IndexFileDeleter: *java.util.List* [private] commits
+org.apache.lucene.index.IndexFileDeleter: *java.util.List* [private] lastFiles
+org.apache.lucene.index.IndexFileDeleter: *java.util.List* [private] commitsToDelete
+org.apache.lucene.index.IndexFileDeleter$CommitPoint: *java.util.List* files
+org.apache.lucene.index.IndexFileDeleter$CommitPoint: *java.util.Collection* commitsToDelete
+org.apache.lucene.index.IndexFileNameFilter: *java.util.HashSet* [private] extensions
+org.apache.lucene.index.IndexFileNameFilter: *java.util.HashSet* [private] extensionsInCFS
+org.apache.lucene.index.IndexWriter: *org.apache.lucene.index.SegmentInfos* [private] rollbackSegmentInfos
+org.apache.lucene.index.IndexWriter: *java.util.HashMap* [private] rollbackSegments
+org.apache.lucene.index.IndexWriter: *org.apache.lucene.index.SegmentInfos* pendingCommit
+org.apache.lucene.index.IndexWriter: *org.apache.lucene.index.SegmentInfos* [private] localRollbackSegmentInfos
+org.apache.lucene.index.IndexWriter: *org.apache.lucene.index.SegmentInfos* [private] segmentInfos
+org.apache.lucene.index.IndexWriter: *java.util.Set* [private] segmentsToOptimize
+org.apache.lucene.index.IndexWriter: *java.util.HashSet* [private] mergingSegments
+org.apache.lucene.index.IndexWriter: *java.util.LinkedList* [private] pendingMerges
+org.apache.lucene.index.IndexWriter: *java.util.Set* [private] runningMerges
+org.apache.lucene.index.IndexWriter: *java.util.List* [private] mergeExceptions
+org.apache.lucene.index.IndexWriter: *java.util.HashSet* [private] synced
+org.apache.lucene.index.IndexWriter: *java.util.HashSet* [private] syncing
+org.apache.lucene.index.MergePolicy$MergeSpecification: *java.util.List* [public] merges
+org.apache.lucene.index.MergePolicy$OneMerge: *org.apache.lucene.index.SegmentInfos* segmentsClone
+org.apache.lucene.index.MergePolicy$OneMerge: *org.apache.lucene.index.SegmentInfos* [final] segments
+org.apache.lucene.index.MultiReader: *java.util.Map* [private] normsCache
+org.apache.lucene.index.MultiSegmentReader: *java.util.Map* [private] normsCache
+org.apache.lucene.index.ParallelReader: *java.util.List* [private] readers
+org.apache.lucene.index.ParallelReader: *java.util.List* [private] decrefOnClose
+org.apache.lucene.index.ParallelReader: *java.util.SortedMap* [private] fieldToReader
+org.apache.lucene.index.ParallelReader: *java.util.Map* [private] readerToFields
+org.apache.lucene.index.ParallelReader: *java.util.List* [private] storedFieldReaders
+org.apache.lucene.index.PositionBasedTermVectorMapper: *java.util.Map* [private] fieldToTerms
+org.apache.lucene.index.PositionBasedTermVectorMapper: *java.util.Map* [private] currentPositions
+org.apache.lucene.index.PositionBasedTermVectorMapper$TVPositionInfo: *java.util.List* [private] terms
+org.apache.lucene.index.PositionBasedTermVectorMapper$TVPositionInfo: *java.util.List* [private] offsets
+org.apache.lucene.index.SegmentInfo: *java.util.List* [private] files
+org.apache.lucene.index.SegmentInfos$1: *org.apache.lucene.index.SegmentInfos* [private] [final] this$0
+org.apache.lucene.index.SegmentMerger: *java.util.List* [private] readers
+org.apache.lucene.index.SegmentReader: *java.util.Map* norms
+org.apache.lucene.index.SortedTermVectorMapper: *java.util.SortedSet* [private] currentSet
+org.apache.lucene.index.SortedTermVectorMapper: *java.util.Map* [private] termToTVE
+org.apache.lucene.queryParser.MultiFieldQueryParser: *java.util.Map* [protected] boosts
+org.apache.lucene.queryParser.QueryParser: *java.util.Map* fieldToDateResolution
+org.apache.lucene.queryParser.QueryParser: *java.util.List* [private] jj_expentries
+org.apache.lucene.search.BooleanQuery: *java.util.ArrayList* [private] clauses
+org.apache.lucene.search.BooleanQuery$BooleanWeight: *java.util.ArrayList* [protected] weights
+org.apache.lucene.search.BooleanScorer2: *java.util.ArrayList* [private] requiredScorers
+org.apache.lucene.search.BooleanScorer2: *java.util.ArrayList* [private] optionalScorers
+org.apache.lucene.search.BooleanScorer2: *java.util.ArrayList* [private] prohibitedScorers
+org.apache.lucene.search.CachingSpanFilter: *java.util.Map* [protected] cache
+org.apache.lucene.search.CachingWrapperFilter: *java.util.Map* [protected] cache
+org.apache.lucene.search.DisjunctionMaxQuery: *java.util.ArrayList* [private] disjuncts
+org.apache.lucene.search.DisjunctionMaxQuery$DisjunctionMaxWeight: *java.util.ArrayList* [private] weights
+org.apache.lucene.search.DisjunctionMaxScorer: *java.util.ArrayList* [private] subScorers
+org.apache.lucene.search.DisjunctionSumScorer: *java.util.List* [protected] [final] subScorers
+org.apache.lucene.search.Explanation: *java.util.ArrayList* [private] details
+org.apache.lucene.search.FieldCacheImpl$Cache: *java.util.Map* [private] [final] readerCache
+org.apache.lucene.search.FilterManager: *java.util.Map* [protected] cache
+org.apache.lucene.search.FilterManager$FilterCleaner: *java.util.TreeSet* [private] sortedFilterItems
+org.apache.lucene.search.Hits: *java.util.Vector* [private] hitDocs
+org.apache.lucene.search.MultiPhraseQuery: *java.util.ArrayList* [private] termArrays
+org.apache.lucene.search.MultiPhraseQuery: *java.util.ArrayList* [private] positions
+org.apache.lucene.search.MultiSearcher$CachedDfSource: *java.util.Map* [private] dfMap
+org.apache.lucene.search.PhraseQuery: *java.util.ArrayList* [private] terms
+org.apache.lucene.search.PhraseQuery: *java.util.ArrayList* [private] positions
+org.apache.lucene.search.SpanFilterResult: *java.util.List* [private] positions
+org.apache.lucene.search.SpanFilterResult$PositionInfo: *java.util.List* [private] positions
+org.apache.lucene.search.spans.NearSpansOrdered: *java.util.List* [private] matchPayload
+org.apache.lucene.search.spans.NearSpansUnordered: *java.util.List* [private] ordered
+org.apache.lucene.search.spans.SpanNearQuery: *java.util.List* [private] clauses
+org.apache.lucene.search.spans.SpanOrQuery: *java.util.List* [private] clauses
+org.apache.lucene.search.spans.SpanWeight: *java.util.Set* [protected] terms
+org.apache.lucene.store.RAMDirectory: *java.util.HashMap* fileMap
+org.apache.lucene.store.RAMFile: *java.util.ArrayList* [private] buffers
+org.apache.lucene.store.SingleInstanceLock: *java.util.HashSet* [private] locks
+org.apache.lucene.store.SingleInstanceLockFactory: *java.util.HashSet* [private] locks
+org.apache.lucene.util.cache.SimpleMapCache: *java.util.Map* map
+org.apache.lucene.util.CloseableThreadLocal: *java.util.Map* [private] hardRefs
+
+ARRAYS REPORT
+=============
+
+org.apache.log4j.chainsaw.EventDetails: *java.lang.String[]* [private] [final] mThrowableStrRep [no-stores]
+org.apache.log4j.chainsaw.MyTableModel: *org.apache.log4j.chainsaw.EventDetails[]* [private] mFilteredEvents
+org.apache.log4j.chainsaw.XMLFileHandler: *java.lang.String[]* [private] mThrowableStrRep
+org.apache.log4j.config.PropertyGetter: *java.beans.PropertyDescriptor[]* [protected] props [no-stores]
+org.apache.log4j.config.PropertySetter: *java.beans.PropertyDescriptor[]* [protected] props
+org.apache.log4j.helpers.BoundedFIFO: *org.apache.log4j.spi.LoggingEvent[]* buf [arraycopy]
+org.apache.log4j.helpers.CyclicBuffer: *org.apache.log4j.spi.LoggingEvent[]* ea [mod]
+org.apache.log4j.helpers.DateTimeDateFormat: *java.lang.String[]* shortMonths [no-stores]
+org.apache.log4j.jmx.AppenderDynamicMBean: *javax.management.MBeanConstructorInfo[]* [private] dConstructors
+org.apache.log4j.jmx.AppenderDynamicMBean: *javax.management.MBeanOperationInfo[]* [private] dOperations
+org.apache.log4j.jmx.HierarchyDynamicMBean: *javax.management.MBeanConstructorInfo[]* [private] dConstructors
+org.apache.log4j.jmx.HierarchyDynamicMBean: *javax.management.MBeanOperationInfo[]* [private] dOperations
+org.apache.log4j.jmx.LayoutDynamicMBean: *javax.management.MBeanConstructorInfo[]* [private] dConstructors
+org.apache.log4j.jmx.LayoutDynamicMBean: *javax.management.MBeanOperationInfo[]* [private] dOperations
+org.apache.log4j.jmx.LoggerDynamicMBean: *javax.management.MBeanConstructorInfo[]* [private] dConstructors
+org.apache.log4j.jmx.LoggerDynamicMBean: *javax.management.MBeanOperationInfo[]* [private] dOperations
+org.apache.log4j.lf5.viewer.FilteredLogTableModel: *java.lang.String[]* [protected] _colNames
+org.apache.log4j.lf5.viewer.LogTable: *javax.swing.table.TableColumn[]* [protected] _tableColumns
+org.apache.log4j.lf5.viewer.LogTable: *org.apache.log4j.lf5.viewer.LogTableColumn[]* [protected] _colNames
+org.apache.log4j.spi.ThrowableInformation: *java.lang.String[]* [private] rep [no-stores]
+org.apache.lucene.index.DocFieldConsumers: *org.apache.lucene.index.DocFieldConsumers$PerDoc[]* docFreeList
+org.apache.lucene.index.DocFieldProcessorPerField: *org.apache.lucene.document.Fieldable[]* fields [no-stores]
+org.apache.lucene.index.DocFieldProcessorPerThread: *org.apache.lucene.index.DocFieldProcessorPerField[]* fields [arraycopy] [hashcode]
+org.apache.lucene.index.DocFieldProcessorPerThread: *org.apache.lucene.index.DocFieldProcessorPerField[]* fieldHash [arraycopy] [hashcode]
+org.apache.lucene.index.DocumentsWriter: *org.apache.lucene.index.DocumentsWriterThreadState[]* [private] threadStates [mod] [arraycopy]
+org.apache.lucene.index.DocumentsWriter$WaitQueue: *org.apache.lucene.index.DocumentsWriter$DocWriter[]* waiting [arraycopy]
+org.apache.lucene.index.FreqProxFieldMergeState: *org.apache.lucene.index.RawPostingList[]* [final] postings [no-stores]
+org.apache.lucene.index.MultiLevelSkipListReader: *org.apache.lucene.store.IndexInput[]* [private] skipStream
+org.apache.lucene.index.MultiLevelSkipListWriter: *org.apache.lucene.store.RAMOutputStream[]* [private] skipBuffer [mod]
+org.apache.lucene.index.MultiReader: *org.apache.lucene.index.IndexReader[]* [protected] subReaders [arraycopy]
+org.apache.lucene.index.MultiSegmentReader: *org.apache.lucene.index.SegmentReader[]* [protected] subReaders [arraycopy]
+org.apache.lucene.index.MultiSegmentReader$MultiTermDocs: *org.apache.lucene.index.IndexReader[]* [protected] readers
+org.apache.lucene.index.MultiSegmentReader$MultiTermDocs: *org.apache.lucene.index.TermDocs[]* [private] readerTermDocs
+org.apache.lucene.index.ParallelArrayTermVectorMapper: *java.lang.String[]* [private] terms
+org.apache.lucene.index.ParallelArrayTermVectorMapper: *org.apache.lucene.index.TermVectorOffsetInfo[][]* [private] offsets
+org.apache.lucene.index.SegmentMerger: *org.apache.lucene.index.SegmentReader[]* [private] matchingSegmentReaders [mod]
+org.apache.lucene.index.SegmentTermPositionVector: *org.apache.lucene.index.TermVectorOffsetInfo[][]* [protected] offsets [no-stores]
+org.apache.lucene.index.SegmentTermVector: *java.lang.String[]* [private] terms [no-stores]
+org.apache.lucene.index.StoredFieldsWriter: *org.apache.lucene.index.StoredFieldsWriter$PerDoc[]* docFreeList
+org.apache.lucene.index.TermInfosReader: *org.apache.lucene.index.Term[]* [private] indexTerms
+org.apache.lucene.index.TermInfosReader: *org.apache.lucene.index.TermInfo[]* [private] indexInfos
+org.apache.lucene.index.TermsHash: *org.apache.lucene.index.RawPostingList[]* [private] postingsFreeList [no-stores] [arraycopy]
+org.apache.lucene.index.TermsHashPerField: *org.apache.lucene.index.RawPostingList[]* [private] postingsHash [arraycopy]
+org.apache.lucene.index.TermsHashPerThread: *org.apache.lucene.index.RawPostingList[]* [final] freePostings [no-stores]
+org.apache.lucene.index.TermVectorEntry: *org.apache.lucene.index.TermVectorOffsetInfo[]* [private] offsets [no-stores] [hashcode]
+org.apache.lucene.index.TermVectorsTermsWriter: *org.apache.lucene.index.TermVectorsTermsWriter$PerDoc[]* docFreeList
+org.apache.lucene.index.TermVectorsTermsWriterPerThread: *org.apache.lucene.util.UnicodeUtil$UTF8Result[]* [final] utf8Results
+org.apache.lucene.index.TermVectorsWriter: *org.apache.lucene.util.UnicodeUtil$UTF8Result[]* [final] utf8Results
+org.apache.lucene.queryParser.MultiFieldQueryParser: *java.lang.String[]* [protected] fields [no-stores]
+org.apache.lucene.queryParser.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+org.apache.lucene.queryParser.QueryParser: *org.apache.lucene.queryParser.QueryParser$JJCalls[]* [private] [final] jj_2_rtns
+org.apache.lucene.search.BooleanScorer$BucketTable: *org.apache.lucene.search.BooleanScorer$Bucket[]* [final] buckets [no-stores]
+org.apache.lucene.search.ConjunctionScorer: *org.apache.lucene.search.Scorer[]* [private] [final] scorers
+org.apache.lucene.search.FieldCache$StringIndex: *java.lang.String[]* [public] [final] lookup [no-stores]
+org.apache.lucene.search.FieldDoc: *java.lang.Comparable[]* [public] fields [no-stores]
+org.apache.lucene.search.FieldDocSortedHitQueue: *org.apache.lucene.search.SortField[]* fields
+org.apache.lucene.search.FieldDocSortedHitQueue: *java.text.Collator[]* collators
+org.apache.lucene.search.FieldSortedHitQueue: *org.apache.lucene.search.ScoreDocComparator[]* [protected] comparators
+org.apache.lucene.search.FieldSortedHitQueue: *org.apache.lucene.search.SortField[]* [protected] fields
+org.apache.lucene.search.FieldSortedHitQueue$9: *java.lang.String[]* [private] [final] val$index [no-stores]
+org.apache.lucene.search.function.CustomScoreQuery: *org.apache.lucene.search.function.ValueSourceQuery[]* [private] valSrcQueries [hashcode]
+org.apache.lucene.search.function.CustomScoreQuery$CustomScorer: *org.apache.lucene.search.Scorer[]* [private] valSrcScorers
+org.apache.lucene.search.function.CustomScoreQuery$CustomWeight: *org.apache.lucene.search.Weight[]* valSrcWeights
+org.apache.lucene.search.MultiSearcher: *org.apache.lucene.search.Searchable[]* [private] searchables
+org.apache.lucene.search.ParallelMultiSearcher: *org.apache.lucene.search.Searchable[]* [private] searchables
+org.apache.lucene.search.QueryTermVector: *java.lang.String[]* [private] terms [no-stores]
+org.apache.lucene.search.SloppyPhraseScorer: *org.apache.lucene.search.PhrasePositions[]* [private] repeats
+org.apache.lucene.search.SloppyPhraseScorer: *org.apache.lucene.search.PhrasePositions[]* [private] tmpPos
+org.apache.lucene.search.Sort: *org.apache.lucene.search.SortField[]* fields
+org.apache.lucene.search.SortComparator$1: *java.lang.Comparable[]* [private] [final] val$cachedValues [no-stores]
+org.apache.lucene.search.spans.NearSpansOrdered: *org.apache.lucene.search.spans.PayloadSpans[]* [private] [final] subSpans
+org.apache.lucene.search.spans.NearSpansOrdered: *org.apache.lucene.search.spans.PayloadSpans[]* [private] [final] subSpansByDoc
+org.apache.lucene.search.TopDocs: *org.apache.lucene.search.ScoreDoc[]* [public] scoreDocs [no-stores]
+org.apache.lucene.search.TopFieldDocs: *org.apache.lucene.search.SortField[]* [public] fields [no-stores]
+org.apache.lucene.store.MMapDirectory$MultiMMapIndexInput: *java.nio.ByteBuffer[]* [private] buffers
+org.apache.lucene.util.PriorityQueue: *java.lang.Object[]* [protected] heap
+org.apache.lucene.util.ScorerDocQueue: *org.apache.lucene.util.ScorerDocQueue$HeapedScorerDoc[]* [private] [final] heap
+
+N-CYCLES
+========
+[org/apache/lucene/index/IndexFileDeleter, org/apache/lucene/index/DocumentsWriter$WaitQueue, org/apache/lucene/index/DocumentsWriter$ByteBlockAllocator, org/apache/lucene/index/DocumentsWriter$FlushState, org/apache/lucene/index/DocFieldConsumer, org/apache/lucene/index/DocFieldProcessor, org/apache/lucene/index/DocumentsWriter, org/apache/lucene/index/IndexWriter]
+[org/apache/lucene/index/SegmentMerger$CheckAbort, org/apache/lucene/index/CompoundFileWriter]
+[org/apache/lucene/index/CompoundFileReader, org/apache/lucene/index/TermVectorsReader, org/apache/lucene/index/SegmentTermEnum, org/apache/lucene/index/TermInfosReader, org/apache/lucene/index/FieldsReader, org/apache/lucene/index/SegmentReader]
+[org/apache/lucene/index/DefaultSkipListWriter, org/apache/lucene/index/TermInfosWriter, org/apache/lucene/index/SegmentMerger]
+[org/apache/lucene/index/IntBlockPool, org/apache/lucene/index/TermsHashPerThread]
+[org/apache/lucene/index/TermVectorsTermsWriter$PerDoc, org/apache/lucene/index/TermVectorsTermsWriterPerThread]
+[org/apache/lucene/search/BooleanScorer2$Coordinator, org/apache/lucene/search/BooleanScorer2]
+[org/apache/lucene/util/ScorerDocQueue$HeapedScorerDoc, org/apache/lucene/util/ScorerDocQueue]
+[org/apache/log4j/varia/ExternallyRolledFileAppender, org/apache/log4j/varia/HUP]
+[org/apache/lucene/search/FilterManager, org/apache/lucene/search/FilterManager$FilterCleaner]
+[org/apache/log4j/lf5/viewer/configure/ConfigurationManager, org/apache/log4j/lf5/viewer/LogBrokerMonitor]
+[org/apache/log4j/net/SocketHubAppender$ServerMonitor, org/apache/log4j/net/SocketHubAppender]
+[org/apache/lucene/search/spans/NearSpansUnordered$CellQueue, org/apache/lucene/search/spans/NearSpansUnordered$SpansCell, org/apache/lucene/search/spans/NearSpansUnordered]
+[org/apache/log4j/net/TelnetAppender, org/apache/log4j/net/TelnetAppender$SocketHandler]
+[org/apache/log4j/net/SocketAppender$Connector, org/apache/log4j/net/SocketAppender]

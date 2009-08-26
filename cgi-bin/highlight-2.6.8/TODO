@@ -1,0 +1,5 @@
+
+Planned for highlight 2.3:
+
+-integration of regular expressions in language definitions
+-evaluation of special commands within comments (to insert raw html, css boxes, hyperlinks...)

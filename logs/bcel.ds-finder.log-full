@@ -1,0 +1,127 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.bcel.generic.FieldGen: *java.lang.Object* [private] value
+
+Linked List-like Data Structures:
+org.apache.bcel.generic.InstructionHandle: next/prev
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.apache.bcel.generic.ArrayType: *org.apache.bcel.generic.Type* [private] basic_type
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.apache.bcel.classfile.DescendingVisitor: *java.util.Stack* [private] stack
+org.apache.bcel.generic.ClassGen: *java.util.List* [private] field_vec
+org.apache.bcel.generic.ClassGen: *java.util.List* [private] method_vec
+org.apache.bcel.generic.ClassGen: *java.util.List* [private] attribute_vec
+org.apache.bcel.generic.ClassGen: *java.util.List* [private] interface_vec
+org.apache.bcel.generic.ClassGen: *java.util.ArrayList* [private] observers
+org.apache.bcel.generic.ConstantPoolGen: *java.util.Map* [private] string_table
+org.apache.bcel.generic.ConstantPoolGen: *java.util.Map* [private] class_table
+org.apache.bcel.generic.ConstantPoolGen: *java.util.Map* [private] utf8_table
+org.apache.bcel.generic.ConstantPoolGen: *java.util.Map* [private] n_a_t_table
+org.apache.bcel.generic.ConstantPoolGen: *java.util.Map* [private] cp_table
+org.apache.bcel.generic.FieldGen: *java.util.List* [private] observers
+org.apache.bcel.generic.FieldGenOrMethodGen: *java.util.List* [private] attribute_vec
+org.apache.bcel.generic.InstructionHandle: *java.util.Set* [private] targeters
+org.apache.bcel.generic.InstructionHandle: *java.util.Map* [private] attributes
+org.apache.bcel.generic.InstructionList: *java.util.List* [private] observers
+org.apache.bcel.generic.MethodGen: *java.util.List* [private] variable_vec
+org.apache.bcel.generic.MethodGen: *java.util.List* [private] line_number_vec
+org.apache.bcel.generic.MethodGen: *java.util.List* [private] exception_vec
+org.apache.bcel.generic.MethodGen: *java.util.List* [private] throws_vec
+org.apache.bcel.generic.MethodGen: *java.util.List* [private] code_attrs_vec
+org.apache.bcel.generic.MethodGen: *java.util.List* [private] observers
+org.apache.bcel.generic.MethodGen$BranchStack: *java.util.Stack* branchTargets
+org.apache.bcel.generic.MethodGen$BranchStack: *java.util.Hashtable* visitedTargets
+org.apache.bcel.util.BCELFactory: *java.util.Map* [private] branch_map
+org.apache.bcel.util.BCELFactory: *java.util.List* [private] branches
+org.apache.bcel.util.ClassLoader: *java.util.Hashtable* [private] classes
+org.apache.bcel.util.ClassLoaderRepository: *java.util.Map* [private] loadedClasses
+org.apache.bcel.util.ClassQueue: *java.util.LinkedList* [protected] vec
+org.apache.bcel.util.ClassSet: *java.util.Map* [private] _map
+org.apache.bcel.util.ClassStack: *java.util.Stack* [private] stack
+org.apache.bcel.util.ClassVector: *java.util.List* [protected] vec
+org.apache.bcel.util.SyntheticRepository: *java.util.Map* [private] _loadedClasses
+org.apache.bcel.verifier.PassVerifier: *java.util.List* [private] messages
+org.apache.bcel.verifier.statics.IntList: *java.util.List* [private] theList
+org.apache.bcel.verifier.statics.LocalVariableInfo: *java.util.Hashtable* [private] types
+org.apache.bcel.verifier.statics.LocalVariableInfo: *java.util.Hashtable* [private] names
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor: *java.util.Set* [private] field_names
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor: *java.util.Set* [private] field_names_and_desc
+org.apache.bcel.verifier.statics.Pass2Verifier$CPESSC_Visitor: *java.util.Set* [private] method_names_and_desc
+org.apache.bcel.verifier.structurals.ControlFlowGraph: *java.util.Hashtable* [private] instructionContexts
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl: *java.util.Map* [private] inFrames
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl: *java.util.Map* [private] outFrames
+org.apache.bcel.verifier.structurals.ControlFlowGraph$InstructionContextImpl: *java.util.ArrayList* [private] executionPredecessors
+org.apache.bcel.verifier.structurals.ExceptionHandlers: *java.util.Hashtable* [private] exceptionhandlers
+org.apache.bcel.verifier.structurals.OperandStack: *java.util.ArrayList* [private] stack
+org.apache.bcel.verifier.structurals.Pass3bVerifier$InstructionContextQueue: *java.util.List* [private] ics
+org.apache.bcel.verifier.structurals.Pass3bVerifier$InstructionContextQueue: *java.util.List* [private] ecs
+org.apache.bcel.verifier.structurals.Subroutines: *java.util.Hashtable* [private] subroutines
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl: *java.util.Set* [private] instructions
+org.apache.bcel.verifier.structurals.Subroutines$SubroutineImpl: *java.util.Set* [private] theJSRs
+org.apache.bcel.verifier.Verifier: *java.util.Map* [private] p3avs
+org.apache.bcel.verifier.Verifier: *java.util.Map* [private] p3bvs
+org.apache.bcel.verifier.VerifierFactoryListModel: *java.util.ArrayList* [private] listeners
+org.apache.bcel.verifier.VerifierFactoryListModel: *java.util.TreeSet* [private] cache
+
+ARRAYS REPORT
+=============
+
+org.apache.bcel.classfile.ClassParser: *org.apache.bcel.classfile.Field[]* [private] fields
+org.apache.bcel.classfile.ClassParser: *org.apache.bcel.classfile.Method[]* [private] methods
+org.apache.bcel.classfile.ClassParser: *org.apache.bcel.classfile.Attribute[]* [private] attributes
+org.apache.bcel.classfile.Code: *org.apache.bcel.classfile.CodeException[]* [private] exception_table [arraycopy]
+org.apache.bcel.classfile.Code: *org.apache.bcel.classfile.Attribute[]* [private] attributes [arraycopy]
+org.apache.bcel.classfile.ConstantPool: *org.apache.bcel.classfile.Constant[]* [private] constant_pool
+org.apache.bcel.classfile.FieldOrMethod: *org.apache.bcel.classfile.Attribute[]* [protected] attributes
+org.apache.bcel.classfile.InnerClasses: *org.apache.bcel.classfile.InnerClass[]* [private] inner_classes
+org.apache.bcel.classfile.JavaClass: *java.lang.String[]* [private] interface_names [hashcode]
+org.apache.bcel.classfile.JavaClass: *org.apache.bcel.classfile.Field[]* [private] fields [hashcode]
+org.apache.bcel.classfile.JavaClass: *org.apache.bcel.classfile.Method[]* [private] methods [hashcode]
+org.apache.bcel.classfile.JavaClass: *org.apache.bcel.classfile.Attribute[]* [private] attributes [hashcode]
+org.apache.bcel.classfile.LineNumberTable: *org.apache.bcel.classfile.LineNumber[]* [private] line_number_table
+org.apache.bcel.classfile.LocalVariableTable: *org.apache.bcel.classfile.LocalVariable[]* [private] local_variable_table
+org.apache.bcel.classfile.StackMap: *org.apache.bcel.classfile.StackMapEntry[]* [private] map
+org.apache.bcel.classfile.StackMapEntry: *org.apache.bcel.classfile.StackMapType[]* [private] types_of_locals
+org.apache.bcel.classfile.StackMapEntry: *org.apache.bcel.classfile.StackMapType[]* [private] types_of_stack_items
+org.apache.bcel.generic.ConstantPoolGen: *org.apache.bcel.classfile.Constant[]* [protected] constants [arraycopy]
+org.apache.bcel.generic.InstructionFactory$MethodObject: *org.apache.bcel.generic.Type[]* arg_types [no-stores]
+org.apache.bcel.generic.MethodGen: *org.apache.bcel.generic.Type[]* [private] arg_types [hashcode]
+org.apache.bcel.generic.MethodGen: *java.lang.String[]* [private] arg_names [hashcode]
+org.apache.bcel.generic.Select: *org.apache.bcel.generic.InstructionHandle[]* [protected] targets [mod]
+org.apache.bcel.generic.SWITCH: *org.apache.bcel.generic.InstructionHandle[]* [private] targets [arraycopy]
+org.apache.bcel.generic.TargetLostException: *org.apache.bcel.generic.InstructionHandle[]* [private] targets [no-stores]
+org.apache.bcel.util.ClassLoader: *java.lang.String[]* [private] ignored_packages
+org.apache.bcel.util.ClassPath: *org.apache.bcel.util.ClassPath$PathEntry[]* [private] paths [no-stores] [hashcode]
+org.apache.bcel.util.CodeHTML: *org.apache.bcel.classfile.Method[]* [private] methods [no-stores] [mod]
+org.apache.bcel.util.ConstantHTML: *java.lang.String[]* [private] constant_ref [mod]
+org.apache.bcel.util.ConstantHTML: *org.apache.bcel.classfile.Constant[]* [private] constants [mod]
+org.apache.bcel.util.ConstantHTML: *org.apache.bcel.classfile.Method[]* [private] methods [mod]
+org.apache.bcel.util.InstructionFinder: *org.apache.bcel.generic.InstructionHandle[]* [private] handles [no-stores] [arraycopy]
+org.apache.bcel.verifier.statics.LocalVariablesInfo: *org.apache.bcel.verifier.statics.LocalVariableInfo[]* [private] localVariableInfos
+org.apache.bcel.verifier.statics.Pass2Verifier: *org.apache.bcel.verifier.statics.LocalVariablesInfo[]* [private] localVariablesInfos [no-stores]
+org.apache.bcel.verifier.structurals.LocalVariables: *org.apache.bcel.generic.Type[]* [private] locals
+
+N-CYCLES
+========
+[org/apache/bcel/verifier/statics/Pass1Verifier, org/apache/bcel/verifier/Verifier, org/apache/bcel/verifier/statics/Pass2Verifier]
+[org/apache/bcel/classfile/DescendingVisitor, org/apache/bcel/verifier/statics/Pass2Verifier$CPESSC_Visitor]
+[org/apache/bcel/verifier/VerifyDialog$IvjEventHandler, org/apache/bcel/verifier/VerifyDialog]

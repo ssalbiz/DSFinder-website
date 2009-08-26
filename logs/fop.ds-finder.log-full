@@ -1,0 +1,450 @@
+DSFinder has run for 0 min. 10 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.fop.area.Trait: *java.lang.Object* [private] data
+org.apache.fop.fonts.FontCache: *java.lang.Object* [private] changeLock
+org.apache.fop.hyphenation.HyphenationTree: *org.apache.fop.hyphenation.TernaryTree* [private] ivalues
+org.apache.fop.render.afp.exceptions.NestedRuntimeException: *java.lang.Throwable* [private] underlyingException
+org.apache.fop.render.awt.viewer.PreviewPanel: *javax.swing.JPanel* [private] gridPanel
+org.apache.fop.render.pcl.PCLGraphics2D: *java.awt.Graphics2D* [private] fmg
+org.apache.fop.svg.PDFGraphics2D: *java.awt.Graphics2D* [private] fmg
+
+Linked List-like Data Structures:
+org.apache.fop.fo.FOText: [private] nextFOTextThisBlock/prevFOTextThisBlock
+org.apache.fop.fo.properties.PropertyCache$CacheEntry: nextEntry
+org.apache.fop.layoutmgr.BreakingAlgorithm$KnuthNode: [public] next/previous
+org.apache.fop.layoutmgr.PositionIterator: *java.lang.Object* [private] nextObj
+org.apache.fop.pdf.PDFOutline: [private] next/prev
+
+Parent- and outer-type Data Structures:
+org.apache.fop.area.inline.InlineArea: *org.apache.fop.area.Area* [private] parentArea
+org.apache.fop.fo.FONode: [protected] parent
+org.apache.fop.fo.PropertyList: [protected] parentPropertyList
+org.apache.fop.layoutmgr.inline.AlignmentContext: [private] parentAlignmentContext
+org.apache.fop.pdf.PDFObject: [private] parent
+org.apache.fop.pdf.PDFOutline: [private] parent
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfElement: *org.apache.fop.render.rtf.rtflib.rtfdoc.RtfContainer* [protected] [final] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.apache.fop.pdf.PDFOutline: [private] first
+org.apache.fop.pdf.PDFOutline: [private] last
+Non-Object Fields:
+org.apache.fop.area.inline.Viewport: *org.apache.fop.area.Area* [private] content
+org.apache.fop.fo.flow.table.GridUnit: *org.apache.fop.fo.flow.table.PrimaryGridUnit* [private] primary
+org.apache.fop.fo.FObj: *org.apache.fop.fo.FONode* [protected] firstChild
+org.apache.fop.fo.FObjMixed: *org.apache.fop.fo.FONode* [protected] currentTextNode
+org.apache.fop.fo.properties.CompoundPropertyMaker: *org.apache.fop.fo.properties.PropertyMaker* [private] shorthandMaker
+org.apache.fop.fo.properties.CondLengthProperty: *org.apache.fop.fo.properties.Property* [private] length
+org.apache.fop.fo.properties.EnumLength: *org.apache.fop.fo.properties.Property* [private] enumProperty
+org.apache.fop.fo.properties.KeepProperty: *org.apache.fop.fo.properties.Property* [private] withinLine
+org.apache.fop.fo.properties.KeepProperty: *org.apache.fop.fo.properties.Property* [private] withinColumn
+org.apache.fop.fo.properties.KeepProperty: *org.apache.fop.fo.properties.Property* [private] withinPage
+org.apache.fop.fo.properties.LengthPairProperty: *org.apache.fop.fo.properties.Property* [private] ipd
+org.apache.fop.fo.properties.LengthPairProperty: *org.apache.fop.fo.properties.Property* [private] bpd
+org.apache.fop.fo.properties.LengthRangeProperty: *org.apache.fop.fo.properties.Property* [private] minimum
+org.apache.fop.fo.properties.LengthRangeProperty: *org.apache.fop.fo.properties.Property* [private] optimum
+org.apache.fop.fo.properties.LengthRangeProperty: *org.apache.fop.fo.properties.Property* [private] maximum
+org.apache.fop.fo.properties.SpaceProperty: *org.apache.fop.fo.properties.Property* [private] precedence
+org.apache.fop.fo.properties.SpaceProperty: *org.apache.fop.fo.properties.Property* [private] conditionality
+org.apache.fop.fo.RecursiveCharIterator: *org.apache.fop.fo.CharIterator* [private] curCharIter
+org.apache.fop.fonts.LazyFont: *org.apache.fop.fonts.Typeface* [private] realFont
+org.apache.fop.hyphenation.HyphenationTree: *org.apache.fop.hyphenation.TernaryTree* [protected] classmap
+org.apache.fop.layoutmgr.inline.FootnoteLayoutManager: *org.apache.fop.layoutmgr.inline.InlineStackingLayoutManager* [private] citationLM
+org.apache.fop.layoutmgr.NonLeafPosition: *org.apache.fop.layoutmgr.Position* [private] subPos
+org.apache.fop.layoutmgr.SpaceResolver$SpaceHandlingBreakPosition: *org.apache.fop.layoutmgr.Position* [private] originalPosition
+org.apache.fop.render.java2d.CustomFontMetricsMapper: *org.apache.fop.fonts.Typeface* [private] typeface
+org.apache.fop.render.ps.PSPageDeviceDictionary: *org.apache.fop.render.ps.PSDictionary* [private] unRetrievedContentDictionary
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfContainer: *org.apache.fop.render.rtf.rtflib.rtfdoc.RtfElement* [private] lastChild
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfFile: *org.apache.fop.render.rtf.rtflib.rtfdoc.RtfContainer* [private] listTableContainer
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfFootnote: *org.apache.fop.render.rtf.rtflib.rtfdoc.RtfContainer* body
+java.lang.Object Fields:
+org.apache.fop.area.Trait: *java.lang.Object* [private] propType
+org.apache.fop.pdf.PDFCMap: *java.lang.Object* [protected] base
+org.apache.fop.pdf.PDFDestination: *java.lang.Object* [private] goToReference
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.apache.fop.area.BlockParent: *java.util.List* [protected] children
+org.apache.fop.fo.pagination.bookmarks.Bookmark: *java.util.ArrayList* [private] childBookmarks
+org.apache.fop.layoutmgr.AbstractLayoutManager: *java.util.List* [protected] childLMs
+org.apache.fop.layoutmgr.BlockLayoutManager: *java.util.List* [protected] childBreaks
+org.apache.fop.layoutmgr.inline.BidiLayoutManager: *java.util.List* [private] children
+org.apache.fop.layoutmgr.inline.ICLayoutManager: *java.util.List* [private] childrenLM
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfContainer: *java.util.LinkedList* [private] children
+==
+org.apache.fop.apps.FopFactory: *java.util.Set* [private] ignoredNamespaces
+org.apache.fop.apps.FormattingResults: *java.util.List* [private] pageSequences
+org.apache.fop.apps.FOUserAgent: *java.util.Map* [private] rendererOptions
+org.apache.fop.area.Area: *java.util.Map* [protected] props
+org.apache.fop.area.AreaTreeModel: *java.util.List* [private] pageSequenceList
+org.apache.fop.area.AreaTreeModel: *java.util.List* [private] offDocumentItems
+org.apache.fop.area.AreaTreeObject: *java.util.Map* [protected] foreignAttributes
+org.apache.fop.area.AreaTreeParser$Handler: *java.util.Map* [private] makers
+org.apache.fop.area.AreaTreeParser$Handler: *java.util.Map* [private] pageViewportsByKey
+org.apache.fop.area.AreaTreeParser$Handler: *java.util.Set* [private] idFirstsAssigned
+org.apache.fop.area.AreaTreeParser$Handler: *java.util.Stack* [private] areaStack
+org.apache.fop.area.AreaTreeParser$Handler: *java.util.Stack* [private] delegateStack
+org.apache.fop.area.BookmarkData: *java.util.List* [private] subData
+org.apache.fop.area.BookmarkData: *java.util.Map* [private] unresolvedIDRefs
+org.apache.fop.area.CachedRenderPagesModel: *java.util.Map* [private] pageMap
+org.apache.fop.area.IDTracker: *java.util.Map* [private] idLocations
+org.apache.fop.area.IDTracker: *java.util.Map* [private] unresolvedIDRefs
+org.apache.fop.area.IDTracker: *java.util.Set* [private] unfinishedIDs
+org.apache.fop.area.IDTracker: *java.util.Set* [private] alreadyResolvedIDs
+org.apache.fop.area.inline.Container: *java.util.List* [protected] blocks
+org.apache.fop.area.inline.InlineParent: *java.util.List* [protected] inlines
+org.apache.fop.area.LineArea: *java.util.List* [private] inlineAreas
+org.apache.fop.area.MainReference: *java.util.List* [private] spanAreas
+org.apache.fop.area.Page: *java.util.Map* [private] unresolved
+org.apache.fop.area.PageSequence: *java.util.List* [private] pages
+org.apache.fop.area.PageViewport: *java.util.Set* [private] idFirsts
+org.apache.fop.area.PageViewport: *java.util.Map* [private] unresolvedIDRefs
+org.apache.fop.area.PageViewport: *java.util.Map* [private] pendingResolved
+org.apache.fop.area.PageViewport: *java.util.Map* [private] markerFirstStart
+org.apache.fop.area.PageViewport: *java.util.Map* [private] markerLastStart
+org.apache.fop.area.PageViewport: *java.util.Map* [private] markerFirstAny
+org.apache.fop.area.PageViewport: *java.util.Map* [private] markerLastEnd
+org.apache.fop.area.PageViewport: *java.util.Map* [private] markerLastAny
+org.apache.fop.area.PageViewport: *java.util.List* [private] extensionAttachments
+org.apache.fop.area.RegionReference: *java.util.ArrayList* [private] blocks
+org.apache.fop.area.RenderPagesModel: *java.util.List* [protected] prepared
+org.apache.fop.area.RenderPagesModel: *java.util.List* [private] pendingODI
+org.apache.fop.area.RenderPagesModel: *java.util.List* [private] endDocODI
+org.apache.fop.area.Span: *java.util.List* [private] flowAreas
+org.apache.fop.cli.CommandLineOptions: *java.util.Map* [private] renderingOptions
+org.apache.fop.cli.CommandLineOptions: *java.util.Vector* [private] xsltParams
+org.apache.fop.cli.InputHandler: *java.util.Vector* [private] xsltParams
+org.apache.fop.fo.ElementMapping: *java.util.HashMap* [protected] foObjs
+org.apache.fop.fo.ElementMappingRegistry: *java.util.Map* [protected] fobjTable
+org.apache.fop.fo.ElementMappingRegistry: *java.util.Map* [protected] namespaces
+org.apache.fop.fo.expr.PropertyInfo: *java.util.Stack* [private] stkFunction
+org.apache.fop.fo.flow.Marker: *java.util.Map* [private] descendantPropertyLists
+org.apache.fop.fo.flow.table.CollapsingBorderResolver: *java.util.List* [private] previousRow
+org.apache.fop.fo.flow.table.CollapsingBorderResolver: *java.util.List* [private] footerFirstRow
+org.apache.fop.fo.flow.table.CollapsingBorderResolver: *java.util.List* [private] footerLastRow
+org.apache.fop.fo.flow.table.CollapsingBorderResolver: *java.util.List* [private] leadingBorders
+org.apache.fop.fo.flow.table.CollapsingBorderResolver: *java.util.List* [private] trailingBorders
+org.apache.fop.fo.flow.table.CollapsingBorderResolver: *java.util.List* [private] headerLastRow
+org.apache.fop.fo.flow.table.EffRow: *java.util.List* [private] gridUnits
+org.apache.fop.fo.flow.table.FixedColRowGroupBuilder: *java.util.List* [private] rows
+org.apache.fop.fo.flow.table.FixedColRowGroupBuilder: *java.util.List* [private] lastRow
+org.apache.fop.fo.flow.table.PrimaryGridUnit: *java.util.LinkedList* [private] elements
+org.apache.fop.fo.flow.table.PrimaryGridUnit: *java.util.List* [private] rows
+org.apache.fop.fo.flow.table.Table: *java.util.List* [private] columns
+org.apache.fop.fo.flow.table.TableBody: *java.util.List* [private] rowGroups
+org.apache.fop.fo.flow.table.TableCellContainer: *java.util.List* [protected] pendingSpans
+org.apache.fop.fo.flow.table.VariableColRowGroupBuilder: *java.util.List* [private] events
+org.apache.fop.fo.FObj: *java.util.List* [private] extensionAttachments
+org.apache.fop.fo.FObj: *java.util.Map* [private] foreignAttributes
+org.apache.fop.fo.FObj: *java.util.Map* [private] markers
+org.apache.fop.fo.FOEventHandler: *java.util.Set* [private] idReferences
+org.apache.fop.fo.pagination.bookmarks.BookmarkTree: *java.util.ArrayList* [private] bookmarks
+org.apache.fop.fo.pagination.Declarations: *java.util.Map* [private] colorProfiles
+org.apache.fop.fo.pagination.LayoutMasterSet: *java.util.Map* [private] simplePageMasters
+org.apache.fop.fo.pagination.LayoutMasterSet: *java.util.Map* [private] pageSequenceMasters
+org.apache.fop.fo.pagination.PageSequence: *java.util.Map* [private] flowMap
+org.apache.fop.fo.pagination.PageSequenceMaster: *java.util.List* [private] subSequenceSpecifiers
+org.apache.fop.fo.pagination.RepeatablePageMasterAlternatives: *java.util.List* [private] conditionalPageMasterRefs
+org.apache.fop.fo.pagination.Root: *java.util.List* [private] destinationList
+org.apache.fop.fo.pagination.Root: *java.util.List* [private] pageSequences
+org.apache.fop.fo.pagination.SimplePageMaster: *java.util.Map* [private] regions
+org.apache.fop.fo.properties.ListProperty: *java.util.List* [protected] list
+org.apache.fop.fo.properties.PropertyMaker: *java.util.Map* [private] enums
+org.apache.fop.fo.properties.PropertyMaker: *java.util.Map* [private] keywords
+org.apache.fop.fo.XMLWhiteSpaceHandler: *java.util.List* [private] pendingInlines
+org.apache.fop.fo.XMLWhiteSpaceHandler: *java.util.Stack* [private] nestedBlockStack
+org.apache.fop.fonts.AbstractCodePointMapping: *java.util.Map* [private] fallbackMap
+org.apache.fop.fonts.CIDFont: *java.util.Map* [public] usedGlyphs
+org.apache.fop.fonts.CIDFont: *java.util.Map* [public] usedGlyphsIndex
+org.apache.fop.fonts.CIDFont: *java.util.Map* [public] usedCharsIndex
+org.apache.fop.fonts.CustomFont: *java.util.Set* [private] familyNames
+org.apache.fop.fonts.CustomFont: *java.util.Map* [private] kerning
+org.apache.fop.fonts.EmbedFontInfo: *java.util.List* [protected] fontTriplets
+org.apache.fop.fonts.FontCache: *java.util.Map* [private] fontMap
+org.apache.fop.fonts.FontCache: *java.util.Map* [private] failedFontMap
+org.apache.fop.fonts.FontInfo: *java.util.Map* [private] usedFonts
+org.apache.fop.fonts.FontInfo: *java.util.Map* [private] triplets
+org.apache.fop.fonts.FontInfo: *java.util.Map* [private] tripletPriorities
+org.apache.fop.fonts.FontInfo: *java.util.Map* [private] fonts
+org.apache.fop.fonts.FontInfo: *java.util.Collection* [private] loggedFontKeys
+org.apache.fop.fonts.FontInfo: *java.util.Map* [private] fontInstanceCache
+org.apache.fop.fonts.FontReader: *java.util.List* [private] cidWidths
+org.apache.fop.fonts.FontReader: *java.util.Map* [private] currentKerning
+org.apache.fop.fonts.FontReader: *java.util.List* [private] bfranges
+org.apache.fop.fonts.SingleByteFont: *java.util.Set* [private] warnedChars
+org.apache.fop.fonts.truetype.TTFFile: *java.util.Map* [protected] dirTabs
+org.apache.fop.fonts.truetype.TTFFile: *java.util.Map* [private] kerningTab
+org.apache.fop.fonts.truetype.TTFFile: *java.util.Map* [private] ansiKerningTab
+org.apache.fop.fonts.truetype.TTFFile: *java.util.List* [private] cmaps
+org.apache.fop.fonts.truetype.TTFFile: *java.util.List* [private] unicodeMapping
+org.apache.fop.fonts.truetype.TTFFile: *java.util.Set* [private] familyNames
+org.apache.fop.fonts.truetype.TTFFile: *java.util.Map* [private] ansiIndex
+org.apache.fop.fonts.truetype.TTFFile: *java.util.Map* [private] glyphToUnicodeMap
+org.apache.fop.fonts.truetype.TTFFile: *java.util.Map* [private] unicodeToGlyphMap
+org.apache.fop.fonts.truetype.TTFMtxEntry: *java.util.List* [private] unicodeIndex
+org.apache.fop.fonts.type1.AFMFile: *java.util.List* [private] charMetrics
+org.apache.fop.fonts.type1.AFMFile: *java.util.Map* [private] charNameToMetrics
+org.apache.fop.fonts.type1.AFMFile: *java.util.Map* [private] kerningMap
+org.apache.fop.fonts.type1.PFMFile: *java.util.Map* [private] kerningTab
+org.apache.fop.hyphenation.HyphenationTree: *java.util.HashMap* [protected] stoplist
+org.apache.fop.hyphenation.HyphenationTreeCache: *java.util.Hashtable* [private] hyphenTrees
+org.apache.fop.hyphenation.HyphenationTreeCache: *java.util.Set* [private] missingHyphenationTrees
+org.apache.fop.hyphenation.PatternParser: *java.util.ArrayList* exception
+org.apache.fop.hyphenation.TernaryTree$Iterator: *java.util.Stack* ns
+org.apache.fop.layoutmgr.AbstractBreaker: *java.util.List* [private] blockLists
+org.apache.fop.layoutmgr.AbstractLayoutManager: *java.util.Map* [private] markers
+org.apache.fop.layoutmgr.BlockContainerLayoutManager$BlockContainerBreaker: *org.apache.fop.layoutmgr.AbstractBreaker$BlockSequence* [private] deferredOriginalList
+org.apache.fop.layoutmgr.BlockContainerLayoutManager$BlockContainerBreaker: *org.apache.fop.layoutmgr.AbstractBreaker$BlockSequence* [private] deferredEffectiveList
+org.apache.fop.layoutmgr.BlockStackingLayoutManager: *java.util.LinkedList* [protected] storedList
+org.apache.fop.layoutmgr.BreakElement: *java.util.List* [private] pendingBeforeMarks
+org.apache.fop.layoutmgr.BreakElement: *java.util.List* [private] pendingAfterMarks
+org.apache.fop.layoutmgr.BreakingAlgorithm: *org.apache.fop.layoutmgr.KnuthSequence* [protected] par
+org.apache.fop.layoutmgr.inline.InlineStackingLayoutManager: *java.util.HashMap* [private] hmPrevIPD
+org.apache.fop.layoutmgr.inline.LeaderLayoutManager: *java.util.LinkedList* [private] contentList
+org.apache.fop.layoutmgr.inline.LineLayoutManager: *java.util.List* [private] knuthParagraphs
+org.apache.fop.layoutmgr.inline.LineLayoutManager: *java.util.List* [private] lineLayoutsList
+org.apache.fop.layoutmgr.inline.LineLayoutPossibilities: *java.util.List* [private] possibilitiesList
+org.apache.fop.layoutmgr.inline.LineLayoutPossibilities: *java.util.List* [private] savedPossibilities
+org.apache.fop.layoutmgr.inline.LineLayoutPossibilities$Possibility: *java.util.List* [private] breakPositions
+org.apache.fop.layoutmgr.inline.TextLayoutManager: *java.util.ArrayList* [private] vecAreaInfo
+org.apache.fop.layoutmgr.inline.TextLayoutManager: *java.util.LinkedList* [private] changeList
+org.apache.fop.layoutmgr.KnuthBlockBox: *java.util.LinkedList* [private] footnoteList
+org.apache.fop.layoutmgr.KnuthBlockBox: *java.util.LinkedList* [private] elementLists
+org.apache.fop.layoutmgr.LayoutContext: *java.util.List* [private] pendingAfterMarks
+org.apache.fop.layoutmgr.LayoutContext: *java.util.List* [private] pendingBeforeMarks
+org.apache.fop.layoutmgr.LayoutManagerMapping: *java.util.Map* [private] makers
+org.apache.fop.layoutmgr.list.ListItemLayoutManager: *java.util.LinkedList* [private] labelList
+org.apache.fop.layoutmgr.list.ListItemLayoutManager: *java.util.LinkedList* [private] bodyList
+org.apache.fop.layoutmgr.LMiter: *java.util.List* [protected] listLMs
+org.apache.fop.layoutmgr.PageBreakingAlgorithm: *java.util.LinkedList* [private] pageBreaks
+org.apache.fop.layoutmgr.PageBreakingAlgorithm: *java.util.ArrayList* [private] footnotesList
+org.apache.fop.layoutmgr.PageBreakingAlgorithm: *java.util.ArrayList* [private] lengthList
+org.apache.fop.layoutmgr.PageProvider: *java.util.List* [private] cachedPages
+org.apache.fop.layoutmgr.SpaceSpecifier: *java.util.List* [private] spaceVals
+org.apache.fop.layoutmgr.table.ActiveCell: *java.util.List* [private] elementList
+org.apache.fop.layoutmgr.table.ColumnSetup: *java.util.List* [private] columns
+org.apache.fop.layoutmgr.table.ColumnSetup: *java.util.List* [private] colWidths
+org.apache.fop.layoutmgr.table.RowPainter: *java.util.List* [private] rowOffsets
+org.apache.fop.layoutmgr.table.RowPainter: *java.util.List* [private] tablePartBackgroundAreas
+org.apache.fop.layoutmgr.table.TableContentLayoutManager: *java.util.LinkedList* [private] headerList
+org.apache.fop.layoutmgr.table.TableContentLayoutManager: *java.util.LinkedList* [private] footerList
+org.apache.fop.layoutmgr.table.TableContentPosition: *java.util.List* [protected] cellParts
+org.apache.fop.layoutmgr.table.TableHeaderFooterPosition: *java.util.List* [protected] nestedElements
+org.apache.fop.layoutmgr.table.TableHFPenaltyPosition: *java.util.List* [protected] headerElements
+org.apache.fop.layoutmgr.table.TableHFPenaltyPosition: *java.util.List* [protected] footerElements
+org.apache.fop.layoutmgr.table.TableLayoutManager: *java.util.List* [private] columnBackgroundAreas
+org.apache.fop.layoutmgr.table.TableStepper: *java.util.List* [private] activeCells
+org.apache.fop.layoutmgr.table.TableStepper: *java.util.List* [private] nextActiveCells
+org.apache.fop.pdf.PDFAnnotList: *java.util.List* [private] links
+org.apache.fop.pdf.PDFArray: *java.util.List* [protected] values
+org.apache.fop.pdf.PDFCharProcs: *java.util.Map* [protected] keys
+org.apache.fop.pdf.PDFDictionary: *java.util.Map* [protected] entries
+org.apache.fop.pdf.PDFDictionary: *java.util.List* [protected] order
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] location
+org.apache.fop.pdf.PDFDocument: *java.util.List* [private] trailerObjects
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] objects
+org.apache.fop.pdf.PDFDocument: *java.util.Map* [protected] xObjectsMap
+org.apache.fop.pdf.PDFDocument: *java.util.Map* [protected] fontMap
+org.apache.fop.pdf.PDFDocument: *java.util.Map* [protected] filterMap
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] gstates
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] functions
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] shadings
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] patterns
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] links
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] destinations
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] filespecs
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] gotoremotes
+org.apache.fop.pdf.PDFDocument: *java.util.List* [protected] gotos
+org.apache.fop.pdf.PDFFilterList: *java.util.List* [private] filters
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] domain
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] range
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] size
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] encode
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] decode
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] filter
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] cZero
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] cOne
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] functions
+org.apache.fop.pdf.PDFFunction: *java.util.List* [protected] bounds
+org.apache.fop.pdf.PDFGState: *java.util.Map* [private] values
+org.apache.fop.pdf.PDFNumsArray: *java.util.SortedMap* [protected] map
+org.apache.fop.pdf.PDFOutline: *java.util.List* [private] subentries
+org.apache.fop.pdf.PDFPages: *java.util.List* [protected] kids
+org.apache.fop.pdf.PDFPattern: *java.util.List* [protected] bBox
+org.apache.fop.pdf.PDFPattern: *java.util.List* [protected] xUID
+org.apache.fop.pdf.PDFPattern: *java.util.List* [protected] matrix
+org.apache.fop.pdf.PDFResources: *java.util.Map* [protected] fonts
+org.apache.fop.pdf.PDFResources: *java.util.Set* [protected] xObjects
+org.apache.fop.pdf.PDFResources: *java.util.Set* [protected] patterns
+org.apache.fop.pdf.PDFResources: *java.util.Set* [protected] shadings
+org.apache.fop.pdf.PDFResources: *java.util.Set* [protected] gstates
+org.apache.fop.pdf.PDFResources: *java.util.Map* [protected] colorSpaces
+org.apache.fop.pdf.PDFResources: *java.util.Map* [protected] iccColorSpaces
+org.apache.fop.pdf.PDFShading: *java.util.List* [protected] background
+org.apache.fop.pdf.PDFShading: *java.util.List* [protected] bBox
+org.apache.fop.pdf.PDFShading: *java.util.List* [protected] domain
+org.apache.fop.pdf.PDFShading: *java.util.List* [protected] matrix
+org.apache.fop.pdf.PDFShading: *java.util.List* [protected] coords
+org.apache.fop.pdf.PDFShading: *java.util.List* [protected] extend
+org.apache.fop.pdf.PDFShading: *java.util.List* [protected] decode
+org.apache.fop.pdf.PDFState: *java.util.List* [private] stateStack
+org.apache.fop.pdf.PDFWArray: *java.util.List* [private] entries
+org.apache.fop.render.AbstractRenderer: *java.util.Set* [private] warnedXMLHandlers
+org.apache.fop.render.afp.AFPRenderer: *java.util.HashMap* [private] pageSegmentsMap
+org.apache.fop.render.afp.AFPRenderer: *java.util.HashMap* [private] currentPageFonts
+org.apache.fop.render.afp.AFPRenderer: *java.util.Map* [private] pages
+org.apache.fop.render.afp.AFPRenderer: *java.util.List* [private] viewPortPositions
+org.apache.fop.render.afp.fonts.AFPFontInfo: *java.util.List* [private] fontTriplets
+org.apache.fop.render.afp.fonts.AFPFontReader: *java.util.HashMap* [private] codePages
+org.apache.fop.render.afp.fonts.CharacterSet: *java.util.Map* [private] characterSetOrientations
+org.apache.fop.render.afp.fonts.RasterFont: *java.util.Map* [private] charSets
+org.apache.fop.render.afp.modca.AbstractPageObject: *java.util.List* [protected] objects
+org.apache.fop.render.afp.modca.AbstractPageObject: *java.util.ArrayList* [protected] tagLogicalElements
+org.apache.fop.render.afp.modca.AbstractPageObject: *java.util.ArrayList* [protected] segments
+org.apache.fop.render.afp.modca.ActiveEnvironmentGroup: *java.util.ArrayList* [private] mapCodedFonts
+org.apache.fop.render.afp.modca.ActiveEnvironmentGroup: *java.util.ArrayList* [private] mapPageOverlays
+org.apache.fop.render.afp.modca.Document: *java.util.List* [private] objects
+org.apache.fop.render.afp.modca.MapCodedFont: *java.util.List* [private] fontList
+org.apache.fop.render.afp.modca.MapPageOverlay: *java.util.List* [private] overLays
+org.apache.fop.render.afp.modca.PageGroup: *java.util.List* [private] objects
+org.apache.fop.render.afp.modca.PageGroup: *java.util.List* [private] tagLogicalElements
+org.apache.fop.render.afp.modca.PresentationTextObject: *java.util.ArrayList* [private] presentationTextData
+org.apache.fop.render.afp.modca.ResourceGroup: *java.util.List* [private] overlays
+org.apache.fop.render.java2d.Java2DRenderer: *java.util.List* [protected] pageViewportList
+org.apache.fop.render.java2d.Java2DRenderer: *java.util.Stack* [private] stateStack
+org.apache.fop.render.pcl.PCLRenderer: *java.util.Stack* [private] graphicContextStack
+org.apache.fop.render.pdf.PDFImageHandlerRegistry: *java.util.Map* [private] handlers
+org.apache.fop.render.pdf.PDFImageHandlerRegistry: *java.util.List* [private] handlerList
+org.apache.fop.render.pdf.PDFRenderer: *java.util.Map* [protected] pages
+org.apache.fop.render.pdf.PDFRenderer: *java.util.Map* [protected] pageReferences
+org.apache.fop.render.pdf.PDFRenderer: *java.util.Map* [protected] pvReferences
+org.apache.fop.render.pdf.PDFRenderer: *java.util.Map* [protected] idPositions
+org.apache.fop.render.pdf.PDFRenderer: *java.util.Map* [protected] idGoTos
+org.apache.fop.render.pdf.PDFRenderer: *java.util.List* [protected] unfinishedGoTos
+org.apache.fop.render.pdf.PDFRenderer: *java.util.Map* [protected] filterMap
+org.apache.fop.render.PrintRenderer: *java.util.List* [protected] fontList
+org.apache.fop.render.ps.PSPageDeviceDictionary: *org.apache.fop.render.ps.PSDictionary* [private] unRetrievedContentDictionary
+org.apache.fop.render.ps.PSRenderer: *java.util.List* [private] setupCodeList
+org.apache.fop.render.ps.PSRenderer: *java.util.Map* [private] fontResources
+org.apache.fop.render.ps.PSRenderer: *java.util.Map* [private] formResources
+org.apache.fop.render.ps.PSRenderer: *org.apache.fop.render.ps.PSPageDeviceDictionary* [private] pageDeviceDictionary
+org.apache.fop.render.ps.PSRenderer: *java.util.Collection* [private] headerComments
+org.apache.fop.render.ps.PSRenderer: *java.util.Collection* [private] footerComments
+org.apache.fop.render.ps.ResourceHandler$1: *java.util.Set* [private] [final] filtered
+org.apache.fop.render.RendererContext: *java.util.Map* [private] props
+org.apache.fop.render.RendererFactory: *java.util.Map* [private] rendererMakerMapping
+org.apache.fop.render.RendererFactory: *java.util.Map* [private] eventHandlerMakerMapping
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfAttributes: *java.util.HashMap* [private] values
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfColorTable: *java.util.Hashtable* [private] colorIndex
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfColorTable: *java.util.Vector* [private] colorTable
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfColorTable: *java.util.Hashtable* [private] namedColors
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfExtraRowSet: *java.util.List* [private] [final] cells
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfFontManager: *java.util.Hashtable* [private] fontIndex
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfFontManager: *java.util.Vector* [private] fontTable
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfHeader: *java.util.Map* [private] [final] userProperties
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfListTable: *java.util.LinkedList* [private] lists
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfListTable: *java.util.LinkedList* [private] styles
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfSpaceManager: *java.util.LinkedList* [private] blockAttributes
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfSpaceManager: *java.util.LinkedList* [private] inlineAttributes
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfStyleSheetTable: *java.util.Hashtable* [private] styles
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfStyleSheetTable: *java.util.Hashtable* [private] attrTable
+org.apache.fop.render.rtf.rtflib.rtfdoc.RtfStyleSheetTable: *java.util.Vector* [private] nameTable
+org.apache.fop.render.rtf.rtflib.tools.BuilderContext: *java.util.Stack* [private] [final] containers
+org.apache.fop.render.rtf.rtflib.tools.BuilderContext: *java.util.Stack* [private] [final] tableContexts
+org.apache.fop.render.rtf.rtflib.tools.BuilderContext: *java.util.Stack* [private] [final] builders
+org.apache.fop.render.rtf.rtflib.tools.PercentContext: *java.util.Map* [private] lengthMap
+org.apache.fop.render.rtf.rtflib.tools.PercentContext: *java.util.Map* [private] tableUnitMap
+org.apache.fop.render.rtf.rtflib.tools.TableContext: *java.util.List* [private] [final] colWidths
+org.apache.fop.render.rtf.rtflib.tools.TableContext: *java.util.List* [private] [final] colRowSpanningNumber
+org.apache.fop.render.rtf.rtflib.tools.TableContext: *java.util.List* [private] [final] colRowSpanningAttrs
+org.apache.fop.render.rtf.rtflib.tools.TableContext: *java.util.List* [private] [final] colFirstSpanningCol
+org.apache.fop.render.txt.TXTState: *java.util.LinkedList* [private] stackCTM
+org.apache.fop.render.xml.XMLRenderer: *java.util.List* [protected] extensionAttachments
+org.apache.fop.render.XMLHandlerRegistry: *java.util.Map* [private] handlers
+org.apache.fop.tools.anttasks.Fop: *java.util.List* [private] filesets
+org.apache.fop.tools.anttasks.SerializeHyphPattern: *java.util.List* [private] filesets
+org.apache.fop.tools.TestConverter: *java.util.Map* [private] differ
+org.apache.fop.util.ColorSpaceCache: *java.util.Map* [private] colorSpaceMap
+org.apache.fop.util.ContentHandlerFactoryRegistry: *java.util.Map* [private] factories
+org.apache.fop.util.DOM2SAX: *java.util.Map* [private] prefixes
+
+ARRAYS REPORT
+=============
+
+org.apache.fop.area.DestinationData: *java.lang.String[]* [private] idRefs
+org.apache.fop.fo.flow.Marker$MarkerPropertyList: *org.apache.fop.fo.flow.Marker$MarkerAttribute[]* [private] attribs
+org.apache.fop.fo.FONode: *org.apache.fop.fo.FONode[]* [protected] siblings
+org.apache.fop.fo.FOPropertyMapping: *org.apache.fop.fo.properties.Property[]* [private] enums
+org.apache.fop.fo.pagination.PageNumberGenerator: *java.lang.String[]* [private] zeros [mod]
+org.apache.fop.fo.properties.CommonBorderPaddingBackground: *org.apache.fop.fo.properties.CommonBorderPaddingBackground$BorderInfo[]* [private] borderInfo
+org.apache.fop.fo.properties.CommonBorderPaddingBackground: *org.apache.fop.fo.properties.CondLengthProperty[]* [private] padding
+org.apache.fop.fo.properties.CompoundPropertyMaker: *org.apache.fop.fo.properties.PropertyMaker[]* [private] subproperties
+org.apache.fop.fo.properties.FontStretchPropertyMaker: *org.apache.fop.fo.properties.Property[]* [private] orderedFontStretchValues
+org.apache.fop.fo.properties.PropertyCache: *org.apache.fop.fo.properties.PropertyCache$CacheSegment[]* [private] segments [hashcode]
+org.apache.fop.fo.properties.PropertyCache: *org.apache.fop.fo.properties.PropertyCache$CacheEntry[]* [private] table [hashcode]
+org.apache.fop.fo.properties.PropertyMaker: *org.apache.fop.fo.properties.PropertyMaker[]* [private] shorthands [arraycopy]
+org.apache.fop.fo.StaticPropertyList: *org.apache.fop.fo.properties.Property[]* [private] [final] explicit
+org.apache.fop.fo.StaticPropertyList: *org.apache.fop.fo.properties.Property[]* [private] [final] values
+org.apache.fop.fonts.AbstractCodePointMapping: *java.lang.String[]* [private] charNameMap [arraycopy]
+org.apache.fop.fonts.MultiByteFont: *org.apache.fop.fonts.BFEntry[]* [private] bfentries [no-stores] [arraycopy]
+org.apache.fop.fonts.truetype.TTFFile: *org.apache.fop.fonts.truetype.TTFMtxEntry[]* [protected] mtxTab [mod]
+org.apache.fop.fonts.type1.AFMFile: *org.apache.fop.fonts.type1.AFMWritingDirectionMetrics[]* [private] writingDirectionMetrics
+org.apache.fop.layoutmgr.BreakingAlgorithm: *org.apache.fop.layoutmgr.BreakingAlgorithm$KnuthNode[]* [protected] activeLines [arraycopy]
+org.apache.fop.layoutmgr.BreakingAlgorithm$BestRecords: *org.apache.fop.layoutmgr.BreakingAlgorithm$KnuthNode[]* [private] bestNode
+org.apache.fop.layoutmgr.FlowLayoutManager: *org.apache.fop.area.BlockParent[]* [private] currentAreas
+org.apache.fop.layoutmgr.inline.TextLayoutManager: *org.apache.fop.traits.MinOptMax[]* [private] letterAdjustArray [arraycopy]
+org.apache.fop.layoutmgr.SpaceResolver: *org.apache.fop.layoutmgr.UnresolvedListElementWithLength[]* [private] firstPart
+org.apache.fop.layoutmgr.SpaceResolver: *org.apache.fop.layoutmgr.UnresolvedListElementWithLength[]* [private] secondPart
+org.apache.fop.layoutmgr.SpaceResolver: *org.apache.fop.layoutmgr.UnresolvedListElementWithLength[]* [private] noBreak
+org.apache.fop.layoutmgr.SpaceResolver: *org.apache.fop.traits.MinOptMax[]* [private] firstPartLengths
+org.apache.fop.layoutmgr.SpaceResolver: *org.apache.fop.traits.MinOptMax[]* [private] secondPartLengths
+org.apache.fop.layoutmgr.SpaceResolver: *org.apache.fop.traits.MinOptMax[]* [private] noBreakLengths
+org.apache.fop.layoutmgr.table.RowGroupLayoutManager: *org.apache.fop.fo.flow.table.EffRow[]* [private] rowGroup
+org.apache.fop.layoutmgr.table.RowPainter: *org.apache.fop.layoutmgr.table.CellPart[]* [private] firstCellParts
+org.apache.fop.layoutmgr.table.RowPainter: *org.apache.fop.layoutmgr.table.CellPart[]* [private] lastCellParts
+org.apache.fop.layoutmgr.table.TableStepper: *org.apache.fop.fo.flow.table.EffRow[]* [private] rowGroup [no-stores]
+org.apache.fop.render.awt.viewer.PreviewPanel: *org.apache.fop.render.awt.viewer.ImageProxyPanel[]* [private] pagePanels [no-stores]
+org.apache.fop.render.pdf.PDFImageHandlerRegistry: *org.apache.xmlgraphics.image.loader.ImageFlavor[]* [private] supportedFlavors [no-stores]
+org.apache.fop.render.txt.border.BorderManager: *org.apache.fop.render.txt.border.AbstractBorderElement[][]* [private] borderInfo
+org.apache.fop.render.txt.TXTRenderer: *java.lang.StringBuffer[]* [private] charData
+org.apache.fop.render.txt.TXTRenderer: *java.lang.StringBuffer[]* [private] decoData
+org.apache.fop.svg.PDFImageElementBridge: *org.apache.xmlgraphics.image.loader.ImageFlavor[]* [private] [final] supportedFlavors
+org.apache.fop.svg.PDFTextUtil: *org.apache.fop.fonts.Font[]* [private] fonts
+org.apache.fop.tools.anttasks.FileCompare: *java.lang.String[]* [private] filenameList [no-stores]
+
+N-CYCLES
+========
+[org/apache/fop/apps/FopFactoryConfigurator, org/apache/fop/apps/FopFactory]
+[org/apache/fop/fo/FOEventHandler, org/apache/fop/apps/FOUserAgent]
+[org/apache/fop/area/LineArea$LineAdjustingInfo, org/apache/fop/area/LineArea]
+[org/apache/fop/area/RegionReference, org/apache/fop/area/RegionViewport]
+[org/apache/fop/area/inline/InlineArea$InlineAdjustingInfo, org/apache/fop/area/inline/InlineArea]
+[org/apache/fop/fo/properties/CorrespondingPropertyMaker, org/apache/fop/fo/properties/PropertyMaker]
+[org/apache/fop/fo/properties/CommonFont, org/apache/fop/fo/properties/CommonMarginInline, org/apache/fop/fo/flow/InlineLevel]
+[org/apache/fop/fo/properties/CommonRelativePosition, org/apache/fop/fo/flow/Block, org/apache/fop/fo/FOText]
+[org/apache/fop/fo/flow/table/RowGroupBuilder, org/apache/fop/fo/flow/table/TableRow, org/apache/fop/fo/flow/table/TableBody, org/apache/fop/fo/flow/table/Table]
+[org/apache/fop/area/Footnote, org/apache/fop/area/MainReference, org/apache/fop/area/BodyRegion]
+[org/apache/fop/area/inline/AbstractTextArea$TextAdjustingInfo, org/apache/fop/area/inline/AbstractTextArea]
+[org/apache/fop/area/AreaTreeHandler$Statistics, org/apache/fop/area/AreaTreeHandler]
+[org/apache/fop/layoutmgr/table/TableCellLayoutManager, org/apache/fop/fo/flow/table/PrimaryGridUnit]
+[org/apache/fop/layoutmgr/table/TableStepper, org/apache/fop/layoutmgr/table/TableRowIterator, org/apache/fop/layoutmgr/table/TableLayoutManager, org/apache/fop/layoutmgr/table/TableContentLayoutManager, org/apache/fop/layoutmgr/table/RowPainter]
+[org/apache/fop/layoutmgr/BreakingAlgorithm$KnuthNode, org/apache/fop/layoutmgr/BreakingAlgorithm, org/apache/fop/layoutmgr/BreakingAlgorithm$BestRecords]
+[org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager$AreaInfo, org/apache/fop/layoutmgr/inline/LeafNodeLayoutManager]
+[org/apache/fop/fo/flow/table/CollapsingBorderResolver$Resolver, org/apache/fop/fo/flow/table/CollapsingBorderResolver]
+[org/apache/fop/fo/FOTreeBuilder$MainFOHandler, org/apache/fop/fo/FOTreeBuilder, org/apache/fop/apps/Fop]
+[org/apache/fop/pdf/PDFFactory, org/apache/fop/pdf/PDFProfile, org/apache/fop/pdf/PDFDocument]
+[org/apache/fop/render/awt/viewer/PreviewPanel$ViewportScroller, org/apache/fop/render/awt/viewer/PreviewPanel$Reloader, org/apache/fop/render/awt/viewer/PreviewPanel, org/apache/fop/render/awt/viewer/PreviewDialog]
+[org/apache/fop/render/rtf/rtflib/rtfdoc/RtfContainer, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfElement]
+[org/apache/fop/render/rtf/rtflib/rtfdoc/RtfHyperLink, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfParagraph]
+[org/apache/fop/render/rtf/rtflib/rtfdoc/RtfJforCmd, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfListStyle, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfListItem, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfList, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfTableCell, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfTableRow, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfTable, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfSection, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfDocumentArea, org/apache/fop/render/rtf/rtflib/rtfdoc/RtfFile]
+[org/apache/fop/pdf/PDFState$Data, org/apache/fop/pdf/PDFState]

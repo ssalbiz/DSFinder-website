@@ -1,0 +1,120 @@
+# Translation / Çeviri: Orhan Býyýklýoðlu <orhanb@cs.itu.edu.tr> 22/02/2004
+# Updated by André Simon, 16/03/04
+
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+
+M001=&Aç
+M002=&Kapat
+
+M003=&Yardým
+M004=&Lisans
+M005=&Deðiþiklikler
+M006=&Highlight Hakkýnda...
+M007=&Dosya
+M008=D&il
+M009=&Tips
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Dosyalarý seç
+L004=Çýktý biçimi
+L005=CSS bilgisini çýktýya göm
+L006=satýrlara baðlantýlar ekle
+L011=Eklenecek dosya
+L009=Referans verilen CSS dosyasý:
+L010=Renk temasý:
+L013=satýr numaralarý ekle
+L014=baþlýk ve son bilgisi ekleme
+L008=indeks dosyasý oluþtur
+L015=Dosyalarý dönüþtür
+L022=Dosya seç
+L002=Çýktý dizini
+L007=Kod biçimi:
+L025=Hata
+L026=Lütfen Highlight programýný yeniden baþlatýn...
+L027=uzun satýrlarý kaydýr
+L028=Intelligent wrap
+L029=escape quotes
+L030=Tab width:
+L031=Fill with zeroes
+L032=Write to source directories
+L033=Remove selection
+L034=Error summary
+L035=style
+L036=Encoding:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Bilgi
+L023=Tamamlandý: %d dosya %ld ms sürede.
+L003=Listeyi temizle
+L016=<Hiçbir dosya seçilmedi>
+L020=Lütfen geçerli bir çýktý dizini belirtiniz.
+L021=Lütfen CSS çýkýþ dosyasýný belirtiniz.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Sadece C, C++, C# ve Java dosyalarý yeniden düzenlenebilir.
+E001=Notepad.exe açýlýrken hata!
+E002=Dil taným dosyasý %s.lang bulunamadý!
+E003=Açýlamadý:
+E004=Yazýlamadý:
+E005=Temalar okunamýyor. Hatalý kurulum.
+E006=Yapýlandýrma dosyasýnýn yazýlmasýnda hata!
+E007=Ýndeks dosyasý oluþturulamadý.
+E008=Could not read file extensions. Check installation.
+E009=Could not read indentation schemes. Check installation.
+E010=Could not reformat:
+
+
+T001=Dönüþtürmek istediðiniz kaynak dosyalarýný ekleyiniz. Sürükle býrak yöntemini kullanabilirsiniz.
+T002=Bir çýktý dizini seçiniz.
+T003=CSS tanýmýnda kullanýlacak CSS girdi dosyasýný seçiniz.
+T004=Girdi dosyalarý listesini temizler.
+T005=CSS çýktý dosyasýnýn adý.
+T006=CSS girdi dosyasýnýn yolu.
+T007=Çýktý dizininin yolu.
+T008=Çýktý dosyalarýnda CSS tanýmýný bulundurur.
+T009=Çýktý dosyalarýna HTML baþlýk ve son bilgisi eklemez.
+T010=Satýr numaralarý ekler.
+T011=Satýr numaralarýna HTML baðlantýlarý ekler.
+T012=C, C++, C# ve Java kaynak kodlarýný yeniden biçimlendirir ve girintiler.
+T013=Çýktý biçimlerinden birini seçiniz.
+T014=Girdi dosyalarýnýn dönüþtürülmesi iþlemini baþlatýr.
+T015=Çýktý dosyalarýna baðlantýlar içeren bir indeks dosyasý yaratýr.
+T016=Bir biçimlendirme ve girintileme biçimi seçiniz.
+T017=Beðendiðiniz bir renk temasý seçiniz.
+T018=80 (satýr numaralarý ekle seçeneði açýksa 75) karakterden uzun satýrlarý kaydýrýr.
+T019=Wrap lines and indent statements and function parameters.
+T020=Escape quotes with \dq. Useful when using the German package in LaTeX.
+T021=Replace tabs by chosen number of spaces (do not replace if value equals zero).
+T022=Fill leading space of line numbers with zeroes.
+T023=Save output in the directories of the input files.
+T024=Remove selected entries from input file list.
+T025=Use an output encoding, which matches the input file encoding.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Hazýr.
+L017=Dosyalar iþleniyor....

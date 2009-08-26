@@ -1,0 +1,66 @@
+DSFinder has run for 0 min. 2 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.commons.lang.exception.NestableError: *java.lang.Throwable* [private] cause
+org.apache.commons.lang.exception.NestableException: *java.lang.Throwable* [private] cause
+org.apache.commons.lang.exception.NestableRuntimeException: *java.lang.Throwable* [private] cause
+org.apache.commons.lang.IntHashMap$Entry: *java.lang.Object* value
+org.apache.commons.lang.mutable.MutableObject: *java.lang.Object* [private] value
+org.apache.commons.lang.NotImplementedException: *java.lang.Throwable* [private] cause
+org.apache.commons.lang.time.DurationFormatUtils$Token: *java.lang.Object* [private] value
+
+Linked List-like Data Structures:
+org.apache.commons.lang.IntHashMap$Entry: next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.apache.commons.lang.text.CompositeFormat: *java.text.Format* [private] [final] parser
+org.apache.commons.lang.text.CompositeFormat: *java.text.Format* [private] [final] formatter
+java.lang.Object Fields:
+org.apache.commons.lang.builder.ToStringBuilder: *java.lang.Object* [private] [final] object
+org.apache.commons.lang.time.FastDateFormat$Pair: *java.lang.Object* [private] [final] mObj1
+org.apache.commons.lang.time.FastDateFormat$Pair: *java.lang.Object* [private] [final] mObj2
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.apache.commons.lang.CharSet: *java.util.Set* [private] set
+org.apache.commons.lang.Entities$MapIntMap: *java.util.Map* [protected] mapNameToValue
+org.apache.commons.lang.Entities$MapIntMap: *java.util.Map* [protected] mapValueToName
+org.apache.commons.lang.Entities$PrimitiveEntityMap: *java.util.Map* [private] mapNameToValue
+org.apache.commons.lang.enum.Enum$Entry: *java.util.Map* [final] map
+org.apache.commons.lang.enum.Enum$Entry: *java.util.Map* [final] unmodifiableMap
+org.apache.commons.lang.enum.Enum$Entry: *java.util.List* [final] list
+org.apache.commons.lang.enum.Enum$Entry: *java.util.List* [final] unmodifiableList
+org.apache.commons.lang.enums.Enum$Entry: *java.util.Map* [final] map
+org.apache.commons.lang.enums.Enum$Entry: *java.util.Map* [final] unmodifiableMap
+org.apache.commons.lang.enums.Enum$Entry: *java.util.List* [final] list
+org.apache.commons.lang.enums.Enum$Entry: *java.util.List* [final] unmodifiableList
+org.apache.commons.lang.text.ExtendedMessageFormat: *java.util.Map* [private] registry
+org.apache.commons.lang.text.StrLookup$MapStrLookup: *java.util.Map* [private] [final] map
+
+ARRAYS REPORT
+=============
+
+org.apache.commons.lang.builder.ReflectionToStringBuilder: *java.lang.String[]* [private] excludeFieldNames
+org.apache.commons.lang.Entities$ArrayEntityMap: *java.lang.String[]* [protected] names [arraycopy]
+org.apache.commons.lang.Entities$LookupEntityMap: *java.lang.String[]* [private] lookupTable
+org.apache.commons.lang.IntHashMap: *org.apache.commons.lang.IntHashMap$Entry[]* [private] table [mod]
+org.apache.commons.lang.text.StrTokenizer: *java.lang.String[]* [private] tokens [no-stores]
+org.apache.commons.lang.time.FastDateFormat: *org.apache.commons.lang.time.FastDateFormat$Rule[]* [private] mRules [no-stores] [hashcode]
+org.apache.commons.lang.time.FastDateFormat$TextField: *java.lang.String[]* [private] [final] mValues [no-stores]
+
+N-CYCLES
+========

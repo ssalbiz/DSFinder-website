@@ -1,0 +1,391 @@
+DSFinder has run for 0 min. 4 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.xerces.dom.AttrImpl: *java.lang.Object* [protected] value
+org.apache.xerces.dom.DOMErrorImpl: *java.lang.Object* [public] fRelatedData
+org.apache.xerces.dom.ParentNode$UserDataRecord: *java.lang.Object* fData
+org.apache.xerces.dom.PSVIAttrNSImpl: *java.lang.Object* [protected] fActualValue
+org.apache.xerces.dom.PSVIElementNSImpl: *java.lang.Object* [protected] fActualValue
+org.apache.xerces.impl.dtd.XMLContentSpec: *java.lang.Object* [public] value
+org.apache.xerces.impl.dtd.XMLContentSpec: *java.lang.Object* [public] otherValue
+org.apache.xerces.impl.dv.ValidatedInfo: *java.lang.Object* [public] actualValue
+org.apache.xerces.impl.xs.AttributePSVImpl: *java.lang.Object* [protected] fActualValue
+org.apache.xerces.impl.xs.ElementPSVImpl: *java.lang.Object* [protected] fActualValue
+org.apache.xerces.impl.xs.traversers.OneAttr: *java.lang.Object* [public] dfltValue
+org.apache.xerces.impl.xs.XMLSchemaValidator$KeyRefValueStore: *org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreBase* [protected] fKeyValueStore
+org.apache.xerces.util.SymbolHash$Entry: *java.lang.Object* [public] key
+org.apache.xerces.util.SymbolHash$Entry: *java.lang.Object* [public] value
+
+Linked List-like Data Structures:
+org.apache.xerces.dom.ChildNode: [protected] nextSibling/previousSibling
+org.apache.xerces.dom.NodeListCache: next
+org.apache.xerces.impl.xpath.regex.Op: next
+org.apache.xerces.impl.xs.traversers.XSAnnotationInfo: next
+org.apache.xerces.jaxp.validation.SoftReferenceGrammarPool$Entry: [public] next/prev
+org.apache.xerces.util.SoftReferenceSymbolTable$SREntry: [public] next/prev
+org.apache.xerces.util.SymbolHash$Entry: [public] next
+org.apache.xerces.util.SymbolTable$Entry: [public] next
+org.apache.xerces.util.XMLAttributesImpl$Attribute: [public] next
+org.apache.xerces.util.XMLGrammarPoolImpl$Entry: [public] next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.apache.xerces.dom.NodeImpl: [protected] ownerNode
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: [private] fItemType
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: [private] fBase
+org.apache.xerces.impl.xpath.regex.RangeToken: icaseCache
+org.apache.xerces.impl.xs.XSElementDecl: [public] fSubGroup
+org.apache.xerces.xinclude.XIncludeHandler: [protected] fParentXIncludeHandler
+Non-Object Fields:
+org.apache.xerces.dom.ParentNode: *org.apache.xerces.dom.CoreDocumentImpl* [protected] ownerDocument
+org.apache.xerces.dom.ParentNode: *org.apache.xerces.dom.ChildNode* [protected] firstChild
+org.apache.xerces.impl.dtd.models.CMBinOp: *org.apache.xerces.impl.dtd.models.CMNode* [private] [final] fLeftChild
+org.apache.xerces.impl.dtd.models.CMBinOp: *org.apache.xerces.impl.dtd.models.CMNode* [private] [final] fRightChild
+org.apache.xerces.impl.dtd.models.CMUniOp: *org.apache.xerces.impl.dtd.models.CMNode* [private] [final] fChild
+org.apache.xerces.impl.XMLEntityManager$RewindableInputStream: *java.io.InputStream* [private] fInputStream
+org.apache.xerces.impl.xpath.regex.Op$ChildOp: *org.apache.xerces.impl.xpath.regex.Op* child
+org.apache.xerces.impl.xpath.regex.Op$ConditionOp: *org.apache.xerces.impl.xpath.regex.Op* [final] condition
+org.apache.xerces.impl.xpath.regex.Op$ConditionOp: *org.apache.xerces.impl.xpath.regex.Op* [final] yes
+org.apache.xerces.impl.xpath.regex.Op$ConditionOp: *org.apache.xerces.impl.xpath.regex.Op* [final] no
+org.apache.xerces.impl.xpath.regex.Token$ClosureToken: *org.apache.xerces.impl.xpath.regex.Token* [final] child
+org.apache.xerces.impl.xpath.regex.Token$ConcatToken: *org.apache.xerces.impl.xpath.regex.Token* [final] child
+org.apache.xerces.impl.xpath.regex.Token$ConcatToken: *org.apache.xerces.impl.xpath.regex.Token* [final] child2
+org.apache.xerces.impl.xpath.regex.Token$ConditionToken: *org.apache.xerces.impl.xpath.regex.Token* [final] condition
+org.apache.xerces.impl.xpath.regex.Token$ConditionToken: *org.apache.xerces.impl.xpath.regex.Token* [final] yes
+org.apache.xerces.impl.xpath.regex.Token$ConditionToken: *org.apache.xerces.impl.xpath.regex.Token* [final] no
+org.apache.xerces.impl.xpath.regex.Token$ModifierToken: *org.apache.xerces.impl.xpath.regex.Token* [final] child
+org.apache.xerces.impl.xpath.regex.Token$ParenToken: *org.apache.xerces.impl.xpath.regex.Token* [final] child
+org.apache.xerces.impl.xs.models.XSCMBinOp: *org.apache.xerces.impl.dtd.models.CMNode* [private] fLeftChild
+org.apache.xerces.impl.xs.models.XSCMBinOp: *org.apache.xerces.impl.dtd.models.CMNode* [private] fRightChild
+org.apache.xerces.impl.xs.models.XSCMUniOp: *org.apache.xerces.impl.dtd.models.CMNode* [private] fChild
+org.apache.xerces.util.ShadowedSymbolTable: *org.apache.xerces.util.SymbolTable* [protected] fSymbolTable
+org.apache.xerces.util.SynchronizedSymbolTable: *org.apache.xerces.util.SymbolTable* [protected] fSymbolTable
+org.apache.xerces.xni.XNIException: *java.lang.Exception* [private] fException
+java.lang.Object Fields:
+org.apache.xerces.dom.AttrImpl: *java.lang.Object* type
+org.apache.xerces.dom.CoreDocumentImpl: *java.lang.Object* fXPathEvaluator
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *java.lang.Object* [private] fMaxInclusive
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *java.lang.Object* [private] fMaxExclusive
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *java.lang.Object* [private] fMinExclusive
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *java.lang.Object* [private] fMinInclusive
+org.apache.xerces.impl.xs.identity.XPathMatcher: *java.lang.Object* [protected] fMatchedString
+org.apache.xerces.impl.xs.models.XSCMLeaf: *java.lang.Object* [private] [final] fLeaf
+org.apache.xerces.impl.xs.XMLSchemaLoader: *java.lang.Object* [private] fJAXPSource
+org.apache.xerces.impl.xs.XMLSchemaValidator: *java.lang.Object* [protected] fJaxpSchemaSource
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.apache.xerces.impl.xpath.regex.Token$UnionToken: *java.util.Vector* children
+org.apache.xerces.jaxp.validation.DOMResultBuilder: *java.util.ArrayList* [private] [final] fTargetChildren
+==
+org.apache.xerces.dom.ASModelImpl: *java.util.Vector* [protected] fASModels
+org.apache.xerces.dom.CoreDocumentImpl: *java.util.Hashtable* [protected] userData
+org.apache.xerces.dom.CoreDocumentImpl: *java.util.Hashtable* [protected] identifiers
+org.apache.xerces.dom.CoreDocumentImpl: *java.util.Hashtable* [private] nodeTable
+org.apache.xerces.dom.DeepNodeListImpl: *java.util.Vector* [protected] nodes
+org.apache.xerces.dom.DeferredDocumentImpl: *java.util.Vector* [private] [final] fStrChunks
+org.apache.xerces.dom.DocumentImpl: *java.util.Vector* [protected] iterators
+org.apache.xerces.dom.DocumentImpl: *java.util.Vector* [protected] ranges
+org.apache.xerces.dom.DocumentImpl: *java.util.Hashtable* [protected] eventListeners
+org.apache.xerces.dom.DocumentTypeImpl: *java.util.Hashtable* [private] userData
+org.apache.xerces.dom.DOMConfigurationImpl: *java.util.ArrayList* [protected] fComponents
+org.apache.xerces.dom.DOMImplementationListImpl: *java.util.Vector* [private] fImplementations
+org.apache.xerces.dom.DOMNormalizer: *java.util.Vector* [protected] [final] fAttributeList
+org.apache.xerces.dom.DOMNormalizer$XMLAttributesProxy: *java.util.Vector* [protected] [final] fDTDTypes
+org.apache.xerces.dom.DOMNormalizer$XMLAttributesProxy: *java.util.Vector* [protected] [final] fAugmentations
+org.apache.xerces.dom.DOMStringListImpl: *java.util.Vector* [private] fStrings
+org.apache.xerces.dom.NamedNodeMapImpl: *java.util.Vector* [protected] nodes
+org.apache.xerces.impl.dtd.DTDGrammar: *java.util.Hashtable* fElementDeclTab
+org.apache.xerces.impl.dtd.DTDGrammarBucket: *java.util.Hashtable* [protected] [final] fGrammars
+org.apache.xerces.impl.dtd.XMLDTDDescription: *java.util.Vector* [protected] fPossibleRoots
+org.apache.xerces.impl.dtd.XMLDTDProcessor: *java.util.Hashtable* [private] [final] fNDataDeclNotations
+org.apache.xerces.impl.dtd.XMLDTDProcessor: *java.util.Vector* [private] [final] fMixedElementTypes
+org.apache.xerces.impl.dtd.XMLDTDProcessor: *java.util.Vector* [private] [final] fDTDElementDecls
+org.apache.xerces.impl.dtd.XMLDTDProcessor: *java.util.Hashtable* [private] fTableOfIDAttributeNames
+org.apache.xerces.impl.dtd.XMLDTDProcessor: *java.util.Hashtable* [private] fTableOfNOTATIONAttributeNames
+org.apache.xerces.impl.dtd.XMLDTDProcessor: *java.util.Hashtable* [private] fNotationEnumVals
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *java.util.Vector* [private] fPattern
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *java.util.Vector* [private] fPatternStr
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *java.util.Vector* [private] fEnumeration
+org.apache.xerces.impl.dv.XSFacets: *java.util.Vector* [public] enumeration
+org.apache.xerces.impl.dv.XSFacets: *java.util.Vector* [public] enumNSDecls
+org.apache.xerces.impl.validation.ValidationManager: *java.util.Vector* [protected] [final] fVSs
+org.apache.xerces.impl.validation.ValidationState: *java.util.Hashtable* [private] [final] fIdTable
+org.apache.xerces.impl.validation.ValidationState: *java.util.Hashtable* [private] [final] fIdRefTable
+org.apache.xerces.impl.XMLEntityManager: *java.util.Hashtable* [protected] [final] fEntities
+org.apache.xerces.impl.XMLEntityManager: *java.util.Stack* [protected] [final] fEntityStack
+org.apache.xerces.impl.XMLEntityManager: *java.util.Hashtable* [protected] fDeclaredEntities
+org.apache.xerces.impl.XMLEntityManager: *java.util.Stack* [protected] fReaderStack
+org.apache.xerces.impl.XMLErrorReporter: *java.util.Hashtable* [protected] fMessageFormatters
+org.apache.xerces.impl.xpath.regex.Op$UnionOp: *java.util.Vector* [final] branches
+org.apache.xerces.impl.xpath.regex.RegexParser: *java.util.Vector* references
+org.apache.xerces.impl.xpath.XPath$Tokens: *java.util.Hashtable* [private] fSymbolMapping
+org.apache.xerces.impl.xpath.XPath$Tokens: *java.util.Hashtable* [private] fTokenNames
+org.apache.xerces.impl.xs.SchemaGrammar: *java.util.Vector* fImported
+org.apache.xerces.impl.xs.SchemaGrammar: *java.util.Vector* [private] fDocuments
+org.apache.xerces.impl.xs.SchemaGrammar: *java.util.Vector* [private] fLocations
+org.apache.xerces.impl.xs.SubstitutionGroupHandler: *java.util.Hashtable* fSubGroupsB
+org.apache.xerces.impl.xs.SubstitutionGroupHandler: *java.util.Hashtable* fSubGroups
+org.apache.xerces.impl.xs.traversers.LargeContainer: *java.util.Hashtable* items
+org.apache.xerces.impl.xs.traversers.XSAttributeChecker: *java.util.Hashtable* [protected] fNonSchemaAttrs
+org.apache.xerces.impl.xs.traversers.XSAttributeChecker: *java.util.Vector* [protected] fNamespaceList
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [protected] fNotationRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedAttributeRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedAttributeGroupRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedElementRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedGroupRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedIdentityConstraintRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedNotationRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedTypeRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedAttributeRegistrySub
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedAttributeGroupRegistrySub
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedElementRegistrySub
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedGroupRegistrySub
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedIdentityConstraintRegistrySub
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedNotationRegistrySub
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fUnparsedTypeRegistrySub
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fXSDocumentInfoRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fDependencyMap
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fImportMap
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Vector* [private] fAllTNSs
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fLocationPairs
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* fHiddenNodes
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fTraversed
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fDoc2SystemId
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fDoc2XSDocumentMap
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fRedefine2XSDMap
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fRedefine2NSSupport
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fRedefinedRestrictedAttributeGroupRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Hashtable* [private] fRedefinedRestrictedGroupRegistry
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.util.Vector* [private] fReportedTNS
+org.apache.xerces.impl.xs.traversers.XSDocumentInfo: *java.util.Stack* [protected] SchemaNamespaceSupportStack
+org.apache.xerces.impl.xs.traversers.XSDocumentInfo: *java.util.Vector* fImportedNS
+org.apache.xerces.impl.xs.traversers.XSDocumentInfo: *java.util.Vector* [private] fReportedTNS
+org.apache.xerces.impl.xs.util.NSItemListImpl: *java.util.Vector* [private] fVector
+org.apache.xerces.impl.xs.util.StringListImpl: *java.util.Vector* [private] fVector
+org.apache.xerces.impl.xs.XMLSchemaLoader: *java.util.WeakHashMap* [private] fJAXPCache
+org.apache.xerces.impl.xs.XMLSchemaValidator: *java.util.Hashtable* [protected] [final] fLocationPairs
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreBase: *java.util.Vector* [public] [final] fValues
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreBase: *java.util.Vector* [public] fItemValueTypes
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreCache: *java.util.Vector* [protected] [final] fValueStores
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreCache: *java.util.Hashtable* [protected] [final] fIdentityConstraint2ValueStoreMap
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreCache: *java.util.Stack* [protected] [final] fGlobalMapStack
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreCache: *java.util.Hashtable* [protected] [final] fGlobalIDConstraintMap
+org.apache.xerces.impl.xs.XMLSchemaValidator$XSIErrorReporter: *java.util.Vector* fErrors
+org.apache.xerces.impl.xs.XSGrammarBucket: *java.util.Hashtable* fGrammarRegistry
+org.apache.xerces.jaxp.DocumentBuilderFactoryImpl: *java.util.Hashtable* [private] attributes
+org.apache.xerces.jaxp.DocumentBuilderFactoryImpl: *java.util.Hashtable* [private] features
+org.apache.xerces.jaxp.SAXParserFactoryImpl: *java.util.Hashtable* [private] features
+org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser: *java.util.HashMap* [private] fInitFeatures
+org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser: *java.util.HashMap* [private] fInitProperties
+org.apache.xerces.jaxp.UnparsedEntityHandler: *java.util.HashMap* [private] fUnparsedEntities
+org.apache.xerces.jaxp.validation.AbstractXMLSchema: *java.util.HashMap* [private] [final] fFeatures
+org.apache.xerces.jaxp.validation.ValidatorHandlerImpl: *java.util.HashMap* [private] fUnparsedEntities
+org.apache.xerces.jaxp.validation.XMLSchemaValidatorComponentManager: *java.util.HashMap* [private] [final] fComponents
+org.apache.xerces.jaxp.validation.XMLSchemaValidatorComponentManager: *java.util.HashMap* [private] fInitFeatures
+org.apache.xerces.jaxp.validation.XMLSchemaValidatorComponentManager: *java.util.HashMap* [private] fInitProperties
+org.apache.xerces.parsers.AbstractDOMParser: *java.util.Stack* [protected] fBaseURIStack
+org.apache.xerces.parsers.AbstractDOMParser: *java.util.Stack* [protected] fSkippedElemStack
+org.apache.xerces.parsers.BasicParserConfiguration: *java.util.ArrayList* [protected] fComponents
+org.apache.xerces.parsers.DOMParserImpl: *java.util.Vector* [private] fSchemaLocations
+org.apache.xerces.parsers.XML11Configuration: *java.util.ArrayList* [protected] fComponents
+org.apache.xerces.parsers.XML11Configuration: *java.util.ArrayList* [protected] fXML11Components
+org.apache.xerces.parsers.XML11Configuration: *java.util.ArrayList* [protected] fCommonComponents
+org.apache.xerces.parsers.XML11DTDConfiguration: *java.util.ArrayList* [protected] fComponents
+org.apache.xerces.parsers.XML11DTDConfiguration: *java.util.ArrayList* [protected] fXML11Components
+org.apache.xerces.parsers.XML11DTDConfiguration: *java.util.ArrayList* [protected] fCommonComponents
+org.apache.xerces.parsers.XML11NonValidatingConfiguration: *java.util.ArrayList* [protected] fComponents
+org.apache.xerces.parsers.XML11NonValidatingConfiguration: *java.util.ArrayList* [protected] fXML11Components
+org.apache.xerces.parsers.XML11NonValidatingConfiguration: *java.util.ArrayList* [protected] fCommonComponents
+org.apache.xerces.parsers.XMLGrammarPreparser: *java.util.Hashtable* [private] fLoaders
+org.apache.xerces.util.AugmentationsImpl$LargeContainer: *java.util.Hashtable* [final] fAugmentations
+org.apache.xerces.util.HTTPInputSource: *java.util.Map* [protected] fHTTPRequestProperties
+org.apache.xerces.util.JAXPNamespaceContextWrapper: *java.util.List* [private] fPrefixes
+org.apache.xerces.util.ParserConfigurationSettings: *java.util.ArrayList* [protected] fRecognizedProperties
+org.apache.xerces.util.ParserConfigurationSettings: *java.util.HashMap* [protected] fProperties
+org.apache.xerces.util.ParserConfigurationSettings: *java.util.ArrayList* [protected] fRecognizedFeatures
+org.apache.xerces.util.ParserConfigurationSettings: *java.util.HashMap* [protected] fFeatures
+org.apache.xerces.xinclude.XIncludeHandler: *java.util.Stack* [protected] [final] fBaseURI
+org.apache.xerces.xinclude.XIncludeHandler: *java.util.Stack* [protected] [final] fLiteralSystemID
+org.apache.xerces.xinclude.XIncludeHandler: *java.util.Stack* [protected] [final] fExpandedSystemID
+org.apache.xerces.xinclude.XIncludeHandler: *java.util.Stack* [protected] [final] fLanguageStack
+org.apache.xerces.xinclude.XIncludeHandler: *java.util.ArrayList* [private] [final] fNotations
+org.apache.xerces.xinclude.XIncludeHandler: *java.util.ArrayList* [private] [final] fUnparsedEntities
+org.apache.xerces.xpointer.ElementSchemePointer$Tokens: *java.util.Hashtable* [private] fTokenNames
+org.apache.xerces.xpointer.XPointerHandler: *java.util.Vector* [protected] fXPointerParts
+org.apache.xerces.xpointer.XPointerHandler$Tokens: *java.util.Hashtable* [private] fTokenNames
+
+ARRAYS REPORT
+=============
+
+org.apache.xerces.dom.CoreDOMImplementationImpl: *java.lang.ref.SoftReference[]* [private] schemaValidators [arraycopy]
+org.apache.xerces.dom.CoreDOMImplementationImpl: *java.lang.ref.SoftReference[]* [private] xml10DTDValidators [arraycopy]
+org.apache.xerces.dom.CoreDOMImplementationImpl: *java.lang.ref.SoftReference[]* [private] xml11DTDValidators [arraycopy]
+org.apache.xerces.dom.CoreDOMImplementationImpl: *java.lang.ref.SoftReference[]* [private] xml10DTDLoaders [arraycopy]
+org.apache.xerces.dom.CoreDOMImplementationImpl: *java.lang.ref.SoftReference[]* [private] xml11DTDLoaders [arraycopy]
+org.apache.xerces.dom.DeferredDocumentImpl: *java.lang.Object[][]* [protected] fNodeName [arraycopy]
+org.apache.xerces.dom.DeferredDocumentImpl: *java.lang.Object[][]* [protected] fNodeValue [arraycopy]
+org.apache.xerces.dom.DeferredDocumentImpl: *java.lang.Object[][]* [protected] fNodeURI [arraycopy]
+org.apache.xerces.dom.DeferredDocumentImpl: *java.lang.String[]* [protected] fIdName [arraycopy]
+org.apache.xerces.impl.Constants$ArrayEnumeration: *java.lang.Object[]* [private] array [no-stores]
+org.apache.xerces.impl.dtd.DTDGrammar: *org.apache.xerces.xni.QName[][]* [private] fElementDeclName [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *org.apache.xerces.impl.dtd.models.ContentModelValidator[][]* [private] fElementDeclContentModelValidator [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *org.apache.xerces.xni.QName[][]* [private] fAttributeDeclName [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][][]* [private] fAttributeDeclEnumeration [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *org.apache.xerces.impl.dv.DatatypeValidator[][]* [private] fAttributeDeclDatatypeValidator [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fAttributeDeclDefaultValue [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fAttributeDeclNonNormalizedDefaultValue [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.Object[][]* [private] fContentSpecValue [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.Object[][]* [private] fContentSpecOtherValue [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fEntityName [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fEntityValue [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fEntityPublicId [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fEntitySystemId [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fEntityBaseSystemId [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fEntityNotation [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fNotationName [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fNotationPublicId [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fNotationSystemId [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar: *java.lang.String[][]* [private] fNotationBaseSystemId [arraycopy]
+org.apache.xerces.impl.dtd.DTDGrammar$ChildrenList: *org.apache.xerces.xni.QName[]* [public] qname [no-stores]
+org.apache.xerces.impl.dtd.DTDGrammar$QNameHashtable: *java.lang.Object[][]* [private] fHashTable [mod] [arraycopy] [hashcode]
+org.apache.xerces.impl.dtd.models.DFAContentModel: *org.apache.xerces.xni.QName[]* [private] fElemMap [arraycopy]
+org.apache.xerces.impl.dtd.models.DFAContentModel: *org.apache.xerces.impl.dtd.models.CMStateSet[]* [private] fFollowList [arraycopy]
+org.apache.xerces.impl.dtd.models.DFAContentModel: *org.apache.xerces.impl.dtd.models.CMLeaf[]* [private] fLeafList [arraycopy]
+org.apache.xerces.impl.dtd.models.MixedContentModel: *org.apache.xerces.xni.QName[]* [private] [final] fChildren
+org.apache.xerces.impl.dtd.XMLDTDValidator: *org.apache.xerces.xni.QName[]* [private] fElementQNamePartsStack [arraycopy]
+org.apache.xerces.impl.dtd.XMLDTDValidator: *org.apache.xerces.xni.QName[]* [private] fElementChildren [arraycopy]
+org.apache.xerces.impl.dtd.XMLSimpleType: *java.lang.String[]* [public] enumeration [no-stores] [arraycopy]
+org.apache.xerces.impl.dv.DatatypeException: *java.lang.Object[]* [protected] [final] args [no-stores]
+org.apache.xerces.impl.dv.ValidatedInfo: *org.apache.xerces.impl.dv.XSSimpleType[]* [public] memberTypes [no-stores]
+org.apache.xerces.impl.dv.xs.ListDV$ListData: *java.lang.Object[]* [final] data [no-stores] [hashcode]
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl[]* [private] fMemberTypes
+org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl: *org.apache.xerces.xs.ShortList[]* [private] fEnumerationItemType
+org.apache.xerces.impl.io.MalformedByteSequenceException: *java.lang.Object[]* [private] fArguments [no-stores]
+org.apache.xerces.impl.XMLDocumentFragmentScannerImpl: *java.lang.String[]* [private] [final] fStrings [mod] [arraycopy]
+org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$ElementStack: *org.apache.xerces.xni.QName[]* [protected] fElements [arraycopy]
+org.apache.xerces.impl.XMLDocumentScannerImpl: *java.lang.String[]* [private] [final] fStrings [arraycopy]
+org.apache.xerces.impl.XMLDTDScannerImpl: *java.lang.String[]* [private] [final] fStrings [arraycopy]
+org.apache.xerces.impl.XMLDTDScannerImpl: *java.lang.String[]* [private] fEnumeration [arraycopy]
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool: *org.apache.xerces.impl.XMLEntityManager$CharacterBuffer[]* [private] fInternalBufferPool
+org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool: *org.apache.xerces.impl.XMLEntityManager$CharacterBuffer[]* [private] fExternalBufferPool
+org.apache.xerces.impl.xpath.XPath: *org.apache.xerces.impl.xpath.XPath$LocationPath[]* [protected] [final] fLocationPaths
+org.apache.xerces.impl.xpath.XPath$LocationPath: *org.apache.xerces.impl.xpath.XPath$Step[]* [public] [final] steps
+org.apache.xerces.impl.xs.AttributePSVImpl: *java.lang.String[]* [protected] fErrorCodes [no-stores]
+org.apache.xerces.impl.xs.ElementPSVImpl: *java.lang.String[]* [protected] fErrorCodes [no-stores]
+org.apache.xerces.impl.xs.ElementPSVImpl: *org.apache.xerces.impl.xs.SchemaGrammar[]* [protected] fGrammars [no-stores]
+org.apache.xerces.impl.xs.identity.IdentityConstraint: *org.apache.xerces.impl.xs.identity.Field[]* [protected] fFields [arraycopy]
+org.apache.xerces.impl.xs.identity.IdentityConstraint: *org.apache.xerces.impl.xs.XSAnnotationImpl[]* [protected] fAnnotations [arraycopy]
+org.apache.xerces.impl.xs.identity.XPathMatcher: *org.apache.xerces.impl.xpath.XPath$LocationPath[]* [private] [final] fLocationPaths
+org.apache.xerces.impl.xs.identity.XPathMatcher: *org.apache.xerces.util.IntStack[]* [private] [final] fStepIndexes
+org.apache.xerces.impl.xs.models.XSAllCM: *org.apache.xerces.impl.xs.XSElementDecl[]* [private] [final] fAllElements
+org.apache.xerces.impl.xs.models.XSDFACM: *java.lang.Object[]* [private] fElemMap [arraycopy]
+org.apache.xerces.impl.xs.models.XSDFACM: *org.apache.xerces.impl.dtd.models.CMStateSet[]* [private] fFollowList [arraycopy]
+org.apache.xerces.impl.xs.models.XSDFACM: *org.apache.xerces.impl.xs.models.XSCMLeaf[]* [private] fLeafList [arraycopy]
+org.apache.xerces.impl.xs.models.XSDFACM: *org.apache.xerces.impl.xs.models.XSDFACM$Occurence[]* [private] fCountingStates [arraycopy]
+org.apache.xerces.impl.xs.opti.ElementImpl: *org.w3c.dom.Attr[]* attrs [no-stores]
+org.apache.xerces.impl.xs.opti.NamedNodeMapImpl: *org.w3c.dom.Attr[]* attrs [no-stores]
+org.apache.xerces.impl.xs.opti.SchemaDOM: *org.apache.xerces.impl.xs.opti.NodeImpl[][]* relations [arraycopy]
+org.apache.xerces.impl.xs.SchemaGrammar: *org.apache.xerces.impl.xs.XSAnnotationImpl[]* fAnnotations [arraycopy]
+org.apache.xerces.impl.xs.SchemaGrammar: *org.apache.xerces.impl.xs.XSComplexTypeDecl[]* [private] fComplexTypeDecls [arraycopy]
+org.apache.xerces.impl.xs.SchemaGrammar: *org.apache.xerces.impl.xs.util.SimpleLocator[]* [private] fCTLocators [arraycopy]
+org.apache.xerces.impl.xs.SchemaGrammar: *org.apache.xerces.impl.xs.XSGroupDecl[]* [private] fRedefinedGroupDecls [arraycopy]
+org.apache.xerces.impl.xs.SchemaGrammar: *org.apache.xerces.impl.xs.util.SimpleLocator[]* [private] fRGLocators [arraycopy]
+org.apache.xerces.impl.xs.SchemaGrammar: *org.apache.xerces.impl.xs.XSElementDecl[]* [private] fSubGroups [arraycopy]
+org.apache.xerces.impl.xs.SchemaGrammar: *org.apache.xerces.xs.XSNamedMap[]* [private] fComponents [arraycopy]
+org.apache.xerces.impl.xs.SchemaNamespaceSupport$SchemaRootContext: *java.lang.String[]* fNamespace [arraycopy]
+org.apache.xerces.impl.xs.traversers.Container: *org.apache.xerces.impl.xs.traversers.OneAttr[]* values [no-stores]
+org.apache.xerces.impl.xs.traversers.SmallContainer: *java.lang.String[]* keys
+org.apache.xerces.impl.xs.traversers.XSAttributeChecker: *java.lang.Object[][]* fArrayPool [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDAbstractParticleTraverser$ParticleArray: *org.apache.xerces.impl.xs.XSParticleDecl[]* fParticles [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser: *org.apache.xerces.impl.xs.XSAnnotationImpl[]* [private] fAnnotations [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser: *java.lang.Object[]* [private] fGlobalStore [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser$ComplexTypeRecoverableError: *java.lang.Object[]* errorSubstText [no-stores]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *org.apache.xerces.impl.xs.XSParticleDecl[]* [private] fParticle [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *org.w3c.dom.Element[]* [private] fLocalElementDecl [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *org.apache.xerces.impl.xs.traversers.XSDocumentInfo[]* [private] fLocalElementDecl_schema [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *org.apache.xerces.xs.XSObject[]* [private] fParent [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.lang.String[][]* [private] fLocalElemNamespaceContext [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *org.w3c.dom.Element[]* [private] fKeyrefs [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *org.apache.xerces.impl.xs.traversers.XSDocumentInfo[]* [private] fKeyrefsMapXSDocumentInfo [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *org.apache.xerces.impl.xs.XSElementDecl[]* [private] fKeyrefElems [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler: *java.lang.String[][]* [private] fKeyrefNamespaceContext [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDHandler$XSAnnotationGrammarPool: *org.apache.xerces.xni.grammars.Grammar[]* [private] fInitialGrammarSet [arraycopy]
+org.apache.xerces.impl.xs.traversers.XSDocumentInfo: *java.lang.Object[]* [protected] fSchemaAttrs [no-stores]
+org.apache.xerces.impl.xs.util.NSItemListImpl: *org.apache.xerces.xs.XSNamespaceItem[]* [private] fArray [no-stores]
+org.apache.xerces.impl.xs.util.StringListImpl: *java.lang.String[]* [private] fArray [no-stores]
+org.apache.xerces.impl.xs.util.XSNamedMapImpl: *java.lang.String[]* fNamespaces
+org.apache.xerces.impl.xs.util.XSNamedMapImpl: *org.apache.xerces.util.SymbolHash[]* fMaps
+org.apache.xerces.impl.xs.util.XSNamedMapImpl: *org.apache.xerces.xs.XSObject[]* fArray
+org.apache.xerces.impl.xs.util.XSObjectListImpl: *org.apache.xerces.xs.XSObject[]* [private] fArray [arraycopy]
+org.apache.xerces.impl.xs.XMLSchemaException: *java.lang.Object[]* args [no-stores]
+org.apache.xerces.impl.xs.XMLSchemaLoader$LocationArray: *java.lang.String[]* locations [arraycopy]
+org.apache.xerces.impl.xs.XMLSchemaValidator: *org.apache.xerces.impl.xs.XSElementDecl[]* [private] fElemDeclStack [arraycopy]
+org.apache.xerces.impl.xs.XMLSchemaValidator: *org.apache.xerces.impl.xs.XSNotationDecl[]* [private] fNotationStack [arraycopy]
+org.apache.xerces.impl.xs.XMLSchemaValidator: *org.apache.xerces.xs.XSTypeDefinition[]* [private] fTypeStack [arraycopy]
+org.apache.xerces.impl.xs.XMLSchemaValidator: *org.apache.xerces.impl.xs.models.XSCMValidator[]* [private] fCMStack [arraycopy]
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreBase: *org.apache.xerces.impl.xs.identity.Field[]* [protected] fFields
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreBase: *java.lang.Object[]* [protected] fLocalValues
+org.apache.xerces.impl.xs.XMLSchemaValidator$ValueStoreBase: *org.apache.xerces.xs.ShortList[]* [protected] fLocalItemValueTypes
+org.apache.xerces.impl.xs.XMLSchemaValidator$XPathMatcherStack: *org.apache.xerces.impl.xs.identity.XPathMatcher[]* [protected] fMatchers [arraycopy]
+org.apache.xerces.impl.xs.XSAttributeGroupDecl: *org.apache.xerces.impl.xs.XSAttributeUseImpl[]* fAttributeUses [arraycopy]
+org.apache.xerces.impl.xs.XSDDescription: *java.lang.String[]* [protected] fLocationHints [no-stores] [arraycopy] [hashcode]
+org.apache.xerces.impl.xs.XSDeclarationPool: *org.apache.xerces.impl.xs.XSElementDecl[][]* [private] fElementDecl [arraycopy]
+org.apache.xerces.impl.xs.XSDeclarationPool: *org.apache.xerces.impl.xs.XSParticleDecl[][]* [private] fParticleDecl [arraycopy]
+org.apache.xerces.impl.xs.XSDeclarationPool: *org.apache.xerces.impl.xs.XSModelGroupImpl[][]* [private] fModelGroup [arraycopy]
+org.apache.xerces.impl.xs.XSDeclarationPool: *org.apache.xerces.impl.xs.XSAttributeDecl[][]* [private] fAttrDecl [arraycopy]
+org.apache.xerces.impl.xs.XSDeclarationPool: *org.apache.xerces.impl.xs.XSComplexTypeDecl[][]* [private] fCTDecl [arraycopy]
+org.apache.xerces.impl.xs.XSDeclarationPool: *org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl[][]* [private] fSTDecl [arraycopy]
+org.apache.xerces.impl.xs.XSDeclarationPool: *org.apache.xerces.impl.xs.XSAttributeUseImpl[][]* [private] fAttributeUse [arraycopy]
+org.apache.xerces.impl.xs.XSElementDecl: *org.apache.xerces.impl.xs.identity.IdentityConstraint[]* fIDConstraints [arraycopy] [hashcode]
+org.apache.xerces.impl.xs.XSModelGroupImpl: *org.apache.xerces.impl.xs.XSParticleDecl[]* [public] fParticles [no-stores]
+org.apache.xerces.impl.xs.XSModelImpl: *java.lang.String[]* [private] fNamespaces [arraycopy]
+org.apache.xerces.impl.xs.XSModelImpl: *org.apache.xerces.impl.xs.SchemaGrammar[]* [private] fGrammarList [arraycopy]
+org.apache.xerces.impl.xs.XSModelImpl: *org.apache.xerces.xs.XSNamedMap[]* [private] fGlobalComponents [arraycopy]
+org.apache.xerces.impl.xs.XSModelImpl: *org.apache.xerces.xs.XSNamedMap[][]* [private] fNSComponents [arraycopy]
+org.apache.xerces.impl.xs.XSWildcardDecl: *java.lang.String[]* [public] fNamespaceList [arraycopy]
+org.apache.xerces.jaxp.validation.DOMValidatorHelper$DOMNamespaceContext: *java.lang.String[]* [protected] fNamespace [arraycopy]
+org.apache.xerces.jaxp.validation.SimpleXMLSchema: *org.apache.xerces.xni.grammars.Grammar[]* [private] [final] fGrammars
+org.apache.xerces.jaxp.validation.SoftReferenceGrammarPool: *org.apache.xerces.jaxp.validation.SoftReferenceGrammarPool$Entry[]* [protected] fGrammars [mod] [hashcode]
+org.apache.xerces.util.AugmentationsImpl$SmallContainer: *java.lang.Object[]* [final] fAugmentations
+org.apache.xerces.util.AugmentationsImpl$SmallContainer$SmallContainerKeyEnumeration: *java.lang.Object[]* enumArray
+org.apache.xerces.util.NamespaceSupport: *java.lang.String[]* [protected] fNamespace [arraycopy]
+org.apache.xerces.util.NamespaceSupport: *java.lang.String[]* [protected] fPrefixes [arraycopy]
+org.apache.xerces.util.NamespaceSupport$Prefixes: *java.lang.String[]* [private] prefixes [no-stores]
+org.apache.xerces.util.SoftReferenceSymbolTable: *org.apache.xerces.util.SoftReferenceSymbolTable$SREntry[]* [protected] fBuckets [mod]
+org.apache.xerces.util.SymbolHash: *org.apache.xerces.util.SymbolHash$Entry[]* [protected] fBuckets [mod] [hashcode]
+org.apache.xerces.util.SymbolTable: *org.apache.xerces.util.SymbolTable$Entry[]* [protected] fBuckets [mod] [hashcode]
+org.apache.xerces.util.XMLAttributesImpl: *org.apache.xerces.util.XMLAttributesImpl$Attribute[]* [protected] fAttributes [mod] [arraycopy] [hashcode]
+org.apache.xerces.util.XMLAttributesImpl: *org.apache.xerces.util.XMLAttributesImpl$Attribute[]* [protected] fAttributeTableView [mod] [arraycopy] [hashcode]
+org.apache.xerces.util.XMLCatalogResolver: *java.lang.String[]* [private] fCatalogsList [no-stores]
+org.apache.xerces.util.XMLGrammarPoolImpl: *org.apache.xerces.util.XMLGrammarPoolImpl$Entry[]* [protected] fGrammars [mod] [arraycopy] [hashcode]
+org.apache.xerces.xpointer.ElementSchemePointer$Tokens: *java.lang.String[]* [private] [final] fgTokenNames [arraycopy]
+org.apache.xerces.xpointer.XPointerHandler$Tokens: *java.lang.String[]* [private] [final] fgTokenNames [arraycopy]
+
+N-CYCLES
+========
+[org/apache/xerces/dom/DOMNormalizer$XMLAttributesProxy, org/apache/xerces/dom/DOMNormalizer, org/apache/xerces/dom/ParentNode, org/apache/xerces/dom/NodeListCache, org/apache/xerces/dom/CoreDocumentImpl]
+[org/apache/xerces/dom/DocumentImpl$EnclosingAttr, org/apache/xerces/dom/DocumentImpl]
+[org/apache/xerces/impl/xs/XSParticleDecl, org/apache/xerces/impl/xs/XSComplexTypeDecl]
+[org/apache/xerces/impl/xs/identity/Selector, org/apache/xerces/impl/xs/identity/IdentityConstraint]
+[org/apache/xerces/util/AugmentationsImpl$AugmentationsItemsContainer, org/apache/xerces/util/AugmentationsImpl]
+[org/apache/xerces/impl/xs/opti/ElementImpl, org/apache/xerces/impl/xs/opti/SchemaDOM]
+[org/apache/xerces/impl/xs/XMLSchemaValidator$ValueStoreCache, org/apache/xerces/impl/xs/traversers/XSDHandler$XSAnnotationGrammarPool, org/apache/xerces/impl/xs/traversers/SchemaContentHandler, org/apache/xerces/impl/xs/opti/SchemaDOMParser, org/apache/xerces/impl/xs/traversers/XSDSimpleTypeTraverser, org/apache/xerces/impl/xs/XSElementDecl, org/apache/xerces/impl/xs/traversers/XSDElementTraverser, org/apache/xerces/impl/xs/traversers/XSDComplexTypeTraverser, org/apache/xerces/impl/xs/traversers/XSAttributeChecker, org/apache/xerces/impl/xs/SchemaNamespaceSupport$SchemaRootContext, org/apache/xerces/impl/xs/SchemaNamespaceSupport, org/apache/xerces/impl/xs/traversers/XSDocumentInfo, org/apache/xerces/impl/xs/traversers/XSDHandler, org/apache/xerces/impl/xs/XMLSchemaLoader, org/apache/xerces/impl/xs/models/CMBuilder, org/apache/xerces/impl/xs/models/CMNodeFactory, org/apache/xerces/impl/xs/SubstitutionGroupHandler, org/apache/xerces/impl/xs/XMLSchemaValidator$XSIErrorReporter, org/apache/xerces/impl/xs/XMLSchemaValidator, org/apache/xerces/impl/XML11DTDScannerImpl, org/apache/xerces/impl/dtd/XML11NSDTDValidator, org/apache/xerces/impl/XML11DocumentScannerImpl, org/apache/xerces/impl/XML11NSDocumentScannerImpl, org/apache/xerces/impl/dtd/XMLDTDProcessor, org/apache/xerces/impl/dtd/XMLElementDecl, org/apache/xerces/impl/dtd/XMLAttributeDecl, org/apache/xerces/impl/dtd/DTDGrammar, org/apache/xerces/impl/dtd/DTDGrammarBucket, org/apache/xerces/impl/validation/ValidationState, org/apache/xerces/impl/dtd/XMLDTDValidator, org/apache/xerces/impl/XMLDocumentScannerImpl, org/apache/xerces/impl/XMLEntityManager$ScannedEntity, org/apache/xerces/impl/XMLEntityScanner, org/apache/xerces/impl/XMLEntityManager, org/apache/xerces/impl/XMLVersionDetector, org/apache/xerces/parsers/XML11Configuration]
+[org/apache/xerces/jaxp/UnparsedEntityHandler, org/apache/xerces/jaxp/SAXParserImpl$JAXPSAXParser, org/apache/xerces/jaxp/SAXParserImpl]
+[org/apache/xerces/jaxp/JAXPValidatorComponent$SAX2XNI, org/apache/xerces/jaxp/JAXPValidatorComponent]
+[org/apache/xerces/jaxp/validation/SoftReferenceGrammarPool$SoftGrammarReference, org/apache/xerces/jaxp/validation/SoftReferenceGrammarPool$Entry]
+[org/apache/xerces/impl/XMLNamespaceBinder, org/apache/xerces/parsers/DTDConfiguration]
+[org/apache/xerces/jaxp/validation/DOMResultBuilder, org/apache/xerces/jaxp/validation/DOMResultAugmentor, org/apache/xerces/jaxp/validation/XMLSchemaValidatorComponentManager, org/apache/xerces/jaxp/validation/DOMValidatorHelper, org/apache/xerces/jaxp/validation/DOMValidatorHelper$DOMNamespaceContext]
+[org/apache/xerces/xinclude/XIncludeTextReader, org/apache/xerces/util/XMLLocatorWrapper, org/apache/xerces/xinclude/XIncludeHandler]
+[org/apache/xerces/jaxp/validation/StreamValidatorHelper, org/apache/xerces/jaxp/validation/ValidatorHandlerImpl, org/apache/xerces/jaxp/validation/ValidatorImpl]

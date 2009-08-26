@@ -1,0 +1,144 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+com.thoughtworks.xstream.converters.collections.TreeMapConverter$PresortedMap$1: *java.lang.Object* [private] [final] val$key
+com.thoughtworks.xstream.converters.collections.TreeMapConverter$PresortedMap$1: *java.lang.Object* [private] [final] val$value
+com.thoughtworks.xstream.core.util.DependencyInjectionFactory$TypedValue: *java.lang.Object* [final] value
+com.thoughtworks.xstream.core.util.PrioritizedList$PrioritizedItem: *java.lang.Object* [final] value
+com.thoughtworks.xstream.persistence.AbstractFilePersistenceStrategy$XmlMapEntriesIterator$1: *java.lang.Object* [private] [final] key
+com.thoughtworks.xstream.XStreamException: *java.lang.Throwable* [private] cause
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+com.thoughtworks.xstream.io.binary.ReaderDepthState$State: parent
+com.thoughtworks.xstream.io.xml.xppdom.Xpp3Dom: [protected] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+com.thoughtworks.xstream.core.util.ClassLoaderReference: *java.lang.ClassLoader* [private] reference
+java.lang.Object Fields:
+com.thoughtworks.xstream.converters.javabean.JavaBeanConverter$1: *java.lang.Object* [private] [final] val$source
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$1: *java.lang.Object* [private] [final] val$source
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$2: *java.lang.Object* [private] [final] val$source
+com.thoughtworks.xstream.converters.reflection.SelfStreamingInstanceChecker: *java.lang.Object* [private] [final] self
+com.thoughtworks.xstream.converters.reflection.SerializableConverter$1: *java.lang.Object* [private] [final] val$source
+com.thoughtworks.xstream.converters.reflection.SerializableConverter$2: *java.lang.Object* [private] [final] val$result
+com.thoughtworks.xstream.core.TreeUnmarshaller: *java.lang.Object* [private] root
+com.thoughtworks.xstream.core.util.ObjectIdDictionary$IdWrapper: *java.lang.Object* [private] [final] obj
+com.thoughtworks.xstream.core.util.Pool: *java.lang.Object* [private] mutex
+com.thoughtworks.xstream.io.xml.AbstractDocumentReader: *java.lang.Object* [private] current
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+com.thoughtworks.xstream.io.xml.DomReader: *java.util.List* [private] childElements
+com.thoughtworks.xstream.io.xml.xppdom.Xpp3Dom: *java.util.List* [protected] childList
+com.thoughtworks.xstream.io.xml.xppdom.Xpp3Dom: *java.util.Map* [protected] childMap
+==
+com.thoughtworks.xstream.converters.basic.StringConverter: *java.util.Map* [private] [final] cache
+com.thoughtworks.xstream.converters.collections.TreeMapConverter$PresortedMap: *com.thoughtworks.xstream.converters.collections.TreeMapConverter$PresortedMap$ArraySet* [private] [final] set
+com.thoughtworks.xstream.converters.collections.TreeMapConverter$PresortedMap$1: *com.thoughtworks.xstream.converters.collections.TreeMapConverter$PresortedMap* [private] [final] this$0
+com.thoughtworks.xstream.converters.collections.TreeSetConverter$PresortedSet: *java.util.List* [private] [final] list
+com.thoughtworks.xstream.converters.ConversionException: *java.util.Map* [private] stuff
+com.thoughtworks.xstream.converters.javabean.BeanProvider: *java.util.Map* [private] [final] propertyNameCache
+com.thoughtworks.xstream.converters.javabean.PropertyDictionary: *java.util.Map* [private] [final] keyedByPropertyNameCache
+com.thoughtworks.xstream.converters.javabean.PropertyDictionary$OrderRetainingMap: *java.util.List* [private] valueOrder
+com.thoughtworks.xstream.converters.reflection.AbstractAttributedCharacterIteratorAttributeConverter: *java.util.Map* [private] attributeMap
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$1: *java.util.Map* [private] [final] val$defaultFieldDefinition
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$1: *java.util.Set* [private] [final] val$seenFields
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$2: *java.util.Set* [private] [final] val$seenFields
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$2: *java.util.Map* [private] [final] val$defaultFieldDefinition
+com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$SeenFields: *java.util.Set* [private] seen
+com.thoughtworks.xstream.converters.reflection.CGLIBEnhancedConverter: *java.util.Map* [private] fieldCache
+com.thoughtworks.xstream.converters.reflection.CGLIBEnhancedConverter$ReverseEngineeredCallbackFilter: *java.util.Map* [private] [final] callbackIndexMap
+com.thoughtworks.xstream.converters.reflection.CGLIBEnhancedConverter$ReverseEngineeringInvocationHandler: *java.util.Map* [private] [final] indexMap
+com.thoughtworks.xstream.converters.reflection.FieldDictionary: *java.util.Map* [private] keyedByFieldNameCache
+com.thoughtworks.xstream.converters.reflection.FieldDictionary: *java.util.Map* [private] keyedByFieldKeyCache
+com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider: *java.util.Map* [private] serializedDataCache
+com.thoughtworks.xstream.converters.reflection.SerializationMethodInvoker: *java.util.Map* [private] cache
+com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorter: *java.util.Map* [private] [final] map
+com.thoughtworks.xstream.converters.reflection.Sun14ReflectionProvider: *java.util.Map* [private] constructorCache
+com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller: *java.util.Map* [private] values
+com.thoughtworks.xstream.core.DefaultConverterLookup: *java.util.Map* [private] typeToConverterMap
+com.thoughtworks.xstream.core.JVM: *java.util.Map* [private] loaderCache
+com.thoughtworks.xstream.core.MapBackedDataHolder: *java.util.Map* [private] [final] map
+com.thoughtworks.xstream.core.util.CompositeClassLoader: *java.util.List* [private] [final] classLoaders
+com.thoughtworks.xstream.core.util.CustomObjectInputStream$CustomGetField: *java.util.Map* [private] fields
+com.thoughtworks.xstream.core.util.CustomObjectOutputStream$CustomPutField: *java.util.Map* [private] [final] fields
+com.thoughtworks.xstream.core.util.ObjectIdDictionary: *java.util.Map* [private] [final] map
+com.thoughtworks.xstream.core.util.OrderRetainingMap: *com.thoughtworks.xstream.core.util.OrderRetainingMap$ArraySet* [private] keyOrder
+com.thoughtworks.xstream.core.util.OrderRetainingMap: *java.util.List* [private] valueOrder
+com.thoughtworks.xstream.core.util.PrioritizedList: *java.util.Set* [private] [final] set
+com.thoughtworks.xstream.io.binary.BinaryStreamReader$IdRegistry: *java.util.Map* [private] map
+com.thoughtworks.xstream.io.binary.BinaryStreamWriter$IdRegistry: *java.util.Map* [private] ids
+com.thoughtworks.xstream.io.binary.ReaderDepthState$State: *java.util.List* attributes
+com.thoughtworks.xstream.io.xml.AbstractDocumentWriter: *java.util.List* [private] [final] result
+com.thoughtworks.xstream.io.xml.QNameMap: *java.util.Map* [private] qnameToJava
+com.thoughtworks.xstream.io.xml.QNameMap: *java.util.Map* [private] javaToQName
+com.thoughtworks.xstream.io.xml.SaxWriter: *java.util.Map* [private] features
+com.thoughtworks.xstream.io.xml.SaxWriter: *java.util.Map* [private] [final] properties
+com.thoughtworks.xstream.io.xml.SaxWriter: *java.util.List* [private] elementStack
+com.thoughtworks.xstream.io.xml.TraxSource: *java.util.List* [private] source
+com.thoughtworks.xstream.io.xml.XmlFriendlyReplacer: *java.util.Map* [private] escapeCache
+com.thoughtworks.xstream.io.xml.XmlFriendlyReplacer: *java.util.Map* [private] unescapeCache
+com.thoughtworks.xstream.io.xml.xppdom.Xpp3Dom: *java.util.Map* [protected] attributes
+com.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper: *java.util.Map* [protected] [final] aliasToName
+com.thoughtworks.xstream.mapper.AbstractAttributeAliasingMapper: *java.util.Map* [protected] nameToAlias
+com.thoughtworks.xstream.mapper.AnnotationMapper$1: *java.util.Set* [final] val$types
+com.thoughtworks.xstream.mapper.AnnotationMapper$1: *java.util.Set* [final] val$processedTypes
+com.thoughtworks.xstream.mapper.AnnotationMapper$WeakHashSet: *java.util.WeakHashMap* [private] [final] map [Ljava/util/WeakHashMap<TK;Ljava/lang/Object;>;]
+com.thoughtworks.xstream.mapper.AttributeMapper: *java.util.Map* [private] [final] fieldNameToTypeMap
+com.thoughtworks.xstream.mapper.AttributeMapper: *java.util.Set* [private] [final] typeSet
+com.thoughtworks.xstream.mapper.AttributeMapper: *java.util.Set* [private] [final] fieldToUseAsAttribute
+com.thoughtworks.xstream.mapper.CachingMapper: *java.util.Map* [private] realClassCache
+com.thoughtworks.xstream.mapper.ClassAliasingMapper: *java.util.Map* [private] [final] typeToName
+com.thoughtworks.xstream.mapper.ClassAliasingMapper: *java.util.Map* [private] [final] classToName
+com.thoughtworks.xstream.mapper.ClassAliasingMapper: *java.util.Map* [private] nameToType
+com.thoughtworks.xstream.mapper.DefaultImplementationsMapper: *java.util.Map* [private] [final] typeToImpl
+com.thoughtworks.xstream.mapper.DefaultImplementationsMapper: *java.util.Map* [private] implToType
+com.thoughtworks.xstream.mapper.EnumMapper: *java.util.Map* [private] enumConverterMap
+com.thoughtworks.xstream.mapper.FieldAliasingMapper: *java.util.Map* [protected] [final] fieldToAliasMap
+com.thoughtworks.xstream.mapper.FieldAliasingMapper: *java.util.Map* [protected] [final] aliasToFieldMap
+com.thoughtworks.xstream.mapper.FieldAliasingMapper: *java.util.Set* [protected] [final] fieldsToOmit
+com.thoughtworks.xstream.mapper.ImmutableTypesMapper: *java.util.Set* [private] [final] immutableTypes
+com.thoughtworks.xstream.mapper.ImplicitCollectionMapper: *java.util.Map* [private] [final] classNameToMapper
+com.thoughtworks.xstream.mapper.ImplicitCollectionMapper$ImplicitCollectionMapperForClass: *java.util.Map* [private] namedItemTypeToDef
+com.thoughtworks.xstream.mapper.ImplicitCollectionMapper$ImplicitCollectionMapperForClass: *java.util.Map* [private] itemFieldNameToDef
+com.thoughtworks.xstream.mapper.ImplicitCollectionMapper$ImplicitCollectionMapperForClass: *java.util.Map* [private] fieldNameToDef
+com.thoughtworks.xstream.mapper.LocalConversionMapper: *java.util.Map* [private] [final] localConverters
+com.thoughtworks.xstream.mapper.PackageAliasingMapper: *java.util.Map* [private] packageToName
+com.thoughtworks.xstream.mapper.PackageAliasingMapper: *java.util.Map* [protected] nameToPackage
+com.thoughtworks.xstream.persistence.XmlArrayList: *com.thoughtworks.xstream.persistence.XmlMap* [private] [final] map
+com.thoughtworks.xstream.persistence.XmlMap$XmlMapEntries: *com.thoughtworks.xstream.persistence.XmlMap* [private] [final] this$0
+com.thoughtworks.xstream.persistence.XmlSet: *com.thoughtworks.xstream.persistence.XmlMap* [private] [final] map
+
+ARRAYS REPORT
+=============
+
+com.thoughtworks.xstream.converters.basic.DateConverter: *com.thoughtworks.xstream.core.util.ThreadSafeSimpleDateFormat[]* [private] [final] acceptableFormats
+com.thoughtworks.xstream.converters.reflection.SerializableConverter$1: *java.lang.Class[]* [private] [final] val$currentType [no-stores]
+com.thoughtworks.xstream.converters.reflection.SerializableConverter$2: *java.lang.Class[]* [private] [final] val$currentType [no-stores]
+com.thoughtworks.xstream.converters.reflection.SortableFieldKeySorter$FieldComparator: *java.lang.String[]* [private] [final] fieldOrder [no-stores]
+com.thoughtworks.xstream.core.util.FastStack: *java.lang.Object[]* [private] stack [arraycopy]
+com.thoughtworks.xstream.core.util.Pool: *java.lang.Object[]* [private] pool
+com.thoughtworks.xstream.io.path.Path: *java.lang.String[]* [private] [final] chunks [hashcode]
+com.thoughtworks.xstream.io.path.PathTracker: *java.lang.String[]* [private] pathStack [arraycopy]
+com.thoughtworks.xstream.io.path.PathTracker: *java.util.Map[]* [private] indexMapStack [arraycopy]
+com.thoughtworks.xstream.io.xml.Dom4JDriver$1: *com.thoughtworks.xstream.io.HierarchicalStreamWriter[]* [private] [final] val$writer [no-stores]
+com.thoughtworks.xstream.mapper.AnnotationMapper: *java.lang.Object[]* [private] [final] arguments
+com.thoughtworks.xstream.persistence.AbstractFilePersistenceStrategy$XmlMapEntriesIterator: *java.io.File[]* [private] [final] files [no-stores]
+
+N-CYCLES
+========
+[com/thoughtworks/xstream/mapper/LocalConversionMapper, com/thoughtworks/xstream/XStream]
+[com/thoughtworks/xstream/io/binary/BinaryStreamWriter, com/thoughtworks/xstream/io/binary/BinaryStreamWriter$IdRegistry]

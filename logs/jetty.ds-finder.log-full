@@ -1,0 +1,241 @@
+DSFinder has run for 0 min. 3 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.mortbay.component.AbstractLifeCycle: *java.lang.Object* [private] _lock
+org.mortbay.jetty.AbstractConnector: *java.lang.Object* _statsLock
+org.mortbay.jetty.servlet.PathMap$Entry: *java.lang.Object* [private] key
+org.mortbay.jetty.servlet.PathMap$Entry: *java.lang.Object* [private] value
+org.mortbay.servlet.ThrottlingFilter: *java.lang.Object* [private] [final] _lock
+org.mortbay.thread.BoundedThreadPool: *java.lang.Object* [private] [final] _lock
+org.mortbay.thread.BoundedThreadPool: *java.lang.Object* [private] [final] _joinLock
+org.mortbay.thread.QueuedThreadPool: *java.lang.Object* [private] [final] _lock
+org.mortbay.thread.QueuedThreadPool: *java.lang.Object* [private] [final] _threadsLock
+org.mortbay.thread.QueuedThreadPool: *java.lang.Object* [private] [final] _joinLock
+org.mortbay.thread.Timeout: *java.lang.Object* [private] _lock
+org.mortbay.util.StringMap: *java.lang.Object* [protected] _nullValue
+org.mortbay.util.StringMap$Node: *java.lang.Object* _value
+
+Linked List-like Data Structures:
+org.mortbay.jetty.HttpFields$Field: [private] _next
+org.mortbay.jetty.HttpFields$Field: [private] _prev
+org.mortbay.jetty.ResourceCache$Content: _prev
+org.mortbay.jetty.ResourceCache$Content: _next
+org.mortbay.jetty.servlet.ServletHandler$CachedChain: _next
+org.mortbay.thread.Timeout$Task: _next
+org.mortbay.thread.Timeout$Task: _prev
+org.mortbay.util.StringMap$Node: _next
+
+Parent- and outer-type Data Structures:
+org.mortbay.component.Container$Relationship: *java.lang.Object* [private] _parent
+org.mortbay.jetty.webapp.WebAppClassLoader: *java.lang.ClassLoader* [private] _parent
+org.mortbay.xml.XmlParser$Node: _parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.mortbay.io.AbstractBuffer: *org.mortbay.io.View* [protected] _view
+org.mortbay.jetty.handler.AbstractHandler: *org.mortbay.jetty.Server* [private] _server
+org.mortbay.servlet.GzipFilter$GzipStream: *java.io.OutputStream* [protected] _out
+java.lang.Object Fields:
+org.mortbay.component.Container: *java.lang.Object* [private] _listeners
+org.mortbay.component.Container$Relationship: *java.lang.Object* [private] _child
+org.mortbay.jetty.handler.ContextHandler: *java.lang.Object* [private] _contextListeners
+org.mortbay.jetty.handler.ContextHandler: *java.lang.Object* [private] _contextAttributeListeners
+org.mortbay.jetty.handler.ContextHandler: *java.lang.Object* [private] _requestListeners
+org.mortbay.jetty.handler.ContextHandler: *java.lang.Object* [private] _requestAttributeListeners
+org.mortbay.jetty.HttpConnection: *java.lang.Object* [private] _associatedObject
+org.mortbay.jetty.nio.SelectChannelConnector$RetryContinuation: *java.lang.Object* _object
+org.mortbay.jetty.Request: *java.lang.Object* [private] _requestAttributeListeners
+org.mortbay.jetty.Request: *java.lang.Object* [private] _requestListeners
+org.mortbay.jetty.servlet.AbstractSessionManager: *java.lang.Object* [protected] _sessionAttributeListeners
+org.mortbay.jetty.servlet.AbstractSessionManager: *java.lang.Object* [protected] _sessionListeners
+org.mortbay.jetty.servlet.ServletHandler$Chain: *java.lang.Object* _chain
+org.mortbay.jetty.webapp.WebXmlConfiguration: *java.lang.Object* [protected] _filters
+org.mortbay.jetty.webapp.WebXmlConfiguration: *java.lang.Object* [protected] _filterMappings
+org.mortbay.jetty.webapp.WebXmlConfiguration: *java.lang.Object* [protected] _servlets
+org.mortbay.jetty.webapp.WebXmlConfiguration: *java.lang.Object* [protected] _servletMappings
+org.mortbay.jetty.webapp.WebXmlConfiguration: *java.lang.Object* [protected] _welcomeFiles
+org.mortbay.jetty.webapp.WebXmlConfiguration: *java.lang.Object* [protected] _constraintMappings
+org.mortbay.jetty.webapp.WebXmlConfiguration: *java.lang.Object* [protected] _listeners
+org.mortbay.resource.Resource: *java.lang.Object* _associate
+org.mortbay.util.ajax.JSON$1: *java.lang.Object* [private] [final] val$object
+org.mortbay.util.ajax.WaitingContinuation: *java.lang.Object* _mutex
+org.mortbay.util.ajax.WaitingContinuation: *java.lang.Object* _object
+org.mortbay.util.MultiException: *java.lang.Object* [private] nested
+org.mortbay.util.SingletonList: *java.lang.Object* [private] o
+org.mortbay.xml.XmlParser: *java.lang.Object* [private] _xpaths
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.mortbay.io.BufferCache: *java.util.HashMap* [private] _bufferMap
+org.mortbay.io.BufferCache: *org.mortbay.util.StringMap* [private] _stringMap
+org.mortbay.io.BufferCache: *java.util.ArrayList* [private] _index
+org.mortbay.io.BufferCache$CachedBuffer: *java.util.HashMap* [private] _associateMap
+org.mortbay.jetty.bio.SocketConnector: *java.util.Set* [protected] _connections
+org.mortbay.jetty.deployer.ContextDeployer: *java.util.Map* [private] _currentDeployments
+org.mortbay.jetty.deployer.FileConfigurationManager: *java.util.Properties* [private] _properties
+org.mortbay.jetty.deployer.WebAppDeployer: *java.util.ArrayList* [private] _deployed
+org.mortbay.jetty.handler.ContextHandler: *java.util.Map* [private] _initParams
+org.mortbay.jetty.handler.ContextHandler: *java.util.Map* [private] _localeEncodingMap
+org.mortbay.jetty.handler.ContextHandler: *java.util.Set* [private] _connectors
+org.mortbay.jetty.handler.ContextHandler: *java.util.Set* [private] _managedAttributes
+org.mortbay.jetty.handler.ContextHandlerCollection: *org.mortbay.jetty.servlet.PathMap* [private] _contextMap
+org.mortbay.jetty.handler.RewriteHandler: *org.mortbay.jetty.servlet.PathMap* [private] _rewrite
+org.mortbay.jetty.HttpFields: *java.util.ArrayList* [protected] _fields
+org.mortbay.jetty.HttpFields: *java.util.HashMap* [protected] _bufferMap
+org.mortbay.jetty.MimeTypes: *java.util.Map* [private] _mimeMap
+org.mortbay.jetty.NCSARequestLog: *org.mortbay.jetty.servlet.PathMap* [private] _ignorePathMap
+org.mortbay.jetty.NCSARequestLog: *java.util.ArrayList* [private] _buffers
+org.mortbay.jetty.Request: *java.util.Map* [private] _roleMap
+org.mortbay.jetty.Request: *org.mortbay.util.MultiMap* [private] _parameters
+org.mortbay.jetty.Request: *org.mortbay.util.MultiMap* [private] _baseParameters
+org.mortbay.jetty.Request: *java.util.Map* [private] _savedNewSessions
+org.mortbay.jetty.ResourceCache: *java.util.Map* [protected] _cache
+org.mortbay.jetty.security.HashSSORealm: *java.util.HashMap* [private] _ssoId2Principal
+org.mortbay.jetty.security.HashSSORealm: *java.util.HashMap* [private] _ssoUsername2Id
+org.mortbay.jetty.security.HashSSORealm: *java.util.HashMap* [private] _ssoPrincipal2Credential
+org.mortbay.jetty.security.HashUserRealm: *java.util.HashMap* [protected] _users
+org.mortbay.jetty.security.HashUserRealm: *java.util.HashMap* [protected] _roles
+org.mortbay.jetty.security.HashUserRealm$User: *java.util.List* roles
+org.mortbay.jetty.security.HTAccessHandler: *java.util.HashMap* _htCache
+org.mortbay.jetty.security.HTAccessHandler$HTAccess: *java.util.HashMap* _users
+org.mortbay.jetty.security.HTAccessHandler$HTAccess: *java.util.HashMap* _groups
+org.mortbay.jetty.security.HTAccessHandler$HTAccess: *java.util.HashMap* _methods
+org.mortbay.jetty.security.HTAccessHandler$HTAccess: *java.util.HashSet* _requireEntities
+org.mortbay.jetty.security.HTAccessHandler$HTAccess: *java.util.ArrayList* _allowList
+org.mortbay.jetty.security.HTAccessHandler$HTAccess: *java.util.ArrayList* _denyList
+org.mortbay.jetty.security.SecurityHandler: *org.mortbay.jetty.servlet.PathMap* [private] _constraintMap
+org.mortbay.jetty.Server: *java.util.List* [private] _dependentLifeCycles
+org.mortbay.jetty.Server$ShutdownHookThread: *java.util.ArrayList* [private] servers
+org.mortbay.jetty.servlet.AbstractSessionManager$Session: *java.util.Map* [protected] _values
+org.mortbay.jetty.servlet.ErrorPageErrorHandler: *java.util.Map* [protected] _errorPages
+org.mortbay.jetty.servlet.ErrorPageErrorHandler: *java.util.List* [protected] _errorPageList
+org.mortbay.jetty.servlet.HashSessionIdManager: *org.mortbay.util.MultiMap* _sessions
+org.mortbay.jetty.servlet.HashSessionManager: *java.util.Map* [protected] _sessions
+org.mortbay.jetty.servlet.Holder: *java.util.Map* [protected] _initParams
+org.mortbay.jetty.servlet.Invoker: *java.util.Map* [private] _parameters
+org.mortbay.jetty.servlet.PathMap: *org.mortbay.util.StringMap* _prefixMap
+org.mortbay.jetty.servlet.PathMap: *org.mortbay.util.StringMap* _suffixMap
+org.mortbay.jetty.servlet.PathMap: *org.mortbay.util.StringMap* _exactMap
+org.mortbay.jetty.servlet.PathMap: *java.util.List* _defaultSingletonList
+org.mortbay.jetty.servlet.PathMap: *java.util.Set* _entrySet
+org.mortbay.jetty.servlet.ServletHandler: *java.util.Map* [private] _filterNameMap
+org.mortbay.jetty.servlet.ServletHandler: *java.util.List* [private] _filterPathMappings
+org.mortbay.jetty.servlet.ServletHandler: *org.mortbay.util.MultiMap* [private] _filterNameMappings
+org.mortbay.jetty.servlet.ServletHandler: *java.util.Map* [private] _servletNameMap
+org.mortbay.jetty.servlet.ServletHandler: *org.mortbay.jetty.servlet.PathMap* [private] _servletPathMap
+org.mortbay.jetty.servlet.ServletHolder: *java.util.Map* [private] _roleMap
+org.mortbay.jetty.servlet.ServletHolder$SingleThreadedWrapper: *java.util.Stack* _stack
+org.mortbay.jetty.webapp.WebAppClassLoader: *java.util.HashSet* [private] _extensions
+org.mortbay.jetty.webapp.WebAppContext: *java.util.Map* [private] _resourceAliases
+org.mortbay.jetty.webapp.WebXmlConfiguration: *java.util.Map* [protected] _errorPages
+org.mortbay.servlet.CGI$EnvList: *java.util.Map* [private] envMap
+org.mortbay.servlet.GzipFilter: *java.util.Set* [protected] _mimeTypes
+org.mortbay.servlet.GzipFilter: *java.util.Set* [protected] _excluded
+org.mortbay.servlet.MultiPartFilter$Wrapper: *org.mortbay.util.MultiMap* map
+org.mortbay.servlet.ProxyServlet: *java.util.HashSet* [protected] _DontProxyHeaders
+org.mortbay.servlet.ThrottlingFilter: *java.util.List* [private] [final] _queue
+org.mortbay.servlet.UserAgentFilter: *java.util.Map* [private] _agentCache
+org.mortbay.thread.BoundedThreadPool: *java.util.List* [private] _idle
+org.mortbay.thread.BoundedThreadPool: *java.util.List* [private] _queue
+org.mortbay.thread.BoundedThreadPool: *java.util.Set* [private] _threads
+org.mortbay.thread.QueuedThreadPool: *java.util.Set* [private] _threads
+org.mortbay.thread.QueuedThreadPool: *java.util.List* [private] _idle
+org.mortbay.util.ajax.JSON: *java.util.Map* [private] _convertors
+org.mortbay.util.ajax.JSONObjectConvertor: *java.util.Set* [private] _excluded
+org.mortbay.util.ajax.JSONPojoConvertor: *java.util.Map* [protected] _getters
+org.mortbay.util.ajax.JSONPojoConvertor: *java.util.Map* [protected] _setters
+org.mortbay.util.ajax.JSONPojoConvertor: *java.util.Set* [protected] _excluded
+org.mortbay.util.AttributesMap: *java.util.Map* _map
+org.mortbay.util.Scanner: *java.util.List* [private] _listeners
+org.mortbay.util.Scanner: *java.util.Map* [private] _prevScan
+org.mortbay.util.Scanner: *java.util.Map* [private] _currentScan
+org.mortbay.util.Scanner: *java.util.List* [private] _scanDirs
+org.mortbay.util.SingletonList$SIterator: *org.mortbay.util.SingletonList* [private] [final] this$0
+org.mortbay.util.StringMap: *java.util.HashSet* [protected] _entrySet
+org.mortbay.util.StringMap: *java.util.Set* [protected] _umEntrySet
+org.mortbay.util.StringMap$NullEntry: *org.mortbay.util.StringMap* [private] [final] this$0
+org.mortbay.xml.XmlConfiguration: *org.mortbay.xml.XmlParser$Node* [private] _config
+org.mortbay.xml.XmlConfiguration: *java.util.Map* [private] _idMap
+org.mortbay.xml.XmlConfiguration: *java.util.Map* [private] _propertyMap
+org.mortbay.xml.XmlParser: *java.util.Map* [private] _redirectMap
+org.mortbay.xml.XmlParser: *java.util.Map* [private] _observerMap
+org.mortbay.xml.XmlParser: *java.util.Stack* [private] _observers
+org.mortbay.xml.XmlParser$Handler: *org.mortbay.xml.XmlParser$Node* _top
+org.mortbay.xml.XmlParser$Handler: *org.mortbay.xml.XmlParser$Node* [private] _context
+org.mortbay.xml.XmlParser$Node: _parent
+org.mortbay.xml.XmlParser$Node: *java.util.ArrayList* [private] _list
+org.mortbay.xml.XmlParser$Node$1: *org.mortbay.xml.XmlParser$Node* _node
+org.mortbay.xml.XmlParser$Node$1: *org.mortbay.xml.XmlParser$Node* [private] [final] this$0
+
+ARRAYS REPORT
+=============
+
+org.mortbay.component.AbstractLifeCycle: *org.mortbay.component.LifeCycle$Listener[]* [protected] _listeners [no-stores]
+org.mortbay.io.nio.ChannelEndPoint: *java.nio.ByteBuffer[]* [protected] _gather2
+org.mortbay.io.nio.SelectorManager: *org.mortbay.io.nio.SelectorManager$SelectSet[]* [private] _selectSet [mod]
+org.mortbay.io.nio.SelectorManager$SelectSet: *java.util.List[]* [private] _changes [mod]
+org.mortbay.io.SimpleBuffers: *org.mortbay.io.Buffer[]* _buffers
+org.mortbay.jetty.AbstractBuffers$ThreadBuffers: *org.mortbay.io.Buffer[][]* [final] _buffers
+org.mortbay.jetty.AbstractConnector: *java.lang.Thread[]* [private] _acceptorThread [no-stores]
+org.mortbay.jetty.deployer.WebAppDeployer: *java.lang.String[]* [private] _configurationClasses [no-stores]
+org.mortbay.jetty.handler.ContextHandler: *java.lang.String[]* [private] _welcomeFiles [hashcode]
+org.mortbay.jetty.handler.ContextHandler: *java.lang.String[]* [private] _vhosts [hashcode]
+org.mortbay.jetty.handler.ContextHandler: *java.util.EventListener[]* [private] _eventListeners [hashcode]
+org.mortbay.jetty.handler.HandlerCollection: *org.mortbay.jetty.Handler[]* [private] _handlers [no-stores]
+org.mortbay.jetty.handler.ResourceHandler: *java.lang.String[]* _welcomeFiles
+org.mortbay.jetty.HttpFields: *java.text.SimpleDateFormat[]* [protected] _dateReceive [mod]
+org.mortbay.jetty.NCSARequestLog: *java.lang.String[]* [private] _ignorePaths [no-stores] [mod]
+org.mortbay.jetty.Request: *javax.servlet.http.Cookie[]* [private] _cookies
+org.mortbay.jetty.Request: *java.lang.String[]* [private] _lastCookies
+org.mortbay.jetty.security.Constraint: *java.lang.String[]* [private] _roles
+org.mortbay.jetty.security.SecurityHandler: *org.mortbay.jetty.security.ConstraintMapping[]* [private] _constraintMappings [no-stores]
+org.mortbay.jetty.security.SslSocketConnector: *java.lang.String[]* [private] _excludeCipherSuites
+org.mortbay.jetty.security.SslSocketConnector$CachedInfo: *java.security.cert.X509Certificate[]* [private] _certs [no-stores]
+org.mortbay.jetty.Server: *org.mortbay.jetty.Connector[]* [private] _connectors
+org.mortbay.jetty.Server: *org.mortbay.jetty.security.UserRealm[]* [private] _realms
+org.mortbay.jetty.servlet.DefaultServlet: *java.lang.String[]* [private] _welcomes
+org.mortbay.jetty.servlet.FilterMapping: *java.lang.String[]* [private] _pathSpecs
+org.mortbay.jetty.servlet.FilterMapping: *java.lang.String[]* [private] _servletNames
+org.mortbay.jetty.servlet.ServletHandler: *org.mortbay.jetty.servlet.FilterHolder[]* [private] _filters [hashcode]
+org.mortbay.jetty.servlet.ServletHandler: *org.mortbay.jetty.servlet.FilterMapping[]* [private] _filterMappings [hashcode]
+org.mortbay.jetty.servlet.ServletHandler: *org.mortbay.jetty.servlet.ServletHolder[]* [private] _servlets [hashcode]
+org.mortbay.jetty.servlet.ServletHandler: *org.mortbay.jetty.servlet.ServletMapping[]* [private] _servletMappings [hashcode]
+org.mortbay.jetty.servlet.ServletHandler: *java.util.HashMap[]* [protected] _chainCache [hashcode]
+org.mortbay.jetty.servlet.ServletMapping: *java.lang.String[]* [private] _pathSpecs
+org.mortbay.jetty.webapp.WebAppContext: *java.lang.String[]* [private] _configurationClasses [hashcode]
+org.mortbay.jetty.webapp.WebAppContext: *org.mortbay.jetty.webapp.Configuration[]* [private] _configurations [hashcode]
+org.mortbay.jetty.webapp.WebAppContext: *java.lang.String[]* [private] _systemClasses [hashcode]
+org.mortbay.jetty.webapp.WebAppContext: *java.lang.String[]* [private] _serverClasses [hashcode]
+org.mortbay.resource.JarFileResource: *java.lang.String[]* _list [no-stores]
+org.mortbay.resource.ResourceCollection: *org.mortbay.resource.Resource[]* [private] _resources
+org.mortbay.thread.QueuedThreadPool: *java.lang.Runnable[]* [private] _jobs [arraycopy] [hashcode]
+org.mortbay.util.StringMap$Node: *org.mortbay.util.StringMap$Node[]* _children [mod] [arraycopy]
+org.mortbay.xml.XmlParser$Node: *org.mortbay.xml.XmlParser$Attribute[]* [private] _attrs
+
+N-CYCLES
+========
+[org/mortbay/jetty/handler/ContextHandler$SContext, org/mortbay/jetty/handler/ContextHandler]
+[org/mortbay/util/StringMap$NullEntry, org/mortbay/util/StringMap]
+[org/mortbay/jetty/servlet/FilterHolder$Config, org/mortbay/jetty/servlet/FilterHolder]
+[org/mortbay/jetty/servlet/ServletHolder$Config, org/mortbay/jetty/servlet/ServletHolder]
+[org/mortbay/jetty/security/SecurityHandler$NotChecked, org/mortbay/jetty/security/SecurityHandler]
+[org/mortbay/jetty/HttpConnection$OutputWriter, org/mortbay/jetty/HttpConnection$Output, org/mortbay/jetty/Request, org/mortbay/jetty/HttpConnection, org/mortbay/jetty/Response]
+[org/mortbay/jetty/HttpParser$Input, org/mortbay/jetty/HttpParser]
+[org/mortbay/thread/Timeout$Task, org/mortbay/thread/Timeout]
+[org/mortbay/io/nio/SelectorManager$SelectSet, org/mortbay/io/nio/SelectChannelEndPoint]
+[org/mortbay/xml/XmlParser$NoopHandler, org/mortbay/xml/XmlParser$Handler]
+[org/mortbay/jetty/handler/MovedContextHandler, org/mortbay/jetty/handler/MovedContextHandler$Redirector]
+[org/mortbay/jetty/ResourceCache$Content, org/mortbay/jetty/ResourceCache, org/mortbay/jetty/servlet/DefaultServlet, org/mortbay/jetty/servlet/DefaultServlet$NIOResourceCache]
+[org/mortbay/util/RolloverFileOutputStream, org/mortbay/util/RolloverFileOutputStream$RollTask]
+[org/mortbay/jetty/deployer/ContextDeployer$ScannerListener, org/mortbay/jetty/deployer/ContextDeployer]

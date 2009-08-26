@@ -1,0 +1,113 @@
+ BENUTZUNG: highlight [abcdefghijklmnopqrstuvwxyzACDEFHIKLNPRSTUVWXZ]
+                      [-i input file] [-o output file] [-S syntax] [-O outdir]
+                      [-B wildcard] [-H language] [-t num] [-c style_outfile]
+                      [-e style_infile] [-s style] [-D data dir]
+                      [-E add. data dir] [-F format] [-u encoding]
+                      [input files]
+
+ -B, --batch-recursive=<wc>     konvertiert alle Dateien, die dem Wildcard <wc>
+                                entsprechen (Suche erfolgt inkl. Unterverzeichn.)
+                                (Beispiel: highlight -B '*.cpp')
+ -D, --data-dir=<directory>     setzt Pfad zum Installationsverzeichnis
+ -E, --add-data-dir=<directory> setzt zusaezlichen Suchpfad zum Installations-
+                                Verzeichnis
+     --add-config-dir=<dir>     setzt zusaetzliches Konfigurationsverzeichnis
+ -h, --help                     prints english help
+     --help-lang=<lang>         gibt Hilfe in angegebener Sprache aus
+                                <lang> = ["en", "es", "de", "fr"]
+ -i, --input=<file>             Name einer einzelnen Eingabedatei
+ -o, --output=<file>            Name einer einzelnen Ausgabedatei
+ -O, --outdir=<directory>       Name des Ausgabeverzeichnisses
+ -S, --syntax=<type>            gibt den Typ des Quelltextes an
+ -v, --verbose                  gibt Debug-Info nach stderr aus
+ -p, --list-langs               listet installierte Sprachdefinitionen auf
+ -P, --progress                 gibt im Batch-Modus Fortschrittsanzeige aus
+ -q, --quiet                    keine Infos ueber Fortschritt im Batch-Modus
+ -w, --list-themes              listet installierte Themes auf
+     --force                    erzeugt Ausgabe bei unbekanntem Eingabetyp
+     --print-config             gibt Pfad-Konfiguration aus
+     --validate-input           pruefe, ob Eingabe eine gueltige Textdatei ist
+     --version                  gibt Versionshinweis aus
+
+
+ Ausgabeformate:
+
+ -H, --html                     erzeugt HTML (default)
+ -A, --ansi                     erzeugt Terminal-Ausgabe (16 Farben)
+ -L, --latex                    erzeugt LaTeX 
+ -M, --xterm256                 erzeugt Terminal-Ausgabe (256 Farben)
+ -R, --rtf                      erzeugt RTF
+ -T, --tex                      erzeugt TeX
+ -X, --xhtml                    erzeugt XHTML 1.1
+ -Z, --xml                      erzeugt XML
+
+
+ Ausgabe-Optionen:
+
+ -c, --style-outfile=<file>     Name der Style-Definitionsdatei oder Ausgabe nach
+                                stdout, wenn "stdout" als Argument angegeben wird
+ -d, --doc-title=<title>        Titel des Dokuments
+ -e, --style-infile=<file>      Datei, die in style-outfile eingefuegt werden soll
+ -I, --include-style            fuegt Style-Definition in Datei ein
+ -f, --fragment                 Header und Footer weglassen
+ -F, --reformat=<style>         formatiert Ausgabe im angegebenen Stil,
+                                <style> = ["ansi", "gnu", "java", "kr", "linux"]
+ -J, --line-length=<num>        gibt Laenge der Zeilen vor dem Umbruch an (-W, -V)
+ -j, --line-number-length=<num> gibt Weite der Zeilenummern an
+ -k, --font=<font>              gibt Font an (abhaengig von Ausgabeformat)
+ -K, --font-size=<num?>         gibt Schriftgroesse an (abhaengig von Ausgabeformat)
+ -l, --linenumbers              gibt Zeilennummern in Ausgabe aus
+ -m, --line-number-start=<cnt>  beginnt Nummerierung mit cnt (siehe -l)
+ -s, --style=<style>            gibt den zu verwendenden Farbstil an (siehe -w)
+ -t, --replace-tabs=<num>       ersetzt Tabs durch <num> Leerzeichen
+ -u, --encoding=<enc>           setzt Ausgabe-Encoding fuer HTML und XML-Formate,
+                                muss mit Eingabe-Encoding identisch sein;
+                                Encoding-Info wird weggelassen falls enc=NONE
+ -V, --wrap-simple              bricht lange Zeilen um, rueckt Funktionsparameter
+                                und Zuweisungen nicht neu ein
+ -W, --wrap                     bricht lange Zeilen um
+ -z, --zeroes                   fuellt Zeilennummern mit Nullen
+     --kw-case=<case>           change case of case insensitive keywords
+                                <case> =  ['upper', 'lower', 'capitalize']
+
+
+ (X)HTML Optionen:
+
+ -a, --anchors                  fuegt Anker an Zeilennummerierung an
+ -y, --anchor-prefix=<str>      legt Praefix der Ankernamen fest
+ -N, --anchor-filename          verwendet Namen der Eingabedatei als Ankernamen
+ -G, --class-name =<str>        legt CSS Klassennamen-Praefix fest
+ -C, --print-index              erzeugt Indexdatei mit Links auf Ausgabedateien
+ -n, --ordered-list             gibt Zeilen als geordnete Liste aus
+     --inline-css               gibt CSS innerhalb jedes Tags aus (grosse Dateien!)
+     --mark-line="n[=txt]; m"   markiert die Zeilen n..m und fuegt die optionalen
+                                Hilfetexte als Tooltips hinzu
+     --enclose-pre              schliesst fragmentierte Ausgabe in pre-Tag ein
+                                (siehe -f)
+
+ LaTeX Optionen:
+
+ -b, --babel                    deaktiviert Zeichenersetzung durch Babel-Paket
+ -r, --replace-quotes           ersetzt Anfuehrungszeichen durch \dq{}
+                                (setzt -f voraus)
+
+ RTF Optionen:
+
+ -x, --page-size=<ps>           gibt Papierformat an (a3,a4,a5,b4,b5,b6,letter)
+
+
+ -i und -o werden ignoriert, falls -b oder -B gesetzt ist.
+ -t wird ignoriert, falls -F gesetzt ist.
+ -r wird ignoriert, falls -f nicht gesetzt ist.
+ -c wird ignoriert, wenn das Ausgabeformat keine externen Formatdefinitionen
+ unterstuetzt.
+ Wenn keine Ein- oder Ausgabedatei angegeben wird, wird stdin bzw. stdout
+ fuer Ein- oder Ausgabe benutzt.
+ Es wird HTML erzeugt, wenn kein anderes Ausgabeformat angegeben ist.
+ Format-Definitionen werden in highlight.css (HTML, XHTML) bzw. highlight.sty
+ (LaTeX, TeX) gespeichert, wenn weder -I noch -c gesetzt sind.
+ Die Neuformatierung der Ausgabe funktioniert nur mit C, C++, C# und Java Code.
+ Der automatische Zeilenumbruch (-V, -W) fuehrt bei ueberlangen einzeiligen
+ Kommentaren und Direktiven zu fehlerhafter Hervorhebung (vorsichtig einsetzen).
+
+ Updates und Infos: http://www.andre-simon.de/

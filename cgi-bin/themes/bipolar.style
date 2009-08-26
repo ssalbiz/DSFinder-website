@@ -1,0 +1,21 @@
+# bipolar.style
+# This File is part of highlight, a universal source code converter.
+# See README in the highlight directory for documentation.
+
+$DEFAULTCOLOUR=#d149a6
+$BGCOLOUR=#000000
+$FONTSIZE=10
+$KW-GROUP(kwa)=#ee85e2 bold
+$KW-GROUP(kwb)=#aadd8b bold
+$KW-GROUP(kwc)=#72d42c bold
+$KW-GROUP(kwd)=#d51993 bold
+$NUMBER=#ffffff
+$ESCAPECHAR=#9ef457
+$STRING=#9ef457
+$STRING-DIRECTIVE=#9ef457
+$COMMENT=#35d6e5 italic
+$SL-COMMENT=#5aee72 italic
+$DIRECTIVE=#07f6bf
+$LINE=#999999
+$SYMBOL=#348fef
+$MARK-LINE=#454545

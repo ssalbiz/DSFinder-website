@@ -1,0 +1,21 @@
+# desert.style
+# This File is part of highlight, a universal source code converter.
+# See README in the highlight directory for documentation.
+
+$DEFAULTCOLOUR=#fffdec
+$BGCOLOUR=#868063
+$FONTSIZE=10
+
+$KW-GROUP(kwa)=#3c3d47 bold
+$KW-GROUP(kwb)=#fef8bc bold
+$KW-GROUP(kwc)=#000000 bold
+$KW-GROUP(kwd)=#f3d266 bold
+$NUMBER=#3e3f25
+$ESCAPECHAR=#f6f647
+$STRING=#f6f647
+$STRING-DIRECTIVE=#f6f647
+$COMMENT=#500000 
+$DIRECTIVE=#6a2e10
+$LINE=#444444
+$SYMBOL=#444444
+$MARK-LINE=#b1625a

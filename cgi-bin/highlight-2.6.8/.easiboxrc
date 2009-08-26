@@ -1,0 +1,22 @@
+boxFormats = ['tar.gz', 'tar.bz2']
+archiveDestination = "~/archive/"
+
+include("*") 
+include(".easiboxrc") 
+include("examples/*", SUBDIRS) 
+include("src/*", SUBDIRS) 
+exclude("src/*.o", SUBDIRS)
+include("indentSchemes/*") 
+include("themes/*") 
+include("langDefs/*") 
+include("helpmsg/*") 
+include("man/*") 
+include("gui_files/*", SUBDIRS) 
+
+exclude("*.kdevelop*")
+exclude("*.kdevses")
+exclude("src/highlight")
+exclude("src/highlight-gui")
+exclude("*.css")
+exclude("*.html")
+exclude("*~", SUBDIRS)

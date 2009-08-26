@@ -1,0 +1,109 @@
+ Mode d'emploi: highlight [afghlpqrvwzACEILPRTXYVWZ] [-i fichier d'entrée]
+                          [-o fichier de sortie] [-S syntaxe]
+                          [-O répertoire de sortie] [-B wildcard]
+                          [-t num] [-c fichier css de sortie]
+                          [-e fichier css de sortie] [-s style css]
+                          [-D répertoire de highlight] [fichier d'entrée]
+
+ Convertit le code source en fichiers HTML, XHTML, RTF, TeX, LaTeX ou XSL-FO avec
+ la mise en forme syntaxique (formatée en (X)HTML grâce aux feuilles de style en
+ cacade (CSS)).
+
+ -B, --batch-recursive=<wc>     convertit tout les fichiers correspondants;
+                                recherche récursive
+                                (Exemple: highlight -B '*.cpp')
+ -D, --data-dir=<chemin>        indique le chemin d'installation de highlight
+ -E, --add-data-dir=<chemin>    indique un autre chemin d'installation
+     --add-config-dir=<dir>     set path to an additional config directory
+ -h, --help                     affiche cette aide
+     --help-int=<lang>          affiche l'aide dans la langue spécifiée
+                                <lang> = ["en", "es", "de", "fr"]
+ -i, --input=<file>             nom du fichier d'entrée
+ -o, --output=<file>            nom du fichier de sortie
+ -O, --outdir=<directory>       nom du répertoire de sortie
+ -S, --syntax=<type>            spécifie le type de code source
+ -v, --verbose                  affiche les informations de débogage dans stderr
+ -P, --progress                 affiche les informations de progression dans stdout
+ -q, --quiet                    cache les informations de progression
+ -p, --list-langs               affiche les langues installées
+ -w, --list-themes              affiche les styles installés
+     --force                    generate output if language type is unknown
+     --print-config             print path configuration
+     --validate-input           test if input is a valid text file
+     --version                  affiche les information de version et de copyright
+
+
+ Formats de sortie:
+
+ -H, --html                     génère un fichier HTML (default)
+ -A, --ansi                     génère des séquences d'échappement ANSI
+ -L, --latex                    génère un fichier LaTeX
+ -M, --xterm256                 generate terminal output (256 colours)
+ -R, --rtf                      génère un fichier RTF
+ -T, --tex                      génère un fichier TeX
+ -X, --xhtml                    génère un fichier XHTML 1.1
+ -Z, --xml                      génère un fichier XML
+
+
+ Options du format de sortie:
+
+ -c, --style-outfile=<file>     name of style file or output to stdout, if
+                                "stdout" is given as file argument
+ -e, --style-infile=<file>      fichier à inclure dans le fichier de sortie CSS
+ -I, --include-style            inclure la définition CSS dans le fichier
+ -f, --fragment                 omettre l'entête et le pied du fichier (X)HTML
+ -F, --reformat=<style>         reformate et indente la sortie dans le style
+                                spécifié: <style> = ['ansi', 'gnu', 'kr',
+                                'java', 'linux']
+ -J, --line-length=<num>        line length before wrapping (see -W, -V)
+ -j, --line-number-length=<num> line number width incl. left padding
+ -k, --font=<font>              defines font (specific to output format)
+ -K, --font-size=<num?>         defines font size (specific to output format)
+ -l, --linenumbers              affiche les numéros de lignes dans le
+                                fichier de sortie
+ -s, --style=<style>            spécifie le style CSS devant être utilisé
+ -t, --replace-tabs=<num>       remplace les tabulations par <num> espace(s)
+ -V, --wrap-simple              Retour à la ligne automatique sans indenter les
+                                paramètres et les expressions des fonctions
+ -u, --encoding=<enc>           define output encoding which matches input file
+                                encoding; omit encoding info if enc=NONE
+ -W, --wrap                     Retour à la ligne automatique
+ -z, --zeroes                   Remplir les blancs précédant les numéros de
+                                ligne par des zéros
+     --kw-case=<case>           change case of case insensitive keywords
+                                <case> =  ['upper', 'lower', 'capitalize']
+
+Options (X)HTML:
+
+ -a, --anchors                  attache des ancres aux numéros de lignes
+                                (HTML seulement)
+ -y, --anchor-prefix=<str>      define anchor name prefix
+ -N, --anchor-filename          use input file name as anchor name
+ -G, --class-name=<str>         define CSS class name prefix
+ -C, --print-index              crée un fichier index de sortie avec des
+                                hyperliens vers les fichiers de sorties
+     --inline-css               output CSS within each tag (verbose output)
+     --mark-line="n[=txt]; m"   mark given lines n..m and add optional help 
+                                texts as tooltips
+     --enclose-pre              enclose fragmented output with pre tag 
+                                (assumes -f)
+
+Options LaTeX:
+
+ -r, --replace-quotes           remplace les guillemets par \dq{} (-f supposé)
+
+
+ -i et -o seront ignorés si -b est employé
+ -t sera ignoré si -F est employé.
+ -r sera ignoré si -f n'est pas employé.
+ -c sera ignoré si le format de sortie ne supporte pas les fichiers de style référencés.
+ Si aucun des fichiers d'entrée ou de sortie ne sont spécifiés, stdin et stdout
+ seront utilisés pour l'entrée ou la sortie.
+ Du HTML sera généré, si aucun des paramètres -X, -T, -L, ou -R ne sont
+ employés.
+ Les sélécteurs CSS sont définis dans highlight.css (highlight.sty pour LaTeX 
+ et TeX) si aucun des paramètres -c ou -I ne sont employés.
+ Le reformatage du code n'est possible que pour les fichiers d'entrées C, C++,
+ C# et Java.
+
+ Mises a jour et information: http://www.andre-simon.de/

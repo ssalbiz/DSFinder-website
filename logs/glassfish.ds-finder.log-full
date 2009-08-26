@@ -1,0 +1,32 @@
+DSFinder has run for 0 min. 0 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+
+ARRAYS REPORT
+=============
+
+
+N-CYCLES
+========

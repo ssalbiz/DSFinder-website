@@ -1,0 +1,113 @@
+ USAGE: highlight [abcdefghijklmnopqrstuvwxyzACDEFHIKLNPRSTUVWXZ]
+                  [-i input file] [-o output file] [-S syntax] [-O outdir]
+                  [-B wildcard] [-H language] [-t num] [-c style_outfile]
+                  [-e style_infile] [-s style] [-D data dir]
+                  [-E add. data dir] [-F format] [-u encoding]
+                  [input files]
+
+
+ General options:
+
+ -B, --batch-recursive=<wc>     convert all matching files, searches subdirs
+                                (Example: highlight -B '*.cpp')
+ -D, --data-dir=<directory>     set path to data directory
+ -E, --add-data-dir=<directory> set path to an additional data directory, which
+                                is searched first
+     --add-config-dir=<dir>     set path to an additional config directory
+ -h, --help                     print this help
+     --help-lang=<lang>         prints help in given language
+                                <lang> = ["en", "es", "de", "fr"]
+ -i, --input=<file>             name of single input file
+ -g, --input-name=<name>        define input file name
+ -o, --output=<file>            name of single output file
+ -O, --outdir=<directory>       name of output directory
+ -p, --list-langs               list installed language definitions
+ -P, --progress                 print progress bar in batch mode
+ -q, --quiet                    supress progress info in batch mode
+ -S, --syntax=<type>            specify type of source code
+ -v, --verbose                  print debug info
+ -w, --list-themes              list installed colour themes
+     --force                    generate output if language type is unknown
+     --print-config             print path configuration
+     --validate-input           test if input is a valid text file
+     --version                  print version and copyright information
+
+
+ Output formats:
+
+ -H, --html                     generate HTML file (default)
+ -A, --ansi                     generate terminal output (16 colours)
+ -L, --latex                    generate LaTeX file
+ -M, --xterm256                 generate terminal output (256 colours)
+ -R, --rtf                      generate RTF file
+ -T, --tex                      generate TeX file
+ -X, --xhtml                    generate XHTML 1.1 file
+ -Z, --xml                      generate XML file
+
+
+ Output formatting options:
+
+ -c, --style-outfile=<file>     name of style file or output to stdout, if
+                                "stdout" is given as file argument
+ -d, --doc-title=<title>        document title
+ -e, --style-infile=<file>      file to be included in style-outfile
+ -I, --include-style            include style definition
+ -f, --fragment                 omit file header and footer
+ -F, --reformat=<style>         reformats and indents output in given style
+                                <style> = ["ansi", "gnu", "java", "kr", "linux"]
+ -J, --line-length=<num>        line length before wrapping (see -W, -V)
+ -j, --line-number-length=<num> line number width incl. left padding
+ -k, --font=<font>              defines font (specific to output format)
+ -K, --font-size=<num?>         defines font size (specific to output format)
+ -l, --linenumbers              print line numbers in output file
+ -m, --line-number-start=<cnt>  start line numbering with cnt (assumes -l)
+ -s, --style=<style>            specify colour style which should be applied (see -w)
+ -t, --replace-tabs=<num>       replace tabs by <num> spaces
+ -u, --encoding=<enc>           define output encoding which matches input file
+                                encoding; omit encoding info if enc=NONE
+ -V, --wrap-simple              wrap long lines without indenting function
+                                parameters and statements
+ -W, --wrap                     wrap long lines
+ -z, --zeroes                   fill leading space of line numbers with 0's
+     --kw-case=<case>           change case of case insensitive keywords
+                                <case> =  ['upper', 'lower', 'capitalize']
+
+ (X)HTML output options:
+
+ -a, --anchors                  attach anchor to line numbers
+ -y, --anchor-prefix=<str>      define anchor name prefix
+ -N, --anchor-filename          use input file name as anchor name
+ -G, --class-name=<str>         define CSS class name prefix
+ -C, --print-index              print index file with hyperlinks to output files
+ -n, --ordered-list             print lines as ordered list items
+     --inline-css               output CSS within each tag (generates verbose output)
+     --mark-line="n[=txt]; m"   mark given lines n..m and add optional help texts
+                                as tooltips
+     --enclose-pre              enclose fragmented output with pre tag 
+                                (assumes -f)
+
+ LaTeX output options:
+
+ -b, --babel                    disable Babel package shorthands
+ -r, --replace-quotes           replace double quotes by \dq{} (assumes -f)
+
+
+ RTF output options:
+
+ -x, --page-size=<ps>           define page size (a3, a4, a5, b4, b5, b6, letter)
+
+
+ -t will be ignored if -F is set.
+ -i and -o will be ignored if -b or -B is set.
+ -r will be ignored if -f is not set.
+ -c will be ignored if the output format does not support referenced style files.
+ If no in- or output files are specified, stdin and stdout will be used for
+ in- or output.
+ HTML will be generated, if no other output format is given. Style definitions
+ are stored in highlight.css (HTML, XHTML) or highlight.sty (LaTeX, TeX) if
+ neither -c nor -I is given.
+ Reformatting code will only work with C, C++, C# and Java input files.
+ Wrapping lines with -V or -W will cause faulty highlighting of long single
+ line comments and directives. Use with caution.
+
+ Updates and information: http://www.andre-simon.de/

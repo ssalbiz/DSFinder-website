@@ -1,0 +1,81 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.logicalcobwebs.concurrent.FutureResult: *java.lang.Object* [protected] value_
+org.logicalcobwebs.concurrent.LinkedNode: *java.lang.Object* [public] value
+org.logicalcobwebs.concurrent.LinkedQueue: *java.lang.Object* [protected] [final] putLock_
+org.logicalcobwebs.concurrent.SynchronizedVariable: *java.lang.Object* [protected] [final] lock_
+org.logicalcobwebs.proxool.Prototyper: *java.lang.Object* [private] [final] lock
+org.logicalcobwebs.proxool.ProxoolException: *java.lang.Throwable* [private] cause
+
+Linked List-like Data Structures:
+org.logicalcobwebs.concurrent.LinkedNode: [public] next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.logicalcobwebs.concurrent.FJTask$Par2: *org.logicalcobwebs.concurrent.FJTask* [protected] [final] fst
+org.logicalcobwebs.concurrent.FJTask$Par2: *org.logicalcobwebs.concurrent.FJTask* [protected] [final] snd
+org.logicalcobwebs.concurrent.FJTask$Seq2: *org.logicalcobwebs.concurrent.FJTask* [protected] [final] fst
+org.logicalcobwebs.concurrent.FJTask$Seq2: *org.logicalcobwebs.concurrent.FJTask* [protected] [final] snd
+org.logicalcobwebs.proxool.FatalRuntimeException: *java.lang.Exception* [private] cause
+org.logicalcobwebs.proxool.FatalSQLException: *java.sql.SQLException* [private] cause
+org.logicalcobwebs.proxool.util.FastArrayList: *java.util.ArrayList* [private] list
+java.lang.Object Fields:
+org.logicalcobwebs.concurrent.FJTaskRunner: *java.lang.Object* [protected] [final] barrier
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.logicalcobwebs.proxool.AbstractProxyStatement: *java.util.Map* [private] parameters
+org.logicalcobwebs.proxool.admin.Admin: *java.util.Map* [private] statsRollers
+org.logicalcobwebs.proxool.admin.jmx.ConnectionPoolMBean: *java.util.Properties* [private] poolProperties
+org.logicalcobwebs.proxool.admin.Snapshot: *java.util.Collection* [private] connectionInfos
+org.logicalcobwebs.proxool.configuration.AvalonConfigurator: *java.util.List* [private] [final] configuredPools
+org.logicalcobwebs.proxool.configuration.XMLConfigurator: *java.util.Properties* [private] properties
+org.logicalcobwebs.proxool.ConnectionInfo: *java.util.List* [private] sqlCalls
+org.logicalcobwebs.proxool.ConnectionPool: *java.util.List* [private] proxyConnections
+org.logicalcobwebs.proxool.ConnectionPoolDefinition: *java.util.Properties* [private] delegateProperties
+org.logicalcobwebs.proxool.ConnectionPoolDefinition: *java.util.Properties* [private] completeInfo
+org.logicalcobwebs.proxool.ConnectionPoolDefinition: *java.util.Properties* [private] changedInfo
+org.logicalcobwebs.proxool.ConnectionPoolDefinition: *java.util.Set* [private] fatalSqlExceptions
+org.logicalcobwebs.proxool.ConnectionPoolManager: *java.util.Map* [private] connectionPoolMap
+org.logicalcobwebs.proxool.ConnectionPoolManager: *java.util.Set* [private] connectionPools
+org.logicalcobwebs.proxool.ConnectionResetter: *java.util.Map* [private] accessorMutatorMap
+org.logicalcobwebs.proxool.ConnectionResetter: *java.util.Map* [private] defaultValues
+org.logicalcobwebs.proxool.ProxoolDataSource: *java.util.Properties* [private] delegateProperties
+org.logicalcobwebs.proxool.proxy.MethodMapper: *java.util.Map* [private] cachedConcreteMethods
+org.logicalcobwebs.proxool.ProxyConnection: *java.util.Set* [private] openStatements
+org.logicalcobwebs.proxool.ProxyConnection: *java.util.List* [private] sqlCalls
+org.logicalcobwebs.proxool.util.FastArrayList: *java.util.ArrayList* [private] list
+org.logicalcobwebs.proxool.util.FastArrayList$ListIter: *java.util.List* [private] expected
+org.logicalcobwebs.proxool.util.FastArrayList$ListIter: *org.logicalcobwebs.proxool.util.FastArrayList* [private] [final] this$0
+org.logicalcobwebs.proxool.util.FastArrayList$SubList: *java.util.List* [private] expected
+org.logicalcobwebs.proxool.util.FastArrayList$SubList: *org.logicalcobwebs.proxool.util.FastArrayList* [private] [final] this$0
+org.logicalcobwebs.proxool.util.FastArrayList$SubList$SubListIter: *java.util.List* [private] expected
+org.logicalcobwebs.proxool.util.FastArrayList$SubList$SubListIter: *org.logicalcobwebs.proxool.util.FastArrayList$SubList* [private] [final] this$1
+
+ARRAYS REPORT
+=============
+
+org.logicalcobwebs.concurrent.FJTask$Par: *org.logicalcobwebs.concurrent.FJTask[]* [protected] [final] tasks
+org.logicalcobwebs.concurrent.FJTask$Seq: *org.logicalcobwebs.concurrent.FJTask[]* [protected] [final] tasks
+org.logicalcobwebs.concurrent.FJTaskRunner: *org.logicalcobwebs.concurrent.FJTaskRunner$VolatileTaskRef[]* [protected] deq
+org.logicalcobwebs.concurrent.FJTaskRunnerGroup: *org.logicalcobwebs.concurrent.FJTaskRunner[]* [protected] [final] threads
+org.logicalcobwebs.proxool.util.AbstractListenerContainer: *java.lang.Object[]* [private] listeners [arraycopy]
+
+N-CYCLES
+========
+[org/logicalcobwebs/concurrent/WriterPreferenceReadWriteLock$WriterLock, org/logicalcobwebs/concurrent/WriterPreferenceReadWriteLock$ReaderLock, org/logicalcobwebs/concurrent/WriterPreferenceReadWriteLock]
+[org/logicalcobwebs/proxool/Prototyper, org/logicalcobwebs/proxool/ConnectionPool, org/logicalcobwebs/proxool/ProxyConnection]

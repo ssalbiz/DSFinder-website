@@ -1,0 +1,1008 @@
+DSFinder has run for 0 min. 10 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+scala.actors.LinkedNode: *java.lang.Object* [public] value
+scala.actors.LinkedQueue: *java.lang.Object* [protected] [final] putLock_
+scala.collection.immutable.AssocMap$$anonfun$apply$3: *java.lang.Object* [private] [final] key$3
+scala.collection.immutable.AssocMap$Cons: *java.lang.Object* [private] [final] value [TT;]
+scala.collection.immutable.AssocMap$Cons: *java.lang.Object* [private] [final] key [TS;]
+scala.collection.immutable.GBNode: *java.lang.Object* [private] [final] value [TB;]
+scala.collection.immutable.GBNode: *java.lang.Object* [private] [final] key [TA;]
+scala.collection.immutable.HashMap: *java.lang.Object* [private] oldKey [TA;]
+scala.collection.immutable.IntMap$Tip: *java.lang.Object* [private] [final] value [TT;]
+scala.collection.immutable.ListMap$Node: *java.lang.Object* [private] [final] value [TB1;]
+scala.collection.immutable.ListMap$Node: *java.lang.Object* [private] [final] key [TA;]
+scala.collection.immutable.LongMap$Tip: *java.lang.Object* [private] [final] value [TT;]
+scala.collection.immutable.Map$MapTo: *java.lang.Object* [private] [final] key [TA;]
+scala.collection.immutable.Map1: *java.lang.Object* [private] [final] value1 [TB;]
+scala.collection.immutable.Map1: *java.lang.Object* [private] [final] key1 [TA;]
+scala.collection.immutable.Map2: *java.lang.Object* [private] [final] value2 [TB;]
+scala.collection.immutable.Map2: *java.lang.Object* [private] [final] key2 [TA;]
+scala.collection.immutable.Map2: *java.lang.Object* [private] [final] value1 [TB;]
+scala.collection.immutable.Map2: *java.lang.Object* [private] [final] key1 [TA;]
+scala.collection.immutable.Map3: *java.lang.Object* [private] [final] value3 [TB;]
+scala.collection.immutable.Map3: *java.lang.Object* [private] [final] key3 [TA;]
+scala.collection.immutable.Map3: *java.lang.Object* [private] [final] value2 [TB;]
+scala.collection.immutable.Map3: *java.lang.Object* [private] [final] key2 [TA;]
+scala.collection.immutable.Map3: *java.lang.Object* [private] [final] value1 [TB;]
+scala.collection.immutable.Map3: *java.lang.Object* [private] [final] key1 [TA;]
+scala.collection.immutable.Map4: *java.lang.Object* [private] [final] value4 [TB;]
+scala.collection.immutable.Map4: *java.lang.Object* [private] [final] key4 [TA;]
+scala.collection.immutable.Map4: *java.lang.Object* [private] [final] value3 [TB;]
+scala.collection.immutable.Map4: *java.lang.Object* [private] [final] key3 [TA;]
+scala.collection.immutable.Map4: *java.lang.Object* [private] [final] value2 [TB;]
+scala.collection.immutable.Map4: *java.lang.Object* [private] [final] key2 [TA;]
+scala.collection.immutable.Map4: *java.lang.Object* [private] [final] value1 [TB;]
+scala.collection.immutable.Map4: *java.lang.Object* [private] [final] key1 [TA;]
+scala.collection.immutable.RedBlack$BlackTree: *java.lang.Object* [private] [final] value [TB;]
+scala.collection.immutable.RedBlack$BlackTree: *java.lang.Object* [private] [final] key [TA;]
+scala.collection.immutable.RedBlack$RedTree: *java.lang.Object* [private] [final] value [TB;]
+scala.collection.immutable.RedBlack$RedTree: *java.lang.Object* [private] [final] key [TA;]
+scala.collection.immutable.TreeHashMap$$anonfun$apply$1: *java.lang.Object* [private] [final] key$1
+scala.collection.immutable.TreeHashMap$$anonfun$get$1: *java.lang.Object* [private] [final] key$2
+scala.collection.immutable.UnbalancedTreeMap$Node: *java.lang.Object* [private] [final] value [TB;]
+scala.collection.immutable.UnbalancedTreeMap$Node: *java.lang.Object* [private] [final] key [TA;]
+scala.collection.jcl.Map$$anonfun$get$1: *java.lang.Object* [private] [final] key$1
+scala.collection.mutable.DefaultEntry: *java.lang.Object* [private] value [TB;]
+scala.collection.mutable.DefaultEntry: *java.lang.Object* [private] [final] key [TA;]
+scala.collection.mutable.Map$MapTo: *java.lang.Object* [private] [final] key [TA;]
+scala.collection.mutable.ObservableMap$$anon$1: *java.lang.Object* [private] [final] key$1
+scala.collection.mutable.ObservableMap$$anon$2: *java.lang.Object* [private] [final] key$1
+scala.collection.mutable.ObservableMap$$anon$3: *java.lang.Object* [private] [final] key$2
+scala.collection.mutable.OpenHashMap$Entry: *java.lang.Object* [private] [final] key [TKey;]
+scala.concurrent.pilib$Chan: *java.lang.Object* [private] defaultValue [TA;]
+scala.concurrent.SyncVar: *java.lang.Object* [private] value [TA;]
+scala.dbc.value.Factory$$anon$1: *java.lang.Object* [private] [final] nativeValue
+scala.reflect.Literal: *java.lang.Object* [private] [final] value
+scala.reflect.Manifest$$anon$1: *java.lang.Object* [private] [final] value$1
+scala.runtime.NonLocalReturnException: *java.lang.Object* [private] [final] value [TT;]
+scala.runtime.NonLocalReturnException: *java.lang.Object* [private] [final] key
+scala.Seq$Projection$$anon$3$$anonfun$apply$1: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.Seq$singleton: *java.lang.Object* [private] [final] value [TA;]
+scala.swing.ComboBox$BuiltInEditor$DelegatedEditor: *java.lang.Object* [private] value [TA;]
+scala.tools.nsc.ast.Trees$Annotated: *scala.tools.nsc.ast.Trees$Tree* [private] [final] arg
+scala.tools.nsc.ast.Trees$Try: *scala.tools.nsc.ast.Trees$Tree* [private] [final] block
+scala.tools.nsc.backend.opt.DeadCodeElimination$DeadCode$$anonfun$findInstruction$1: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.tools.nsc.Global$ErrorWithPosition: *java.lang.Throwable* [private] [final] error
+scala.tools.nsc.matching.ParallelMatching$Rep$$anonfun$applyRule$1: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.tools.nsc.symtab.clr.CLRTypes$$anonfun$findAssembly$2: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.tools.nsc.symtab.clr.CLRTypes$$anonfun$findAssembly$4: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.tools.nsc.symtab.Constants$Constant: *java.lang.Object* [private] [final] value
+scala.tools.nsc.symtab.IdeSupport$PersistentScope: *java.lang.Object* [private] [final] key
+scala.tools.nsc.symtab.IdeSupport$TrackedPosition$$anonfun$recycle$1: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.tools.nsc.symtab.Symbols$ClassSymbol: *scala.tools.nsc.symtab.Symbols$Symbol* [private] thissym
+scala.tools.nsc.symtab.Types$SuperType: *scala.tools.nsc.symtab.Types$Type* [private] [final] thistpe
+scala.tools.nsc.symtab.Types$TypeMap$$anonfun$mapOver$2: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.tools.nsc.transform.Reifiers$ReifyEnvironment: *scala.collection.mutable.HashMap* [private] targets [Lscala/collection/mutable/HashMap<Ljava/lang/String;Lscala/Option<Lscala/reflect/LabelSymbol;>;>;]
+scala.tools.nsc.typechecker.Typers$Typer$$anonfun$16: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.util.parsing.ast.Binders$Scope$$anonfun$indexFor$1: *java.lang.Object* [private] [final] nonLocalReturnKey1$1
+scala.xml.Atom: *java.lang.Object* [private] [final] data [TA;]
+scala.xml.include.XIncludeException: *java.lang.Throwable* [private] rootCause
+
+Linked List-like Data Structures:
+scala.actors.LinkedNode: [public] next
+scala.actors.MessageQueueElement: [private] next
+scala.collection.immutable.Page: [private] next [Lscala/collection/immutable/Page<TT;>;]
+scala.collection.mutable.DefaultEntry: *java.lang.Object* [private] next
+scala.collection.mutable.LinkedList: [private] next [Lscala/collection/mutable/LinkedList<TA;>;]
+scala.concurrent.Channel$LinkedList: [private] next [Lscala/concurrent/Channel<Ta;>.LinkedList<Ta;>;]
+scala.tools.nsc.Phase: [private] [final] prev
+scala.tools.nsc.symtab.InfoTransformers$InfoTransformer: [private] next/prev
+scala.tools.nsc.symtab.Names$Name: [private] next
+scala.tools.nsc.symtab.Scopes$ScopeEntry: [private] next
+scala.tools.nsc.symtab.Symbols$TypeHistory: [private] [final] prev
+scala.tools.nsc.util.NameTransformer$OpCodes: [private] [final] next
+scala.xml.PrefixedAttribute: *scala.xml.MetaData* [private] [final] next
+scala.xml.UnprefixedAttribute: *scala.xml.MetaData* [private] [final] next
+
+Parent- and outer-type Data Structures:
+scala.collection.immutable.ListMap$Node: *scala.collection.immutable.ListMap* [public] [final] $outer
+scala.collection.immutable.ListSet$Node: *scala.collection.immutable.ListSet* [public] [final] $outer
+scala.collection.immutable.Stack$Node: *scala.collection.immutable.Stack* [public] [final] $outer
+scala.collection.immutable.UnbalancedTreeMap$Node: *scala.collection.immutable.UnbalancedTreeMap* [public] [final] $outer
+scala.collection.mutable.PriorityQueueProxy$$anon$1: *scala.collection.mutable.PriorityQueueProxy* [private] [final] $outer
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$22: *scala.dbc.syntax.Statement$SelectSourceTable* [private] [final] $outer
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$23: *scala.dbc.syntax.Statement$SelectSourceTable* [private] [final] $outer
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$24: *scala.dbc.syntax.Statement$SelectSourceTable* [private] [final] $outer
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$25: *scala.dbc.syntax.Statement$SelectSourceTable* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$30: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$31: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$32: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$33: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$34: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$35: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$36: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$37: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$38: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$39: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$40: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$41: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$42: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$43: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$44: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$45: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$46: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$47: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$48: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$49: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.dbc.syntax.StatementExpression$$anon$50: *scala.dbc.syntax.StatementExpression* [private] [final] $outer
+scala.Responder$$anon$2: *scala.Responder* [private] [final] $outer
+scala.Responder$$anon$3: *scala.Responder* [private] [final] $outer
+scala.Responder$$anon$4: *scala.Responder* [private] [final] $outer
+scala.tools.nsc.backend.icode.GenICode$Scope: [private] [final] outer
+scala.tools.nsc.backend.msil.GenMSIL$BytecodeGenerator$BlockList: *scala.tools.nsc.backend.msil.GenMSIL$BytecodeGenerator$Block* [private] [final] parent
+scala.tools.nsc.backend.msil.GenMSIL$BytecodeGenerator$ExceptionBlock: *scala.tools.nsc.backend.msil.GenMSIL$BytecodeGenerator$Block* [private] [final] parent
+scala.tools.nsc.typechecker.Contexts$Context: [private] outer
+scala.tools.nsc.typechecker.RefChecks$RefCheckTransformer$LevelInfo: [private] [final] outer
+scala.util.parsing.ast.Binders$BinderEnv$$anon$7: *scala.util.parsing.ast.Binders$BinderEnv* [private] [final] $outer
+scala.util.parsing.combinator.Parsers$Parser$$anon$3: *scala.util.parsing.combinator.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$1: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$10: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$13: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$14: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$15: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$16: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$17: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$18: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$2: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$Parser$$anon$9: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$UnitParser$$anon$20: *scala.util.parsing.combinatorold.Parsers$UnitParser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$UnitParser$$anon$21: *scala.util.parsing.combinatorold.Parsers$UnitParser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$UnitParser$$anon$22: *scala.util.parsing.combinatorold.Parsers$UnitParser* [private] [final] $outer
+scala.util.parsing.combinatorold.Parsers$UnitParser$$anon$4: *scala.util.parsing.combinatorold.Parsers$UnitParser* [private] [final] $outer
+scala.util.parsing.Parsers$Parser$$anon$1: *scala.util.parsing.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.Parsers$Parser$$anon$2: *scala.util.parsing.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.Parsers$Parser$$anon$3: *scala.util.parsing.Parsers$Parser* [private] [final] $outer
+scala.util.parsing.Parsers$Parser$$anon$4: *scala.util.parsing.Parsers$Parser* [private] [final] $outer
+scala.xml.NamespaceBinding: [private] [final] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+scala.collection.immutable.HashMap: [private] later [Lscala/collection/immutable/HashMap<TA;TB;>;]
+scala.collection.immutable.HashSet: [private] later [Lscala/collection/immutable/HashSet<TA;>;]
+scala.collection.immutable.Page: [private] later [Lscala/collection/immutable/Page<TT;>;]
+scala.dbc.result.Relation$$anon$2$$anon$3: [private] [final] me
+scala.tools.nsc.matching.ParallelMatching$Pattern: [private] stripped
+scala.tools.nsc.matching.ParallelMatching$Patterns: [private] tail
+scala.tools.nsc.Phase: [private] nx
+scala.tools.nsc.symtab.Scopes$ScopeEntry: [private] tail
+scala.tools.nsc.symtab.Symbols$Symbol: [private] privateWithin
+scala.tools.nsc.symtab.Symbols$Symbol: [private] rawowner
+scala.tools.nsc.typechecker.Contexts$Context: [private] enclMethod
+scala.tools.nsc.typechecker.Contexts$Context: [private] enclClass
+scala.tools.nsc.typechecker.Namers$Namer: [private] innerNamerCache
+scala.tools.nsc.util.TreeSet$Tree: [private] r [Lscala/tools/nsc/util/TreeSet<TT;>.Tree;]
+scala.tools.nsc.util.TreeSet$Tree: [private] l [Lscala/tools/nsc/util/TreeSet<TT;>.Tree;]
+Non-Object Fields:
+scala.$colon$colon: *scala.List* [private] tl [Lscala/List<TB;>;]
+scala.actors.FJTask$Par2: *scala.actors.FJTask* [protected] [final] fst
+scala.actors.FJTask$Par2: *scala.actors.FJTask* [protected] [final] snd
+scala.actors.FJTask$Seq2: *scala.actors.FJTask* [protected] [final] fst
+scala.actors.FJTask$Seq2: *scala.actors.FJTask* [protected] [final] snd
+scala.collection.immutable.AssocMap$Cons: *scala.collection.immutable.AssocMap* [private] [final] tail [Lscala/collection/immutable/AssocMap<TS;TT;>;]
+scala.collection.immutable.GBNode: *scala.collection.immutable.GBTree* [private] [final] bigger [Lscala/collection/immutable/GBTree<TA;TB;>;]
+scala.collection.immutable.GBNode: *scala.collection.immutable.GBTree* [private] [final] smaller [Lscala/collection/immutable/GBTree<TA;TB;>;]
+scala.collection.immutable.IntMap$Bin: *scala.collection.immutable.IntMap* [private] [final] right [Lscala/collection/immutable/IntMap<TT;>;]
+scala.collection.immutable.IntMap$Bin: *scala.collection.immutable.IntMap* [private] [final] left [Lscala/collection/immutable/IntMap<TT;>;]
+scala.collection.immutable.LongMap$Bin: *scala.collection.immutable.LongMap* [private] [final] right [Lscala/collection/immutable/LongMap<TT;>;]
+scala.collection.immutable.LongMap$Bin: *scala.collection.immutable.LongMap* [private] [final] left [Lscala/collection/immutable/LongMap<TT;>;]
+scala.collection.immutable.RedBlack$BlackTree: *scala.collection.immutable.RedBlack$Tree* [private] [final] right [Lscala/collection/immutable/RedBlack<TA;>.Tree<TB;>;]
+scala.collection.immutable.RedBlack$BlackTree: *scala.collection.immutable.RedBlack$Tree* [private] [final] left [Lscala/collection/immutable/RedBlack<TA;>.Tree<TB;>;]
+scala.collection.immutable.RedBlack$RedTree: *scala.collection.immutable.RedBlack$Tree* [private] [final] right [Lscala/collection/immutable/RedBlack<TA;>.Tree<TB;>;]
+scala.collection.immutable.RedBlack$RedTree: *scala.collection.immutable.RedBlack$Tree* [private] [final] left [Lscala/collection/immutable/RedBlack<TA;>.Tree<TB;>;]
+scala.collection.immutable.UnbalancedTreeMap$Node: *scala.collection.immutable.UnbalancedTreeMap* [private] [final] right [Lscala/collection/immutable/UnbalancedTreeMap<TA;TB;>;]
+scala.collection.immutable.UnbalancedTreeMap$Node: *scala.collection.immutable.UnbalancedTreeMap* [private] [final] left [Lscala/collection/immutable/UnbalancedTreeMap<TA;TB;>;]
+scala.dbc.statement.expression.TypeCast: *scala.dbc.statement.Expression* [private] [final] expression
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$22: *scala.dbc.syntax.Statement$SelectSourceTable* [public] [final] sst$2
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$22$$anon$3: *scala.dbc.statement.Relation* [private] [final] rightRelation
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$22$$anon$3: *scala.dbc.statement.Relation* [private] [final] leftRelation
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$23: *scala.dbc.syntax.Statement$SelectSourceTable* [public] [final] sst$3
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$23$$anon$4: *scala.dbc.statement.Relation* [private] [final] rightRelation
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$23$$anon$4: *scala.dbc.statement.Relation* [private] [final] leftRelation
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$24: *scala.dbc.syntax.Statement$SelectSourceTable* [public] [final] sst$4
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$24$$anon$5: *scala.dbc.statement.Relation* [private] [final] rightRelation
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$24$$anon$5: *scala.dbc.statement.Relation* [private] [final] leftRelation
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$25: *scala.dbc.syntax.Statement$SelectSourceTable* [public] [final] sst$5
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$25$$anon$6: *scala.dbc.statement.Relation* [private] [final] rightRelation
+scala.dbc.syntax.Statement$SelectSourceTable$$anon$25$$anon$6: *scala.dbc.statement.Relation* [private] [final] leftRelation
+scala.dbc.syntax.StatementExpression$$anon$30: *scala.dbc.syntax.StatementExpression* [public] [final] se$1
+scala.dbc.syntax.StatementExpression$$anon$30$$anon$1: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$30$$anon$1: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$31: *scala.dbc.syntax.StatementExpression* [public] [final] se$2
+scala.dbc.syntax.StatementExpression$$anon$31$$anon$2: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$31$$anon$2: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$32: *scala.dbc.syntax.StatementExpression* [public] [final] se$3
+scala.dbc.syntax.StatementExpression$$anon$32$$anon$3: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$32$$anon$3: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$33: *scala.dbc.syntax.StatementExpression* [public] [final] se$4
+scala.dbc.syntax.StatementExpression$$anon$33$$anon$4: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$33$$anon$4: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$34: *scala.dbc.syntax.StatementExpression* [public] [final] se$5
+scala.dbc.syntax.StatementExpression$$anon$34$$anon$5: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$34$$anon$5: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$35: *scala.dbc.syntax.StatementExpression* [public] [final] se$6
+scala.dbc.syntax.StatementExpression$$anon$35$$anon$6: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$35$$anon$6: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$36: *scala.dbc.syntax.StatementExpression* [public] [final] se$7
+scala.dbc.syntax.StatementExpression$$anon$36$$anon$7: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$36$$anon$7: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$37: *scala.dbc.syntax.StatementExpression* [public] [final] se$8
+scala.dbc.syntax.StatementExpression$$anon$37$$anon$8: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$37$$anon$8: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$38$$anon$9: *scala.dbc.statement.Expression* [private] [final] operand
+scala.dbc.syntax.StatementExpression$$anon$39$$anon$10: *scala.dbc.statement.Expression* [private] [final] operand
+scala.dbc.syntax.StatementExpression$$anon$40: *scala.dbc.syntax.StatementExpression* [public] [final] se$9
+scala.dbc.syntax.StatementExpression$$anon$40$$anon$11: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$40$$anon$11: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$41: *scala.dbc.syntax.StatementExpression* [public] [final] se$10
+scala.dbc.syntax.StatementExpression$$anon$41$$anon$12: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$41$$anon$12: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$42: *scala.dbc.syntax.StatementExpression* [public] [final] se$11
+scala.dbc.syntax.StatementExpression$$anon$42$$anon$13: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$42$$anon$13: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$43: *scala.dbc.syntax.StatementExpression* [public] [final] se$12
+scala.dbc.syntax.StatementExpression$$anon$43$$anon$14: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$43$$anon$14: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$44: *scala.dbc.syntax.StatementExpression* [public] [final] se$13
+scala.dbc.syntax.StatementExpression$$anon$44$$anon$15: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$44$$anon$15: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$45: *scala.dbc.syntax.StatementExpression* [public] [final] se$14
+scala.dbc.syntax.StatementExpression$$anon$45$$anon$16: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$45$$anon$16: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$46$$anon$17: *scala.dbc.statement.Expression* [private] [final] operand
+scala.dbc.syntax.StatementExpression$$anon$47: *scala.dbc.syntax.StatementExpression* [public] [final] se$15
+scala.dbc.syntax.StatementExpression$$anon$47$$anon$18: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$47$$anon$18: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$48: *scala.dbc.syntax.StatementExpression* [public] [final] se$16
+scala.dbc.syntax.StatementExpression$$anon$48$$anon$19: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$48$$anon$19: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$49: *scala.dbc.syntax.StatementExpression* [public] [final] se$17
+scala.dbc.syntax.StatementExpression$$anon$49$$anon$20: *scala.dbc.statement.Expression* [private] [final] rightOperand
+scala.dbc.syntax.StatementExpression$$anon$49$$anon$20: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$50$$anon$21: *scala.dbc.statement.Expression* [private] [final] leftOperand
+scala.dbc.syntax.StatementExpression$$anon$51: *scala.dbc.syntax.StatementExpression* [public] [final] se$19
+scala.dbc.syntax.StatementExpression$$anon$51$$anon$23: *scala.dbc.statement.Expression* [private] [final] operand
+scala.dbc.syntax.StatementExpression$$anon$52: *scala.dbc.syntax.StatementExpression* [public] [final] se$20
+scala.dbc.syntax.StatementExpression$$anon$52$$anon$24: *scala.dbc.statement.Expression* [private] [final] operand
+scala.io.BytePickle$$anon$3: *scala.io.BytePickle$SPU* [private] [final] pa$1
+scala.io.BytePickle$$anon$6: *scala.io.BytePickle$PU* [private] [final] pa$2
+scala.io.BytePickle$$anon$7: *scala.io.BytePickle$SPU* [private] [final] pa$3
+scala.reflect.AppliedType: *scala.reflect.Type* [private] [final] tpe
+scala.reflect.Apply: *scala.reflect.Tree* [private] [final] fun
+scala.reflect.Assign: *scala.reflect.Tree* [private] [final] source
+scala.reflect.Assign: *scala.reflect.Tree* [private] [final] destination
+scala.reflect.Block: *scala.reflect.Tree* [private] [final] expr
+scala.reflect.DefDef: *scala.reflect.Tree* [private] [final] rhs
+scala.reflect.Function: *scala.reflect.Tree* [private] [final] body
+scala.reflect.GlobalSymbol: *scala.reflect.Symbol* [private] [final] owner
+scala.reflect.If: *scala.reflect.Tree* [private] [final] falseCase
+scala.reflect.If: *scala.reflect.Tree* [private] [final] trueCase
+scala.reflect.If: *scala.reflect.Tree* [private] [final] condition
+scala.reflect.LocalMethod: *scala.reflect.Symbol* [private] [final] owner
+scala.reflect.LocalValue: *scala.reflect.Symbol* [private] [final] owner
+scala.reflect.MethodType: *scala.reflect.Type* [private] [final] restpe
+scala.reflect.New: *scala.reflect.Tree* [private] [final] sym
+scala.reflect.PolyType: *scala.reflect.Type* [private] [final] resultType
+scala.reflect.PrefixedType: *scala.reflect.Type* [private] [final] pre
+scala.reflect.Select: *scala.reflect.Tree* [private] [final] qual
+scala.reflect.SingleType: *scala.reflect.Type* [private] [final] pre
+scala.reflect.Target: *scala.reflect.Tree* [private] [final] body
+scala.reflect.TypeApply: *scala.reflect.Tree* [private] [final] fun
+scala.reflect.TypeBounds: *scala.reflect.Type* [private] [final] hi
+scala.reflect.TypeBounds: *scala.reflect.Type* [private] [final] lo
+scala.reflect.ValDef: *scala.reflect.Tree* [private] [final] rhs
+scala.Stream$cons$$anon$2: *scala.Stream* [private] tlVal [Lscala/Stream<TA;>;]
+scala.swing.ListView$Renderer$$anon$4: *scala.swing.ListView$Renderer* [private] [final] renderer$1
+scala.swing.SplitPane: *scala.swing.Component* [private] [final] right
+scala.swing.SplitPane: *scala.swing.Component* [private] [final] left
+scala.text.DocCons: *scala.text.Document* [private] [final] tl
+scala.text.DocCons: *scala.text.Document* [private] [final] hd
+scala.text.DocGroup: *scala.text.Document* [private] [final] doc
+scala.text.DocNest: *scala.text.Document* [private] [final] doc
+scala.tools.ant.sabbus.CompilationFailure: *java.lang.Exception* [private] [final] cause
+scala.tools.nsc.ast.Trees$Annotation: *scala.tools.nsc.ast.Trees$Tree* [private] [final] constr
+scala.tools.nsc.ast.Trees$AppliedTypeTree: *scala.tools.nsc.ast.Trees$Tree* [private] [final] tpt
+scala.tools.nsc.ast.Trees$Apply: *scala.tools.nsc.ast.Trees$Tree* [private] [final] fun
+scala.tools.nsc.ast.Trees$ApplyDynamic: *scala.tools.nsc.ast.Trees$Tree* [private] [final] qual
+scala.tools.nsc.ast.Trees$ArrayValue: *scala.tools.nsc.ast.Trees$Tree* [private] [final] elemtpt
+scala.tools.nsc.ast.Trees$Assign: *scala.tools.nsc.ast.Trees$Tree* [private] [final] rhs
+scala.tools.nsc.ast.Trees$Assign: *scala.tools.nsc.ast.Trees$Tree* [private] [final] lhs
+scala.tools.nsc.ast.Trees$Bind: *scala.tools.nsc.ast.Trees$Tree* [private] [final] body
+scala.tools.nsc.ast.Trees$Block: *scala.tools.nsc.ast.Trees$Tree* [private] [final] expr
+scala.tools.nsc.ast.Trees$CaseDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] body
+scala.tools.nsc.ast.Trees$CaseDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] guard
+scala.tools.nsc.ast.Trees$CaseDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] pat
+scala.tools.nsc.ast.Trees$DefDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] rhs
+scala.tools.nsc.ast.Trees$DefDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] tpt
+scala.tools.nsc.ast.Trees$DocDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] definition
+scala.tools.nsc.ast.Trees$ExistentialTypeTree: *scala.tools.nsc.ast.Trees$Tree* [private] [final] tpt
+scala.tools.nsc.ast.Trees$Function: *scala.tools.nsc.ast.Trees$Tree* [private] [final] body
+scala.tools.nsc.ast.Trees$If: *scala.tools.nsc.ast.Trees$Tree* [private] [final] elsep
+scala.tools.nsc.ast.Trees$If: *scala.tools.nsc.ast.Trees$Tree* [private] [final] thenp
+scala.tools.nsc.ast.Trees$If: *scala.tools.nsc.ast.Trees$Tree* [private] [final] cond
+scala.tools.nsc.ast.Trees$Import: *scala.tools.nsc.ast.Trees$Tree* [private] [final] expr
+scala.tools.nsc.ast.Trees$LabelDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] rhs
+scala.tools.nsc.ast.Trees$LazyTreeCopier: *scala.tools.nsc.ast.Trees$TreeCopier* [private] [final] copy
+scala.tools.nsc.ast.Trees$Match: *scala.tools.nsc.ast.Trees$Tree* [private] [final] selector
+scala.tools.nsc.ast.Trees$New: *scala.tools.nsc.ast.Trees$Tree* [private] [final] tpt
+scala.tools.nsc.ast.Trees$Return: *scala.tools.nsc.ast.Trees$Tree* [private] [final] expr
+scala.tools.nsc.ast.Trees$Select: *scala.tools.nsc.ast.Trees$Tree* [private] [final] qualifier
+scala.tools.nsc.ast.Trees$SelectFromTypeTree: *scala.tools.nsc.ast.Trees$Tree* [private] [final] qualifier
+scala.tools.nsc.ast.Trees$SingletonTypeTree: *scala.tools.nsc.ast.Trees$Tree* [private] [final] ref
+scala.tools.nsc.ast.Trees$Star: *scala.tools.nsc.ast.Trees$Tree* [private] [final] elem
+scala.tools.nsc.ast.Trees$Throw: *scala.tools.nsc.ast.Trees$Tree* [private] [final] expr
+scala.tools.nsc.ast.Trees$Try: *scala.tools.nsc.ast.Trees$Tree* [private] [final] finalizer
+scala.tools.nsc.ast.Trees$TypeApply: *scala.tools.nsc.ast.Trees$Tree* [private] [final] fun
+scala.tools.nsc.ast.Trees$TypeBoundsTree: *scala.tools.nsc.ast.Trees$Tree* [private] [final] hi
+scala.tools.nsc.ast.Trees$TypeBoundsTree: *scala.tools.nsc.ast.Trees$Tree* [private] [final] lo
+scala.tools.nsc.ast.Trees$Typed: *scala.tools.nsc.ast.Trees$Tree* [private] [final] tpt
+scala.tools.nsc.ast.Trees$Typed: *scala.tools.nsc.ast.Trees$Tree* [private] [final] expr
+scala.tools.nsc.ast.Trees$TypeDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] rhs
+scala.tools.nsc.ast.Trees$TypeTree: *scala.tools.nsc.ast.Trees$Tree* [private] original
+scala.tools.nsc.ast.Trees$UnApply: *scala.tools.nsc.ast.Trees$Tree* [private] [final] fun
+scala.tools.nsc.ast.Trees$ValDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] rhs
+scala.tools.nsc.ast.Trees$ValDef: *scala.tools.nsc.ast.Trees$Tree* [private] [final] tpt
+scala.tools.nsc.backend.icode.ExceptionHandlers$ExceptionHandler: *scala.tools.nsc.backend.icode.ExceptionHandlers$Finalizer* [private] finalizer
+scala.tools.nsc.backend.icode.TypeKinds$ARRAY: *scala.tools.nsc.backend.icode.TypeKinds$TypeKind* [private] [final] elem
+scala.tools.nsc.backend.icode.TypeKinds$BOXED: *scala.tools.nsc.backend.icode.TypeKinds$TypeKind* [private] [final] kind
+scala.tools.nsc.io.ZipArchive$Entry: *scala.tools.nsc.io.AbstractFile* [private] [final] container
+scala.tools.nsc.symtab.classfile.Pickler$Pickle: *scala.tools.nsc.symtab.classfile.PickleBuffer* [private] [final] buf
+scala.tools.nsc.symtab.Symbols$ModuleClassSymbol: *scala.tools.nsc.symtab.Symbols$Symbol* [private] module
+scala.tools.nsc.symtab.Symbols$TermSymbol: *scala.tools.nsc.symtab.Symbols$Symbol* [private] referenced
+scala.tools.nsc.symtab.Types$AnnotatedType: *scala.tools.nsc.symtab.Types$Type* [private] [final] underlying
+scala.tools.nsc.symtab.Types$AntiPolyType: *scala.tools.nsc.symtab.Types$Type* [private] [final] pre
+scala.tools.nsc.symtab.Types$ExistentialType: *scala.tools.nsc.symtab.Types$Type* [private] [final] underlying
+scala.tools.nsc.symtab.Types$MethodType: *scala.tools.nsc.symtab.Types$Type* [private] [final] resultType
+scala.tools.nsc.symtab.Types$NotNullType: *scala.tools.nsc.symtab.Types$Type* [private] [final] underlying
+scala.tools.nsc.symtab.Types$OverloadedType: *scala.tools.nsc.symtab.Types$Type* [private] [final] pre
+scala.tools.nsc.symtab.Types$PolyType: *scala.tools.nsc.symtab.Types$Type* [private] [final] resultType
+scala.tools.nsc.symtab.Types$SingleType: *scala.tools.nsc.symtab.Types$Type* [private] underlyingCache
+scala.tools.nsc.symtab.Types$SingleType: *scala.tools.nsc.symtab.Types$Type* [private] [final] pre
+scala.tools.nsc.symtab.Types$SuperType: *scala.tools.nsc.symtab.Types$Type* [private] [final] supertpe
+scala.tools.nsc.symtab.Types$TypeBounds: *scala.tools.nsc.symtab.Types$Type* [private] [final] hi
+scala.tools.nsc.symtab.Types$TypeBounds: *scala.tools.nsc.symtab.Types$Type* [private] [final] lo
+scala.tools.nsc.symtab.Types$TypeRef: *scala.tools.nsc.symtab.Types$Type* [private] [final] pre
+scala.tools.nsc.symtab.Types$TypeVar: *scala.tools.nsc.symtab.Types$Type* [private] [final] origin
+scala.tools.nsc.symtab.Types$UniqueConstantType$1: *scala.tools.nsc.symtab.Types$Type* [private] _tpe
+scala.tools.nsc.transform.Erasure$ErasureTransformer: *scala.tools.nsc.ast.Trees$Transformer* [private] [final] preTransformer
+scala.tools.nsc.typechecker.IdeSupport$Namer$tpe0$2$: *scala.tools.nsc.symtab.Types$LazyType* [private] [final] tpe$1
+scala.tools.nsc.typechecker.Namers$PolyTypeCompleter: *scala.tools.nsc.typechecker.Namers$TypeCompleter* [private] [final] restp
+scala.tools.nsc.util.ClassPath$Context$$anon$1: *scala.tools.nsc.util.ClassPath$Entry* [private] [final] head$2
+scala.util.parsing.combinator.lexical.Scanners$Scanner: *scala.util.parsing.input.Reader* [private] [final] rest2 [Lscala/util/parsing/input/Reader<Ljava/lang/Character;>;]
+scala.util.parsing.combinator.lexical.Scanners$Scanner: *scala.util.parsing.input.Reader* [private] [final] rest1 [Lscala/util/parsing/input/Reader<Ljava/lang/Character;>;]
+scala.util.parsing.combinator.lexical.Scanners$Scanner: *scala.util.parsing.input.Reader* [private] [final] in [Lscala/util/parsing/input/Reader<Ljava/lang/Character;>;]
+scala.util.parsing.combinator.Parsers$$anon$4: *scala.util.parsing.combinator.Parsers$Parser* [private] [final] p$16
+scala.util.parsing.combinatorold.lexical.Scanners$Scanner: *scala.util.parsing.input.Reader* [private] [final] rest2 [Lscala/util/parsing/input/Reader<Ljava/lang/Character;>;]
+scala.util.parsing.combinatorold.lexical.Scanners$Scanner: *scala.util.parsing.input.Reader* [private] [final] rest1 [Lscala/util/parsing/input/Reader<Ljava/lang/Character;>;]
+scala.util.parsing.combinatorold.lexical.Scanners$Scanner: *scala.util.parsing.input.Reader* [private] [final] in [Lscala/util/parsing/input/Reader<Ljava/lang/Character;>;]
+scala.util.parsing.combinatorold.syntactical.BindingParsers$$anon$2: *scala.util.parsing.combinatorold.Parsers$Parser* [public] [final] scopeParser$1
+scala.util.parsing.combinatorold.syntactical.TokenParsers$$anon$1: *scala.util.parsing.combinatorold.Parsers$Parser* [private] [final] p$1
+scala.util.parsing.Parsers$$anon$5: *scala.util.parsing.Parsers$Parser* [private] [final] p$3
+scala.util.regexp.Base$Meta: *scala.util.regexp.Base$RegExp* [private] [final] r1
+scala.util.regexp.Base$Star: *scala.util.regexp.Base$RegExp* [private] [final] r
+scala.util.regexp.PointedHedgeExp$Node: *scala.util.regexp.Base$RegExp* [private] [final] r
+scala.util.regexp.PointedHedgeExp$TopIter: *scala.util.regexp.Base$RegExp* [private] [final] r2
+scala.util.regexp.PointedHedgeExp$TopIter: *scala.util.regexp.Base$RegExp* [private] [final] r1
+scala.xml.parsing.ConstructingParser: *scala.xml.parsing.MarkupHandler* [private] [final] scala$xml$parsing$MarkupParser$$handle
+scala.xml.parsing.XhtmlParser: *scala.xml.parsing.MarkupHandler* [private] [final] scala$xml$parsing$MarkupParser$$handle
+scala.xml.path.Expression$Child: *scala.xml.path.Expression$Expr* [private] [final] e
+scala.xml.path.Expression$DescOrSelf: *scala.xml.path.Expression$Expr* [private] [final] e
+scala.xml.pull.XMLEventReader$Parser: *scala.xml.parsing.MarkupHandler* [private] [final] scala$xml$parsing$MarkupParser$$handle
+java.lang.Object Fields:
+scala.$colon$colon: *java.lang.Object* [private] hd [TB;]
+scala.actors.$bang: *java.lang.Object* [private] [final] msg [Ta;]
+scala.actors.Actor$$anon$1: *java.lang.Object* [private] exitReason
+scala.actors.Actor$$anon$2: *java.lang.Object* [private] exitReason
+scala.actors.Actor$$anon$5: *java.lang.Object* [private] exitReason
+scala.actors.ActorProxy: *java.lang.Object* [private] exitReason
+scala.actors.Exit: *java.lang.Object* [private] [final] reason
+scala.actors.FJTaskRunner: *java.lang.Object* [protected] [final] barrier
+scala.actors.Futures$$anon$1$$anonfun$6: *java.lang.Object* [private] [final] msg$2
+scala.actors.Futures$$anon$1$$anonfun$isDefinedAt$1: *java.lang.Object* [private] [final] msg$1
+scala.actors.MessageQueueElement: *java.lang.Object* [private] msg
+scala.actors.Reaction: *java.lang.Object* [private] msg
+scala.actors.remote.DelegateActor: *java.lang.Object* [private] exitReason
+scala.actors.remote.ExitFun: *java.lang.Object* [private] [final] reason
+scala.actors.remote.SendTo: *java.lang.Object* [private] [final] msg
+scala.Cell: *java.lang.Object* [private] [final] elem [TT;]
+scala.collection.immutable.HashSet: *java.lang.Object* [private] changedElem [TA;]
+scala.collection.immutable.ImmutableIterator$$anonfun$apply$2: *java.lang.Object* [private] [final] item$2
+scala.collection.immutable.ImmutableIterator$NonEmpty: *java.lang.Object* [private] [final] item [TA;]
+scala.collection.immutable.ListSet$Node: *java.lang.Object* [private] [final] elem [TA;]
+scala.collection.immutable.Map$$anonfun$withDefaultValue$1: *java.lang.Object* [private] [final] d$2
+scala.collection.immutable.Set1: *java.lang.Object* [private] [final] elem1 [TA;]
+scala.collection.immutable.Set2: *java.lang.Object* [private] [final] elem2 [TA;]
+scala.collection.immutable.Set2: *java.lang.Object* [private] [final] elem1 [TA;]
+scala.collection.immutable.Set3: *java.lang.Object* [private] [final] elem3 [TA;]
+scala.collection.immutable.Set3: *java.lang.Object* [private] [final] elem2 [TA;]
+scala.collection.immutable.Set3: *java.lang.Object* [private] [final] elem1 [TA;]
+scala.collection.immutable.Set4: *java.lang.Object* [private] [final] elem4 [TA;]
+scala.collection.immutable.Set4: *java.lang.Object* [private] [final] elem3 [TA;]
+scala.collection.immutable.Set4: *java.lang.Object* [private] [final] elem2 [TA;]
+scala.collection.immutable.Set4: *java.lang.Object* [private] [final] elem1 [TA;]
+scala.collection.immutable.Stack$Node: *java.lang.Object* [private] [final] elem [TB;]
+scala.collection.jcl.MutableIterable$$anonfun$retainAll$1$$anonfun$apply$1: *java.lang.Object* [private] [final] s$1
+scala.collection.jcl.MutableIterator$$anonfun$has$1: *java.lang.Object* [private] [final] a$1
+scala.collection.mutable.Include: *java.lang.Object* [private] [final] elem [TI;]
+scala.collection.mutable.LinkedHashSet$$anonfun$remove$1: *java.lang.Object* [private] [final] elem$1
+scala.collection.mutable.LinkedList: *java.lang.Object* [private] elem [TA;]
+scala.collection.mutable.ObservableBuffer$$anon$4: *java.lang.Object* [private] [final] oldelement$1
+scala.collection.mutable.ObservableBuffer$$anon$5: *java.lang.Object* [private] [final] oldelement$2
+scala.collection.mutable.ObservableMap$$anon$2: *java.lang.Object* [private] [final] old$1
+scala.collection.mutable.ObservableMap$$anon$3: *java.lang.Object* [private] [final] old$2
+scala.collection.mutable.Publisher$$anonfun$publish$1: *java.lang.Object* [public] [final] event$1
+scala.collection.mutable.Remove: *java.lang.Object* [private] [final] elem [TA;]
+scala.collection.mutable.Update: *java.lang.Object* [private] [final] elem [TA;]
+scala.concurrent.Channel$LinkedList: *java.lang.Object* [private] elem [Ta;]
+scala.concurrent.MailBox: *java.lang.Object* [private] receivers [Ljava/lang/Object;]
+scala.concurrent.MailBox: *java.lang.Object* [private] sent [Ljava/lang/Object;]
+scala.concurrent.MailBox$$anonfun$send$1: *java.lang.Object* [private] [final] msg$1
+scala.concurrent.MailBox$PreReceiver: *java.lang.Object* [private] msg
+scala.concurrent.pilib$$anonfun$matches$1: *java.lang.Object* [private] [final] v2$1
+scala.concurrent.pilib$$anonfun$matches$1: *java.lang.Object* [private] [final] v1$1
+scala.concurrent.pilib$$anonfun$matches$2: *java.lang.Object* [private] [final] v2$1
+scala.concurrent.pilib$$anonfun$matches$3: *java.lang.Object* [private] [final] v1$1
+scala.concurrent.pilib$Product: *java.lang.Object* [private] [final] v [TA;]
+scala.concurrent.pilib$UGP: *java.lang.Object* [private] [final] v
+scala.dbc.Database$$anon$3: *java.lang.Object* [private] [final] result [TResultType;]
+scala.Function$$anonfun$curried$1$$anonfun$apply$2: *java.lang.Object* [private] [final] x1$1
+scala.Function$$anonfun$curried$2$$anonfun$apply$3: *java.lang.Object* [public] [final] x1$2
+scala.Function$$anonfun$curried$2$$anonfun$apply$3$$anonfun$apply$4: *java.lang.Object* [private] [final] x2$1
+scala.Function$$anonfun$curried$3$$anonfun$apply$5: *java.lang.Object* [public] [final] x1$3
+scala.Function$$anonfun$curried$3$$anonfun$apply$5$$anonfun$apply$6: *java.lang.Object* [public] [final] x2$2
+scala.Function$$anonfun$curried$3$$anonfun$apply$5$$anonfun$apply$6$$anonfun$apply$7: *java.lang.Object* [private] [final] x3$1
+scala.Function$$anonfun$curried$4$$anonfun$apply$8: *java.lang.Object* [public] [final] x1$4
+scala.Function$$anonfun$curried$4$$anonfun$apply$8$$anonfun$apply$9: *java.lang.Object* [public] [final] x2$3
+scala.Function$$anonfun$curried$4$$anonfun$apply$8$$anonfun$apply$9$$anonfun$apply$10: *java.lang.Object* [public] [final] x3$2
+scala.Function$$anonfun$curried$4$$anonfun$apply$8$$anonfun$apply$9$$anonfun$apply$10$$anonfun$apply$11: *java.lang.Object* [private] [final] x4$1
+scala.Function10$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function11$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function12$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function13$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function14$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function15$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function16$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function17$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function18$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function19$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function2$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function20$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function21$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function22$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function3$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [public] [final] x1$1
+scala.Function3$$anonfun$curry$1$$anonfun$apply$1$$anonfun$apply$2: *java.lang.Object* [private] [final] x2$1
+scala.Function4$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [public] [final] x1$1
+scala.Function4$$anonfun$curry$1$$anonfun$apply$1$$anonfun$apply$2: *java.lang.Object* [public] [final] x2$1
+scala.Function4$$anonfun$curry$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$apply$3: *java.lang.Object* [private] [final] x3$1
+scala.Function5$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function6$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function7$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function8$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.Function9$$anonfun$curry$1$$anonfun$apply$1: *java.lang.Object* [private] [final] x1$1
+scala.io.BufferedSource: *java.lang.Object* [private] [final] iter
+scala.io.BytePickle$$anon$4: *java.lang.Object* [private] [final] x$4
+scala.io.BytePickle$$anon$5: *java.lang.Object* [private] [final] x$5
+scala.io.BytePickle$$anonfun$pair$2$$anonfun$apply$4: *java.lang.Object* [private] [final] x$7
+scala.io.BytePickle$$anonfun$triple$2$$anonfun$apply$6: *java.lang.Object* [public] [final] x$8
+scala.io.BytePickle$$anonfun$triple$2$$anonfun$apply$6$$anonfun$apply$8: *java.lang.Object* [private] [final] y$1
+scala.io.BytePickle$$anonfun$upair$2$$anonfun$apply$2: *java.lang.Object* [private] [final] x$6
+scala.io.Source$$anon$1: *java.lang.Object* [private] [final] iter
+scala.io.Source$$anon$4: *java.lang.Object* [private] [final] iter
+scala.Iterable$: *java.lang.Object* [private] [final] empty
+scala.Iterator$: *java.lang.Object* [private] [final] empty
+scala.Iterator$$anon$7: *java.lang.Object* [private] [final] x$6
+scala.Iterator$$anonfun$contains$1: *java.lang.Object* [private] [final] elem$1
+scala.Left: *java.lang.Object* [private] [final] a [TA;]
+scala.mobile.Code: *java.lang.Object* [private] instance
+scala.Predef$ArrowAssoc: *java.lang.Object* [private] [final] x [TA;]
+scala.Predef$Ensuring: *java.lang.Object* [private] [final] x [TA;]
+scala.Responder$$anon$1: *java.lang.Object* [private] [final] x$1
+scala.Right: *java.lang.Object* [private] [final] b [TB;]
+scala.runtime.BoxedAnyArray: *java.lang.Object* [private] unboxed
+scala.runtime.ObjectRef: *java.lang.Object* [public] elem
+scala.runtime.ScalaRunTime$$anon$1: *java.lang.Object* [private] result [Ta;]
+scala.runtime.StringAdd: *java.lang.Object* [private] [final] self
+scala.Seq$$anonfun$contains$1: *java.lang.Object* [private] [final] elem$1
+scala.Some: *java.lang.Object* [private] [final] x [TA;]
+scala.Stream$$anonfun$const$1: *java.lang.Object* [private] [final] elem$1
+scala.Stream$cons$$anon$2: *java.lang.Object* [private] [final] hd$1
+scala.swing.ComboBox$$anon$3: *java.lang.Object* [private] selected [TA;]
+scala.swing.Reactions$Wrapper: *java.lang.Object* [private] [final] listener
+scala.swing.SingleRefCollection$$anon$5: *java.lang.Object* [private] hd [TA;]
+scala.swing.Table: *java.lang.Object* [private] [final] modelListener
+scala.tools.ant.sabbus.Compiler: *java.lang.Object* [private] foreignCompiler
+scala.tools.nsc.ast.TreeBrowsers$ASTTreeModel$$anonfun$getIndexOfChild$1: *java.lang.Object* [private] [final] child$1
+scala.tools.nsc.backend.icode.analysis.CompleteLattice$IState: *java.lang.Object* [private] [final] stack [TS;]
+scala.tools.nsc.backend.icode.analysis.CompleteLattice$IState: *java.lang.Object* [private] [final] vars [TV;]
+scala.tools.nsc.backend.icode.analysis.LubError: *java.lang.Object* [private] [final] b
+scala.tools.nsc.backend.icode.analysis.LubError: *java.lang.Object* [private] [final] a
+scala.tools.nsc.backend.icode.Checkers$ICodeChecker$$anonfun$pairwise$1$$anonfun$apply$5: *java.lang.Object* [private] [final] x$5
+scala.tools.nsc.doc.ModelToXML$$anonfun$1: *java.lang.Object* [public] [final] frame$3
+scala.tools.nsc.doc.ModelToXML$$anonfun$2: *java.lang.Object* [private] [final] frame$3
+scala.tools.nsc.doc.ModelToXML$$anonfun$3: *java.lang.Object* [private] [final] frame$3
+scala.tools.nsc.doc.ModelToXML$$anonfun$4: *java.lang.Object* [public] [final] frame$5
+scala.tools.nsc.doc.ModelToXML$$anonfun$attrsFor$1: *java.lang.Object* [private] [final] from$3
+scala.tools.nsc.doc.ModelToXML$$anonfun$bodyFor$1: *java.lang.Object* [public] [final] frame$3
+scala.tools.nsc.doc.ModelToXML$$anonfun$bodyFor$2: *java.lang.Object* [private] [final] frame$3
+scala.tools.nsc.doc.ModelToXML$$anonfun$classBody$1: *java.lang.Object* [private] [final] from$2
+scala.tools.nsc.doc.ModelToXML$$anonfun$classBody$2: *java.lang.Object* [private] [final] from$2
+scala.tools.nsc.doc.ModelToXML$$anonfun$extendsFor$1: *java.lang.Object* [private] [final] frame$4
+scala.tools.nsc.doc.ModelToXML$$anonfun$link$1: *java.lang.Object* [private] [final] frame$2
+scala.tools.nsc.doc.ModelToXML$$anonfun$link$2: *java.lang.Object* [private] [final] frame$2
+scala.tools.nsc.doc.ModelToXML$$anonfun$link$3: *java.lang.Object* [private] [final] frame$2
+scala.tools.nsc.doc.ModelToXML$$anonfun$link$4: *java.lang.Object* [private] [final] frame$2
+scala.tools.nsc.doc.ModelToXML$$anonfun$link$5: *java.lang.Object* [private] [final] frame$2
+scala.tools.nsc.doc.ModelToXML$$anonfun$longHeader$1: *java.lang.Object* [private] [final] frame$1
+scala.tools.nsc.doc.ModelToXML$$anonfun$longList$1: *java.lang.Object* [private] [final] from$1
+scala.tools.nsc.doc.ModelToXML$$anonfun$shortList$1: *java.lang.Object* [private] [final] from$4
+scala.tools.nsc.doc.ModelToXML$$anonfun$shortList$2: *java.lang.Object* [public] [final] from$4
+scala.tools.nsc.symtab.Symbols$TypeSkolem: *java.lang.Object* [private] [final] origin
+scala.tools.nsc.symtab.Types$ExistentialType$$anonfun$5: *java.lang.Object* [private] [final] origin$2
+scala.tools.nsc.symtab.Types$TypeCollector: *java.lang.Object* [private] result [TT;]
+scala.tools.nsc.symtab.Types$TypeCollector: *java.lang.Object* [private] [final] initial [TT;]
+scala.tools.nsc.util.TreeSet$Tree: *java.lang.Object* [private] [final] elem [TT;]
+scala.Tuple1: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple10: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple10: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple10: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple10: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple10: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple10: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple10: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple10: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple10: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple10: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple11: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple11: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple11: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple11: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple11: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple11: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple11: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple11: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple11: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple11: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple11: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple12: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple12: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple12: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple12: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple12: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple12: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple12: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple12: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple12: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple12: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple12: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple12: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple13: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple13: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple13: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple13: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple13: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple13: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple13: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple13: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple13: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple13: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple13: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple13: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple13: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple14: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple14: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple14: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple14: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple14: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple14: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple14: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple14: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple14: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple14: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple14: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple14: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple14: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple14: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple15: *java.lang.Object* [private] [final] _15 [TT15;]
+scala.Tuple15: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple15: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple15: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple15: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple15: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple15: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple15: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple15: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple15: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple15: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple15: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple15: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple15: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple15: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple16: *java.lang.Object* [private] [final] _16 [TT16;]
+scala.Tuple16: *java.lang.Object* [private] [final] _15 [TT15;]
+scala.Tuple16: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple16: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple16: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple16: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple16: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple16: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple16: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple16: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple16: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple16: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple16: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple16: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple16: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple16: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple17: *java.lang.Object* [private] [final] _17 [TT17;]
+scala.Tuple17: *java.lang.Object* [private] [final] _16 [TT16;]
+scala.Tuple17: *java.lang.Object* [private] [final] _15 [TT15;]
+scala.Tuple17: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple17: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple17: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple17: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple17: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple17: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple17: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple17: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple17: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple17: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple17: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple17: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple17: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple17: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple18: *java.lang.Object* [private] [final] _18 [TT18;]
+scala.Tuple18: *java.lang.Object* [private] [final] _17 [TT17;]
+scala.Tuple18: *java.lang.Object* [private] [final] _16 [TT16;]
+scala.Tuple18: *java.lang.Object* [private] [final] _15 [TT15;]
+scala.Tuple18: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple18: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple18: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple18: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple18: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple18: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple18: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple18: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple18: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple18: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple18: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple18: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple18: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple18: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple19: *java.lang.Object* [private] [final] _19 [TT19;]
+scala.Tuple19: *java.lang.Object* [private] [final] _18 [TT18;]
+scala.Tuple19: *java.lang.Object* [private] [final] _17 [TT17;]
+scala.Tuple19: *java.lang.Object* [private] [final] _16 [TT16;]
+scala.Tuple19: *java.lang.Object* [private] [final] _15 [TT15;]
+scala.Tuple19: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple19: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple19: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple19: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple19: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple19: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple19: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple19: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple19: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple19: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple19: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple19: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple19: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple19: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple2: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple2: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple20: *java.lang.Object* [private] [final] _20 [TT20;]
+scala.Tuple20: *java.lang.Object* [private] [final] _19 [TT19;]
+scala.Tuple20: *java.lang.Object* [private] [final] _18 [TT18;]
+scala.Tuple20: *java.lang.Object* [private] [final] _17 [TT17;]
+scala.Tuple20: *java.lang.Object* [private] [final] _16 [TT16;]
+scala.Tuple20: *java.lang.Object* [private] [final] _15 [TT15;]
+scala.Tuple20: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple20: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple20: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple20: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple20: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple20: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple20: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple20: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple20: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple20: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple20: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple20: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple20: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple20: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple21: *java.lang.Object* [private] [final] _21 [TT21;]
+scala.Tuple21: *java.lang.Object* [private] [final] _20 [TT20;]
+scala.Tuple21: *java.lang.Object* [private] [final] _19 [TT19;]
+scala.Tuple21: *java.lang.Object* [private] [final] _18 [TT18;]
+scala.Tuple21: *java.lang.Object* [private] [final] _17 [TT17;]
+scala.Tuple21: *java.lang.Object* [private] [final] _16 [TT16;]
+scala.Tuple21: *java.lang.Object* [private] [final] _15 [TT15;]
+scala.Tuple21: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple21: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple21: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple21: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple21: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple21: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple21: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple21: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple21: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple21: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple21: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple21: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple21: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple21: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple22: *java.lang.Object* [private] [final] _22 [TT22;]
+scala.Tuple22: *java.lang.Object* [private] [final] _21 [TT21;]
+scala.Tuple22: *java.lang.Object* [private] [final] _20 [TT20;]
+scala.Tuple22: *java.lang.Object* [private] [final] _19 [TT19;]
+scala.Tuple22: *java.lang.Object* [private] [final] _18 [TT18;]
+scala.Tuple22: *java.lang.Object* [private] [final] _17 [TT17;]
+scala.Tuple22: *java.lang.Object* [private] [final] _16 [TT16;]
+scala.Tuple22: *java.lang.Object* [private] [final] _15 [TT15;]
+scala.Tuple22: *java.lang.Object* [private] [final] _14 [TT14;]
+scala.Tuple22: *java.lang.Object* [private] [final] _13 [TT13;]
+scala.Tuple22: *java.lang.Object* [private] [final] _12 [TT12;]
+scala.Tuple22: *java.lang.Object* [private] [final] _11 [TT11;]
+scala.Tuple22: *java.lang.Object* [private] [final] _10 [TT10;]
+scala.Tuple22: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple22: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple22: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple22: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple22: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple22: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple22: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple22: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple22: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple3: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple3: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple3: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple4: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple4: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple4: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple4: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple5: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple5: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple5: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple5: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple5: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple6: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple6: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple6: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple6: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple6: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple6: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple7: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple7: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple7: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple7: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple7: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple7: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple7: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple8: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple8: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple8: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple8: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple8: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple8: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple8: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple8: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.Tuple9: *java.lang.Object* [private] [final] _9 [TT9;]
+scala.Tuple9: *java.lang.Object* [private] [final] _8 [TT8;]
+scala.Tuple9: *java.lang.Object* [private] [final] _7 [TT7;]
+scala.Tuple9: *java.lang.Object* [private] [final] _6 [TT6;]
+scala.Tuple9: *java.lang.Object* [private] [final] _5 [TT5;]
+scala.Tuple9: *java.lang.Object* [private] [final] _4 [TT4;]
+scala.Tuple9: *java.lang.Object* [private] [final] _3 [TT3;]
+scala.Tuple9: *java.lang.Object* [private] [final] _2 [TT2;]
+scala.Tuple9: *java.lang.Object* [private] [final] _1 [TT1;]
+scala.util.automata.NondetWordAutom$$anonfun$next$1: *java.lang.Object* [private] [final] a$1
+scala.util.DynamicVariable: *java.lang.Object* [public] [final] scala$util$DynamicVariable$$init
+scala.util.grammar.LabelledRHS: *java.lang.Object* [private] [final] label [TA;]
+scala.util.parsing.ast.Binders$$anon$11: *java.lang.Object* [private] [final] r [TT;]
+scala.util.parsing.ast.Binders$Scope$$anonfun$indexFor$1: *java.lang.Object* [private] [final] iter$1
+scala.util.parsing.ast.Binders$UnderBinder: *java.lang.Object* [private] [final] scala$util$parsing$ast$Binders$$element
+scala.util.parsing.combinator.lexical.Scanners$Scanner: *java.lang.Object* [private] [final] tok
+scala.util.parsing.combinator.Parsers$$anonfun$accept$1: *java.lang.Object* [private] [final] e$1
+scala.util.parsing.combinator.Parsers$$anonfun$accept$2: *java.lang.Object* [private] [final] e$1
+scala.util.parsing.combinator.Parsers$$anonfun$chainr1$2: *java.lang.Object* [private] [final] first$2
+scala.util.parsing.combinator.Parsers$$anonfun$success$1: *java.lang.Object* [private] [final] v$1
+scala.util.parsing.combinator.Parsers$$tilde: *java.lang.Object* [private] [final] _2 [Tb;]
+scala.util.parsing.combinator.Parsers$$tilde: *java.lang.Object* [private] [final] _1 [Ta;]
+scala.util.parsing.combinator.Parsers$OnceParser$$anonfun$$tilde$2$$anonfun$apply$14: *java.lang.Object* [private] [final] a$4
+scala.util.parsing.combinator.Parsers$Parser$$anonfun$$less$tilde$1$$anonfun$apply$4: *java.lang.Object* [private] [final] a$2
+scala.util.parsing.combinator.Parsers$Parser$$anonfun$$tilde$1$$anonfun$apply$2: *java.lang.Object* [private] [final] a$1
+scala.util.parsing.combinator.Parsers$Parser$$anonfun$$tilde$bang$1$$anonfun$apply$5: *java.lang.Object* [private] [final] a$3
+scala.util.parsing.combinator.Parsers$Parser$$anonfun$$up$up$up$1: *java.lang.Object* [private] [final] r$1
+scala.util.parsing.combinator.Parsers$Success: *java.lang.Object* [private] [final] result [TT;]
+scala.util.parsing.combinatorold.$tilde: *java.lang.Object* [private] [final] _2 [Tb;]
+scala.util.parsing.combinatorold.$tilde: *java.lang.Object* [private] [final] _1 [Ta;]
+scala.util.parsing.combinatorold.lexical.Scanners$Scanner: *java.lang.Object* [private] [final] tok
+scala.util.parsing.combinatorold.Parsers$$anon$26: *java.lang.Object* [private] [final] e$2
+scala.util.parsing.combinatorold.Parsers$$anon$27: *java.lang.Object* [private] [final] e$1
+scala.util.parsing.combinatorold.Parsers$$anon$28: *java.lang.Object* [private] [final] es$1
+scala.util.parsing.combinatorold.Parsers$$anon$32: *java.lang.Object* [private] [final] v$2
+scala.util.parsing.combinatorold.Parsers$$anonfun$chainr1$2: *java.lang.Object* [private] [final] first$1
+scala.util.parsing.combinatorold.Parsers$Success: *java.lang.Object* [private] [final] result [TT;]
+scala.util.parsing.combinatorold.Parsers$UnitParser$$anon$23: *java.lang.Object* [public] [final] v$1
+scala.util.parsing.Parsers$$anon$6: *java.lang.Object* [private] [final] x$3
+scala.util.parsing.Parsers$$anonfun$rep1$1$$anonfun$apply$2: *java.lang.Object* [private] [final] x$4
+scala.util.parsing.Parsers$$anonfun$repWith$1$$anonfun$apply$4: *java.lang.Object* [private] [final] x$5
+scala.util.regexp.PointedHedgeExp$Node: *java.lang.Object* [private] [final] label
+scala.xml.parsing.ExternalSources$MyClass$1: *java.lang.Object* [private] [final] iter
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+scala.collection.jcl.ArrayList: *java.util.ArrayList* [private] [final] underlying [Ljava/util/ArrayList<TA;>;]
+scala.collection.jcl.Buffer$$anon$2: *java.util.List* [private] [final] underlying [Ljava/util/List<TT;>;]
+scala.collection.jcl.BufferWrapper$Range: *java.util.List* [private] [final] underlying [Ljava/util/List<TA;>;]
+scala.collection.jcl.HashMap: *java.util.HashMap* [private] [final] underlying [Ljava/util/HashMap<TK;TE;>;]
+scala.collection.jcl.HashSet: *java.util.HashSet* [private] [final] underlying [Ljava/util/HashSet<TA;>;]
+scala.collection.jcl.IdentityHashMap: *java.util.IdentityHashMap* [private] [final] underlying [Ljava/util/IdentityHashMap<TK;TE;>;]
+scala.collection.jcl.LinkedHashMap: *java.util.LinkedHashMap* [private] [final] underlying [Ljava/util/LinkedHashMap<TK;TE;>;]
+scala.collection.jcl.LinkedHashSet: *java.util.LinkedHashSet* [private] [final] underlying [Ljava/util/LinkedHashSet<TA;>;]
+scala.collection.jcl.LinkedList: *java.util.LinkedList* [private] [final] underlying [Ljava/util/LinkedList<TA;>;]
+scala.collection.jcl.Map$$anon$2: *java.util.Map* [private] [final] underlying [Ljava/util/Map<TT;TE;>;]
+scala.collection.jcl.MapWrapper$KeySet: *java.util.Set* [private] [final] underlying [Ljava/util/Set<TK;>;]
+scala.collection.jcl.MapWrapper$ValueSet: *java.util.Collection* [private] [final] underlying [Ljava/util/Collection<TE;>;]
+scala.collection.jcl.Set$$anon$2: *java.util.Set* [private] [final] underlying [Ljava/util/Set<TT;>;]
+scala.collection.jcl.SortedMap$$anon$2: *java.util.SortedMap* [private] [final] underlying [Ljava/util/SortedMap<TT;TE;>;]
+scala.collection.jcl.SortedMapWrapper$KeySet: *java.util.Set* [private] [final] underlying [Ljava/util/Set<TK;>;]
+scala.collection.jcl.SortedMapWrapper$Range: *java.util.SortedMap* [private] [final] underlying [Ljava/util/SortedMap<TK;TE;>;]
+scala.collection.jcl.SortedSet$$anon$2: *java.util.SortedSet* [private] [final] underlying [Ljava/util/SortedSet<TT;>;]
+scala.collection.jcl.SortedSetWrapper$Range: *java.util.SortedSet* [private] [final] underlying [Ljava/util/SortedSet<TA;>;]
+scala.collection.jcl.TreeMap: *java.util.TreeMap* [private] [final] underlying [Ljava/util/TreeMap<TK;TE;>;]
+scala.collection.jcl.TreeMap$$anon$1: *java.util.TreeMap* [private] [final] underlying [Ljava/util/TreeMap<TK;TE;>;]
+scala.collection.jcl.TreeSet: *java.util.TreeSet* [private] [final] underlying [Ljava/util/TreeSet<TA;>;]
+scala.collection.jcl.TreeSet$$anon$1: *java.util.TreeSet* [private] [final] underlying [Ljava/util/TreeSet<TA;>;]
+scala.collection.jcl.WeakHashMap: *java.util.WeakHashMap* [private] [final] underlying [Ljava/util/WeakHashMap<TK;TE;>;]
+scala.collection.mutable.JavaMapAdaptor: *java.util.Map* [public] [final] scala$collection$mutable$JavaMapAdaptor$$jmap
+scala.collection.mutable.JavaSetAdaptor: *java.util.Set* [public] [final] scala$collection$mutable$JavaSetAdaptor$$jset
+
+ARRAYS REPORT
+=============
+
+scala.actors.FJTask$Par: *scala.actors.FJTask[]* [protected] [final] tasks
+scala.actors.FJTask$Seq: *scala.actors.FJTask[]* [protected] [final] tasks
+scala.actors.FJTaskRunner: *scala.actors.FJTaskRunner$VolatileTaskRef[]* [protected] deq
+scala.actors.FJTaskRunnerGroup: *scala.actors.FJTaskRunner[]* threads [arraycopy]
+scala.Array$$anonfun$apply$10: *scala.runtime.BoxedUnit[]* [private] [final] array$10
+scala.BigDecimal$: *scala.BigDecimal[]* [private] cache
+scala.BigInt$: *scala.BigInt[]* [private] [final] cache
+scala.collection.immutable.HashMap: *scala.collection.mutable.HashEntry[]* [private] table [hashcode]
+scala.collection.immutable.HashSet: *java.lang.Object[]* [private] table [no-stores] [hashcode]
+scala.collection.immutable.IntMapIterator: *java.lang.Object[]* [private] buffer
+scala.collection.immutable.LongMapIterator: *java.lang.Object[]* [private] buffer
+scala.collection.mutable.ArrayBuffer: *java.lang.Object[]* [private] array [hashcode]
+scala.collection.mutable.ArrayStack: *java.lang.Object[]* [private] scala$collection$mutable$ArrayStack$$table
+scala.collection.mutable.HashMap: *scala.collection.mutable.HashEntry[]* [private] table [no-stores] [hashcode]
+scala.collection.mutable.HashSet: *java.lang.Object[]* [private] table [no-stores] [hashcode]
+scala.collection.mutable.HashTable$$anon$1: *scala.collection.mutable.HashEntry[]* [private] [final] iterTable [[Lscala/collection/mutable/HashEntry<TA;Lscala/collection/mutable/HashEntry<TA;TE;>;>;] [no-stores]
+scala.collection.mutable.LinkedHashMap: *scala.collection.mutable.HashEntry[]* [private] table [no-stores] [hashcode]
+scala.collection.mutable.LinkedHashSet: *java.lang.Object[]* [private] table [no-stores] [hashcode]
+scala.collection.mutable.OpenHashMap: *scala.collection.mutable.OpenHashMap$Entry[]* [private] scala$collection$mutable$OpenHashMap$$table [hashcode]
+scala.collection.mutable.PriorityQueue: *java.lang.Object[]* [private] array
+scala.collection.mutable.PriorityQueue$$anon$1: *java.lang.Object[]* [private] [final] as
+scala.reflect.ScalaBeanInfo: *java.beans.MethodDescriptor[]* [private] [final] md
+scala.reflect.ScalaBeanInfo: *java.beans.PropertyDescriptor[]* [private] [final] pd
+scala.reflect.ScalaBeanInfo: *java.lang.String[]* [public] [final] scala$reflect$ScalaBeanInfo$$methods
+scala.reflect.ScalaBeanInfo: *java.lang.String[]* [private] [final] props
+scala.runtime.BoxedAnyArray: *java.lang.Object[]* [private] boxed [arraycopy] [hashcode]
+scala.runtime.BoxedObjectArray: *java.lang.Object[]* [private] [final] value [hashcode]
+scala.swing.Table$$anon$5: *java.lang.Object[][]* [private] [final] rowData$1
+scala.swing.test.TableSelection$: *java.lang.Object[][]* [private] [final] model
+scala.tools.ant.sabbus.Compiler: *java.net.URL[]* [private] [final] classpath
+scala.tools.ant.sabbus.ForeignCompiler: *java.lang.String[]* [private] argsBuffer [no-stores]
+scala.tools.nsc.ast.parser.NewScanners$ScannerConfiguration$: *scala.tools.nsc.symtab.Names$Name[]* [private] scala$tools$nsc$ast$parser$NewScanners$ScannerConfiguration$$tokenName
+scala.tools.nsc.ast.parser.Scanners$ScannerConfiguration$: *scala.tools.nsc.symtab.Names$Name[]* [private] scala$tools$nsc$ast$parser$Scanners$ScannerConfiguration$$tokenName
+scala.tools.nsc.backend.icode.BasicBlocks$BasicBlock: *scala.tools.nsc.backend.icode.Opcodes$Instruction[]* [private] instrs
+scala.tools.nsc.backend.icode.BasicBlocks$BasicBlock$$anonfun$insertAfter$1: *scala.tools.nsc.backend.icode.Opcodes$Instruction[]* [private] [final] newInstrs$2
+scala.tools.nsc.backend.icode.BasicBlocks$BasicBlock$$anonfun$replaceInstruction$1: *scala.tools.nsc.backend.icode.Opcodes$Instruction[]* [private] [final] newInstrs$1
+scala.tools.nsc.backend.jvm.GenJVM$BytecodeGenerator$$anonfun$addForwarders$3$$anonfun$apply$6: *java.lang.String[]* [private] [final] paramNames$1
+scala.tools.nsc.backend.jvm.GenJVM$BytecodeGenerator$$anonfun$javaNames$1: *java.lang.String[]* [private] [final] res$1
+scala.tools.nsc.backend.jvm.GenJVM$BytecodeGenerator$$anonfun$javaTypes$1: *ch.epfl.lamp.fjbg.JType[]* [private] [final] res$2
+scala.tools.nsc.backend.msil.GenMSIL$BytecodeGenerator: *ch.epfl.lamp.compiler.msil.Type[]* [private] [final] objParam [arraycopy]
+scala.tools.nsc.backend.msil.GenMSIL$BytecodeGenerator$$anonfun$createTypeBuilder$1: *ch.epfl.lamp.compiler.msil.Type[]* [private] [final] interfaces$1 [no-stores]
+scala.tools.nsc.backend.msil.GenMSIL$BytecodeGenerator$$anonfun$dumpMirrorClass$2$$anonfun$apply$6: *java.lang.String[]* [private] [final] paramNames$1
+scala.tools.nsc.backend.msil.GenMSIL$BytecodeGenerator$$anonfun$lookupMethod$1: *scala.tools.nsc.symtab.Types$Type[]* [private] [final] paramTypes$1 [no-stores]
+scala.tools.nsc.CompileSocket$$anonfun$pollPort$1: *java.io.File[]* [private] [final] hits$1 [no-stores]
+scala.tools.nsc.Global: *scala.tools.nsc.Phase[]* [private] [final] phaseWithId
+scala.tools.nsc.javac.JavaScanners$JavaScannerConfiguration$: *scala.tools.nsc.symtab.Names$Name[]* [private] scala$tools$nsc$javac$JavaScanners$JavaScannerConfiguration$$tokenName
+scala.tools.nsc.matching.ParallelMatching$RepFactory: *scala.tools.nsc.symtab.Symbols$Symbol[]* [private] labels
+scala.tools.nsc.symtab.BaseTypeSeqs$$anonfun$compoundBaseTypeSeq$1: *scala.tools.nsc.symtab.BaseTypeSeqs$BaseTypeSeq[]* [private] [final] pbtss$1
+scala.tools.nsc.symtab.BaseTypeSeqs$BaseTypeSeq: *scala.tools.nsc.symtab.Types$Type[]* [public] [final] scala$tools$nsc$symtab$BaseTypeSeqs$BaseTypeSeq$$elems
+scala.tools.nsc.symtab.classfile.ClassfileParser$ConstantPool: *scala.tools.nsc.symtab.Names$Name[]* [private] [final] internalized
+scala.tools.nsc.symtab.classfile.ClassfileParser$ConstantPool: *java.lang.Object[]* [private] [final] values
+scala.tools.nsc.symtab.classfile.Pickler$Pickle: *java.lang.Object[]* [private] scala$tools$nsc$symtab$classfile$Pickler$Pickle$$entries
+scala.tools.nsc.symtab.classfile.UnPickler$UnPickle: *java.lang.Object[]* [private] [final] entries [mod]
+scala.tools.nsc.symtab.clr.CLRTypes: *ch.epfl.lamp.compiler.msil.Type[]* [private] alltypes
+scala.tools.nsc.symtab.Definitions$definitions$: *scala.tools.nsc.symtab.Symbols$Symbol[]* [private] [final] FunctionClass
+scala.tools.nsc.symtab.Definitions$definitions$: *scala.tools.nsc.symtab.Symbols$Symbol[]* [private] [final] ProductClass
+scala.tools.nsc.symtab.Definitions$definitions$: *scala.tools.nsc.symtab.Symbols$Symbol[]* [private] [final] TupleClass
+scala.tools.nsc.symtab.Names: *scala.tools.nsc.symtab.Names$Name[]* [private] [final] scala$tools$nsc$symtab$Names$$typeHashtable [no-stores]
+scala.tools.nsc.symtab.Names: *scala.tools.nsc.symtab.Names$Name[]* [private] [final] scala$tools$nsc$symtab$Names$$termHashtable [no-stores]
+scala.tools.nsc.symtab.Scopes$Scope: *scala.tools.nsc.symtab.Scopes$ScopeEntry[]* [private] hashtable
+scala.tools.nsc.symtab.SymbolTable: *scala.tools.nsc.symtab.Symbols$Symbol[]* [private] [final] emptySymbolArray [no-stores]
+scala.tools.nsc.symtab.Types$ClassInfoType: *scala.collection.immutable.Map[]* [private] refs [[Lscala/collection/immutable/Map<Lscala/tools/nsc/symtab/Symbols$Symbol;Lscala/collection/immutable/Set<Lscala/tools/nsc/symtab/Symbols$Symbol;>;>;]
+scala.tools.nsc.typechecker.RefChecks$RefCheckTransformer$$anonfun$register$1$3: *scala.List[]* [private] [final] seenTypes$1 [no-stores]
+scala.tools.nsc.typechecker.RefChecks$RefCheckTransformer$$anonfun$validateBaseTypes$1: *scala.List[]* [private] [final] seenTypes$1
+scala.tools.nsc.typechecker.RefChecks$RefCheckTransformer$$anonfun$validateBaseTypes$2: *scala.List[]* [private] [final] seenTypes$1 [no-stores]
+scala.tools.nsc.util.HashSet: *java.lang.Object[]* [private] scala$tools$nsc$util$HashSet$$table [mod] [hashcode]
+scala.tools.nsc.util.NameTransformer$: *scala.tools.nsc.util.NameTransformer$OpCodes[]* [private] [final] code2op
+scala.tools.nsc.util.NameTransformer$: *java.lang.String[]* [private] [final] op2code
+scala.util.automata.SubsetConstruction$$anon$2: *scala.collection.Map[]* [private] [final] delta [[Lscala/collection/Map<TT;Ljava/lang/Integer;>;] [no-stores]
+scala.util.automata.SubsetConstruction$$anonfun$determinize$1: *scala.collection.Map[]* [private] [final] deltaR$1
+scala.util.automata.WordBerrySethi: *scala.List[]* [private] defaultq [[Lscala/List<Ljava/lang/Integer;>;]
+scala.util.automata.WordBerrySethi: *scala.collection.mutable.HashMap[]* [private] deltaq [[Lscala/collection/mutable/HashMap<Lscala/util/regexp/WordExp$Label;Lscala/List<Ljava/lang/Integer;>;>;]
+scala.util.automata.WordBerrySethi$$anon$1: *scala.collection.immutable.BitSet[]* [private] [final] default [no-stores]
+scala.util.automata.WordBerrySethi$$anon$1: *scala.collection.Map[]* [private] [final] delta [[Lscala/collection/Map<Lscala/util/regexp/WordExp$Label;Lscala/collection/immutable/BitSet;>;] [no-stores]
+
+N-CYCLES
+========
+[scala/tools/nsc/interpreter/InteractiveReader, scala/tools/nsc/io/VirtualDirectory, scala/tools/nsc/Settings$DebugSetting, scala/tools/nsc/Settings$MultiStringSetting, scala/tools/nsc/Settings$IntSetting, scala/tools/nsc/Settings$StringSetting, scala/tools/nsc/Settings$ChoiceSetting, scala/tools/nsc/Settings$PhasesSetting, scala/tools/nsc/Settings$BooleanSetting, scala/tools/nsc/Settings$PhasesSetting$, scala/tools/nsc/Settings$ChoiceSetting$, scala/tools/nsc/Settings$MultiStringSetting$, scala/tools/nsc/Settings$StringSetting$, scala/tools/nsc/Settings$BooleanSetting$, scala/tools/nsc/Settings$IntSetting$, scala/tools/nsc/Settings, scala/StringBuilder, scala/collection/mutable/Map, scala/Iterator, scala/Enumeration, scala/Enumeration$Value, scala/tools/nsc/ast/NodePrinters$InfoLevel$, scala/tools/nsc/ast/NodePrinters, scala/tools/nsc/ast/NodePrinters$nodeToString$, scala/tools/nsc/ast/TreeBrowsers$TreeInfo$, scala/tools/nsc/ast/TreeBrowsers$TypePrinter$, scala/tools/nsc/ast/TreeBrowsers$UnitTree$, scala/tools/nsc/ast/TreeBrowsers$ProgramTree$, scala/tools/nsc/ast/TreeBrowsers, scala/tools/nsc/ast/TreeBrowsers$SwingBrowser, scala/tools/nsc/reporters/Reporter$Severity, scala/Function2, scala/tools/nsc/reporters/Reporter$severity$, scala/tools/nsc/reporters/Reporter, scala/tools/nsc/io/SourceReader, scala/tools/nsc/util/ClassPath, scala/tools/nsc/util/ClassPath$Build, scala/tools/nsc/symtab/SymbolLoaders$moduleClassLoader$, scala/tools/nsc/symtab/SymbolLoaders$clrTypes$, scala/tools/nsc/symtab/SymbolLoaders, scala/tools/nsc/SubComponent, scala/tools/nsc/SubComponent$StdPhase, scala/$colon$colon, scala/collection/mutable/ListBuffer, scala/tools/nsc/Global$Run, scala/Function1, scala/tools/nsc/Global$nodePrinters$, scala/tools/nsc/Global$gen$, scala/tools/nsc/Global$constfold$, scala/tools/nsc/Global$checker$, scala/tools/nsc/Global$icodes$, scala/tools/nsc/Global$analysis$, scala/tools/nsc/Global$copyPropagation$, scala/tools/nsc/Global$checkers$, scala/tools/nsc/Global$statistics$, scala/tools/nsc/Global$overridingPairs$, scala/tools/nsc/Global$treeBrowsers$, scala/tools/nsc/Global$syntaxAnalyzer$, scala/tools/nsc/symtab/Symbols$ClassSymbol, scala/tools/nsc/symtab/Symbols$TermSymbol, scala/tools/nsc/util/SourceFile, scala/tools/nsc/util/FreshNameCreator, scala/tools/nsc/CompilationUnits$CompilationUnit, scala/tools/nsc/ast/Trees$Tree, scala/tools/nsc/typechecker/Contexts$Context, scala/tools/nsc/Phase, scala/tools/nsc/symtab/InfoTransformers$InfoTransformer, scala/tools/nsc/ast/TreePrinters, scala/tools/nsc/ast/TreePrinters$TreePrinter, scala/tools/nsc/ast/Trees$LazyTreeCopier, scala/tools/nsc/ast/Trees$Modifiers, scala/tools/nsc/ast/Trees$TreeCopier, scala/tools/nsc/ast/Trees$Transformer, scala/tools/nsc/symtab/StdNames$SymbolNames, scala/tools/nsc/symtab/BaseTypeSeqs$BaseTypeSeq, scala/tools/nsc/symtab/Scopes$ScopeKind, scala/collection/jcl/WeakHashMap, scala/tools/nsc/util/HashSet, scala/collection/mutable/HashSet, scala/tools/nsc/symtab/Types$ContainsVariantExistentialCollector, scala/collection/immutable/Map, scala/tools/nsc/ast/Trees$treePrinters$, scala/tools/nsc/ast/Trees$treeInfo$, scala/tools/nsc/ast/Trees$Modifiers$, scala/tools/nsc/ast/Trees$EmptyTree$, scala/tools/nsc/ast/Trees$PackageDef$, scala/tools/nsc/ast/Trees$ClassDef$, scala/tools/nsc/ast/Trees$ModuleDef$, scala/tools/nsc/ast/Trees$ValDef$, scala/tools/nsc/ast/Trees$emptyValDef$, scala/tools/nsc/ast/Trees$DefDef$, scala/tools/nsc/ast/Trees$TypeDef$, scala/tools/nsc/ast/Trees$LabelDef$, scala/tools/nsc/ast/Trees$Import$, scala/tools/nsc/ast/Trees$Annotation$, scala/tools/nsc/ast/Trees$DocDef$, scala/tools/nsc/ast/Trees$Template$, scala/tools/nsc/ast/Trees$Block$, scala/tools/nsc/ast/Trees$CaseDef$, scala/tools/nsc/ast/Trees$Sequence$, scala/tools/nsc/ast/Trees$Alternative$, scala/tools/nsc/ast/Trees$Star$, scala/tools/nsc/ast/Trees$Bind$, scala/tools/nsc/ast/Trees$UnApply$, scala/tools/nsc/ast/Trees$ArrayValue$, scala/tools/nsc/ast/Trees$Function$, scala/tools/nsc/ast/Trees$Assign$, scala/tools/nsc/ast/Trees$If$, scala/tools/nsc/ast/Trees$Match$, scala/tools/nsc/ast/Trees$Return$, scala/tools/nsc/ast/Trees$Try$, scala/tools/nsc/ast/Trees$Throw$, scala/tools/nsc/ast/Trees$New$, scala/tools/nsc/ast/Trees$Typed$, scala/tools/nsc/ast/Trees$TypeApply$, scala/tools/nsc/ast/Trees$Apply$, scala/tools/nsc/ast/Trees$ApplyDynamic$, scala/tools/nsc/ast/Trees$Super$, scala/tools/nsc/ast/Trees$This$, scala/tools/nsc/ast/Trees$Select$, scala/tools/nsc/ast/Trees$Ident$, scala/tools/nsc/ast/Trees$Literal$, scala/tools/nsc/ast/Trees$TypeTree$, scala/tools/nsc/ast/Trees$Annotated$, scala/tools/nsc/ast/Trees$SingletonTypeTree$, scala/tools/nsc/ast/Trees$SelectFromTypeTree$, scala/tools/nsc/ast/Trees$CompoundTypeTree$, scala/tools/nsc/ast/Trees$AppliedTypeTree$, scala/tools/nsc/ast/Trees$TypeBoundsTree$, scala/tools/nsc/ast/Trees$ExistentialTypeTree$, scala/tools/nsc/ast/Trees$posAssigner$, scala/tools/nsc/symtab/AnnotationInfos$AnnotationInfo$, scala/tools/nsc/symtab/StdNames$nme$, scala/tools/nsc/symtab/Constants$Constant$, scala/tools/nsc/symtab/Scopes$ScopeEntry, scala/tools/nsc/symtab/Scopes$Scope, scala/tools/nsc/symtab/Definitions$definitions$, scala/tools/nsc/symtab/Scopes$ParentTypesScopeKind$, scala/tools/nsc/symtab/Scopes$BlockScopeKind$, scala/tools/nsc/symtab/Types$gen$, scala/tools/nsc/symtab/Types$NotNullType$, scala/tools/nsc/symtab/Types$BoundedWildcardType$, scala/tools/nsc/symtab/Types$ThisType$, scala/tools/nsc/symtab/Types$DeBruijnIndex$, scala/tools/nsc/symtab/Types$SingleType$, scala/tools/nsc/symtab/Types$SuperType$, scala/tools/nsc/symtab/Types$TypeBounds$, scala/tools/nsc/symtab/Types$RefinedType$, scala/tools/nsc/symtab/Types$ClassInfoType$, scala/tools/nsc/symtab/Types$ConstantType$, scala/tools/nsc/symtab/Types$TypeRef$, scala/tools/nsc/symtab/Types$MethodType$, scala/tools/nsc/symtab/Types$PolyType$, scala/tools/nsc/symtab/Types$ExistentialType$, scala/tools/nsc/symtab/Types$OverloadedType$, scala/tools/nsc/symtab/Types$AntiPolyType$, scala/tools/nsc/symtab/Types$TypeVar$, scala/tools/nsc/symtab/Types$AnnotatedType$, scala/tools/nsc/symtab/Symbols$TypeHistory, scala/tools/nsc/symtab/Symbols$Symbol, scala/tools/nsc/symtab/Types$commonOwnerMap$, scala/tools/nsc/symtab/Symbols$CyclicReference$, scala/tools/nsc/symtab/Symbols$TypeHistory$, scala/tools/nsc/symtab/SymbolTable, scala/tools/nsc/symtab/Types$Type, scala/tools/nsc/typechecker/Contexts$ImplicitInfo, scala/tools/nsc/typechecker/Analyzer$namerFactory$, scala/tools/nsc/typechecker/Analyzer$typerFactory$, scala/tools/nsc/typechecker/Infer$instantiate$, scala/tools/nsc/typechecker/Typers$UnTyper$, scala/tools/nsc/Global$analyzer$, scala/tools/nsc/Global$superAccessors$, scala/tools/nsc/Global$pickler$, scala/tools/nsc/Global$refchecks$, scala/tools/nsc/Global$liftcode$, scala/tools/nsc/Global$uncurry$, scala/tools/nsc/Global$tailCalls$, scala/tools/nsc/Global$explicitOuter$, scala/tools/nsc/Global$erasure$, scala/tools/nsc/Global$lazyVals$, scala/tools/nsc/Global$lambdaLift$, scala/tools/nsc/Global$constructors$, scala/tools/nsc/Global$flatten$, scala/tools/nsc/Global$mixer$, scala/tools/nsc/Global$cleanup$, scala/tools/nsc/Global$sampleTransform$, scala/tools/nsc/Global$genicode$, scala/tools/nsc/Global$scalaPrimitives$, scala/tools/nsc/Global$inliner$, scala/tools/nsc/Global$closureElimination$, scala/tools/nsc/Global$deadCode$, scala/tools/nsc/Global$genJVM$, scala/tools/nsc/Global$genMSIL$, scala/tools/nsc/Global, scala/tools/nsc/InterpreterSettings, scala/tools/nsc/Interpreter$reporter$, scala/tools/nsc/Interpreter, scala/tools/nsc/InterpreterLoop]
+[scala/tools/nsc/GenericRunnerSettings$DefinesSetting, scala/tools/nsc/GenericRunnerSettings]
+[scala/tools/nsc/util/BatchSourceFile$line$, scala/tools/nsc/util/BatchSourceFile]
+[scala/tools/nsc/typechecker/Infer$Inferencer$approximateAbstracts$, scala/tools/nsc/typechecker/Infer$Inferencer, scala/tools/nsc/typechecker/Namers$Namer, scala/tools/nsc/typechecker/Typers$Typer$checkNoEscaping$, scala/tools/nsc/typechecker/Typers$Typer, scala/tools/nsc/transform/Erasure$NeedsSigCollector$, scala/tools/nsc/transform/Erasure]
+[scala/tools/nsc/backend/icode/Linearizers$Linearizer, scala/tools/nsc/backend/icode/TypeKinds$TypeKind, scala/tools/nsc/backend/icode/ICodes$liveness$, scala/tools/nsc/backend/icode/ICodes$reachingDefinitions$, scala/tools/nsc/backend/icode/ICodes$icodeReader$, scala/tools/nsc/backend/icode/Primitives$Negation$, scala/tools/nsc/backend/icode/Primitives$Test$, scala/tools/nsc/backend/icode/Primitives$Comparison$, scala/tools/nsc/backend/icode/Primitives$Arithmetic$, scala/tools/nsc/backend/icode/Primitives$Logical$, scala/tools/nsc/backend/icode/Primitives$Shift$, scala/tools/nsc/backend/icode/Primitives$Conversion$, scala/tools/nsc/backend/icode/Primitives$ArrayLength$, scala/tools/nsc/backend/icode/Primitives$StringConcat$, scala/tools/nsc/backend/icode/TypeKinds$REFERENCE$, scala/tools/nsc/backend/icode/TypeKinds$ARRAY$, scala/tools/nsc/backend/icode/TypeKinds$BOXED$, scala/tools/nsc/backend/icode/Opcodes$opcodes$SuperCall$, scala/tools/nsc/backend/icode/Opcodes$opcodes$Static$, scala/tools/nsc/backend/icode/Opcodes$opcodes$LOAD_EXCEPTION$, scala/tools/nsc/backend/icode/Opcodes$opcodes$SCOPE_EXIT$, scala/tools/nsc/backend/icode/Opcodes$opcodes$SCOPE_ENTER$, scala/tools/nsc/backend/icode/Opcodes$opcodes$MONITOR_EXIT$, scala/tools/nsc/backend/icode/Opcodes$opcodes$MONITOR_ENTER$, scala/tools/nsc/backend/icode/Opcodes$opcodes$DUP$, scala/tools/nsc/backend/icode/Opcodes$opcodes$DROP$, scala/tools/nsc/backend/icode/Opcodes$opcodes$THROW$, scala/tools/nsc/backend/icode/Opcodes$opcodes$RETURN$, scala/tools/nsc/backend/icode/Opcodes$opcodes$CZJUMP$, scala/tools/nsc/backend/icode/Opcodes$opcodes$CJUMP$, scala/tools/nsc/backend/icode/Opcodes$opcodes$JUMP$, scala/tools/nsc/backend/icode/Opcodes$opcodes$SWITCH$, scala/tools/nsc/backend/icode/Opcodes$opcodes$CHECK_CAST$, scala/tools/nsc/backend/icode/Opcodes$opcodes$IS_INSTANCE$, scala/tools/nsc/backend/icode/Opcodes$opcodes$CREATE_ARRAY$, scala/tools/nsc/backend/icode/Opcodes$opcodes$NEW$, scala/tools/nsc/backend/icode/Opcodes$opcodes$UNBOX$, scala/tools/nsc/backend/icode/Opcodes$opcodes$BOX$, scala/tools/nsc/backend/icode/Opcodes$opcodes$CALL_METHOD$, scala/tools/nsc/backend/icode/Opcodes$opcodes$CALL_PRIMITIVE$, scala/tools/nsc/backend/icode/Opcodes$opcodes$STORE_THIS$, scala/tools/nsc/backend/icode/Opcodes$opcodes$STORE_FIELD$, scala/tools/nsc/backend/icode/Opcodes$opcodes$STORE_LOCAL$, scala/tools/nsc/backend/icode/Opcodes$opcodes$STORE_ARRAY_ITEM$, scala/tools/nsc/backend/icode/Opcodes$opcodes$LOAD_MODULE$, scala/tools/nsc/backend/icode/Opcodes$opcodes$LOAD_FIELD$, scala/tools/nsc/backend/icode/Opcodes$opcodes$LOAD_LOCAL$, scala/tools/nsc/backend/icode/Opcodes$opcodes$LOAD_ARRAY_ITEM$, scala/tools/nsc/backend/icode/Opcodes$opcodes$CONSTANT$, scala/tools/nsc/backend/icode/Opcodes$opcodes$THIS$, scala/tools/nsc/backend/icode/Opcodes$opcodes$, scala/tools/nsc/backend/icode/ICodes]
+[scala/tools/nsc/backend/icode/TypeStacks$TypeStack, scala/tools/nsc/backend/icode/Members$Code, scala/tools/nsc/backend/icode/Members$IMethod, scala/tools/nsc/backend/icode/BasicBlocks$BasicBlock]
+[scala/tools/nsc/backend/icode/Opcodes$opcodes$CALL_METHOD, scala/tools/nsc/backend/icode/Opcodes$opcodes$NEW]
+[scala/tools/nsc/symtab/classfile/ClassfileParser$ConstantPool, scala/tools/nsc/symtab/classfile/ClassfileParser$metaParser$, scala/tools/nsc/symtab/classfile/ClassfileParser$innerClasses$, scala/tools/nsc/symtab/classfile/ClassfileParser$InnerClassEntry$, scala/tools/nsc/symtab/classfile/ClassfileParser]
+[scala/tools/nsc/symtab/SymbolLoaders$ClassfileLoader$classfileParser$, scala/tools/nsc/symtab/SymbolLoaders$ClassfileLoader]
+[scala/tools/nsc/symtab/classfile/ICodeReader$LinearCode$LSWITCH$, scala/tools/nsc/symtab/classfile/ICodeReader$LinearCode$LCZJUMP$, scala/tools/nsc/symtab/classfile/ICodeReader$LinearCode$LCJUMP$, scala/tools/nsc/symtab/classfile/ICodeReader$LinearCode$LJUMP$, scala/tools/nsc/symtab/classfile/ICodeReader$LinearCode]
+[scala/tools/nsc/backend/icode/GenICode$PCZJUMP$, scala/tools/nsc/backend/icode/GenICode$PCJUMP$, scala/tools/nsc/backend/icode/GenICode$PJUMP$, scala/tools/nsc/backend/icode/GenICode]
+[scala/tools/nsc/backend/icode/GenICode$ICodePhase$Finalizer$, scala/tools/nsc/backend/icode/GenICode$ICodePhase$MonitorRelease$, scala/tools/nsc/backend/icode/GenICode$ICodePhase]
+[scala/tools/nsc/typechecker/RefChecks$RefCheckTransformer$LevelInfo, scala/tools/nsc/typechecker/RefChecks$RefCheckTransformer]
+[scala/tools/nsc/backend/icode/analysis/CopyPropagation$copyLattice$State, scala/tools/nsc/backend/icode/analysis/CopyPropagation$copyLattice$, scala/tools/nsc/backend/icode/analysis/CopyPropagation$Const$, scala/tools/nsc/backend/icode/analysis/CopyPropagation$Boxed$, scala/tools/nsc/backend/icode/analysis/CopyPropagation$Deref$, scala/tools/nsc/backend/icode/analysis/CopyPropagation$Record$, scala/tools/nsc/backend/icode/analysis/CopyPropagation$Field$, scala/tools/nsc/backend/icode/analysis/CopyPropagation$LocalVar$, scala/tools/nsc/backend/icode/analysis/CopyPropagation, scala/tools/nsc/backend/icode/analysis/CopyPropagation$CopyAnalysis]
+[scala/tools/nsc/backend/opt/ClosureElimination$PeepholeOpt, scala/tools/nsc/backend/opt/ClosureElimination$ClosureElim, scala/tools/nsc/backend/opt/ClosureElimination$ClosureEliminationPhase]
+[scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$Timer, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$typeLattice$, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$typeStackLattice$, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$typeFlowLattice$, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis]
+[scala/tools/nsc/backend/icode/analysis/ReachingDefinitions$ReachingDefinitionsAnalysis, scala/tools/nsc/backend/opt/DeadCodeElimination$DeadCode, scala/tools/nsc/backend/opt/DeadCodeElimination$DeadCodeEliminationPhase]
+[scala/tools/nsc/matching/ParallelMatching$Guard, scala/tools/nsc/matching/PatternNodes$Bindings, scala/tools/nsc/matching/ParallelMatching$Pattern$, scala/tools/nsc/matching/ParallelMatching$Patterns$, scala/tools/nsc/matching/ParallelMatching$Guard$, scala/tools/nsc/matching/ParallelMatching$ErrorRule$, scala/tools/nsc/matching/ParallelMatching$VariableRule$, scala/tools/nsc/matching/ParallelMatching$Row$, scala/tools/nsc/matching/ParallelMatching$Columns$, scala/tools/nsc/matching/ParallelMatching$Column$, scala/tools/nsc/matching/ParallelMatching$Rep$, scala/tools/nsc/matching/CodeFactory$Code$Const$, scala/tools/nsc/matching/CodeFactory$Code$, scala/tools/nsc/matching/PatternNodes$TypeComparison$, scala/tools/nsc/matching/PatternNodes$Types$PseudoType$, scala/tools/nsc/matching/PatternNodes$Types$, scala/tools/nsc/matching/PatternNodes$Apply_Function$, scala/tools/nsc/matching/PatternNodes$Ident_Or_Empty$, scala/tools/nsc/matching/PatternNodes$UnApply_TypeApply$, scala/tools/nsc/matching/PatternNodes$__UnApply$, scala/tools/nsc/matching/PatternNodes$Strip$, scala/tools/nsc/matching/PatternNodes$Strip1$, scala/tools/nsc/matching/PatternNodes$Strip2$, scala/tools/nsc/matching/PatternNodes$Binding$, scala/tools/nsc/matching/PatternNodes$Bindings$, scala/tools/nsc/transform/ExplicitOuter]
+[scala/tools/nsc/matching/ParallelMatching$Scrutinee, scala/tools/nsc/matching/ParallelMatching$Patterns]
+[scala/tools/nsc/matching/PatternNodes$TypeComparison$erased$, scala/tools/nsc/matching/PatternNodes$TypeComparison]
+[scala/tools/nsc/ast/parser/Parsers$OpInfo$, scala/tools/nsc/ast/parser/MarkupParsers$MissingEndTagException$, scala/tools/nsc/ast/parser/MarkupParsers$ConfusedAboutBracesException$, scala/tools/nsc/ast/parser/SyntaxAnalyzer]
+[scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$MethodTFA$Push$, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$MethodTFA$Bind$, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$MethodTFA$TypeOfStackPos$, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$MethodTFA$TypeOfVar$, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$MethodTFA$Const$, scala/tools/nsc/backend/icode/analysis/TypeFlowAnalysis$MethodTFA, scala/tools/nsc/backend/opt/Inliners$Inliner, scala/tools/nsc/backend/opt/Inliners$InliningPhase]
+[scala/tools/nsc/typechecker/TreeCheckers$TreeChecker$postcheck$, scala/tools/nsc/typechecker/TreeCheckers$TreeChecker, scala/tools/nsc/typechecker/TreeCheckers$TreeChecker$precheck$]
+[scala/tools/nsc/typechecker/Namers$Namer$$anon$4$treeTrans$, scala/tools/nsc/typechecker/Namers$Namer$$anon$4]
+[scala/tools/nsc/ast/TreeBrowsers$TextInfoPanel, scala/tools/nsc/ast/TreeBrowsers$BrowserFrame]
+[scala/tools/nsc/ast/parser/MarkupParsers$MarkupParser, scala/tools/nsc/ast/parser/Parsers$UnitParser$symbXMLBuilder$, scala/tools/nsc/ast/parser/Parsers$UnitParser]
+[scala/tools/nsc/ast/parser/Parsers$Parser$treeBuilder$, scala/tools/nsc/ast/parser/Parsers$Parser]
+[scala/tools/nsc/ast/parser/TreeBuilder$patvarTransformer$, scala/tools/nsc/ast/parser/TreeBuilder$getvarTraverser$, scala/tools/nsc/ast/parser/TreeBuilder$Parens$, scala/tools/nsc/ast/parser/TreeBuilder$Filter$, scala/tools/nsc/ast/parser/TreeBuilder$ValEq$, scala/tools/nsc/ast/parser/TreeBuilder$ValFrom$, scala/tools/nsc/ast/parser/TreeBuilder]
+[scala/tools/nsc/ast/parser/NewScanners$TokenHolder, scala/tools/nsc/ast/parser/NewScanners$ParserScanner]
+[scala/tools/nsc/util/TreeSet$Tree, scala/tools/nsc/util/TreeSet]
+[scala/tools/nsc/transform/TailCalls$TailCallElimination$Context, scala/tools/nsc/transform/TailCalls$TailCallElimination]
+[scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator$CatchBlock$, scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator$ExceptionBlock$, scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator$BlockList$, scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator$CodeBlock$, scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator$EndExceptionBlock$, scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator$BeginFinallyBlock$, scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator$BeginCatchBlock$, scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator$BeginExceptionBlock$, scala/tools/nsc/backend/msil/GenMSIL$BytecodeGenerator]
+[scala/swing/TabbedPane$pages$, scala/swing/TabbedPane$selection$, scala/swing/TabbedPane]
+[scala/swing/Component$Mouse$, scala/swing/Component]
+[scala/tools/nsc/symtab/IdeSupport$CompatibleResult$GoResult$, scala/tools/nsc/symtab/IdeSupport$CompatibleResult$]
+[scala/tools/nsc/ast/parser/Scanners$Scanner, scala/tools/nsc/ast/parser/Scanners$Scanner$TokenData0]
+[scala/tools/ant/Scalac$LoggingLevel$, scala/tools/ant/Scalac$CompilerPhase$, scala/tools/ant/Scalac$Target$, scala/tools/ant/Scalac]
+[scala/tools/nsc/doc/ModelAdditions$exceptions$, scala/tools/nsc/doc/ModelAdditions]
+[scala/tools/nsc/doc/ModelExtractor$Category, scala/tools/nsc/doc/ModelExtractor$Tag$, scala/tools/nsc/doc/ModelExtractor$Comment$, scala/tools/nsc/doc/ModelExtractor$Package$, scala/tools/nsc/doc/DefaultDocDriver]
+[scala/tools/nsc/doc/ModelExtractor$ClassOrObject$constructorArgs$, scala/tools/nsc/doc/ModelExtractor$ClassOrObject$decls$, scala/tools/nsc/doc/ModelExtractor$ClassOrObject$inherited$, scala/tools/nsc/doc/ModelExtractor$ClassOrObject$Def$, scala/tools/nsc/doc/ModelExtractor$ClassOrObject$Val$, scala/tools/nsc/doc/ModelExtractor$ClassOrObject$AbstractType$, scala/tools/nsc/doc/ModelExtractor$ClassOrObject$NestedClass$, scala/tools/nsc/doc/ModelExtractor$TopLevelClass]
+[scala/collection/immutable/RedBlack$BlackTree$, scala/collection/immutable/RedBlack$RedTree$, scala/collection/immutable/RedBlack]
+[scala/actors/remote/Locator, scala/actors/remote/NamedSend]
+[scala/util/regexp/Base$Star$, scala/util/regexp/Base$Sequ$, scala/util/regexp/Base$Alt$, scala/util/regexp/Base]
+[scala/util/regexp/WordExp$Wildcard$, scala/util/regexp/WordExp$Letter$, scala/util/regexp/WordExp]
+[scala/util/parsing/syntax/StdTokens$Keyword$, scala/util/parsing/syntax/StdTokens$NumericLit$, scala/util/parsing/syntax/StdTokens$StringLit$, scala/util/parsing/combinator/lexical/StdLexical]
+[scala/swing/Table$selection$, scala/swing/Table]
+[scala/tools/nsc/models/SemanticTokens$walker$, scala/tools/nsc/models/SemanticTokens]
+[scala/tools/nsc/models/SemanticTokens$Process$TokenList$begin$, scala/tools/nsc/models/SemanticTokens$Process$TokenList$end$, scala/tools/nsc/models/SemanticTokens$Token, scala/tools/nsc/models/SemanticTokens$Process$TokenList$cursor$, scala/tools/nsc/models/SemanticTokens$Process$TokenList, scala/tools/nsc/models/SemanticTokens$Process]
+[scala/tools/nsc/typechecker/DeVirtualize$devirtualizeMap$, scala/tools/nsc/typechecker/DeVirtualize]
+[scala/util/parsing/ast/Binders$Scope, scala/util/parsing/ast/Binders$UnderBinder]
+[scala/swing/ListView$selection$items$, scala/swing/ListView$selection$, scala/swing/ListView]
+[scala/xml/PrettyPrinter$Para$, scala/xml/PrettyPrinter$Box$, scala/xml/PrettyPrinter]
+[scala/swing/ComboBox$selection$, scala/swing/ComboBox]
+[scala/swing/test/SwingApp$$anon$2$label$, scala/swing/test/SwingApp$$anon$2]
+[scala/concurrent/Channel, scala/concurrent/Channel$LinkedList]
+[scala/util/parsing/ast/Binders$$anon$5, scala/util/parsing/ast/Binders$$anon$5$$anonfun$gmap$5]
+[scala/util/regexp/PointedHedgeExp$TopIter$, scala/util/regexp/PointedHedgeExp$Node$, scala/util/regexp/PointedHedgeExp, scala/util/regexp/PointedHedgeExp$Point$]
+[scala/xml/transform/BasicTransformer$NeedsCopy$, scala/xml/transform/BasicTransformer]
+[scala/xml/pull/XMLEventReader, scala/xml/pull/XMLEventReader$Parser]

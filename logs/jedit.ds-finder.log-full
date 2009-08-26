@@ -1,0 +1,276 @@
+DSFinder has run for 0 min. 7 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.gjt.sp.jedit.browser.VFSBrowser: *javax.swing.JPanel* [private] pathAndFilterPanel
+org.gjt.sp.jedit.browser.VFSBrowser: *javax.swing.JComponent* [private] defaultFocusComponent
+org.gjt.sp.jedit.browser.VFSDirectoryEntryTable$HeaderRenderer: *javax.swing.table.DefaultTableCellRenderer* [private] [final] tcr
+org.gjt.sp.jedit.bsh.BSHLiteral: *java.lang.Object* [public] value
+org.gjt.sp.jedit.bsh.Primitive: *java.lang.Object* [private] value
+org.gjt.sp.jedit.bsh.ReturnControl: *java.lang.Object* [public] value
+org.gjt.sp.jedit.bsh.TargetError: *java.lang.Throwable* target
+org.gjt.sp.jedit.bsh.UtilTargetError: *java.lang.Throwable* [public] t
+org.gjt.sp.jedit.bsh.Variable: *java.lang.Object* value
+org.gjt.sp.jedit.buffer.JEditBuffer: *java.lang.Object* [private] [final] propertyLock
+org.gjt.sp.jedit.buffer.JEditBuffer$PropValue: *java.lang.Object* value
+org.gjt.sp.jedit.gui.AbstractContextOptionPane: *javax.swing.JPanel* [private] buttons
+org.gjt.sp.jedit.gui.JCheckBoxList$Entry: *java.lang.Object* value
+org.gjt.sp.jedit.gui.StatusBar: *javax.swing.JPanel* [private] [final] panel
+org.gjt.sp.jedit.gui.StatusBar: *java.awt.Component* [private] messageComp
+org.gjt.sp.jedit.pluginmgr.InstallPanel$HeaderRenderer: *javax.swing.table.DefaultTableCellRenderer* [private] tcr
+org.gjt.sp.jedit.pluginmgr.InstallPanel$TextRenderer: *javax.swing.table.DefaultTableCellRenderer* [private] tcr
+org.gjt.sp.jedit.pluginmgr.ManagePanel$TextRenderer: *javax.swing.table.DefaultTableCellRenderer* [private] [final] tcr
+org.gjt.sp.jedit.pluginmgr.PluginManager: *java.awt.Frame* [private] [final] parent
+org.gjt.sp.jedit.View: *java.awt.Container* [private] toolBar
+org.gjt.sp.jedit.View: *java.awt.Component* [private] prefixFocusOwner
+org.gjt.sp.jedit.View: *java.awt.Component* [private] mainContent
+org.gjt.sp.util.WorkThread: *java.lang.Object* [private] [final] abortLock
+org.gjt.sp.util.WorkThreadPool: *java.lang.Object* [final] lock
+org.gjt.sp.util.WorkThreadPool: *java.lang.Object* [final] waitForAllLock
+
+Linked List-like Data Structures:
+org.gjt.sp.jedit.bsh.org.objectweb.asm.CodeWriter: next
+org.gjt.sp.jedit.bsh.org.objectweb.asm.Edge: next
+org.gjt.sp.jedit.bsh.org.objectweb.asm.Edge: poolNext
+org.gjt.sp.jedit.bsh.org.objectweb.asm.Item: next
+org.gjt.sp.jedit.bsh.org.objectweb.asm.Label: next
+org.gjt.sp.jedit.bsh.Token: [public] next
+org.gjt.sp.jedit.Buffer: next/prev
+org.gjt.sp.jedit.buffer.BufferSegment: [private] [final] next
+org.gjt.sp.jedit.buffer.UndoManager$Edit: next/prev
+org.gjt.sp.jedit.search.HyperSearchResult$Occur: [public] next
+org.gjt.sp.jedit.syntax.KeywordMap$Keyword: [public] next
+org.gjt.sp.jedit.syntax.ParserRule: [public] next
+org.gjt.sp.jedit.syntax.Token: [public] next
+org.gjt.sp.jedit.View: next/prev
+org.gjt.sp.util.WorkThreadPool$Request: next
+
+Parent- and outer-type Data Structures:
+org.gjt.sp.jedit.browser.VFSDirectoryEntryTableModel$Entry: parent
+org.gjt.sp.jedit.bsh.Interpreter: parent
+org.gjt.sp.jedit.bsh.NameSpace: [private] parent
+org.gjt.sp.jedit.syntax.TokenMarker$LineContext: [public] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.gjt.sp.jedit.bsh.Token: [public] specialToken
+org.gjt.sp.jedit.gui.ExtendedGridLayoutConstraints: [private] mainConstraints
+org.gjt.sp.jedit.syntax.ParserRule: [public] [final] escapeRule
+Non-Object Fields:
+org.gjt.sp.jedit.bsh.BSHForStatement: *org.gjt.sp.jedit.bsh.SimpleNode* [private] forInit
+org.gjt.sp.jedit.bsh.BSHForStatement: *org.gjt.sp.jedit.bsh.SimpleNode* [private] expression
+org.gjt.sp.jedit.bsh.BSHForStatement: *org.gjt.sp.jedit.bsh.SimpleNode* [private] forUpdate
+org.gjt.sp.jedit.bsh.BSHForStatement: *org.gjt.sp.jedit.bsh.SimpleNode* [private] statement
+org.gjt.sp.jedit.buffer.UndoManager$CompoundEdit: *org.gjt.sp.jedit.buffer.UndoManager$Edit* first
+org.gjt.sp.jedit.buffer.UndoManager$CompoundEdit: *org.gjt.sp.jedit.buffer.UndoManager$Edit* last
+org.gjt.sp.util.Log$LogPrintStream: *java.io.OutputStream* [private] [final] orig
+java.lang.Object Fields:
+org.gjt.sp.jedit.browser.BrowserIORequest: *java.lang.Object* [private] session
+org.gjt.sp.jedit.browser.VFSBrowser$DirectoryLoadedAWTRequest: *java.lang.Object* [private] node
+org.gjt.sp.jedit.browser.VFSFileChooserDialog$GetFileTypeRequest: *java.lang.Object* session
+org.gjt.sp.jedit.bsh.BshMethod: *java.lang.Object* [private] javaObject
+org.gjt.sp.jedit.bsh.BSHPrimarySuffix: *java.lang.Object* index
+org.gjt.sp.jedit.bsh.classpath.BshClassPath$ClassSource: *java.lang.Object* source
+org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator$1: *java.lang.Object* [final] val$array
+org.gjt.sp.jedit.bsh.LHS: *java.lang.Object* object
+org.gjt.sp.jedit.bsh.Name: *java.lang.Object* [private] evalBaseObject
+org.gjt.sp.jedit.bsh.NameSpace: *java.lang.Object* classInstance
+org.gjt.sp.jedit.bufferio.BufferIORequest: *java.lang.Object* [protected] [final] session
+org.gjt.sp.jedit.bufferio.MarkersSaveRequest: *java.lang.Object* [protected] session
+org.gjt.sp.jedit.EBMessage: *java.lang.Object* [private] source
+org.gjt.sp.jedit.JARClassLoader$1SingleElementEnumeration: *java.lang.Object* [private] element
+org.gjt.sp.jedit.msg.BufferUpdate: *java.lang.Object* [private] what
+org.gjt.sp.jedit.msg.DockableWindowUpdate: *java.lang.Object* [private] what
+org.gjt.sp.jedit.msg.EditPaneUpdate: *java.lang.Object* [private] what
+org.gjt.sp.jedit.msg.PluginUpdate: *java.lang.Object* [private] what
+org.gjt.sp.jedit.msg.ViewUpdate: *java.lang.Object* [private] what
+org.gjt.sp.jedit.print.BufferPrintable: *java.lang.Object* [private] format
+org.gjt.sp.jedit.ServiceManager$Descriptor: *java.lang.Object* instance
+org.gjt.sp.util.Log$LogOutputStream: *java.lang.Object* [private] [final] source
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.gjt.sp.jedit.browser.BrowserCommandsMenu: *java.util.HashMap* [private] encodingMenuItems
+org.gjt.sp.jedit.bsh.BshClassManager: *java.util.Hashtable* [protected] absoluteClassCache
+org.gjt.sp.jedit.bsh.BshClassManager: *java.util.Hashtable* [protected] absoluteNonClasses
+org.gjt.sp.jedit.bsh.BshClassManager: *java.util.Hashtable* [protected] resolvedObjectMethods
+org.gjt.sp.jedit.bsh.BshClassManager: *java.util.Hashtable* [protected] resolvedStaticMethods
+org.gjt.sp.jedit.bsh.BshClassManager: *java.util.Hashtable* [protected] definingClasses
+org.gjt.sp.jedit.bsh.BshClassManager: *java.util.Hashtable* [protected] definingClassesBaseNames
+org.gjt.sp.jedit.bsh.CallStack: *java.util.Vector* [private] stack
+org.gjt.sp.jedit.bsh.classpath.BshClassPath: *java.util.List* [private] path
+org.gjt.sp.jedit.bsh.classpath.BshClassPath: *java.util.List* [private] compPaths
+org.gjt.sp.jedit.bsh.classpath.BshClassPath: *java.util.Map* [private] packageMap
+org.gjt.sp.jedit.bsh.classpath.BshClassPath: *java.util.Map* [private] classSource
+org.gjt.sp.jedit.bsh.classpath.BshClassPath: *org.gjt.sp.jedit.bsh.classpath.BshClassPath$UnqualifiedNameTable* [private] unqNameTable
+org.gjt.sp.jedit.bsh.classpath.BshClassPath: *java.util.Vector* listeners
+org.gjt.sp.jedit.bsh.classpath.BshClassPath: *java.util.List* nameSourceListeners
+org.gjt.sp.jedit.bsh.classpath.BshClassPath$AmbiguousName: *java.util.List* list
+org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl: *java.util.Vector* [private] listeners
+org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl: *java.util.Map* [private] loaderMap
+org.gjt.sp.jedit.bsh.classpath.DiscreteFilesClassLoader: *org.gjt.sp.jedit.bsh.classpath.DiscreteFilesClassLoader$ClassSourceMap* map
+org.gjt.sp.jedit.bsh.ExternalNameSpace: *java.util.Map* [private] externalMap
+org.gjt.sp.jedit.bsh.JJTParserState: *java.util.Stack* [private] nodes
+org.gjt.sp.jedit.bsh.JJTParserState: *java.util.Stack* [private] marks
+org.gjt.sp.jedit.bsh.Modifiers: *java.util.Hashtable* modifiers
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Hashtable* [private] variables
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Hashtable* [private] methods
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Hashtable* [protected] importedClasses
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Vector* [private] importedPackages
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Vector* [private] importedCommands
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Vector* [private] importedObjects
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Vector* [private] importedStatic
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Hashtable* [private] names
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Hashtable* [private] classCache
+org.gjt.sp.jedit.bsh.NameSpace: *java.util.Vector* nameSourceListeners
+org.gjt.sp.jedit.bsh.XThis: *java.util.Hashtable* interfaces
+org.gjt.sp.jedit.buffer.JEditBuffer: *java.util.Map* [private] [final] properties [Ljava/util/Map<Ljava/lang/Object;Lorg/gjt/sp/jedit/buffer/JEditBuffer$PropValue;>;]
+org.gjt.sp.jedit.gui.CompleteWord$1: *java.util.Set* [final] val$buffers
+org.gjt.sp.jedit.gui.CompleteWord$1: *java.util.Set* [final] val$completions
+org.gjt.sp.jedit.gui.DockableWindowManager: *java.util.Map* [protected] windows [Ljava/util/Map<Ljava/lang/String;Ljavax/swing/JComponent;>;]
+org.gjt.sp.jedit.gui.DockableWindowManagerImpl: *java.util.Stack* [public] showStack
+org.gjt.sp.jedit.gui.EditAbbrevDialog: *java.util.Map* [private] abbrevs
+org.gjt.sp.jedit.gui.OptionsDialog: *java.util.Map* [private] deferredOptionPanes [Ljava/util/Map<Ljava/lang/Object;Lorg/gjt/sp/jedit/OptionPane;>;]
+org.gjt.sp.jedit.gui.PanelWindowContainer$RotatedTextIcon: *java.awt.RenderingHints* [private] [final] renderHints
+org.gjt.sp.jedit.gui.ShortcutPrefixActiveEvent: *java.util.Hashtable* [protected] bindings
+org.gjt.sp.jedit.gui.ToolBarManager: *java.util.ArrayList* [private] topToolBars
+org.gjt.sp.jedit.gui.ToolBarManager: *java.util.ArrayList* [private] bottomToolBars
+org.gjt.sp.jedit.help.HelpHistoryModel: *java.util.Vector* [private] listeners
+org.gjt.sp.jedit.help.HelpIndex: *java.util.HashMap* [private] words
+org.gjt.sp.jedit.help.HelpIndex: *java.util.ArrayList* [private] files
+org.gjt.sp.jedit.help.HelpSearchPanel$ActionHandler$1: *java.util.Vector* [final] val$resultModel
+org.gjt.sp.jedit.help.HelpSearchPanel$ActionHandler$2: *java.util.Vector* [final] val$resultModel
+org.gjt.sp.jedit.help.HelpTOCPanel: *java.util.Hashtable* [private] nodes
+org.gjt.sp.jedit.help.HelpTOCPanel$TOCHandler: *java.util.Stack* [private] nodes
+org.gjt.sp.jedit.input.AbstractInputHandler: *java.util.Hashtable* [protected] bindings
+org.gjt.sp.jedit.input.AbstractInputHandler: *java.util.Hashtable* [protected] currentBindings
+org.gjt.sp.jedit.JEditActionContext: *java.util.Hashtable* actionHash [Ljava/util/Hashtable<Ljava/lang/String;TE;>;]
+org.gjt.sp.jedit.JEditActionContext: *java.util.Hashtable* overriddenActions [Ljava/util/Hashtable<Ljava/lang/String;TE;>;]
+org.gjt.sp.jedit.JEditActionContext: *java.util.Vector* [private] [final] actionSets [Ljava/util/Vector<TE;>;]
+org.gjt.sp.jedit.JEditActionSet: *java.util.Hashtable* [protected] actions [Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/Object;>;]
+org.gjt.sp.jedit.menu.RecentFilesProvider$3: *java.util.List* [final] val$menuItems
+org.gjt.sp.jedit.Mode: *java.util.Map* [protected] props [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.gjt.sp.jedit.OptionGroup: *java.util.Vector* [protected] [final] members
+org.gjt.sp.jedit.options.BrowserColorsModel: *java.util.ArrayList* [private] entries
+org.gjt.sp.jedit.options.PluginManagerOptionPane$UpdateMirrorsThread$1: *java.util.List* [final] val$mirrors
+org.gjt.sp.jedit.PluginJAR: *java.util.Properties* [private] properties
+org.gjt.sp.jedit.PluginJAR$PluginCacheEntry: *java.util.Properties* [public] cachedProperties
+org.gjt.sp.jedit.pluginmgr.InstallPanel$2: *java.util.Set* [final] val$savedChecked
+org.gjt.sp.jedit.pluginmgr.InstallPanel$2: *java.util.Set* [final] val$savedSelection
+org.gjt.sp.jedit.pluginmgr.InstallPanel$Entry: *java.util.List* parents [Ljava/util/List<Lorg/gjt/sp/jedit/pluginmgr/InstallPanel$Entry;>;]
+org.gjt.sp.jedit.pluginmgr.InstallPanel$PluginTableModel: *java.util.List* [private] entries
+org.gjt.sp.jedit.pluginmgr.ManagePanel$PluginTableModel: *java.util.concurrent.ConcurrentHashMap* [private] unloaded [Ljava/util/concurrent/ConcurrentHashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+org.gjt.sp.jedit.PropertyManager: *java.util.Properties* [private] system
+org.gjt.sp.jedit.PropertyManager: *java.util.List* [private] plugins
+org.gjt.sp.jedit.PropertyManager: *java.util.Properties* [private] site
+org.gjt.sp.jedit.PropertyManager: *java.util.Properties* [private] user
+org.gjt.sp.jedit.ServiceListHandler: *java.util.Stack* [private] stateStack
+org.gjt.sp.jedit.ServiceListHandler: *java.util.List* [private] cachedServices
+org.gjt.sp.jedit.syntax.ParserRuleSet: *java.util.List* [private] [final] imports [Ljava/util/List<Lorg/gjt/sp/jedit/syntax/ParserRuleSet;>;]
+org.gjt.sp.jedit.textarea.StandaloneTextArea$2: *java.util.Properties* [final] val$props
+org.gjt.sp.jedit.textarea.TextAreaPainter: *java.awt.RenderingHints* [private] renderingHints
+org.gjt.sp.jedit.textarea.TextAreaPainter: *java.util.Map* [private] [final] fonts
+
+ARRAYS REPORT
+=============
+
+org.gjt.sp.jedit.browser.BrowserIORequest: *java.lang.Object[]* [private] loadInfo
+org.gjt.sp.jedit.browser.VFSBrowser$DirectoryLoadedAWTRequest: *java.lang.Object[]* [private] loadInfo [no-stores]
+org.gjt.sp.jedit.browser.VFSDirectoryEntryTableModel: *org.gjt.sp.jedit.browser.VFSDirectoryEntryTableModel$Entry[]* files [arraycopy]
+org.gjt.sp.jedit.bsh.BshClassManager$SignatureKey: *java.lang.Class[]* types [no-stores] [hashcode]
+org.gjt.sp.jedit.bsh.BSHFormalParameters: *java.lang.String[]* [private] paramNames
+org.gjt.sp.jedit.bsh.BSHFormalParameters: *java.lang.Class[]* paramTypes
+org.gjt.sp.jedit.bsh.BSHFormalParameters: *java.lang.String[]* typeDescriptors
+org.gjt.sp.jedit.bsh.BshMethod: *java.lang.String[]* [private] paramNames
+org.gjt.sp.jedit.bsh.BshMethod: *java.lang.Class[]* [private] cparamTypes
+org.gjt.sp.jedit.bsh.ClassGeneratorUtil: *java.lang.Class[]* interfaces
+org.gjt.sp.jedit.bsh.ClassGeneratorUtil: *org.gjt.sp.jedit.bsh.Variable[]* vars
+org.gjt.sp.jedit.bsh.ClassGeneratorUtil: *java.lang.reflect.Constructor[]* superConstructors
+org.gjt.sp.jedit.bsh.ClassGeneratorUtil: *org.gjt.sp.jedit.bsh.DelayedEvalBshMethod[]* constructors
+org.gjt.sp.jedit.bsh.ClassGeneratorUtil: *org.gjt.sp.jedit.bsh.DelayedEvalBshMethod[]* methods
+org.gjt.sp.jedit.bsh.ClassGeneratorUtil$ConstructorArgs: *java.lang.Object[]* args [no-stores]
+org.gjt.sp.jedit.bsh.DelayedEvalBshMethod: *java.lang.String[]* paramTypeDescriptors [no-stores]
+org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter: *org.gjt.sp.jedit.bsh.org.objectweb.asm.Item[]* [private] table [mod]
+org.gjt.sp.jedit.bsh.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+org.gjt.sp.jedit.bsh.SimpleNode: *org.gjt.sp.jedit.bsh.Node[]* [protected] children [arraycopy]
+org.gjt.sp.jedit.Buffer$4: *java.lang.Object[]* [final] val$args [no-stores]
+org.gjt.sp.jedit.buffer.KillRing: *org.gjt.sp.jedit.buffer.UndoManager$RemovedContent[]* [private] ring [arraycopy]
+org.gjt.sp.jedit.buffer.LineManager: *org.gjt.sp.jedit.syntax.TokenMarker$LineContext[]* [private] lineContext [arraycopy]
+org.gjt.sp.jedit.EditPane$CaretInfo: *org.gjt.sp.jedit.textarea.Selection[]* [public] selection [no-stores]
+org.gjt.sp.jedit.gui.AnimatedIcon: *java.awt.Image[]* [private] frames [no-stores]
+org.gjt.sp.jedit.gui.CompleteWord$Words: *org.gjt.sp.jedit.gui.CompleteWord$Completion[]* [private] [final] completions [no-stores]
+org.gjt.sp.jedit.gui.ErrorListCellRenderer: *java.lang.String[]* [private] messages [no-stores]
+org.gjt.sp.jedit.gui.ErrorListDialog$ErrorEntry: *java.lang.String[]* messages [no-stores]
+org.gjt.sp.jedit.gui.IOProgressMonitor: *org.gjt.sp.jedit.gui.IOProgressMonitor$ThreadProgress[]* [private] threads
+org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory$ErrorDialog: *java.lang.Object[]* [private] [final] throwables [no-stores]
+org.gjt.sp.jedit.gui.statusbar.MemoryStatusWidgetFactory$MemoryStatus: *java.lang.Integer[]* [private] [final] args
+org.gjt.sp.jedit.help.HelpHistoryModel: *org.gjt.sp.jedit.help.HelpHistoryModel$HistoryEntry[]* [private] history [arraycopy]
+org.gjt.sp.jedit.help.HelpIndex$Word: *org.gjt.sp.jedit.help.HelpIndex$Word$Occurrence[]* occurrences [arraycopy]
+org.gjt.sp.jedit.io.VFS: *java.lang.String[]* [private] extAttrs
+org.gjt.sp.jedit.io.VFSManager$1: *java.lang.Object[]* [final] val$args [no-stores]
+org.gjt.sp.jedit.jEdit$6: *java.lang.String[]* [final] val$args [no-stores]
+org.gjt.sp.jedit.JEditAbstractEditAction: *java.lang.Object[]* [protected] args [no-stores]
+org.gjt.sp.jedit.JEditActionContext: *java.lang.String[]* actionNames [no-stores]
+org.gjt.sp.jedit.options.AppearanceOptionPane: *javax.swing.UIManager$LookAndFeelInfo[]* [private] lfs
+org.gjt.sp.jedit.options.BufferOptionPane: *org.gjt.sp.jedit.Mode[]* [private] modes
+org.gjt.sp.jedit.options.EditingOptionPane: *org.gjt.sp.jedit.options.EditingOptionPane$ModeProperties[]* [private] modeProps
+org.gjt.sp.jedit.options.GutterOptionPane: *java.lang.String[]* [private] painters [no-stores]
+org.gjt.sp.jedit.options.MouseOptionPane: *javax.swing.JComboBox[]* [private] gutterClickActions
+org.gjt.sp.jedit.PluginJAR: *java.lang.String[]* [private] classes
+org.gjt.sp.jedit.PluginJAR$PluginCacheEntry: *java.lang.String[]* [public] classes
+org.gjt.sp.jedit.PluginJAR$PluginCacheEntry: *java.lang.String[]* [public] cachedActionNames
+org.gjt.sp.jedit.PluginJAR$PluginCacheEntry: *java.lang.String[]* [public] cachedBrowserActionNames
+org.gjt.sp.jedit.PluginJAR$PluginCacheEntry: *java.lang.String[]* [public] cachedDockableNames
+org.gjt.sp.jedit.PluginJAR$PluginCacheEntry: *org.gjt.sp.jedit.ServiceManager$Descriptor[]* cachedServices
+org.gjt.sp.jedit.pluginmgr.InstallPanel$PluginInfoBox: *java.lang.String[]* [private] [final] params
+org.gjt.sp.jedit.pluginmgr.PluginManager$2: *java.lang.Exception[]* [final] val$exception
+org.gjt.sp.jedit.pluginmgr.PluginManager$3: *java.lang.Exception[]* [final] val$exception
+org.gjt.sp.jedit.print.BufferPrintable: *org.gjt.sp.jedit.syntax.SyntaxStyle[]* [private] styles
+org.gjt.sp.jedit.print.BufferPrintable$1: *java.lang.String[]* [final] val$args [no-stores]
+org.gjt.sp.jedit.search.BufferListSet: *java.lang.String[]* [private] files [no-stores]
+org.gjt.sp.jedit.search.DirectoryListSet$1: *java.lang.Object[]* [final] val$returnValue
+org.gjt.sp.jedit.search.HyperSearchRequest: *org.gjt.sp.jedit.textarea.Selection[]* [private] selection
+org.gjt.sp.jedit.search.SearchMatcher$Match: *java.lang.String[]* [public] substitutions [no-stores]
+org.gjt.sp.jedit.syntax.DisplayTokenHandler: *org.gjt.sp.jedit.syntax.SyntaxStyle[]* [private] styles [no-stores]
+org.gjt.sp.jedit.syntax.KeywordMap: *org.gjt.sp.jedit.syntax.KeywordMap$Keyword[]* [private] map [mod]
+org.gjt.sp.jedit.textarea.ChunkCache: *org.gjt.sp.jedit.textarea.ChunkCache$LineInfo[]* [private] lineInfo [arraycopy]
+org.gjt.sp.jedit.textarea.TextAreaPainter: *org.gjt.sp.jedit.syntax.SyntaxStyle[]* styles
+org.gjt.sp.jedit.textarea.TextAreaPainter: *org.gjt.sp.jedit.syntax.SyntaxStyle[]* foldLineStyle
+org.gjt.sp.util.WorkThreadPool: *org.gjt.sp.util.WorkThread[]* [private] threads
+
+N-CYCLES
+========
+[org/gjt/sp/jedit/EditPlugin, org/gjt/sp/jedit/ActionSet, org/gjt/sp/jedit/JARClassLoader, org/gjt/sp/jedit/PluginJAR]
+[org/gjt/sp/jedit/Macros$Recorder, org/gjt/sp/jedit/gui/InputHandler, org/gjt/sp/jedit/gui/StatusBar, org/gjt/sp/jedit/EditPane$MarkerHighlight, org/gjt/sp/jedit/gui/BufferSwitcher, org/gjt/sp/jedit/EditPane, org/gjt/sp/jedit/gui/ActionBar$CompletionPopup$CompletionList, org/gjt/sp/jedit/gui/ActionBar$CompletionPopup, org/gjt/sp/jedit/gui/ActionBar, org/gjt/sp/jedit/search/SearchBar, org/gjt/sp/jedit/gui/DockableWindowManager, org/gjt/sp/jedit/View, org/gjt/sp/jedit/textarea/JEditTextArea]
+[org/gjt/sp/jedit/bsh/SimpleNode, org/gjt/sp/jedit/bsh/This, org/gjt/sp/jedit/bsh/Interpreter, org/gjt/sp/jedit/bsh/BshClassManager, org/gjt/sp/jedit/bsh/NameSpace]
+[org/gjt/sp/jedit/syntax/ParserRule, org/gjt/sp/jedit/syntax/ParserRuleSet]
+[org/gjt/sp/jedit/syntax/TokenMarker$LineContext, org/gjt/sp/jedit/syntax/TokenMarker]
+[org/gjt/sp/jedit/buffer/PositionManager, org/gjt/sp/jedit/buffer/UndoManager$CompoundEdit, org/gjt/sp/jedit/buffer/UndoManager, org/gjt/sp/jedit/buffer/JEditBuffer]
+[org/gjt/sp/jedit/textarea/InputMethodSupport, org/gjt/sp/jedit/textarea/TextArea$MutableCaretEvent, org/gjt/sp/jedit/textarea/TextAreaPainter$PaintCaret, org/gjt/sp/jedit/textarea/TextAreaPainter, org/gjt/sp/jedit/textarea/Gutter$MouseHandler, org/gjt/sp/jedit/textarea/Gutter, org/gjt/sp/jedit/textarea/SelectionManager, org/gjt/sp/jedit/textarea/BufferHandler, org/gjt/sp/jedit/textarea/ScreenLineManager, org/gjt/sp/jedit/textarea/DisplayManager, org/gjt/sp/jedit/syntax/Token, org/gjt/sp/jedit/syntax/DisplayTokenHandler, org/gjt/sp/jedit/textarea/ChunkCache, org/gjt/sp/jedit/textarea/TextArea]
+[org/gjt/sp/jedit/gui/EnhancedDialog$KeyHandler, org/gjt/sp/jedit/gui/EnhancedDialog]
+[org/gjt/sp/jedit/browser/BrowserCommandsMenu, org/gjt/sp/jedit/browser/VFSDirectoryEntryTable, org/gjt/sp/jedit/browser/BrowserView, org/gjt/sp/jedit/browser/VFSBrowser$PluginsMenuButton, org/gjt/sp/jedit/browser/VFSBrowser$FavoritesMenuButton, org/gjt/sp/jedit/browser/VFSBrowser]
+[org/gjt/sp/jedit/search/HyperSearchResults, org/gjt/sp/jedit/search/HyperSearchRequest]
+[org/gjt/sp/jedit/search/HyperSearchResult$Occur, org/gjt/sp/jedit/search/HyperSearchResult]
+[org/gjt/sp/jedit/gui/DockableWindowManagerImpl$Entry, org/gjt/sp/jedit/gui/DockablePanel, org/gjt/sp/jedit/gui/PanelWindowContainer, org/gjt/sp/jedit/gui/DockableWindowManagerImpl]
+[org/gjt/sp/jedit/browser/VFSFileChooserDialog$WorkThreadHandler, org/gjt/sp/jedit/browser/VFSFileNameField, org/gjt/sp/jedit/browser/VFSFileChooserDialog]
+[org/gjt/sp/jedit/pluginmgr/ManagePanel$PluginTableModel, org/gjt/sp/jedit/pluginmgr/ManagePanel, org/gjt/sp/jedit/pluginmgr/InstallPanel$ChoosePluginSet, org/gjt/sp/jedit/pluginmgr/InstallPanel$PluginInfoBox, org/gjt/sp/jedit/pluginmgr/InstallPanel$PluginTableModel, org/gjt/sp/jedit/pluginmgr/InstallPanel, org/gjt/sp/jedit/pluginmgr/PluginManager]
+[org/gjt/sp/jedit/gui/CompletionPopup$KeyHandler, org/gjt/sp/jedit/gui/CompletionPopup]
+[org/gjt/sp/jedit/options/BufferOptionPane, org/gjt/sp/jedit/gui/BufferOptions]
+[org/gjt/sp/jedit/gui/LogViewer$ListHandler, org/gjt/sp/jedit/gui/LogViewer]
+[org/gjt/sp/jedit/gui/statusbar/LineSepWidgetFactory$LineSepWidget, org/gjt/sp/jedit/gui/statusbar/LineSepWidgetFactory$LineSepWidget$1]
+[org/gjt/sp/jedit/gui/RegisterViewer$DocumentHandler, org/gjt/sp/jedit/gui/RegisterViewer]
+[org/gjt/sp/jedit/gui/GrabKeyDialog$InputPane, org/gjt/sp/jedit/gui/GrabKeyDialog]
+[org/gjt/sp/jedit/bsh/org/objectweb/asm/Edge, org/gjt/sp/jedit/bsh/org/objectweb/asm/Label, org/gjt/sp/jedit/bsh/org/objectweb/asm/ClassWriter, org/gjt/sp/jedit/bsh/org/objectweb/asm/CodeWriter]
+[org/gjt/sp/jedit/gui/statusbar/SelectionLengthWidgetFactory$SelectionLengthWidget$SelectionLength, org/gjt/sp/jedit/gui/statusbar/SelectionLengthWidgetFactory$SelectionLengthWidget]
+[org/gjt/sp/jedit/gui/IOProgressMonitor$WorkThreadHandler, org/gjt/sp/jedit/gui/IOProgressMonitor]
+[org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory$MultiSelectWidget, org/gjt/sp/jedit/gui/statusbar/MultiSelectWidgetFactory$MultiSelectWidget$1]
+[org/gjt/sp/jedit/gui/statusbar/EncodingWidgetFactory$EncodingWidget, org/gjt/sp/jedit/gui/statusbar/EncodingWidgetFactory$EncodingWidget$1]

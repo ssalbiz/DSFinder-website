@@ -1,0 +1,43 @@
+DSFinder has run for 0 min. 3 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+fit.TypeAdapter: *java.lang.Object* [public] target
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+fit.Parse: [public] more
+fit.Parse: [public] parts
+Non-Object Fields:
+fit.TypeAdapter$ArrayAdapter: *fit.TypeAdapter* componentAdapter
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+fit.Fixture: *java.util.Map* [public] summary
+fit.RowFixture: *java.util.List* [public] missing
+fit.RowFixture: *java.util.List* [public] surplus
+
+ARRAYS REPORT
+=============
+
+fit.ColumnFixture: *fit.TypeAdapter[]* [protected] columnBindings
+fit.Fixture: *java.lang.String[]* [protected] args [no-stores]
+fit.RowFixture: *java.lang.Object[]* [public] results [no-stores]
+fit.RowFixtureTest$BusinessObject: *java.lang.String[]* [private] strs [no-stores]
+
+N-CYCLES
+========

@@ -1,0 +1,106 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.jext.console.Console$ConsoleProcess: *java.lang.Object* [private] exitCodeLock
+org.jext.console.Console$ConsoleProcess: *java.lang.Object* [private] lockObj
+org.jext.misc.ProjectPanel: *javax.swing.JPanel* [private] panelCard
+org.jext.misc.SwingWorker: *java.lang.Object* [private] value
+org.jext.project.ProjectEvent: *java.lang.Object* [private] target
+org.jext.toolbar.JextToolBar: *javax.swing.JToolBar* [private] buttonsPanel
+org.jext.toolbar.JextToolBar: *javax.swing.JToolBar* [private] persistentToolBar
+org.jext.toolbar.JextToolBar: *javax.swing.JToolBar* [private] transientToolBar
+
+Linked List-like Data Structures:
+org.jext.console.commands.Command: [public] next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.jext.OneClickAction: *org.jext.MenuAction* [private] action
+java.lang.Object Fields:
+org.jext.gui.BundledSkinFactory$PlasticSkin: *java.lang.Object* [private] oldUIClassLoader
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.jext.console.HistoryModel: *java.util.Vector* [private] data
+org.jext.dawn.DawnParser: *java.util.Hashtable* [private] properties
+org.jext.dawn.DawnParser: *java.util.Stack* [private] stack
+org.jext.dawn.DawnParser: *java.util.Hashtable* [private] runtimeFunctions
+org.jext.dawn.DawnParser: *java.util.Hashtable* [private] runtimeVariables
+org.jext.gui.OptionGroup: *java.util.ArrayList* [private] members
+org.jext.JARClassLoader: *java.util.ArrayList* [private] pluginClasses
+org.jext.JextFrame: *java.util.ArrayList* [private] jextListeners
+org.jext.JextFrame: *java.util.ArrayList* [private] transientItems
+org.jext.JextFrame: *java.util.HashMap* [private] projectMgmts
+org.jext.JextTabbedPane: *java.util.HashMap* [private] fileNames
+org.jext.menus.JextMenuBar: *java.util.Hashtable* [private] menus
+org.jext.misc.Workspaces$WorkspaceElement: *java.util.ArrayList* [public] contents
+org.jext.misc.ZipExplorer$ZipTableModel: *java.util.ArrayList* [private] zipContents
+org.jext.Mode: *java.util.ArrayList* [private] plugins
+org.jext.options.ColorTable$ColorTableModel: *java.util.ArrayList* [private] colorChoices
+org.jext.options.FileFiltersOptions: *java.util.ArrayList* [private] filters
+org.jext.options.OptionsDialog: *java.util.ArrayList* [private] cachPlugPanes
+org.jext.options.OptionsDialog: *java.util.ArrayList* [private] notCachPlugPanes
+org.jext.options.OptionsDialog: *java.util.ArrayList* [private] notCachPlugin
+org.jext.options.StyleTable$StyleTableModel: *java.util.ArrayList* [private] styleChoices
+org.jext.project.AbstractProject: *java.util.Map* [protected] [final] attributes
+org.jext.project.AbstractProjectManager: *java.util.Vector* [protected] listeners
+org.jext.project.DefaultProjectManager: *java.util.Vector* [private] projectNames
+org.jext.project.DefaultProjectManager: *java.util.Hashtable* [private] projects
+org.jext.search.SearchHighlight: *java.util.ArrayList* [private] matches
+org.jext.xinsert.XTree: *java.util.Stack* [private] menuStack
+org.jext.xml.XBarHandler: *java.util.Stack* [private] stateStack
+org.jext.xml.XInsertHandler: *java.util.Stack* [private] stateStack
+org.jext.xml.XMenuHandler: *java.util.Stack* [private] stateStack
+org.jext.xml.XPopupHandler: *java.util.Stack* [private] stateStack
+org.jext.xml.XPropertiesHandler: *java.util.Properties* [private] props
+
+ARRAYS REPORT
+=============
+
+org.jext.actions.WordCount: *java.lang.String[]* [private] comments
+org.jext.gui.FontSelector: *java.lang.String[]* [private] styles
+org.jext.gui.FontSelector$SelectorFrame: *java.lang.String[]* [private] sizes
+org.jext.gui.JextMenu: *java.awt.Component[]* [private] menuComponents [no-stores]
+org.jext.gui.SplashScreen: *java.lang.String[]* [private] classes [no-stores] [mod]
+org.jext.menus.JextRecentMenu: *java.lang.String[]* [private] recent
+org.jext.misc.AboutPlugins: *org.jext.misc.AboutPlugins$InstalledPlugin[]* [private] plugs
+org.jext.misc.FindByDate: *java.lang.String[]* [protected] fromDateItems
+org.jext.misc.FindByDate: *java.lang.String[]* [protected] toDateItems
+org.jext.misc.FindByName: *java.lang.String[]* [protected] criteria
+org.jext.misc.PluginDesc: *org.jext.misc.PluginAuthor[]* [private] authors
+org.jext.misc.PluginDesc: *java.lang.String[]* [private] deps
+org.jext.misc.SaveDialog: *org.jext.misc.SaveDialog$DirtyArea[]* [private] areas [no-stores]
+org.jext.options.EditorOptions: *java.lang.String[]* [private] modeNames
+org.jext.options.KeyShortcutsOptions: *java.lang.String[]* [private] actions
+org.jext.options.KeyShortcutsOptions: *java.lang.String[]* [private] labels
+org.jext.options.KeyShortcutsOptions: *java.lang.String[]* [private] _keys
+org.jext.options.UIOptions: *org.jext.options.UIOptions$SkinItem[]* [private] skinsNames
+org.jext.print.PrintText: *java.lang.String[]* [private] text_ [mod]
+org.jext.print.PrintText$Page: *java.lang.String[]* [private] pageText_ [no-stores]
+org.jext.search.BoyerMooreSearchMatcher: *java.lang.Object[]* [private] replaceArgs
+org.jext.search.RESearchMatcher: *java.lang.String[]* replaceArgs
+
+N-CYCLES
+========
+[org/jext/gui/JextHighlightButton$MouseHandler, org/jext/gui/JextHighlightButton]
+[org/jext/misc/FindAccessory$FindControls, org/jext/misc/FindAccessory$FindResults, org/jext/misc/FindAccessory$FindTabs, org/jext/misc/FindAccessory$FindAction, org/jext/misc/FindAccessory]
+[org/jext/search/SearchHighlight, org/jext/JextTabbedPane$PopupMenu, org/jext/JextTabbedPane, org/jext/misc/AutoSave, org/jext/misc/VirtualFolders$VirtualFolderNode, org/jext/misc/VirtualFolders, org/jext/misc/Workspaces, org/jext/gui/Dockable, org/jext/scripting/AbstractLogWindow, org/jext/console/ConsoleTextPane$ConsoleKeyAdapter, org/jext/console/ConsoleTextPane, org/jext/console/Console$ConsoleProcess$StdinThread, org/jext/console/Console$ConsoleProcess$StderrThread, org/jext/console/Console$ConsoleProcess$StdoutThread, org/jext/console/Console$ConsoleProcess, org/jext/console/Console, org/jext/xinsert/XTreeObject, org/jext/xinsert/XTree, org/jext/menus/JextRecentMenu, org/jext/JextFrame, org/jext/JextTextArea]
+[org/jext/options/OptionsDialog$OptionTreeModel, org/jext/options/OptionsDialog]
+[org/jext/gui/JextButton$MouseHandler, org/jext/gui/JextButton]
+[org/jext/gui/JextToggleButton$MouseHandler, org/jext/gui/JextToggleButton]
+[org/jext/misc/ZipExplorer$ZipTableModel, org/jext/misc/ZipExplorer]
+[org/jext/options/KeyShortcutsOptions$KeysTableModel, org/jext/options/KeyShortcutsOptions]
+[org/jext/options/FileFiltersOptions$FiltersTableModel, org/jext/options/FileFiltersOptions]

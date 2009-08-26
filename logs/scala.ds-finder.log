@@ -1,0 +1,88 @@
+DSFinder has run for 0 min. 10 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/scala/build/quick/classes/compiler/:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/scala/lib/ScalaCheck.jar:/home/albiz/dev/scala/lib/ScalaCheckHelper.jar:/home/albiz/dev/scala/lib/ant-contrib.jar:/home/albiz/dev/scala/lib/ant-dotnet-1.0.jar:/home/albiz/dev/scala/lib/cldcapi10.jar:/home/albiz/dev/scala/lib/fjbg.jar:/home/albiz/dev/scala/lib/jline.jar:/home/albiz/dev/scala/lib/maven-ant-tasks-2.0.9.jar:/home/albiz/dev/scala/lib/midpapi10.jar:/home/albiz/dev/scala/lib/msil.jar:/home/albiz/dev/scala/lib/scala-compiler.jar:/home/albiz/dev/scala/lib/scala-library-src.jar:/home/albiz/dev/scala/lib/scala-library.jar:/home/albiz/dev/scala/lib/vizant.jar:/home/albiz/dev/scala/lib/ant.jar:/home/albiz/dev/scala/lib/ant-launcher.jar:/home/albiz/dev/scala/build/quick/classes/library:/home/albiz/dev/scala/build/pack/lib/scala-compiler.jar:/home/albiz/dev/scala/build/pack/lib/scala-library.jar:/home/albiz/dev/scala/build/pack/lib/scala-swing.jar:/home/albiz/dev/scala/lib/bcel-5.2.jar, -p, --include=scala/, --title=/home/albiz/dev/sootOutput/logs/scala.ds-finder.log, scala.tools.nsc.MainInterpreter]
+Processed 7177 non-library classes (12689 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						14
+Parents/outers						59
+Others (439 java.lang.Object, 229 non-Object fields)	668
+ exact matching fields					15
+
+Distinct classes containing linked lists and parents:	73
+
+N-cycles						71
+
+Arrays							64
+	 read-only:					18
+	 w/arraycopy:					3
+	 hashtable-like:				12
+	 (error bars:) [3]				4
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.Set						4
+java.util.Map						2
+java.util.SortedMap					2
+java.util.List						2
+java.util.TreeMap					2
+Others							13
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+scala.tools.nsc.symtab.Names$Name			414
+scala.tools.nsc.typechecker.Contexts$Context		26
+scala.tools.nsc.Phase					16
+scala.xml.NamespaceBinding				8
+scala.tools.nsc.symtab.Scopes$ScopeEntry		5
+Others							45
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.ArrayList					2
+java.util.LinkedList					2
+java.util.LinkedHashMap					2
+java.util.IdentityHashMap				2
+java.util.TreeSet					2
+Others							10
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+scala.xml.UnprefixedAttribute				108
+scala.collection.immutable.UnbalancedTreeMap$Node	7
+scala.tools.nsc.symtab.Symbols$TypeHistory		6
+scala.xml.NamespaceBinding				6
+scala.collection.mutable.DefaultEntry			5
+Others							83
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			0
+Collections are potential data structures		25
+
+
+java.lang.String					0
+java.lang.Object					0
+Ad-Hoc types:
+=============
+Others							0
+
+System types:
+==============
+Others							0
+
+TEMPLATE PARAMETERS					32
+UNKNOWN							2
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

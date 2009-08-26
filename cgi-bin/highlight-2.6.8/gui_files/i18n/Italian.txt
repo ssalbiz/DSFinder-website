@@ -1,0 +1,118 @@
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+#
+# Translator: Tommaso Loreto <t.loreto@fastwebnet.it>
+
+M001=&Apri
+M002=&Esci
+
+M003=A&iuto
+M004=&Licenza
+M005=Log &cambiamenti
+M006=A &proposito di Highlight...
+M007=&File
+M008=Lin&gua
+M009=&Suggerimenti
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Scegli file
+L004=Formato output
+L005=Includi CSS nell'output
+L006=Aggiungi ancore alle linee
+L011=File da includere in
+L009=File CSS di riferimento:
+L010=Tema colori:
+L013=Includi numeri di linea
+L014=Ometti intestazione e pie' di pagina
+L008=Genera file indice
+L015=Converti file
+L022=Scegli il file
+L002=Cartella di output
+L007=Riformatta:
+L025=Errore
+L026=Prego, riaprire Highlight...
+L027=A capo linee lunghe
+L028=Intelligent wrap
+L029=Sostituisci virgolette
+L030=Larghezza tabulazione:
+L031=Riempi con zeri
+L032=Write to source directories
+L033=Remove selection
+L034=Error summary
+L035=style
+L036=Encoding:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Informazioni
+L023=Finito: %d fíle in %ld ms.
+L003=Cancella lista file
+L016=<Nessun file selezionato>
+L020=Selezionare una cartella di output valida.
+L021=Selezionare un file di output CSS.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Solo i file C, C++, C# e Java possono essere riformattati.
+E001=Errore nell'esecuzione di Notepad.exe
+E002=Definizione lingua  %s.lang non trovata!
+E003=Impossibile aprire:
+E004=Impossibile scrivere:
+E005=Impossibile aprire i temi. Controllare installazione.
+E006=Errore nella scrittura del file delle preferenze!
+E007=Impossibile creare file indice.
+E008=Impossibile leggere le estensioni di file. Controllare installazione.
+E009=Impossibile leggere gli schemi di indentazione. Controllare installazione.
+E010=Could not reformat:
+
+
+T001=Aggiungi i file che vuoi convertire.\nPuoi utilizzare anche il drag and drop.
+T002=Selezionare una cartella di output.
+T003=Scegli un file CSS di input da includere nella definizione CSS.
+T004=Cancella la lista dei file di input.
+T005=Nome del file CSS di output.
+T006=Percorso del file CSS di input.
+T007=Percorso della cartella di output.
+T008=Include la definizione CSS nei file di output.
+T009=Omette intestazione e pie' di pagina dei file di output.
+T010=Aggiunge numeri di linea.
+T011=Aggiunge ancore HTML ai numeri di linea.
+T012=Riformatta e indenta codice C, C++, C# e Java.
+T013=Sceglie uno dei formati di output.
+T014=Inizia la conversione dei file di input.
+T015=Genera un file di indice con link ai file di output.
+T016=Sceglie uno stile per la formattazione e l'indentazione.
+T017=Seleziona uno stile di colori.
+T018=Manda a capo linee lunghe piu' di 80 (75 se con numeri di linea) caratteri.
+T019=Wrap lines and indent statements and function parameters.
+T020=Sostituisce le virgolette con \dq.\nUtile per l'impiego in LaTex del package "German".
+T021=Rimpiazza le tabulazioni con il numero di spazi prescelto (se diverso da zero).
+T022=Riempie con zeri lo spazio davanti ai numeri di linea.
+T023=Save output in the directories of the input files.
+T024=Remove selected entries from input file list.
+T025=Use an output encoding, which matches the input file encoding.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Pronto.
+L017=Processamento file....

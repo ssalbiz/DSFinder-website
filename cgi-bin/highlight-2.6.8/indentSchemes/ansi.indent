@@ -1,0 +1,9 @@
+# ANSI indentation scheme
+
+$indent-brackets=false
+$indent-spaces=4
+$brackets=break
+$indent-classes=false
+$indent-switches=false
+$indent-namespaces=false
+

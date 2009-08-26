@@ -1,0 +1,80 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+cern.colt.map.AbstractIntObjectMap$2: *java.lang.Object* [final] val$value
+cern.colt.map.AbstractIntObjectMap$6: *java.lang.Object* [final] val$value
+cern.colt.map.AbstractLongObjectMap$2: *java.lang.Object* [final] val$value
+cern.colt.map.AbstractLongObjectMap$6: *java.lang.Object* [final] val$value
+cern.colt.matrix.impl.WrapperDoubleMatrix1D$1: *cern.colt.matrix.impl.WrapperDoubleMatrix1D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix1D$2: *cern.colt.matrix.impl.WrapperDoubleMatrix1D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix1D$3: *cern.colt.matrix.impl.WrapperDoubleMatrix1D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix1D$4: *cern.colt.matrix.impl.WrapperDoubleMatrix1D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$1: *cern.colt.matrix.impl.WrapperDoubleMatrix2D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$2: *cern.colt.matrix.impl.WrapperDoubleMatrix2D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$3: *cern.colt.matrix.impl.WrapperDoubleMatrix2D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$4: *cern.colt.matrix.impl.WrapperDoubleMatrix2D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$5: *cern.colt.matrix.impl.WrapperDoubleMatrix2D* [final] this$0
+cern.colt.matrix.impl.WrapperDoubleMatrix2D$6: *cern.colt.matrix.impl.WrapperDoubleMatrix2D* [final] this$0
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+cern.colt.matrix.impl.WrapperDoubleMatrix1D: *cern.colt.matrix.DoubleMatrix1D* [protected] content
+cern.colt.matrix.impl.WrapperDoubleMatrix2D: *cern.colt.matrix.DoubleMatrix2D* [protected] content
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+
+ARRAYS REPORT
+=============
+
+cern.colt.buffer.ObjectBuffer: *java.lang.Object[]* [protected] elements
+cern.colt.list.ObjectArrayList: *java.lang.Object[]* [protected] elements [arraycopy]
+cern.colt.map.AbstractIntObjectMap$10: *java.lang.Object[]* [final] val$v [no-stores]
+cern.colt.map.AbstractIntObjectMap$9: *java.lang.Object[]* [final] val$v
+cern.colt.map.AbstractLongObjectMap$10: *java.lang.Object[]* [final] val$v [no-stores]
+cern.colt.map.AbstractLongObjectMap$9: *java.lang.Object[]* [final] val$v
+cern.colt.map.OpenIntObjectHashMap: *java.lang.Object[]* [protected] values [mod]
+cern.colt.map.OpenLongObjectHashMap: *java.lang.Object[]* [protected] values [mod]
+cern.colt.matrix.doublealgo.Sorting$7: *cern.colt.matrix.DoubleMatrix1D[]* [final] val$views [no-stores]
+cern.colt.matrix.doublealgo.Sorting$9: *cern.colt.matrix.DoubleMatrix2D[]* [final] val$views [no-stores]
+cern.colt.matrix.impl.DenseObjectMatrix1D: *java.lang.Object[]* [protected] elements [arraycopy]
+cern.colt.matrix.impl.DenseObjectMatrix2D: *java.lang.Object[]* [protected] elements [arraycopy]
+cern.colt.matrix.impl.DenseObjectMatrix3D: *java.lang.Object[]* [protected] elements [arraycopy]
+cern.colt.matrix.impl.RCMDoubleMatrix2D: *cern.colt.list.IntArrayList[]* [private] indexes
+cern.colt.matrix.impl.RCMDoubleMatrix2D: *cern.colt.list.DoubleArrayList[]* [private] values
+cern.colt.matrix.impl.SelectedDenseObjectMatrix1D: *java.lang.Object[]* [protected] elements
+cern.colt.matrix.impl.SelectedDenseObjectMatrix2D: *java.lang.Object[]* [protected] elements
+cern.colt.matrix.impl.SelectedDenseObjectMatrix3D: *java.lang.Object[]* [protected] elements
+cern.colt.matrix.impl.SparseDoubleMatrix2D$6: *cern.colt.matrix.DoubleMatrix1D[]* [final] val$Crows [no-stores] [mod]
+cern.colt.matrix.impl.SparseDoubleMatrix2D$6: *cern.colt.matrix.DoubleMatrix1D[]* [final] val$Brows [no-stores] [mod]
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$7: *cern.colt.matrix.DoubleMatrix1D[]* [final] val$Crows [no-stores]
+cern.colt.matrix.impl.TridiagonalDoubleMatrix2D$7: *cern.colt.matrix.DoubleMatrix1D[]* [final] val$Brows [no-stores]
+cern.colt.matrix.linalg.Smp$1: *cern.colt.matrix.DoubleMatrix2D[]* [final] val$blocksA [no-stores]
+cern.colt.matrix.linalg.Smp$1: *cern.colt.matrix.DoubleMatrix2D[]* [final] val$blocksB [no-stores]
+cern.colt.matrix.linalg.Smp$2: *EDU.oswego.cs.dl.util.concurrent.FJTask[]* [final] val$subTasks [no-stores]
+cern.colt.matrix.linalg.SmpBlas$4: *EDU.oswego.cs.dl.util.concurrent.FJTask[]* [final] val$subTasks [no-stores]
+cern.colt.matrix.linalg.SmpBlas$6: *EDU.oswego.cs.dl.util.concurrent.FJTask[]* [final] val$subTasks [no-stores]
+cern.colt.matrix.objectalgo.Partitioning$2: *java.lang.Object[]* [final] val$splitters [no-stores]
+cern.colt.matrix.objectalgo.Partitioning$4: *java.lang.Object[]* [final] val$splitters [no-stores]
+cern.colt.matrix.objectalgo.Sorting$5: *cern.colt.matrix.ObjectMatrix1D[]* [final] val$views [no-stores]
+cern.colt.matrix.objectalgo.Sorting$7: *cern.colt.matrix.ObjectMatrix2D[]* [final] val$views [no-stores]
+cern.jet.stat.quantile.DoubleBufferSet: *cern.jet.stat.quantile.DoubleBuffer[]* [protected] buffers [mod]
+
+N-CYCLES
+========

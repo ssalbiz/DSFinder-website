@@ -1,0 +1,120 @@
+DSFinder has run for 0 min. 3 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.hsqldb.Expression: *java.lang.Object* valueData
+org.hsqldb.lib.HsqlLinkedList$Node: *java.lang.Object* [public] data
+org.hsqldb.Parser: *java.lang.Object* [private] oData
+org.hsqldb.SetFunction: *java.lang.Object* [private] currentValue
+
+Linked List-like Data Structures:
+org.hsqldb.Index$IndexRowIterator: [protected] next
+org.hsqldb.lib.HsqlLinkedList$Node: [public] next
+org.hsqldb.Node: nNext
+org.hsqldb.Record: [public] next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.hsqldb.Expression: eArg
+org.hsqldb.Expression: eArg2
+org.hsqldb.Grantee: [private] pubGrantee
+org.hsqldb.HsqlNameManager$HsqlName: [public] schema
+org.hsqldb.Index$IndexRowIterator: [protected] last
+org.hsqldb.Select: unionSelect
+Non-Object Fields:
+org.hsqldb.BaseMemoryNode: *org.hsqldb.Node* [protected] nLeft
+org.hsqldb.BaseMemoryNode: *org.hsqldb.Node* [protected] nRight
+org.hsqldb.BaseMemoryNode: *org.hsqldb.Node* [protected] nParent
+org.hsqldb.PointerNode: *org.hsqldb.Node* [private] nPrimary
+java.lang.Object Fields:
+org.hsqldb.HsqlSocketFactorySecure: *java.lang.Object* [protected] socketFactory
+org.hsqldb.HsqlSocketFactorySecure: *java.lang.Object* [protected] serverSocketFactory
+org.hsqldb.HsqlSocketFactorySecure: *java.lang.Object* [protected] [final] socket_factory_mutex
+org.hsqldb.HsqlSocketFactorySecure: *java.lang.Object* [protected] [final] server_socket_factory_mutex
+org.hsqldb.jdbc.jdbcConnection: *java.lang.Object* [private] rootWarning_mutex
+org.hsqldb.jdbc.jdbcPreparedStatement: *java.lang.Object* [protected] pmd
+org.hsqldb.lib.HsqlTimer$Task: *java.lang.Object* [private] cancel_mutex
+org.hsqldb.persist.LockFile: *java.lang.Object* [private] timerTask
+org.hsqldb.scriptio.ScriptWriterBase: *java.lang.Object* [private] timerTask
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.hsqldb.persist.HsqlProperties: *java.util.Properties* [protected] stringProps
+org.hsqldb.util.CodeSwitcher: *java.util.Vector* [private] vList
+org.hsqldb.util.CodeSwitcher: *java.util.Vector* [private] vSwitchOn
+org.hsqldb.util.CodeSwitcher: *java.util.Vector* [private] vSwitchOff
+org.hsqldb.util.CodeSwitcher: *java.util.Vector* [private] vSwitches
+
+ARRAYS REPORT
+=============
+
+org.hsqldb.CompiledStatement: *org.hsqldb.Expression[]* columnValues [hashcode]
+org.hsqldb.CompiledStatement: *org.hsqldb.Expression[]* parameters [hashcode]
+org.hsqldb.CompiledStatement: *org.hsqldb.SubQuery[]* subqueries [hashcode]
+org.hsqldb.DatabaseInformationMain: *org.hsqldb.Table[]* [protected] [final] sysTables
+org.hsqldb.DIProcedureInfo: *java.lang.Class[]* [private] colClasses
+org.hsqldb.Expression: *org.hsqldb.Expression[]* valueList
+org.hsqldb.Function: *java.lang.Class[]* [private] aArgClasses
+org.hsqldb.Function: *org.hsqldb.Expression[]* eArg
+org.hsqldb.GroupedResult$ResultGroup: *java.lang.Object[]* row [no-stores] [hashcode]
+org.hsqldb.jdbc.jdbcParameterMetaData: *java.lang.String[]* classNames
+org.hsqldb.jdbc.jdbcPreparedStatement: *java.lang.Object[]* [protected] parameterValues [mod] [arraycopy]
+org.hsqldb.jdbc.jdbcResultSetMetaData: *org.hsqldb.jdbc.jdbcColumnMetaData[]* [private] columnMetaData
+org.hsqldb.lib.HsqlArrayHeap: *java.lang.Object[]* [protected] heap [arraycopy]
+org.hsqldb.lib.HsqlArrayList: *java.lang.Object[]* [private] elementData [arraycopy]
+org.hsqldb.lib.HsqlDeque: *java.lang.Object[]* [private] list [arraycopy]
+org.hsqldb.lib.WrapperIterator: *java.lang.Object[]* [private] elements
+org.hsqldb.persist.Cache: *org.hsqldb.persist.CachedObject[]* [private] rowTable
+org.hsqldb.persist.HsqlProperties: *java.lang.String[]* [protected] errorKeys
+org.hsqldb.Record: *java.lang.Object[]* [public] data [no-stores]
+org.hsqldb.Result$ResultMetaData: *java.lang.String[]* [public] colLabels
+org.hsqldb.Result$ResultMetaData: *java.lang.String[]* [public] tableNames
+org.hsqldb.Result$ResultMetaData: *java.lang.String[]* [public] colNames
+org.hsqldb.Result$ResultMetaData: *java.lang.String[]* [public] catalogNames
+org.hsqldb.Result$ResultMetaData: *java.lang.String[]* [public] schemaNames
+org.hsqldb.Result$ResultMetaData: *java.lang.String[]* [public] classNames
+org.hsqldb.Row: *java.lang.Object[]* [protected] oData [no-stores]
+org.hsqldb.scriptio.ScriptReaderBase: *java.lang.Object[]* rowData [no-stores]
+org.hsqldb.Select: *org.hsqldb.TableFilter[]* tFilter
+org.hsqldb.Select: *org.hsqldb.Expression[]* exprColumns
+org.hsqldb.Select: *org.hsqldb.Select[]* unionArray
+org.hsqldb.Server: *java.lang.String[]* [private] dbAlias [hashcode]
+org.hsqldb.Server: *java.lang.String[]* [private] dbType [hashcode]
+org.hsqldb.Server: *java.lang.String[]* [private] dbPath [hashcode]
+org.hsqldb.Server: *org.hsqldb.persist.HsqlProperties[]* [private] dbProps [hashcode]
+org.hsqldb.store.BaseHashMap: *java.lang.Object[]* [protected] objectKeyTable [arraycopy] [hashcode]
+org.hsqldb.store.BaseHashMap: *java.lang.Object[]* [protected] objectValueTable [arraycopy] [hashcode]
+org.hsqldb.Table: *org.hsqldb.Constraint[]* constraintList [arraycopy] [hashcode]
+org.hsqldb.Table: *org.hsqldb.lib.HsqlArrayList[]* triggerLists [arraycopy] [hashcode]
+org.hsqldb.Table: *org.hsqldb.Expression[]* [private] colDefaults [arraycopy] [hashcode]
+org.hsqldb.Table: *org.hsqldb.Index[]* indexList [arraycopy] [hashcode]
+org.hsqldb.TableFilter: *java.lang.Object[]* [private] emptyData
+org.hsqldb.TableFilter: *org.hsqldb.Expression[]* findFirstExpressions
+org.hsqldb.TableFilter: *java.lang.Object[]* currentData
+org.hsqldb.TableFilter: *java.lang.Object[]* currentJoinData
+org.hsqldb.TriggerDef$TriggerData: *java.lang.Object[]* [public] oldRow [no-stores]
+org.hsqldb.TriggerDef$TriggerData: *java.lang.Object[]* [public] newRow [no-stores]
+org.hsqldb.View: *org.hsqldb.HsqlNameManager$HsqlName[]* [private] colList [no-stores]
+org.hsqldb.View: *org.hsqldb.SubQuery[]* viewSubqueries [no-stores]
+
+N-CYCLES
+========
+[org/hsqldb/CompiledStatementExecutor, org/hsqldb/DatabaseCommandInterpreter, org/hsqldb/jdbc/jdbcConnection, org/hsqldb/Parser, org/hsqldb/SchemaManager, org/hsqldb/CompiledStatementManager, org/hsqldb/lib/LongKeyIntValueHashMap, org/hsqldb/TransactionManager, org/hsqldb/lib/IntKeyHashMap, org/hsqldb/SessionManager, org/hsqldb/User, org/hsqldb/UserManager, org/hsqldb/persist/Cache, org/hsqldb/persist/DataFileCache, org/hsqldb/scriptio/ScriptWriterBase, org/hsqldb/persist/HsqlDatabaseProperties, org/hsqldb/persist/Log, org/hsqldb/persist/Logger, org/hsqldb/DatabaseInformation, org/hsqldb/Database, org/hsqldb/Session]
+[org/hsqldb/NumberSequence, org/hsqldb/Index$IndexRowIterator, org/hsqldb/Index, org/hsqldb/Table]
+[org/hsqldb/TableFilter, org/hsqldb/View, org/hsqldb/Select, org/hsqldb/SubQuery, org/hsqldb/Expression, org/hsqldb/Column]
+[org/hsqldb/GroupedResult$ResultGroup, org/hsqldb/GroupedResult]
+[org/hsqldb/lib/HsqlTimer$TaskRunner, org/hsqldb/lib/HsqlTimer]
+[org/hsqldb/jdbc/jdbcStatement, org/hsqldb/jdbc/jdbcResultSet]
+[org/hsqldb/lib/HsqlTaskQueue$TaskRunner, org/hsqldb/lib/HsqlTaskQueue]
+[org/hsqldb/ResultBase, org/hsqldb/ResultBase$ResultIterator]

@@ -1,0 +1,264 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.catalina.connector.ClientAbortException: *java.lang.Throwable* [protected] throwable
+org.apache.catalina.ContainerEvent: *java.lang.Object* [private] data
+org.apache.catalina.ha.session.DeltaRequest$AttributeInfo: *java.lang.Object* [private] value
+org.apache.catalina.LifecycleEvent: *java.lang.Object* [private] data
+org.apache.catalina.LifecycleException: *java.lang.Throwable* [protected] throwable
+org.apache.catalina.security.SecurityUtil$1: *java.lang.Object* [final] val$targetObject
+org.apache.catalina.SessionEvent: *java.lang.Object* [private] data
+org.apache.catalina.tribes.tipis.AbstractReplicatedMap$MapEntry: *java.lang.Object* [private] key
+org.apache.catalina.tribes.tipis.AbstractReplicatedMap$MapEntry: *java.lang.Object* [private] value
+
+Linked List-like Data Structures:
+org.apache.catalina.tribes.group.interceptors.OrderInterceptor$MessageOrder: [private] next
+org.apache.catalina.tribes.transport.bio.util.LinkObject: [private] next
+
+Parent- and outer-type Data Structures:
+org.apache.catalina.loader.WebappClassLoader: *java.lang.ClassLoader* [protected] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.apache.catalina.loader.WebappClassLoader: *java.lang.ClassLoader* [protected] system
+org.apache.catalina.servlets.CGIServlet$HTTPHeaderInputStream: *java.io.InputStream* [private] input
+org.apache.catalina.ssi.ExpressionParseTree$OppNode: *org.apache.catalina.ssi.ExpressionParseTree$Node* left
+org.apache.catalina.ssi.ExpressionParseTree$OppNode: *org.apache.catalina.ssi.ExpressionParseTree$Node* right
+org.apache.catalina.util.FastDateFormat: *java.text.DateFormat* df
+java.lang.Object Fields:
+org.apache.catalina.connector.Request: *java.lang.Object* [protected] dispatcherType
+org.apache.catalina.connector.Request: *java.lang.Object* [protected] requestDispatcherPath
+org.apache.catalina.core.ApplicationHttpRequest: *java.lang.Object* [protected] dispatcherType
+org.apache.catalina.core.ApplicationHttpRequest: *java.lang.Object* [protected] requestDispatcherPath
+org.apache.catalina.core.NamingContextListener: *java.lang.Object* [protected] container
+org.apache.catalina.deploy.NamingResources: *java.lang.Object* [private] container
+org.apache.catalina.ha.tcp.SendMessageData: *java.lang.Object* [private] message
+org.apache.catalina.startup.Bootstrap: *java.lang.Object* [private] catalinaDaemon
+org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator: *java.lang.Object* [protected] electionMutex
+org.apache.catalina.tribes.membership.McastServiceImpl: *java.lang.Object* [protected] expiredMutex
+org.apache.catalina.tribes.tipis.AbstractReplicatedMap: *java.lang.Object* [protected] stateMutex
+org.apache.catalina.tribes.transport.RxTaskPool: *java.lang.Object* mutex
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.apache.catalina.core.ContainerBase: *java.util.HashMap* [protected] children
+==
+org.apache.catalina.ant.jmx.JMXAccessorCreateTask: *java.util.List* [private] args
+org.apache.catalina.ant.jmx.JMXAccessorInvokeTask: *java.util.List* [private] args
+org.apache.catalina.ant.jmx.JMXAccessorTask: *java.util.Properties* [private] properties
+org.apache.catalina.connector.InputBuffer: *java.util.HashMap* [protected] encoders
+org.apache.catalina.connector.OutputBuffer: *java.util.HashMap* [protected] encoders
+org.apache.catalina.connector.Request: *java.util.HashMap* [protected] attributes
+org.apache.catalina.connector.Request: *java.util.HashMap* [private] readOnlyAttributes
+org.apache.catalina.connector.Request: *java.util.ArrayList* [protected] locales
+org.apache.catalina.connector.Request: *java.util.HashMap* [private] notes
+org.apache.catalina.connector.Request: *org.apache.catalina.util.ParameterMap* [protected] parameterMap
+org.apache.catalina.connector.Response: *java.util.ArrayList* [protected] cookies
+org.apache.catalina.core.ApplicationContext: *java.util.Map* [protected] attributes
+org.apache.catalina.core.ApplicationContext: *java.util.Map* [private] readOnlyAttributes
+org.apache.catalina.core.ApplicationContext: *java.util.Map* [private] parameters
+org.apache.catalina.core.ApplicationContextFacade: *java.util.HashMap* [private] classCache
+org.apache.catalina.core.ApplicationContextFacade: *java.util.HashMap* [private] objectCache
+org.apache.catalina.core.ApplicationHttpRequest: *java.util.Map* [protected] parameters
+org.apache.catalina.core.ApplicationRequest: *java.util.HashMap* [protected] attributes
+org.apache.catalina.core.ContainerBase: *java.util.ArrayList* [protected] listeners
+org.apache.catalina.core.NamingContextListener: *java.util.HashMap* [protected] objectNames
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] exceptionPages
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] filterConfigs
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] filterDefs
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] messageDestinations
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] mimeMappings
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] parameters
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] roleMappings
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] servletMappings
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] statusPages
+org.apache.catalina.core.StandardContext: *java.util.HashMap* [private] taglibs
+org.apache.catalina.core.StandardEngine: *java.util.List* [private] mbeans
+org.apache.catalina.core.StandardWrapper: *java.util.ArrayList* [protected] mappings
+org.apache.catalina.core.StandardWrapper: *java.util.HashMap* [protected] parameters
+org.apache.catalina.core.StandardWrapper: *java.util.HashMap* [protected] references
+org.apache.catalina.core.StandardWrapper: *java.util.Stack* [protected] instancePool
+org.apache.catalina.deploy.ContextHandler: *java.util.HashMap* [private] soapHeaders
+org.apache.catalina.deploy.ContextService: *java.util.HashMap* [private] handlers
+org.apache.catalina.deploy.ContextTransaction: *java.util.HashMap* [private] properties
+org.apache.catalina.deploy.FilterDef: *java.util.Map* [private] parameters
+org.apache.catalina.deploy.NamingResources: *java.util.Hashtable* [private] entries
+org.apache.catalina.deploy.NamingResources: *java.util.HashMap* [private] ejbs
+org.apache.catalina.deploy.NamingResources: *java.util.HashMap* [private] envs
+org.apache.catalina.deploy.NamingResources: *java.util.HashMap* [private] localEjbs
+org.apache.catalina.deploy.NamingResources: *java.util.HashMap* [private] mdrs
+org.apache.catalina.deploy.NamingResources: *java.util.HashMap* [private] resourceEnvRefs
+org.apache.catalina.deploy.NamingResources: *java.util.HashMap* [private] resources
+org.apache.catalina.deploy.NamingResources: *java.util.HashMap* [private] resourceLinks
+org.apache.catalina.deploy.NamingResources: *java.util.HashMap* [private] services
+org.apache.catalina.deploy.ResourceBase: *java.util.HashMap* [private] properties
+org.apache.catalina.ha.context.ReplicatedContext$ReplApplContext: *java.util.concurrent.ConcurrentHashMap* [protected] tomcatAttributes
+org.apache.catalina.ha.deploy.FarmWarDeployer: *java.util.HashMap* [protected] fileFactories
+org.apache.catalina.ha.deploy.WarWatcher: *java.util.Map* [protected] currentStatus
+org.apache.catalina.ha.session.DeltaManager: *java.util.ArrayList* [private] receivedMessageQueue
+org.apache.catalina.ha.session.DeltaRequest: *java.util.LinkedList* [private] actions
+org.apache.catalina.ha.session.DeltaRequest: *java.util.LinkedList* [private] actionPool
+org.apache.catalina.ha.session.SimpleTcpReplicationManager: *java.util.HashMap* [protected] invalidatedSessions
+org.apache.catalina.ha.session.StandardSessionContext: *java.util.HashMap* [private] dummy
+org.apache.catalina.ha.tcp.SimpleTcpCluster: *java.util.Map* [protected] managers
+org.apache.catalina.ha.tcp.SimpleTcpCluster: *java.util.List* [private] valves
+org.apache.catalina.ha.tcp.SimpleTcpCluster: *java.util.List* [protected] clusterListeners
+org.apache.catalina.ha.tcp.SimpleTcpCluster: *java.util.Map* [private] properties
+org.apache.catalina.loader.WebappClassLoader: *java.util.HashMap* [protected] resourceEntries
+org.apache.catalina.loader.WebappClassLoader: *java.util.HashMap* [protected] notFoundResources
+org.apache.catalina.loader.WebappClassLoader: *java.util.ArrayList* [protected] permissionList
+org.apache.catalina.loader.WebappClassLoader: *java.util.HashMap* [protected] loaderPC
+org.apache.catalina.loader.WebappLoader: *java.util.ArrayList* [private] loaderRepositories
+org.apache.catalina.manager.StatusManagerServlet: *java.util.Vector* [protected] protocolHandlers
+org.apache.catalina.manager.StatusManagerServlet: *java.util.Vector* [protected] threadPools
+org.apache.catalina.manager.StatusManagerServlet: *java.util.Vector* [protected] requestProcessors
+org.apache.catalina.manager.StatusManagerServlet: *java.util.Vector* [protected] globalRequestProcessors
+org.apache.catalina.realm.JAASMemoryLoginModule: *java.util.Map* [protected] options
+org.apache.catalina.realm.JAASMemoryLoginModule: *java.util.HashMap* [protected] principals
+org.apache.catalina.realm.JAASMemoryLoginModule: *java.util.Map* [protected] sharedState
+org.apache.catalina.servlets.CGIServlet$CGIEnvironment: *java.util.Hashtable* [private] env
+org.apache.catalina.servlets.CGIServlet$CGIRunner: *java.util.Hashtable* [private] env
+org.apache.catalina.servlets.CGIServlet$CGIRunner: *java.util.ArrayList* [private] params
+org.apache.catalina.session.StandardSession: *java.util.Map* [protected] attributes
+org.apache.catalina.session.StandardSession: *java.util.ArrayList* [protected] listeners
+org.apache.catalina.session.StandardSession: *java.util.Map* [protected] notes
+org.apache.catalina.session.StandardSessionContext: *java.util.HashMap* [protected] dummy
+org.apache.catalina.ssi.ExpressionParseTree: *java.util.LinkedList* [private] nodeStack
+org.apache.catalina.ssi.ExpressionParseTree: *java.util.LinkedList* [private] oppStack
+org.apache.catalina.ssi.SSIProcessor: *java.util.HashMap* [protected] commands
+org.apache.catalina.startup.ContextConfig: *java.util.Map* [protected] customAuthenticators
+org.apache.catalina.startup.Embedded: *java.util.HashMap* [protected] authenticators
+org.apache.catalina.startup.HomesUserDatabase: *java.util.Hashtable* [private] homes
+org.apache.catalina.startup.HostConfig: *java.util.HashMap* [protected] deployed
+org.apache.catalina.startup.HostConfig: *java.util.ArrayList* [protected] serviced
+org.apache.catalina.startup.HostConfig$DeployedApplication: *java.util.LinkedHashMap* [public] redeployResources
+org.apache.catalina.startup.HostConfig$DeployedApplication: *java.util.HashMap* [public] reloadResources
+org.apache.catalina.startup.PasswdUserDatabase: *java.util.Hashtable* [private] homes
+org.apache.catalina.tribes.ChannelException: *java.util.ArrayList* [private] faultyMembers
+org.apache.catalina.tribes.group.GroupChannel: *java.util.ArrayList* [protected] membershipListeners
+org.apache.catalina.tribes.group.GroupChannel: *java.util.ArrayList* [protected] channelListeners
+org.apache.catalina.tribes.group.interceptors.FragmentationInterceptor: *java.util.HashMap* [protected] fragpieces
+org.apache.catalina.tribes.group.interceptors.OrderInterceptor: *java.util.HashMap* [private] outcounter
+org.apache.catalina.tribes.group.interceptors.OrderInterceptor: *java.util.HashMap* [private] incounter
+org.apache.catalina.tribes.group.interceptors.OrderInterceptor: *java.util.HashMap* [private] incoming
+org.apache.catalina.tribes.group.interceptors.StaticMembershipInterceptor: *java.util.ArrayList* [protected] members
+org.apache.catalina.tribes.group.interceptors.TcpFailureDetector: *java.util.HashMap* [protected] removeSuspects
+org.apache.catalina.tribes.group.interceptors.TcpFailureDetector: *java.util.HashMap* [protected] addSuspects
+org.apache.catalina.tribes.group.interceptors.TwoPhaseCommitInterceptor: *java.util.HashMap* [protected] messages
+org.apache.catalina.tribes.group.RpcChannel: *java.util.HashMap* [private] responseMap
+org.apache.catalina.tribes.group.RpcChannel$RpcCollector: *java.util.ArrayList* [public] responses
+org.apache.catalina.tribes.io.BufferPool14Impl: *java.util.LinkedList* [protected] queue
+org.apache.catalina.tribes.io.BufferPool15Impl: *java.util.concurrent.ConcurrentLinkedQueue* [protected] queue
+org.apache.catalina.tribes.membership.McastService: *java.util.Properties* [protected] properties
+org.apache.catalina.tribes.membership.Membership: *java.util.HashMap* [protected] map
+org.apache.catalina.tribes.tipis.AbstractReplicatedMap: *java.util.HashMap* [protected] mapMembers
+org.apache.catalina.tribes.transport.bio.MultipointBioSender: *java.util.HashMap* [protected] bioSenders
+org.apache.catalina.tribes.transport.nio.NioReceiver: *java.util.LinkedList* [protected] events
+org.apache.catalina.tribes.transport.nio.ParallelNioSender: *java.util.HashMap* [protected] nioSenders
+org.apache.catalina.tribes.transport.PooledSender$SenderQueue: *java.util.List* [private] notinuse
+org.apache.catalina.tribes.transport.PooledSender$SenderQueue: *java.util.List* [private] inuse
+org.apache.catalina.tribes.transport.RxTaskPool: *java.util.List* idle
+org.apache.catalina.tribes.transport.RxTaskPool: *java.util.List* used
+org.apache.catalina.users.MemoryGroup: *java.util.ArrayList* [protected] roles
+org.apache.catalina.users.MemoryUser: *java.util.ArrayList* [protected] groups
+org.apache.catalina.users.MemoryUser: *java.util.ArrayList* [protected] roles
+org.apache.catalina.users.MemoryUserDatabase: *java.util.HashMap* [protected] groups
+org.apache.catalina.users.MemoryUserDatabase: *java.util.HashMap* [protected] roles
+org.apache.catalina.users.MemoryUserDatabase: *java.util.HashMap* [protected] users
+org.apache.catalina.util.CharsetMapper: *java.util.Properties* [private] map
+org.apache.catalina.util.ManifestResource: *java.util.ArrayList* [private] availableExtensions
+org.apache.catalina.util.ManifestResource: *java.util.ArrayList* [private] requiredExtensions
+org.apache.catalina.util.Queue: *java.util.Vector* [private] vector
+org.apache.catalina.util.SchemaResolver: *java.util.HashMap* [protected] entityValidator
+
+ARRAYS REPORT
+=============
+
+org.apache.catalina.authenticator.SingleSignOnEntry: *org.apache.catalina.Session[]* [protected] sessions [arraycopy]
+org.apache.catalina.connector.Request: *javax.servlet.http.Cookie[]* [protected] cookies [arraycopy]
+org.apache.catalina.connector.Request: *java.text.SimpleDateFormat[]* [protected] formats [arraycopy]
+org.apache.catalina.core.ApplicationContextFacade$1: *java.lang.Object[]* [final] val$params [no-stores]
+org.apache.catalina.core.ApplicationFilterChain: *org.apache.catalina.core.ApplicationFilterConfig[]* [private] filters [arraycopy]
+org.apache.catalina.core.ApplicationHttpRequest: *java.lang.Object[]* [protected] specialAttributes
+org.apache.catalina.core.StandardContext: *java.lang.String[]* [private] applicationListeners [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.Object[]* [private] applicationEventListenersObjects [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.Object[]* [private] applicationLifecycleListenersObjects [arraycopy]
+org.apache.catalina.core.StandardContext: *org.apache.catalina.deploy.ApplicationParameter[]* [private] applicationParameters [arraycopy]
+org.apache.catalina.core.StandardContext: *org.apache.catalina.deploy.SecurityConstraint[]* [private] constraints [arraycopy]
+org.apache.catalina.core.StandardContext: *org.apache.catalina.deploy.FilterMap[]* [private] filterMaps [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.String[]* [private] instanceListeners [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.String[]* [private] securityRoles [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.String[]* [private] watchedResources [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.String[]* [private] welcomeFiles [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.String[]* [private] wrapperLifecycles [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.String[]* [private] wrapperListeners [arraycopy]
+org.apache.catalina.core.StandardContext: *javax.management.MBeanNotificationInfo[]* [private] notificationInfo [arraycopy]
+org.apache.catalina.core.StandardContext: *java.lang.String[]* [private] javaVMs [arraycopy]
+org.apache.catalina.core.StandardHost: *java.lang.String[]* [private] aliases
+org.apache.catalina.core.StandardServer: *org.apache.catalina.Service[]* [private] services [mod] [arraycopy]
+org.apache.catalina.core.StandardService: *org.apache.catalina.connector.Connector[]* [protected] connectors [arraycopy]
+org.apache.catalina.core.StandardWrapper: *javax.management.MBeanNotificationInfo[]* [protected] notificationInfo [mod] [arraycopy]
+org.apache.catalina.deploy.ContextService: *java.lang.String[]* [private] serviceqname
+org.apache.catalina.deploy.FilterMap: *java.lang.String[]* [private] servletNames [arraycopy]
+org.apache.catalina.deploy.FilterMap: *java.lang.String[]* [private] urlPatterns [arraycopy]
+org.apache.catalina.deploy.SecurityCollection: *java.lang.String[]* [private] methods
+org.apache.catalina.deploy.SecurityCollection: *java.lang.String[]* [private] patterns
+org.apache.catalina.deploy.SecurityConstraint: *java.lang.String[]* [private] authRoles
+org.apache.catalina.deploy.SecurityConstraint: *org.apache.catalina.deploy.SecurityCollection[]* [private] collections
+org.apache.catalina.ha.context.ReplicatedContext$MultiEnumeration: *java.util.Enumeration[]* e [no-stores]
+org.apache.catalina.ha.session.SerializablePrincipal: *java.lang.String[]* [protected] roles
+org.apache.catalina.ha.tcp.ReplicationValve: *java.util.regex.Pattern[]* [protected] reqFilters [mod]
+org.apache.catalina.loader.ResourceEntry: *java.security.cert.Certificate[]* [public] certificates [no-stores]
+org.apache.catalina.loader.WebappClassLoader: *java.lang.String[]* [protected] repositories
+org.apache.catalina.loader.WebappClassLoader: *java.net.URL[]* [protected] repositoryURLs
+org.apache.catalina.loader.WebappClassLoader: *java.io.File[]* [protected] files
+org.apache.catalina.loader.WebappClassLoader: *java.util.jar.JarFile[]* [protected] jarFiles
+org.apache.catalina.loader.WebappClassLoader: *java.io.File[]* [protected] jarRealFiles
+org.apache.catalina.loader.WebappClassLoader: *java.lang.String[]* [protected] jarNames
+org.apache.catalina.loader.WebappClassLoader: *java.lang.String[]* [protected] paths
+org.apache.catalina.loader.WebappLoader: *java.lang.String[]* [private] repositories
+org.apache.catalina.realm.GenericPrincipal: *java.lang.String[]* [protected] roles [no-stores]
+org.apache.catalina.realm.JNDIRealm: *java.lang.String[]* [protected] userPatternArray
+org.apache.catalina.realm.JNDIRealm: *java.text.MessageFormat[]* [protected] userPatternFormatArray
+org.apache.catalina.security.SecurityUtil$1: *java.lang.Object[]* [final] val$targetArguments [no-stores]
+org.apache.catalina.ssi.SSIServletExternalResolver: *java.lang.String[]* [protected] [final] VARIABLE_NAMES
+org.apache.catalina.startup.Embedded: *org.apache.catalina.Engine[]* [protected] engines
+org.apache.catalina.tribes.group.interceptors.FragmentationInterceptor$FragCollection: *org.apache.catalina.tribes.io.XByteBuffer[]* [private] frags
+org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator$CoordinationEvent: *org.apache.catalina.tribes.Member[]* mbrs [no-stores]
+org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator$CoordinationMessage: *org.apache.catalina.tribes.membership.MemberImpl[]* [protected] view [arraycopy]
+org.apache.catalina.tribes.group.interceptors.StaticMembershipInterceptor$1: *org.apache.catalina.tribes.Member[]* [final] val$mbrs [no-stores]
+org.apache.catalina.tribes.io.ReplicationStream: *java.lang.ClassLoader[]* [private] classLoaders
+org.apache.catalina.tribes.membership.Membership: *org.apache.catalina.tribes.membership.MemberImpl[]* [protected] members [arraycopy]
+org.apache.catalina.tribes.tipis.AbstractReplicatedMap: *java.lang.ClassLoader[]* [protected] externalLoaders [hashcode]
+org.apache.catalina.tribes.tipis.AbstractReplicatedMap$MapEntry: *org.apache.catalina.tribes.Member[]* [private] backupNodes [no-stores] [hashcode]
+org.apache.catalina.tribes.tipis.AbstractReplicatedMap$MapMessage: *org.apache.catalina.tribes.Member[]* [private] nodes
+org.apache.catalina.tribes.transport.bio.util.LinkObject: *org.apache.catalina.tribes.Member[]* [private] destination [no-stores]
+org.apache.catalina.util.InstanceSupport: *org.apache.catalina.InstanceListener[]* [private] listeners
+org.apache.catalina.util.LifecycleSupport: *org.apache.catalina.LifecycleListener[]* [private] listeners
+org.apache.catalina.valves.AccessLogValve: *org.apache.catalina.valves.AccessLogValve$AccessLogElement[]* [protected] logElements [mod]
+org.apache.catalina.valves.RequestFilterValve: *java.util.regex.Pattern[]* [protected] allows [no-stores]
+org.apache.catalina.valves.RequestFilterValve: *java.util.regex.Pattern[]* [protected] denies [no-stores]
+
+N-CYCLES
+========
+[org/apache/catalina/tribes/membership/McastServiceImpl$SenderThread, org/apache/catalina/tribes/membership/McastServiceImpl$ReceiverThread, org/apache/catalina/tribes/membership/McastServiceImpl]
+[org/apache/catalina/connector/ResponseFacade, org/apache/catalina/connector/RequestFacade, org/apache/catalina/connector/CoyoteReader, org/apache/catalina/connector/CometEventImpl, org/apache/catalina/connector/Request, org/apache/catalina/connector/CoyoteWriter, org/apache/catalina/connector/CoyoteOutputStream, org/apache/catalina/connector/Response]
+[org/apache/catalina/deploy/ContextTransaction, org/apache/catalina/deploy/NamingResources]
+[org/apache/catalina/core/ApplicationContext, org/apache/catalina/core/StandardContext]
+[org/apache/catalina/ssi/ExpressionParseTree$Node, org/apache/catalina/ssi/ExpressionParseTree]
+[org/apache/catalina/authenticator/SingleSignOn, org/apache/catalina/authenticator/AuthenticatorBase]
+[org/apache/catalina/tribes/group/interceptors/TcpPingInterceptor, org/apache/catalina/tribes/group/interceptors/TcpPingInterceptor$PingThread]
+[org/apache/catalina/tribes/transport/PooledSender$SenderQueue, org/apache/catalina/tribes/transport/PooledSender]
+[org/apache/catalina/tribes/group/GroupChannel$HeartbeatThread, org/apache/catalina/tribes/group/GroupChannel]
+[org/apache/catalina/ha/tcp/ReplicationValve, org/apache/catalina/ha/session/DeltaManager]
+[org/apache/catalina/ha/authenticator/ClusterSingleSignOn, org/apache/catalina/ha/authenticator/ClusterSingleSignOnListener]

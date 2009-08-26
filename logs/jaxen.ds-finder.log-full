@@ -1,0 +1,66 @@
+DSFinder has run for 0 min. 3 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.jaxen.JaxenRuntimeException: *java.lang.Throwable* [private] cause
+org.jaxen.saxpath.SAXPathException: *java.lang.Throwable* [private] cause
+
+Linked List-like Data Structures:
+org.jaxen.util.PrecedingSiblingAxisIterator: *java.lang.Object* [private] nextObj
+
+Parent- and outer-type Data Structures:
+org.jaxen.javabean.Element: [private] parent
+org.jaxen.pattern.LocationPathPattern: *org.jaxen.pattern.Pattern* [private] parentPattern
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.jaxen.pattern.LocationPathPattern: *org.jaxen.pattern.Pattern* [private] ancestorPattern
+org.jaxen.pattern.UnionPattern: *org.jaxen.pattern.Pattern* [private] lhs
+org.jaxen.pattern.UnionPattern: *org.jaxen.pattern.Pattern* [private] rhs
+java.lang.Object Fields:
+org.jaxen.expr.IdentitySet$IdentityWrapper: *java.lang.Object* [private] object
+org.jaxen.javabean.Element: *java.lang.Object* [private] object
+org.jaxen.util.AncestorOrSelfAxisIterator: *java.lang.Object* [private] contextNode
+org.jaxen.util.FollowingAxisIterator: *java.lang.Object* [private] contextNode
+org.jaxen.util.FollowingSiblingAxisIterator: *java.lang.Object* [private] contextNode
+org.jaxen.util.PrecedingSiblingAxisIterator: *java.lang.Object* [private] contextNode
+org.jaxen.util.SingleObjectIterator: *java.lang.Object* [private] object
+org.jaxen.util.SingletonList: *java.lang.Object* [private] [final] element
+org.jaxen.xom.DocumentNavigator$IndexIterator: *java.lang.Object* [private] o
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.jaxen.Context: *java.util.List* [private] nodeSet
+org.jaxen.dom.NamespaceNode: *java.util.HashMap* [private] userData
+org.jaxen.expr.DefaultFunctionCallExpr: *java.util.List* [private] parameters
+org.jaxen.expr.DefaultLocationPath: *java.util.List* [private] steps
+org.jaxen.expr.IdentitySet: *java.util.HashSet* [private] contents
+org.jaxen.expr.PredicateSet: *java.util.List* [private] predicates
+org.jaxen.JaxenHandler: *java.util.LinkedList* [protected] stack
+org.jaxen.pattern.LocationPathPattern: *java.util.List* [private] filters
+org.jaxen.saxpath.base.XPathReader: *java.util.ArrayList* [private] tokens
+org.jaxen.SimpleFunctionContext: *java.util.HashMap* [private] functions
+org.jaxen.SimpleNamespaceContext: *java.util.Map* [private] namespaces
+org.jaxen.SimpleVariableContext: *java.util.Map* [private] variables
+org.jaxen.util.DescendantAxisIterator: *java.util.ArrayList* [private] stack
+org.jaxen.util.LinkedIterator: *java.util.List* [private] iterators
+org.jaxen.util.PrecedingAxisIterator: *java.util.ArrayList* [private] stack
+org.jaxen.util.StackedIterator: *java.util.LinkedList* [private] iteratorStack
+org.jaxen.util.StackedIterator: *java.util.Set* [private] created
+
+ARRAYS REPORT
+=============
+
+
+N-CYCLES
+========

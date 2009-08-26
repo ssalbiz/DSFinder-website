@@ -1,0 +1,93 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+net.sourceforge.pmd.properties.AbstractPMDProperty: *java.lang.Object* [private] defaultValue
+net.sourceforge.pmd.util.viewer.model.ViewerModelEvent: *java.lang.Object* [private] parameter
+
+Linked List-like Data Structures:
+net.sourceforge.pmd.ast.JavaParser$JJCalls: next
+net.sourceforge.pmd.ast.Token: [public] next
+net.sourceforge.pmd.cpd.cppast.Token: [public] next
+net.sourceforge.pmd.jsp.ast.JspParser$JJCalls: next
+net.sourceforge.pmd.jsp.ast.Token: [public] next
+
+Parent- and outer-type Data Structures:
+net.sourceforge.pmd.dfa.report.AbstractReportNode: [private] parentNode
+net.sourceforge.pmd.util.designer.Designer$ASTTreeNode: [private] parent
+net.sourceforge.pmd.util.viewer.model.SimpleNodeTreeNodeAdapter: [private] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+net.sourceforge.pmd.ast.Token: [public] specialToken
+net.sourceforge.pmd.cpd.cppast.Token: [public] specialToken
+net.sourceforge.pmd.jsp.ast.Token: [public] specialToken
+net.sourceforge.pmd.symboltable.NameOccurrence: [private] qualifiedName
+Non-Object Fields:
+java.lang.Object Fields:
+net.sourceforge.pmd.dcd.graph.MemberNode: *java.lang.Object* [private] decoration
+net.sourceforge.pmd.util.designer.Designer$ExceptionNode: *java.lang.Object* [private] item
+net.sourceforge.pmd.util.viewer.model.ViewerModelEvent: *java.lang.Object* [private] source
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+net.sourceforge.pmd.dfa.DataFlowNode: *java.util.List* [protected] children [Ljava/util/List<Lnet/sourceforge/pmd/dfa/DataFlowNode;>;]
+net.sourceforge.pmd.dfa.report.AbstractReportNode: *java.util.List* [private] childNodes [Ljava/util/List<Lnet/sourceforge/pmd/dfa/report/AbstractReportNode;>;]
+==
+net.sourceforge.pmd.CommonAbstractRule: *java.util.Properties* [private] properties
+net.sourceforge.pmd.cpd.GUI$19: *java.util.List* [final] val$items
+net.sourceforge.pmd.dcd.graph.MemberNode: *java.util.List* [private] uses [Ljava/util/List<Lnet/sourceforge/pmd/dcd/graph/MemberNode;>;]
+net.sourceforge.pmd.dcd.graph.MemberNode: *java.util.List* [private] users [Ljava/util/List<Lnet/sourceforge/pmd/dcd/graph/MemberNode;>;]
+net.sourceforge.pmd.dfa.DataFlowNode: *java.util.List* [protected] parents [Ljava/util/List<Lnet/sourceforge/pmd/dfa/DataFlowNode;>;]
+net.sourceforge.pmd.dfa.DataFlowNode: *java.util.LinkedList* [protected] dataFlow [Ljava/util/LinkedList<Lnet/sourceforge/pmd/dfa/DataFlowNode;>;]
+net.sourceforge.pmd.dfa.Linker: *java.util.List* [private] braceStack
+net.sourceforge.pmd.dfa.Linker: *java.util.List* [private] continueBreakReturnStack
+net.sourceforge.pmd.dfa.SequenceChecker: *java.util.List* [private] bracesList
+net.sourceforge.pmd.dfa.SequenceChecker$Status: *java.util.List* [private] nextSteps [Ljava/util/List<Lnet/sourceforge/pmd/dfa/SequenceChecker$Status;>;]
+net.sourceforge.pmd.jsp.ast.JJTJspParserState: *java.util.List* [private] nodes
+net.sourceforge.pmd.jsp.ast.JJTJspParserState: *java.util.List* [private] marks
+net.sourceforge.pmd.jsp.ast.JspParser: *java.util.List* [private] jj_expentries
+net.sourceforge.pmd.properties.EnumeratedProperty: *java.util.Map* [private] choicesByLabel [Ljava/util/Map<Ljava/lang/String;TE;>;]
+net.sourceforge.pmd.properties.EnumeratedProperty: *java.util.Map* [private] labelsByChoice [Ljava/util/Map<TE;Ljava/lang/String;>;]
+net.sourceforge.pmd.RuleContext: *java.util.Map* [private] [final] attributes [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+net.sourceforge.pmd.RuleReference: *java.util.Properties* [private] properties
+net.sourceforge.pmd.util.filter.AbstractCompoundFilter: *java.util.List* [protected] filters [Ljava/util/List<Lnet/sourceforge/pmd/util/filter/Filter<TT;>;>;]
+net.sourceforge.pmd.util.viewer.model.ViewerModel: *java.util.List* [private] evaluationResults
+
+ARRAYS REPORT
+=============
+
+net.sourceforge.pmd.ast.JavaParser: *net.sourceforge.pmd.ast.JavaParser$JJCalls[]* [private] [final] jj_2_rtns
+net.sourceforge.pmd.ast.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+net.sourceforge.pmd.ast.SimpleNode: *net.sourceforge.pmd.ast.Node[]* [protected] children [arraycopy]
+net.sourceforge.pmd.CommandLineOptions: *java.lang.String[]* [private] args
+net.sourceforge.pmd.cpd.cppast.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+net.sourceforge.pmd.cpd.GUI: *net.sourceforge.pmd.cpd.GUI$ColumnSpec[]* [private] [final] matchColumns
+net.sourceforge.pmd.cpd.Match: *net.sourceforge.pmd.cpd.TokenEntry[]* [private] marks
+net.sourceforge.pmd.jaxen.AttributeAxisIterator: *net.sourceforge.pmd.jaxen.AttributeAxisIterator$MethodWrapper[]* [private] methodWrappers [no-stores]
+net.sourceforge.pmd.jsp.ast.JspParser: *net.sourceforge.pmd.jsp.ast.JspParser$JJCalls[]* [private] [final] jj_2_rtns
+net.sourceforge.pmd.jsp.ast.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+net.sourceforge.pmd.renderers.IDEAJRenderer: *java.lang.String[]* [private] args [no-stores]
+net.sourceforge.pmd.rules.VariableNamingConventions: *java.lang.String[]* [private] staticPrefixes
+net.sourceforge.pmd.rules.VariableNamingConventions: *java.lang.String[]* [private] staticSuffixes
+net.sourceforge.pmd.rules.VariableNamingConventions: *java.lang.String[]* [private] memberPrefixes
+net.sourceforge.pmd.rules.VariableNamingConventions: *java.lang.String[]* [private] memberSuffixes
+net.sourceforge.pmd.ScopedLogHandlersManager: *java.util.logging.Handler[]* [private] oldHandlers [no-stores]
+net.sourceforge.pmd.ScopedLogHandlersManager: *java.util.logging.Handler[]* [private] newHandlers [no-stores]
+net.sourceforge.pmd.util.designer.Designer: *javax.swing.JRadioButtonMenuItem[]* [private] [final] sourceTypeMenuItems
+net.sourceforge.pmd.util.designer.Designer$ASTTreeNode: *net.sourceforge.pmd.util.designer.Designer$ASTTreeNode[]* [private] kids
+net.sourceforge.pmd.util.designer.Designer$ExceptionNode: *net.sourceforge.pmd.util.designer.Designer$ExceptionNode[]* [private] kids
+net.sourceforge.pmd.util.filter.FileExtensionFilter: *java.lang.String[]* [protected] [final] extensions
+
+N-CYCLES
+========
+[net/sourceforge/pmd/util/designer/Designer$TreeWidget, net/sourceforge/pmd/util/designer/Designer]
+[net/sourceforge/pmd/cpd/MatchAlgorithm, net/sourceforge/pmd/cpd/CPD]

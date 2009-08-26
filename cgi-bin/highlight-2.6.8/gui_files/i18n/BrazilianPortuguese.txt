@@ -1,0 +1,117 @@
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+M001=&Abrir
+M002=&Sair
+
+M003=&Ajuda
+M004=&Licença
+M005=&Log de mudanças
+M006=&Sobre Highlight...
+M007=&Arquivo
+M008=&Língua
+M009=&Dicas
+
+M010=&Projeto
+M011=&Carregar
+M012=&Salvar
+M013=Carregar projeto padrão
+
+L001=Escolher arquivos
+L004=Formato de saída
+L005=Embutir estilo na saída
+L006=Vincular âncoras HTML
+L011=Arquivo a ser incluso em
+L009=Arquivo de estilo:
+L010=Tema de cores:
+L013=Numerar linhas
+L014=Omitir cabeçalho e rodapé
+L008=Gerar arquivo índice
+L015=Converter arquivos
+L022=Escolher arquivo
+L002=Diretório de saída
+L007=Reformatar:
+L025=Erro
+L026=Por favor reinicie o Highlight...
+L027=Quebra de linha
+L028=Quebra de linha Inteligente
+L029=Aspas como seqüência de escape LaTeX
+L030=Tamanho do Tab:
+L031=Preencher com zeros
+L032=Salvar nos diretórios de origem
+L033=Remover seleção
+L034=Sumário de erros
+L035=Estilo
+L036=Codificação:
+L037=Lista ordenada HTML
+L038=Compatibilidade LaTeX Babel
+L039=Tamanho da página em RTF:
+L040=Salvar como...
+L041=PROJETO PADRÃO
+L042=Incluir nome do arquivo nas âncoras HTML
+L043=Visualizar (%s):
+L044=Preparando visualização...
+L045=nenhum arquivo de entrada selecionado
+L046=Tamanho da linha:
+L047=Keyword case:
+L019=Informações
+L023=Completo: %d arquivos em %ld ms.
+L003=Limpar lista de arquivos
+L016=<Nenhum arquivo selecionado>
+L020=Por favor escolha um diretório de saída válido.
+L021=Por favor escolha um arquivo de estilo para a saída.
+L048=Inline CSS
+L050=Enclose in <pre>
+
+E000=Somente arquivos C, C++, C# e Java podem ser reformatados.
+E001=Erro ao executar Notepad.exe
+E002=Definição de linguagem %s.lang não encontrada!
+E003=Não pode ser lido:
+E004=Não pode ser gravado:
+E005=Temas não puderam ser lidos. Verifique a instalação.
+E006=Erro ao gravar arquivo de preferências!
+E007=Arquivo de índice não pôde ser criado.
+E008=Extensões de arquivos não puderam ser lidas. Verifique a instalação.
+E009=Temas de indentação não puderam ser lidos. Verifique a instalação.
+E010=Reformatação não pôde ser realizada:
+
+T001=Adicione arquivos que você deseja converter.\nArrastar e soltar também é possível.
+T002=Escolha um diretório de saída.
+T003=Escolha arquivo de estilo a ser incluso na definição de estilo final.
+T004=Limpar lista de arquivos de entrada.
+T005=Nome do arquivo de estilo de saída.
+T006=Caminho para o arquivo de estilo a ser incluso.
+T007=Caminho para o diretório de saída.
+T008=Incluir informação de formatação nos arquivos de saída.
+T009=Omitir cabeçalho e rodapé nos arquivos de saída.
+T010=Adicionar número das linhas.
+T011=Vincular âncoras HTML aos números das linhas
+T012=Reformatar e indentar código fonte C, C++, C# e Java.
+T013=Escolha um dos formatos de saída.
+T014=Iniciar a conversão dos seus arquivos de entrada.
+T015=Gerar arquivo índice com hyperlinks para arquivos de saída
+T016=Escolha um estilo de formatação e indentação.
+T017=Escolha um tema de cor que você goste.
+T018=Quebra linhas maiores que 80 (75 se numeração de linhas ativada) caracteres.
+T019=Quebra linhas e indenta sentenças e parametros de função.
+T020=Escape aspas como \dq.\nÚtil quando o pacote Alemão LaTeX está sendo usado.
+T021=Substitua tabulações por um dado número de espaços\n(não substitua se valor igual a zero).
+T022=Preenche espaços iniciais com zeros.
+T023=Salve saída nos diretórios dos arquivos de entrada.
+T024=Remova entradas selecionadas da lista de arquivos de entrada.
+T025=Use uma codificação de saída compatível à codificação do arquivo de entrada.
+T026=Linhas de código fonte como elementos de lista ordenada.
+T027=Desabilite atalhos Babel na saída LaTeX
+T028=Tamanho da página para saída RTF
+T029=Adicionar ao nome da âncora HTML o nome do arquivo de entrada
+T030=Selecione um arquivo de entrada para visualizar seu conteúdo usando as configurações atuais (no máximo 500 linhas serão mostradas).
+T031=Tamanho máximo da linha antes da quebra.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Pronto.
+L017=Processando arquivos....
+

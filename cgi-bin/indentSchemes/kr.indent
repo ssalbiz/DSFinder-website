@@ -1,0 +1,8 @@
+# K&R indentation scheme
+
+$indent-brackets=false
+$indent-spaces=4
+$brackets=attach
+$indent-classes=false
+$indent-switches=false
+$indent-namespaces=false

@@ -1,0 +1,16 @@
+Highlight puo' essere caricato con i nomi di file input passati come parametri di linea comando.
+Puoi trascinare i file di input direttamente nella finestra di Highlight.
+Puoi convertire diversi tipi di codice sorgente in una volta sola.
+In HTML dovresti sempre usare file CSS referenziati, in modo da avere la definizione dello stile in un posto solo.
+Usa l'opzione "Sostituisci virgolette" per generare codice LaTeX che puo' essere utilizzato con il German package.
+L'output XSL-FO e' compatibile con Apache FOP.
+Genera output in RTF per l'utilizzo in programmi di scrittura.
+Abilitando la funzione a capo automatico, Highlight indentera' i parametri delle funzioni e le assegnazioni che compaiono in linee molto lunghe.
+Abilita l'opzione "Ometti intestazioni e pie' di pagina" per generare frammenti di codice che possono essere inclusi in documenti esistenti.
+L'opzione "Sostituisci virgolette" e' disponibile se sono abilitati output LaTex e l'opzione "ometti intestazione e pie' di pagina".
+Puoi includere le tue definizioni CSS nell'output CSS finale.
+Puoi definire nuovi temi colore e specificare nuove definizioni di linguaggio. Cfr. README Highlight per istruzioni.
+L'opzione "Riformatta" permette una formattazione consistente di codice C, C++, Java e C Sharp.
+Visita la homepage di Highlight per versioni console (Win32 e Unix).
+
+

@@ -1,0 +1,98 @@
+DSFinder has run for 0 min. 9 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/db-derby-10.5.1.1-src/classes:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/db-derby-10.5.1.1-src/tools/java/geronimo-spec-servlet-2.4-rc4.jar:/home/albiz/dev/db-derby-10.5.1.1-src/tools/java/serializer.jar:/home/albiz/dev/db-derby-10.5.1.1-src/tools/java/xalan.jar:/home/albiz/dev/db-derby-10.5.1.1-src/tools/java/xercesImpl.jar:/home/albiz/dev/db-derby-10.5.1.1-src/tools/java/ant.jar:/home/albiz/dev/db-derby-10.5.1.1-src/tools/java/ant-launcher.jar:/home/albiz/dev/db-derby-10.5.1.1-src/tools/java/felix.jar, -p, --include=org/apache/derby/, --title=/home/albiz/dev/sootOutput/logs/derby.ds-finder.log, org.apache.derby.impl.tools.ij.Main]
+Processed 1812 non-library classes (7808 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						8
+Parents/outers						4
+Others (47 java.lang.Object, 41 non-Object fields)	88
+ exact matching fields					8
+
+Distinct classes containing linked lists and parents:	12
+
+N-cycles						42
+
+Arrays							152
+	 read-only:					74
+	 w/arraycopy:					39
+	 hashtable-like:				13
+	 (error bars:) [3]				74
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.Vector					60
+java.util.Hashtable					48
+java.util.ArrayList					42
+java.util.Properties					40
+java.util.List						28
+Others							69
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+org.apache.derby.impl.tools.ij.Token			13
+org.apache.derby.impl.sql.compile.Token			10
+org.apache.derby.client.am.SqlException			8
+org.apache.derby.client.am.SqlWarning			4
+org.apache.derby.impl.store.raw.log.LogAccessFileBuffer	3
+Others							7
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.Vector					312
+java.util.Properties					194
+java.util.ArrayList					170
+java.util.Hashtable					148
+java.util.HashMap					98
+Others							248
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+org.apache.derby.client.am.SqlException			447
+org.apache.derby.client.am.SqlWarning			17
+org.apache.derby.impl.tools.ij.Token			11
+org.apache.derby.impl.tools.ij.mtGrammar$JJCalls	7
+org.apache.derby.impl.sql.compile.SQLParser$JJCalls	5
+Others							20
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			11
+Collections are potential data structures		165
+
+ total org.apache.derby.*				6
+
+java.lang.String					2
+java.lang.Object					1
+Ad-Hoc types:
+=============
+org.apache.derby.impl.services.cache.CacheEntry		2
+...he.derby.impl.services.locks.ConcurrentLockSet$Entry	2
+org.apache.derby.impl.services.cache.ClockPolicy$Holder	1
+org.apache.derby.iapi.services.locks.Lockable		1
+Others							0
+
+System types:
+==============
+javax.sql.StatementEventListener			4
+java.lang.String					2
+java.sql.ClientInfoStatus				2
+javax.management.StandardMBean				1
+java.lang.Object					1
+Others							1
+
+TEMPLATE PARAMETERS					0
+UNKNOWN							286
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

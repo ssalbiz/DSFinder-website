@@ -1,0 +1,305 @@
+DSFinder has run for 0 min. 7 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.columba.addressbook.gui.search.SearchResultList$MyListCellRenderer: *javax.swing.JPanel* [private] centerPanel
+org.columba.api.command.WorkerStatusChangedEvent: *java.lang.Object* [private] oldValue
+org.columba.api.command.WorkerStatusChangedEvent: *java.lang.Object* [private] newValue
+org.columba.calendar.ui.box.CalendarList$MyListCellRenderer: *javax.swing.JPanel* [private] centerPanel
+org.columba.calendar.ui.search.SearchResultList$MyListCellRenderer: *javax.swing.JPanel* [private] centerPanel
+org.columba.contact.gui.box.ContactList$MyListCellRenderer: *javax.swing.JPanel* [private] centerPanel
+org.columba.core.base.Lock: *java.lang.Object* [private] locker
+org.columba.core.base.Semaphore: *java.lang.Object* [private] lockObject
+org.columba.core.base.SwingWorker: *java.lang.Object* [protected] value
+org.columba.core.context.base.AttributeType: *java.lang.Object* [private] defaultValue
+org.columba.core.gui.base.CPanel: *javax.swing.JPanel* panel
+org.columba.core.gui.base.CPanel: *javax.swing.JPanel* innerPanel
+org.columba.core.gui.base.JStatusBar: *javax.swing.JPanel* [private] contentPanel
+org.columba.core.gui.base.MoreInfoPanel: *java.awt.Component* [public] topComponent
+org.columba.core.gui.base.MoreInfoPanel: *java.awt.Component* [public] bottomComponent
+org.columba.core.gui.dialog.DateChooserDialog: *javax.swing.JDialog* [protected] dialog
+org.columba.core.gui.docking.DockingPanel: *javax.swing.JPanel* [private] contentPanel
+org.columba.core.gui.search.GenericResultPanel$MyListCellRenderer: *javax.swing.JPanel* [private] topPanel
+org.columba.core.gui.search.SearchPanel: *javax.swing.JPanel* [private] defaultBox
+org.columba.core.gui.search.SearchPanel: *javax.swing.JPanel* [private] searchBox
+org.columba.core.gui.search.SearchPanel: *javax.swing.JPanel* [private] topPanel
+org.columba.core.gui.statusbar.TaskRenderer: *javax.swing.JPanel* [private] progressPanel
+org.columba.core.gui.tagging.TagList$MyComplexListCellRenderer: *javax.swing.JPanel* [private] centerPanel
+org.columba.core.gui.util.StartUpFrame: *java.awt.Window* [private] window
+org.columba.core.io.CacheEntry: *java.lang.Object* key
+org.columba.core.io.StreamCacheCopyStream: *java.lang.Object* key
+org.columba.mail.folder.mbox.MboxDataStorage: *java.lang.Object* [protected] largestUid
+org.columba.mail.gui.config.filter.ActionList: *javax.swing.JPanel* [private] panel
+org.columba.mail.gui.config.filter.CriteriaList: *javax.swing.JPanel* [private] panel
+org.columba.mail.gui.frame.util.SplitPane: *javax.swing.JSplitPane* [public] splitPane
+org.columba.mail.gui.frame.util.SplitPane: *javax.swing.JComponent* header
+org.columba.mail.gui.frame.util.SplitPane: *javax.swing.JComponent* message
+org.columba.mail.gui.frame.util.SplitPane: *javax.swing.JComponent* attachment
+org.columba.mail.gui.message.viewer.SecurityStatusViewer: *javax.swing.JPanel* [protected] left
+org.columba.mail.gui.message.viewer.SpamStatusViewer: *javax.swing.JPanel* [private] panel
+org.columba.mail.gui.search.ResultList$MyListCellRenderer: *javax.swing.JPanel* [private] centerPanel
+org.columba.mail.gui.search.ResultList$MyListCellRenderer: *javax.swing.JPanel* [private] topPanel
+org.columba.mail.gui.tagging.ResultList$MyListCellRenderer: *javax.swing.JPanel* [private] centerPanel
+org.columba.mail.gui.tagging.ResultList$MyListCellRenderer: *javax.swing.JPanel* [private] topPanel
+org.columba.mail.spellcheck.cswilly.SpellException: *java.lang.Throwable* [protected] rootCause
+org.columba.ristretto.imap.IMAPProtocol: *java.lang.Object* [private] lock
+org.columba.ristretto.imap.parser.Item: *java.lang.Object* [private] value
+org.columba.ristretto.imap.SearchKey: *java.lang.Object* [private] arg
+org.columba.ristretto.imap.SearchKey: *java.lang.Object* [private] arg2
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+org.columba.core.print.CodeStringParser: *java.lang.Object* parent
+org.columba.core.xml.XmlElement: parent
+org.columba.ristretto.message.MimePart: [private] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.columba.mail.config.AccountItem: [private] defaultAccount
+org.columba.mail.folder.imap.IMAPRootFolder: [private] thisFolder
+Non-Object Fields:
+org.columba.core.url.http.HttpURLConnection: *java.net.HttpURLConnection* [protected] connection
+org.columba.ristretto.log.LogOutputStream: *java.io.OutputStream* [private] logOutputStream
+java.lang.Object Fields:
+org.columba.addressbook.folder.FolderEvent: *java.lang.Object* [protected] changes
+org.columba.calendar.store.api.StoreEvent: *java.lang.Object* [private] changes
+org.columba.core.context.semantic.ContextEvent: *java.lang.Object* [private] source
+org.columba.core.facade.ServiceFacadeRegistry$Service: *java.lang.Object* [private] serviceInstance
+org.columba.core.tagging.TagEvent: *java.lang.Object* [private] source
+org.columba.mail.folder.AbstractMessageFolder: *java.lang.Object* [protected] lastSelection
+org.columba.mail.folder.event.FolderEvent: *java.lang.Object* [protected] changes
+org.columba.mail.folder.mbox.MboxMessage: *java.lang.Object* [private] uid
+org.columba.mail.folder.virtual.VirtualHeader: *java.lang.Object* [protected] virtualUid
+org.columba.mail.folder.virtual.VirtualHeader: *java.lang.Object* [protected] srcUid
+org.columba.mail.gui.composer.command.OpenMessageWithComposerCommand: *java.lang.Object* [protected] uid
+org.columba.mail.gui.config.template.ChooseTemplateDialog: *java.lang.Object* uid
+org.columba.mail.gui.message.command.OpenAttachmentCommand: *java.lang.Object* [private] tempMessageUid
+org.columba.mail.gui.message.command.ViewMessageCommand: *java.lang.Object* [private] uid
+org.columba.mail.gui.message.filter.SecurityStatusEvent: *java.lang.Object* [private] source
+org.columba.mail.gui.message.MessageController: *java.lang.Object* [private] uid
+org.columba.mail.gui.message.viewer.AttachmentModel: *java.lang.Object* [private] uid
+org.columba.mail.gui.message.viewer.TextViewer: *java.lang.Object* [private] uid
+org.columba.mail.gui.table.model.MessageNode: *java.lang.Object* [protected] uid
+org.columba.mail.imap.IMAPServer: *java.lang.Object* [private] aktMessageUid
+org.columba.mail.search.MailSearchProvider$SearchIndex: *java.lang.Object* messageId
+org.columba.ristretto.auth.mechanism.SaslWrapper: *java.lang.Object* saslClientInstance
+org.columba.ristretto.imap.IMAPFlags: *java.lang.Object* [private] uid
+org.columba.ristretto.pop3.MessageNotOnServerException: *java.lang.Object* [private] uid
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.columba.core.gui.menu.MenuElement: *java.util.Vector* [private] children
+org.columba.ristretto.message.MimePart: *java.util.List* [private] childs
+==
+org.columba.addressbook.gui.autocomplete.AddressCollector: *java.util.Hashtable* [private] _adds
+org.columba.addressbook.gui.focus.FocusManager: *java.util.List* list
+org.columba.addressbook.gui.focus.FocusManager: *java.util.Map* map
+org.columba.addressbook.gui.table.model.FilterDecorator: *java.util.List* [private] list
+org.columba.addressbook.model.ContactModel: *java.util.Vector* [private] emailAddressVector
+org.columba.addressbook.model.ContactModel: *java.util.Vector* [private] phoneVector
+org.columba.addressbook.model.ContactModel: *java.util.Vector* [private] instantMessagingVector
+org.columba.addressbook.model.ContactModel: *java.util.Vector* [private] addressVector
+org.columba.api.plugin.PluginMetadata: *java.util.Vector* [private] extensions
+org.columba.calendar.ui.action.CopyActivityMenu: *java.util.Hashtable* [private] table [Ljava/util/Hashtable<Ljava/lang/String;Ljavax/swing/JMenuItem;>;]
+org.columba.calendar.ui.action.MoveActivityMenu: *java.util.Hashtable* [private] table [Ljava/util/Hashtable<Ljava/lang/String;Ljavax/swing/JMenuItem;>;]
+org.columba.calendar.ui.list.CheckableItemListTableModel: *java.util.Vector* [private] data
+org.columba.core.context.base.StructureValue: *java.util.List* [private] [final] attributeList [Ljava/util/List<Ljava/lang/Object;>;]
+org.columba.core.context.base.StructureValue: *java.util.Hashtable* [private] [final] attributeMap [Ljava/util/Hashtable<Lorg/columba/core/context/base/api/IName;Ljava/lang/Object;>;]
+org.columba.core.gui.base.ComboMenu: *java.util.Vector* [protected] listeners
+org.columba.core.gui.docking.TitleBar: *java.util.Vector* [private] rightButtonVector
+org.columba.core.gui.docking.TitleBar: *java.util.Vector* [private] leftButtonVector
+org.columba.core.gui.frame.FrameManager: *java.util.List* [protected] activeFrameCtrls
+org.columba.core.gui.frame.FrameManager: *java.util.Map* [protected] frameMediatorCache
+org.columba.core.gui.menu.ExtendableMenu: *java.util.Hashtable* [private] map [Ljava/util/Hashtable<Ljava/lang/String;Lorg/columba/core/gui/menu/ExtendableMenu;>;]
+org.columba.core.gui.menu.ExtendablePopupMenu: *java.util.Hashtable* [private] map
+org.columba.core.gui.menu.MenuModel: *java.util.Hashtable* [private] placeholders
+org.columba.core.gui.menu.MenuModel: *java.util.Hashtable* [private] submenues
+org.columba.core.gui.plugin.PluginTree: *java.util.Map* [protected] map
+org.columba.core.gui.scripting.ScriptsTableModel: *java.util.List* [private] scriptList
+org.columba.core.plugin.ExtensionHandler: *java.util.Hashtable* [protected] map
+org.columba.core.print.cDocument: *java.util.List* [private] objects
+org.columba.core.print.cDocument: *java.util.List* [private] pages
+org.columba.core.print.cHGroup: *java.util.List* members
+org.columba.core.print.cPage: *java.util.List* [private] pageObjects
+org.columba.core.print.cParagraph: *java.util.List* [private] paragraphs
+org.columba.core.print.cVGroup: *java.util.Vector* members
+org.columba.core.scripting.BeanshellService: *java.util.Map* [private] beanshellScripts
+org.columba.core.scripting.config.Options: *java.util.List* [private] observers
+org.columba.core.scripting.extensions.ExtensionEventBus: *java.util.Map* [private] eventMap
+org.columba.core.scripting.extensions.ExtensionPointManager: *java.util.Map* [private] extensionPoints
+org.columba.core.scripting.FileObserverThread: *java.util.List* [private] [final] observers
+org.columba.core.search.SearchManager$SearchCommand$1: *java.util.List* [final] val$resultList
+org.columba.core.search.SearchManager$SearchCommand$3: *java.util.List* [final] val$resultList
+org.columba.core.selection.SelectionHandler: *java.util.List* [protected] selectionListener
+org.columba.core.selection.SelectionManager: *java.util.Hashtable* [private] selectionHandler
+org.columba.core.shutdown.ShutdownManager: *java.util.List* [protected] list
+org.columba.core.util.StackProfiler: *java.util.Vector* [private] vector
+org.columba.core.util.StackProfiler: *java.util.Hashtable* [private] hashtable
+org.columba.core.xml.XmlElement: *java.util.Hashtable* attributes
+org.columba.core.xml.XmlElement: *java.util.List* subElements
+org.columba.mail.folder.command.SaveMessageBodyAsCommand: *java.util.List* [private] attachments
+org.columba.mail.folder.FolderChildrenIterator: *java.util.List* [private] folderList
+org.columba.mail.folder.headercache.BerkeleyDBHeaderList: *java.util.List* [private] listeners
+org.columba.mail.folder.headercache.MemoryHeaderList: *java.util.Hashtable* [protected] map
+org.columba.mail.folder.mbox.MboxDataStorage: *java.util.Hashtable* [protected] messages
+org.columba.mail.folder.outbox.SendList: *java.util.Vector* [private] messages
+org.columba.mail.folder.outbox.SendListManager: *java.util.List* [private] sendAccounts
+org.columba.mail.folder.search.LuceneQueryEngine: *java.util.LinkedList* [private] deleted
+org.columba.mail.folder.temp.TempFolder: *java.util.Hashtable* [protected] messageList
+org.columba.mail.gui.charset.CharacterEncodingSubMenu: *java.util.Hashtable* [private] hashtable
+org.columba.mail.gui.composer.ComposerController: *java.util.List* [private] containerListenerBuffer
+org.columba.mail.gui.composer.ComposerModel: *java.util.List* [private] attachments
+org.columba.mail.gui.composer.util.AddressCollector: *java.util.Hashtable* [private] _adds
+org.columba.mail.gui.config.filter.ActionList: *java.util.List* [private] list
+org.columba.mail.gui.config.filter.CriteriaList: *java.util.List* [private] list
+org.columba.mail.gui.message.filter.PGPMessageFilter: *java.util.List* [private] listeners
+org.columba.mail.gui.message.viewer.AttachmentModel: *java.util.List* [private] displayedMimeParts
+org.columba.mail.gui.message.viewer.HeaderViewer: *java.util.Map* [private] map
+org.columba.mail.gui.message.viewer.HeaderViewer$HeaderPanel: *java.util.Map* [private] keys
+org.columba.mail.gui.table.ColumnHeaderTooltips: *java.util.Map* [private] tips
+org.columba.mail.gui.table.model.HeaderTableModel: *java.util.List* [private] columns
+org.columba.mail.gui.table.model.HeaderTableModel: *java.util.Map* [protected] map
+org.columba.mail.gui.table.model.HeaderTableModel: *java.util.Vector* [private] visitors
+org.columba.mail.gui.table.model.TableModelThreadedView: *java.util.HashMap* [private] hashtable
+org.columba.mail.gui.tree.selection.TreeSelectionHandler: *java.util.LinkedList* [private] selectedFolders
+org.columba.mail.gui.tree.util.TreeNodeList: *java.util.List* [protected] list
+org.columba.mail.imap.MessageSetTokenizer: *java.util.List* list
+org.columba.mail.mailchecking.MailCheckingManager: *java.util.List* [private] list
+org.columba.mail.pgp.PGPPassChecker: *java.util.Map* [private] passwordMap
+org.columba.mail.pop3.POP3ServerCollection: *java.util.List* [private] serverList
+org.columba.mail.pop3.POP3Store: *java.util.Map* [private] uidMap
+org.columba.mail.pop3.POP3Store: *java.util.List* [private] sizeList
+org.columba.mail.spam.rules.RuleList: *java.util.List* [private] list
+org.columba.mail.spellcheck.cswilly.Result: *java.util.List* [private] _suggestions
+org.columba.mail.spellcheck.cswilly.ValidationDialog: *java.util.List* [private] [final] _suggestions
+org.columba.mail.spellcheck.cswilly.Validator: *java.util.HashMap* [private] [final] _changeAllMap
+org.columba.mail.spellcheck.cswilly.Validator: *java.util.HashSet* [private] [final] _ignoreAllSet
+org.columba.ristretto.auth.AuthenticationFactory: *java.util.Map* [private] authTable
+org.columba.ristretto.composer.MimeTreeRenderer: *java.util.Hashtable* [private] rendererMap
+org.columba.ristretto.imap.IMAPInputStream: *java.util.LinkedList* [private] observerList
+org.columba.ristretto.imap.IMAPProtocol: *java.util.ArrayList* [private] listeners
+org.columba.ristretto.imap.IMAPResponse: *java.util.List* [protected] literals
+org.columba.ristretto.imap.NamespaceCollection: *java.util.List* [private] personal
+org.columba.ristretto.imap.NamespaceCollection: *java.util.List* [private] otherUser
+org.columba.ristretto.imap.NamespaceCollection: *java.util.List* [private] shared
+org.columba.ristretto.imap.SearchKey: *java.util.List* [private] list
+org.columba.ristretto.imap.SequenceSet: *java.util.List* [private] set
+org.columba.ristretto.io.ConcatenatedSource: *java.util.ArrayList* sources
+org.columba.ristretto.io.ConcatenatedSource: *java.util.ArrayList* nextSourceBegin
+org.columba.ristretto.io.SequenceInputStream: *java.util.List* streams
+org.columba.ristretto.message.Attributes: *java.util.Hashtable* [private] attributes
+org.columba.ristretto.message.Header: *java.util.Hashtable* [private] header
+
+ARRAYS REPORT
+=============
+
+org.columba.addressbook.folder.AddressbookTreeNode: *java.lang.Class[]* [private] [final] FOLDER_ITEM_ARG
+org.columba.addressbook.gui.autocomplete.AddressAutoCompleter: *java.lang.Object[]* [private] _options [no-stores]
+org.columba.addressbook.gui.list.AddressbookDNDListView: *org.columba.addressbook.model.IBasicModelPartial[]* [private] selection1
+org.columba.addressbook.gui.list.AddressbookDNDListView: *org.columba.addressbook.model.IBasicModelPartial[]* [private] selection2
+org.columba.addressbook.gui.list.HeaderItemDNDManager: *org.columba.addressbook.model.IBasicModelPartial[]* array [no-stores]
+org.columba.addressbook.gui.table.model.AddressbookTableModel: *java.lang.String[]* [private] columns
+org.columba.addressbook.gui.table.model.AddressbookTableModel: *org.columba.addressbook.model.ContactModelPartial[]* [private] rows
+org.columba.addressbook.gui.tree.util.SelectAddressbookFolderDialog: *javax.swing.JButton[]* [private] buttons
+org.columba.calendar.command.ImportCalendarCommand: *java.io.File[]* [private] sourceFiles [no-stores]
+org.columba.calendar.store.LocalXMLFileStore$StoreIterator: *java.io.File[]* [private] files [no-stores]
+org.columba.calendar.store.StoreEventDelegator: *java.util.List[]* [private] itemRemovedList
+org.columba.calendar.store.StoreEventDelegator: *java.util.List[]* [private] itemChangedList
+org.columba.calendar.store.StoreEventDelegator: *java.util.List[]* [private] itemAddedList
+org.columba.calendar.ui.calendar.api.ActivitySelectionChangedEvent: *org.columba.calendar.base.api.IActivity[]* [private] selection [no-stores]
+org.columba.core.command.Command: *org.columba.core.base.Lock[]* [protected] folderLocks [no-stores]
+org.columba.core.filter.FilterCriteria: *java.lang.String[]* [private] [final] criteria
+org.columba.core.folder.DefaultFolderCommandReference: *java.lang.Object[]* [private] uids [no-stores]
+org.columba.core.gui.base.DateChooser: *java.lang.String[]* [private] months [mod]
+org.columba.core.gui.base.DateChooser: *java.lang.String[]* [private] labels [mod]
+org.columba.core.gui.scripting.ScriptLogTableModel: *java.lang.String[]* [private] columns
+org.columba.core.gui.scripting.ScriptsTableModel: *java.lang.String[]* [private] columns
+org.columba.core.gui.util.AddressLabel: *javax.swing.JLabel[]* [private] list
+org.columba.core.main.ColumbaCmdLineParser: *java.lang.String[]* [private] args [no-stores]
+org.columba.core.plugin.PluginManager: *java.io.File[]* [private] pluginFolders [no-stores]
+org.columba.core.print.cPrintVariable: *org.columba.core.print.CodeStringParser[]* parser
+org.columba.core.print.cPrintVariable: *java.lang.String[]* keys
+org.columba.core.print.cPrintVariable: *java.lang.String[]* methods
+org.columba.core.util.NameParser: *java.lang.String[]* [private] [final] SALUTATIONS
+org.columba.core.util.NameParser: *java.lang.String[]* [private] [final] TITLES
+org.columba.mail.command.ImportFolderCommandReference: *java.io.File[]* sourceFiles [no-stores]
+org.columba.mail.command.MailFolderCommandReference: *java.lang.Integer[]* [private] address
+org.columba.mail.filter.MailFilterCriteria: *java.lang.String[]* [private] [final] type
+org.columba.mail.folder.command.ExportFolderCommand: *java.lang.Object[]* [protected] destUids
+org.columba.mail.folder.command.PrintMessageCommand: *java.lang.String[]* [private] headerKeys
+org.columba.mail.folder.event.FolderEventDelegator: *java.util.List[]* [private] messageRemovedList
+org.columba.mail.folder.event.FolderEventDelegator: *java.util.List[]* [private] messageFlagChangedList
+org.columba.mail.folder.event.FolderEventDelegator: *java.util.List[]* [private] messageAddedList
+org.columba.mail.folder.event.FolderEventDelegator: *java.util.List[]* [private] folderAddedList
+org.columba.mail.folder.event.FolderEventDelegator: *java.util.List[]* [private] folderRemovedList
+org.columba.mail.folder.event.FolderEventDelegator: *java.util.List[]* [private] folderPropertyChangedList
+org.columba.mail.folder.mailboximport.AbstractMailboxImporter: *java.io.File[]* [protected] sourceFiles [no-stores]
+org.columba.mail.folder.outbox.OutboxFolder: *org.columba.mail.folder.outbox.SendListManager[]* [private] sendListManager
+org.columba.mail.gui.composer.command.ForwardInlineCommand: *java.lang.String[]* [protected] [final] headerfields
+org.columba.mail.gui.composer.command.RedirectCommand: *java.lang.String[]* [protected] [final] headerfields
+org.columba.mail.gui.composer.command.ReplyCommand: *java.lang.String[]* [protected] [final] headerfields
+org.columba.mail.gui.composer.command.ReplyToAllCommand: *java.lang.String[]* [protected] [final] headerfields
+org.columba.mail.gui.composer.command.ReplyToMailingListCommand: *java.lang.String[]* [protected] [final] headerfields
+org.columba.mail.gui.composer.contact.SelectAddressDialog: *org.columba.mail.gui.contact.list.ContactListModel[]* [private] dialogAddressbookListModel
+org.columba.mail.gui.config.accountlist.AccountListDataModel: *java.lang.String[]* [final] columnNames
+org.columba.mail.gui.config.filter.FilterListDataModel: *java.lang.String[]* [final] columnNames
+org.columba.mail.gui.config.filter.ObjectArrayTransfer: *java.lang.Object[]* [private] objectArray
+org.columba.mail.gui.config.mailboximport.LocationStep: *java.io.File[]* [protected] sourceFiles [no-stores]
+org.columba.mail.gui.contact.list.ContactDNDListView: *org.columba.addressbook.facade.IHeaderItem[]* [private] selection1
+org.columba.mail.gui.contact.list.ContactDNDListView: *org.columba.addressbook.facade.IHeaderItem[]* [private] selection2
+org.columba.mail.gui.contact.list.HeaderItemDNDManager: *org.columba.addressbook.facade.IHeaderItem[]* array [no-stores]
+org.columba.mail.gui.filtertoolbar.FilterToolbar: *java.lang.String[]* strs
+org.columba.mail.gui.message.action.OpenAttachmentAction: *java.lang.Integer[]* [private] address [no-stores]
+org.columba.mail.gui.message.action.SaveAsAttachmentAction: *java.lang.Integer[]* [private] address [no-stores]
+org.columba.mail.gui.table.model.TableModelChangedEvent: *java.lang.Object[]* [protected] uids [no-stores]
+org.columba.mail.gui.table.selection.TableSelectionChangedEvent: *java.lang.Object[]* [private] uids [no-stores]
+org.columba.mail.gui.table.TableController: *org.columba.mail.gui.table.model.MessageNode[]* [private] previouslySelectedNodes
+org.columba.mail.gui.tree.selection.TreeSelectionChangedEvent: *org.columba.mail.folder.IMailFolder[]* [private] selected [no-stores]
+org.columba.mail.gui.tree.util.CTransferableTreePath: *java.awt.datatransfer.DataFlavor[]* [private] _flavors
+org.columba.mail.imap.IMAPServer: *java.lang.String[]* capabilities [mod] [arraycopy]
+org.columba.mail.imap.MessageSetTokenizer: *java.lang.Object[]* uids [no-stores] [mod]
+org.columba.mail.pop3.POP3Store: *java.lang.String[]* [private] capas
+org.columba.mail.smtp.SMTPServer: *java.lang.String[]* [private] capas
+org.columba.mail.spam.command.ScoreMessageCommand: *java.lang.Object[]* [private] uids [no-stores]
+org.columba.ristretto.imap.IMAPCommand: *java.lang.Object[]* [private] parameters [no-stores]
+org.columba.ristretto.imap.Namespace: *java.lang.String[]* [private] extensionParameter [no-stores]
+org.columba.ristretto.imap.ResponseTextCode: *java.lang.String[]* [private] stringArrayValue [no-stores]
+org.columba.ristretto.imap.Section: *java.lang.Object[]* [private] params [no-stores]
+org.columba.ristretto.message.MailboxInfo: *java.lang.String[]* [private] definedFlags [no-stores]
+org.columba.ristretto.message.MailboxInfo: *java.lang.String[]* [private] permanentFlags [no-stores]
+
+N-CYCLES
+========
+[org/columba/core/command/TaskManagerEvent, org/columba/core/gui/statusbar/StatusBar]
+[org/columba/core/xml/XmlIO, org/columba/core/gui/profiles/ProfileManager]
+[org/columba/core/gui/search/IconTextField$IconifiedBorder, org/columba/core/gui/search/IconTextField]
+[org/columba/core/gui/search/SearchDialog$CriteriaPanel, org/columba/core/gui/search/SearchDialog]
+[org/columba/core/gui/search/SearchBar$ContextSearchAction, org/columba/core/gui/search/SearchBar]
+[org/columba/ristretto/message/MimeHeader, org/columba/ristretto/message/MimePart, org/columba/ristretto/message/MimeTree, org/columba/ristretto/message/Message]
+[org/columba/ristretto/io/CloseChannelTimerTask, org/columba/ristretto/io/FileSourceModel]
+[org/columba/mail/folder/search/DefaultSearchEngine, org/columba/mail/folder/AbstractMessageFolder]
+[org/columba/ristretto/imap/IMAPInputStream, org/columba/ristretto/imap/IMAPProtocol]
+[org/columba/mail/gui/composer/SignatureView, org/columba/mail/gui/composer/html/HtmlToolbar, org/columba/mail/gui/composer/HeaderView, org/columba/mail/gui/composer/HeaderController, org/columba/mail/gui/composer/AbstractEditorController, org/columba/mail/gui/composer/AccountView, org/columba/mail/gui/composer/AccountController, org/columba/mail/gui/composer/PriorityView, org/columba/mail/gui/composer/PriorityController, org/columba/mail/gui/composer/SubjectView, org/columba/mail/gui/composer/SubjectController, org/columba/mail/gui/composer/AttachmentActionListener, org/columba/mail/gui/composer/AttachmentView$AttachmentImageIconLoader, org/columba/mail/gui/composer/AttachmentView, org/columba/mail/gui/composer/AttachmentController, org/columba/mail/gui/composer/ComposerController]
+[org/columba/mail/gui/table/TableView, org/columba/mail/gui/table/TableController, org/columba/mail/gui/frame/ThreePaneMailFrameController]
+[org/columba/mail/gui/messageframe/FixedTableSelectionHandler, org/columba/mail/gui/messageframe/MessageFrameController]
+[org/columba/mail/gui/message/filter/PGPMessageFilter, org/columba/mail/gui/message/viewer/AttachmentModel, org/columba/mail/gui/message/viewer/AttachmentsViewer, org/columba/mail/gui/message/viewer/HeaderViewer$HeaderPanel, org/columba/mail/gui/message/viewer/HeaderViewer, org/columba/mail/gui/message/viewer/SpamStatusViewer, org/columba/mail/gui/message/MessageController]
+[org/columba/core/gui/base/DateChooser$CalendarPane, org/columba/core/gui/base/DateChooser]
+[org/columba/addressbook/gui/table/FilterToolbar, org/columba/addressbook/gui/table/TableView, org/columba/addressbook/gui/table/TableController, org/columba/addressbook/gui/frame/AddressbookFrameController, org/columba/addressbook/gui/tree/TreeView, org/columba/addressbook/gui/tree/TreeController]
+[org/columba/core/print/cDocument, org/columba/core/print/cPage, org/columba/core/print/cPrintObject]
+[org/columba/core/tagging/TagManager$MyXmlConfig, org/columba/core/tagging/TagManager]
+[org/columba/core/gui/base/IconTextField$IconifiedBorder, org/columba/core/gui/base/IconTextField]
+[org/columba/core/base/IPCHelper$StreamThread, org/columba/core/base/IPCHelper]
+[org/columba/mail/gui/config/account/SpamPanel, org/columba/mail/gui/config/account/IncomingServerPanel, org/columba/mail/gui/config/account/IdentityPanel, org/columba/mail/gui/config/account/AccountDialog]
+[org/columba/core/gui/htmlviewer/JavaHTMLViewerPlugin$AsynchronousHTMLDocument, org/columba/core/gui/htmlviewer/JavaHTMLViewerPlugin]
+[org/columba/mail/spam/spamassassin/IPCHelper$StreamThread, org/columba/mail/spam/spamassassin/IPCHelper]
+[org/columba/core/scripting/FileObserverThread$ScriptFileFilter, org/columba/core/scripting/FileObserverThread]
+[org/columba/core/gui/base/MoreInfoPanel, org/columba/core/gui/base/MoreInfoPanel$SpinWidget]

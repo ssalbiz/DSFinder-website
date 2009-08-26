@@ -1,0 +1,629 @@
+DSFinder has run for 0 min. 11 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+net.sf.jasperreports.crosstabs.fill.calculation.BucketDefinition$Bucket: *java.lang.Object* [private] [final] value
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService$MapEntry: *java.lang.Object* [final] value
+net.sf.jasperreports.crosstabs.fill.calculation.MeasureDefinition$MeasureValue: *java.lang.Object* [private] value
+net.sf.jasperreports.engine.data.JRHibernateAbstractDataSource: *java.lang.Object* [private] currentReturnValue
+net.sf.jasperreports.engine.fill.AsynchronousFillHandle: *java.lang.Object* [protected] [final] lock
+net.sf.jasperreports.engine.fill.DistinctCountHolder: *java.lang.Object* [private] lastValue
+net.sf.jasperreports.engine.fill.JRFillField: *java.lang.Object* [private] previousOldValue
+net.sf.jasperreports.engine.fill.JRFillField: *java.lang.Object* [private] oldValue
+net.sf.jasperreports.engine.fill.JRFillField: *java.lang.Object* [private] value
+net.sf.jasperreports.engine.fill.JRFillField: *java.lang.Object* [private] savedValue
+net.sf.jasperreports.engine.fill.JRFillParameter: *java.lang.Object* [private] value
+net.sf.jasperreports.engine.fill.JRFillVariable: *java.lang.Object* [private] previousOldValue
+net.sf.jasperreports.engine.fill.JRFillVariable: *java.lang.Object* [private] oldValue
+net.sf.jasperreports.engine.fill.JRFillVariable: *java.lang.Object* [private] estimatedValue
+net.sf.jasperreports.engine.fill.JRFillVariable: *java.lang.Object* [private] incrementedValue
+net.sf.jasperreports.engine.fill.JRFillVariable: *java.lang.Object* [private] value
+net.sf.jasperreports.engine.fill.JRFillVariable: *java.lang.Object* [private] savedValue
+net.sf.jasperreports.engine.JRPrintHyperlinkParameter: *java.lang.Object* [private] value
+net.sf.jasperreports.engine.xml.JRGenericPrintElementParameterFactory$ParameterValue: *java.lang.Object* [protected] value
+net.sf.jasperreports.olap.xmla.JRXmlaCell: *java.lang.Object* [private] [final] value
+net.sf.jasperreports.swing.JRViewer: *javax.swing.JPanel* [protected] pnlStatus
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] jPanel4
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] jPanel5
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] jPanel6
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] jPanel7
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] jPanel8
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] jPanel9
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] pnlInScroll
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] pnlLinks
+net.sf.jasperreports.swing.JRViewerPanel: *javax.swing.JPanel* [private] pnlPage
+net.sf.jasperreports.swing.JRViewerToolbar: *javax.swing.JPanel* [protected] pnlSep01
+net.sf.jasperreports.swing.JRViewerToolbar: *javax.swing.JPanel* [protected] pnlSep02
+net.sf.jasperreports.swing.JRViewerToolbar: *javax.swing.JPanel* [protected] pnlSep03
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] jPanel4
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] jPanel5
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] jPanel6
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] jPanel7
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] jPanel8
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] jPanel9
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] pnlInScroll
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] pnlLinks
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] pnlMain
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [private] pnlPage
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [protected] pnlSep01
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [protected] pnlSep02
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [protected] pnlSep03
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [protected] pnlStatus
+net.sf.jasperreports.view.JRViewer: *javax.swing.JPanel* [protected] tlbToolBar
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+net.sf.jasperreports.engine.fill.JRBaseFiller: [protected] parentFiller
+net.sf.jasperreports.engine.fill.JRFillObjectFactory: [private] parentFiller
+net.sf.jasperreports.engine.JRExpressionCollector: [private] [final] parent
+net.sf.jasperreports.olap.mondrian.JRMondrianMember: [private] [final] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+net.sf.jasperreports.engine.fill.JRFillCellContents: [private] original
+net.sf.jasperreports.engine.JRPropertiesMap: [private] base
+Non-Object Fields:
+net.sf.jasperreports.engine.util.CompositeClassloader: *java.lang.ClassLoader* [private] [final] fallback
+net.sf.jasperreports.engine.util.FileBufferedOutputStream$DataStream: *java.io.InputStream* [private] [final] fileInput
+java.lang.Object Fields:
+net.sf.jasperreports.engine.base.JRVirtualPrintPage$ObjectIDPair: *java.lang.Object* [private] [final] o
+net.sf.jasperreports.engine.data.JRBeanCollectionDataSource: *java.lang.Object* [private] currentBean
+net.sf.jasperreports.engine.data.JRJpaDataSource: *java.lang.Object* [protected] currentRow
+net.sf.jasperreports.engine.design.events.JRPropertyChangeSupport: *java.lang.Object* [private] sourceBean
+net.sf.jasperreports.engine.design.JRValidationFault: *java.lang.Object* [private] source
+net.sf.jasperreports.engine.JRAbstractObjectFactory: *java.lang.Object* [private] visitResult
+net.sf.jasperreports.engine.util.Pair: *java.lang.Object* [private] [final] o1
+net.sf.jasperreports.engine.util.Pair: *java.lang.Object* [private] [final] o2
+net.sf.jasperreports.olap.mapping.MemberMapping$SingleIt: *java.lang.Object* [final] o
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+net.sf.jasperreports.engine.base.JRBaseElementGroup: *java.util.List* [protected] children
+net.sf.jasperreports.engine.base.JRBaseFrame: *java.util.List* [protected] children
+net.sf.jasperreports.engine.design.JRDesignFrame: *java.util.List* [private] children
+net.sf.jasperreports.engine.fill.JRFillElementGroup: *java.util.List* [protected] children
+==
+net.sf.jasperreports.ant.JRAntCompileTask: *java.util.Map* [private] reportFilesMap
+net.sf.jasperreports.charts.base.JRBaseMeterPlot: *java.util.List* [protected] intervals
+net.sf.jasperreports.charts.base.JRBaseMultiAxisPlot: *java.util.List* [protected] axes
+net.sf.jasperreports.charts.design.JRDesignCategoryDataset: *java.util.List* [private] categorySeriesList
+net.sf.jasperreports.charts.design.JRDesignGanttDataset: *java.util.List* [private] ganttSeriesList
+net.sf.jasperreports.charts.design.JRDesignPieDataset: *java.util.List* [private] pieSeriesList
+net.sf.jasperreports.charts.design.JRDesignTimePeriodDataset: *java.util.List* [private] timePeriodSeriesList
+net.sf.jasperreports.charts.design.JRDesignTimeSeriesDataset: *java.util.List* [private] timeSeriesList
+net.sf.jasperreports.charts.design.JRDesignXyDataset: *java.util.List* [private] xySeriesList
+net.sf.jasperreports.charts.design.JRDesignXyzDataset: *java.util.List* [private] xyzSeriesList
+net.sf.jasperreports.charts.fill.JRFillCategoryDataset: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.fill.JRFillCategoryDataset: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.fill.JRFillGanttDataset: *java.util.List* [private] seriesNames
+net.sf.jasperreports.charts.fill.JRFillGanttDataset: *java.util.Map* [private] seriesMap
+net.sf.jasperreports.charts.fill.JRFillGanttDataset: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.fill.JRFillGanttDataset: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.fill.JRFillHighLowDataset: *java.util.List* [private] elements
+net.sf.jasperreports.charts.fill.JRFillHighLowDataset: *java.util.List* [private] itemHyperlinks
+net.sf.jasperreports.charts.fill.JRFillMultiAxisPlot: *java.util.List* [private] axes
+net.sf.jasperreports.charts.fill.JRFillPieDataset: *java.util.Map* [private] values
+net.sf.jasperreports.charts.fill.JRFillPieDataset: *java.util.Map* [private] labels
+net.sf.jasperreports.charts.fill.JRFillPieDataset: *java.util.Map* [private] sectionHyperlinks
+net.sf.jasperreports.charts.fill.JRFillTimePeriodDataset: *java.util.List* [private] seriesNames
+net.sf.jasperreports.charts.fill.JRFillTimePeriodDataset: *java.util.Map* [private] seriesMap
+net.sf.jasperreports.charts.fill.JRFillTimePeriodDataset: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.fill.JRFillTimePeriodDataset: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.fill.JRFillTimeSeriesDataset: *java.util.List* [private] seriesNames
+net.sf.jasperreports.charts.fill.JRFillTimeSeriesDataset: *java.util.Map* [private] seriesMap
+net.sf.jasperreports.charts.fill.JRFillTimeSeriesDataset: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.fill.JRFillTimeSeriesDataset: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.fill.JRFillXyDataset: *java.util.List* [private] seriesNames
+net.sf.jasperreports.charts.fill.JRFillXyDataset: *java.util.Map* [private] seriesMap
+net.sf.jasperreports.charts.fill.JRFillXyDataset: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.fill.JRFillXyDataset: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.fill.JRFillXyzDataset: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.util.CategoryChartHyperlinkProvider: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.util.CategoryLabelGenerator: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.util.DefaultXYZDataset: *java.util.List* dataset
+net.sf.jasperreports.charts.util.HighLowChartHyperlinkProvider: *java.util.List* [private] itemHyperlinks
+net.sf.jasperreports.charts.util.MultiAxisChartHyperlinkProvider: *java.util.Map* [private] datasetProviders
+net.sf.jasperreports.charts.util.PieChartHyperlinkProvider: *java.util.Map* [private] sectionHyperlinks
+net.sf.jasperreports.charts.util.PieLabelGenerator: *java.util.Map* [private] labels
+net.sf.jasperreports.charts.util.TimePeriodChartHyperlinkProvider: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.util.TimePeriodDatasetLabelGenerator: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.util.TimeSeriesChartHyperlinkProvider: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.util.TimeSeriesLabelGenerator: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.util.XYChartHyperlinkProvider: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.charts.util.XYDatasetLabelGenerator: *java.util.Map* [private] labelsMap
+net.sf.jasperreports.charts.util.XYZElement: *java.util.List* [private] xElements
+net.sf.jasperreports.charts.util.XYZElement: *java.util.List* [private] yElements
+net.sf.jasperreports.charts.util.XYZElement: *java.util.List* [private] zElements
+net.sf.jasperreports.compilers.JavaScriptCompileData: *java.util.List* [private] [final] expressions
+net.sf.jasperreports.compilers.JavaScriptEvaluator: *java.util.Map* [private] loadedTypes
+net.sf.jasperreports.compilers.JavaScriptEvaluator: *java.util.Map* [private] compiledExpressions
+net.sf.jasperreports.compilers.JRBshGenerator: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.compilers.JRBshGenerator: *java.util.Map* [protected] fieldsMap
+net.sf.jasperreports.compilers.JRBshGenerator: *java.util.Map* [protected] variablesMap
+net.sf.jasperreports.compilers.JRGroovyCompiler$ClassCollector: *java.util.Map* [public] classes
+net.sf.jasperreports.compilers.JRGroovyGenerator: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.compilers.JRGroovyGenerator: *java.util.Map* [protected] fieldsMap
+net.sf.jasperreports.compilers.JRGroovyGenerator: *java.util.Map* [protected] variablesMap
+net.sf.jasperreports.components.list.FillDatasetRun: *java.util.Map* [private] parameterValues
+net.sf.jasperreports.components.list.FillList: *java.util.Map* [private] printFrameTemplates
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.List* [protected] parametersList
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *org.apache.commons.collections.SequencedHashMap* [protected] variablesList
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.List* [protected] rowGroups
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.List* [protected] columnGroups
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.List* [protected] measures
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.Map* [protected] rowGroupsMap
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.Map* [protected] columnGroupsMap
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.Map* [protected] measuresMap
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.List* [protected] cellsList
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *java.util.Map* [protected] cellsMap
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService$BucketListMap: *java.util.List* entries
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService$BucketTreeMap: *java.util.TreeMap* map
+net.sf.jasperreports.engine.base.JRBaseChartPlot: *java.util.SortedSet* [protected] seriesColors
+net.sf.jasperreports.engine.base.JRBaseGenericElement: *java.util.List* [private] parameters
+net.sf.jasperreports.engine.base.JRBaseGenericPrintElement: *java.util.Map* [private] parameters
+net.sf.jasperreports.engine.base.JRBasePrintFrame: *java.util.List* [private] elements
+net.sf.jasperreports.engine.base.JRBasePrintPage: *java.util.List* [protected] elements
+net.sf.jasperreports.engine.base.JRBaseReport: *java.util.Set* [protected] importsSet
+net.sf.jasperreports.engine.base.JRVirtualPrintPage: *java.util.List* [protected] elements
+net.sf.jasperreports.engine.base.JRVirtualPrintPage$ExternalizationElementVisitor: *java.util.Map* [private] [final] idTemplates
+net.sf.jasperreports.engine.component.DefaultComponentsBundle: *java.util.Map* [private] componentManagers
+net.sf.jasperreports.engine.convert.ReportConverter: *java.util.List* [private] pageElements
+net.sf.jasperreports.engine.convert.ReportConverter: *java.util.Map* [protected] stylesMap
+net.sf.jasperreports.engine.data.JRBeanCollectionDataSource: *java.util.Collection* [private] data
+net.sf.jasperreports.engine.data.JRCsvDataSource: *java.util.HashMap* [private] columnNames
+net.sf.jasperreports.engine.data.JRCsvDataSource: *java.util.Vector* [private] fields
+net.sf.jasperreports.engine.data.JRHibernateAbstractDataSource: *java.util.Map* [private] [final] fieldReaders
+net.sf.jasperreports.engine.data.JRHibernateListDataSource: *java.util.List* [private] returnValues
+net.sf.jasperreports.engine.data.JRJpaDataSource: *java.util.List* [private] returnValues
+net.sf.jasperreports.engine.data.JRJpaDataSource: *java.util.Map* [private] fieldValueReaders
+net.sf.jasperreports.engine.data.JRMapCollectionDataSource: *java.util.Collection* [private] records
+net.sf.jasperreports.engine.data.JRMapCollectionDataSource: *java.util.Map* [private] currentRecord
+net.sf.jasperreports.engine.data.JRSortableDataSource: *java.util.List* [private] records
+net.sf.jasperreports.engine.data.JRSortableDataSource: *java.util.Map* [private] fieldIndexMap
+net.sf.jasperreports.engine.data.JRTableModelDataSource: *java.util.HashMap* [private] columnNames
+net.sf.jasperreports.engine.design.JasperDesign: *java.util.List* [private] templateList
+net.sf.jasperreports.engine.design.JasperDesign: *java.util.Map* [private] fontsMap
+net.sf.jasperreports.engine.design.JasperDesign: *java.util.List* [private] fontsList
+net.sf.jasperreports.engine.design.JasperDesign: *java.util.Map* [private] stylesMap
+net.sf.jasperreports.engine.design.JasperDesign: *java.util.List* [private] stylesList
+net.sf.jasperreports.engine.design.JasperDesign: *java.util.Map* [private] datasetMap
+net.sf.jasperreports.engine.design.JasperDesign: *java.util.List* [private] datasetList
+net.sf.jasperreports.engine.design.JasperDesign$1: *java.util.List* [private] [final] val$crosstabs
+net.sf.jasperreports.engine.design.JRClassGenerator: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.engine.design.JRClassGenerator: *java.util.Map* [protected] fieldsMap
+net.sf.jasperreports.engine.design.JRClassGenerator: *java.util.Map* [protected] variablesMap
+net.sf.jasperreports.engine.design.JRCompilationUnit: *java.util.List* [private] [final] expressions
+net.sf.jasperreports.engine.design.JRDesignChart: *java.util.List* [private] hyperlinkParameters
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.Map* [protected] scriptletsMap
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.List* [protected] scriptletsList
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.List* [protected] parametersList
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.Map* [protected] fieldsMap
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.List* [protected] fieldsList
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.Map* [protected] sortFieldsMap
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.List* [protected] sortFieldsList
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.Map* [protected] variablesMap
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.List* [protected] variablesList
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.Map* [protected] groupsMap
+net.sf.jasperreports.engine.design.JRDesignDataset: *java.util.List* [protected] groupsList
+net.sf.jasperreports.engine.design.JRDesignDatasetRun: *java.util.Map* [private] parametersMap
+net.sf.jasperreports.engine.design.JRDesignDatasetRun: *java.util.List* [private] parametersList
+net.sf.jasperreports.engine.design.JRDesignElement: *java.util.List* [private] propertyExpressions
+net.sf.jasperreports.engine.design.JRDesignExpression: *java.util.List* [protected] chunks
+net.sf.jasperreports.engine.design.JRDesignGenericElement: *java.util.List* [private] parameters
+net.sf.jasperreports.engine.design.JRDesignHyperlink: *java.util.List* [private] hyperlinkParameters
+net.sf.jasperreports.engine.design.JRDesignImage: *java.util.List* [private] hyperlinkParameters
+net.sf.jasperreports.engine.design.JRDesignQuery: *java.util.List* [protected] chunks
+net.sf.jasperreports.engine.design.JRDesignStyle: *java.util.List* [private] conditionalStylesList
+net.sf.jasperreports.engine.design.JRDesignSubreport: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.engine.design.JRDesignSubreport: *java.util.List* [protected] returnValues
+net.sf.jasperreports.engine.design.JRDesignTextField: *java.util.List* [private] hyperlinkParameters
+net.sf.jasperreports.engine.design.JRReportCompileData: *java.util.Map* [private] datasetCompileData
+net.sf.jasperreports.engine.design.JRReportCompileData: *java.util.Map* [private] crosstabCompileData
+net.sf.jasperreports.engine.design.JRSourceCompileTask: *java.util.Map* [private] parametersMap
+net.sf.jasperreports.engine.design.JRSourceCompileTask: *java.util.Map* [private] fieldsMap
+net.sf.jasperreports.engine.design.JRSourceCompileTask: *java.util.Map* [private] variablesMap
+net.sf.jasperreports.engine.design.JRSourceCompileTask: *java.util.List* [private] expressions
+net.sf.jasperreports.engine.design.JRValidationException: *java.util.Collection* [private] [final] faults
+net.sf.jasperreports.engine.design.JRVerifier: *java.util.Collection* [private] brokenRules
+net.sf.jasperreports.engine.export.CutsInfo: *java.util.List* [private] [final] cuts
+net.sf.jasperreports.engine.export.DefaultElementHandlerBundle: *java.util.Map* [private] elementHandlers
+net.sf.jasperreports.engine.export.draw.FrameDrawer: *java.util.LinkedList* [private] elementOffsetStack
+net.sf.jasperreports.engine.export.ElementKeyExporterFilter: *java.util.Set* [private] [final] excludedKeys
+net.sf.jasperreports.engine.export.ExporterFilterContainer: *java.util.List* [private] [final] filters
+net.sf.jasperreports.engine.export.JExcelApiExporter: *java.util.Map* [private] loadedCellStyles
+net.sf.jasperreports.engine.export.JExcelApiExporter: *java.util.Map* [private] numberFormats
+net.sf.jasperreports.engine.export.JExcelApiExporter: *java.util.Map* [private] dateFormats
+net.sf.jasperreports.engine.export.JExcelApiExporter: *java.util.Map* [protected] formatPatternsMap
+net.sf.jasperreports.engine.export.JExcelApiExporter: *java.util.Map* [protected] workbookColours
+net.sf.jasperreports.engine.export.JExcelApiExporter: *java.util.Map* [protected] usedColours
+net.sf.jasperreports.engine.export.JRGridLayout: *java.util.Map* [private] boxesCache
+net.sf.jasperreports.engine.export.JRHtmlExporter: *java.util.Map* [protected] rendererToImagePathMap
+net.sf.jasperreports.engine.export.JRHtmlExporter: *java.util.Map* [protected] imageMaps
+net.sf.jasperreports.engine.export.JRHtmlExporter: *java.util.Map* [protected] imageNameToImageDataMap
+net.sf.jasperreports.engine.export.JRHtmlExporter: *java.util.List* [protected] imagesToProcess
+net.sf.jasperreports.engine.export.JRHtmlExporter: *java.util.Map* [protected] fontMap
+net.sf.jasperreports.engine.export.JRHtmlExporter: *java.util.LinkedList* [private] backcolorStack
+net.sf.jasperreports.engine.export.JRHyperlinkProducerMapFactory: *java.util.Map* [private] producers
+net.sf.jasperreports.engine.export.JRHyperlinkTargetProducerMapFactory: *java.util.Map* [private] producers
+net.sf.jasperreports.engine.export.JROriginExporterFilter: *java.util.Map* [private] originsToExclude
+net.sf.jasperreports.engine.export.JROriginExporterFilter: *java.util.Map* [private] firstOccurrences
+net.sf.jasperreports.engine.export.JRPdfExporter: *java.util.Map* [protected] loadedImagesMap
+net.sf.jasperreports.engine.export.JRPdfExporter: *java.util.Map* [private] fontMap
+net.sf.jasperreports.engine.export.JRPdfExporter$BookmarkStack: *java.util.LinkedList* stack
+net.sf.jasperreports.engine.export.JRPdfExporterTagHelper: *java.util.Stack* [protected] tagStack
+net.sf.jasperreports.engine.export.JRRtfExporter: *java.util.List* [protected] colors
+net.sf.jasperreports.engine.export.JRRtfExporter: *java.util.List* [protected] fonts
+net.sf.jasperreports.engine.export.JRRtfExporter: *java.util.Map* [private] fontMap
+net.sf.jasperreports.engine.export.JRXlsAbstractExporter: *java.util.List* [protected] loadedFonts
+net.sf.jasperreports.engine.export.JRXlsAbstractExporter: *java.util.Map* [protected] fontMap
+net.sf.jasperreports.engine.export.JRXlsAbstractExporter: *java.util.Map* [protected] sheetNamesMap
+net.sf.jasperreports.engine.export.JRXlsExporter: *java.util.Map* [protected] loadedCellStyles
+net.sf.jasperreports.engine.export.JRXlsExporter: *java.util.Map* [protected] formatPatternsMap
+net.sf.jasperreports.engine.export.JRXmlExporter: *java.util.Map* [protected] rendererToImagePathMap
+net.sf.jasperreports.engine.export.JRXmlExporter: *java.util.Map* [protected] imageNameToImageDataMap
+net.sf.jasperreports.engine.export.JRXmlExporter: *java.util.Map* [protected] fontsMap
+net.sf.jasperreports.engine.export.JRXmlExporter: *java.util.Map* [protected] stylesMap
+net.sf.jasperreports.engine.export.oasis.ContentBuilder: *java.util.Collection* [private] fontFaces
+net.sf.jasperreports.engine.export.oasis.JROdtFrameExporter: *java.util.Map* [protected] rendererToImagePathMap
+net.sf.jasperreports.engine.export.oasis.JROdtFrameExporter: *java.util.Map* [protected] imageMaps
+net.sf.jasperreports.engine.export.oasis.JROdtFrameExporter: *java.util.List* [protected] imagesToProcess
+net.sf.jasperreports.engine.export.oasis.JROdtFrameExporter: *java.util.Map* [protected] fontMap
+net.sf.jasperreports.engine.export.oasis.JROdtFrameExporter: *java.util.LinkedList* [private] backcolorStack
+net.sf.jasperreports.engine.export.oasis.JROpenDocumentExporter: *java.util.Map* [protected] rendererToImagePathMap
+net.sf.jasperreports.engine.export.oasis.JROpenDocumentExporter: *java.util.Map* [protected] imageMaps
+net.sf.jasperreports.engine.export.oasis.JROpenDocumentExporter: *java.util.List* [protected] imagesToProcess
+net.sf.jasperreports.engine.export.oasis.JROpenDocumentExporter: *java.util.Map* [protected] fontMap
+net.sf.jasperreports.engine.export.oasis.JROpenDocumentExporter: *java.util.LinkedList* [protected] backcolorStack
+net.sf.jasperreports.engine.export.oasis.StyleBuilder: *java.util.List* [private] jasperPrintList
+net.sf.jasperreports.engine.export.oasis.StyleCache: *java.util.Map* [private] fontMap
+net.sf.jasperreports.engine.export.oasis.StyleCache: *java.util.Set* [private] fontFaces
+net.sf.jasperreports.engine.export.oasis.StyleCache: *java.util.Map* [private] frameStyles
+net.sf.jasperreports.engine.export.oasis.StyleCache: *java.util.Map* [private] cellStyles
+net.sf.jasperreports.engine.export.oasis.StyleCache: *java.util.Map* [private] graphicStyles
+net.sf.jasperreports.engine.export.oasis.StyleCache: *java.util.Map* [private] paragraphStyles
+net.sf.jasperreports.engine.export.oasis.StyleCache: *java.util.Map* [private] textSpanStyles
+net.sf.jasperreports.engine.export.oasis.zip.OasisZip: *java.util.List* [private] oasisZipEntries
+net.sf.jasperreports.engine.export.xmlss.JRXmlssExporter: *java.util.Map* [protected] rendererToImagePathMap
+net.sf.jasperreports.engine.export.xmlss.JRXmlssExporter: *java.util.Map* [protected] imageMaps
+net.sf.jasperreports.engine.export.xmlss.JRXmlssExporter: *java.util.List* [protected] imagesToProcess
+net.sf.jasperreports.engine.export.xmlss.JRXmlssExporter: *java.util.Map* [protected] fontMap
+net.sf.jasperreports.engine.export.xmlss.JRXmlssExporter: *java.util.LinkedList* [private] backcolorStack
+net.sf.jasperreports.engine.export.xmlss.JRXmlssExporter: *java.util.Map* [protected] sheetNamesMap
+net.sf.jasperreports.engine.export.xmlss.JRXmlssExporter: *java.util.Map* [protected] formatPatternsMap
+net.sf.jasperreports.engine.export.xmlss.XmlssStyleBuilder: *java.util.List* [private] jasperPrintList
+net.sf.jasperreports.engine.export.xmlss.XmlssStyleCache: *java.util.Map* [private] fontMap
+net.sf.jasperreports.engine.export.xmlss.XmlssStyleCache: *java.util.Set* [private] fontFaces
+net.sf.jasperreports.engine.export.xmlss.XmlssStyleCache: *java.util.Map* [private] cellStyles
+net.sf.jasperreports.engine.fill.AsynchronousFillHandle: *java.util.Map* [protected] [final] parameters
+net.sf.jasperreports.engine.fill.AsynchronousFillHandle: *java.util.List* [protected] [final] listeners
+net.sf.jasperreports.engine.fill.DistinctCountHolder: *java.util.Set* [private] distinctValues
+net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer: *java.util.Map* [protected] [final] classLoadersIndexes
+net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer: *java.util.List* [protected] [final] classLoadersList
+net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer: *org.apache.commons.collections.ReferenceMap* [private] [final] pagedOut
+net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer: *org.apache.commons.collections.ReferenceMap* [protected] lastObjectMap
+net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer: *org.apache.commons.collections.ReferenceMap* [protected] lastObjectSet
+net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer$Cache: *net.sf.jasperreports.engine.fill.JRAbstractLRUVirtualizer$Cache$LRUScanMap* [private] [final] map
+net.sf.jasperreports.engine.fill.JRBaseFiller: *java.util.Map* [protected] boundElements
+net.sf.jasperreports.engine.fill.JRBaseFiller: *java.util.List* [protected] bands
+net.sf.jasperreports.engine.fill.JRBaseFiller: *java.util.Set* [protected] subfillers
+net.sf.jasperreports.engine.fill.JRBaseFiller: *java.util.List* [private] identityPages
+net.sf.jasperreports.engine.fill.JRBaseFiller: *java.util.Map* [protected] datasetMap
+net.sf.jasperreports.engine.fill.JRBaseFiller: *java.util.Map* [protected] dateFormatCache
+net.sf.jasperreports.engine.fill.JRBaseFiller: *java.util.Map* [protected] numberFormatCache
+net.sf.jasperreports.engine.fill.JRBaseFiller: *java.util.List* [private] [final] defaultStyleListeners
+net.sf.jasperreports.engine.fill.JRBaseFiller$BoundElementMap: *java.util.Map* [private] [final] map
+net.sf.jasperreports.engine.fill.JRCalculator: *java.util.Map* [protected] parsm
+net.sf.jasperreports.engine.fill.JRCalculator: *java.util.Map* [protected] fldsm
+net.sf.jasperreports.engine.fill.JRCalculator: *java.util.Map* [protected] varsm
+net.sf.jasperreports.engine.fill.JRClonePool: *java.util.LinkedList* [private] [final] availableClones
+net.sf.jasperreports.engine.fill.JRClonePool: *java.util.Set* [private] [final] lockedClones
+net.sf.jasperreports.engine.fill.JRFillBand: *java.util.Map* [private] isNewGroupMap
+net.sf.jasperreports.engine.fill.JRFillBand: *java.util.Set* [private] nowEvaluationTimes
+net.sf.jasperreports.engine.fill.JRFillBand: *java.util.Map* [private] savedVariableValues
+net.sf.jasperreports.engine.fill.JRFillCellContents: *java.util.Map* [private] [final] transformedContentsCache
+net.sf.jasperreports.engine.fill.JRFillCellContents: *java.util.Map* [private] [final] boxContentsCache
+net.sf.jasperreports.engine.fill.JRFillCellContents: *java.util.Map* [private] templateFrames
+net.sf.jasperreports.engine.fill.JRFillCloneFactory: *java.util.Map* [private] cloneMap
+net.sf.jasperreports.engine.fill.JRFillContext: *java.util.Map* [private] loadedImages
+net.sf.jasperreports.engine.fill.JRFillContext: *java.util.Map* [private] loadedSubreports
+net.sf.jasperreports.engine.fill.JRFillContext: *java.util.Map* [private] loadedTemplates
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *java.util.Map* [protected] rowGroupsMap
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *java.util.Map* [protected] columnGroupsMap
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *java.util.Map* [protected] variablesMap
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.engine.fill.JRFillCrosstab$CrosstabFiller: *java.util.List* [private] columnHeaders
+net.sf.jasperreports.engine.fill.JRFillCrosstab$CrosstabFiller: *java.util.List* [private] printRows
+net.sf.jasperreports.engine.fill.JRFillCrosstab$CrosstabFiller: *java.util.List* [private] rowYs
+net.sf.jasperreports.engine.fill.JRFillCrosstab$CrosstabFiller: *java.util.List* [private] preparedRow
+net.sf.jasperreports.engine.fill.JRFillDataset: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.engine.fill.JRFillDataset: *java.util.Map* [protected] fieldsMap
+net.sf.jasperreports.engine.fill.JRFillDataset: *java.util.Map* [protected] variablesMap
+net.sf.jasperreports.engine.fill.JRFillDataset: *java.util.Set* [protected] variableCalculationReqs
+net.sf.jasperreports.engine.fill.JRFillDataset: *java.util.List* [protected] scriptlets
+net.sf.jasperreports.engine.fill.JRFillElement: *java.util.Map* [protected] templates
+net.sf.jasperreports.engine.fill.JRFillElement: *java.util.Collection* [private] dependantElements
+net.sf.jasperreports.engine.fill.JRFillElement: *java.util.Map* [protected] delayedEvaluationsMap
+net.sf.jasperreports.engine.fill.JRFillElement$DelayedEvaluations: *java.util.Set* [final] fields
+net.sf.jasperreports.engine.fill.JRFillElement$DelayedEvaluations: *java.util.Set* [final] variables
+net.sf.jasperreports.engine.fill.JRFillElementContainer: *java.util.Set* [protected] stylesToEvaluate
+net.sf.jasperreports.engine.fill.JRFillElementContainer: *java.util.Map* [protected] evaluatedStyles
+net.sf.jasperreports.engine.fill.JRFillFrame: *java.util.Map* [private] bottomTemplateFrames
+net.sf.jasperreports.engine.fill.JRFillFrame: *java.util.Map* [private] topTemplateFrames
+net.sf.jasperreports.engine.fill.JRFillFrame: *java.util.Map* [private] topBottomTemplateFrames
+net.sf.jasperreports.engine.fill.JRFillGenericElement: *java.util.Map* [private] parameterValues
+net.sf.jasperreports.engine.fill.JRFillObjectFactory: *java.util.List* [private] elementDatasets
+net.sf.jasperreports.engine.fill.JRFillObjectFactory: *java.util.Map* [private] elementDatasetMap
+net.sf.jasperreports.engine.fill.JRFillObjectFactory: *java.util.Map* [private] delayedStyleSettersByName
+net.sf.jasperreports.engine.fill.JRFillObjectFactory: *java.util.Set* [private] originalStyleList
+net.sf.jasperreports.engine.fill.JRFillObjectFactory$StylesList: *java.util.List* [private] [final] styles
+net.sf.jasperreports.engine.fill.JRFillObjectFactory$StylesList: *java.util.Map* [private] [final] stylesIdx
+net.sf.jasperreports.engine.fill.JRFillSubreport: *java.util.Map* [private] parameterValues
+net.sf.jasperreports.engine.fill.JRFillSubreport: *java.util.Map* [private] loadedEvaluators
+net.sf.jasperreports.engine.fill.JRFillSubreport: *java.util.Set* [private] checkedReports
+net.sf.jasperreports.engine.fill.JRFillTextElement: *java.util.Map* [private] styledTextAttributesMap
+net.sf.jasperreports.engine.fill.JRGzipVirtualizer: *java.util.Map* [private] [final] zippedData
+net.sf.jasperreports.engine.fill.JRPrintBand: *java.util.List* [private] elements
+net.sf.jasperreports.engine.fill.JRRecordedValues: *java.util.Set* [private] evaluationTimes
+net.sf.jasperreports.engine.fill.JRRecordedValues: *java.util.Map* [private] recordedVariableValues
+net.sf.jasperreports.engine.fill.JRRecordedValues: *java.util.Map* [private] recordedFieldValues
+net.sf.jasperreports.engine.fill.JRSwapFileVirtualizer: *java.util.Map* [private] [final] handles
+net.sf.jasperreports.engine.fill.JRTemplateGenericPrintElement: *java.util.Map* [private] parameters
+net.sf.jasperreports.engine.fill.JRTemplatePrintFrame: *java.util.List* [private] elements
+net.sf.jasperreports.engine.fill.JRVirtualizationContext: *java.util.Map* [private] cachedRenderers
+net.sf.jasperreports.engine.fill.JRVirtualizationContext: *java.util.Map* [private] cachedTemplates
+net.sf.jasperreports.engine.fill.TextMeasurer: *java.util.Map* [private] globalAttributes
+net.sf.jasperreports.engine.fill.TextMeasurer$TextMeasuredState: *java.util.ArrayList* [protected] lineBreakOffsets
+net.sf.jasperreports.engine.fonts.SimpleFontFamily: *java.util.Set* [private] locales
+net.sf.jasperreports.engine.JasperPrint: *java.util.Map* [private] fontsMap
+net.sf.jasperreports.engine.JasperPrint: *java.util.List* [private] fontsList
+net.sf.jasperreports.engine.JasperPrint: *java.util.Map* [private] stylesMap
+net.sf.jasperreports.engine.JasperPrint: *java.util.List* [private] stylesList
+net.sf.jasperreports.engine.JasperPrint: *java.util.Map* [private] originsMap
+net.sf.jasperreports.engine.JasperPrint: *java.util.List* [private] originsList
+net.sf.jasperreports.engine.JasperPrint: *java.util.List* [private] pages
+net.sf.jasperreports.engine.JasperPrint: *java.util.Map* [private] anchorIndexes
+net.sf.jasperreports.engine.JRAbstractExporter: *java.util.Map* [protected] parameters
+net.sf.jasperreports.engine.JRAbstractExporter: *java.util.List* [protected] jasperPrintList
+net.sf.jasperreports.engine.JRAbstractExporter: *java.util.LinkedList* [private] elementOffsetStack
+net.sf.jasperreports.engine.JRAbstractExporter: *java.util.Map* [protected] dateFormatCache
+net.sf.jasperreports.engine.JRAbstractExporter: *java.util.Map* [protected] numberFormatCache
+net.sf.jasperreports.engine.JRAbstractObjectFactory: *java.util.Map* [private] objectsMap
+net.sf.jasperreports.engine.JRAbstractScriptlet: *java.util.Map* [protected] parametersMap
+net.sf.jasperreports.engine.JRAbstractScriptlet: *java.util.Map* [protected] fieldsMap
+net.sf.jasperreports.engine.JRAbstractScriptlet: *java.util.Map* [protected] variablesMap
+net.sf.jasperreports.engine.JRExpressionCollector: *java.util.Map* [private] expressionIds
+net.sf.jasperreports.engine.JRExpressionCollector: *java.util.Map* [private] crosstabIds
+net.sf.jasperreports.engine.JRExpressionCollector: *java.util.Map* [private] datasetCollectors
+net.sf.jasperreports.engine.JRExpressionCollector: *java.util.Map* [private] crosstabCollectors
+net.sf.jasperreports.engine.JRExpressionCollector: *java.util.Set* [private] [final] collectedStyles
+net.sf.jasperreports.engine.JRExpressionCollector$GeneratedIds: *java.util.TreeMap* [private] [final] ids
+net.sf.jasperreports.engine.JRExpressionCollector$GeneratedIds: *java.util.List* [private] expressions
+net.sf.jasperreports.engine.JRPrintHyperlinkParameters: *java.util.List* [private] parameters
+net.sf.jasperreports.engine.JRPropertiesMap: *java.util.Map* [private] propertiesMap
+net.sf.jasperreports.engine.JRPropertiesMap: *java.util.List* [private] propertiesList
+net.sf.jasperreports.engine.JRResultSetDataSource: *java.util.Map* [private] columnIndexMap
+net.sf.jasperreports.engine.JRSimpleTemplate: *java.util.List* [private] [final] includedTemplates
+net.sf.jasperreports.engine.JRSimpleTemplate: *java.util.List* [private] [final] styles
+net.sf.jasperreports.engine.query.JRAbstractQueryExecuter: *java.util.Map* [protected] [final] clauseFunctions
+net.sf.jasperreports.engine.query.JRAbstractQueryExecuter: *java.util.Map* [private] [final] parametersMap
+net.sf.jasperreports.engine.query.JRAbstractQueryExecuter: *java.util.List* [private] queryParameters
+net.sf.jasperreports.engine.query.JRAbstractQueryExecuter: *java.util.Set* [private] parameterClauseStack
+net.sf.jasperreports.engine.scriptlets.ScriptletFactoryContext: *java.util.Map* [private] parameterValues
+net.sf.jasperreports.engine.util.JRSingletonCache: *org.apache.commons.collections.ReferenceMap* [private] [final] cache
+net.sf.jasperreports.engine.util.JRStyledText: *java.util.List* [private] runs
+net.sf.jasperreports.engine.util.JRStyledText: *java.util.Map* [private] globalAttributes
+net.sf.jasperreports.engine.util.JRStyledText$Run: *java.util.Map* [public] attributes
+net.sf.jasperreports.engine.util.JRXmlWriteHelper: *java.util.List* [private] [final] indents
+net.sf.jasperreports.engine.util.JRXmlWriteHelper: *java.util.List* [private] [final] elementStack
+net.sf.jasperreports.engine.util.JRXmlWriteHelper$StackElement: *java.util.List* atts
+net.sf.jasperreports.engine.util.SimpleFileResolver: *java.util.List* [protected] folders
+net.sf.jasperreports.engine.util.xml.JaxenXPathExecuter: *java.util.Map* [private] [final] cachedXPaths
+net.sf.jasperreports.engine.util.xml.JaxenXPathExecuter$NodeListWrapper: *java.util.List* [private] [final] nodes
+net.sf.jasperreports.engine.xml.JRPrintXmlLoader: *java.util.List* [private] errors
+net.sf.jasperreports.engine.xml.JRXmlDigester: *java.util.Map* [private] internalEntityResources
+net.sf.jasperreports.engine.xml.JRXmlLoader: *java.util.Collection* [private] groupReprintedElements
+net.sf.jasperreports.engine.xml.JRXmlLoader: *java.util.Collection* [private] groupEvaluatedImages
+net.sf.jasperreports.engine.xml.JRXmlLoader: *java.util.Collection* [private] groupEvaluatedTextFields
+net.sf.jasperreports.engine.xml.JRXmlLoader: *java.util.Collection* [private] groupEvaluatedCharts
+net.sf.jasperreports.engine.xml.JRXmlLoader: *java.util.Set* [private] groupBoundDatasets
+net.sf.jasperreports.engine.xml.JRXmlLoader: *java.util.List* [private] errors
+net.sf.jasperreports.engine.xml.JRXmlWriter: *java.util.Map* [private] fontsMap
+net.sf.jasperreports.extensions.DefaultExtensionsRegistry: *org.apache.commons.collections.ReferenceMap* [private] [final] registryCache
+net.sf.jasperreports.extensions.SpringExtensionsRegistry: *org.apache.commons.collections.ReferenceMap* [private] [final] extensionBeanNamesCache
+net.sf.jasperreports.olap.JROlapDataSource: *java.util.Map* [protected] fieldMatchers
+net.sf.jasperreports.olap.JROlapDataSource: *java.util.Map* [protected] fieldValues
+net.sf.jasperreports.olap.mapping.DataMapping: *java.util.List* [private] [final] filter
+net.sf.jasperreports.olap.mapping.DataMapping: *java.util.List* [private] [final] positions
+net.sf.jasperreports.olap.mapping.Tuple: *java.util.List* [private] [final] members
+net.sf.jasperreports.olap.mapping.TupleMember: *java.util.List* [private] [final] names
+net.sf.jasperreports.olap.mondrian.JRMondrianFactory: *java.util.Map* [private] [final] members
+net.sf.jasperreports.olap.xmla.JRXmlaHierarchy: *java.util.List* [private] [final] levels
+net.sf.jasperreports.olap.xmla.JRXmlaResult: *java.util.List* [private] axesList
+net.sf.jasperreports.olap.xmla.JRXmlaResult: *java.util.List* [private] [final] cells
+net.sf.jasperreports.olap.xmla.JRXmlaResultAxis: *java.util.List* [private] [final] hierarchyList
+net.sf.jasperreports.olap.xmla.JRXmlaResultAxis: *java.util.List* [private] [final] tuples
+net.sf.jasperreports.renderers.BatikRenderer: *java.util.List* [private] areaHyperlinks
+net.sf.jasperreports.renderers.JRCategoryChartImageMapRenderer: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.renderers.JRHighLowChartImageMapRenderer: *java.util.List* [private] itemHyperlinks
+net.sf.jasperreports.renderers.JRPieChartImageMapRenderer: *java.util.Map* [private] sectionHyperlinks
+net.sf.jasperreports.renderers.JRSimpleImageMapRenderer: *java.util.List* [private] areaHyperlinks
+net.sf.jasperreports.renderers.JRTimePeriodChartImageMapRenderer: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.renderers.JRTimeSeriesChartImageMapRenderer: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.renderers.JRXYChartImageMapRenderer: *java.util.Map* [private] itemHyperlinks
+net.sf.jasperreports.swing.JRViewerController: *java.util.List* [private] [final] listeners
+net.sf.jasperreports.swing.JRViewerPanel: *java.util.List* [private] hyperlinkListeners
+net.sf.jasperreports.swing.JRViewerPanel: *java.util.Map* [private] linksMap
+net.sf.jasperreports.swing.JRViewerPanel$ImageMapPanel: *java.util.List* [protected] [final] imageAreaHyperlinks
+net.sf.jasperreports.swing.JRViewerToolbar: *java.util.List* [protected] saveContributors
+net.sf.jasperreports.view.JRViewer: *java.util.List* [private] hyperlinkListeners
+net.sf.jasperreports.view.JRViewer: *java.util.Map* [private] linksMap
+net.sf.jasperreports.view.JRViewer: *java.util.List* [protected] saveContributors
+net.sf.jasperreports.view.JRViewer$ImageMapPanel: *java.util.List* [protected] [final] imageAreaHyperlinks
+
+ARRAYS REPORT
+=============
+
+net.sf.jasperreports.charts.base.JRBaseCategoryDataset: *net.sf.jasperreports.charts.JRCategorySeries[]* [protected] categorySeries
+net.sf.jasperreports.charts.base.JRBaseGanttDataset: *net.sf.jasperreports.charts.JRGanttSeries[]* [protected] ganttSeries
+net.sf.jasperreports.charts.base.JRBasePieDataset: *net.sf.jasperreports.charts.JRPieSeries[]* [protected] pieSeries
+net.sf.jasperreports.charts.base.JRBaseTimePeriodDataset: *net.sf.jasperreports.charts.JRTimePeriodSeries[]* [private] timePeriodSeries
+net.sf.jasperreports.charts.base.JRBaseTimeSeriesDataset: *net.sf.jasperreports.charts.JRTimeSeries[]* [private] timeSeries
+net.sf.jasperreports.charts.base.JRBaseXyDataset: *net.sf.jasperreports.charts.JRXySeries[]* [protected] xySeries
+net.sf.jasperreports.charts.base.JRBaseXyzDataset: *net.sf.jasperreports.charts.JRXyzSeries[]* [protected] xyzSeries
+net.sf.jasperreports.charts.fill.JRFillCategoryDataset: *net.sf.jasperreports.charts.fill.JRFillCategorySeries[]* [protected] categorySeries
+net.sf.jasperreports.charts.fill.JRFillGanttDataset: *net.sf.jasperreports.charts.fill.JRFillGanttSeries[]* [protected] ganttSeries
+net.sf.jasperreports.charts.fill.JRFillPieDataset: *net.sf.jasperreports.charts.fill.JRFillPieSeries[]* [protected] pieSeries
+net.sf.jasperreports.charts.fill.JRFillTimePeriodDataset: *net.sf.jasperreports.charts.fill.JRFillTimePeriodSeries[]* [protected] timePeriodSeries
+net.sf.jasperreports.charts.fill.JRFillTimeSeriesDataset: *net.sf.jasperreports.charts.fill.JRFillTimeSeries[]* [protected] timeSeries
+net.sf.jasperreports.charts.fill.JRFillXyDataset: *net.sf.jasperreports.charts.fill.JRFillXySeries[]* [protected] xySeries
+net.sf.jasperreports.charts.fill.JRFillXyzDataset: *net.sf.jasperreports.charts.fill.JRFillXyzSeries[]* [protected] xyzSeries
+net.sf.jasperreports.compilers.JRBshGenerator: *net.sf.jasperreports.engine.JRVariable[]* [protected] variables [no-stores]
+net.sf.jasperreports.compilers.JRGroovyGenerator: *net.sf.jasperreports.engine.JRVariable[]* [protected] variables [no-stores]
+net.sf.jasperreports.crosstabs.base.JRBaseCrosstab: *net.sf.jasperreports.crosstabs.JRCrosstabParameter[]* [protected] parameters
+net.sf.jasperreports.crosstabs.base.JRBaseCrosstab: *net.sf.jasperreports.engine.JRVariable[]* [protected] variables
+net.sf.jasperreports.crosstabs.base.JRBaseCrosstab: *net.sf.jasperreports.crosstabs.JRCrosstabRowGroup[]* [protected] rowGroups
+net.sf.jasperreports.crosstabs.base.JRBaseCrosstab: *net.sf.jasperreports.crosstabs.JRCrosstabColumnGroup[]* [protected] columnGroups
+net.sf.jasperreports.crosstabs.base.JRBaseCrosstab: *net.sf.jasperreports.crosstabs.JRCrosstabMeasure[]* [protected] measures
+net.sf.jasperreports.crosstabs.base.JRBaseCrosstab: *net.sf.jasperreports.crosstabs.JRCrosstabCell[][]* [protected] cells
+net.sf.jasperreports.crosstabs.design.JRDesignCrosstab: *net.sf.jasperreports.crosstabs.design.JRDesignCrosstabCell[][]* [protected] crossCells
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService: *net.sf.jasperreports.crosstabs.fill.calculation.BucketDefinition[]* [protected] [final] allBuckets [arraycopy]
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService: *net.sf.jasperreports.crosstabs.fill.calculation.BucketDefinition[][]* [protected] [final] buckets [arraycopy]
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService: *net.sf.jasperreports.crosstabs.fill.calculation.MeasureDefinition[]* [protected] [final] measures [arraycopy]
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService: *net.sf.jasperreports.crosstabs.fill.calculation.HeaderCell[][]* [protected] colHeaders [arraycopy]
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService: *net.sf.jasperreports.crosstabs.fill.calculation.HeaderCell[][]* [protected] rowHeaders [arraycopy]
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService: *net.sf.jasperreports.crosstabs.fill.calculation.CrosstabCell[][]* [protected] cells [arraycopy]
+net.sf.jasperreports.crosstabs.fill.calculation.BucketingService: *net.sf.jasperreports.crosstabs.fill.calculation.MeasureDefinition$MeasureValue[]* [private] [final] zeroUserMeasureValues [arraycopy]
+net.sf.jasperreports.crosstabs.fill.calculation.CrosstabCell: *net.sf.jasperreports.crosstabs.fill.calculation.BucketDefinition$Bucket[]* [private] [final] rowBucketValues [no-stores]
+net.sf.jasperreports.crosstabs.fill.calculation.CrosstabCell: *net.sf.jasperreports.crosstabs.fill.calculation.BucketDefinition$Bucket[]* [private] [final] columnBucketValues [no-stores]
+net.sf.jasperreports.crosstabs.fill.calculation.CrosstabCell: *net.sf.jasperreports.crosstabs.fill.calculation.MeasureDefinition$MeasureValue[]* [private] [final] mesureValues [no-stores]
+net.sf.jasperreports.crosstabs.fill.calculation.CrosstabCell: *net.sf.jasperreports.crosstabs.fill.calculation.MeasureDefinition$MeasureValue[][][]* [private] [final] totals [no-stores]
+net.sf.jasperreports.crosstabs.fill.calculation.HeaderCell: *net.sf.jasperreports.crosstabs.fill.calculation.BucketDefinition$Bucket[]* [private] [final] bucketValues [no-stores]
+net.sf.jasperreports.crosstabs.fill.calculation.MeasureDefinition$MeasureValue: *net.sf.jasperreports.crosstabs.fill.calculation.MeasureDefinition$MeasureValue[]* [private] helpers
+net.sf.jasperreports.engine.base.JRBaseChart: *net.sf.jasperreports.engine.JRHyperlinkParameter[]* [private] hyperlinkParameters
+net.sf.jasperreports.engine.base.JRBaseDataset: *net.sf.jasperreports.engine.JRScriptlet[]* [protected] scriptlets
+net.sf.jasperreports.engine.base.JRBaseDataset: *net.sf.jasperreports.engine.JRParameter[]* [protected] parameters
+net.sf.jasperreports.engine.base.JRBaseDataset: *net.sf.jasperreports.engine.JRField[]* [protected] fields
+net.sf.jasperreports.engine.base.JRBaseDataset: *net.sf.jasperreports.engine.JRSortField[]* [protected] sortFields
+net.sf.jasperreports.engine.base.JRBaseDataset: *net.sf.jasperreports.engine.JRVariable[]* [protected] variables
+net.sf.jasperreports.engine.base.JRBaseDataset: *net.sf.jasperreports.engine.JRGroup[]* [protected] groups
+net.sf.jasperreports.engine.base.JRBaseDatasetRun: *net.sf.jasperreports.engine.JRDatasetParameter[]* [protected] parameters
+net.sf.jasperreports.engine.base.JRBaseElement: *net.sf.jasperreports.engine.JRPropertyExpression[]* [private] propertyExpressions
+net.sf.jasperreports.engine.base.JRBaseExpression: *net.sf.jasperreports.engine.JRExpressionChunk[]* [private] chunks
+net.sf.jasperreports.engine.base.JRBaseHyperlink: *net.sf.jasperreports.engine.JRHyperlinkParameter[]* [protected] hyperlinkParameters
+net.sf.jasperreports.engine.base.JRBaseImage: *net.sf.jasperreports.engine.JRHyperlinkParameter[]* [private] hyperlinkParameters
+net.sf.jasperreports.engine.base.JRBaseQuery: *net.sf.jasperreports.engine.JRQueryChunk[]* [private] chunks
+net.sf.jasperreports.engine.base.JRBaseQueryChunk: *java.lang.String[]* [protected] tokens [no-stores] [arraycopy]
+net.sf.jasperreports.engine.base.JRBaseReport: *net.sf.jasperreports.engine.JRReportTemplate[]* [protected] templates
+net.sf.jasperreports.engine.base.JRBaseReport: *net.sf.jasperreports.engine.JRReportFont[]* [protected] fonts
+net.sf.jasperreports.engine.base.JRBaseReport: *net.sf.jasperreports.engine.JRStyle[]* [protected] styles
+net.sf.jasperreports.engine.base.JRBaseReport: *net.sf.jasperreports.engine.JRDataset[]* [protected] datasets
+net.sf.jasperreports.engine.base.JRBaseStyle: *net.sf.jasperreports.engine.JRConditionalStyle[]* [protected] conditionalStyles
+net.sf.jasperreports.engine.base.JRBaseSubreport: *net.sf.jasperreports.engine.JRSubreportParameter[]* [protected] parameters
+net.sf.jasperreports.engine.base.JRBaseSubreport: *net.sf.jasperreports.engine.JRSubreportReturnValue[]* [protected] returnValues
+net.sf.jasperreports.engine.base.JRBaseTextField: *net.sf.jasperreports.engine.JRHyperlinkParameter[]* [private] hyperlinkParameters
+net.sf.jasperreports.engine.base.JRVirtualPrintPage: *net.sf.jasperreports.engine.base.JRVirtualPrintPage$IdentityDataProvider[]* [private] identityProviders [arraycopy]
+net.sf.jasperreports.engine.data.JRBeanArrayDataSource: *java.lang.Object[]* [private] data [no-stores]
+net.sf.jasperreports.engine.data.JRCsvDataSourceProvider: *java.lang.String[]* [private] columnNames [no-stores]
+net.sf.jasperreports.engine.data.JRMapArrayDataSource: *java.lang.Object[]* [private] records [no-stores]
+net.sf.jasperreports.engine.data.JRSortableDataSource: *java.lang.Object[]* [private] currentRecord
+net.sf.jasperreports.engine.design.JRClassGenerator: *net.sf.jasperreports.engine.JRVariable[]* [protected] variables [no-stores]
+net.sf.jasperreports.engine.design.JRDefaultCompilationSourceCode: *net.sf.jasperreports.engine.JRExpression[]* [private] [final] lineExpressions [no-stores]
+net.sf.jasperreports.engine.design.JRJdtCompiler$1: *net.sf.jasperreports.engine.design.JRCompilationUnit[]* [private] [final] val$units
+net.sf.jasperreports.engine.design.JRJdtCompiler$2: *net.sf.jasperreports.engine.design.JRCompilationUnit[]* [private] [final] val$units [no-stores]
+net.sf.jasperreports.engine.design.JRSourceCompileTask: *net.sf.jasperreports.engine.JRVariable[]* [private] variables [no-stores]
+net.sf.jasperreports.engine.export.ElementWrapper: *net.sf.jasperreports.engine.export.ElementWrapper[]* [private] wrappers [no-stores]
+net.sf.jasperreports.engine.export.JExcelApiExporter$BoxStyle: *jxl.format.BorderLineStyle[]* [protected] borderStyle [hashcode]
+net.sf.jasperreports.engine.export.JExcelApiExporter$BoxStyle: *jxl.format.Colour[]* [protected] borderColour [hashcode]
+net.sf.jasperreports.engine.export.JRGridLayout: *net.sf.jasperreports.engine.export.JRExporterGridCell[][]* [private] grid
+net.sf.jasperreports.engine.export.JRPrintServiceExporter: *java.lang.Boolean[]* [private] printStatus
+net.sf.jasperreports.engine.export.JRXlsAbstractExporter: *java.lang.String[]* [protected] sheetNames [no-stores]
+net.sf.jasperreports.engine.export.oasis.BorderStyle: *java.lang.String[]* [private] borderColor
+net.sf.jasperreports.engine.export.oasis.BorderStyle: *java.lang.String[]* [private] borderWidth
+net.sf.jasperreports.engine.export.oasis.BorderStyle: *java.lang.String[]* [private] borderStyle
+net.sf.jasperreports.engine.export.oasis.BorderStyle: *java.lang.String[]* [private] borderPadding
+net.sf.jasperreports.engine.export.xmlss.JRXmlssExporter: *java.lang.String[]* [protected] sheetNames
+net.sf.jasperreports.engine.export.xmlss.XmlssBorderStyle: *java.lang.String[]* [private] borderColor
+net.sf.jasperreports.engine.export.xmlss.XmlssBorderStyle: *java.lang.String[]* [private] borderWidth
+net.sf.jasperreports.engine.export.xmlss.XmlssBorderStyle: *java.lang.String[]* [private] borderStyle
+net.sf.jasperreports.engine.export.xmlss.XmlssBorderStyle: *java.lang.String[]* [private] borderPadding
+net.sf.jasperreports.engine.fill.JRBaseFiller: *net.sf.jasperreports.engine.fill.JRFillReportTemplate[]* [protected] reportTemplates
+net.sf.jasperreports.engine.fill.JRBaseFiller: *net.sf.jasperreports.engine.JRReportFont[]* [protected] fonts
+net.sf.jasperreports.engine.fill.JRBaseFiller: *net.sf.jasperreports.engine.JRStyle[]* [protected] styles
+net.sf.jasperreports.engine.fill.JRBaseFiller: *net.sf.jasperreports.engine.fill.JRFillGroup[]* [protected] groups
+net.sf.jasperreports.engine.fill.JRCalculator: *net.sf.jasperreports.engine.fill.JRFillVariable[]* [protected] variables [no-stores]
+net.sf.jasperreports.engine.fill.JRCalculator: *net.sf.jasperreports.engine.fill.JRFillGroup[]* [protected] groups [no-stores]
+net.sf.jasperreports.engine.fill.JRCalculator: *net.sf.jasperreports.engine.fill.JRFillElementDataset[]* [protected] datasets [no-stores]
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.JRFillCrosstabRowGroup[]* [protected] rowGroups
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.JRFillCrosstabColumnGroup[]* [protected] columnGroups
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.JRFillCrosstabMeasure[]* [protected] measures
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.engine.fill.JRFillVariable[]* [protected] variables
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.engine.fill.JRFillVariable[][][]* [protected] totalVariables
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.JRFillCrosstabParameter[]* [protected] parameters
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.JRFillCrosstabCell[][]* [protected] crossCells
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.calculation.HeaderCell[][]* [protected] columnHeadersData
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.calculation.HeaderCell[][]* [protected] rowHeadersData
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.calculation.CrosstabCell[][]* [protected] cellData
+net.sf.jasperreports.engine.fill.JRFillCrosstab: *net.sf.jasperreports.crosstabs.fill.calculation.MeasureDefinition$MeasureValue[]* [protected] grandTotals
+net.sf.jasperreports.engine.fill.JRFillCrosstab$CrosstabFiller: *net.sf.jasperreports.crosstabs.fill.calculation.HeaderCell[]* [private] spanHeaders
+net.sf.jasperreports.engine.fill.JRFillCrosstab$JRFillCrosstabDataset: *java.lang.Object[]* [private] bucketValues
+net.sf.jasperreports.engine.fill.JRFillCrosstab$JRFillCrosstabDataset: *java.lang.Object[]* [private] measureValues
+net.sf.jasperreports.engine.fill.JRFillDataset: *net.sf.jasperreports.engine.fill.JRFillParameter[]* [protected] parameters
+net.sf.jasperreports.engine.fill.JRFillDataset: *net.sf.jasperreports.engine.fill.JRFillField[]* [protected] fields
+net.sf.jasperreports.engine.fill.JRFillDataset: *net.sf.jasperreports.engine.fill.JRFillVariable[]* [protected] variables
+net.sf.jasperreports.engine.fill.JRFillDataset: *net.sf.jasperreports.engine.fill.JRFillElementDataset[]* [protected] elementDatasets
+net.sf.jasperreports.engine.fill.JRFillDataset: *net.sf.jasperreports.engine.fill.JRFillElementDataset[]* [protected] origElementDatasets
+net.sf.jasperreports.engine.fill.JRFillDataset: *net.sf.jasperreports.engine.fill.JRFillGroup[]* [protected] groups
+net.sf.jasperreports.engine.fill.JRFillDatasetRun: *net.sf.jasperreports.engine.JRDatasetParameter[]* [protected] parameters [no-stores]
+net.sf.jasperreports.engine.fill.JRFillElementContainer: *net.sf.jasperreports.engine.fill.JRFillElement[]* [private] ySortedElements [no-stores]
+net.sf.jasperreports.engine.fill.JRFillElementContainer: *net.sf.jasperreports.engine.fill.JRFillElement[]* [private] stretchElements [no-stores]
+net.sf.jasperreports.engine.fill.JRFillElementContainer: *net.sf.jasperreports.engine.fill.JRFillElement[]* [private] bandBottomElements [no-stores]
+net.sf.jasperreports.engine.fill.JRFillElementContainer: *net.sf.jasperreports.engine.fill.JRFillElement[]* [private] removableElements [no-stores]
+net.sf.jasperreports.engine.fill.JRFillElementContainer: *net.sf.jasperreports.engine.fill.JRFillElement[]* [protected] deepElements [no-stores]
+net.sf.jasperreports.engine.fill.JRFillElementGroup: *net.sf.jasperreports.engine.fill.JRFillElement[]* [protected] elements [no-stores]
+net.sf.jasperreports.engine.fill.JRFillGenericElement: *net.sf.jasperreports.engine.JRGenericElementParameter[]* [private] parameters [no-stores]
+net.sf.jasperreports.engine.fill.JRFillSubreport: *net.sf.jasperreports.engine.JRSubreportParameter[]* [private] parameters [no-stores]
+net.sf.jasperreports.engine.fill.JRFillSubreport: *net.sf.jasperreports.engine.fill.JRFillSubreportReturnValue[]* [private] returnValues [no-stores]
+net.sf.jasperreports.engine.fill.JRFillVariable: *net.sf.jasperreports.engine.fill.JRFillVariable[]* [private] helperVariables
+net.sf.jasperreports.engine.JRAbstractScriptlet: *net.sf.jasperreports.engine.fill.JRFillGroup[]* [protected] groups [no-stores]
+net.sf.jasperreports.engine.query.JRClauseTokens: *java.lang.String[]* [private] [final] tokens [no-stores]
+net.sf.jasperreports.olap.JROlapDataSource: *net.sf.jasperreports.olap.result.JROlapResultAxis[]* [protected] axes
+net.sf.jasperreports.olap.JROlapDataSource: *net.sf.jasperreports.olap.result.JROlapHierarchy[][]* [protected] [final] queryHierarchies
+net.sf.jasperreports.olap.JROlapDataSource$DataFieldMatcher: *net.sf.jasperreports.olap.mapping.Member[]* [private] [final] members [no-stores]
+net.sf.jasperreports.olap.mondrian.JRMondrianAxis: *net.sf.jasperreports.olap.mondrian.JRMondrianTuple[]* [private] [final] tuples
+net.sf.jasperreports.olap.mondrian.JRMondrianAxis: *net.sf.jasperreports.olap.mondrian.JRMondrianHierarchy[]* [private] [final] hierarchies
+net.sf.jasperreports.olap.mondrian.JRMondrianHierarchy: *net.sf.jasperreports.olap.mondrian.JRMondrianLevel[]* [private] [final] levels
+net.sf.jasperreports.olap.mondrian.JRMondrianResult: *net.sf.jasperreports.olap.mondrian.JRMondrianAxis[]* [private] [final] axes
+net.sf.jasperreports.olap.mondrian.JRMondrianTuple: *net.sf.jasperreports.olap.mondrian.JRMondrianMember[]* [private] [final] members
+net.sf.jasperreports.olap.xmla.JRXmlaHierarchy: *net.sf.jasperreports.olap.xmla.JRXmlaHierarchyLevel[]* [private] levelArray [no-stores]
+net.sf.jasperreports.olap.xmla.JRXmlaMemberTuple: *net.sf.jasperreports.olap.xmla.JRXmlaMember[]* [private] [final] members
+net.sf.jasperreports.olap.xmla.JRXmlaResult: *net.sf.jasperreports.olap.xmla.JRXmlaResultAxis[]* [private] axes [no-stores]
+net.sf.jasperreports.olap.xmla.JRXmlaResultAxis: *net.sf.jasperreports.olap.xmla.JRXmlaHierarchy[]* [private] hierarchies [no-stores]
+
+N-CYCLES
+========
+[net/sf/jasperreports/crosstabs/design/JRCrosstabOrigin, net/sf/jasperreports/crosstabs/design/JRDesignCellContents, net/sf/jasperreports/crosstabs/design/JRDesignCrosstab]
+[net/sf/jasperreports/engine/JasperPrint$DefaultStyleProvider, net/sf/jasperreports/engine/JasperPrint, net/sf/jasperreports/engine/fill/JRFillContext, net/sf/jasperreports/engine/fill/JRFillDataset, net/sf/jasperreports/engine/fill/JRFillSubreport, net/sf/jasperreports/engine/fill/JRBaseFiller, net/sf/jasperreports/engine/fill/JRFillObjectFactory]
+[net/sf/jasperreports/engine/fill/JRFillElementGroup, net/sf/jasperreports/engine/fill/JRFillElement, net/sf/jasperreports/engine/fill/JRFillElementContainer]
+[net/sf/jasperreports/engine/fill/JRFillDatasetRun, net/sf/jasperreports/engine/fill/JRFillElementDataset]
+[net/sf/jasperreports/crosstabs/fill/calculation/BucketDefinition, net/sf/jasperreports/crosstabs/fill/calculation/BucketDefinition$Bucket]
+[net/sf/jasperreports/crosstabs/fill/calculation/BucketingService$BucketMap, net/sf/jasperreports/crosstabs/fill/calculation/BucketingService]
+[net/sf/jasperreports/engine/fill/JRFillCrosstab$CrosstabFiller, net/sf/jasperreports/engine/fill/JRFillCrosstab, net/sf/jasperreports/engine/fill/JRFillCrosstab$JRFillCrosstabDataset]
+[net/sf/jasperreports/engine/fill/JRFillFrame$JRFillFrameElements, net/sf/jasperreports/engine/fill/JRFillFrame]
+[net/sf/jasperreports/engine/xml/XmlWriterVisitor, net/sf/jasperreports/engine/xml/JRXmlWriter]
+[net/sf/jasperreports/engine/convert/ReportConverter$StyleFactory, net/sf/jasperreports/engine/convert/ReportConverter]
+[net/sf/jasperreports/engine/export/draw/TextDrawer, net/sf/jasperreports/engine/export/draw/FrameDrawer, net/sf/jasperreports/engine/export/JRGraphics2DExporter]
+[net/sf/jasperreports/view/JRViewer$PageRenderer, net/sf/jasperreports/view/JRViewer]
+[net/sf/jasperreports/engine/export/JRPdfExporterTagHelper, net/sf/jasperreports/engine/export/JRPdfExporter]
+[net/sf/jasperreports/engine/fill/JRAbstractLRUVirtualizer$Cache$LRUScanMap, net/sf/jasperreports/engine/fill/JRAbstractLRUVirtualizer$Cache, net/sf/jasperreports/engine/fill/JRAbstractLRUVirtualizer]
+[net/sf/jasperreports/swing/JRViewerPanel$PageRenderer, net/sf/jasperreports/swing/JRViewerPanel]

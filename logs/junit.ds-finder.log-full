@@ -1,0 +1,46 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+junit.awtui.TestRunner: *java.util.Vector* [protected] fExceptions
+junit.awtui.TestRunner: *java.util.Vector* [protected] fFailedTests
+junit.framework.JUnit4TestAdapter: *junit.framework.JUnit4TestAdapterCache* [private] fCache
+junit.framework.JUnit4TestAdapterCache$1: *junit.framework.JUnit4TestAdapterCache* [final] this$0
+junit.runner.TestCaseClassLoader: *java.util.Vector* [private] fPathItems
+junit.runner.TestCaseClassLoader: *java.util.Vector* [private] fExcluded
+junit.swingui.DefaultFailureDetailView$StackTraceListModel: *java.util.Vector* [private] fLines
+junit.swingui.TestRunner: *java.util.Vector* [private] fTestRunViews
+junit.swingui.TestSelector$ParallelSwapper: *java.util.Vector* fOther
+junit.swingui.TestTreeModel: *java.util.Vector* [private] fModelListeners
+junit.swingui.TestTreeModel: *java.util.Hashtable* [private] fFailures
+junit.swingui.TestTreeModel: *java.util.Hashtable* [private] fErrors
+junit.swingui.TestTreeModel: *java.util.Hashtable* [private] fRunTests
+
+ARRAYS REPORT
+=============
+
+junit.runner.TestCaseClassLoader: *java.lang.String[]* [private] defaultExclusions
+
+N-CYCLES
+========

@@ -1,0 +1,119 @@
+DSFinder has run for 0 min. 2 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.objectweb.asm.tree.FieldNode: *java.lang.Object* [public] value
+
+Linked List-like Data Structures:
+org.objectweb.asm.commons.JSRInlinerAdapter$Instantiation: [final] previous
+org.objectweb.asm.tree.AbstractInsnNode: next/prev
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.objectweb.asm.AnnotationWriter: g
+org.objectweb.asm.AnnotationWriter: h
+org.objectweb.asm.Attribute: a
+org.objectweb.asm.Edge: c
+org.objectweb.asm.FieldWriter: a
+org.objectweb.asm.Handler: f
+org.objectweb.asm.Item: k
+org.objectweb.asm.Label: i
+org.objectweb.asm.Label: k
+org.objectweb.asm.MethodWriter: a
+Non-Object Fields:
+org.objectweb.asm.xml.Processor$ProtectedInputStream: *java.io.InputStream* [private] [final] is
+java.lang.Object Fields:
+org.objectweb.asm.Label: *java.lang.Object* [public] info
+org.objectweb.asm.tree.analysis.SmallSet: *java.lang.Object* e1
+org.objectweb.asm.tree.analysis.SmallSet: *java.lang.Object* e2
+org.objectweb.asm.tree.LdcInsnNode: *java.lang.Object* [public] cst
+org.objectweb.asm.tree.MethodNode: *java.lang.Object* [public] annotationDefault
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.objectweb.asm.commons.AdviceAdapter: *java.util.List* [private] stackFrame
+org.objectweb.asm.commons.AdviceAdapter: *java.util.Map* [private] branches
+org.objectweb.asm.commons.AnalyzerAdapter: *java.util.List* [public] locals
+org.objectweb.asm.commons.AnalyzerAdapter: *java.util.List* [public] stack
+org.objectweb.asm.commons.AnalyzerAdapter: *java.util.List* [private] labels
+org.objectweb.asm.commons.AnalyzerAdapter: *java.util.Map* [private] [final] uninitializedTypes
+org.objectweb.asm.commons.GeneratorAdapter: *java.util.List* [private] [final] localTypes
+org.objectweb.asm.commons.JSRInlinerAdapter: *java.util.Map* [private] [final] subroutineHeads
+org.objectweb.asm.commons.JSRInlinerAdapter$Instantiation: [final] previous
+org.objectweb.asm.commons.JSRInlinerAdapter$Instantiation: *java.util.Map* [public] [final] rangeTable
+org.objectweb.asm.commons.SerialVersionUIDAdder: *java.util.Collection* [protected] svuidFields
+org.objectweb.asm.commons.SerialVersionUIDAdder: *java.util.Collection* [protected] svuidConstructors
+org.objectweb.asm.commons.SerialVersionUIDAdder: *java.util.Collection* [protected] svuidMethods
+org.objectweb.asm.commons.SimpleRemapper: *java.util.Map* [private] [final] mapping
+org.objectweb.asm.optimizer.AnnotationConstantsCollector: *org.objectweb.asm.optimizer.ConstantPool* [private] [final] cp
+org.objectweb.asm.optimizer.ClassConstantsCollector: *org.objectweb.asm.optimizer.ConstantPool* [private] [final] cp
+org.objectweb.asm.optimizer.FieldConstantsCollector: *org.objectweb.asm.optimizer.ConstantPool* [private] [final] cp
+org.objectweb.asm.optimizer.MethodConstantsCollector: *org.objectweb.asm.optimizer.ConstantPool* [private] [final] cp
+org.objectweb.asm.optimizer.NameMapping: *java.util.Set* [public] [final] unused
+org.objectweb.asm.optimizer.Shrinker$1: *java.util.Set* [private] [final] val$unused
+org.objectweb.asm.tree.analysis.SimpleVerifier: *java.util.List* [private] [final] currentClassInterfaces
+org.objectweb.asm.tree.analysis.SourceValue: *java.util.Set* [public] [final] insns
+org.objectweb.asm.tree.analysis.Subroutine: *java.util.List* callers
+org.objectweb.asm.tree.AnnotationNode: *java.util.List* [public] values
+org.objectweb.asm.tree.ClassNode: *java.util.List* [public] interfaces
+org.objectweb.asm.tree.ClassNode: *java.util.List* [public] innerClasses
+org.objectweb.asm.tree.ClassNode: *java.util.List* [public] fields
+org.objectweb.asm.tree.ClassNode: *java.util.List* [public] methods
+org.objectweb.asm.tree.FrameNode: *java.util.List* [public] local
+org.objectweb.asm.tree.FrameNode: *java.util.List* [public] stack
+org.objectweb.asm.tree.LookupSwitchInsnNode: *java.util.List* [public] keys
+org.objectweb.asm.tree.LookupSwitchInsnNode: *java.util.List* [public] labels
+org.objectweb.asm.tree.MemberNode: *java.util.List* [public] visibleAnnotations
+org.objectweb.asm.tree.MemberNode: *java.util.List* [public] invisibleAnnotations
+org.objectweb.asm.tree.MemberNode: *java.util.List* [public] attrs
+org.objectweb.asm.tree.MethodNode: *java.util.List* [public] exceptions
+org.objectweb.asm.tree.MethodNode: *java.util.List* [public] tryCatchBlocks
+org.objectweb.asm.tree.MethodNode: *java.util.List* [public] localVariables
+org.objectweb.asm.tree.TableSwitchInsnNode: *java.util.List* [public] labels
+org.objectweb.asm.util.AbstractVisitor: *java.util.List* [public] [final] text
+org.objectweb.asm.util.ASMifierAbstractVisitor: *java.util.Map* labelNames
+org.objectweb.asm.util.CheckClassAdapter: *java.util.Map* [private] labels
+org.objectweb.asm.util.CheckMethodAdapter: *java.util.Map* [private] [final] labels
+org.objectweb.asm.util.TraceMethodVisitor: *java.util.Map* [protected] [final] labelNames
+org.objectweb.asm.xml.ASMContentHandler: *java.util.List* [private] [final] stack
+org.objectweb.asm.xml.ASMContentHandler: *java.util.Map* [protected] labels
+org.objectweb.asm.xml.ASMContentHandler$RuleSet: *java.util.Map* [private] [final] rules
+org.objectweb.asm.xml.ASMContentHandler$RuleSet: *java.util.List* [private] [final] lpatterns
+org.objectweb.asm.xml.ASMContentHandler$RuleSet: *java.util.List* [private] [final] rpatterns
+org.objectweb.asm.xml.SAXCodeAdapter: *java.util.Map* [private] [final] labelNames
+
+ARRAYS REPORT
+=============
+
+org.objectweb.asm.ClassReader: *java.lang.String[]* [private] [final] c [mod] [arraycopy]
+org.objectweb.asm.ClassWriter: *org.objectweb.asm.Item[]* e [mod] [arraycopy] [hashcode]
+org.objectweb.asm.ClassWriter: *org.objectweb.asm.Item[]* E [mod] [arraycopy] [hashcode]
+org.objectweb.asm.commons.GeneratorAdapter: *org.objectweb.asm.Type[]* [private] [final] argumentTypes
+org.objectweb.asm.commons.LocalVariablesSorter: *java.lang.Object[]* [private] newLocals [arraycopy]
+org.objectweb.asm.commons.SerialVersionUIDAdder: *java.lang.String[]* [protected] interfaces [no-stores]
+org.objectweb.asm.MethodWriter: *org.objectweb.asm.AnnotationWriter[]* [private] o [mod] [arraycopy]
+org.objectweb.asm.MethodWriter: *org.objectweb.asm.AnnotationWriter[]* [private] p [mod] [arraycopy]
+org.objectweb.asm.tree.analysis.Analyzer: *java.util.List[]* [private] handlers
+org.objectweb.asm.tree.analysis.Analyzer: *org.objectweb.asm.tree.analysis.Frame[]* [private] frames
+org.objectweb.asm.tree.analysis.Analyzer: *org.objectweb.asm.tree.analysis.Subroutine[]* [private] subroutines
+org.objectweb.asm.tree.analysis.Frame: *org.objectweb.asm.tree.analysis.Value[]* [private] values [arraycopy]
+org.objectweb.asm.tree.InsnList: *org.objectweb.asm.tree.AbstractInsnNode[]* [private] cache
+org.objectweb.asm.tree.MethodNode: *java.util.List[]* [public] visibleParameterAnnotations
+org.objectweb.asm.tree.MethodNode: *java.util.List[]* [public] invisibleParameterAnnotations
+
+N-CYCLES
+========
+[org/objectweb/asm/Edge, org/objectweb/asm/Frame, org/objectweb/asm/Label]
+[org/objectweb/asm/FieldWriter, org/objectweb/asm/AnnotationWriter, org/objectweb/asm/ClassWriter, org/objectweb/asm/MethodWriter]
+[org/objectweb/asm/tree/InsnList, org/objectweb/asm/tree/InsnList$InsnListIterator]

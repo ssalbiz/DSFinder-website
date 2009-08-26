@@ -1,0 +1,324 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+artofillusion.image.MovieEncoder$ImageSourceStream: *java.lang.Object* waitLock
+artofillusion.Property: *java.lang.Object* [private] defaultValue
+
+Linked List-like Data Structures:
+artofillusion.procedural.ProcedureEditor: *java.lang.Object* [private] preview
+artofillusion.procedural.SpectrumModule$EditingDialog: *buoy.widget.Widget* preview
+artofillusion.TriMeshSimplifier$Zone: next
+artofillusion.ui.ThemeManager$ButtonStyle: [protected] next
+artofillusion.util.IconGenerator$Instruction: next
+
+Parent- and outer-type Data Structures:
+artofillusion.animation.FilterParameterTrack: *java.lang.Object* [private] parent
+artofillusion.animation.Joint: [public] parent
+artofillusion.animation.WeightTrack: *artofillusion.animation.Track* parent
+artofillusion.object.ObjectInfo: [public] parent
+artofillusion.ui.TreeElement: [protected] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+artofillusion.MaterialMappingDialog: *buoy.widget.Widget* [private] editingPanel
+artofillusion.object.ObjectWrapper: *artofillusion.object.Object3D* [protected] theObject
+artofillusion.ObjectPropertiesPanel: *buoy.widget.Widget* [private] lastEventSource
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* transPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* specPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* shinPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* roughPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* cloudPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* bumpPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* displacePanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* diffColorPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* specColorPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* transColorPanel
+artofillusion.texture.ImageMapTexture$Editor: *buoy.widget.Widget* emissColorPanel
+artofillusion.TextureMappingDialog: *buoy.widget.Widget* [private] editingPanel
+artofillusion.ui.ColorChooser: *buoy.widget.Widget* [private] oldColorPatch
+artofillusion.ui.ColorChooser: *buoy.widget.Widget* [private] newColorPatch
+artofillusion.ui.Spacer: *buoy.widget.Widget* [private] vertical
+artofillusion.ui.Spacer: *buoy.widget.Widget* [private] horizontal
+java.lang.Object Fields:
+artofillusion.image.MovieEncoder: *java.lang.Object* waitSync
+artofillusion.image.MovieEncoder: *java.lang.Object* waitFileSync
+artofillusion.PluginRegistry$ExportInfo: *java.lang.Object* plugin
+artofillusion.TextureParameter: *java.lang.Object* [public] [final] owner
+artofillusion.ui.GenericTreeElement: *java.lang.Object* obj
+artofillusion.ui.ThemeManager$ThemeInfo: *java.lang.Object* [public] [final] buttonProperties
+artofillusion.ui.ToolButton: *java.lang.Object* [protected] owner
+artofillusion.util.ThreadManager: *java.lang.Object* [private] controller
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+artofillusion.ui.TreeElement: *java.util.Vector* [protected] children [Ljava/util/Vector<Lartofillusion/ui/TreeElement;>;]
+==
+artofillusion.animation.IKTrack: *java.util.Vector* [private] constraints
+artofillusion.animation.IKTrack$Editor: *java.util.Vector* tempConstraints
+artofillusion.animation.PathFromCurveDialog: *java.util.Vector* [private] objects
+artofillusion.animation.PathFromCurveDialog: *java.util.Vector* [private] curves
+artofillusion.animation.Score: *java.util.Vector* graphs
+artofillusion.animation.TimeAxis: *java.util.Vector* markers
+artofillusion.ApplicationPreferences: *java.util.Properties* [private] properties
+artofillusion.CameraFilterDialog: *java.util.Vector* [private] filters
+artofillusion.CameraFilterDialog: *java.util.Map* [private] savedConfiguration
+artofillusion.CameraFilterDialog$3: *java.util.List* [final] val$renderers
+artofillusion.image.MovieEncoder$ImageSourceStream: *java.util.Vector* cache
+artofillusion.keystroke.KeystrokePreferencesPanel: *java.util.ArrayList* [private] records
+artofillusion.MaterialMappingDialog: *java.util.Vector* [private] mappings
+artofillusion.MaterialsDialog$1: *java.util.Vector* [final] val$baseVec
+artofillusion.MaterialsDialog$1: *java.util.Vector* [final] val$importVec
+artofillusion.MaterialsDialog$2: *java.util.Vector* [final] val$baseVec
+artofillusion.MaterialsDialog$2: *java.util.Vector* [final] val$importVec
+artofillusion.MaterialsDialog$3: *java.util.Vector* [final] val$importVec
+artofillusion.MaterialsDialog$3: *java.util.Vector* [final] val$baseVec
+artofillusion.object.CSGModeller$1: *java.util.Vector* [final] val$f2
+artofillusion.object.ObjectCollection: *java.util.Vector* [protected] cachedObjects
+artofillusion.procedural.ExprModule: *java.util.Hashtable* varTable
+artofillusion.procedural.ExprModule: *java.util.Vector* moduleVec
+artofillusion.procedural.ExprModule: *java.util.Vector* errors
+artofillusion.Scene: *java.util.HashMap* [private] metadataMap [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+artofillusion.TextureMappingDialog: *java.util.Vector* [private] mappings
+artofillusion.TexturesDialog$1: *java.util.Vector* [final] val$baseVec
+artofillusion.TexturesDialog$1: *java.util.Vector* [final] val$importVec
+artofillusion.TexturesDialog$2: *java.util.Vector* [final] val$baseVec
+artofillusion.TexturesDialog$2: *java.util.Vector* [final] val$importVec
+artofillusion.TexturesDialog$3: *java.util.Vector* [final] val$importVec
+artofillusion.TexturesDialog$3: *java.util.Vector* [final] val$baseVec
+artofillusion.TriMeshBeveler: *java.util.Vector* [private] newIndex
+artofillusion.UndoStack: *java.util.LinkedList* [private] undoList
+artofillusion.UndoStack: *java.util.LinkedList* [private] redoList
+artofillusion.util.SearchlistClassLoader: *java.util.Vector* [protected] list
+artofillusion.util.SearchlistClassLoader: *java.util.Vector* [protected] search
+artofillusion.util.SearchlistClassLoader: *java.util.Hashtable* [protected] cache
+artofillusion.ViewerCanvas: *java.util.Map* [protected] controlMap [Ljava/util/Map<Lartofillusion/view/ViewerControl;Lbuoy/widget/Widget;>;]
+
+ARRAYS REPORT
+=============
+
+artofillusion.animation.Actor: *artofillusion.animation.Gesture[]* gesture [arraycopy]
+artofillusion.animation.Actor: *java.lang.String[]* gestureName [arraycopy]
+artofillusion.animation.distortion.CustomDistortionTrack: *artofillusion.TextureParameter[]* parameter [arraycopy]
+artofillusion.animation.distortion.IKDistortion: *artofillusion.math.Vec3[]* [private] target
+artofillusion.animation.distortion.SkeletonShapeEditorWindow: *buoy.widget.BMenuItem[]* [private] skeletonMenuItem
+artofillusion.animation.IKSolver: *artofillusion.animation.Joint[]* [private] joint
+artofillusion.animation.IKSolver: *artofillusion.math.Vec3[]* [private] originalPos
+artofillusion.animation.IKTrack$Editor: *artofillusion.animation.ObjectRef[]* tempTarget
+artofillusion.animation.Joint: *artofillusion.animation.Joint[]* [public] children [no-stores]
+artofillusion.animation.PathFromCurveDialog: *artofillusion.math.Vec3[]* [private] subdiv [mod]
+artofillusion.animation.PoseTrack: *artofillusion.animation.Track[]* [private] subtracks [arraycopy]
+artofillusion.animation.PoseTrack: *java.lang.String[]* [private] valueName [arraycopy]
+artofillusion.animation.ProceduralPositionTrack: *artofillusion.TextureParameter[]* parameter [arraycopy]
+artofillusion.animation.ProceduralRotationTrack: *artofillusion.TextureParameter[]* parameter [arraycopy]
+artofillusion.animation.Score: *buoy.widget.BMenuItem[]* popupMenuItem
+artofillusion.animation.Score: *artofillusion.animation.SelectionInfo[]* selection
+artofillusion.animation.Score: *java.lang.String[]* [private] [final] MODE_HELP_TEXT
+artofillusion.animation.Skeleton: *artofillusion.animation.Joint[]* [private] joint [arraycopy]
+artofillusion.animation.SkeletonTool: *artofillusion.math.Vec3[]* [private] handlePos
+artofillusion.animation.TextureTrack: *artofillusion.TextureParameter[]* param [arraycopy]
+artofillusion.animation.Timecourse: *artofillusion.animation.Smoothness[]* [private] smoothness
+artofillusion.animation.Timecourse: *artofillusion.animation.Keyframe[]* [private] value
+artofillusion.animation.TrackGraph: *artofillusion.animation.TrackGraph$TrackInfo[]* [private] tracks [mod]
+artofillusion.animation.TrackGraph$TrackInfo: *java.lang.String[]* valueName
+artofillusion.CameraFilterDialog: *artofillusion.image.filter.ImageFilter[]* [private] oldFilters
+artofillusion.CameraFilterDialog: *java.lang.Class[]* [private] filterClasses
+artofillusion.CreatePolygonTool: *artofillusion.math.Vec2[]* [private] points
+artofillusion.CSGEditorWindow: *buoy.widget.BMenuItem[]* [private] objectMenuItem
+artofillusion.CSGEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [private] displayItem
+artofillusion.CurveEditorWindow: *buoy.widget.BMenuItem[]* [protected] editMenuItem [mod]
+artofillusion.CurveEditorWindow: *buoy.widget.BMenuItem[]* [protected] meshMenuItem [mod]
+artofillusion.CurveEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [protected] smoothItem [mod]
+artofillusion.CurveEditorWindow$1: *artofillusion.object.MeshVertex[]* [final] val$vt [no-stores]
+artofillusion.image.ImagesDialog: *buoy.widget.BButton[]* [private] b
+artofillusion.image.MovieEncoder$ImageDataSource: *artofillusion.image.MovieEncoder$ImageSourceStream[]* [protected] streams
+artofillusion.LayoutWindow: *artofillusion.SceneViewer[]* theView
+artofillusion.LayoutWindow: *buoy.widget.BorderContainer[]* viewPanel
+artofillusion.LayoutWindow: *buoyx.docking.DockingContainer[]* [private] dock
+artofillusion.LayoutWindow: *buoy.widget.BMenuItem[]* fileMenuItem
+artofillusion.LayoutWindow: *buoy.widget.BMenuItem[]* editMenuItem
+artofillusion.LayoutWindow: *buoy.widget.BMenuItem[]* objectMenuItem
+artofillusion.LayoutWindow: *buoy.widget.BMenuItem[]* toolsMenuItem
+artofillusion.LayoutWindow: *buoy.widget.BMenuItem[]* animationMenuItem
+artofillusion.LayoutWindow: *buoy.widget.BMenuItem[]* sceneMenuItem
+artofillusion.LayoutWindow: *buoy.widget.BMenuItem[]* popupMenuItem
+artofillusion.LayoutWindow: *buoy.widget.BCheckBoxMenuItem[]* displayItem
+artofillusion.MaterialPreviewer: *artofillusion.object.Object3D[]* [private] shape
+artofillusion.MaterialsDialog: *buoy.widget.BButton[]* [private] b
+artofillusion.MeshEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [protected] displayItem [mod]
+artofillusion.MeshEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [protected] coordsItem [mod]
+artofillusion.MeshEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [protected] showItem [mod]
+artofillusion.MeshEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [protected] colorSurfaceItem [mod]
+artofillusion.MeshEditorWindow$1: *artofillusion.math.Vec3[]* [final] val$points
+artofillusion.MeshEditorWindow$1: *artofillusion.object.MeshVertex[]* [final] val$vert
+artofillusion.MeshEditorWindow$1ResetButton: *artofillusion.texture.ParameterValue[]* [final] val$paramValue
+artofillusion.MeshEditorWindow$1ResetButton: *artofillusion.object.MeshVertex[]* [final] val$vert
+artofillusion.MoveObjectTool: *artofillusion.math.Vec3[]* objectPos
+artofillusion.MoveScaleRotateMeshTool: *artofillusion.math.Vec3[]* [private] baseVertPos
+artofillusion.object.Curve: *artofillusion.object.MeshVertex[]* [protected] vertex [mod]
+artofillusion.object.Curve$CurveKeyframe: *artofillusion.math.Vec3[]* vertPos
+artofillusion.object.Object3D: *artofillusion.TextureParameter[]* [protected] texParam
+artofillusion.object.Object3D: *artofillusion.texture.ParameterValue[]* [protected] paramValue
+artofillusion.object.ObjectInfo: *artofillusion.object.ObjectInfo[]* [public] children
+artofillusion.object.ObjectInfo: *artofillusion.animation.Track[]* [public] tracks
+artofillusion.object.ProceduralDirectionalLight: *artofillusion.TextureParameter[]* [private] parameters
+artofillusion.object.ProceduralPointLight: *artofillusion.TextureParameter[]* [private] parameters
+artofillusion.object.SceneCamera: *artofillusion.image.filter.ImageFilter[]* [private] filter [mod]
+artofillusion.object.SceneCamera$1: *artofillusion.image.ComplexImage[]* [final] val$theImage
+artofillusion.object.SplineMesh: *artofillusion.object.MeshVertex[]* vertex [mod] [arraycopy]
+artofillusion.object.SplineMesh$SplineMeshKeyframe: *artofillusion.math.Vec3[]* vertPos [arraycopy]
+artofillusion.object.SplineMesh$SplineMeshKeyframe: *artofillusion.texture.ParameterValue[]* paramValue [arraycopy]
+artofillusion.object.TriangleMesh: *artofillusion.object.TriangleMesh$Vertex[]* [private] vertex [mod]
+artofillusion.object.TriangleMesh: *artofillusion.object.TriangleMesh$Edge[]* [private] edge [mod]
+artofillusion.object.TriangleMesh: *artofillusion.object.TriangleMesh$Face[]* [private] face [mod]
+artofillusion.object.TriangleMesh$TriangleMeshKeyframe: *artofillusion.math.Vec3[]* vertPos
+artofillusion.object.TriangleMesh$TriangleMeshKeyframe: *artofillusion.texture.ParameterValue[]* paramValue
+artofillusion.object.Tube$TubeKeyframe: *artofillusion.math.Vec3[]* vertPos
+artofillusion.ObjectEditorWindow: *artofillusion.ViewerCanvas[]* [protected] theView
+artofillusion.ObjectEditorWindow: *buoy.widget.BorderContainer[]* [protected] viewPanel
+artofillusion.ObjectMaterialDialog: *artofillusion.object.ObjectInfo[]* obj
+artofillusion.ObjectPropertiesPanel: *buoy.widget.Widget[]* [private] propSelector
+artofillusion.ObjectPropertiesPanel: *artofillusion.object.ObjectInfo[]* [private] objects
+artofillusion.ObjectPropertiesPanel: *artofillusion.Property[]* [private] properties
+artofillusion.ObjectPropertiesPanel: *artofillusion.object.Object3D[]* [private] previousObjects
+artofillusion.ObjectTextureDialog: *artofillusion.object.ObjectInfo[]* [private] obj
+artofillusion.ObjectTextureDialog: *buoy.widget.BComboBox[]* [private] paramTypeChoice
+artofillusion.ObjectTextureDialog: *artofillusion.ui.ValueSelector[]* [private] paramValueWidget
+artofillusion.ObjectTextureDialog$2: *artofillusion.texture.ParameterValue[]* [final] val$paramValue [no-stores]
+artofillusion.ObjectTextureDialog$2: *artofillusion.TextureParameter[]* [final] val$texParam [no-stores]
+artofillusion.procedural.CellsModule: *artofillusion.math.Vec3[]* [private] gradient
+artofillusion.procedural.CellsModule: *artofillusion.math.Vec3[]* [private] gradient1
+artofillusion.procedural.ExprModule: *artofillusion.procedural.Module[]* inputs
+artofillusion.procedural.ExprModule: *artofillusion.procedural.Module[]* myModules
+artofillusion.procedural.ExprModule: *artofillusion.procedural.Token[]* tokens
+artofillusion.procedural.FunctionModule$EditingDialog: *java.awt.Point[]* handlePos
+artofillusion.procedural.ImageModule: *artofillusion.math.Vec3[]* [private] gradient
+artofillusion.procedural.InfoBox: *java.lang.String[]* text [no-stores]
+artofillusion.procedural.IOPort: *java.lang.String[]* description [no-stores]
+artofillusion.procedural.Module: *artofillusion.procedural.IOPort[]* [protected] input
+artofillusion.procedural.Module: *artofillusion.procedural.IOPort[]* [protected] output
+artofillusion.procedural.Module: *artofillusion.procedural.Module[]* [public] linkFrom
+artofillusion.procedural.OPort: *artofillusion.procedural.Arg[]* [public] args
+artofillusion.procedural.PolarModule: *artofillusion.math.Vec3[]* gradient
+artofillusion.procedural.Procedure: *artofillusion.procedural.OutputModule[]* output
+artofillusion.procedural.Procedure: *artofillusion.procedural.Module[]* module
+artofillusion.procedural.Procedure: *artofillusion.procedural.Link[]* link
+artofillusion.procedural.ProcedureEditor$ClipboardSelection: *artofillusion.procedural.Module[]* module
+artofillusion.procedural.ProcedureEditor$ClipboardSelection: *artofillusion.procedural.Link[]* link
+artofillusion.procedural.SpectrumModule: *artofillusion.math.RGBColor[]* color
+artofillusion.procedural.SpectrumModule$EditingDialog: *java.awt.Point[]* handlePos
+artofillusion.procedural.SphericalModule: *artofillusion.math.Vec3[]* gradient
+artofillusion.Property: *java.lang.Object[]* [private] allowedValues [no-stores] [hashcode]
+artofillusion.RenderingMesh: *artofillusion.math.Vec3[]* [public] vert
+artofillusion.RenderingMesh: *artofillusion.math.Vec3[]* [public] norm
+artofillusion.RenderingMesh: *artofillusion.math.Vec3[]* [public] faceNorm
+artofillusion.RenderingMesh: *artofillusion.texture.ParameterValue[]* [public] param
+artofillusion.RenderingMesh: *artofillusion.RenderingTriangle[]* [public] triangle
+artofillusion.RenderSetupDialog: *artofillusion.object.ObjectInfo[]* [private] cameras
+artofillusion.ReshapeMeshTool: *artofillusion.math.Vec3[]* [private] baseVertPos
+artofillusion.RotateMeshTool: *artofillusion.math.Vec3[]* [private] baseVertPos
+artofillusion.RotateObjectTool: *artofillusion.math.Vec3[]* rotationCenter
+artofillusion.RotateObjectTool: *artofillusion.math.CoordinateSystem[]* objectCoords
+artofillusion.ScaleMeshTool: *artofillusion.math.Vec3[]* [private] baseVertPos
+artofillusion.ScaleObjectTool: *artofillusion.math.BoundingBox[]* [private] bounds [mod]
+artofillusion.ScaleObjectTool: *artofillusion.math.Vec3[]* [private] objectPos [mod]
+artofillusion.ScaleObjectTool: *artofillusion.math.Vec3[]* [private] scaleCenter [mod]
+artofillusion.ScaleObjectTool: *artofillusion.object.Object3D[]* [private] oldObj [mod]
+artofillusion.ScaleObjectTool: *artofillusion.math.CoordinateSystem[]* [private] oldCoords [mod]
+artofillusion.Scene: *artofillusion.texture.ParameterValue[]* [private] environParamValue
+artofillusion.script.ScriptedObject: *java.lang.String[]* [private] paramName [arraycopy]
+artofillusion.script.ScriptedObjectEditorWindow$ParametersDialog: *java.lang.String[]* [private] name [arraycopy]
+artofillusion.SkewMeshTool: *artofillusion.math.Vec3[]* [private] baseVertPos
+artofillusion.SplineMeshEditorWindow: *buoy.widget.BMenuItem[]* [private] editMenuItem [mod]
+artofillusion.SplineMeshEditorWindow: *buoy.widget.BMenuItem[]* [private] meshMenuItem [mod]
+artofillusion.SplineMeshEditorWindow: *buoy.widget.BMenuItem[]* [private] skeletonMenuItem [mod]
+artofillusion.SplineMeshEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [private] smoothItem [mod]
+artofillusion.SplineMeshEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [private] closedItem [mod]
+artofillusion.SplineMeshViewer: *java.awt.Point[]* [private] screenVert
+artofillusion.TaperMeshTool: *artofillusion.math.Vec3[]* [private] baseVertPos
+artofillusion.texture.LayeredMapping: *artofillusion.texture.Texture[]* texture
+artofillusion.texture.LayeredMapping: *artofillusion.texture.TextureMapping[]* mapping
+artofillusion.texture.LayeredTriangle: *artofillusion.RenderingTriangle[]* layerTriangle
+artofillusion.texture.UVMappingViewer: *java.awt.Point[]* [private] screenVert
+artofillusion.texture.UVMappingViewer: *artofillusion.math.Vec2[]* [private] coord
+artofillusion.texture.UVMappingViewer$UVMesh: *artofillusion.object.MeshVertex[]* [public] vert
+artofillusion.texture.UVMappingWindow: *artofillusion.math.Vec2[]* [private] coord
+artofillusion.TexturesDialog: *buoy.widget.BButton[]* [private] b
+artofillusion.ThickenMeshTool: *artofillusion.math.Vec3[]* [private] norm
+artofillusion.ThickenMeshTool: *artofillusion.math.Vec3[]* [private] baseVertPos
+artofillusion.TransformDialog: *artofillusion.ui.ValueField[]* [private] fields [mod]
+artofillusion.TransformPointsDialog: *artofillusion.ui.ValueField[]* [private] fields [mod]
+artofillusion.TriMeshBeveler: *artofillusion.math.Vec3[][]* [private] faceInsets
+artofillusion.TriMeshBeveler: *artofillusion.math.Vec3[]* [private] faceNormal
+artofillusion.TriMeshEditorWindow: *buoy.widget.BMenuItem[]* [private] editMenuItem [mod] [arraycopy]
+artofillusion.TriMeshEditorWindow: *buoy.widget.BMenuItem[]* [private] selectMenuItem [mod] [arraycopy]
+artofillusion.TriMeshEditorWindow: *buoy.widget.BMenuItem[]* [private] meshMenuItem [mod] [arraycopy]
+artofillusion.TriMeshEditorWindow: *buoy.widget.BMenuItem[]* [private] skeletonMenuItem [mod] [arraycopy]
+artofillusion.TriMeshEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [private] smoothItem [mod] [arraycopy]
+artofillusion.TriMeshEditorWindow$4: *artofillusion.object.TriangleMesh$Vertex[]* [final] val$vt [no-stores]
+artofillusion.TriMeshEditorWindow$4: *artofillusion.object.TriangleMesh$Edge[]* [final] val$ed [no-stores]
+artofillusion.TriMeshSimplifier: *artofillusion.TriMeshSimplifier$VertexInfo[]* [private] vertex
+artofillusion.TriMeshSimplifier: *artofillusion.TriMeshSimplifier$MeshEdge[]* [private] edge
+artofillusion.TriMeshSimplifier: *artofillusion.TriMeshSimplifier$MeshFace[]* [private] face
+artofillusion.TriMeshSimplifier$VertexInfo: *artofillusion.TriMeshSimplifier$MeshEdge[]* star [no-stores]
+artofillusion.TriMeshSimplifier$VertexInfo: *artofillusion.TriMeshSimplifier$MeshFace[]* crown [no-stores]
+artofillusion.TriMeshSimplifier$Zone: *artofillusion.TriMeshSimplifier$Constraint[]* con [no-stores]
+artofillusion.TriMeshViewer: *java.awt.Point[]* [private] screenVert
+artofillusion.TubeEditorWindow: *buoy.widget.BCheckBoxMenuItem[]* [private] endsItem [mod]
+artofillusion.ui.ComponentsDialog: *buoy.widget.Widget[]* [private] comp [no-stores]
+artofillusion.ui.Compound3DManipulator: *java.awt.Rectangle[]* [private] boxes
+artofillusion.ui.Compound3DManipulator: *artofillusion.ui.Compound3DManipulator$Axis[]* [private] boxAxis
+artofillusion.ui.Compound3DManipulator: *artofillusion.ui.Compound3DManipulator$HandleType[]* [private] boxHandleType
+artofillusion.ui.Compound3DManipulator: *artofillusion.math.Vec3[]* [private] npqModeAxes
+artofillusion.ui.Compound3DManipulator: *artofillusion.ui.Compound3DManipulator$RotationHandle[]* [private] xyzRotHandles
+artofillusion.ui.Compound3DManipulator: *artofillusion.ui.Compound3DManipulator$RotationHandle[]* [private] npqRotHandles
+artofillusion.ui.Compound3DManipulator: *artofillusion.ui.Compound3DManipulator$RotationHandle[]* [private] uvRotationHandle
+artofillusion.ui.Compound3DManipulator: *artofillusion.ui.Compound3DManipulator$RotationHandle[]* [private] activeRotationHandleSet
+artofillusion.ui.Compound3DManipulator$RotationHandle: *artofillusion.math.Vec3[]* [protected] points3d
+artofillusion.ui.Compound3DManipulator$RotationHandle: *artofillusion.math.Vec2[]* [protected] points2d
+artofillusion.ui.NinePointManipulator: *java.awt.Image[]* [private] [final] images
+artofillusion.ui.ThemeManager$ThemeInfo: *artofillusion.ui.ThemeManager$ColorSet[]* [private] [final] colorSets
+artofillusion.ui.ToolPalette: *artofillusion.ui.EditingTool[]* [private] tool [mod] [arraycopy]
+artofillusion.util.IconGenerator: *java.lang.String[]* [protected] delims
+artofillusion.util.IconGenerator$Instruction: *java.lang.String[]* delims [mod]
+artofillusion.util.IconGenerator$Instruction$ArgList: *java.lang.String[]* ref
+artofillusion.util.IconGenerator$Instruction$ArgList: *java.lang.String[]* value
+artofillusion.util.ThreadManager: *java.lang.Thread[]* [private] thread
+artofillusion.view.TexturedVertexShader: *artofillusion.math.RGBColor[]* [private] diffuseCache
+artofillusion.view.TexturedVertexShader: *artofillusion.math.RGBColor[]* [private] emissiveCache
+artofillusion.view.TexturedVertexShader: *artofillusion.math.RGBColor[]* [private] hilightCache
+artofillusion.WireframeMesh: *artofillusion.math.Vec3[]* [public] vert [no-stores]
+
+N-CYCLES
+========
+[artofillusion/util/IconGenerator$Instruction$ArgList, artofillusion/util/IconGenerator$Instruction]
+[artofillusion/math/CoordinateSystem, artofillusion/Camera]
+[artofillusion/material/MaterialMapping, artofillusion/object/Object3D]
+[artofillusion/view/ViewChangedEvent, artofillusion/RenderingMesh, artofillusion/object/ObjectInfo, artofillusion/ViewerCanvas]
+[artofillusion/MaterialsDialog, artofillusion/TexturesDialog, artofillusion/Scene]
+[artofillusion/animation/Joint$DOF, artofillusion/animation/Joint]
+[artofillusion/animation/WeightTrack, artofillusion/animation/PoseTrack]
+[artofillusion/ObjectPreviewCanvas, artofillusion/animation/ActorEditorWindow$CurrentPoseTableModel, artofillusion/animation/ActorEditorWindow]
+[artofillusion/animation/ObjectRef, artofillusion/animation/RotationTrack]
+[artofillusion/SceneChangedEvent, artofillusion/animation/TimeAxis, artofillusion/animation/Score, artofillusion/LayoutWindow]
+[artofillusion/image/ImagesDialog$ImagesCanvas, artofillusion/image/ImagesDialog]
+[artofillusion/image/MovieEncoder$ImageDataSource, artofillusion/image/MovieEncoder]
+[artofillusion/ui/NinePointManipulator, artofillusion/TaperMeshTool]
+[artofillusion/texture/LayeredTexture, artofillusion/texture/LayeredMapping]
+[artofillusion/script/ScriptedObjectEnumeration, artofillusion/script/ScriptedObjectController]
+[artofillusion/animation/JointEditorDialog$DOFGraph, artofillusion/animation/JointEditorDialog$DOFPanel, artofillusion/animation/JointEditorDialog]
+[artofillusion/TriMeshSimplifier$MeshFace, artofillusion/TriMeshSimplifier$MeshEdge]
+[artofillusion/ui/Compound3DManipulator$RotationHandle, artofillusion/ui/Compound3DManipulator]
+[artofillusion/TriMeshBeveler, artofillusion/BevelExtrudeTool]
+[artofillusion/texture/UVMappingViewer$UVEditController, artofillusion/texture/UVMappingViewer, artofillusion/texture/UVMappingWindow]
+[artofillusion/math/Cells, artofillusion/procedural/CellsModule]
+[artofillusion/image/ImageOrValue, artofillusion/texture/ImageMapTexture]

@@ -1,0 +1,194 @@
+DSFinder has run for 0 min. 2 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+org.sablecc.sablecc.node.Node: [private] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.sablecc.sablecc.AddAstProductions: *java.util.LinkedList* listAstProd
+org.sablecc.sablecc.AddAstProductions: *java.util.LinkedList* listElems
+org.sablecc.sablecc.AddAstProductions: *java.util.LinkedList* listOfAstAlts
+org.sablecc.sablecc.AddProdTransformAndAltTransform: *java.util.LinkedList* [private] list
+org.sablecc.sablecc.AlternativeElementTypes: *java.util.Map* [private] altElemTypes
+org.sablecc.sablecc.AltTransformAdapter: *java.util.Map* [private] isElementIsAlist
+org.sablecc.sablecc.AltTransformAdapter: *java.util.LinkedList* [private] listSimpleTermTransform
+org.sablecc.sablecc.AltTransformAdapter: *java.util.Map* [private] simpleTermTransform
+org.sablecc.sablecc.AltTransformAdapter: *java.util.Map* [private] simpleTermOrsimpleListTermTypes
+org.sablecc.sablecc.analysis.AnalysisAdapter: *java.util.Hashtable* [private] in
+org.sablecc.sablecc.analysis.AnalysisAdapter: *java.util.Hashtable* [private] out
+org.sablecc.sablecc.CharSet: *java.util.Vector* [private] [final] intervals
+org.sablecc.sablecc.ComputeCGNomenclature: *java.util.Map* [private] altElemTypes
+org.sablecc.sablecc.ComputeCGNomenclature: *java.util.Map* [private] [final] altTransformElemTypes
+org.sablecc.sablecc.ComputeCGNomenclature: *java.util.Map* [private] [final] termNumbers
+org.sablecc.sablecc.ComputeInlining: *java.util.Set* [private] setOfProdToBeInline
+org.sablecc.sablecc.ComputeInlining: *java.util.Map* [private] productionsMap
+org.sablecc.sablecc.ComputeSimpleTermPosition: *java.util.Map* [public] [final] positionsMap
+org.sablecc.sablecc.ComputeSimpleTermPosition: *java.util.Map* [public] [final] elems_position
+org.sablecc.sablecc.ConflictException: *java.util.Set* [private] conflictualProductions
+org.sablecc.sablecc.ConstructParserGenerationDatas: *java.util.Map* [private] alts
+org.sablecc.sablecc.ConstructProdsMap: *java.util.Map* [public] productionsMap
+org.sablecc.sablecc.DFA: *java.util.Vector* [public] [final] states
+org.sablecc.sablecc.DFA: *java.util.Hashtable* [public] [final] finder
+org.sablecc.sablecc.DFA$State: *java.util.Vector* [public] transitions
+org.sablecc.sablecc.GenAlts: *java.util.List* [private] elemList
+org.sablecc.sablecc.GenAnalyses: *java.util.List* [private] elemList
+org.sablecc.sablecc.GenAnalyses: *java.util.List* [private] altList
+org.sablecc.sablecc.GenAnalyses: *java.util.List* [private] tokenList
+org.sablecc.sablecc.GenAnalyses$AltInfo: *java.util.List* [final] elems
+org.sablecc.sablecc.GenerateAlternativeCodeForParser: *java.util.Map* [private] simpleTermTransformMap
+org.sablecc.sablecc.GenerateAlternativeCodeForParser: *java.util.LinkedList* [private] listSimpleTermTransform
+org.sablecc.sablecc.GenerateAlternativeCodeForParser: *java.util.Map* [private] simpleTermOrsimpleListTermTypes
+org.sablecc.sablecc.GenParser: *java.util.LinkedList* [private] listSimpleTermTransform
+org.sablecc.sablecc.GenParser: *java.util.Map* [public] [final] simpleTermTransform
+org.sablecc.sablecc.GenParser: *java.util.Map* [private] [final] mapProductionTransformations
+org.sablecc.sablecc.GenParser: *java.util.Map* [private] alts
+org.sablecc.sablecc.GenParser$4: *java.util.LinkedList* [final] val$stack
+org.sablecc.sablecc.GenProds: *java.util.Map* [private] hiddenProds
+org.sablecc.sablecc.In_Production$In_Alternative: *java.util.Map* prodTransform_altTransform
+org.sablecc.sablecc.Inlining$2: *java.util.Map* [final] val$currentMap
+org.sablecc.sablecc.Inlining$3: *java.util.Map* [final] val$mapOldNameNewNames
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.LinkedList* [private] listSimpleTermTransform
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.Map* [public] [final] simpleTermTransform
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.Map* mapProductionTransformations
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.Map* simpleTermOrsimpleListTermTypes
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.Map* [private] isElementIsAlist
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.LinkedList* [private] listProd
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.LinkedList* [private] listOfAlts
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.LinkedList* [private] listElems
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.LinkedList* [private] listElemsAltTransform
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.LinkedList* listOfAlternativeElemsWHaveName
+org.sablecc.sablecc.InternalTransformationsToGrammar: *java.util.LinkedList* checkCreationOfXElem
+org.sablecc.sablecc.InternalTransformationsToGrammar$2: *java.util.LinkedList* [final] val$listProdTransformationOfXelem
+org.sablecc.sablecc.InternalTransformationsToGrammar$3: *java.util.LinkedList* [final] val$listTerms_first
+org.sablecc.sablecc.InternalTransformationsToGrammar$4: *java.util.LinkedList* [final] val$listTerms_second
+org.sablecc.sablecc.LR0Collection: *java.util.Vector* [private] [final] sets
+org.sablecc.sablecc.LR0Collection: *java.util.TreeMap* [private] [final] setIndices
+org.sablecc.sablecc.LR0Collection: *java.util.Vector* [private] [final] GOTO
+org.sablecc.sablecc.LR0Collection: *java.util.Vector* [final] names
+org.sablecc.sablecc.LR0ItemSet: *java.util.TreeMap* [private] [final] items
+org.sablecc.sablecc.LR1ItemSet: *java.util.TreeMap* [private] [final] items
+org.sablecc.sablecc.MacroExpander: *java.util.Map* [private] macros
+org.sablecc.sablecc.node.AAlt: *java.util.LinkedList* [private] [final] _elems_
+org.sablecc.sablecc.node.AAltTransform: *java.util.LinkedList* [private] [final] _terms_
+org.sablecc.sablecc.node.AAst: *java.util.LinkedList* [private] [final] _prods_
+org.sablecc.sablecc.node.AAstAlt: *java.util.LinkedList* [private] [final] _elems_
+org.sablecc.sablecc.node.AAstProd: *java.util.LinkedList* [private] [final] _alts_
+org.sablecc.sablecc.node.AConcat: *java.util.LinkedList* [private] [final] _unExps_
+org.sablecc.sablecc.node.AGrammar: *java.util.LinkedList* [private] [final] _package_
+org.sablecc.sablecc.node.AHelpers: *java.util.LinkedList* [private] [final] _helperDefs_
+org.sablecc.sablecc.node.AIgnTokens: *java.util.LinkedList* [private] [final] _listId_
+org.sablecc.sablecc.node.AListTerm: *java.util.LinkedList* [private] [final] _listTerms_
+org.sablecc.sablecc.node.ANewListTerm: *java.util.LinkedList* [private] [final] _params_
+org.sablecc.sablecc.node.ANewTerm: *java.util.LinkedList* [private] [final] _params_
+org.sablecc.sablecc.node.AProd: *java.util.LinkedList* [private] [final] _prodTransform_
+org.sablecc.sablecc.node.AProd: *java.util.LinkedList* [private] [final] _alts_
+org.sablecc.sablecc.node.AProductions: *java.util.LinkedList* [private] [final] _prods_
+org.sablecc.sablecc.node.ARegExp: *java.util.LinkedList* [private] [final] _concats_
+org.sablecc.sablecc.node.AStateList: *java.util.LinkedList* [private] [final] _stateLists_
+org.sablecc.sablecc.node.AStates: *java.util.LinkedList* [private] [final] _listId_
+org.sablecc.sablecc.node.ATokens: *java.util.LinkedList* [private] [final] _tokenDefs_
+org.sablecc.sablecc.node.TypedLinkedList$TypedLinkedListIterator: *org.sablecc.sablecc.node.TypedLinkedList* [final] this$0
+org.sablecc.sablecc.parser.Parser: *java.util.ArrayList* [protected] nodeList
+org.sablecc.sablecc.parser.State: *java.util.ArrayList* nodes
+org.sablecc.sablecc.Production: *java.util.Vector* [private] [final] rightside
+org.sablecc.sablecc.RecursiveProductionsDetections: *java.util.LinkedList* [public] listOfRecursiveProds
+org.sablecc.sablecc.ResolveAltIds: *java.util.Map* [public] alts_elems
+org.sablecc.sablecc.ResolveAltIds: *java.util.Map* [public] alts_elems_list
+org.sablecc.sablecc.ResolveAltIds: *java.util.Map* [public] alts_elemsGlobal
+org.sablecc.sablecc.ResolveAltIds: *java.util.Map* [public] alts_elems_list_elemName
+org.sablecc.sablecc.ResolveAltIds: *java.util.LinkedList* [private] listElemsGlobal
+org.sablecc.sablecc.ResolveAltIds: *java.util.LinkedList* [private] listElems
+org.sablecc.sablecc.ResolveAltIds: *java.util.LinkedList* [private] listElemslist
+org.sablecc.sablecc.ResolveAstIds: *java.util.Map* [public] [final] ast_prods
+org.sablecc.sablecc.ResolveAstIds: *java.util.Map* [public] [final] ast_alts
+org.sablecc.sablecc.ResolveAstIds: *java.util.Map* [public] [final] ast_elems
+org.sablecc.sablecc.ResolveAstIds: *java.util.Map* [public] [final] ast_names
+org.sablecc.sablecc.ResolveAstIds: *java.util.Map* [public] [final] ast_elemTypes
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] helpers
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] states
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] tokens
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] ignTokens
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] prods
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] alts
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] elems
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] names
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] errorNames
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] elemTypes
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] altsElemNameTypes
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] altsElemTypes
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [public] [final] fixedTokens
+org.sablecc.sablecc.ResolveIds: *java.util.List* [public] [final] tokenList
+org.sablecc.sablecc.ResolveIds: *java.util.LinkedList* [public] [final] stateList
+org.sablecc.sablecc.ResolveIds: *java.util.Map* [private] stateMap
+org.sablecc.sablecc.ResolveProdTransformIds: *java.util.LinkedList* [private] listElems
+org.sablecc.sablecc.ResolveProdTransformIds: *java.util.LinkedList* [public] listProdTransformList
+org.sablecc.sablecc.ResolveProdTransformIds: *java.util.LinkedList* [private] listProdTransformContainsList
+org.sablecc.sablecc.ResolveProdTransformIds: *java.util.Map* [public] [final] prodTransformElemTypes
+org.sablecc.sablecc.ResolveProdTransformIds: *java.util.Map* [public] [final] prodTransformElemTypesString
+org.sablecc.sablecc.ResolveProdTransformIds: *java.util.Map* [public] mapProdTransformContainsList
+org.sablecc.sablecc.ResolveProdTransformIds: *java.util.Map* [public] [final] prod_transforms
+org.sablecc.sablecc.ResolveTransformIds: *java.util.Map* [public] [final] altTransformElemTypes
+org.sablecc.sablecc.ResolveTransformIds: *java.util.Map* [public] [final] mapSimpleTermProdTransformation
+org.sablecc.sablecc.ResolveTransformIds: *java.util.Map* [public] [final] simpleTermOrsimpleListTermTypes
+org.sablecc.sablecc.ResolveTransformIds: *java.util.LinkedList* [private] listCurrentAltGlobal
+org.sablecc.sablecc.ResolveTransformIds: *java.util.LinkedList* [private] listCurrentAlt
+org.sablecc.sablecc.ResolveTransformIds: *java.util.LinkedList* [private] listOfListCurrentAlt
+org.sablecc.sablecc.ResolveTransformIds: *java.util.LinkedList* [private] listL
+org.sablecc.sablecc.ResolveTransformIds: *java.util.LinkedList* [private] listP
+org.sablecc.sablecc.Transitions: *java.util.Map* [public] [final] tokenStates
+org.sablecc.sablecc.Transitions: *java.util.Map* [private] map
+org.sablecc.sablecc.TypedHashMap: *java.util.Set* [private] entries
+org.sablecc.sablecc.TypedHashMap$EntryIterator: *org.sablecc.sablecc.TypedHashMap* [final] this$0
+org.sablecc.sablecc.TypedHashMap$EntrySet: *java.util.Set* [private] set
+org.sablecc.sablecc.TypedHashMap$EntrySet: *org.sablecc.sablecc.TypedHashMap* [final] this$0
+org.sablecc.sablecc.TypedHashMap$TypedEntry: *org.sablecc.sablecc.TypedHashMap* [final] this$0
+org.sablecc.sablecc.TypedLinkedList$TypedLinkedListIterator: *org.sablecc.sablecc.TypedLinkedList* [final] this$0
+org.sablecc.sablecc.TypedTreeMap: *java.util.Set* [private] entries
+org.sablecc.sablecc.TypedTreeMap$EntryIterator: *org.sablecc.sablecc.TypedTreeMap* [final] this$0
+org.sablecc.sablecc.TypedTreeMap$EntrySet: *java.util.Set* [private] set
+org.sablecc.sablecc.TypedTreeMap$EntrySet: *org.sablecc.sablecc.TypedTreeMap* [final] this$0
+org.sablecc.sablecc.TypedTreeMap$TypedEntry: *org.sablecc.sablecc.TypedTreeMap* [final] this$0
+
+ARRAYS REPORT
+=============
+
+org.sablecc.sablecc.DFA: *org.sablecc.sablecc.IntSet[]* [private] eclosures
+org.sablecc.sablecc.GenLexer: *org.sablecc.sablecc.AcceptStates[]* [private] acceptStatesArray
+org.sablecc.sablecc.GenParser$Element: *java.lang.String[]* arguments [no-stores]
+org.sablecc.sablecc.In_Production: *java.lang.String[]* [private] prodTransformElems
+org.sablecc.sablecc.In_Production: *org.sablecc.sablecc.In_Production$In_Alternative[]* [private] alternatives
+org.sablecc.sablecc.In_Production$In_Alternative: *org.sablecc.sablecc.node.AElem[]* elements
+org.sablecc.sablecc.LR0ItemSet: *org.sablecc.sablecc.LR0Item[]* items_ [no-stores] [hashcode]
+org.sablecc.sablecc.LR1Collection: *java.util.TreeMap[]* [final] lookaheads
+org.sablecc.sablecc.LR1Collection: *java.util.TreeMap[]* [private] [final] propagation
+org.sablecc.sablecc.LR1ItemSet: *org.sablecc.sablecc.LR1Item[]* items_ [no-stores] [hashcode]
+org.sablecc.sablecc.NFA: *org.sablecc.sablecc.NFA$State[]* [public] states
+org.sablecc.sablecc.NFA$State: *org.sablecc.sablecc.NFA$Transition[]* [public] transitions
+org.sablecc.sablecc.Production: *org.sablecc.sablecc.Symbol[]* [private] rightside_ [no-stores]
+org.sablecc.sablecc.ResolveTransformIds: *java.lang.Object[]* [private] curr_prodTransformElems [no-stores]
+org.sablecc.sablecc.SymbolSet: *org.sablecc.sablecc.Symbol[]* [private] symbols [no-stores] [hashcode]
+
+N-CYCLES
+========
+[org/sablecc/sablecc/ResolveAstIds, org/sablecc/sablecc/AddEventualEmptyTransformationToProductions]
+[org/sablecc/sablecc/ResolveProdTransformIds, org/sablecc/sablecc/ResolveTransformIds]
+[org/sablecc/sablecc/GenerateAlternativeCodeForParser, org/sablecc/sablecc/ComputeSimpleTermPosition, org/sablecc/sablecc/ComputeCGNomenclature, org/sablecc/sablecc/AlternativeElementTypes, org/sablecc/sablecc/ConstructParserGenerationDatas, org/sablecc/sablecc/GenParser]

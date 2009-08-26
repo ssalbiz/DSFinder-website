@@ -1,0 +1,134 @@
+-------------------------------------------------------------------------------
+---  HIGHLIGHT LANGUAGE LIST --------------------------------- January 2008 ---
+-------------------------------------------------------------------------------
+
+This file lists all supported languages and the syntax definition file names.
+By default, the files are located in /usr/share/highlight/langDefs (*.lang).
+
+Language     Language
+definition:  description:
+-----------------------------------
+4gl:         Informix
+a4c:         ASCEND
+abp:         ABAP/4
+ada:         ADA95
+agda:        Agda
+ampl:        AMPL
+amtrix:      AMTrix
+applescript: AppleScript
+arm:         ARM
+as:          Action Script
+asm:         Assembler
+aspect:      Abstract
+asp:         ASP
+au3:         AutoIt
+avenue:      Avenue
+awk:         (G)AWK
+bat:         DOS Batch
+bb:          Blitz Basic
+bib:         BibTeX
+bms:         BM Script
+boo:         Python
+cb:          ClearBasic
+cfc:         ColdFusion MX
+c:           C and C++
+clipper:     Clipper
+clp:         Clips
+cob:         COBOL
+cs:          C#
+css:         CSS
+diff:        Diff
+d:           D
+dot:         Graphviz
+dylan:       Dylan
+e:           Eiffel
+erl:         Erlang
+euphoria:    Euphoria
+exp:         Express
+f77:         Fortran 77
+f90:         Fortran 90
+flx:         Felix
+frink:       Frink
+haskell:     Haskell
+hcl:         Hecl
+httpd:       Apache Config
+icn:         Icon
+idl:         IDL
+ini:         INI
+inp:         FAME
+io:          IO
+java:        Java
+j:           Jasmin
+js:          Javascript
+jsp:         JSP
+lbn:         Luban
+ldif:        LDAP
+lisp:        Lisp
+lotos:       Lotos
+ls:          Lotus
+lsl:         Linden Script
+lua:         LUA
+make:        Make
+mel:         Maya
+mib:         SNMP
+miranda:     Miranda
+m:           Matlab
+ml:          Objective Caml
+mod3:        Modula3
+mo:          Modelica
+mpl:         Maple
+ms:          MaxScript
+mssql:       MSSQL
+nas:         Nasal
+nice:        Nice
+n:           Nemerle
+nsi:         NSIS
+nut:         Squirrel
+oberon:      Oberon
+objc:        Objective C
+octave:      Octave
+oorexx:      Open Object Rexx
+os:          Object Script
+pas:         Pascal
+php:         PHP
+pike:        Pike
+pl1:         PL/1
+pl:          Perl
+pov:         POV-Ray
+progress:    Progress
+pro:         Prolog
+ps1:         Microsoft PowerShell
+ps:          PostScript
+psl:         PATROL
+py:          Python
+pyx:         Pyrex
+q:           Qore
+qu:          Qu
+rb:          Ruby
+rexx:        Rexx
+r:           R
+rnc:         Relax NG
+sas:         SAS
+scala:       Scala
+scilab:      Scilab
+sc:          Paradox
+sh:          Bash
+s:           PowerPC Assembler
+sma:         SMALL
+smalltalk:   Smalltalk
+sml:         Standard ML
+snobol:      SNOBOL
+spec:        RPM Spec
+spn:         SPIN SQL
+sql:         PL/SQL
+sybase:      Sybase SQL
+tcl:         Tcl/Tk
+tcsh:        TCSH
+tex:         TeX and LaTeX
+ttcn3:       TTCN3
+vb:          Visual Basic
+verilog:     Verilog
+vhd:         VHDL
+xml:         XML
+xpp:         SuperX++
+y:           Bison

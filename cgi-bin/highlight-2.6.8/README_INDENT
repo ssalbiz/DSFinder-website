@@ -1,0 +1,557 @@
+-------------------------------------------------------------------------------
+---  ARTISTIC STYLE MANUAL ----------------------------------------------------
+-------------------------------------------------------------------------------
+
+This file is based on the original Astyle (http://astyle.sourceforge.net) 
+manual. Some parts were stripped, and the command line parameters of AStyle
+were replaced by the corresponding Highlight parameters.
+You can see from the code samples below how the parameters take effect on
+the generated source code.
+
+Andre Simon, July 2004
+---
+
+
+Artistic Style
+-------------------------------------------------------------------------------
+
+Artistic Style is a reindenter and reformatter of C++, C and Java
+source code.
+
+When indenting source code, we as programmers have a tendency to use
+both spaces and tab characters to create the wanted indentation.
+Moreover, some editors by default insert spaces instead of tabs when
+pressing the tab key, and other editors (Emacs for example) have the
+ability to "pretty up" lines by automatically setting up the white space
+before the code on the line, possibly inserting spaces in a code that up
+to now used only tabs for indentation.
+
+Since the NUMBER of space characters showed on screen for each tab
+character in the source code changes between editors (until the user
+sets up the number to his liking...), one of the standard problems
+facing programmers when moving from one source code editor to another
+is that code containing both spaces and tabs that was up to now
+perfectly indented, suddently becomes a mess to look at when changing to
+another editor. Even if you as a programmer take care to ONLY use spaces
+or tabs, looking at other peoples source code can still be problematic.
+
+To address this problem I have created Artistic Style - a series of
+filters, written in C++, that automatically reindent & reformat
+C/C++/Java source files. These can be used from a command line, or it
+can be incorporated as classes in another C++ program.
+
+Please read the license <license.html>. Artistic Style may be used and
+distributed under EITHER the *Artistic License* or the *GNU General Public
+License (GPL)*.
+
+
+Predefined indentation and reformatting styles
+-------------------------------------------------------------------------------
+
+Apply an indentation scheme with --format-style.
+
+--format-style=ansi
+
+	ANSI style formatting/indenting::
+
+		namespace foospace
+		{
+		    int Foo()
+		    {
+		        if (isBar)
+		        {
+		            bar();
+		            return 1;
+		        }
+		        else
+		            return 0;
+		    }
+		}
+
+--format-style=kr
+
+	Kernighan&Ritchie style formatting/indenting::
+
+	    namespace foospace {
+	        int Foo() {
+	            if (isBar) {
+	                bar();
+	                return 1;
+	            } else
+	                return 0;
+	        }
+	    }
+
+--format-style=linux
+
+	Linux style formatting/indenting (brackets are broken apart from
+	class/function declarations, but connected to command lines, and indents
+	are set to 8 spaces)::
+
+	    namespace foospace
+	    {
+	            int Foo()
+	            {
+	                    if (isBar) {
+	                            bar();
+	                            return 1;
+	                    } else
+	                            return 0;
+	            }
+	    }
+
+--format-style=gnu
+
+	GNU style formatting/indenting::
+
+		namespace foospace
+		  {
+		    int Foo()
+		      {
+		        if (isBar)
+		          {
+		            bar();
+		            return 1;
+		          }
+		        else
+		          return 0;
+		      }
+		}
+
+--format-style=java
+
+	Java style formatting/indenting::
+
+		class foospace {
+		    int Foo() {
+		        if (isBar) {
+		            bar();
+		            return 1;
+		        } else
+		            return 0;
+		    }
+		}
+
+-------------------------------------------------------------------------------
+
+The following indentation options are currently available:
+
+$INDENT-SPACES=<num>
+	Indent using <num> spaces per indent
+
+$INDENT-CLASSES=<true / false>
+	Indent `class` blocks so that the headers `public:`, `protected:` and
+	`private:` are indented in the class block. The default::
+
+	    class Foo
+	    {
+	    public:
+	        Foo();
+	        virtual ~Foo();
+	    };
+
+	becomes::
+
+	    class Foo
+	    {
+	        public:
+	            Foo();
+	            virtual ~Foo();
+	    };
+
+$INDENT-SWITCHES=<true / false>
+	Indent `switch` blocks so that the `case XXX:` headers are indented in
+	the class block. The default::
+
+	    switch (foo)
+	    {
+	    case 1:
+	        a += 2;
+	        break;
+
+	    default:
+	        a += 2;
+	        break;
+	    }
+
+	becomes::
+
+	    switch (foo)
+	    {
+	        case 1:
+	            a += 2;
+	            break;
+
+	        default:
+	            a += 2;
+	            break;
+	    }
+
+$INDENT-CASES=<true / false>
+	Indent `case XXX:` lines so that they are flush with the lines under
+	them. The default::
+
+		switch (foo)
+		{
+		case 1:
+		    {
+		        a += 2;
+		        break;
+		    }
+
+		default:
+		    {
+		        a += 2;
+		        break;
+		    }
+		}
+
+	becomes::
+
+		switch (foo)
+		{
+		    case 1:
+		    {
+		        a += 2;
+		        break;
+		    }
+
+		    default:
+		    {
+		        a += 2;
+		        break;
+		    }
+		}
+
+$INDENT-BRACKETS=<true / false>
+	Add extra indentation to brackets. The default::
+
+		if (isFoo)
+		{
+		    bar();
+		}
+		else
+		{
+		    anotherBar();
+		}
+
+	becomes::
+
+		if (isFoo)
+		    {
+		    bar();
+		    }
+		else
+		    {
+		    anotherBar();
+		    }
+
+$INDENT-BLOCKS=<true / false>
+	Add extra indentation to entire blocks. The default::
+
+		if (isFoo)
+		{
+		    bar();
+		}
+		else
+		    anotherBar();
+
+	becomes::
+
+		if (isFoo)
+		    {
+		        bar();
+		    }
+		else
+		    anotherBar();
+
+$INDENT-NAMESPACES=<true / false>
+	Add extra indentation to namespaces. The default::
+
+		namespace foospace
+		{
+		class Foo
+		{
+		    public:
+		        Foo();
+		        virtual ~Foo();
+		};
+		}
+
+	becomes::
+
+		namespace foospace
+		{
+		    class Foo
+		    {
+		        public:
+		            Foo();
+		            virtual ~Foo();
+		    };
+		}
+
+$INDENT-LABELS=<true / false>
+	Add extra indentation to labels so they they appear 1 indent less than
+	the current indentation, rather than being flushed to the left. The
+	default::
+
+		int foospace()
+		{
+		    while (isFoo)
+		    {
+		        ...
+		        goto error;
+
+		error:
+		        ...
+		    }
+		}
+
+	becomes::
+
+		int foospace()
+		{
+		    while (isFoo)
+		    {
+		        ...
+		        goto error;
+
+		    error:
+		        ...
+		    }
+		}
+
+$MAX-INSTATEMENT-INDENT=<num>
+	Indent a maximal # spaces in a continuous statement, relatively to the
+	previous line (e.g. `--max-instatement-indent=40`).
+
+$MIN-CONDITIONAL-INDENT=<num>
+	Set the minimal indent that is added when a header is built of
+	multiple-lines. This indent makes helps to easily separate the header
+	from the command statements that follow. The default setting for this
+	option is twice the current indent. (e.g.`--min-conditional-indent=8`).
+	The default::
+
+	    // default setting makes this non-bracketed code clear
+	    if (a < b
+	            || c > d)
+	        foo++;
+
+	    // but creates an exaggerated indent in this bracketed code
+	    if (a < b
+	            || c > d)
+	    {
+	        foo++;
+	    }
+
+	When setting `--min-conditional=0`::
+
+		// setting makes this non-bracketed code less clear
+		if (a < b
+		    || c > d)
+		    foo++;
+
+		// but makes this bracketed code prettier
+		if (a < b
+		    || c > d)
+		{
+		    foo++;
+		}
+
+-------------------------------------------------------------------------------
+
+The following formatting options are currently available:
+
+$BRACKETS=<break>
+	Break brackets  from their pre-block statements (i.e. ANSI C, C++
+	style)::
+
+	    if (isFoo)
+	    {
+	        bar();
+	    }
+	    else
+	    {
+	        anotherBar();
+	    }
+
+$BRACKETS=<attach>
+	Attach brackets to their pre-block statements (i.e. Java, K&Rstyle)::
+
+	    if (isFoo){
+	        bar();
+	    } else {
+	        anotherBar();
+	    }
+
+$BRACKETS=<linux>
+	Break brackets from class/function declarations, but attach brackets to
+	pre-block command statements::
+
+	    namespace foospace
+	    {
+	        int Foo()
+	        {
+	            if (isBar) {
+	                bar();
+	                return 1;
+	            } else
+	                return 0;
+	        }
+	    }
+
+$BRACKETS=<break-closing-headers>
+	When used with either `--brackets=attach` or `--brackets=linux`, breaks
+	closing headers (e.g. `else`, `catch`, ...) from their immediately
+	preceding closing brackets::
+
+		if (isFoo) {
+		    bar();
+		}else {
+		    anotherBar();
+		}
+
+	becomes::
+
+		if (isFoo) {
+		    bar();
+		}
+		else {
+		    anotherBar();
+		}
+
+$BREAK-BLOCKS=<true | false>
+	Pad empty lines around header blocks (e.g. `if`, `while`...)::
+
+		isFoo = true;
+		if (isFoo) {
+		    bar();
+		} else {
+		    anotherBar();
+		}
+		isBar = false;
+
+	becomes::
+
+		isFoo = true;
+
+		if (isFoo) {
+		    bar();
+		} else {
+		    anotherBar();
+		}
+
+		isBar = false;
+
+$BREAK-BLOCKS=<all>
+	Pad empty lines around header blocks (e.g. `if`, `while` ...). Treat
+	closing header blocks (e.g. `else`, `catch`) as stand-alone blocks::
+
+	    isFoo = true;
+	    if (isFoo) {
+	        bar();
+	    } else {
+	        anotherBar();
+	    }
+	    isBar = false;
+
+	becomes::
+
+		isFoo = true;
+
+		if (isFoo) {
+		    bar();
+
+		} else {
+		    anotherBar();
+		}
+
+		isBar = false;
+
+$BREAK-ELSEIFS=<true / false>
+	Break `else if()` header combinations into seperate lines::
+
+		if (isFoo) {
+		    bar();
+		} else if (isBar()){
+		    anotherBar();
+		}
+
+	becomes::
+
+		if (isFoo) {
+		    bar();
+		} else
+		    if (isBar()){
+		        anotherBar();
+		    }
+
+$ONE-LINE=<keep-statements>
+	Don't break complex statements and multiple statements residing in a
+	single line.  Thus the following code remains as is::
+
+		if (isFoo)
+		{
+		    isFoo = false; cout << isFoo << endl;
+		}
+
+		if (isFoo) DoBar();
+
+$ONE-LINE=<keep-blocks>
+	Don't break one-line blocks. Thus the following code remains as is::
+
+		if (isFoo)
+		{ isFoo = false; cout << isFoo << endl; }
+
+$PAD=<oper>
+	Insert space padding around operators only::
+
+		if (isFoo)
+		    a = bar((b-c)*a,d--);
+
+	becomes::
+
+		if (isFoo)
+		    a = bar((b - c) * a, d--);
+
+$PAD=<paren>
+	Insert space padding around parentheses only::
+
+		if (isFoo)
+		   a = bar((b-c)*a,*d--);`
+
+	becomes::
+
+		if ( isFoo )
+		    a = bar( ( b-c )*a, d-- );
+
+$PAD=<all>
+	Insert space padding around operators AND parentheses::
+
+	    if (isFoo)
+	        a = bar((b-c)a,d--);
+
+	becomes::
+
+	    if ( isFoo )
+	        a = bar( ( b - c ) * a, d-- );
+
+
+
+Artistic Style Acknowledgements
+-------------------------------------------------------------------------------
+
+Thanks to: Jim Watson, Fred Shwartz, W. Nathaniel Mills III, Danny
+Deschenes, Andre Houde, Richard Bullington, Paul-Michael Agapow, Daryn
+Adler for their patches and contributions to Artistic Style !!! Special
+thanks to Richard Bullington and MicroState <http://www.microstate.com> for
+giving Artistic Style its mailing-list !!! Special thanks to SourceForge
+<http://www.sourceforge.net> for giving Artistic Style its home !!!
+Thanks to all the dedicated beta-testers and bug notifiers !!!
+
+
+---
+Andre Simon
+andre.simon1@gmx.de
+http://www.andre-simon.de/
+http://wiki.andre-simon.de/

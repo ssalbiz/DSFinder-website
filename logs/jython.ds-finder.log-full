@@ -1,0 +1,322 @@
+DSFinder has run for 0 min. 3 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.python.core.PyArray: *java.lang.Object* [private] data
+org.python.core.PySystemState: *org.python.core.PyObject* [public] last_value
+org.python.core.ReflectedArgs: *java.lang.Object* [public] data
+org.python.core.SoftIInternalTables$Ref: *java.lang.Object* key
+org.python.core.WeakInternalTables$Ref: *java.lang.Object* key
+org.python.parser.ast.Attribute: *org.python.parser.ast.exprType* [public] value
+org.python.parser.ast.Call: *org.python.parser.ast.exprType* [public] starargs
+org.python.parser.ast.Call: *org.python.parser.ast.exprType* [public] kwargs
+org.python.parser.ast.Repr: *org.python.parser.ast.exprType* [public] value
+org.python.parser.ast.Subscript: *org.python.parser.ast.exprType* [public] value
+
+Linked List-like Data Structures:
+org.python.core.PyTraceback: *org.python.core.PyObject* [public] tb_next
+org.python.modules.sre.SRE_REPEAT: prev
+org.python.parser.PythonGrammar$JJCalls: next
+org.python.parser.Token: [public] next
+
+Parent- and outer-type Data Structures:
+org.python.core.PyJavaInnerClass: *org.python.core.PyJavaClass* [public] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.python.compiler.CodeCompiler: [public] mrefs
+org.python.compiler.ScopeInfo: [public] up
+org.python.core.PyFrame: [public] f_back
+org.python.core.PyType: [private] base
+org.python.parser.Token: [public] specialToken
+Non-Object Fields:
+org.python.core.JavaCode: *org.python.core.PyObject* [private] func
+org.python.core.PyArrayDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyBuiltinFunctionSet: *org.python.core.PyObject* [private] doc
+org.python.core.PyBuiltinMethod: *org.python.core.PyObject* [protected] self
+org.python.core.PyBuiltinMethodSet: *org.python.core.PyObject* [protected] __self__
+org.python.core.PyCallIter: *org.python.core.PyObject* [private] callable
+org.python.core.PyCallIter: *org.python.core.PyObject* [private] sentinel
+org.python.core.PyCell: *org.python.core.PyObject* [public] ob_ref
+org.python.core.PyClass: *org.python.core.PyObject* [public] __dict__
+org.python.core.PyClass: *org.python.core.PyObject* __getattr__
+org.python.core.PyClass: *org.python.core.PyObject* __setattr__
+org.python.core.PyClass: *org.python.core.PyObject* __delattr__
+org.python.core.PyClass: *org.python.core.PyObject* __tojava__
+org.python.core.PyClass: *org.python.core.PyObject* __del__
+org.python.core.PyClass: *org.python.core.PyObject* __contains__
+org.python.core.PyClassMethod: *org.python.core.PyObject* [protected] callable
+org.python.core.PyClassMethodDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyComplexDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyDictionaryDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyDictionaryIter: *org.python.core.PyObject* [private] dict
+org.python.core.PyEnumerate: *org.python.core.PyObject* [private] en_sit
+org.python.core.PyFile$TextWrapper: *org.python.core.PyFile$FileWrapper* [private] file
+org.python.core.PyFileDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyFloatDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyFrame: *org.python.core.PyObject* [public] f_locals
+org.python.core.PyFrame: *org.python.core.PyObject* [public] f_globals
+org.python.core.PyFrame: *org.python.core.PyObject* [public] f_builtins
+org.python.core.PyFunction: *org.python.core.PyObject* [public] __doc__
+org.python.core.PyFunction: *org.python.core.PyObject* [public] func_globals
+org.python.core.PyFunction: *org.python.core.PyObject* [public] __dict__
+org.python.core.PyFunction: *org.python.core.PyObject* [public] func_closure
+org.python.core.PyGenerator: *org.python.core.PyObject* closure
+org.python.core.PyInstance: *org.python.core.PyObject* [public] __dict__
+org.python.core.PyIntegerDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyListDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyLongDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyMethod: *org.python.core.PyObject* [public] im_self
+org.python.core.PyMethod: *org.python.core.PyObject* [public] im_func
+org.python.core.PyMethod: *org.python.core.PyObject* [public] im_class
+org.python.core.PyMethod: *org.python.core.PyObject* [public] __doc__
+org.python.core.PyModule: *org.python.core.PyObject* [private] [final] module_doc
+org.python.core.PyModule: *org.python.core.PyObject* [public] __dict__
+org.python.core.PyObject: *org.python.core.PyType* [private] objtype
+org.python.core.PyObjectDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyProperty: *org.python.core.PyObject* [protected] fget
+org.python.core.PyProperty: *org.python.core.PyObject* [protected] fset
+org.python.core.PyProperty: *org.python.core.PyObject* [protected] fdel
+org.python.core.PyProperty: *org.python.core.PyObject* [protected] doc
+org.python.core.PyPropertyDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyReflectedFunction: *org.python.core.PyObject* [public] __doc__
+org.python.core.PySequenceIter: *org.python.core.PyObject* [private] seq
+org.python.core.PySlice: *org.python.core.PyObject* [public] start
+org.python.core.PySlice: *org.python.core.PyObject* [public] stop
+org.python.core.PySlice: *org.python.core.PyObject* [public] step
+org.python.core.PyStaticMethod: *org.python.core.PyObject* [protected] callable
+org.python.core.PyStringDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PySuper: *org.python.core.PyObject* [protected] self
+org.python.core.PySuperDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PySystemState: *org.python.core.PyObject* [public] modules
+org.python.core.PySystemState: *org.python.core.PyObject* [public] path_importer_cache
+org.python.core.PySystemState: *org.python.core.PyObject* [public] ps1
+org.python.core.PySystemState: *org.python.core.PyObject* [public] ps2
+org.python.core.PySystemState: *org.python.core.PyObject* [public] executable
+org.python.core.PySystemState: *org.python.core.PyObject* [public] stdout
+org.python.core.PySystemState: *org.python.core.PyObject* [public] stderr
+org.python.core.PySystemState: *org.python.core.PyObject* [public] stdin
+org.python.core.PySystemState: *org.python.core.PyObject* [public] __stdout__
+org.python.core.PySystemState: *org.python.core.PyObject* [public] __stderr__
+org.python.core.PySystemState: *org.python.core.PyObject* [public] __stdin__
+org.python.core.PySystemState: *org.python.core.PyObject* [public] __displayhook__
+org.python.core.PySystemState: *org.python.core.PyObject* [public] __excepthook__
+org.python.core.PySystemState: *org.python.core.PyObject* [public] last_type
+org.python.core.PySystemState: *org.python.core.PyObject* [public] last_traceback
+org.python.core.PySystemState: *org.python.core.PyObject* [public] __dict__
+org.python.core.PyTupleDerived: *org.python.core.PyObject* [private] dict
+org.python.core.PyType: *org.python.core.PyObject* [private] dict
+org.python.core.PyUnicodeDerived: *org.python.core.PyObject* [private] dict
+org.python.modules._weakref$AbstractReference: *org.python.core.PyObject* callback
+org.python.modules.sets.PyImmutableSetDerived: *org.python.core.PyObject* [private] dict
+org.python.modules.sets.PySetDerived: *org.python.core.PyObject* [private] dict
+org.python.modules.sre.MatchObject: *org.python.core.PyObject* [public] regs
+org.python.modules.sre.PatternObject: *org.python.core.PyObject* [public] groupindex
+org.python.modules.sre.PatternObject: *org.python.core.PyObject* indexgroup
+org.python.modules.SynchronizedCallable: *org.python.core.PyObject* callable
+org.python.modules.xreadlines$XReadlineObj: *org.python.core.PyObject* [private] file
+org.python.modules.xreadlines$XReadlineObj: *org.python.core.PyObject* [private] lines
+org.python.parser.ast.BinOp: *org.python.parser.ast.exprType* [public] left
+org.python.parser.ast.BinOp: *org.python.parser.ast.exprType* [public] right
+org.python.parser.ast.Call: *org.python.parser.ast.exprType* [public] func
+org.python.parser.ast.Compare: *org.python.parser.ast.exprType* [public] left
+org.python.parser.ast.Lambda: *org.python.parser.ast.exprType* [public] body
+org.python.parser.ast.ListComp: *org.python.parser.ast.exprType* [public] elt
+org.python.parser.ast.UnaryOp: *org.python.parser.ast.exprType* [public] operand
+java.lang.Object Fields:
+org.python.core.InternalTables1: *java.lang.Object* [protected] cur
+org.python.core.PyInstance: *java.lang.Object* javaProxy
+org.python.core.ReflectedCallData: *java.lang.Object* [public] self
+org.python.parser.ast.Num: *java.lang.Object* [public] n
+org.python.parser.IdentityNode: *java.lang.Object* [public] image
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.python.compiler.ArgListCompiler: *java.util.Vector* [public] names
+org.python.compiler.ArgListCompiler: *java.util.Vector* [public] fpnames
+org.python.compiler.ArgListCompiler: *java.util.Vector* [public] init_code
+org.python.compiler.ClassFile: *java.util.Vector* methods
+org.python.compiler.ClassFile: *java.util.Vector* fields
+org.python.compiler.ClassFile: *java.util.Vector* attributes
+org.python.compiler.Code: *java.util.Vector* labels
+org.python.compiler.Code: *java.util.Vector* exceptions
+org.python.compiler.CodeCompiler: *java.util.Hashtable* [public] tbl
+org.python.compiler.CodeCompiler: *java.util.Vector* [public] names
+org.python.compiler.CodeCompiler: *java.util.Stack* [public] continueLabels
+org.python.compiler.CodeCompiler: *java.util.Stack* [public] breakLabels
+org.python.compiler.CodeCompiler: *java.util.Stack* [public] exceptionHandlers
+org.python.compiler.CodeCompiler: *java.util.Vector* [public] yields
+org.python.compiler.CodeCompiler$ExceptionHandler: *java.util.Vector* [public] exceptionStarts
+org.python.compiler.CodeCompiler$ExceptionHandler: *java.util.Vector* [public] exceptionEnds
+org.python.compiler.ConstantPool: *java.util.Hashtable* constants
+org.python.compiler.LineNumberTable: *java.util.Vector* lines
+org.python.compiler.Module: *java.util.Hashtable* scopes
+org.python.compiler.Module: *java.util.Hashtable* constants
+org.python.compiler.Module: *java.util.Vector* codes
+org.python.compiler.ProxyMaker: *java.util.Hashtable* names
+org.python.compiler.ProxyMaker: *java.util.Hashtable* supernames
+org.python.compiler.ScopeInfo: *java.util.Hashtable* [public] tbl
+org.python.compiler.ScopeInfo: *java.util.Vector* [public] names
+org.python.compiler.ScopeInfo: *java.util.Hashtable* [public] inner_free
+org.python.compiler.ScopeInfo: *java.util.Vector* [public] cellvars
+org.python.compiler.ScopeInfo: *java.util.Vector* [public] jy_paramcells
+org.python.compiler.ScopeInfo: *java.util.Vector* [public] freevars
+org.python.compiler.ScopesCompiler: *java.util.Stack* [private] scopes
+org.python.compiler.ScopesCompiler: *java.util.Hashtable* [private] nodeScopes
+org.python.core.adapter.ExtensiblePyObjectAdapter: *java.util.List* [private] preClassAdapters
+org.python.core.adapter.ExtensiblePyObjectAdapter: *java.util.List* [private] postClassAdapters
+org.python.core.adapter.ExtensiblePyObjectAdapter: *java.util.Map* [private] classAdapters
+org.python.core.BytecodeLoader1: *java.util.Vector* [private] parents
+org.python.core.BytecodeLoader2: *java.util.Vector* [private] parents
+org.python.core.CachedJarsPackageManager: *java.util.Hashtable* [private] jarfiles
+org.python.core.IdImpl2$WeakIdentityMap: *java.util.HashMap* [private] hashmap
+org.python.core.InternalTables1: *java.util.Hashtable* [private] adapters
+org.python.core.InternalTables1: *java.util.Hashtable* [private] enumTable
+org.python.core.InternalTables2: *java.util.WeakHashMap* [protected] adapters
+org.python.core.ListProxy: *java.util.List* proxy
+org.python.core.MapProxy: *java.util.Map* proxy
+org.python.core.PathPackageManager: *org.python.core.PyList* [public] searchPath
+org.python.core.PyClass: *org.python.core.PyTuple* [public] __bases__
+org.python.core.PyClass: *java.util.HashMap* [protected] super__methods
+org.python.core.PyCompoundCallable: *java.util.Vector* [private] callables
+org.python.core.PyDictionary: *java.util.Hashtable* [protected] table
+org.python.core.PyEnumerate: *org.python.core.PyTuple* [private] en_result
+org.python.core.PySequenceList: *org.python.core.PyObjectList* [protected] list
+org.python.core.PySystemState: *org.python.core.PyList* [public] argv
+org.python.core.PySystemState: *org.python.core.PyList* [public] path
+org.python.core.PySystemState: *org.python.core.PyList* [public] meta_path
+org.python.core.PySystemState: *org.python.core.PyList* [public] path_hooks
+org.python.core.PyTuple$2: *org.python.core.PyTuple* [private] [final] this$0
+org.python.core.PyTuple$3: *org.python.core.PyTuple* [private] [final] this$0
+org.python.core.PyType: *java.util.HashSet* [private] subclasses
+org.python.core.ThreadState: *org.python.core.PyList* [public] reprStack
+org.python.core.ThreadState: *java.util.Stack* [private] initializingProxies
+org.python.core.VectorProxy: *java.util.Vector* proxy
+org.python.modules._weakref$GlobalRef: *java.util.Vector* [private] references
+org.python.modules.cPickle$Unpickler: *java.util.Hashtable* [public] memo
+org.python.modules.sets.BaseSet: *java.util.HashSet* [protected] _set
+org.python.modules.sets.PySetIterator: *java.util.Set* [private] _set
+org.python.parser.JJTPythonGrammarState: *java.util.Stack* [private] nodes
+org.python.parser.PythonGrammar: *java.util.Vector* [private] jj_expentries
+org.python.util.CommandLineOptions: *java.util.Properties* [public] properties
+org.python.util.CommandLineOptions: *java.util.Vector* [public] warnoptions
+
+ARRAYS REPORT
+=============
+
+org.python.compiler.ArgListCompiler: *org.python.parser.ast.exprType[]* [public] defaults [arraycopy]
+org.python.compiler.Code: *java.lang.String[]* locals [mod] [arraycopy]
+org.python.compiler.JavaMaker: *java.lang.String[]* [public] properties [no-stores]
+org.python.compiler.JavaMaker: *java.lang.String[]* [public] packages [no-stores]
+org.python.compiler.Method: *org.python.compiler.Attribute[]* atts [no-stores]
+org.python.compiler.ProxyMaker: *java.lang.Class[]* interfaces
+org.python.compiler.PyCodeConstant: *java.lang.String[]* [public] names [no-stores]
+org.python.compiler.PyCodeConstant: *java.lang.String[]* [public] cellvars [no-stores]
+org.python.compiler.PyCodeConstant: *java.lang.String[]* [public] freevars [no-stores]
+org.python.core.ArgParser: *org.python.core.PyObject[]* [private] args [arraycopy]
+org.python.core.ArgParser: *java.lang.String[]* [private] kws [arraycopy]
+org.python.core.ArgParser: *java.lang.String[]* [private] params [arraycopy]
+org.python.core.MergeState: *org.python.core.PyObject[]* [private] a [arraycopy]
+org.python.core.MergeState: *org.python.core.PyObject[]* [private] data [arraycopy]
+org.python.core.PyArrayDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyClassMethodDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyComplexDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyDictionaryDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyFileDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyFloatDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyFrame: *org.python.core.PyObject[]* [public] f_fastlocals
+org.python.core.PyFrame: *org.python.core.PyCell[]* [public] f_env
+org.python.core.PyFrame: *java.lang.Object[]* [public] f_savedlocals
+org.python.core.PyFunction: *org.python.core.PyObject[]* [public] func_defaults
+org.python.core.PyIdentityTuple: *org.python.core.PyObject[]* list [no-stores]
+org.python.core.PyIntegerDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyListDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyLongDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyModuleDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyObjectArray: *org.python.core.PyObject[]* [protected] baseArray [hashcode]
+org.python.core.PyObjectDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyPropertyDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyReflectedFunction: *org.python.core.ReflectedArgs[]* [public] argslist [arraycopy]
+org.python.core.PyStringDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyStringMap: *java.lang.String[]* [private] keys [mod] [arraycopy]
+org.python.core.PyStringMap: *org.python.core.PyObject[]* [private] values [mod] [arraycopy]
+org.python.core.PyStringMapIter: *java.lang.String[]* keyTable
+org.python.core.PyStringMapIter: *org.python.core.PyObject[]* valTable
+org.python.core.PySuperDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyTableCode: *java.lang.String[]* [public] co_varnames [arraycopy]
+org.python.core.PyTableCode: *java.lang.String[]* [public] co_cellvars [arraycopy]
+org.python.core.PyTableCode: *java.lang.String[]* [public] co_freevars [arraycopy]
+org.python.core.PyTupleDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyType: *org.python.core.PyObject[]* [private] bases [arraycopy]
+org.python.core.PyType: *org.python.core.PyObject[]* [private] mro [arraycopy]
+org.python.core.PyTypeDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.PyUnicodeDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.core.ReflectedArgs: *java.lang.Class[]* [public] args [arraycopy]
+org.python.core.ReflectedCallData: *java.lang.Object[]* [public] args [no-stores] [arraycopy]
+org.python.modules.cPickle$PickleMemo: *java.lang.Object[]* [private] values [mod]
+org.python.modules.cPickle$Unpickler: *org.python.core.PyObject[]* [private] stack [mod] [arraycopy]
+org.python.modules.FunctionThread: *org.python.core.PyObject[]* args [no-stores]
+org.python.modules.sets.PyImmutableSetDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.modules.sets.PySetDerived: *org.python.core.PyObject[]* [private] slots [hashcode]
+org.python.parser.ast.argumentsType: *org.python.parser.ast.exprType[]* [public] args [no-stores]
+org.python.parser.ast.argumentsType: *org.python.parser.ast.exprType[]* [public] defaults [no-stores]
+org.python.parser.ast.Assign: *org.python.parser.ast.exprType[]* [public] targets [no-stores]
+org.python.parser.ast.BoolOp: *org.python.parser.ast.exprType[]* [public] values [no-stores]
+org.python.parser.ast.Call: *org.python.parser.ast.exprType[]* [public] args [no-stores]
+org.python.parser.ast.Call: *org.python.parser.ast.keywordType[]* [public] keywords [no-stores]
+org.python.parser.ast.ClassDef: *org.python.parser.ast.exprType[]* [public] bases [no-stores]
+org.python.parser.ast.ClassDef: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.Compare: *org.python.parser.ast.exprType[]* [public] comparators [no-stores]
+org.python.parser.ast.Delete: *org.python.parser.ast.exprType[]* [public] targets [no-stores]
+org.python.parser.ast.Dict: *org.python.parser.ast.exprType[]* [public] keys [no-stores]
+org.python.parser.ast.Dict: *org.python.parser.ast.exprType[]* [public] values [no-stores]
+org.python.parser.ast.excepthandlerType: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.ExtSlice: *org.python.parser.ast.sliceType[]* [public] dims [no-stores]
+org.python.parser.ast.For: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.For: *org.python.parser.ast.stmtType[]* [public] orelse [no-stores]
+org.python.parser.ast.FunctionDef: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.Global: *java.lang.String[]* [public] names [no-stores]
+org.python.parser.ast.If: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.If: *org.python.parser.ast.stmtType[]* [public] orelse [no-stores]
+org.python.parser.ast.Import: *org.python.parser.ast.aliasType[]* [public] names [no-stores]
+org.python.parser.ast.ImportFrom: *org.python.parser.ast.aliasType[]* [public] names [no-stores]
+org.python.parser.ast.Interactive: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.List: *org.python.parser.ast.exprType[]* [public] elts [no-stores]
+org.python.parser.ast.ListComp: *org.python.parser.ast.listcompType[]* [public] generators [no-stores]
+org.python.parser.ast.listcompType: *org.python.parser.ast.exprType[]* [public] ifs [no-stores]
+org.python.parser.ast.Module: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.Print: *org.python.parser.ast.exprType[]* [public] values [no-stores]
+org.python.parser.ast.Suite: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.TryExcept: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.TryExcept: *org.python.parser.ast.excepthandlerType[]* [public] handlers [no-stores]
+org.python.parser.ast.TryExcept: *org.python.parser.ast.stmtType[]* [public] orelse [no-stores]
+org.python.parser.ast.TryFinally: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.TryFinally: *org.python.parser.ast.stmtType[]* [public] finalbody [no-stores]
+org.python.parser.ast.Tuple: *org.python.parser.ast.exprType[]* [public] elts [no-stores]
+org.python.parser.ast.While: *org.python.parser.ast.stmtType[]* [public] body [no-stores]
+org.python.parser.ast.While: *org.python.parser.ast.stmtType[]* [public] orelse [no-stores]
+org.python.parser.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+org.python.parser.PythonGrammar: *org.python.parser.PythonGrammar$JJCalls[]* [private] [final] jj_2_rtns
+org.python.util.CommandLineOptions: *java.lang.String[]* [public] argv
+
+N-CYCLES
+========
+[org/python/core/PyType, org/python/core/PyObject]
+[org/python/core/PySystemState, org/python/util/PythonInterpreter]
+[org/python/core/PyFrame, org/python/core/PyTraceback, org/python/core/PyException]
+[org/python/core/PackageManager, org/python/core/PyJavaPackage]
+[org/python/core/PyFile$Closer, org/python/core/PyFile]
+[org/python/compiler/LineNumberTable, org/python/compiler/Code]
+[org/python/compiler/Constant, org/python/compiler/Module]
+[org/python/parser/TreeBuilder, org/python/parser/JJTPythonGrammarState]
+[org/python/core/PyArray$ArrayDelegate, org/python/core/PyArray]
+[org/python/core/ZipFileImporter, org/python/core/ZipFileImporter$ZipModuleInfo]

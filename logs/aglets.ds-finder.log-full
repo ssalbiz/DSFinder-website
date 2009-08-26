@@ -1,0 +1,142 @@
+DSFinder has run for 0 min. 4 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+com.ibm.aglet.Message: *java.lang.Object* [protected] arg
+com.ibm.aglet.MessageException: *java.lang.Throwable* [private] _exception
+com.ibm.aglet.system.ContextEvent: *java.lang.Object* [public] arg
+com.ibm.aglets.AgletContextImpl: *java.lang.Object* [private] creationLock
+com.ibm.aglets.LocalAgletRef: *java.lang.Object* [private] lock
+com.ibm.aglets.tahiti.LoginDialog: *java.lang.Object* lock
+com.ibm.aglets.tahiti.SecurityConfigPanel: *java.awt.Panel* setting_panel
+com.ibm.maf.MessageEx: *java.lang.Throwable* _exception
+
+Linked List-like Data Structures:
+com.ibm.aglets.DeactivationInfo: next
+com.ibm.aglets.MessageImpl: next
+com.ibm.aglets.tahiti.CacheManager$LinkedList$ListElem: next/prev
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+com.ibm.atp.ContentOutputStream: *java.io.OutputStream* [protected] _out
+com.ibm.awb.misc.LogStream: *java.io.OutputStream* [private] _logStream
+com.ibm.awb.misc.TeeOutputStream: *java.io.OutputStream* [private] out1
+com.ibm.awb.misc.TeeOutputStream: *java.io.OutputStream* [private] out2
+com.ibm.maf.atp.HttpResponseOutputStream: *java.io.OutputStream* [private] _out
+java.lang.Object Fields:
+com.ibm.aglets.FutureReplyImpl: *java.lang.Object* result
+com.ibm.aglets.FutureReplyImpl: *java.lang.Object* set
+com.ibm.maf.rmi.LocationInfo: *java.lang.Object* [private] _info
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+com.ibm.aglet.event.AgletEventListener: *java.util.Vector* vector
+com.ibm.aglet.ReplySet: *java.util.Vector* [private] done
+com.ibm.aglet.ReplySet: *java.util.Vector* [private] unavailable
+com.ibm.aglet.security.Protections: *java.util.Vector* [private] pset
+com.ibm.aglets.AgletContextImpl: *java.util.Hashtable* [private] _agletProxies
+com.ibm.aglets.AgletContextImpl: *java.util.Properties* _contextProperties
+com.ibm.aglets.AgletContextImpl: *java.util.Hashtable* [private] images
+com.ibm.aglets.AgletContextImpl: *java.util.Hashtable* [private] clips
+com.ibm.aglets.AgletContextImpl$EventRunner: *java.util.Vector* events
+com.ibm.aglets.AgletOutputStream: *java.util.Vector* [private] classes
+com.ibm.aglets.MessageManagerImpl: *java.util.Stack* [private] threadSpool
+com.ibm.aglets.MessageManagerImpl: *java.util.Hashtable* [private] priorityTable
+com.ibm.aglets.MessageManagerImpl: *java.util.Vector* [private] activationTable
+com.ibm.aglets.security.ContextPermission: *java.util.Vector* [private] _actionList
+com.ibm.aglets.security.PlainMessagePermission: *java.util.Vector* [private] _messages
+com.ibm.aglets.security.PolicyDB: *java.util.Vector* [private] _grants
+com.ibm.aglets.security.PolicyGrant: *java.util.Vector* [private] _signers
+com.ibm.aglets.security.PolicyGrant: *java.util.Vector* [private] _owners
+com.ibm.aglets.security.PolicyGrant: *java.util.Vector* [private] _permissions
+com.ibm.aglets.security.PolicyPermission: *java.util.Vector* [private] _signers
+com.ibm.aglets.SubscriberManager: *java.util.Hashtable* [private] dependent
+com.ibm.aglets.tahiti.AgletClassLoader: *java.util.Hashtable* [private] _resolvedClassCache
+com.ibm.aglets.tahiti.AgletClassLoader: *java.util.Vector* [private] _resources
+com.ibm.aglets.tahiti.CacheManager: *java.util.Hashtable* [private] _pool
+com.ibm.aglets.tahiti.CacheManager$LinkedList: *java.util.Hashtable* tab
+com.ibm.aglets.tahiti.CommandLine: *java.util.Hashtable* [private] aglets
+com.ibm.aglets.tahiti.EditorPanel: *java.util.Vector* [private] _args
+com.ibm.aglets.tahiti.MainWindow: *java.util.Vector* [private] _itemList
+com.ibm.aglets.tahiti.MainWindow: *java.util.Hashtable* text
+com.ibm.aglets.tahiti.MultiList: *java.util.Vector* _listeners
+com.ibm.aglets.tahiti.MyPanel: *java.util.Vector* v
+com.ibm.aglets.tahiti.ResourceManagerFactory: *java.util.Hashtable* [private] _map
+com.ibm.aglets.tahiti.ResourceManagerImpl: *java.util.Vector* [private] _resources
+com.ibm.aglets.tahiti.SecurityConfigDialog: *java.util.Hashtable* privileges
+com.ibm.aglets.tahiti.TahitiDaemon: *java.util.Hashtable* [private] aglets
+com.ibm.atp.auth.AuthPacket: *java.util.Vector* [private] _domains
+com.ibm.atp.auth.SharedSecrets: *java.util.Vector* [private] _secrets
+com.ibm.awb.misc.Archive: *java.util.Hashtable* cache
+com.ibm.awb.misc.Manifest: *java.util.Vector* [private] aglets
+com.ibm.awb.misc.Manifest: *java.util.Hashtable* [private] sections
+com.ibm.awb.misc.Resource: *java.util.Properties* [private] option
+com.ibm.awb.misc.Resource: *java.util.Properties* [private] defaults
+com.ibm.awb.misc.Resource: *java.util.Properties* [private] persistent
+com.ibm.awb.misc.StringList: *java.util.Vector* [private] _list
+com.ibm.awb.weakref.WeakRefTable: *java.util.Hashtable* [private] _ref_table
+com.ibm.maf.atp.AtpConnectionImpl: *java.util.Hashtable* request_properties
+com.ibm.maf.atp.AtpConnectionImpl: *java.util.Hashtable* [private] headers
+com.ibm.maf.atp.AtpRequestImpl: *java.util.Hashtable* [private] headers
+com.ibm.maf.atp.ConnectionHandler: *java.util.Hashtable* [private] headers
+com.ibm.maf.atp.Daemon: *java.util.Hashtable* [private] _handlerCache
+com.ibm.maf.atp.HttpCGIRequestImpl: *java.util.Hashtable* [private] headers
+com.ibm.maf.atp.MAFAgentSystem_ATPClient: *java.util.Hashtable* handlers
+com.ibm.maf.rmi.MAFFinder_RMIImpl: *java.util.Hashtable* [private] _agent_systems
+com.ibm.maf.rmi.MAFFinder_RMIImpl: *java.util.Hashtable* [private] _places
+com.ibm.maf.rmi.MAFFinder_RMIImpl: *java.util.Hashtable* [private] _agents
+com.ibm.net.protocol.atp.URLConnectionForATP: *java.util.Properties* request_properties
+com.ibm.net.protocol.atp.URLConnectionForATP: *java.util.Properties* [private] headers
+com.ibm.net.protocol.rmi.URLConnectionForRMI: *java.util.Properties* request_properties
+com.ibm.net.protocol.rmi.URLConnectionForRMI: *java.util.Properties* [private] headers
+
+ARRAYS REPORT
+=============
+
+com.ibm.aglets.AgletWriter: *com.ibm.maf.ClassName[]* _table [no-stores]
+com.ibm.aglets.MAFAgentSystem_AgletsImpl$2: *com.ibm.maf.ClassName[]* [final] val$cn [no-stores]
+com.ibm.aglets.tahiti.DigestTable: *java.lang.String[]* names [arraycopy]
+com.ibm.aglets.tahiti.DisposeAgletDialog: *com.ibm.aglet.AgletProxy[]* [private] _proxies
+com.ibm.aglets.tahiti.GeneralConfigDialog: *java.lang.String[]* [private] fontList
+com.ibm.aglets.tahiti.GeneralConfigDialog: *java.lang.String[]* [private] styleList
+com.ibm.aglets.tahiti.GeneralConfigDialog: *java.lang.String[]* [private] sizeList
+com.ibm.aglets.tahiti.GeneralConfigDialog: *java.lang.String[]* [private] keyItemList
+com.ibm.aglets.tahiti.GeneralConfigDialog: *java.lang.String[]* [private] orderList
+com.ibm.aglets.tahiti.GeneralConfigDialog: *java.lang.String[]* [private] precisionList
+com.ibm.aglets.tahiti.KeyEnumerator: *java.lang.String[]* filelist [no-stores]
+com.ibm.aglets.tahiti.KeyEnumerator$2: *java.lang.String[]* [final] val$fFilelist [no-stores]
+com.ibm.aglets.tahiti.MainWindow$3: *java.lang.String[]* [final] val$cmdarray [no-stores]
+com.ibm.aglets.tahiti.MultiList: *java.awt.List[]* _lists
+com.ibm.aglets.tahiti.MultiList: *java.lang.String[]* _selectedItems
+com.ibm.aglets.tahiti.MultiListEditable: *java.awt.TextField[]* _textFields
+com.ibm.aglets.tahiti.ResourceManagerFactory$2: *java.lang.String[]* [final] val$pl [no-stores]
+com.ibm.aglets.tahiti.RetractAgletDialog: *com.ibm.aglet.AgletProxy[]* proxies [no-stores]
+com.ibm.maf.AgentProfile: *java.lang.Object[]* [public] properties [no-stores]
+com.ibm.maf.AgentSystemInfo: *com.ibm.maf.LanguageMap[]* [public] language_maps [no-stores]
+com.ibm.maf.AgentSystemInfo: *java.lang.Object[]* [public] properties [no-stores]
+com.ibm.maf.atp.MAFAgentSystem_ATPClient$1: *com.ibm.maf.ClassName[]* [final] val$fClassNames [no-stores]
+com.ibm.maf.rmi.MAFAgentSystem_RMIClient$1: *java.lang.Object[]* [final] val$fArguments [no-stores]
+com.ibm.maf.rmi.MAFAgentSystem_RMIClient$1: *com.ibm.maf.ClassName[]* [final] val$fClassNames [no-stores]
+com.ibm.maf.rmi.MAFAgentSystem_RMIClient$11: *com.ibm.maf.ClassName[]* [final] val$fClassNames [no-stores]
+com.ibm.maf.rmi.MAFAgentSystem_RMIClient$2: *com.ibm.maf.ClassName[]* [final] val$fClassNameList [no-stores]
+
+N-CYCLES
+========
+[com/ibm/aglets/AgletContextImpl$EventRunner, com/ibm/aglets/DeactivationInfo, com/ibm/aglets/AgletTimer, com/ibm/aglets/AgletContextImpl, com/ibm/aglets/AgletThread, com/ibm/aglets/MessageImpl, com/ibm/aglets/MessageQueue, com/ibm/aglets/MessageManagerImpl, com/ibm/aglets/LocalAgletRef]
+[com/ibm/aglets/tahiti/AgletThreadGroup, com/ibm/aglets/tahiti/ResourceManagerImpl]
+[com/ibm/aglets/tahiti/CacheManager$Entry, com/ibm/aglets/tahiti/CacheManager$LinkedList$ListElem, com/ibm/aglets/tahiti/CacheManager$LinkedList, com/ibm/aglets/tahiti/CacheManager]
+[com/ibm/aglets/tahiti/Tahiti, com/ibm/aglets/tahiti/MainWindow]
+[com/ibm/aglets/tahiti/GrantEditPanel, com/ibm/aglets/tahiti/SecurityConfigDialog]
+[com/ibm/aglet/util/AddressChooser, com/ibm/aglet/util/AddressBook]

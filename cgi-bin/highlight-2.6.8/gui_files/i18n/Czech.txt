@@ -1,0 +1,118 @@
+# Traslated by/Pøeloil Petr Sladek (alias slady) http://slady.net/ 25. 4. 2004
+
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+M001=&Otevøít
+M002=&Konec
+
+M003=&Nápovìda
+M004=&Licence
+M005=&Zmìny
+M006=&O programu...
+M007=&Soubor
+M008=&Jazyk
+M009=&Tips
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load &default project
+
+L001=Vyberte soubory
+L004=Výstupní formát
+L005=Vloit CSS do výstupu
+L006=Pøidat odkazy na øádky
+L011=Soubor k vloení do
+L009=Odkazovaný soubor CSS:
+L010=Barevné schéma:
+L013=Vloit èísla øádek
+L014=Vynechat hlavièku a patièku
+L008=Generovat indexový soubor
+L015=Pøevést soubory
+L022=Vybrat soubor
+L002=Výstupní adresáø
+L007=Pøeformátovat:
+L025=Chyba
+L026=Restartujte Highlight, prosím...
+L027=Rozdìlit dlouhé øádky
+L028=Intelligent wrap
+L029=Escape quotes
+L030=Tab width:
+L031=Fill with zeroes
+L032=Write to source directories
+L033=Remove selection
+L034=Error summary
+L035=style
+L036=Encoding:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L048=Inline CSS
+L050=Enclose in <pre>
+
+L019=Info
+L023=Zpracováno: %d souborù za %ld ms.
+L003=Smazat seznam souborù
+L016=<nejsou vybrané ádné soubory>
+L020=Zvolta platný výstupní adresáø.
+L021=Vyberte soubor pro výstup CSS.
+E000=Je moné pøeformátovat pouze soubory ve stylu C, C++, C# a Java.
+E001=Chyba pøi spoutìní Notepad.exe
+E002=Jazyková definice %s.lang nenalezena!
+E003=Could not open:
+E004=Nelze zapsat do souboru:
+E005=Chyba instalace. Soubory témat nelze naèíst.
+E006=Chyba pøi zápisu nastavení!
+E007=Nelze vytvoøit indexový soubor.
+E008=Could not read file extensions. Bad installation.
+E009=Could not read indentation schemes. Check installation.
+E010=Could not reformat:
+
+
+T001=Pøidejte zdrojové soubory ke konverzi. Je moné pouít drag and drop.
+T002=Zvolte výstupní adresáø.
+T003=Zvolte výstupní soubor CSS, který bude obsaen v definici CSS.
+T004=Smazat seznam vstupních souborù.
+T005=Jméno výstupního souboru CSS.
+T006=Cesta k vstupnímu souboru CSS.
+T007=Cesta k výstupnímu adresáøi.
+T008=Vloit definici CSS do výstupního souboru.
+T009=Vynechat hlavièku a patièku výstupního souboru.
+T010=Pøidat èísla øádek.
+T011=Pøidat HTML odkazy k èíslùm øádek.
+T012=Pøeformátovat a zmìnit odsazení zdrojákù C, C++, C# a Javy.
+T013=Zvolte jeden z výstupních formátù.
+T014=Spuste konverzi vstupních souborù.
+T015=Vytvoøit indexový soubor s hyperodkazy na výstupní soubory.
+T016=Zvolte styl formátování a odsazení.
+T017=Zvolte si barevné téma.
+T018=Rozdìlit øádky delí ne 80 znakù (v pøípadì zapnutého èíslování øádkù jen 75 znakù).
+T019=Wrap lines and indent statements and function parameters.
+T020=Escape quotes with \dq. Useful when using the German package in LaTeX.
+T021=Replace tabs by chosen number of spaces (do not replace if value equals zero).
+T022=Fill leading space of line numbers with zeroes.
+T023=Save output in the directories of the input files.
+T024=Remove selected entries from input file list.
+T025=Use an output encoding, which matches the input file encoding.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T035=Enclose fragmented output in pre tag.
+
+L024=Program pøipraven.
+L017=Zpracovávám soubory...

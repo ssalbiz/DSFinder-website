@@ -1,0 +1,14 @@
+Highlight pode ser executado com arquivos de entrada como parâmetros da linha de comando.
+Você pode arrastar e soltar arquivos de entrada dentro da janela do Highlight.
+Você pode converter vários tipos de código fonte de uma vez.
+Você sempre deve usar arquivos CSS referenciados em HTML, para ter a definição de estilo num único local.
+Use a opção "Aspas como seqüência de escape LaTeX" para gerar código LaTeX, o qual pode ser usado no pacote Alemão.
+Crie saída RTF para usá-la em aplicativos de processamento de textos.
+Com quebra de linha ativada, Highlight irá indentar parâmetros de função e atribuições que ocorram em linhas muito longas.
+Use a opção "Omitir cabeçalho e rodapé" para gerar fragmentos de código que podem ser incluídos nos documentos existentes.
+A opção "Aspas como seqüência de escape LaTeX" fica disponível se "Omitir cabeçalho e rodapé" e saída LaTeX estão ativadas.
+Você pode incluir suas próprias definicões CSS na saída CSS final.
+Você pode definir novos temas de cor e definições de linguagens. Veja o README do Highlight para instruções.
+A opção "Reformatar" permiti uma formatação consistente do código C, C++, Java e C Sharp.
+Use a opção "Incluir nome do arquivo nas âncoras HTML" se você planeja mesclar vários arquivos num único documento HTML.
+Veja a página na web do Highlight para versões de linha de comando (Win32 e Unix buils).

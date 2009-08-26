@@ -1,0 +1,31 @@
+# BISON language definition file
+#
+# Author: Andre Simon
+#   Mail: andre.simon1@gmx.de
+#   Date: 15.04.2004
+# ------------------------------------------
+# This file is a part of highlight, a free source code converter released under the GPL.
+#
+# The file is used to describe keywords and special symbols of programming languages.
+# See README in the highlight directory for details.
+#
+# New definition files for future releases of highlight are always appreciated ;)
+#
+# ----------
+# andre.simon1@gmx.de
+# http:/www.andre-simon.de/
+
+$DESCRIPTION=Bison
+
+$KW_LIST(kwa)=error YYABORT YYACCEPT YYBACKUP YYERROR YYERROR_VERBOSE YYINITDEPTH YYLEX_PARAM 
+YYLTYPE yyltype YYMAXDEPTH YYPARSE_PARAM YYRECOVERING YYSTACK_USE_ALLOCA YYSTYPE
+yychar yyclearin yydebug yyerrok yyerror yylex yylval yylloc yynerrs yyparse
+
+#$KW_PREFIX(kwb)=%
+$KW_RE(kwb)=regex(%\S+)
+
+$ML_COMMENT=/* */
+
+$IGNORECASE=false
+
+$SYMBOLS= ( ) [ ] { } , ; : & | < > !  = / * + -

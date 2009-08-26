@@ -1,0 +1,91 @@
+DSFinder has run for 0 min. 21 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/iReport-3.0.0-src//classes:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/iReport-3.0.0-src//lib/JasperBabylon-1.0.0.jar:/home/albiz/dev/iReport-3.0.0-src//lib/antlr-2.7.5.jar:/home/albiz/dev/iReport-3.0.0-src//lib/asm-attrs.jar:/home/albiz/dev/iReport-3.0.0-src//lib/asm.jar:/home/albiz/dev/iReport-3.0.0-src//lib/barbecue-1.5-beta1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-anim.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-awt-util.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-bridge.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-css.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-dom.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-ext.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-gvt.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-parser.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-script.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-svg-dom.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-svggen.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-util.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-xml.jar:/home/albiz/dev/iReport-3.0.0-src//lib/bsh-2.0b4.jar:/home/albiz/dev/iReport-3.0.0-src//lib/cglib-2.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/cincom-jr-xmla.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-beanutils-1.7.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-codec-1.3.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-collections-2.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-dbcp-1.2.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-digester-1.7.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-httpclient-3.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-javaflow-20060411.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-logging-1.0.2.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-logging-api-1.0.2.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-math-1.0.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-pool-1.3.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-vfs-1.0.jar:/home/albiz/dev/iReport-3.0.0-src//lib/dom4j-1.6.jar:/home/albiz/dev/iReport-3.0.0-src//lib/ehcache-1.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/eigenbase-properties.jar:/home/albiz/dev/iReport-3.0.0-src//lib/eigenbase-resgen.jar:/home/albiz/dev/iReport-3.0.0-src//lib/eigenbase-xom.jar:/home/albiz/dev/iReport-3.0.0-src//lib/flexdock-0.4.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/groovy-all-1.5.5.jar:/home/albiz/dev/iReport-3.0.0-src//lib/hibernate3.jar:/home/albiz/dev/iReport-3.0.0-src//lib/hsqldb-1.7.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/iTextAsian.jar:/home/albiz/dev/iReport-3.0.0-src//lib/itext-1.3.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jakarta-bcel-20050813.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jasperreports-3.0.0.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jasperreports-extensions-1.3.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jasperreports-flash-2.0.5.jar:/home/albiz/dev/iReport-3.0.0-src//lib/javacup.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jaxen-1.1.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jcmdline-1.0.2.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jcommon-1.0.0.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jdt-compiler-3.1.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jfreechart-1.0.3.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jpa.jar:/home/albiz/dev/iReport-3.0.0-src//lib/js_activation-1.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/js_axis-1.4patched.jar:/home/albiz/dev/iReport-3.0.0-src//lib/js_commons-discovery-0.2.jar:/home/albiz/dev/iReport-3.0.0-src//lib/js_jasperserver-common-ws-3.0.0.jar:/home/albiz/dev/iReport-3.0.0-src//lib/js_jasperserver-ireport-plugin-3.0.0.jar:/home/albiz/dev/iReport-3.0.0-src//lib/js_jaxrpc.jar:/home/albiz/dev/iReport-3.0.0-src//lib/js_mail-1.4.jar:/home/albiz/dev/iReport-3.0.0-src//lib/js_wsdl4j-1.5.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jsmoothgen-ant-0.9.7.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jta.jar:/home/albiz/dev/iReport-3.0.0-src//lib/jxl-2.6.jar:/home/albiz/dev/iReport-3.0.0-src//lib/log4j-1.2.9.jar:/home/albiz/dev/iReport-3.0.0-src//lib/looks-2.0-rc.jar:/home/albiz/dev/iReport-3.0.0-src//lib/microba-0.4.1-bin.jar:/home/albiz/dev/iReport-3.0.0-src//lib/mondrian-2.3.2.8944.jar:/home/albiz/dev/iReport-3.0.0-src//lib/mxmlc.jar:/home/albiz/dev/iReport-3.0.0-src//lib/mysql-connector-java-3.1.11-bin.jar:/home/albiz/dev/iReport-3.0.0-src//lib/nsisant-1.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/png-encoder-1.5.jar:/home/albiz/dev/iReport-3.0.0-src//lib/poi-3.0.1-FINAL-20070705.jar:/home/albiz/dev/iReport-3.0.0-src//lib/rex-20080421.jar:/home/albiz/dev/iReport-3.0.0-src//lib/saaj-api-1.3.jar:/home/albiz/dev/iReport-3.0.0-src//lib/servlet.jar:/home/albiz/dev/iReport-3.0.0-src//lib/spring-2.0-m2.jar:/home/albiz/dev/iReport-3.0.0-src//lib/spring-context-2.0-m2.jar:/home/albiz/dev/iReport-3.0.0-src//lib/spring-hibernate3-2.0-m2.jar:/home/albiz/dev/iReport-3.0.0-src//lib/sqleonardo-2007.03.jar:/home/albiz/dev/iReport-3.0.0-src//lib/swingx-2007_05_13.jar:/home/albiz/dev/iReport-3.0.0-src//lib/tinylaf.jar:/home/albiz/dev/iReport-3.0.0-src//lib/toniclf.jar:/home/albiz/dev/iReport-3.0.0-src//lib/xalan.jar:/home/albiz/dev/iReport-3.0.0-src//lib/xercesImpl.jar:/home/albiz/dev/iReport-3.0.0-src//lib/xml-apis-ext.jar:/home/albiz/dev/iReport-3.0.0-src//lib/xml-apis.jar:/home/albiz/dev/iReport-3.0.0-src//lib/proxool-0.8.3.jar:/home/albiz/dev/iReport-3.0.0-src//lib/xstream-1.2.jar:/home/albiz/dev/iReport-3.0.0-src//lib/skinlf-1.2.3.jar:/home/albiz/dev/iReport-3.0.0-src//lib/j2ee-1.4.jar:/home/albiz/dev/iReport-3.0.0-src//lib/velocity-1.5.jar:/home/albiz/dev/iReport-3.0.0-src//lib/batik-transcoder-1.6.jar:/home/albiz/dev/iReport-3.0.0-src//lib/c3p0-0.9.1.jar:/home/albiz/dev/iReport-3.0.0-src//lib/commons-lang-2.3.jar:/home/albiz/dev/iReport-3.0.0-src//lib/asm-util.jar:/home/albiz/dev/iReport-3.0.0-src//lib/xpp3-1.1.2a.jar, -p, --include=it/, --title=/home/albiz/dev/sootOutput/logs/ireport.ds-finder.log, it.businesslogic.ireport.gui.MainFrame]
+Processed 2451 non-library classes (19973 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						0
+Parents/outers						3
+Others (19 java.lang.Object, 2 non-Object fields)	21
+ exact matching fields					1
+
+Distinct classes containing linked lists and parents:	3
+
+N-cycles						10
+
+Arrays							33
+	 read-only:					6
+	 w/arraycopy:					0
+	 hashtable-like:				2
+	 (error bars:) [3]				0
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.Vector					105
+java.util.List						39
+java.util.HashMap					20
+java.util.Properties					10
+java.util.Map						5
+Others							4
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+it.businesslogic.ireport.ReportElement			15
+it.businesslogic.ireport.JasperTemplate			4
+it.businesslogic.ireport.util.TreeNode			1
+Others							0
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.Vector					590
+java.util.ArrayList					218
+java.util.HashMap					120
+java.util.Properties					40
+java.util.HashSet					6
+Others							6
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+it.businesslogic.ireport.JasperTemplate			4
+it.businesslogic.ireport.util.TreeNode			3
+it.businesslogic.ireport.ReportElement			2
+Others							0
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			7
+Collections are potential data structures		112
+
+ total it.*						5
+
+java.lang.String					2
+java.lang.Object					0
+Ad-Hoc types:
+=============
+it.businesslogic.ireport.JasperTemplate			2
+it.businesslogic.ireport.TemplateStyle			1
+...usinesslogic.ireport.gui.box.BorderSelectionListener	1
+...sslogic.ireport.gui.box.BoxBorderSelectionPanel$Side	1
+Others							0
+
+System types:
+==============
+java.lang.String					2
+java.awt.event.ActionListener				1
+Others							0
+
+TEMPLATE PARAMETERS					0
+UNKNOWN							182
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

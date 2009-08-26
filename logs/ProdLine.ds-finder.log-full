@@ -1,0 +1,38 @@
+DSFinder has run for 0 min. 3 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+GPL.Vertex: [public] representative
+Non-Object Fields:
+GPL.Neighbor: *GPL.Edge* [public] edge
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+GPL.Graph: *java.util.LinkedList* [public] edges
+==
+GPL.Graph: *java.util.LinkedList* [public] vertices
+GPL.Vertex: *java.util.LinkedList* [public] members
+GPL.Vertex: *java.util.LinkedList* [public] neighbors
+
+ARRAYS REPORT
+=============
+
+
+N-CYCLES
+========

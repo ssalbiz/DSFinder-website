@@ -1,0 +1,51 @@
+DSFinder has run for 0 min. 2 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.bardsoftware.impl.eclipsito.WebStartBootImpl$1: *java.security.Policy* [private] [final] val$defaultPolicy
+java.lang.Object Fields:
+org.bardsoftware.impl.eclipsito.ExtensionImpl$ConfigurationElementImpl: *java.lang.Object* [private] myParent
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.bardsoftware.impl.eclipsito.BundleClassLoader: *java.util.ArrayList* [private] myParentBundles
+org.bardsoftware.impl.eclipsito.ExtensionImpl$ConfigurationElementImpl: *java.util.HashMap* [private] myAttributes
+org.bardsoftware.impl.eclipsito.JobManagerImpl: *java.util.Map* [private] myGroup_Jobs
+org.bardsoftware.impl.eclipsito.JobManagerImpl$GroupWorker: *java.util.LinkedList* myJobs
+org.bardsoftware.impl.eclipsito.PluginDescriptor: *java.util.ArrayList* [private] myRuntimeLibraries
+org.bardsoftware.impl.eclipsito.PluginDescriptor: *java.util.ArrayList* [private] myRequiredPlugins
+org.bardsoftware.impl.eclipsito.PluginDescriptor: *java.util.ArrayList* [private] myExtensions
+org.bardsoftware.impl.eclipsito.PluginDescriptor: *java.util.ArrayList* [private] myExtensionPoints
+org.bardsoftware.impl.eclipsito.ServiceReferenceImpl: *java.util.Map* [private] [final] myProperties
+
+ARRAYS REPORT
+=============
+
+org.bardsoftware.impl.eclipsito.BootImpl$2: *java.lang.String[]* [private] [final] val$args [no-stores]
+org.bardsoftware.impl.eclipsito.DependencyResolver: *org.bardsoftware.impl.eclipsito.DependencyResolver$MarkedDescriptor[]* [private] [final] myMarkedDescriptors
+org.bardsoftware.impl.eclipsito.ExtensionImpl: *org.eclipse.core.runtime.IConfigurationElement[]* [private] myConfigurationElements [no-stores]
+org.bardsoftware.impl.eclipsito.ExtensionImpl$ConfigurationElementImpl: *org.eclipse.core.runtime.IConfigurationElement[]* [private] myChildren [no-stores]
+org.bardsoftware.impl.eclipsito.ExtensionPointImpl: *org.eclipse.core.runtime.IExtension[]* [private] [final] myExtensions [no-stores]
+org.bardsoftware.impl.eclipsito.ExtensionRegistryImpl: *org.eclipse.core.runtime.IExtensionPoint[]* [private] [final] myExtensionPoints [no-stores]
+org.bardsoftware.impl.eclipsito.PlatformImpl: *org.osgi.framework.Bundle[]* [private] myBundles
+org.bardsoftware.impl.eclipsito.ServiceReferenceImpl: *org.osgi.framework.Bundle[]* [private] [final] myUsingBundles [no-stores]
+
+N-CYCLES
+========

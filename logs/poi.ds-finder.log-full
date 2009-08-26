@@ -1,0 +1,205 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.poi.hpsf.HPSFException: *java.lang.Throwable* [private] reason
+org.apache.poi.hpsf.HPSFRuntimeException: *java.lang.Throwable* [private] reason
+org.apache.poi.hpsf.Property: *java.lang.Object* [protected] value
+org.apache.poi.hpsf.VariantTypeException: *java.lang.Object* [private] value
+org.apache.poi.hssf.eventusermodel.HSSFUserException: *java.lang.Throwable* [private] reason
+org.apache.poi.hssf.usermodel.DummyGraphics2d: *java.awt.Graphics2D* [private] g2D
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+org.apache.poi.hssf.usermodel.HSSFShape: parent
+org.apache.poi.poifs.filesystem.EntryNode: *org.apache.poi.poifs.filesystem.DirectoryNode* [private] _parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.apache.poi.hpsf.SpecialPropertySet: *org.apache.poi.hpsf.MutablePropertySet* [private] delegate
+org.apache.poi.hssf.record.RecordInputStream: *java.io.InputStream* [private] in
+org.apache.poi.poifs.filesystem.DocumentOutputStream: *java.io.OutputStream* [private] stream
+org.apache.poi.poifs.filesystem.POIFSFileSystem$CloseIgnoringInputStream: *java.io.InputStream* [private] [final] _is
+org.apache.poi.util.BlockingInputStream: *java.io.InputStream* [protected] is
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.apache.poi.ddf.EscherContainerRecord: *java.util.List* [private] childRecords
+org.apache.poi.ddf.UnknownEscherRecord: *java.util.List* [private] childRecords
+org.apache.poi.poifs.property.DirectoryProperty: *java.util.List* [private] _children
+org.apache.poi.poifs.property.DirectoryProperty: *java.util.Set* [private] _children_names
+==
+org.apache.poi.ddf.EscherOptRecord: *java.util.List* [private] properties
+org.apache.poi.hpsf.CustomProperties: *java.util.Map* [private] dictionaryIDToName
+org.apache.poi.hpsf.CustomProperties: *java.util.Map* [private] dictionaryNameToID
+org.apache.poi.hpsf.MutableSection: *java.util.List* [private] preprops
+org.apache.poi.hpsf.PropertySet: *java.util.List* [protected] sections
+org.apache.poi.hpsf.Section: *java.util.Map* [protected] dictionary
+org.apache.poi.hssf.dev.BiffViewer$BiffRecordListener: *java.util.List* [private] [final] _headers
+org.apache.poi.hssf.eventmodel.ModelFactory: *java.util.List* listeners
+org.apache.poi.hssf.eventusermodel.EventWorkbookBuilder$SheetRecordCollectingListener: *java.util.List* [private] boundSheetRecords
+org.apache.poi.hssf.eventusermodel.EventWorkbookBuilder$SheetRecordCollectingListener: *java.util.List* [private] externSheetRecords
+org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener: *java.util.Map* [private] customFormatRecords
+org.apache.poi.hssf.eventusermodel.FormatTrackingHSSFListener: *java.util.List* [private] xfRecords
+org.apache.poi.hssf.eventusermodel.HSSFRecordStream: *java.util.Vector* [private] bonusRecords
+org.apache.poi.hssf.eventusermodel.HSSFRequest: *java.util.HashMap* [private] records
+org.apache.poi.hssf.extractor.EventBasedExcelExtractor$TextListener: *java.util.List* [private] sheetNames
+org.apache.poi.hssf.model.DrawingManager: *java.util.Map* dgMap
+org.apache.poi.hssf.model.DrawingManager2: *java.util.List* drawingGroups
+org.apache.poi.hssf.model.LinkTable: *java.util.List* [private] [final] _definedNames
+org.apache.poi.hssf.model.RecordStream: *java.util.List* [private] [final] _list
+org.apache.poi.hssf.model.RowBlocksReader: *java.util.List* [private] [final] _plainRecords
+org.apache.poi.hssf.model.Sheet: *java.util.ArrayList* [protected] records
+org.apache.poi.hssf.model.Sheet$RecordCloner: *java.util.List* [private] [final] _destList
+org.apache.poi.hssf.model.Workbook: *java.util.ArrayList* [protected] boundsheets
+org.apache.poi.hssf.model.Workbook: *java.util.ArrayList* [protected] formats
+org.apache.poi.hssf.model.Workbook: *java.util.ArrayList* [protected] hyperlinks
+org.apache.poi.hssf.model.Workbook: *java.util.List* [private] escherBSERecords
+org.apache.poi.hssf.model.WorkbookRecordList: *java.util.List* [private] records
+org.apache.poi.hssf.record.AbstractEscherHolderRecord: *java.util.List* [private] escherRecords
+org.apache.poi.hssf.record.aggregates.CFRecordsAggregate: *java.util.List* [private] [final] rules
+org.apache.poi.hssf.record.aggregates.ColumnInfoRecordsAggregate: *java.util.List* [private] [final] records
+org.apache.poi.hssf.record.aggregates.ConditionalFormattingTable: *java.util.List* [private] [final] _cfHeaders
+org.apache.poi.hssf.record.aggregates.DataValidityTable: *java.util.List* [private] [final] _validationList
+org.apache.poi.hssf.record.aggregates.MergedCellsTable: *java.util.List* [private] [final] _mergedRegions
+org.apache.poi.hssf.record.aggregates.RowRecordsAggregate: *java.util.Map* [private] [final] _rowRecords
+org.apache.poi.hssf.record.aggregates.RowRecordsAggregate: *java.util.List* [private] [final] _unknownRecords
+org.apache.poi.hssf.record.ChartTitleFormatRecord: *java.util.ArrayList* [private] m_formats
+org.apache.poi.hssf.record.EscherAggregate: *java.util.Map* [private] shapeToObj
+org.apache.poi.hssf.record.EscherAggregate: *java.util.List* [private] tailRec
+org.apache.poi.hssf.record.EscherAggregate$1: *java.util.List* [private] [final] val$shapeRecords
+org.apache.poi.hssf.record.EscherAggregate$2: *java.util.List* [private] [final] val$spEndingOffsets
+org.apache.poi.hssf.record.EscherAggregate$2: *java.util.List* [private] [final] val$shapes
+org.apache.poi.hssf.record.ExternSheetRecord: *java.util.List* [private] _list
+org.apache.poi.hssf.record.ExtSSTRecord: *java.util.ArrayList* [private] field_2_sst_info
+org.apache.poi.hssf.record.formula.function.FunctionDataBuilder: *java.util.Map* [private] [final] _functionDataByName
+org.apache.poi.hssf.record.formula.function.FunctionDataBuilder: *java.util.Map* [private] [final] _functionDataByIndex
+org.apache.poi.hssf.record.formula.function.FunctionDataBuilder: *java.util.Set* [private] [final] _mutatingFunctionIndexes
+org.apache.poi.hssf.record.formula.function.FunctionMetadataRegistry: *java.util.Map* [private] [final] _functionDataByName
+org.apache.poi.hssf.record.ObjRecord: *java.util.List* [private] subrecords
+org.apache.poi.hssf.record.PageBreakRecord: *java.util.List* [private] _breaks
+org.apache.poi.hssf.record.PageBreakRecord: *java.util.Map* [private] _breakMap
+org.apache.poi.hssf.record.PaletteRecord: *java.util.List* [private] field_2_colors
+org.apache.poi.hssf.record.UnicodeString: *java.util.List* [private] field_4_format_runs
+org.apache.poi.hssf.usermodel.FontDetails: *java.util.Map* [private] charWidths
+org.apache.poi.hssf.usermodel.HSSFDataFormat: *java.util.Vector* [private] formats
+org.apache.poi.hssf.usermodel.HSSFDataFormatter: *java.util.Map* [private] [final] formats
+org.apache.poi.hssf.usermodel.HSSFPatriarch: *java.util.List* shapes
+org.apache.poi.hssf.usermodel.HSSFShapeGroup: *java.util.List* shapes
+org.apache.poi.hssf.usermodel.HSSFSheet: *java.util.TreeMap* [private] rows
+org.apache.poi.hssf.usermodel.HSSFWorkbook: *java.util.List* [protected] _sheets
+org.apache.poi.hssf.usermodel.HSSFWorkbook: *java.util.ArrayList* [private] names
+org.apache.poi.hssf.usermodel.HSSFWorkbook: *java.util.Hashtable* [private] fonts
+org.apache.poi.hssf.usermodel.HSSFWorkbook$SheetRecordCollector: *java.util.List* [private] _list
+org.apache.poi.hssf.util.CellRangeAddressList: *java.util.List* [private] [final] _list
+org.apache.poi.poifs.eventfilesystem.POIFSReaderRegistry: *java.util.Set* [private] omnivorousListeners
+org.apache.poi.poifs.eventfilesystem.POIFSReaderRegistry: *java.util.Map* [private] selectiveListeners
+org.apache.poi.poifs.eventfilesystem.POIFSReaderRegistry: *java.util.Map* [private] chosenDocumentDescriptors
+org.apache.poi.poifs.filesystem.DirectoryNode: *java.util.Map* [private] _entries
+org.apache.poi.poifs.filesystem.POIFSFileSystem: *java.util.List* [private] _documents
+org.apache.poi.poifs.property.PropertyTable: *java.util.List* [private] _properties
+org.apache.poi.poifs.storage.SmallBlockTableWriter: *java.util.List* [private] _small_blocks
+org.apache.poi.ss.formula.CellEvaluationFrame: *java.util.Set* [private] [final] _sensitiveInputCells
+org.apache.poi.ss.formula.CollaboratingWorkbooksEnvironment: *java.util.Map* [private] [final] _evaluatorsByName
+org.apache.poi.ss.formula.EvaluationTracker: *java.util.List* [private] [final] _evaluationFrames
+org.apache.poi.ss.formula.EvaluationTracker: *java.util.Set* [private] [final] _currentlyEvaluatingCells
+org.apache.poi.ss.formula.FormulaCellCache: *java.util.Map* [private] _formulaEntriesByCell
+org.apache.poi.ss.formula.FormulaUsedBlankCellSet: *java.util.Map* [private] [final] _sheetGroupsByBookSheet
+org.apache.poi.ss.formula.FormulaUsedBlankCellSet$BlankCellSheetGroup: *java.util.List* [private] [final] _rectangleGroups
+org.apache.poi.ss.formula.PlainCellCache: *java.util.Map* [private] _plainValueEntriesByLoc
+org.apache.poi.ss.formula.WorkbookEvaluator: *java.util.Map* [private] [final] _sheetIndexesBySheet
+org.apache.poi.util.BinaryTree$1: *org.apache.poi.util.BinaryTree* [private] [final] this$0
+org.apache.poi.util.BinaryTree$1$1: *org.apache.poi.util.BinaryTree$1* [private] [final] this$1
+org.apache.poi.util.BinaryTree$2: *org.apache.poi.util.BinaryTree* [private] [final] this$0
+org.apache.poi.util.BinaryTree$2$1: *org.apache.poi.util.BinaryTree$2* [private] [final] this$1
+org.apache.poi.util.BinaryTree$3: *org.apache.poi.util.BinaryTree* [private] [final] this$0
+org.apache.poi.util.BinaryTree$3$1: *org.apache.poi.util.BinaryTree$3* [private] [final] this$1
+org.apache.poi.util.BinaryTree$4: *org.apache.poi.util.BinaryTree* [private] [final] this$0
+org.apache.poi.util.BinaryTree$4$1: *org.apache.poi.util.BinaryTree$4* [private] [final] this$1
+org.apache.poi.util.BinaryTree$5: *org.apache.poi.util.BinaryTree* [private] [final] this$0
+org.apache.poi.util.BinaryTree$5$1: *org.apache.poi.util.BinaryTree$5* [private] [final] this$1
+org.apache.poi.util.BinaryTree$6: *org.apache.poi.util.BinaryTree* [private] [final] this$0
+org.apache.poi.util.BinaryTree$6$1: *org.apache.poi.util.BinaryTree$6* [private] [final] this$1
+org.apache.poi.util.BinaryTree$BinaryTreeIterator: *org.apache.poi.util.BinaryTree* [private] [final] this$0
+org.apache.poi.util.DoubleList2d: *java.util.List* rows
+org.apache.poi.util.IntList2d: *java.util.List* rows
+org.apache.poi.util.IntMapper: *java.util.List* [private] elements
+org.apache.poi.util.IntMapper: *java.util.Map* [private] valueKeyMap
+org.apache.poi.util.List2d: *java.util.List* rows
+
+ARRAYS REPORT
+=============
+
+org.apache.poi.ddf.EscherDggRecord: *org.apache.poi.ddf.EscherDggRecord$FileIdCluster[]* [private] field_5_fileIdClusters
+org.apache.poi.hpsf.Section: *org.apache.poi.hpsf.Property[]* [protected] properties [arraycopy] [hashcode]
+org.apache.poi.hssf.model.LinkTable: *org.apache.poi.hssf.model.LinkTable$ExternalBookBlock[]* [private] [final] _externalBookBlocks
+org.apache.poi.hssf.model.LinkTable$CRNBlock: *org.apache.poi.hssf.record.CRNRecord[]* [private] [final] _crns
+org.apache.poi.hssf.model.LinkTable$ExternalBookBlock: *org.apache.poi.hssf.record.ExternalNameRecord[]* [private] [final] _externalNameRecords [no-stores]
+org.apache.poi.hssf.model.LinkTable$ExternalBookBlock: *org.apache.poi.hssf.model.LinkTable$CRNBlock[]* [private] [final] _crnBlocks [no-stores]
+org.apache.poi.hssf.model.RowBlocksReader: *org.apache.poi.hssf.record.MergeCellsRecord[]* [private] [final] _mergedCellsRecords [no-stores]
+org.apache.poi.hssf.record.aggregates.SharedValueManager: *org.apache.poi.hssf.record.SharedFormulaRecord[]* [private] [final] _sfrs [no-stores]
+org.apache.poi.hssf.record.aggregates.SharedValueManager: *org.apache.poi.hssf.record.ArrayRecord[]* [private] [final] _arrayRecords [no-stores]
+org.apache.poi.hssf.record.aggregates.SharedValueManager: *org.apache.poi.hssf.record.TableRecord[]* [private] [final] _tableRecords [no-stores]
+org.apache.poi.hssf.record.aggregates.ValueRecordsAggregate: *org.apache.poi.hssf.record.CellValueRecordInterface[][]* [private] records [arraycopy]
+org.apache.poi.hssf.record.ArrayRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] _formulaTokens [no-stores]
+org.apache.poi.hssf.record.CFRuleRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] field_17_formula1 [no-stores] [arraycopy]
+org.apache.poi.hssf.record.CFRuleRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] field_18_formula2 [no-stores] [arraycopy]
+org.apache.poi.hssf.record.CRNRecord: *java.lang.Object[]* [private] field_4_constant_values [no-stores]
+org.apache.poi.hssf.record.DVRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] _formula1 [no-stores]
+org.apache.poi.hssf.record.DVRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] _formula2 [no-stores]
+org.apache.poi.hssf.record.ExternalNameRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] field_5_name_definition [no-stores]
+org.apache.poi.hssf.record.formula.ArrayPtg: *java.lang.Object[]* [private] token_3_arrayValues [arraycopy]
+org.apache.poi.hssf.record.formula.function.FunctionMetadataRegistry: *org.apache.poi.hssf.record.formula.function.FunctionMetadata[]* [private] [final] _functionDataByIndex [no-stores]
+org.apache.poi.hssf.record.FormulaRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] field_8_parsed_expr
+org.apache.poi.hssf.record.LinkedDataFormulaField: *org.apache.poi.hssf.record.formula.Ptg[]* [private] formulaTokens [no-stores]
+org.apache.poi.hssf.record.MergeCellsRecord: *org.apache.poi.hssf.util.CellRangeAddress[]* [private] _regions
+org.apache.poi.hssf.record.MulRKRecord: *org.apache.poi.hssf.record.MulRKRecord$RkRec[]* [private] field_3_rks [no-stores]
+org.apache.poi.hssf.record.NameRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] field_13_name_definition
+org.apache.poi.hssf.record.SelectionRecord: *org.apache.poi.hssf.util.CellRangeAddress8Bit[]* [private] field_6_refs
+org.apache.poi.hssf.record.SharedFormulaRecord: *org.apache.poi.hssf.record.formula.Ptg[]* [private] field_7_parsed_expr
+org.apache.poi.hssf.record.SupBookRecord: *org.apache.poi.hssf.record.UnicodeString[]* [private] field_3_sheet_names
+org.apache.poi.hssf.usermodel.DVConstraint: *java.lang.String[]* [private] _explicitListValues
+org.apache.poi.hssf.usermodel.DVConstraint$FormulaPair: *org.apache.poi.hssf.record.formula.Ptg[]* [private] [final] _formula1 [no-stores]
+org.apache.poi.hssf.usermodel.DVConstraint$FormulaPair: *org.apache.poi.hssf.record.formula.Ptg[]* [private] [final] _formula2 [no-stores]
+org.apache.poi.hssf.usermodel.HSSFRow: *org.apache.poi.hssf.usermodel.HSSFCell[]* [private] cells [arraycopy]
+org.apache.poi.poifs.filesystem.POIFSDocument$BigBlockStore: *org.apache.poi.poifs.storage.DocumentBlock[]* [private] bigBlocks
+org.apache.poi.poifs.filesystem.POIFSDocument$SmallBlockStore: *org.apache.poi.poifs.storage.SmallDocumentBlock[]* [private] smallBlocks
+org.apache.poi.poifs.filesystem.POIFSDocumentPath: *java.lang.String[]* [private] components [arraycopy] [hashcode]
+org.apache.poi.poifs.property.PropertyTable: *org.apache.poi.poifs.storage.BlockWritable[]* [private] _blocks [no-stores]
+org.apache.poi.poifs.storage.BATBlock: *org.apache.poi.util.IntegerField[]* [private] _fields
+org.apache.poi.poifs.storage.BlockAllocationTableWriter: *org.apache.poi.poifs.storage.BATBlock[]* [private] _blocks [no-stores]
+org.apache.poi.poifs.storage.BlockListImpl: *org.apache.poi.poifs.storage.ListManagedBlock[]* [private] _blocks
+org.apache.poi.poifs.storage.PropertyBlock: *org.apache.poi.poifs.property.Property[]* [private] _properties [arraycopy]
+org.apache.poi.ss.formula.CollaboratingWorkbooksEnvironment: *org.apache.poi.ss.formula.WorkbookEvaluator[]* [private] [final] _evaluators [no-stores]
+org.apache.poi.ss.formula.FormulaCellCacheEntry: *org.apache.poi.ss.formula.CellCacheEntry[]* [private] _sensitiveInputCells [no-stores]
+org.apache.poi.ss.formula.FormulaCellCacheEntrySet: *org.apache.poi.ss.formula.FormulaCellCacheEntry[]* [private] _arr [mod] [hashcode]
+org.apache.poi.ss.formula.ParseNode: *org.apache.poi.ss.formula.ParseNode[]* [private] [final] _children
+org.apache.poi.ss.formula.ParseNode$TokenCollector: *org.apache.poi.hssf.record.formula.Ptg[]* [private] [final] _ptgs
+org.apache.poi.util.BinaryTree: *org.apache.poi.util.BinaryTree$Node[]* [private] _root
+org.apache.poi.util.BinaryTree: *java.util.Set[]* [private] _key_set
+org.apache.poi.util.BinaryTree: *java.util.Set[]* [private] _entry_set
+org.apache.poi.util.BinaryTree: *java.util.Collection[]* [private] _value_collection
+org.apache.poi.util.BinaryTree$Node: *java.lang.Comparable[]* [private] _data [hashcode]
+org.apache.poi.util.BinaryTree$Node: *org.apache.poi.util.BinaryTree$Node[]* [private] _left [hashcode]
+org.apache.poi.util.BinaryTree$Node: *org.apache.poi.util.BinaryTree$Node[]* [private] _right [hashcode]
+org.apache.poi.util.BinaryTree$Node: *org.apache.poi.util.BinaryTree$Node[]* [private] _parent [hashcode]
+
+N-CYCLES
+========
+[org/apache/poi/hssf/record/SSTDeserializer, org/apache/poi/hssf/record/SSTRecord]
+[org/apache/poi/hssf/model/LinkTable, org/apache/poi/hssf/model/Workbook]
+[org/apache/poi/hssf/usermodel/HSSFDataFormat, org/apache/poi/hssf/usermodel/HSSFWorkbook]
+[org/apache/poi/poifs/filesystem/DirectoryNode, org/apache/poi/poifs/filesystem/POIFSFileSystem]
+[org/apache/poi/poifs/filesystem/POIFSDocument$BigBlockStore, org/apache/poi/poifs/filesystem/POIFSDocument$SmallBlockStore, org/apache/poi/poifs/property/DocumentProperty, org/apache/poi/poifs/filesystem/POIFSDocument]
+[org/apache/poi/hssf/usermodel/HSSFPatriarch, org/apache/poi/hssf/record/EscherAggregate]

@@ -1,0 +1,545 @@
+DSFinder has run for 0 min. 7 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+edu.rice.cs.drjava.config.Configuration$1: *java.lang.Object* [final] val$value
+edu.rice.cs.drjava.config.OptionEvent: *java.lang.Object* [public] [final] value [TT;]
+edu.rice.cs.drjava.config.OptionParser: *java.lang.Object* [protected] [final] defaultValue [TT;]
+edu.rice.cs.drjava.model.cache.DocumentCache: *java.lang.Object* [private] _cacheLock
+edu.rice.cs.drjava.model.compiler.DefaultCompilerModel: *java.lang.Object* [private] _compilerLock
+edu.rice.cs.drjava.model.repl.InteractionsModel: *java.lang.Object* [public] [final] _writerLock
+edu.rice.cs.drjava.ui.AbortablePanel: *javax.swing.JPanel* [protected] _leftPane
+edu.rice.cs.drjava.ui.AbortablePanel: *javax.swing.JPanel* [protected] _buttonPanel
+edu.rice.cs.drjava.ui.config.VectorOptionComponent$7: *javax.swing.table.AbstractTableModel* [final] val$other
+edu.rice.cs.drjava.ui.DebugPanel: *javax.swing.JPanel* [private] _tabsAndStatusPane
+edu.rice.cs.drjava.ui.DebugPanel: *javax.swing.JPanel* [private] _buttonPanel
+edu.rice.cs.drjava.ui.ErrorPanel: *javax.swing.JPanel* [private] _leftPanel
+edu.rice.cs.drjava.ui.ErrorPanel: *javax.swing.JPanel* [private] _rightPanel
+edu.rice.cs.drjava.ui.ErrorPanel: *javax.swing.JPanel* [private] _errorNavPanel
+edu.rice.cs.drjava.ui.ErrorPanel: *javax.swing.JPanel* [private] _errorNavButtonsPanel
+edu.rice.cs.drjava.ui.ErrorPanel: *javax.swing.JPanel* [protected] customPanel
+edu.rice.cs.drjava.ui.JarOptionsDialog$ProcessingFrame: *java.awt.Component* [private] _parent
+edu.rice.cs.drjava.ui.MainFrame: *java.awt.Component* [public] _lastFocusOwner
+edu.rice.cs.drjava.ui.MainFrame: *java.awt.Window* [protected] _modalWindowAdapterOwner
+edu.rice.cs.drjava.ui.MainFrame: *java.lang.Object* [private] _updateLock
+edu.rice.cs.drjava.ui.MainFrame$259: *java.awt.event.WindowAdapter* [final] regainFront
+edu.rice.cs.drjava.ui.MainFrame$259: *java.awt.event.WindowAdapter* [final] regainFrontAfterNative
+edu.rice.cs.drjava.ui.MainFrame$DecoratedAction: *javax.swing.AbstractAction* _decoree
+edu.rice.cs.drjava.ui.RegionsListPanel: *javax.swing.JPanel* [protected] _leftPane
+edu.rice.cs.drjava.ui.RegionsListPanel: *javax.swing.JPanel* [protected] _buttonPanel
+edu.rice.cs.drjava.ui.RegionsTreePanel: *javax.swing.JPanel* [protected] _leftPane
+edu.rice.cs.drjava.ui.RegionsTreePanel: *javax.swing.JPanel* [protected] _buttonPanel
+edu.rice.cs.drjava.ui.TabbedPanel: *javax.swing.JPanel* [protected] _closePanel
+edu.rice.cs.drjava.ui.TabbedPanel: *javax.swing.JPanel* [protected] _mainPanel
+edu.rice.cs.dynamicjava.symbol.ExtendedTypeSystem$28: *java.lang.Object* [final] val$value
+edu.rice.cs.javalanglevels.tree.AssignmentExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _value
+edu.rice.cs.javalanglevels.tree.CastExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _value
+edu.rice.cs.javalanglevels.tree.InstanceofExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _value
+edu.rice.cs.javalanglevels.tree.Parenthesized: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _value
+edu.rice.cs.javalanglevels.tree.UnaryExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _value
+edu.rice.cs.plt.collect.AbstractFunctionalRelation$MatchFirstSet: *java.lang.Object* [private] [final] _key [TT1;]
+edu.rice.cs.plt.collect.AbstractInjectiveRelation$MatchSecondSet: *java.lang.Object* [private] [final] _key [TT2;]
+edu.rice.cs.plt.collect.AbstractKeyBasedMap$1: *java.lang.Object* [final] val$key
+edu.rice.cs.plt.collect.AbstractOneToOneRelation$MatchSecondSet: *java.lang.Object* [private] [final] _key [TT2;]
+edu.rice.cs.plt.collect.CartesianRelation$MatchSet: *java.lang.Object* [private] [final] _key [TK;]
+edu.rice.cs.plt.collect.ConcreteRelationIndex$EntryIterator: *java.lang.Object* [private] _currentKey [TK;]
+edu.rice.cs.plt.collect.ConcreteRelationIndex$ValueSet: *java.lang.Object* [private] [final] _key [TK;]
+edu.rice.cs.plt.collect.ExternallySortedMultiMap$1: *java.lang.Object* [final] val$key
+edu.rice.cs.plt.collect.SingletonMap: *java.lang.Object* [private] [final] _key [TK;]
+edu.rice.cs.plt.collect.SingletonMap: *java.lang.Object* [private] [final] _value [TV;]
+edu.rice.cs.plt.collect.SnapshotSynchronizedList: *java.lang.Object* [private] [final] _lock
+edu.rice.cs.plt.collect.SnapshotSynchronizedList$2: *edu.rice.cs.plt.collect.SnapshotSynchronizedList* [final] this$0
+edu.rice.cs.plt.concurrent.ProcessIncrementalTaskController$CleanFinishResult: *java.lang.Object* [private] [final] _value
+edu.rice.cs.plt.concurrent.ProcessIncrementalTaskController$StepResult: *java.lang.Object* [private] [final] _value
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstCondition: *java.lang.Object* [private] [final] _arg [TT;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstLambda: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstLambda2: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstLambda3: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstPredicate: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstPredicate2: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstPredicate3: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstRunnable: *java.lang.Object* [private] [final] _arg [TT;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstRunnable1: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstRunnable2: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstRunnable3: *java.lang.Object* [private] [final] _arg1 [TT1;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFirstThunk: *java.lang.Object* [private] [final] _arg [TT;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFourthLambda3: *java.lang.Object* [private] [final] _arg4 [TT4;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFourthPredicate3: *java.lang.Object* [private] [final] _arg4 [TT4;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindFourthRunnable3: *java.lang.Object* [private] [final] _arg4 [TT4;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondLambda: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondLambda2: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondLambda3: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondPredicate: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondPredicate2: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondPredicate3: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondRunnable1: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondRunnable2: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindSecondRunnable3: *java.lang.Object* [private] [final] _arg2 [TT2;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindThirdLambda2: *java.lang.Object* [private] [final] _arg3 [TT3;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindThirdLambda3: *java.lang.Object* [private] [final] _arg3 [TT3;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindThirdPredicate2: *java.lang.Object* [private] [final] _arg3 [TT3;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindThirdPredicate3: *java.lang.Object* [private] [final] _arg3 [TT3;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindThirdRunnable2: *java.lang.Object* [private] [final] _arg3 [TT3;]
+edu.rice.cs.plt.lambda.LambdaUtil$BindThirdRunnable3: *java.lang.Object* [private] [final] _arg3 [TT3;]
+edu.rice.cs.plt.recur.BinaryArgContinuation$1$1: *java.lang.Object* [final] val$arg1
+edu.rice.cs.plt.tuple.Wrapper: *java.lang.Object* [protected] [final] _value [TT;]
+edu.rice.cs.util.swing.AsyncTaskLauncher$1: *java.lang.Object* [final] val$param
+edu.rice.cs.util.swing.DirectoryChooser: *java.awt.Component* [protected] _owner
+edu.rice.cs.util.swing.DirectorySelectorComponent: *java.awt.Component* [protected] [final] _parent
+edu.rice.cs.util.swing.FileSelectorStringComponent: *java.awt.Component* [protected] [final] _parent
+edu.rice.cs.util.swing.SwingWorker: *java.lang.Object* [private] _value
+edu.rice.cs.util.text.EditDocumentException: *java.lang.Throwable* [private] _value
+edu.rice.cs.util.UnexpectedException: *java.lang.Throwable* [private] _value
+
+Linked List-like Data Structures:
+edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList$Node: _prev [Ledu/rice/cs/drjava/model/definitions/reducedmodel/ModelList$Node<TT;>;]
+edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList$Node: _next [Ledu/rice/cs/drjava/model/definitions/reducedmodel/ModelList$Node<TT;>;]
+edu.rice.cs.drjava.ui.HTMLFrame$HistoryList: [private] next
+edu.rice.cs.drjava.ui.HTMLFrame$HistoryList: [private] [final] prev
+edu.rice.cs.javalanglevels.parser.JExprParser$JJCalls: next
+edu.rice.cs.javalanglevels.parser.Token: [public] next
+edu.rice.cs.plt.iter.SequenceIterator: *java.lang.Object* [private] _next [TT;]
+
+Parent- and outer-type Data Structures:
+edu.rice.cs.dynamicjava.interpreter.RuntimeBindings: [private] [final] _parent
+edu.rice.cs.javalanglevels.Data: [protected] _outerData
+edu.rice.cs.util.XMLConfig: [private] _parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+edu.rice.cs.javalanglevels.parser.Token: [public] specialToken
+edu.rice.cs.javalanglevels.SymbolData: [private] _superClass
+edu.rice.cs.plt.collect.ImmutableRelation: [private] _inverse [Ledu/rice/cs/plt/collect/ImmutableRelation<TT2;TT1;>;]
+Non-Object Fields:
+edu.rice.cs.drjava.ui.predictive.PredictiveInputFrame: *edu.rice.cs.util.swing.SwingFrame* [private] [final] _owner
+edu.rice.cs.dynamicjava.symbol.type.ArrayType: *edu.rice.cs.dynamicjava.symbol.type.Type* [private] [final] _ofType
+edu.rice.cs.javalanglevels.ArrayData: *edu.rice.cs.javalanglevels.SymbolData* [private] _elementType
+edu.rice.cs.javalanglevels.tree.ArrayAccess: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _array
+edu.rice.cs.javalanglevels.tree.ArrayAccess: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _index
+edu.rice.cs.javalanglevels.tree.ArrayType: *edu.rice.cs.javalanglevels.tree.Type* [private] [final] _elementType
+edu.rice.cs.javalanglevels.tree.AssignmentExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _name
+edu.rice.cs.javalanglevels.tree.BinaryExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _left
+edu.rice.cs.javalanglevels.tree.BinaryExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _right
+edu.rice.cs.javalanglevels.tree.ComplexAnonymousClassInstantiation: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexInitializedArrayInstantiation: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexMethodInvocation: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexNamedClassInstantiation: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexNameReference: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexSuperConstructorInvocation: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexSuperReference: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexThisConstructorInvocation: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexThisReference: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ComplexUninitializedArrayInstantiation: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _enclosing
+edu.rice.cs.javalanglevels.tree.ConditionalExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _condition
+edu.rice.cs.javalanglevels.tree.ConditionalExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _forTrue
+edu.rice.cs.javalanglevels.tree.ConditionalExpression: *edu.rice.cs.javalanglevels.tree.Expression* [private] [final] _forFalse
+edu.rice.cs.javalanglevels.tree.DoStatement: *edu.rice.cs.javalanglevels.tree.Statement* [private] [final] _code
+edu.rice.cs.javalanglevels.tree.ForStatement: *edu.rice.cs.javalanglevels.tree.Statement* [private] [final] _code
+edu.rice.cs.javalanglevels.tree.IfThenElseStatement: *edu.rice.cs.javalanglevels.tree.Statement* [private] [final] _elseStatement
+edu.rice.cs.javalanglevels.tree.IfThenStatement: *edu.rice.cs.javalanglevels.tree.Statement* [private] [final] _thenStatement
+edu.rice.cs.javalanglevels.tree.LabeledStatement: *edu.rice.cs.javalanglevels.tree.Statement* [private] [final] _statement
+edu.rice.cs.javalanglevels.tree.MemberType: *edu.rice.cs.javalanglevels.tree.ReferenceType* [private] [final] _left
+edu.rice.cs.javalanglevels.tree.MemberType: *edu.rice.cs.javalanglevels.tree.ReferenceType* [private] [final] _right
+edu.rice.cs.javalanglevels.tree.WhileStatement: *edu.rice.cs.javalanglevels.tree.Statement* [private] [final] _code
+edu.rice.cs.plt.collect.ConsList$Nonempty: *edu.rice.cs.plt.collect.ConsList* [private] [final] _rest [Ledu/rice/cs/plt/collect/ConsList<+TT;>;]
+edu.rice.cs.plt.io.LinkedInputAndOutputStream$1: *java.io.InputStream* [final] val$fromBuffer
+edu.rice.cs.plt.io.LinkedInputAndOutputStream$1: *java.io.InputStream* [final] val$in
+edu.rice.cs.plt.io.LinkedInputAndOutputStream$2: *edu.rice.cs.plt.io.DirectOutputStream* [final] val$toBuffer
+edu.rice.cs.plt.io.LinkedInputAndOutputStream$2: *java.io.OutputStream* [final] val$out
+edu.rice.cs.plt.io.LinkedReaderAndWriter$1: *java.io.Reader* [final] val$fromBuffer
+edu.rice.cs.plt.io.LinkedReaderAndWriter$1: *java.io.Reader* [final] val$r
+edu.rice.cs.plt.io.LinkedReaderAndWriter$2: *edu.rice.cs.plt.io.DirectWriter* [final] val$toBuffer
+edu.rice.cs.plt.io.LinkedReaderAndWriter$2: *java.io.Writer* [final] val$w
+edu.rice.cs.plt.io.WrappedDirectInputStream: *java.io.InputStream* [private] _stream
+edu.rice.cs.plt.io.WrappedDirectOutputStream: *java.io.OutputStream* [private] _stream
+edu.rice.cs.plt.io.WrappedDirectReader: *java.io.Reader* [private] _reader
+edu.rice.cs.plt.io.WrappedDirectWriter: *java.io.Writer* [private] _writer
+edu.rice.cs.plt.reflect.ComposedClassLoader: *java.lang.ClassLoader* [private] [final] _child
+edu.rice.cs.util.classloader.ClassFileError: *java.lang.LinkageError* [private] _error
+edu.rice.cs.util.sexp.Cons: *edu.rice.cs.util.sexp.SEList* [private] _rest
+java.lang.Object Fields:
+edu.rice.cs.drjava.model.DefaultLightWeightParsingControl: *java.lang.Object* [private] _restart
+edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList$Node: *java.lang.Object* _item [TT;]
+edu.rice.cs.drjava.model.EventNotifier$1: *java.lang.Object* [final] val$listener
+edu.rice.cs.drjava.model.FinalizationEvent: *java.lang.Object* [private] _obj [TT;]
+edu.rice.cs.drjava.model.IHighlighted$PainterTag: *java.lang.Object* [public] [final] tag
+edu.rice.cs.drjava.ui.RegionsTreePanel$RegionRenderer$1: *java.lang.Object* [final] val$o
+edu.rice.cs.dynamicjava.interpreter.ExpressionEvaluator$LValueVisitor$2: *java.lang.Object* [final] val$array
+edu.rice.cs.dynamicjava.interpreter.StatementEvaluator$1: *java.lang.Object* [final] val$iterable
+edu.rice.cs.dynamicjava.symbol.ArrayLengthField$1: *java.lang.Object* [final] val$receiver
+edu.rice.cs.dynamicjava.symbol.BoundedSymbol: *java.lang.Object* [private] [final] _id
+edu.rice.cs.dynamicjava.symbol.JavaClass$JavaField$1: *java.lang.Object* [final] val$receiver
+edu.rice.cs.javalanglevels.Pair: *java.lang.Object* _first [TT;]
+edu.rice.cs.javalanglevels.Pair: *java.lang.Object* _second [TU;]
+edu.rice.cs.plt.ant.ForNumTask$ReflectIterator: *java.lang.Object* [private] obj
+edu.rice.cs.plt.collect.ComposedRelation$3: *java.lang.Object* [private] _currentFirst [TT1;]
+edu.rice.cs.plt.collect.ComposedRelation$3: *java.lang.Object* [private] _currentMiddle [TT2;]
+edu.rice.cs.plt.collect.ConcreteRelationIndex$KeySet$1: *java.lang.Object* _last [TK;]
+edu.rice.cs.plt.collect.ConcreteRelationIndex$ValueSet$ValueSetIterator: *java.lang.Object* [private] _last [TV;]
+edu.rice.cs.plt.collect.ConsList$Nonempty: *java.lang.Object* [private] [final] _first [TT;]
+edu.rice.cs.plt.collect.ExternallySortedSet$2: *java.lang.Object* [private] _last [TT;]
+edu.rice.cs.plt.collect.FilteredRelation$3: *java.lang.Object* [final] val$first
+edu.rice.cs.plt.collect.FilteredRelation$4: *java.lang.Object* [final] val$second
+edu.rice.cs.plt.collect.LazyRelationIndex$FirstMatcher: *java.lang.Object* [private] _val [TT;]
+edu.rice.cs.plt.collect.SingletonRelation: *java.lang.Object* [private] [final] _first [TT1;]
+edu.rice.cs.plt.collect.SingletonRelation: *java.lang.Object* [private] [final] _second [TT2;]
+edu.rice.cs.plt.collect.SingletonSet: *java.lang.Object* [private] [final] _elt [TE;]
+edu.rice.cs.plt.concurrent.StateMonitor: *java.lang.Object* [private] _state [TT;]
+edu.rice.cs.plt.concurrent.TaskController$CleanlyFinishedState: *java.lang.Object* [private] _result [TR;]
+edu.rice.cs.plt.iter.CartesianIterator: *java.lang.Object* [private] _currentLeft [TT1;]
+edu.rice.cs.plt.iter.FilteredIterator: *java.lang.Object* [private] _lookahead [TT;]
+edu.rice.cs.plt.iter.MutableSingletonIterator: *java.lang.Object* [private] [final] _element [TT;]
+edu.rice.cs.plt.iter.NoDuplicatesIterator: *java.lang.Object* [private] _lookahead [TT;]
+edu.rice.cs.plt.iter.PermutationIterator: *java.lang.Object* [private] _element [TT;]
+edu.rice.cs.plt.iter.RemoveNotificationIterator: *java.lang.Object* [private] _last [TT;]
+edu.rice.cs.plt.iter.SequenceIterable: *java.lang.Object* [private] [final] _initial [TT;]
+edu.rice.cs.plt.iter.SingletonIterable: *java.lang.Object* [private] [final] _element [TT;]
+edu.rice.cs.plt.iter.SingletonIterator: *java.lang.Object* [private] [final] _element [TT;]
+edu.rice.cs.plt.iter.SkipLastIterator: *java.lang.Object* [private] _lookahead [TT;]
+edu.rice.cs.plt.lambda.DelayedThunk: *java.lang.Object* [private] _val [TR;]
+edu.rice.cs.plt.lambda.LambdaUtil$RunnableLambda: *java.lang.Object* [private] [final] _result [TR;]
+edu.rice.cs.plt.lambda.LambdaUtil$RunnableLambda2: *java.lang.Object* [private] [final] _result [TR;]
+edu.rice.cs.plt.lambda.LambdaUtil$RunnableLambda3: *java.lang.Object* [private] [final] _result [TR;]
+edu.rice.cs.plt.lambda.LambdaUtil$RunnableLambda4: *java.lang.Object* [private] [final] _result [TR;]
+edu.rice.cs.plt.lambda.LambdaUtil$RunnableThunk: *java.lang.Object* [private] [final] _result [TR;]
+edu.rice.cs.plt.lambda.LambdaUtil$ValueLambda: *java.lang.Object* [private] [final] _val [TT;]
+edu.rice.cs.plt.lambda.LazyThunk: *java.lang.Object* [private] _val [TR;]
+edu.rice.cs.plt.lambda.SimpleBox: *java.lang.Object* [private] _val [TT;]
+edu.rice.cs.plt.recur.ValueContinuation: *java.lang.Object* [private] [final] _val [TT;]
+edu.rice.cs.plt.reflect.ReflectUtil$FieldBox: *java.lang.Object* [private] [final] _obj
+edu.rice.cs.plt.reflect.ReflectUtil$ObjectMethodLambda: *java.lang.Object* [private] [final] _obj
+edu.rice.cs.plt.reflect.ReflectUtil$ObjectMethodLambda2: *java.lang.Object* [private] [final] _obj
+edu.rice.cs.plt.reflect.ReflectUtil$ObjectMethodLambda3: *java.lang.Object* [private] [final] _obj
+edu.rice.cs.plt.reflect.ReflectUtil$ObjectMethodThunk: *java.lang.Object* [private] [final] _obj
+edu.rice.cs.plt.tuple.Octet: *java.lang.Object* [protected] [final] _first [TT1;]
+edu.rice.cs.plt.tuple.Octet: *java.lang.Object* [protected] [final] _second [TT2;]
+edu.rice.cs.plt.tuple.Octet: *java.lang.Object* [protected] [final] _third [TT3;]
+edu.rice.cs.plt.tuple.Octet: *java.lang.Object* [protected] [final] _fourth [TT4;]
+edu.rice.cs.plt.tuple.Octet: *java.lang.Object* [protected] [final] _fifth [TT5;]
+edu.rice.cs.plt.tuple.Octet: *java.lang.Object* [protected] [final] _sixth [TT6;]
+edu.rice.cs.plt.tuple.Octet: *java.lang.Object* [protected] [final] _seventh [TT7;]
+edu.rice.cs.plt.tuple.Octet: *java.lang.Object* [protected] [final] _eighth [TT8;]
+edu.rice.cs.plt.tuple.Pair: *java.lang.Object* [protected] [final] _first [TT1;]
+edu.rice.cs.plt.tuple.Pair: *java.lang.Object* [protected] [final] _second [TT2;]
+edu.rice.cs.plt.tuple.Quad: *java.lang.Object* [protected] [final] _first [TT1;]
+edu.rice.cs.plt.tuple.Quad: *java.lang.Object* [protected] [final] _second [TT2;]
+edu.rice.cs.plt.tuple.Quad: *java.lang.Object* [protected] [final] _third [TT3;]
+edu.rice.cs.plt.tuple.Quad: *java.lang.Object* [protected] [final] _fourth [TT4;]
+edu.rice.cs.plt.tuple.Quint: *java.lang.Object* [protected] [final] _first [TT1;]
+edu.rice.cs.plt.tuple.Quint: *java.lang.Object* [protected] [final] _second [TT2;]
+edu.rice.cs.plt.tuple.Quint: *java.lang.Object* [protected] [final] _third [TT3;]
+edu.rice.cs.plt.tuple.Quint: *java.lang.Object* [protected] [final] _fourth [TT4;]
+edu.rice.cs.plt.tuple.Quint: *java.lang.Object* [protected] [final] _fifth [TT5;]
+edu.rice.cs.plt.tuple.Septet: *java.lang.Object* [protected] [final] _first [TT1;]
+edu.rice.cs.plt.tuple.Septet: *java.lang.Object* [protected] [final] _second [TT2;]
+edu.rice.cs.plt.tuple.Septet: *java.lang.Object* [protected] [final] _third [TT3;]
+edu.rice.cs.plt.tuple.Septet: *java.lang.Object* [protected] [final] _fourth [TT4;]
+edu.rice.cs.plt.tuple.Septet: *java.lang.Object* [protected] [final] _fifth [TT5;]
+edu.rice.cs.plt.tuple.Septet: *java.lang.Object* [protected] [final] _sixth [TT6;]
+edu.rice.cs.plt.tuple.Septet: *java.lang.Object* [protected] [final] _seventh [TT7;]
+edu.rice.cs.plt.tuple.Sextet: *java.lang.Object* [protected] [final] _first [TT1;]
+edu.rice.cs.plt.tuple.Sextet: *java.lang.Object* [protected] [final] _second [TT2;]
+edu.rice.cs.plt.tuple.Sextet: *java.lang.Object* [protected] [final] _third [TT3;]
+edu.rice.cs.plt.tuple.Sextet: *java.lang.Object* [protected] [final] _fourth [TT4;]
+edu.rice.cs.plt.tuple.Sextet: *java.lang.Object* [protected] [final] _fifth [TT5;]
+edu.rice.cs.plt.tuple.Sextet: *java.lang.Object* [protected] [final] _sixth [TT6;]
+edu.rice.cs.plt.tuple.Triple: *java.lang.Object* [protected] [final] _first [TT1;]
+edu.rice.cs.plt.tuple.Triple: *java.lang.Object* [protected] [final] _second [TT2;]
+edu.rice.cs.plt.tuple.Triple: *java.lang.Object* [protected] [final] _third [TT3;]
+edu.rice.cs.util.swing.AsyncCompletionArgs: *java.lang.Object* [private] _result [TR;]
+edu.rice.cs.util.swing.HighlightManager$HighlightInfo: *java.lang.Object* [private] _highlightTag
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+edu.rice.cs.drjava.config.DrJavaProperty: *java.util.Set* [protected] _listening [Ljava/util/Set<Ledu/rice/cs/drjava/config/DrJavaProperty;>;]
+edu.rice.cs.drjava.config.Option: *java.util.HashMap* [final] listeners [Ljava/util/HashMap<Ledu/rice/cs/drjava/config/Configuration;Ljava/util/Vector<Ledu/rice/cs/drjava/config/OptionListener<TT;>;>;>;]
+edu.rice.cs.drjava.config.Option$1: *java.util.Vector* [final] val$v
+edu.rice.cs.drjava.config.OptionMapLoader: *java.util.Properties* [private] [final] prop
+edu.rice.cs.drjava.config.OptionParser: *java.util.HashMap* [final] map [Ljava/util/HashMap<Ledu/rice/cs/drjava/config/DefaultOptionMap;TT;>;]
+edu.rice.cs.drjava.model.AbstractDJDocument: *java.util.HashMap* [private] _queryCache [Ljava/util/HashMap<Ledu/rice/cs/drjava/model/Query;Ljava/lang/Object;>;]
+edu.rice.cs.drjava.model.compiler.DefaultCompilerModel$2: *java.util.ArrayList* [final] val$excludedFiles
+edu.rice.cs.drjava.model.compiler.DefaultCompilerModel$4: *java.util.LinkedList* [final] val$filesToBeClosed
+edu.rice.cs.drjava.model.compiler.DefaultCompilerModel$6: *java.util.HashSet* [final] val$dirsWithLLFiles
+edu.rice.cs.drjava.model.compiler.Javac141Compiler$OurLog: *java.util.LinkedList* [private] _errors
+edu.rice.cs.drjava.model.ConcreteRegionManager: *java.util.HashMap* [private] _regions [Ljava/util/HashMap<Ledu/rice/cs/drjava/model/OpenDefinitionsDocument;Ljava/util/SortedSet<TR;>;>;]
+edu.rice.cs.drjava.model.debug.jpda.DebugAction: *java.util.Vector* [protected] [final] _requests [Ljava/util/Vector<TT;>;]
+edu.rice.cs.drjava.model.debug.jpda.JPDADebugger: *edu.rice.cs.drjava.model.debug.jpda.JPDADebugger$RandomAccessStack* [private] _suspendedThreads
+edu.rice.cs.drjava.model.definitions.CompoundUndoManager: *java.util.LinkedList* [private] [final] _compoundEdits [Ljava/util/LinkedList<Ljavax/swing/undo/CompoundEdit;>;]
+edu.rice.cs.drjava.model.definitions.DefinitionsDocument: *java.util.List* [private] _finalizationListeners [Ljava/util/List<Ledu/rice/cs/drjava/model/FinalizationListener<Ledu/rice/cs/drjava/model/definitions/DefinitionsDocument;>;>;]
+edu.rice.cs.drjava.model.definitions.reducedmodel.ModelList: *java.util.Set* [private] _listeners [Ljava/util/Set<Ledu/rice/cs/drjava/model/definitions/reducedmodel/ModelList<TT;>.ModelIterator;>;]
+edu.rice.cs.drjava.model.EventNotifier: *java.util.LinkedList* [protected] [final] _listeners [Ljava/util/LinkedList<TT;>;]
+edu.rice.cs.drjava.model.junit.DefaultJUnitModel$1: *java.util.List* [final] val$lod
+edu.rice.cs.drjava.model.junit.DefaultJUnitModel$3: *java.util.ArrayList* [final] val$classNames
+edu.rice.cs.drjava.model.junit.DefaultJUnitModel$3: *java.util.ArrayList* [final] val$files
+edu.rice.cs.drjava.model.junit.DefaultJUnitModel$6: *java.util.List* [final] val$outOfSync
+edu.rice.cs.drjava.project.ProjectFileParser$1: *java.util.List* [final] val$intList
+edu.rice.cs.drjava.ui.config.VectorOptionComponent: *java.util.Vector* [protected] _data [Ljava/util/Vector<TT;>;]
+edu.rice.cs.drjava.ui.config.VectorOptionComponent$5: *java.util.List* [final] val$buttons
+edu.rice.cs.drjava.ui.DefinitionsPane: *java.util.List* [private] _finalizationListeners [Ljava/util/List<Ledu/rice/cs/drjava/model/FinalizationListener<Ledu/rice/cs/drjava/ui/DefinitionsPane;>;>;]
+edu.rice.cs.drjava.ui.FindReplacePanel$19: *java.util.List* [final] val$results
+edu.rice.cs.drjava.ui.MainFrame: *java.util.HashMap* [protected] _modalWindowAdapters [Ljava/util/HashMap<Ljava/awt/Window;Ljava/awt/event/WindowAdapter;>;]
+edu.rice.cs.drjava.ui.MainFrame$131: *java.util.AbstractMap* [final] val$highlights
+edu.rice.cs.drjava.ui.MainFrame$219$1: *java.util.Vector* [final] val$enclosingfiles
+edu.rice.cs.drjava.ui.MainFrame$219$1: *java.util.Vector* [final] val$names
+edu.rice.cs.drjava.ui.MainFrame$219$1: *java.util.Vector* [final] val$cmdlines
+edu.rice.cs.drjava.ui.MainFrame$219$1: *java.util.Vector* [final] val$workdirs
+edu.rice.cs.drjava.ui.predictive.PredictiveInputFrame: *java.util.ArrayList* [private] [final] _actions [Ljava/util/ArrayList<Ledu/rice/cs/drjava/ui/predictive/PredictiveInputFrame$CloseAction<TT;>;>;]
+edu.rice.cs.drjava.ui.predictive.PredictiveInputFrame: *java.util.List* [private] [final] _strategies [Ljava/util/List<Ledu/rice/cs/drjava/ui/predictive/PredictiveInputModel$MatchingStrategy<TT;>;>;]
+edu.rice.cs.drjava.ui.predictive.PredictiveInputModel: *java.util.ArrayList* [private] _items [Ljava/util/ArrayList<TT;>;]
+edu.rice.cs.drjava.ui.predictive.PredictiveInputModel: *java.util.ArrayList* [private] [final] _matchingItems [Ljava/util/ArrayList<TT;>;]
+edu.rice.cs.drjava.ui.RegionsTreePanel: *java.util.IdentityHashMap* [protected] _regionToTreeNode [Ljava/util/IdentityHashMap<TR;Ljavax/swing/tree/DefaultMutableTreeNode;>;]
+edu.rice.cs.dynamicjava.interpreter.RuntimeBindings: *java.util.Map* [private] [final] _vars [Ljava/util/Map<Ledu/rice/cs/dynamicjava/symbol/LocalVariable;Ljava/lang/Object;>;]
+edu.rice.cs.dynamicjava.interpreter.RuntimeBindings: *java.util.Map* [private] [final] _thisVals [Ljava/util/Map<Ledu/rice/cs/dynamicjava/symbol/DJClass;Ljava/lang/Object;>;]
+edu.rice.cs.dynamicjava.interpreter.TreeCompiler$1: *java.util.List* [final] val$constructors
+edu.rice.cs.dynamicjava.symbol.ExtendedTypeSystem$33: *java.util.Set* [final] val$vars
+edu.rice.cs.dynamicjava.symbol.ExtendedTypeSystem$34: *java.util.Set* [final] val$vars
+edu.rice.cs.dynamicjava.symbol.ExtendedTypeSystem$35: *java.util.Set* [final] val$vars
+edu.rice.cs.dynamicjava.symbol.ExtendedTypeSystem$36: *java.util.Set* [final] val$vars
+edu.rice.cs.dynamicjava.symbol.ExtendedTypeSystem$44: *java.util.List* [final] val$alreadyChecked
+edu.rice.cs.dynamicjava.symbol.TreeClass: *java.util.List* [private] [final] _classes [Ljava/util/List<Ledu/rice/cs/dynamicjava/symbol/TreeClass;>;]
+edu.rice.cs.javalanglevels.Data: *java.util.LinkedList* [protected] _enclosingData [Ljava/util/LinkedList<Ledu/rice/cs/javalanglevels/Data;>;]
+edu.rice.cs.javalanglevels.Data: *java.util.LinkedList* [protected] _innerClasses [Ljava/util/LinkedList<Ledu/rice/cs/javalanglevels/SymbolData;>;]
+edu.rice.cs.javalanglevels.Data: *java.util.LinkedList* [protected] _blocks [Ljava/util/LinkedList<Ledu/rice/cs/javalanglevels/BlockData;>;]
+edu.rice.cs.javalanglevels.LanguageLevelConverter$1: *java.util.Set* [final] val$topLevelClasses
+edu.rice.cs.javalanglevels.SymbolData: *java.util.LinkedList* [private] _interfaces [Ljava/util/LinkedList<Ledu/rice/cs/javalanglevels/SymbolData;>;]
+edu.rice.cs.javalanglevels.SymbolData: *java.util.LinkedList* [private] _innerInterfaces [Ljava/util/LinkedList<Ledu/rice/cs/javalanglevels/SymbolData;>;]
+edu.rice.cs.plt.ant.ForNumTask: *java.util.List* [private] hasIterators
+edu.rice.cs.plt.ant.ForNumTask$MapIterator: *java.util.Map* [private] map
+edu.rice.cs.plt.collect.AbstractFunctionalRelation$1: *edu.rice.cs.plt.collect.AbstractFunctionalRelation* [final] this$0
+edu.rice.cs.plt.collect.AbstractFunctionalRelation$InverseFunctionalRelation: *edu.rice.cs.plt.collect.AbstractFunctionalRelation* [final] this$0
+edu.rice.cs.plt.collect.AbstractFunctionalRelation$MatchFirstSet: *edu.rice.cs.plt.collect.AbstractFunctionalRelation* [final] this$0
+edu.rice.cs.plt.collect.AbstractFunctionalRelation$MatchFirstSet$1: *edu.rice.cs.plt.collect.LambdaMap* [final] val$map
+edu.rice.cs.plt.collect.AbstractFunctionalRelation$MatchFirstSet$1: *edu.rice.cs.plt.collect.AbstractFunctionalRelation$MatchFirstSet* [final] this$1
+edu.rice.cs.plt.collect.AbstractInjectiveRelation$1: *edu.rice.cs.plt.collect.AbstractInjectiveRelation* [final] this$0
+edu.rice.cs.plt.collect.AbstractInjectiveRelation$InverseInjectiveRelation: *edu.rice.cs.plt.collect.AbstractInjectiveRelation* [final] this$0
+edu.rice.cs.plt.collect.AbstractInjectiveRelation$MatchSecondSet: *edu.rice.cs.plt.collect.AbstractInjectiveRelation* [final] this$0
+edu.rice.cs.plt.collect.AbstractInjectiveRelation$MatchSecondSet$1: *edu.rice.cs.plt.collect.LambdaMap* [final] val$map
+edu.rice.cs.plt.collect.AbstractInjectiveRelation$MatchSecondSet$1: *edu.rice.cs.plt.collect.AbstractInjectiveRelation$MatchSecondSet* [final] this$1
+edu.rice.cs.plt.collect.AbstractKeyBasedMap$1: *java.util.Map* [final] val$map
+edu.rice.cs.plt.collect.AbstractKeyBasedMap$EntrySet: *edu.rice.cs.plt.collect.AbstractKeyBasedMap* [final] this$0
+edu.rice.cs.plt.collect.AbstractKeyBasedMap$EntrySet$1: *edu.rice.cs.plt.collect.AbstractKeyBasedMap$EntrySet* [final] this$1
+edu.rice.cs.plt.collect.AbstractOneToOneRelation$InverseOneToOneRelation: *edu.rice.cs.plt.collect.AbstractOneToOneRelation* [final] this$0
+edu.rice.cs.plt.collect.AbstractOneToOneRelation$MatchSecondSet: *edu.rice.cs.plt.collect.AbstractOneToOneRelation* [final] this$0
+edu.rice.cs.plt.collect.AbstractOneToOneRelation$MatchSecondSet$1: *edu.rice.cs.plt.collect.LambdaMap* [final] val$map
+edu.rice.cs.plt.collect.AbstractOneToOneRelation$MatchSecondSet$1: *edu.rice.cs.plt.collect.AbstractOneToOneRelation$MatchSecondSet* [final] this$1
+edu.rice.cs.plt.collect.AbstractRelation$InverseRelation: *edu.rice.cs.plt.collect.AbstractRelation* [final] this$0
+edu.rice.cs.plt.collect.CartesianRelation: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _firstSet [Ledu/rice/cs/plt/collect/PredicateSet<TT1;>;]
+edu.rice.cs.plt.collect.CartesianRelation: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _secondSet [Ledu/rice/cs/plt/collect/PredicateSet<TT2;>;]
+edu.rice.cs.plt.collect.CartesianRelation$MatchSet: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _keys [Ledu/rice/cs/plt/collect/PredicateSet<TK;>;]
+edu.rice.cs.plt.collect.CartesianRelation$MatchSet: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _vals [Ledu/rice/cs/plt/collect/PredicateSet<TV;>;]
+edu.rice.cs.plt.collect.ComposedMap: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _keys [Ledu/rice/cs/plt/collect/PredicateSet<TK;>;]
+edu.rice.cs.plt.collect.ComposedMap$1: *edu.rice.cs.plt.collect.ComposedMap* [final] this$0
+edu.rice.cs.plt.collect.ComposedRelation: *edu.rice.cs.plt.collect.Relation* [private] [final] _rel1 [Ledu/rice/cs/plt/collect/Relation<TT1;TT2;>;]
+edu.rice.cs.plt.collect.ComposedRelation: *edu.rice.cs.plt.collect.Relation* [private] [final] _rel2 [Ledu/rice/cs/plt/collect/Relation<TT2;TT3;>;]
+edu.rice.cs.plt.collect.ComposedRelation: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _firstSet [Ledu/rice/cs/plt/collect/PredicateSet<TT1;>;]
+edu.rice.cs.plt.collect.ComposedRelation: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _secondSet [Ledu/rice/cs/plt/collect/PredicateSet<TT3;>;]
+edu.rice.cs.plt.collect.ComposedRelation$1: *edu.rice.cs.plt.collect.ComposedRelation* [final] this$0
+edu.rice.cs.plt.collect.ComposedRelation$2: *edu.rice.cs.plt.collect.ComposedRelation* [final] this$0
+edu.rice.cs.plt.collect.ComposedRelation$3: *edu.rice.cs.plt.collect.ComposedRelation* [final] this$0
+edu.rice.cs.plt.collect.ComposedRelation$4: *edu.rice.cs.plt.collect.ComposedRelation* [final] this$0
+edu.rice.cs.plt.collect.ComposedRelation$5: *edu.rice.cs.plt.collect.ComposedRelation* [final] this$0
+edu.rice.cs.plt.collect.ConcreteRelationIndex: *java.util.Map* [private] [final] _valueSets [Ljava/util/Map<TK;Ljava/lang/ref/WeakReference<Ledu/rice/cs/plt/collect/ConcreteRelationIndex<TK;TV;>.ValueSet;>;>;]
+edu.rice.cs.plt.collect.ConcreteRelationIndex: *java.util.Map* [private] [final] _nonEmptyValueSets [Ljava/util/Map<TK;Ledu/rice/cs/plt/collect/PredicateSet<TV;>;>;]
+edu.rice.cs.plt.collect.ConcreteRelationIndex$EntryIterator: *edu.rice.cs.plt.collect.PredicateSet* [private] _currentValues [Ledu/rice/cs/plt/collect/PredicateSet<TV;>;]
+edu.rice.cs.plt.collect.ConcreteRelationIndex$KeySet$1: *edu.rice.cs.plt.collect.ConcreteRelationIndex$KeySet* [final] this$1
+edu.rice.cs.plt.collect.ConcreteRelationIndex$ValueSet$ValueSetIterator: *edu.rice.cs.plt.collect.ConcreteRelationIndex$ValueSet* [final] this$1
+edu.rice.cs.plt.collect.DelegatingCollection: *java.util.Collection* [protected] _delegate [Ljava/util/Collection<TT;>;]
+edu.rice.cs.plt.collect.DelegatingList: *java.util.List* [protected] [final] _delegate [Ljava/util/List<TE;>;]
+edu.rice.cs.plt.collect.DelegatingMap: *java.util.Map* [protected] _delegate [Ljava/util/Map<TK;TV;>;]
+edu.rice.cs.plt.collect.DelegatingRelation: *edu.rice.cs.plt.collect.Relation* [protected] [final] _delegate [Ledu/rice/cs/plt/collect/Relation<TT1;TT2;>;]
+edu.rice.cs.plt.collect.DictionaryMap$1: *edu.rice.cs.plt.collect.DictionaryMap* [final] this$0
+edu.rice.cs.plt.collect.ExternallySortedMultiMap: *java.util.Map* [private] [final] _map [Ljava/util/Map<TK;Ledu/rice/cs/plt/collect/ExternallySortedSet<TV;TC;>;>;]
+edu.rice.cs.plt.collect.ExternallySortedSet: *java.util.SortedSet* [private] [final] _set [Ljava/util/SortedSet<TT;>;]
+edu.rice.cs.plt.collect.ExternallySortedSet: *java.util.Map* [private] [final] _orderByMap [Ljava/util/Map<TT;TC;>;]
+edu.rice.cs.plt.collect.FilteredRelation: *edu.rice.cs.plt.collect.Relation* [protected] [final] _rel [Ledu/rice/cs/plt/collect/Relation<TT1;TT2;>;]
+edu.rice.cs.plt.collect.FilteredRelation: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _firstSet [Ledu/rice/cs/plt/collect/PredicateSet<TT1;>;]
+edu.rice.cs.plt.collect.FilteredRelation: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _secondSet [Ledu/rice/cs/plt/collect/PredicateSet<TT2;>;]
+edu.rice.cs.plt.collect.FilteredRelation$1: *edu.rice.cs.plt.collect.FilteredRelation* [final] this$0
+edu.rice.cs.plt.collect.FilteredRelation$2: *edu.rice.cs.plt.collect.FilteredRelation* [final] this$0
+edu.rice.cs.plt.collect.FilteredRelation$3: *edu.rice.cs.plt.collect.FilteredRelation* [final] this$0
+edu.rice.cs.plt.collect.FilteredRelation$4: *edu.rice.cs.plt.collect.FilteredRelation* [final] this$0
+edu.rice.cs.plt.collect.HashMultiset: *java.util.HashMap* [private] _counts [Ljava/util/HashMap<TT;Ljava/lang/Integer;>;]
+edu.rice.cs.plt.collect.HashMultiset$1: *edu.rice.cs.plt.collect.HashMultiset* [final] this$0
+edu.rice.cs.plt.collect.ImmutableMap$EntrySet: *edu.rice.cs.plt.collect.ImmutableMap* [final] this$0
+edu.rice.cs.plt.collect.ImmutableRelation: [private] _inverse [Ledu/rice/cs/plt/collect/ImmutableRelation<TT2;TT1;>;]
+edu.rice.cs.plt.collect.IndexedFunctionalRelation: *java.util.Map* [private] _firstMap [Ljava/util/Map<TT1;TT2;>;]
+edu.rice.cs.plt.collect.IndexedFunctionalRelation: *edu.rice.cs.plt.collect.LambdaMap* [private] _functionMap [Ledu/rice/cs/plt/collect/LambdaMap<TT1;TT2;>;]
+edu.rice.cs.plt.collect.IndexedFunctionalRelation$1: *edu.rice.cs.plt.collect.IndexedFunctionalRelation* [final] this$0
+edu.rice.cs.plt.collect.IndexedInjectiveRelation: *java.util.Map* [private] _secondMap [Ljava/util/Map<TT2;TT1;>;]
+edu.rice.cs.plt.collect.IndexedInjectiveRelation: *edu.rice.cs.plt.collect.LambdaMap* [private] _injectionMap [Ledu/rice/cs/plt/collect/LambdaMap<TT2;TT1;>;]
+edu.rice.cs.plt.collect.IndexedInjectiveRelation$1: *edu.rice.cs.plt.collect.IndexedInjectiveRelation* [final] this$0
+edu.rice.cs.plt.collect.IndexedOneToOneRelation: *java.util.Map* [private] _firstMap [Ljava/util/Map<TT1;TT2;>;]
+edu.rice.cs.plt.collect.IndexedOneToOneRelation: *edu.rice.cs.plt.collect.LambdaMap* [private] _functionMap [Ledu/rice/cs/plt/collect/LambdaMap<TT1;TT2;>;]
+edu.rice.cs.plt.collect.IndexedOneToOneRelation: *java.util.Map* [private] _secondMap [Ljava/util/Map<TT2;TT1;>;]
+edu.rice.cs.plt.collect.IndexedOneToOneRelation: *edu.rice.cs.plt.collect.LambdaMap* [private] _injectionMap [Ledu/rice/cs/plt/collect/LambdaMap<TT2;TT1;>;]
+edu.rice.cs.plt.collect.IndexedRelation$1: *edu.rice.cs.plt.collect.IndexedRelation* [final] this$0
+edu.rice.cs.plt.collect.IndexedRelation$2: *edu.rice.cs.plt.collect.IndexedRelation* [final] this$0
+edu.rice.cs.plt.collect.LazyRelationIndex: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _pairSet [Ledu/rice/cs/plt/collect/PredicateSet<Ledu/rice/cs/plt/tuple/Pair<TK;TV;>;>;]
+edu.rice.cs.plt.collect.ListenerSet$Sink: *edu.rice.cs.plt.collect.ListenerSet* [final] this$0
+edu.rice.cs.plt.collect.MappedMap: *java.util.Map* [private] [final] _map [Ljava/util/Map<TK;+TX;>;]
+edu.rice.cs.plt.collect.SnapshotSynchronizedList$1: *edu.rice.cs.plt.collect.SnapshotSynchronizedList* [final] this$0
+edu.rice.cs.plt.collect.SnapshotSynchronizedList$2: *edu.rice.cs.plt.collect.SnapshotSynchronizedList* [final] this$0
+edu.rice.cs.plt.collect.SnapshotSynchronizedSet$1: *edu.rice.cs.plt.collect.SnapshotSynchronizedSet* [final] this$0
+edu.rice.cs.plt.collect.TotalMap: *java.util.Map* [private] [final] _overrides [Ljava/util/Map<-TK;TV;>;]
+edu.rice.cs.plt.collect.UnionMap: *edu.rice.cs.plt.collect.PredicateSet* [private] [final] _keys [Ledu/rice/cs/plt/collect/PredicateSet<TK;>;]
+edu.rice.cs.plt.collect.UnionRelation: *edu.rice.cs.plt.collect.Relation* [private] [final] _rel1 [Ledu/rice/cs/plt/collect/Relation<TT1;TT2;>;]
+edu.rice.cs.plt.collect.UnionRelation: *edu.rice.cs.plt.collect.Relation* [private] [final] _rel2 [Ledu/rice/cs/plt/collect/Relation<TT1;TT2;>;]
+edu.rice.cs.plt.collect.UnionRelation: *edu.rice.cs.plt.collect.Relation* [private] [final] _rel2Extras [Ledu/rice/cs/plt/collect/Relation<TT1;TT2;>;]
+edu.rice.cs.plt.collect.WeakHashSet: *java.util.WeakHashMap* [private] _items [Ljava/util/WeakHashMap<TT;Ljava/lang/Object;>;]
+edu.rice.cs.plt.concurrent.IncrementalTaskController: *java.util.concurrent.BlockingQueue* [private] [final] _intermediateQueue [Ljava/util/concurrent/BlockingQueue<TI;>;]
+edu.rice.cs.plt.concurrent.IncrementalTaskController: *edu.rice.cs.plt.collect.ListenerSet* [private] [final] _intermediateListeners [Ledu/rice/cs/plt/collect/ListenerSet<TI;>;]
+edu.rice.cs.plt.concurrent.JVMBuilder: *java.util.Properties* [private] [final] _properties
+edu.rice.cs.plt.concurrent.LockMap: *java.util.WeakHashMap* [private] [final] _map [Ljava/util/WeakHashMap<Ledu/rice/cs/plt/tuple/IdentityWrapper<TT;>;Ljava/util/concurrent/locks/ReentrantLock;>;]
+edu.rice.cs.plt.concurrent.TaskController: *edu.rice.cs.plt.collect.ListenerSet* [private] _finishListeners [Ledu/rice/cs/plt/collect/ListenerSet<TR;>;]
+edu.rice.cs.plt.debug.EventSequence: *java.util.List* [private] [final] _events [Ljava/util/List<TT;>;]
+edu.rice.cs.plt.debug.FilteredLogSink$4: *java.util.Set* [final] val$ids
+edu.rice.cs.plt.io.ExpandingBuffer: *java.util.LinkedList* [private] [final] _buffers [Ljava/util/LinkedList<TT;>;]
+edu.rice.cs.plt.iter.DiagonalCartesianIterator: *java.util.LinkedList* [private] _leftCache [Ljava/util/LinkedList<TT1;>;]
+edu.rice.cs.plt.iter.DiagonalCartesianIterator: *java.util.LinkedList* [private] _rightCache [Ljava/util/LinkedList<TT2;>;]
+edu.rice.cs.plt.iter.IterUtil$CollectionWrapper: *java.util.Collection* [private] [final] _c [Ljava/util/Collection<TT;>;]
+edu.rice.cs.plt.iter.NoDuplicatesIterator: *java.util.Set* [private] [final] _seen [Ljava/util/Set<TT;>;]
+edu.rice.cs.plt.iter.SnapshotIterable: *java.util.ArrayList* [private] [final] _values [Ljava/util/ArrayList<TT;>;]
+edu.rice.cs.plt.recur.PrecomputedRecursionStack: *java.util.Map* [private] [final] _previous [Ljava/util/Map<Ledu/rice/cs/plt/tuple/Wrapper<TT;>;Ledu/rice/cs/plt/lambda/Lambda<-TT;+TR;>;>;]
+edu.rice.cs.plt.recur.PrecomputedRecursionStack: *java.util.LinkedList* [private] [final] _stack [Ljava/util/LinkedList<Ledu/rice/cs/plt/tuple/Wrapper<TT;>;>;]
+edu.rice.cs.plt.recur.PrecomputedRecursionStack2: *java.util.Map* [private] [final] _previous [Ljava/util/Map<Ledu/rice/cs/plt/tuple/Pair<TT1;TT2;>;Ledu/rice/cs/plt/lambda/Lambda2<-TT1;-TT2;+TR;>;>;]
+edu.rice.cs.plt.recur.PrecomputedRecursionStack2: *java.util.LinkedList* [private] [final] _stack [Ljava/util/LinkedList<Ledu/rice/cs/plt/tuple/Pair<TT1;TT2;>;>;]
+edu.rice.cs.plt.recur.PrecomputedRecursionStack3: *java.util.Map* [private] [final] _previous [Ljava/util/Map<Ledu/rice/cs/plt/tuple/Triple<TT1;TT2;TT3;>;Ledu/rice/cs/plt/lambda/Lambda3<-TT1;-TT2;-TT3;+TR;>;>;]
+edu.rice.cs.plt.recur.PrecomputedRecursionStack3: *java.util.LinkedList* [private] [final] _stack [Ljava/util/LinkedList<Ledu/rice/cs/plt/tuple/Triple<TT1;TT2;TT3;>;>;]
+edu.rice.cs.plt.recur.PrecomputedRecursionStack4: *java.util.Map* [private] [final] _previous [Ljava/util/Map<Ledu/rice/cs/plt/tuple/Quad<TT1;TT2;TT3;TT4;>;Ledu/rice/cs/plt/lambda/Lambda4<-TT1;-TT2;-TT3;-TT4;+TR;>;>;]
+edu.rice.cs.plt.recur.PrecomputedRecursionStack4: *java.util.LinkedList* [private] [final] _stack [Ljava/util/LinkedList<Ledu/rice/cs/plt/tuple/Quad<TT1;TT2;TT3;TT4;>;>;]
+edu.rice.cs.plt.recur.RecursionStack: *edu.rice.cs.plt.collect.Multiset* [private] [final] _previous [Ledu/rice/cs/plt/collect/Multiset<Ledu/rice/cs/plt/tuple/Wrapper<TT;>;>;]
+edu.rice.cs.plt.recur.RecursionStack: *java.util.LinkedList* [private] [final] _stack [Ljava/util/LinkedList<Ledu/rice/cs/plt/tuple/Wrapper<TT;>;>;]
+edu.rice.cs.plt.recur.RecursionStack2: *edu.rice.cs.plt.collect.Multiset* [private] [final] _previous [Ledu/rice/cs/plt/collect/Multiset<Ledu/rice/cs/plt/tuple/Pair<TT1;TT2;>;>;]
+edu.rice.cs.plt.recur.RecursionStack2: *java.util.LinkedList* [private] [final] _stack [Ljava/util/LinkedList<Ledu/rice/cs/plt/tuple/Pair<TT1;TT2;>;>;]
+edu.rice.cs.plt.recur.RecursionStack3: *edu.rice.cs.plt.collect.Multiset* [private] [final] _previous [Ledu/rice/cs/plt/collect/Multiset<Ledu/rice/cs/plt/tuple/Triple<TT1;TT2;TT3;>;>;]
+edu.rice.cs.plt.recur.RecursionStack3: *java.util.LinkedList* [private] [final] _stack [Ljava/util/LinkedList<Ledu/rice/cs/plt/tuple/Triple<TT1;TT2;TT3;>;>;]
+edu.rice.cs.plt.recur.RecursionStack4: *edu.rice.cs.plt.collect.Multiset* [private] [final] _previous [Ledu/rice/cs/plt/collect/Multiset<Ledu/rice/cs/plt/tuple/Quad<TT1;TT2;TT3;TT4;>;>;]
+edu.rice.cs.plt.recur.RecursionStack4: *java.util.LinkedList* [private] [final] _stack [Ljava/util/LinkedList<Ledu/rice/cs/plt/tuple/Quad<TT1;TT2;TT3;TT4;>;>;]
+edu.rice.cs.plt.swing.ComposedListener: *java.util.LinkedList* [private] [final] _listeners [Ljava/util/LinkedList<TT;>;]
+edu.rice.cs.plt.text.TextUtil$7: *java.util.Map* [final] val$entities
+edu.rice.cs.plt.text.TextUtil$8: *java.util.Map* [final] val$entities
+edu.rice.cs.util.docnavigation.AWTContainerNavigatorFactory$2: *java.util.List* [final] val$l
+edu.rice.cs.util.docnavigation.JTreeSortNavigator: *java.util.HashMap* [private] [final] _doc2node [Ljava/util/HashMap<TItemT;Ledu/rice/cs/util/docnavigation/LeafNode<TItemT;>;>;]
+edu.rice.cs.util.docnavigation.JTreeSortNavigator: *java.util.List* [private] _roots [Ljava/util/List<Ledu/rice/cs/util/docnavigation/GroupNode<TItemT;>;>;]
+edu.rice.cs.util.FileOps$2: *java.util.Set* [final] val$exploredDirectories
+edu.rice.cs.util.swing.DelegatingAction: *java.util.HashMap* [private] _localProperties [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+edu.rice.cs.util.swing.ScrollableListDialog: *java.util.List* [protected] listItems [Ljava/util/List<TT;>;]
+edu.rice.cs.util.swing.ScrollableListDialog$2: *java.util.List* [final] val$data
+edu.rice.cs.util.swing.ScrollableListDialog$Builder: *java.util.List* [protected] _listItems [Ljava/util/List<TT;>;]
+edu.rice.cs.util.swing.ScrollableListDialog$Builder: *java.util.List* [protected] _selectedItems [Ljava/util/List<TT;>;]
+edu.rice.cs.util.swing.ScrollableListSelectionDialog$4: *java.util.Collection* [final] val$data
+
+ARRAYS REPORT
+=============
+
+edu.rice.cs.drjava.config.OptionParseException: *edu.rice.cs.drjava.config.OptionParseException[]* [public] causes [no-stores]
+edu.rice.cs.drjava.DrJavaRoot$1: *java.lang.String[]* [final] val$filesToOpen [no-stores]
+edu.rice.cs.drjava.DrJavaRoot$4: *java.lang.String[]* [final] val$filesToOpen [no-stores]
+edu.rice.cs.drjava.model.AbstractGlobalModel$13: *edu.rice.cs.drjava.project.DocFile[]* [final] val$filesToOpen [no-stores]
+edu.rice.cs.drjava.model.AbstractGlobalModel$7: *java.io.File[]* [final] val$sfiles [no-stores]
+edu.rice.cs.drjava.model.AbstractGlobalModel$ConcreteOpenDefDoc$1: *javax.swing.event.DocumentListener[]* [private] _list [no-stores]
+edu.rice.cs.drjava.model.AbstractGlobalModel$ProjectFileGroupingState: *java.io.File[]* [final] _projectFiles [no-stores]
+edu.rice.cs.drjava.model.AlreadyOpenException: *edu.rice.cs.drjava.model.OpenDefinitionsDocument[]* [private] _openDocs
+edu.rice.cs.drjava.model.compiler.CompilerErrorModel: *edu.rice.cs.drjava.model.DJError[]* [private] [final] _errors
+edu.rice.cs.drjava.model.compiler.CompilerErrorModel: *javax.swing.text.Position[]* [private] [final] _positions
+edu.rice.cs.drjava.model.debug.jpda.Step: *java.lang.String[]* [private] [final] _javaExcludes
+edu.rice.cs.drjava.model.definitions.DefinitionsEditorKit: *javax.swing.Action[]* [private] _actions
+edu.rice.cs.drjava.model.definitions.indent.ActionStartPrevLinePlusMultiline: *java.lang.String[]* [private] _suffices [no-stores]
+edu.rice.cs.drjava.model.definitions.indent.ActionStartPrevLinePlusMultilinePreserve: *java.lang.String[]* [private] _suffices
+edu.rice.cs.drjava.model.junit.JUnitError: *java.lang.StackTraceElement[]* [private] _stackTrace [no-stores]
+edu.rice.cs.drjava.model.repl.newjvm.InterpretResult$ExceptionResult: *java.lang.StackTraceElement[]* [private] [final] _stackTrace [no-stores]
+edu.rice.cs.drjava.ui.CompilerErrorPanel: *java.io.File[]* [private] _excludedFiles [no-stores]
+edu.rice.cs.drjava.ui.config.VectorOptionComponent: *java.lang.String[]* [protected] _columnNames [no-stores]
+edu.rice.cs.drjava.ui.DebugPanel$StackTableModel: *java.lang.String[]* [private] _columnNames
+edu.rice.cs.drjava.ui.DebugPanel$ThreadTableModel: *java.lang.String[]* [private] _columnNames
+edu.rice.cs.drjava.ui.DebugPanel$WatchTableModel: *java.lang.String[]* [private] _columnNames
+edu.rice.cs.drjava.ui.DrJavaErrorPopup: *java.lang.String[]* [private] [final] msg
+edu.rice.cs.drjava.ui.ErrorPanel$ErrorListPane: *javax.swing.text.Position[]* [protected] _errorListPositions
+edu.rice.cs.drjava.ui.MainFrame$213: *java.io.File[]* [final] val$fileList [no-stores]
+edu.rice.cs.drjava.ui.MainFrame$248: *java.io.File[]* [final] val$fileArray [no-stores]
+edu.rice.cs.drjava.ui.NewVersionPopup: *java.lang.String[]* [private] _msg
+edu.rice.cs.drjava.ui.predictive.PredictiveInputFrame: *javax.swing.JButton[]* [private] [final] _buttons
+edu.rice.cs.drjava.ui.predictive.PredictiveInputFrame: *javax.swing.JComponent[]* [protected] _optionalComponents
+edu.rice.cs.drjava.ui.PreviewFrame$JSpinnerChanger: *java.lang.Object[]* [private] [final] args
+edu.rice.cs.dynamicjava.symbol.Java5Class$13: *java.lang.reflect.Type[]* [final] val$ts [no-stores]
+edu.rice.cs.dynamicjava.symbol.JavaClass$6: *java.lang.Class[]* [final] val$cs [no-stores]
+edu.rice.cs.javalanglevels.MethodData: *edu.rice.cs.javalanglevels.tree.TypeParameter[]* [private] _typeParameters [hashcode]
+edu.rice.cs.javalanglevels.MethodData: *edu.rice.cs.javalanglevels.VariableData[]* [private] _params [hashcode]
+edu.rice.cs.javalanglevels.MethodData: *java.lang.String[]* [private] _thrown [hashcode]
+edu.rice.cs.javalanglevels.parser.JExprParser: *edu.rice.cs.javalanglevels.parser.JExprParser$JJCalls[]* [private] [final] jj_2_rtns
+edu.rice.cs.javalanglevels.parser.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+edu.rice.cs.javalanglevels.parser.UnmodifiedClassDef: *edu.rice.cs.javalanglevels.tree.TypeParameter[]* [public] typeParameters [no-stores]
+edu.rice.cs.javalanglevels.parser.UnmodifiedClassDef: *edu.rice.cs.javalanglevels.tree.ReferenceType[]* [public] interfaces [no-stores]
+edu.rice.cs.javalanglevels.parser.UnmodifiedInterfaceDef: *edu.rice.cs.javalanglevels.tree.TypeParameter[]* [public] typeParameters [no-stores]
+edu.rice.cs.javalanglevels.parser.UnmodifiedInterfaceDef: *edu.rice.cs.javalanglevels.tree.ReferenceType[]* [public] superinterfaces [no-stores]
+edu.rice.cs.javalanglevels.SymbolData: *edu.rice.cs.javalanglevels.tree.TypeParameter[]* [private] _typeParameters [hashcode]
+edu.rice.cs.javalanglevels.tree.ArrayInitializer: *edu.rice.cs.javalanglevels.tree.VariableInitializerI[]* [private] [final] _items [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.Body: *edu.rice.cs.javalanglevels.tree.BodyItemI[]* [private] [final] _statements [no-stores]
+edu.rice.cs.javalanglevels.tree.ClassOrInterfaceType: *edu.rice.cs.javalanglevels.tree.Type[]* [private] [final] _typeArguments [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.CompoundWord: *edu.rice.cs.javalanglevels.tree.Word[]* [private] [final] _words [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.ConstructorDef: *edu.rice.cs.javalanglevels.tree.FormalParameter[]* [private] [final] _parameters [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.ConstructorDef: *edu.rice.cs.javalanglevels.tree.ReferenceType[]* [private] [final] _throws [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.ExpressionList: *edu.rice.cs.javalanglevels.tree.Expression[]* [private] [final] _expressions [no-stores]
+edu.rice.cs.javalanglevels.tree.MethodDef: *edu.rice.cs.javalanglevels.tree.TypeParameter[]* [private] [final] _typeParams [no-stores]
+edu.rice.cs.javalanglevels.tree.MethodDef: *edu.rice.cs.javalanglevels.tree.FormalParameter[]* [private] [final] _params [no-stores]
+edu.rice.cs.javalanglevels.tree.MethodDef: *edu.rice.cs.javalanglevels.tree.ReferenceType[]* [private] [final] _throws [no-stores]
+edu.rice.cs.javalanglevels.tree.ModifiersAndVisibility: *java.lang.String[]* [private] [final] _modifiers [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.SourceFile: *edu.rice.cs.javalanglevels.tree.PackageStatement[]* [private] [final] _packageStatements [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.SourceFile: *edu.rice.cs.javalanglevels.tree.ImportStatement[]* [private] [final] _importStatements [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.SourceFile: *edu.rice.cs.javalanglevels.tree.TypeDefBase[]* [private] [final] _types [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.SwitchStatement: *edu.rice.cs.javalanglevels.tree.SwitchCase[]* [private] [final] _cases [no-stores] [hashcode]
+edu.rice.cs.javalanglevels.tree.TryCatchStatement: *edu.rice.cs.javalanglevels.tree.CatchBlock[]* [private] [final] _catchBlocks [no-stores]
+edu.rice.cs.javalanglevels.tree.TypeDefBase: *edu.rice.cs.javalanglevels.tree.TypeParameter[]* [private] [final] _typeParameters [no-stores]
+edu.rice.cs.javalanglevels.tree.TypeDefBase: *edu.rice.cs.javalanglevels.tree.ReferenceType[]* [private] [final] _interfaces [no-stores]
+edu.rice.cs.javalanglevels.tree.VariableDeclaration: *edu.rice.cs.javalanglevels.tree.VariableDeclarator[]* [private] [final] _declarators [no-stores] [hashcode]
+edu.rice.cs.plt.debug.FilteredLogSink$1: *java.lang.String[]* [final] val$prefixes [no-stores]
+edu.rice.cs.plt.debug.FilteredLogSink$5: *java.lang.String[]* [final] val$nameParts [no-stores]
+edu.rice.cs.plt.iter.IterUtil$ObjectArrayWrapper: *java.lang.Object[]* [private] [final] _array [[TT;] [no-stores]
+edu.rice.cs.plt.reflect.ReflectUtil$ConstructorWrapper: *java.lang.Class[]* [private] [final] _signature [[Ljava/lang/Class<*>;] [no-stores]
+edu.rice.cs.plt.reflect.ReflectUtil$MethodWrapper: *java.lang.Class[]* [private] [final] _signature [[Ljava/lang/Class<*>;] [no-stores]
+edu.rice.cs.plt.text.TextUtil$StringSplitter: *edu.rice.cs.plt.text.Bracket[]* [private] [final] _brackets
+edu.rice.cs.plt.text.TextUtil$StringSplitter: *java.util.regex.Matcher[]* [private] [final] _lefts
+edu.rice.cs.plt.text.TextUtil$StringSplitter: *java.util.regex.Matcher[]* [private] [final] _rights
+edu.rice.cs.util.JoinInputStream: *edu.rice.cs.util.ReaderThread[]* [protected] reader
+edu.rice.cs.util.ProcessChain: *edu.rice.cs.util.ProcessCreator[]* [protected] _creators
+edu.rice.cs.util.ProcessChain: *java.lang.Process[]* [protected] _processes
+edu.rice.cs.util.ProcessCreator: *java.lang.String[]* [protected] _cmdarray
+edu.rice.cs.util.ProcessSequence: *edu.rice.cs.util.ProcessCreator[]* [protected] _creators
+edu.rice.cs.util.ProcessSequence: *java.lang.Process[]* [protected] _processes
+edu.rice.cs.util.swing.FileSelectionEvent: *java.io.File[]* [protected] _changed
+edu.rice.cs.util.swing.LayeredIcon: *javax.swing.Icon[]* [private] _layers [no-stores]
+
+N-CYCLES
+========
+[edu/rice/cs/drjava/model/BrowserDocumentRegion, edu/rice/cs/drjava/model/BrowserHistoryManager, edu/rice/cs/drjava/model/definitions/DefinitionsEditorKit, edu/rice/cs/drjava/model/AbstractGlobalModel]
+[edu/rice/cs/drjava/ui/CompilerErrorPanel$CompilerErrorListPane, edu/rice/cs/drjava/ui/CompilerErrorPanel]
+[edu/rice/cs/drjava/ui/JavadocErrorPanel$JavadocErrorListPane, edu/rice/cs/drjava/ui/JavadocErrorPanel]
+[edu/rice/cs/drjava/ui/EditExternalDialog, edu/rice/cs/drjava/ui/InsertVariableDialog, edu/rice/cs/drjava/ui/ExecuteExternalDialog, edu/rice/cs/drjava/ui/predictive/PredictiveInputFrame$PredictiveInputListener, edu/rice/cs/drjava/ui/predictive/PredictiveInputFrame, edu/rice/cs/drjava/ui/ClipboardHistoryFrame, edu/rice/cs/drjava/ui/JarOptionsDialog, edu/rice/cs/util/swing/DirectorySelectorComponent, edu/rice/cs/drjava/ui/JavadocDialog, edu/rice/cs/drjava/ui/RecentDocFrame, edu/rice/cs/drjava/ui/config/ConfigFrame$PanelTreeNode, edu/rice/cs/drjava/ui/config/ConfigFrame, edu/rice/cs/drjava/ui/MainFrame$PositionListener, edu/rice/cs/drjava/ui/DebugPanel, edu/rice/cs/drjava/model/repl/InteractionsScriptModel, edu/rice/cs/drjava/ui/InteractionsScriptController, edu/rice/cs/drjava/model/FindReplaceMachine, edu/rice/cs/drjava/ui/FindReplacePanel, edu/rice/cs/drjava/ui/JUnitPanel$JUnitErrorListPane, edu/rice/cs/drjava/ui/JUnitPanel, edu/rice/cs/drjava/model/repl/InteractionsModel, edu/rice/cs/drjava/ui/InteractionsController, edu/rice/cs/drjava/ui/ConsoleController, edu/rice/cs/drjava/ui/InteractionsPane, edu/rice/cs/drjava/ui/DetachedFrame, edu/rice/cs/drjava/model/definitions/CompoundUndoManager, edu/rice/cs/drjava/model/definitions/DefinitionsDocument, edu/rice/cs/drjava/ui/ErrorCaretListener, edu/rice/cs/drjava/ui/DefinitionsPane$PopupMenuMouseAdapter, edu/rice/cs/drjava/ui/DefinitionsPane$RedoAction, edu/rice/cs/drjava/ui/DefinitionsPane$UndoAction, edu/rice/cs/drjava/ui/DefinitionsPane, edu/rice/cs/drjava/ui/MainFrame$ModelListener, edu/rice/cs/drjava/ui/MainFrame]
+[edu/rice/cs/plt/collect/ListenerSet$Sink, edu/rice/cs/plt/collect/ListenerSet]
+[edu/rice/cs/drjava/model/definitions/reducedmodel/ReducedModelBrace, edu/rice/cs/drjava/model/definitions/reducedmodel/ReducedModelControl]
+[edu/rice/cs/drjava/model/repl/newjvm/MainJVM$ResultHandler, edu/rice/cs/drjava/model/repl/newjvm/MainJVM]
+[edu/rice/cs/drjava/model/junit/DefaultJUnitModel, edu/rice/cs/drjava/model/DefaultGlobalModel, edu/rice/cs/drjava/model/repl/DefaultInteractionsModel]
+[edu/rice/cs/dynamicjava/symbol/ExtendedTypeSystem$ConstraintSet, edu/rice/cs/dynamicjava/symbol/ExtendedTypeSystem]
+[edu/rice/cs/dynamicjava/interpreter/TreeCompiler, edu/rice/cs/dynamicjava/interpreter/TreeCompiler$EvaluationAdapter]
+[edu/rice/cs/dynamicjava/interpreter/TypeNameChecker$TypeNameVisitor, edu/rice/cs/dynamicjava/interpreter/TypeNameChecker]
+[edu/rice/cs/drjava/ui/ReverseHighlighter$SafeDamager, edu/rice/cs/drjava/ui/ReverseHighlighter]
+[edu/rice/cs/util/docnavigation/JTreeSortNavigator$CustomTreeCellRenderer, edu/rice/cs/util/docnavigation/JTreeSortNavigator]
+[edu/rice/cs/drjava/project/ProjectFileParser$BookmarkListVisitor, edu/rice/cs/drjava/project/ProjectFileParser$BreakpointListVisitor, edu/rice/cs/drjava/project/ProjectFileParser]
+[edu/rice/cs/javalanglevels/SymbolData, edu/rice/cs/javalanglevels/InstanceData]
+[edu/rice/cs/javalanglevels/LValueTypeChecker$TestAssignable, edu/rice/cs/javalanglevels/LValueTypeChecker]
+[edu/rice/cs/javalanglevels/LValueWithValueTypeChecker$TestAssignable, edu/rice/cs/javalanglevels/LValueWithValueTypeChecker]
+[edu/rice/cs/util/swing/FontChooser$NwList, edu/rice/cs/util/swing/FontChooser]
+[edu/rice/cs/drjava/ui/config/VectorKeyStrokeOptionComponent$GetKeyDialog$InputField, edu/rice/cs/drjava/ui/config/VectorKeyStrokeOptionComponent$GetKeyDialog]
+[edu/rice/cs/drjava/ui/config/KeyStrokeOptionComponent$GetKeyDialog, edu/rice/cs/drjava/ui/config/KeyStrokeOptionComponent$GetKeyDialog$InputField]
+[edu/rice/cs/drjava/model/debug/jpda/PendingRequestManager, edu/rice/cs/drjava/model/debug/jpda/JPDADebugger]
+[edu/rice/cs/drjava/model/junit/JUnitTestRunner, edu/rice/cs/drjava/model/junit/JUnitTestManager]
+[edu/rice/cs/plt/io/LinkedReaderAndWriter, edu/rice/cs/plt/io/LinkedReaderAndWriter$2]

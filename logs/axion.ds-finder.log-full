@@ -1,0 +1,177 @@
+DSFinder has run for 0 min. 3 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.axiondb.AxionException: *java.lang.Throwable* [private] _nested
+org.axiondb.engine.rowcollection.IntHashMap$Entry: *java.lang.Object* [private] _value
+org.axiondb.engine.rows.LazyRow: *java.lang.Object* [private] _knownValue
+org.axiondb.jdbc.AxionResultSet: *java.lang.Object* [private] _updateLock
+org.axiondb.Literal: *java.lang.Object* [protected] _value
+
+Linked List-like Data Structures:
+org.axiondb.engine.rowcollection.IntHashMap$Entry: [private] _next
+org.axiondb.engine.rowcollection.IntHashMap$Entry: [private] _previous
+org.axiondb.parser.Token: [public] next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.axiondb.ColumnIdentifier: [private] _canonicalForm
+org.axiondb.engine.rowcollection.IntHashMap: [private] _oldEntries
+org.axiondb.engine.rowcollection.IntHashMap$Entry: [private] _beside
+org.axiondb.parser.Token: [public] specialToken
+Non-Object Fields:
+org.axiondb.util.Utf8InputStreamConverter: *java.io.InputStream* [private] _utf8Stream
+java.lang.Object Fields:
+org.axiondb.engine.commands.RemountCommand: *java.lang.Object* [private] _dir
+org.axiondb.FromNode: *java.lang.Object* [private] _left
+org.axiondb.FromNode: *java.lang.Object* [private] _right
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.axiondb.constraints.ForeignKeyConstraint: *java.util.List* [private] _childColumns
+org.axiondb.engine.commands.AlterTableCommand: *java.util.List* [private] _childCommands
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _childCommands
+==
+org.axiondb.Column: *java.util.Map* [private] _config
+org.axiondb.constraints.BaseSelectableBasedConstraint: *java.util.List* [private] _selectables
+org.axiondb.constraints.ForeignKeyConstraint: *java.util.List* [private] _parentColumns
+org.axiondb.constraints.UniqueConstraint: *java.util.Set* [private] fkSet
+org.axiondb.DatabaseLink: *java.util.Properties* [private] _connSpec
+org.axiondb.engine.commands.AxionQueryContext: *java.util.List* [private] _groupBy
+org.axiondb.engine.commands.AxionQueryContext: *java.util.List* [private] _orderBy
+org.axiondb.engine.commands.AxionQueryContext: *java.util.List* [private] _resolvedSelect
+org.axiondb.engine.commands.AxionQueryContext: *java.util.List* [private] _select
+org.axiondb.engine.commands.AxionQueryPlanner: *java.util.Map* [private] _colIdToFieldMap
+org.axiondb.engine.commands.AxionQueryPlanner: *java.util.List* [private] _literals
+org.axiondb.engine.commands.AxionQueryPlanner: *java.util.Set* [private] _unappliedWhereNodes
+org.axiondb.engine.commands.AxionQueryPlanner: *java.util.Set* [private] _unappliedTableFilters
+org.axiondb.engine.commands.AxionQueryPlanner$AxionQueryPlanNode: *java.util.List* _explainRows
+org.axiondb.engine.commands.AxionQueryPlanner$JoinCondition: *java.util.Set* [private] _joinConditions
+org.axiondb.engine.commands.AxionQueryPlanner$QueryPlannerJoinContext: *java.util.List* [private] _columns
+org.axiondb.engine.commands.CreateDatabaseLinkCommand: *java.util.Properties* _connectionSpec
+org.axiondb.engine.commands.CreateIndexCommand: *java.util.List* [private] _columns
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _colIdsForInsert
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _columnNames
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _columns
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _columnScale
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _alterColumnNames
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _newColumnNames
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _newDefaults
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _dropdefaults
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _columnSize
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _dataTypes
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _defaults
+org.axiondb.engine.commands.CreateTableCommand: *java.util.List* [private] _generated
+org.axiondb.engine.commands.CreateTableCommand: *java.util.Set* [private] _excludeSourceColumns
+org.axiondb.engine.commands.CreateTableCommand: *java.util.Properties* [private] _tableOrganization
+org.axiondb.engine.commands.InsertCommand: *java.util.List* [private] _insertIntoList
+org.axiondb.engine.commands.InsertIntoClause: *java.util.List* [private] _cols
+org.axiondb.engine.commands.InsertIntoClause: *java.util.List* [private] _vals
+org.axiondb.engine.commands.UpdateCommand: *java.util.List* [private] _cols
+org.axiondb.engine.commands.UpdateCommand: *java.util.List* [private] _vals
+org.axiondb.engine.commands.UpsertCommand: *java.util.List* [private] _columnsForInsert
+org.axiondb.engine.commands.UpsertCommand: *java.util.List* [private] _columnsForUpdate
+org.axiondb.engine.commands.UpsertCommand: *java.util.List* [private] _valuesForInsert
+org.axiondb.engine.commands.UpsertCommand: *java.util.List* [private] _valuesForUpdate
+org.axiondb.engine.indexes.ObjectArrayIndex: *java.util.ArrayList* [private] _keys
+org.axiondb.engine.rowcollection.IntRowMap: *java.util.List* [private] _indices
+org.axiondb.engine.rowiterators.ChainedRowIterator: *java.util.ArrayList* [private] _iterators
+org.axiondb.engine.rowiterators.CollatingRowIterator: *java.util.ArrayList* [private] _iterators
+org.axiondb.engine.rowiterators.DistinctRowIterator: *java.util.Map* [private] _timesEncountered
+org.axiondb.engine.rowiterators.GroupedRowIterator: *java.util.Map* [private] _aggrFnValueCache
+org.axiondb.engine.rowiterators.GroupedRowIterator: *java.util.Map* [private] _colIdToFieldMap
+org.axiondb.engine.rowiterators.GroupedRowIterator: *java.util.List* [private] _groupByCols
+org.axiondb.engine.rowiterators.GroupedRowIterator: *java.util.List* [private] _orderByNodes
+org.axiondb.engine.rowiterators.GroupedRowIterator: *java.util.List* [private] _selected
+org.axiondb.engine.rowiterators.ListRowIterator: *java.util.List* [private] _list
+org.axiondb.engine.rowiterators.RowViewRowIterator: *java.util.Map* [private] _colIdToFieldMap
+org.axiondb.engine.rowiterators.RowViewRowIterator: *java.util.List* [private] _selected
+org.axiondb.engine.rows.JoinedRow: *java.util.ArrayList* [private] _rows
+org.axiondb.engine.SnapshotIsolationTransaction: *java.util.Map* [private] _contextVariables
+org.axiondb.engine.SnapshotIsolationTransaction: *java.util.Set* [private] _modifiedTables
+org.axiondb.engine.SnapshotIsolationTransaction: *java.util.Set* [private] _readTables
+org.axiondb.engine.SnapshotIsolationTransaction: *java.util.Map* [private] _wrappedTables
+org.axiondb.engine.tables.BaseTable: *java.util.List* [private] _cols
+org.axiondb.engine.tables.BaseTable: *java.util.List* [private] _indices
+org.axiondb.engine.tables.BaseTable: *java.util.Map* [private] _constraints
+org.axiondb.engine.tables.BaseTable: *java.util.Map* [private] _colIndexToColIdMap
+org.axiondb.engine.tables.BaseTableOrganizationContext: *java.util.Set* [private] PROPERTY_KEYS
+org.axiondb.engine.tables.BaseTableOrganizationContext: *java.util.Properties* [protected] _props
+org.axiondb.engine.tables.ExternalAxionDBTable: *java.util.List* [private] _cols
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.List* [private] _indexes
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.Map* [private] _colIndexToColIdMap
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.List* [private] _cols
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.Map* [private] _constraints
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.Set* [private] _notNullColumns
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.List* [private] _tableModificationListeners
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.Map* [private] _typeInfoMap
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.List* [private] _uniqueConstraints
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.List* [private] _updateCols
+org.axiondb.engine.tables.ExternalDatabaseTable: *java.util.Map* [private] _indexSelectPSs
+org.axiondb.engine.tables.MemoryTable: *java.util.ArrayList* [private] _rows
+org.axiondb.engine.tables.TableView: *java.util.List* [private] _select
+org.axiondb.engine.tables.TableView: *java.util.List* [private] _trueColumns
+org.axiondb.engine.tables.TableView: *java.util.Map* [private] _colIndexToColIdMap
+org.axiondb.engine.tables.TableView: *java.util.Map* [private] _srcColIdToFieldMap
+org.axiondb.engine.TransactableTableImpl: *java.util.List* _constraints
+org.axiondb.engine.TransactableTableImpl: *java.util.List* _indices
+org.axiondb.engine.TransactionManagerImpl: *java.util.List* [private] _committedTransactions
+org.axiondb.engine.TransactionManagerImpl: *java.util.List* [private] _openTransactions
+org.axiondb.engine.visitors.AssertGroupByRulesVisitor: *java.util.List* [private] _groupByNodes
+org.axiondb.engine.visitors.FindBindVariableVisitor: *java.util.List* [private] bvUsedInSelectable
+org.axiondb.engine.visitors.FlattenWhereNodeVisitor: *java.util.Set* [protected] _nodes
+org.axiondb.engine.visitors.TableColumnsUsedInFunctionVisitor: *java.util.Set* [private] columnsUsedInFunction
+org.axiondb.event.BaseTableModificationPublisher: *java.util.List* [private] _tableModificationListeners
+org.axiondb.functions.BaseAggregateFunction: *java.util.Set* [private] _distinctValues
+org.axiondb.functions.BaseFunction: *java.util.List* [private] _args
+org.axiondb.functions.BaseRegExpFunction: *java.util.Map* [private] _reCache
+org.axiondb.jdbc.BaseAxionStatement: *java.util.ArrayList* [protected] _batchContext
+org.axiondb.RowDecorator: *java.util.Map* [private] _fieldMap
+org.axiondb.Sequence: *java.util.List* [private] _listeners
+org.axiondb.util.ComparatorChain: *java.util.List* [protected] comparatorChain
+org.axiondb.util.IntBTree$StateStack: *java.util.List* [private] _nodes
+org.axiondb.util.IntListIteratorChain: *java.util.List* [private] _listOfIterators
+org.axiondb.util.ObjectBTree: *java.util.List* [private] _keys
+
+ARRAYS REPORT
+=============
+
+org.axiondb.engine.commands.AxionQueryContext: *org.axiondb.TableIdentifier[]* [private] _parentTables [no-stores]
+org.axiondb.engine.commands.AxionQueryContext: *org.axiondb.Selectable[]* [private] _selected [no-stores]
+org.axiondb.engine.commands.AxionQueryContext: *org.axiondb.TableIdentifier[]* [private] _tables [no-stores]
+org.axiondb.engine.commands.InsertIntoClause: *org.axiondb.TableIdentifier[]* [private] _tables [mod]
+org.axiondb.engine.rowcollection.IntHashMap: *org.axiondb.engine.rowcollection.IntHashMap$Entry[]* [private] _entries [hashcode]
+org.axiondb.engine.rowcollection.IntHashMap$Entry: *org.axiondb.engine.rowcollection.IntHashMap$Entry[]* [private] _table [hashcode]
+org.axiondb.engine.rowiterators.CollatingRowIterator: *org.axiondb.Row[]* [private] _nextValues
+org.axiondb.engine.rowiterators.CollatingRowIterator: *org.axiondb.Row[]* [private] _previousValues
+org.axiondb.engine.rowiterators.DistinctRowIterator: *org.axiondb.Selectable[]* [private] _selectables [no-stores]
+org.axiondb.engine.rows.SimpleRow: *java.lang.Object[]* [private] _fields
+org.axiondb.engine.tables.DelimitedFlatfileTable: *java.lang.String[]* [private] _lineSeps [no-stores] [arraycopy]
+org.axiondb.jdbc.AxionPreparedStatement$Parameters: *java.lang.Object[]* [private] _vals
+org.axiondb.jdbc.AxionResultSet: *org.axiondb.Selectable[]* [private] _selected [no-stores]
+org.axiondb.jdbc.AxionResultSetMetaData: *org.axiondb.Selectable[]* [private] _sels [no-stores]
+org.axiondb.parser.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+
+N-CYCLES
+========
+[org/axiondb/engine/tables/TableView, org/axiondb/engine/commands/SubSelectCommand]
+[org/axiondb/engine/commands/AxionQueryPlanner$AxionQueryPlanNode, org/axiondb/engine/commands/AxionQueryPlanner, org/axiondb/engine/commands/SelectCommand]
+[org/axiondb/engine/commands/UpdateCommand$ExceptionWhenClause, org/axiondb/engine/commands/UpdateCommand]
+[org/axiondb/engine/commands/UpsertCommand$ExceptionWhenClause, org/axiondb/engine/commands/UpsertCommand]
+[org/axiondb/engine/rowcollection/IntHashMap$Keys, org/axiondb/engine/rowcollection/IntHashMap$Values, org/axiondb/engine/rowcollection/IntHashMap]
+[org/axiondb/engine/tables/ExternalDatabaseTable$ExternalDatabaseTableOrganizationContext, org/axiondb/engine/tables/ExternalDatabaseTable]
+[org/axiondb/engine/rowcollection/IntRowMap$RowValues, org/axiondb/engine/rowcollection/IntRowMap]
+[org/axiondb/util/BaseBTree, org/axiondb/util/BTreeMetaData]
+[org/axiondb/engine/commands/InsertCommand$InsertSingleRow, org/axiondb/engine/commands/InsertCommand$ElseClause, org/axiondb/engine/commands/InsertCommand]
+[org/axiondb/engine/tables/ExternalAxionDBTable$ExternalDatabaseTableOrganizationContext, org/axiondb/engine/tables/ExternalAxionDBTable]
+[org/axiondb/jdbc/AxionPreparedStatement$Parameters, org/axiondb/jdbc/AxionPreparedStatement]

@@ -1,0 +1,96 @@
+DSFinder has run for 0 min. 2 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.javacc.jjtree.SimpleNode: *java.lang.Object* [protected] value
+
+Linked List-like Data Structures:
+org.javacc.jjtree.JJTreeParser$JJCalls: next
+org.javacc.jjtree.Token: [public] next
+org.javacc.parser.JavaCCParser$JJCalls: next
+org.javacc.parser.NfaState: next
+org.javacc.parser.Token: [public] next
+
+Parent- and outer-type Data Structures:
+org.javacc.parser.Expansion: *java.lang.Object* [public] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.javacc.jjtree.Token: [public] specialToken
+org.javacc.parser.NfaState: [private] stateForCase
+org.javacc.parser.Token: [public] specialToken
+Non-Object Fields:
+org.javacc.jjtree.ASTBNFNodeScope: *org.javacc.jjtree.JJTreeNode* expansion_unit
+org.javacc.jjtree.ASTExpansionNodeScope: *org.javacc.jjtree.JJTreeNode* expansion_unit
+org.javacc.parser.Lookahead: *org.javacc.parser.Expansion* [private] la_expansion
+org.javacc.parser.OneOrMore: *org.javacc.parser.Expansion* [public] expansion
+org.javacc.parser.RJustName: *org.javacc.parser.RegularExpression* [public] regexpr
+org.javacc.parser.ROneOrMore: *org.javacc.parser.RegularExpression* [public] regexpr
+org.javacc.parser.RRepetitionRange: *org.javacc.parser.RegularExpression* [public] regexpr
+org.javacc.parser.RZeroOrMore: *org.javacc.parser.RegularExpression* [public] regexpr
+org.javacc.parser.RZeroOrOne: *org.javacc.parser.RegularExpression* [public] regexpr
+org.javacc.parser.TryBlock: *org.javacc.parser.Expansion* [public] exp
+org.javacc.parser.ZeroOrMore: *org.javacc.parser.Expansion* [public] expansion
+org.javacc.parser.ZeroOrOne: *org.javacc.parser.Expansion* [public] expansion
+java.lang.Object Fields:
+org.javacc.parser.Container: *java.lang.Object* [public] member
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.javacc.jjdoc.HTMLGenerator: *java.util.Hashtable* [private] id_map
+org.javacc.jjtree.ASTProduction: *java.util.Vector* throws_list
+org.javacc.jjtree.ASTProduction: *java.util.Hashtable* [private] scopes
+org.javacc.jjtree.JJTJJTreeParserState: *java.util.List* [private] nodes
+org.javacc.jjtree.JJTJJTreeParserState: *java.util.List* [private] marks
+org.javacc.jjtree.JJTreeParser: *java.util.List* [private] jj_expentries
+org.javacc.parser.Action: *java.util.List* [private] action_tokens
+org.javacc.parser.BNFProduction: *java.util.List* [private] declaration_tokens
+org.javacc.parser.Choice: *java.util.List* [private] choices
+org.javacc.parser.JavaCCParser: *java.util.List* [private] jj_expentries
+org.javacc.parser.JavaCodeProduction: *java.util.List* [private] code_tokens
+org.javacc.parser.Lookahead: *java.util.List* [private] action_tokens
+org.javacc.parser.NfaState: *java.util.Vector* epsilonMoves
+org.javacc.parser.NfaState: *java.util.Vector* [private] loByteVec
+org.javacc.parser.NonTerminal: *java.util.List* [private] lhsTokens
+org.javacc.parser.NonTerminal: *java.util.List* [private] argument_tokens
+org.javacc.parser.NormalProduction: *java.util.List* [private] parents
+org.javacc.parser.NormalProduction: *java.util.List* [private] return_type_tokens
+org.javacc.parser.NormalProduction: *java.util.List* [private] parameter_list_tokens
+org.javacc.parser.NormalProduction: *java.util.List* [private] throws_list
+org.javacc.parser.RCharacterList: *java.util.List* [public] descriptors
+org.javacc.parser.RChoice: *java.util.List* [private] choices
+org.javacc.parser.RegularExpression: *java.util.List* [public] lhsTokens
+org.javacc.parser.RSequence: *java.util.List* [public] units
+org.javacc.parser.Sequence: *java.util.List* [public] units
+org.javacc.parser.TokenProduction: *java.util.List* [public] respecs
+org.javacc.parser.TryBlock: *java.util.List* [public] types
+org.javacc.parser.TryBlock: *java.util.List* [public] ids
+org.javacc.parser.TryBlock: *java.util.List* [public] catchblks
+org.javacc.parser.TryBlock: *java.util.List* [public] finallyblk
+org.javacc.utils.JavaFileGenerator: *java.util.Map* [private] [final] options
+
+ARRAYS REPORT
+=============
+
+org.javacc.jjtree.JJTreeParser: *org.javacc.jjtree.JJTreeParser$JJCalls[]* [private] [final] jj_2_rtns
+org.javacc.jjtree.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+org.javacc.jjtree.SimpleNode: *org.javacc.jjtree.Node[]* [protected] children [arraycopy]
+org.javacc.parser.JavaCCParser: *org.javacc.parser.JavaCCParser$JJCalls[]* [private] [final] jj_2_rtns
+org.javacc.parser.NfaState: *org.javacc.parser.NfaState[]* [private] epsilonMoveArray [mod] [arraycopy]
+org.javacc.parser.NormalProduction: *org.javacc.parser.NormalProduction[]* [private] leftExpansions [no-stores]
+org.javacc.parser.OutputFile: *java.lang.String[]* [final] options [no-stores]
+org.javacc.parser.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+org.javacc.parser.TokenProduction: *java.lang.String[]* [public] lexStates
+
+N-CYCLES
+========
+[org/javacc/parser/OutputFile$TrapClosePrintWriter, org/javacc/parser/OutputFile]

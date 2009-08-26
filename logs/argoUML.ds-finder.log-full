@@ -1,0 +1,354 @@
+DSFinder has run for 0 min. 10 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.argouml.cognitive.checklist.ui.TabChecklist: *java.lang.Object* [private] target
+org.argouml.cognitive.checklist.ui.TableModelChecklist: *java.lang.Object* [private] target
+org.argouml.cognitive.ui.TabToDo: *javax.swing.JPanel* [private] lastPanel
+org.argouml.cognitive.ui.TabToDo: *java.lang.Object* [private] target
+org.argouml.cognitive.ui.ToDoItemAction: *java.lang.Object* [private] rememberedTarget
+org.argouml.cognitive.ui.WizStep: *javax.swing.JPanel* [private] mainPanel
+org.argouml.cognitive.ui.WizStep: *javax.swing.JPanel* [private] buttonPanel
+org.argouml.cognitive.ui.WizStep: *java.lang.Object* [private] target
+org.argouml.model.AssociationChangeEvent: *java.lang.Object* [private] changedValue
+org.argouml.model.mdr.UmlFactoryMDRImpl: *java.lang.Object* [private] lock
+org.argouml.model.mdr.UndoCoreHelperDecorator$2: *java.lang.Object* [final] val$oldValue
+org.argouml.model.mdr.UndoCoreHelperDecorator$2: *java.lang.Object* [final] val$newValue
+org.argouml.ocl.ArgoFacade: *java.lang.Object* [private] target
+org.argouml.swingext.GlassPane: *java.awt.Component* [private] activeComponent
+org.argouml.ui.ArgoToolbarManager$ToolbarManagerMenuItemAction: *java.lang.Object* [private] key
+org.argouml.ui.cmd.SettingsTabShortcuts: *javax.swing.JPanel* [private] selectedContainer
+org.argouml.ui.DetailsPane: *java.lang.Object* [private] currentTarget
+org.argouml.ui.MultiEditorPane: *java.awt.Component* [private] lastTab
+org.argouml.ui.StylePanelFigNodeModelElement: *javax.swing.JPanel* [private] displayPane
+org.argouml.ui.SwingWorker: *java.lang.Object* [private] value
+org.argouml.ui.TabText: *java.lang.Object* [private] target
+org.argouml.ui.targetmanager.TargetManager: *java.lang.Object* [private] modelTarget
+org.argouml.uml.reveng.ConfigPanelExtension: *javax.swing.JPanel* [private] configPanel
+org.argouml.uml.ui.AbstractActionAddModelElement2: *java.lang.Object* [private] target
+org.argouml.uml.ui.AbstractActionNewModelElement: *java.lang.Object* [private] target
+org.argouml.uml.ui.AbstractActionRemoveElement: *java.lang.Object* [private] target
+org.argouml.uml.ui.behavior.activity_graphs.PropPanelPartition: *javax.swing.JPanel* [private] activityGraphScroll
+org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance: *javax.swing.JPanel* [private] stimuliSenderScroll
+org.argouml.uml.ui.behavior.common_behavior.PropPanelInstance: *javax.swing.JPanel* [private] stimuliReceiverScroll
+org.argouml.uml.ui.behavior.common_behavior.PropPanelReception: *javax.swing.JPanel* [private] modifiersPanel
+org.argouml.uml.ui.behavior.state_machines.PropPanelStateVertex: *javax.swing.JPanel* [private] containerScroll
+org.argouml.uml.ui.foundation.core.PropPanelAssociation: *javax.swing.JPanel* [private] modifiersPanel
+org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd: *javax.swing.JPanel* [private] associationScroll
+org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd: *javax.swing.JPanel* [private] aggregationRadioButtonpanel
+org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd: *javax.swing.JPanel* [private] changeabilityRadioButtonpanel
+org.argouml.uml.ui.foundation.core.PropPanelAssociationEnd: *javax.swing.JPanel* [private] visibilityRadioButtonPanel
+org.argouml.uml.ui.foundation.core.PropPanelClassifier: *javax.swing.JPanel* [private] modifiersPanel
+org.argouml.uml.ui.foundation.core.PropPanelFeature: *javax.swing.JPanel* [private] ownerScroll
+org.argouml.uml.ui.foundation.core.PropPanelFeature: *javax.swing.JPanel* [private] visibilityPanel
+org.argouml.uml.ui.foundation.core.PropPanelModelElement: *javax.swing.JPanel* [private] visibilityPanel
+org.argouml.uml.ui.foundation.core.PropPanelParameter: *javax.swing.JPanel* [private] behFeatureScroll
+org.argouml.uml.ui.foundation.core.PropPanelStructuralFeature: *javax.swing.JPanel* [private] multiplicityComboBox
+org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition: *javax.swing.JComponent* [private] ownerSelector
+org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition: *javax.swing.JComponent* [private] tdNamespaceSelector
+org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTagDefinition: *javax.swing.JPanel* [private] multiplicityComboBox
+org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue: *javax.swing.JComponent* [private] modelElementSelector
+org.argouml.uml.ui.foundation.extension_mechanisms.PropPanelTaggedValue: *javax.swing.JComponent* [private] typeSelector
+org.argouml.uml.ui.model_management.PropPanelElementImport: *javax.swing.JPanel* [private] modifiersPanel
+org.argouml.uml.ui.model_management.PropPanelPackage: *javax.swing.JPanel* [private] modifiersPanel
+org.argouml.uml.ui.PropPanel: *java.lang.Object* [private] target
+org.argouml.uml.ui.PropPanel: *javax.swing.JPanel* [private] buttonPanel
+org.argouml.uml.ui.TabConstraints: *java.lang.Object* [private] mMmeiTarget
+org.argouml.uml.ui.TabConstraints$ConstraintModel: *java.lang.Object* [private] theMMmeiTarget
+org.argouml.uml.ui.TabProps: *javax.swing.JPanel* [private] blankPanel
+org.argouml.uml.ui.TabProps: *javax.swing.JPanel* [private] lastPanel
+org.argouml.uml.ui.TabProps: *java.lang.Object* [private] target
+org.argouml.uml.ui.TabStereotype: *javax.swing.JPanel* [private] panel
+org.argouml.uml.ui.TabStereotype: *javax.swing.JPanel* [private] xferButtons
+org.argouml.uml.ui.TabStyle: *javax.swing.JPanel* [private] blankPanel
+org.argouml.uml.ui.TabStyle: *javax.swing.JPanel* [private] lastPanel
+org.argouml.uml.ui.TabTaggedValues: *java.lang.Object* [private] target
+org.argouml.uml.ui.TabTaggedValuesModel: *java.lang.Object* [private] target
+org.argouml.uml.ui.UMLChangeDispatch: *java.lang.Object* [private] target
+org.argouml.uml.ui.UMLCheckBox2: *java.lang.Object* [private] checkBoxTarget
+org.argouml.uml.ui.UMLComboBoxModel2: *java.lang.Object* [private] comboBoxTarget
+org.argouml.uml.ui.UMLExpressionModel2: *java.lang.Object* [private] target
+org.argouml.uml.ui.UMLModelElementListModel2: *java.lang.Object* [private] listTarget
+org.argouml.uml.ui.UMLModelElementTaggedValueProxy: *java.lang.Object* [private] panelTarget
+org.argouml.uml.ui.UMLPlainTextDocument: *java.lang.Object* [private] panelTarget
+org.argouml.uml.ui.UMLRadioButtonPanel: *java.lang.Object* [private] panelTarget
+org.argouml.util.osdep.OSXAdapter: *java.lang.Object* [protected] targetObject
+org.argouml.util.SingleElementIterator: *java.lang.Object* [private] target [TT;]
+
+Linked List-like Data Structures:
+org.argouml.uml.diagram.activity.ui.FigPartition: [private] nextPartition/previousPartition
+org.argouml.util.TokenSep: [private] next
+
+Parent- and outer-type Data Structures:
+org.argouml.notation.NotationSettings: [private] parent
+org.argouml.ui.explorer.rules.AssociationsNode: *java.lang.Object* [private] parent
+org.argouml.ui.explorer.rules.AttributesNode: *java.lang.Object* [private] parent
+org.argouml.ui.explorer.rules.GoProfileToCritics$1: *java.lang.Object* [final] val$parent
+org.argouml.ui.explorer.rules.IncomingDependencyNode: *java.lang.Object* [private] parent
+org.argouml.ui.explorer.rules.InheritanceNode: *java.lang.Object* [private] parent
+org.argouml.ui.explorer.rules.OperationsNode: *java.lang.Object* [private] parent
+org.argouml.ui.explorer.rules.OutgoingDependencyNode: *java.lang.Object* [private] parent
+org.argouml.uml.diagram.DiagramSettings: [private] parent
+org.argouml.uml.diagram.use_case.ui.FigActor$ActorPortFigRect: *org.tigris.gef.presentation.Fig* [private] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+org.argouml.model.UmlChangeEvent: *java.util.EventObject* [private] originalEvent
+org.argouml.uml.diagram.sequence.ui.FigHead: *org.tigris.gef.presentation.Fig* [private] [final] stereotypeFig
+org.argouml.uml.diagram.static_structure.ui.FigClassifierBox: *org.tigris.gef.presentation.Fig* [protected] borderFig
+org.argouml.uml.diagram.ui.CompartmentFigText: *org.tigris.gef.presentation.Fig* [private] refFig
+org.argouml.uml.diagram.ui.FigCompartment: *org.tigris.gef.presentation.Fig* [private] bigPort
+org.argouml.uml.diagram.ui.FigCompartmentBox: *org.tigris.gef.presentation.Fig* [private] borderFig
+org.argouml.uml.diagram.ui.FigNodeModelElement: *org.tigris.gef.presentation.Fig* [private] bigPort
+org.argouml.uml.diagram.ui.FigNodeModelElement: *org.tigris.gef.presentation.Fig* [private] encloser
+org.argouml.uml.diagram.ui.FigStereotypesGroup: *org.tigris.gef.presentation.Fig* [private] bigPort
+org.argouml.uml.diagram.use_case.ui.FigUseCase: *org.tigris.gef.presentation.FigGroup* [private] epVec
+java.lang.Object Fields:
+org.argouml.cognitive.ListSet: *java.lang.Object* [private] [final] mutex
+org.argouml.cognitive.ToDoList: *java.lang.Object* [private] pausedMutex
+org.argouml.cognitive.ui.GoListToOffenderToItem: *java.lang.Object* [private] lastParent
+org.argouml.cognitive.ui.ToDoPane: *java.lang.Object* [private] lastSel
+org.argouml.kernel.ProjectImpl: *java.lang.Object* [private] root
+org.argouml.kernel.ProjectImpl: *java.lang.Object* [private] currentNamespace
+org.argouml.model.mdr.CoreFactoryMDRImpl$1: *java.lang.Object* [final] val$owner
+org.argouml.model.mdr.CoreHelperMDRImpl$1: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.ModelEventPumpMDRImpl: *java.lang.Object* [private] registrationMutex
+org.argouml.model.mdr.ModelManagementFactoryMDRImpl: *java.lang.Object* [private] theRootModel
+org.argouml.model.mdr.UmlFactoryMDRImpl: *java.lang.Object* [private] top
+org.argouml.model.mdr.UndoCoreHelperDecorator$10: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$11: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$12: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$13: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$14: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$15: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$16: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$17: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$18: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$19: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$20: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$21: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$22: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$23: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$4: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$5: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$6: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$7: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$8: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.UndoCoreHelperDecorator$9: *java.lang.Object* [final] val$handle
+org.argouml.model.mdr.XmiWriterMDRImpl: *java.lang.Object* [private] model
+org.argouml.notation.providers.uml.AbstractMessageNotationUml$MsgPtr: *java.lang.Object* message
+org.argouml.notation.providers.uml.StateBodyNotationUml$ModelElementInfoList$InfoItem: *java.lang.Object* [private] umlObject
+org.argouml.ocl.ArgoAny: *java.lang.Object* [private] classifier
+org.argouml.persistence.ModelMemberFilePersister: *java.lang.Object* [private] curModel
+org.argouml.profile.internal.ocl.ContextApplicable: *java.lang.Object* [private] modelElement
+org.argouml.profile.internal.ocl.EvaluateExpression: *java.lang.Object* [private] val
+org.argouml.profile.internal.ocl.EvaluateExpression: *java.lang.Object* [private] fwd
+org.argouml.profile.internal.ocl.EvaluateInvariant: *java.lang.Object* [private] modelElement
+org.argouml.ui.ActionCreateContainedModelElement: *java.lang.Object* [private] metaType
+org.argouml.ui.ActionCreateEdgeModelElement: *java.lang.Object* [private] [final] metaType
+org.argouml.ui.ActionCreateEdgeModelElement: *java.lang.Object* [private] [final] source
+org.argouml.ui.ActionCreateEdgeModelElement: *java.lang.Object* [private] [final] dest
+org.argouml.ui.explorer.ExplorerPopup$ActionAddExistingRelatedNode: *java.lang.Object* [private] object
+org.argouml.ui.explorer.ExplorerPopup$ActionCreateAssociation: *java.lang.Object* [private] metaType
+org.argouml.ui.explorer.ExplorerPopup$ActionCreateAssociationRole: *java.lang.Object* [private] metaType
+org.argouml.ui.ProjectBrowser$1: *java.lang.Object* [private] obj
+org.argouml.ui.TabResults: *java.lang.Object* [private] root
+org.argouml.ui.TreeModelComposite: *java.lang.Object* [private] root
+org.argouml.uml.ActionAddStereotype: *java.lang.Object* [private] modelElement
+org.argouml.uml.ActionAddStereotype: *java.lang.Object* [private] stereotype
+org.argouml.uml.cognitive.critics.WizAssocComposite: *java.lang.Object* [private] triggerAssociation
+org.argouml.uml.cognitive.critics.WizBreakCircularComp: *java.lang.Object* [private] selectedCls
+org.argouml.uml.cognitive.critics.WizBreakCircularComp: *java.lang.Object* [private] selectedAsc
+org.argouml.uml.cognitive.critics.WizOperName: *java.lang.Object* [private] createStereotype
+org.argouml.uml.CommentEdge: *java.lang.Object* [private] source
+org.argouml.uml.CommentEdge: *java.lang.Object* [private] dest
+org.argouml.uml.CommentEdge: *java.lang.Object* [private] uuid
+org.argouml.uml.CommentEdge: *java.lang.Object* [private] comment
+org.argouml.uml.CommentEdge: *java.lang.Object* [private] annotatedElement
+org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter: *java.lang.Object* [private] finalState
+org.argouml.uml.diagram.activity.ui.ActionCreatePartition: *java.lang.Object* [private] machine
+org.argouml.uml.diagram.activity.ui.ModePlacePartition: *java.lang.Object* [private] machine
+org.argouml.uml.diagram.activity.ui.UMLActivityDiagram: *java.lang.Object* [private] theActivityGraph
+org.argouml.uml.diagram.ArgoDiagramImpl: *java.lang.Object* [protected] namespace
+org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel: *java.lang.Object* [private] collaboration
+org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel: *java.lang.Object* [private] interaction
+org.argouml.uml.diagram.sequence.ui.ModeCreateMessage: *java.lang.Object* [private] startPort
+org.argouml.uml.diagram.sequence.ui.ModeCreateMessage: *java.lang.Object* [private] message
+org.argouml.uml.diagram.state.StateDiagramGraphModel: *java.lang.Object* [private] machine
+org.argouml.uml.diagram.state.ui.UMLStateDiagram: *java.lang.Object* [private] theStateMachine
+org.argouml.uml.diagram.static_structure.ui.FigEdgeNote: *java.lang.Object* [private] comment
+org.argouml.uml.diagram.static_structure.ui.FigEdgeNote: *java.lang.Object* [private] annotatedElement
+org.argouml.uml.diagram.ui.ActionAddAllClassesFromModel: *java.lang.Object* [private] object
+org.argouml.uml.diagram.ui.ActionAddExistingEdge: *java.lang.Object* [private] edge
+org.argouml.uml.diagram.ui.ActionAddExistingNode: *java.lang.Object* [private] object
+org.argouml.uml.diagram.ui.ActionAddStereotype: *java.lang.Object* [private] modelElement
+org.argouml.uml.diagram.ui.ActionAddStereotype: *java.lang.Object* [private] stereotype
+org.argouml.uml.diagram.ui.ActionAggregation: *java.lang.Object* [private] agg
+org.argouml.uml.diagram.ui.ActionMultiplicity: *java.lang.Object* [private] mult
+org.argouml.uml.diagram.ui.ActionNavigability: *java.lang.Object* [private] assocStart
+org.argouml.uml.diagram.ui.ActionNavigability: *java.lang.Object* [private] assocEnd
+org.argouml.uml.diagram.ui.AddExistingNodeCommand: *java.lang.Object* [private] object
+org.argouml.uml.diagram.ui.DiagramNameDocument: *java.lang.Object* [private] highlightTag
+org.argouml.uml.diagram.UMLMutableGraphSupport: *java.lang.Object* [private] homeModel
+org.argouml.uml.ProjectMemberModel: *java.lang.Object* [private] model
+org.argouml.uml.ui.AbstractActionRemoveElement: *java.lang.Object* [private] objectToRemove
+org.argouml.uml.ui.behavior.activity_graphs.ActionAddCISState: *java.lang.Object* [private] choiceClass
+org.argouml.uml.ui.behavior.activity_graphs.ActionNewClassifierInState: *java.lang.Object* [private] choiceClass
+org.argouml.uml.ui.behavior.activity_graphs.PropPanelObjectFlowState$ActionAddOFSParameter: *java.lang.Object* [private] choiceClass
+org.argouml.uml.ui.behavior.activity_graphs.PropPanelObjectFlowState$ActionAddOFSState: *java.lang.Object* [private] choiceClass
+org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBoxModel: *java.lang.Object* [private] interaction
+org.argouml.uml.ui.behavior.common_behavior.ActionAddCreateActionInstantiation: *java.lang.Object* [private] choiceClass
+org.argouml.uml.ui.behavior.common_behavior.ActionAddInstanceClassifier: *java.lang.Object* [private] choiceClass
+org.argouml.uml.ui.behavior.common_behavior.ActionAddSendActionSignal: *java.lang.Object* [private] choiceClass
+org.argouml.uml.ui.behavior.state_machines.ActionNewPseudoState: *java.lang.Object* [private] kind
+org.argouml.uml.ui.PropPanel: *java.lang.Object* [private] modelElement
+org.argouml.uml.ui.TabConstraints$ConstraintModel$CR: *java.lang.Object* [private] theMMcConstraint
+org.argouml.uml.ui.UMLComboBoxModel2: *java.lang.Object* [private] selectedObject
+org.argouml.uml.ui.UMLExpressionModel2: *java.lang.Object* [private] expression
+org.argouml.uml.ui.UMLModelElementListModel2: *java.lang.Object* [private] metaType
+org.argouml.util.PredicateEquals: *java.lang.Object* [private] pattern
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.argouml.persistence.PGMLStackParser: *java.util.LinkedHashMap* [private] modelElementsByFigEdge [Ljava/util/LinkedHashMap<Lorg/tigris/gef/presentation/FigEdge;Ljava/lang/Object;>;]
+org.argouml.uml.diagram.UMLMutableGraphSupport: *java.util.List* [private] edges
+==
+org.argouml.cognitive.CompoundCritic: *java.util.List* [private] critics [Ljava/util/List<Lorg/argouml/cognitive/Critic;>;]
+org.argouml.cognitive.CompoundCritic: *java.util.Set* [private] extraDesignMaterials [Ljava/util/Set<Ljava/lang/Object;>;]
+org.argouml.cognitive.Critic: *java.util.Hashtable* [private] args [Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.cognitive.Critic: *java.util.Hashtable* [private] controlRecs [Ljava/util/Hashtable<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.cognitive.Designer: *java.util.Properties* [private] prefs
+org.argouml.cognitive.Designer: *java.util.List* [private] hotQueue [Ljava/util/List<Ljava/lang/Object;>;]
+org.argouml.cognitive.Designer: *java.util.List* [private] addQueue [Ljava/util/List<Ljava/lang/Object;>;]
+org.argouml.cognitive.Designer: *java.util.List* [private] removeQueue [Ljava/util/List<Ljava/lang/Object;>;]
+org.argouml.cognitive.Designer: *java.util.List* [private] warmQueue [Ljava/util/List<Ljava/lang/Object;>;]
+org.argouml.cognitive.ListSet: *java.util.List* [private] list [Ljava/util/List<TT;>;]
+org.argouml.cognitive.ListSet: *java.util.Set* [private] set [Ljava/util/Set<TT;>;]
+org.argouml.cognitive.ToDoItem: *org.argouml.cognitive.ListSet* [private] theOffenders
+org.argouml.cognitive.ToDoList: *org.argouml.cognitive.ListSet* [private] allOffenders
+org.argouml.configuration.ConfigurationProperties: *java.util.Properties* [private] propertyBundle
+org.argouml.kernel.DefaultUndoManager: *org.argouml.kernel.DefaultUndoManager$UndoStack* [private] undoStack
+org.argouml.kernel.DefaultUndoManager: *org.argouml.kernel.DefaultUndoManager$RedoStack* [private] redoStack
+org.argouml.kernel.ProfileConfiguration: *java.util.List* [private] figNodeStrategies
+org.argouml.kernel.ProfileConfiguration: *java.util.List* [private] profileModels [Ljava/util/List<Ljava/lang/Object;>;]
+org.argouml.kernel.ProjectImpl: *java.util.List* [private] [final] models
+org.argouml.kernel.ProjectImpl: *java.util.Collection* [private] [final] roots
+org.argouml.kernel.ProjectImpl: *java.util.Map* [private] uuidRefs [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.kernel.ProjectImpl: *java.util.HashMap* [private] defaultModelTypeCache [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.kernel.ProjectImpl: *java.util.Collection* [private] [final] trashcan
+org.argouml.model.mdr.Registry: *java.util.Map* registry [Ljava/util/Map<Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/util/List<TT;>;>;>;]
+org.argouml.model.mdr.XmiReferenceResolverImpl: *java.util.Map* [private] idToObjects [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.ocl.OCLEvaluator: *java.util.HashMap* [private] vt [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.persistence.ModelMemberFilePersister: *java.util.HashMap* [private] uUIDRefs [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.persistence.ModelMemberFilePersister: *java.util.Collection* [private] elementsRead
+org.argouml.persistence.MultitypeFileFilter: *java.util.ArrayList* [private] filters [Ljava/util/ArrayList<Ljavax/swing/filechooser/FileFilter;>;]
+org.argouml.persistence.TodoParser: *java.util.List* [private] offenders
+org.argouml.persistence.XmlInputStream: *java.util.Map* [private] attributes
+org.argouml.persistence.XMLTokenTableBase: *java.util.Hashtable* [private] tokens
+org.argouml.profile.internal.ocl.ComputeDesignMaterials: *java.util.Set* [private] dms [Ljava/util/Set<Ljava/lang/Object;>;]
+org.argouml.profile.internal.ocl.CrOCL: *java.util.Set* [private] designMaterials [Ljava/util/Set<Ljava/lang/Object;>;]
+org.argouml.profile.internal.ocl.EvaluateExpression: *java.util.Map* [private] vt [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.profile.internal.ocl.uml14.HashBag: *java.util.Map* [private] map [Ljava/util/Map<TE;Ljava/lang/Integer;>;]
+org.argouml.profile.internal.ProfileJava: *java.util.Collection* [private] model
+org.argouml.profile.internal.ProfileMeta: *java.util.Collection* [private] model
+org.argouml.profile.internal.ProfileUML: *java.util.Collection* [private] model
+org.argouml.profile.UserDefinedProfile: *java.util.Collection* [private] profilePackages
+org.argouml.ui.DetailsPane: *java.util.List* [private] tabPanelList [Ljava/util/List<Ljavax/swing/JPanel;>;]
+org.argouml.ui.explorer.ExplorerPopup$ActionCreateAssociation: *java.util.List* [private] classifiers
+org.argouml.ui.explorer.ExplorerPopup$ActionCreateAssociationRole: *java.util.List* [private] classifierRoles
+org.argouml.ui.explorer.ExplorerTreeModel: *java.util.Map* [private] modelElementMap [Ljava/util/Map<Ljava/lang/Object;Ljava/util/Set<Lorg/argouml/ui/explorer/ExplorerTreeNode;>;>;]
+org.argouml.ui.explorer.ExplorerTreeNode: *java.util.Set* [private] modifySet
+org.argouml.ui.MultiEditorPane: *java.util.List* [private] tabPanels [Ljava/util/List<Ljavax/swing/JPanel;>;]
+org.argouml.ui.TabResults: *java.util.List* [private] results
+org.argouml.ui.TabResults: *java.util.List* [private] related
+org.argouml.ui.targetmanager.TargetManager: *java.util.List* [private] targets
+org.argouml.ui.targetmanager.TargetManager$HistoryManager: *java.util.List* [private] history
+org.argouml.ui.TransferableModelElements: *java.util.Collection* [private] theModelElements
+org.argouml.uml.cognitive.critics.WizCueCards: *java.util.List* [private] cues
+org.argouml.uml.cognitive.critics.WizManyNames: *java.util.List* [private] mes
+org.argouml.uml.diagram.activity.layout.ActivityDiagramLayouter: *java.util.List* [private] objects
+org.argouml.uml.diagram.DiagramFactory: *java.util.Map* [private] [final] noStyleProperties
+org.argouml.uml.diagram.DiagramFactory: *java.util.Map* [private] factories [Ljava/util/Map<Lorg/argouml/uml/diagram/DiagramFactory$DiagramType;Ljava/lang/Object;>;]
+org.argouml.uml.diagram.sequence.MessageNode: *java.util.List* [private] callers
+org.argouml.uml.diagram.sequence.ui.FigLifeLine: *java.util.Set* [private] activationFigs
+org.argouml.uml.diagram.sequence.ui.SequenceDiagramLayer: *java.util.List* [private] figObjectsX
+org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode: *java.util.List* [private] downlinks [Ljava/util/List<Lorg/argouml/uml/diagram/static_structure/layout/ClassdiagramNode;>;]
+org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode: *java.util.List* [private] uplinks [Ljava/util/List<Lorg/argouml/uml/diagram/static_structure/layout/ClassdiagramNode;>;]
+org.argouml.uml.diagram.ui.ActionAddExistingNodes: *java.util.Collection* [private] objects
+org.argouml.uml.diagram.ui.ArgoEditor: *java.awt.RenderingHints* [private] argoRenderingHints
+org.argouml.uml.diagram.ui.FigEdgeModelElement: *java.util.HashMap* [private] npArguments [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.uml.diagram.ui.FigNodeModelElement: *java.util.HashMap* [private] npArguments [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.uml.diagram.ui.FigNodeModelElement: *java.util.List* [private] floatingStereotypes [Ljava/util/List<Lorg/tigris/gef/presentation/Fig;>;]
+org.argouml.uml.diagram.ui.FigNodeModelElement: *java.util.Vector* [private] enclosedFigs [Ljava/util/Vector<Lorg/tigris/gef/presentation/Fig;>;]
+org.argouml.uml.diagram.ui.FigSingleLineTextWithNotation: *java.util.HashMap* [private] npArguments [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+org.argouml.uml.diagram.ui.ModeAddToDiagram: *java.util.Collection* [private] [final] modelElements [Ljava/util/Collection<Ljava/lang/Object;>;]
+org.argouml.uml.diagram.UMLMutableGraphSupport: *java.util.List* [private] nodes
+org.argouml.uml.generator.TempFileUtils$1: *java.util.List* [final] val$ret
+org.argouml.uml.generator.TempFileUtils$3: *java.util.List* [final] val$ret
+org.argouml.uml.generator.ui.ClassGenerationDialog$TableModelClassChecks: *java.util.List* [private] classes [Ljava/util/List<Ljava/lang/Object;>;]
+org.argouml.uml.TMResults: *java.util.List* [private] rowObjects
+org.argouml.uml.ui.behavior.collaborations.UMLAssociationRoleBaseComboBoxModel: *java.util.Collection* [private] others
+org.argouml.uml.ui.foundation.core.UMLAssociationConnectionListModel: *java.util.Collection* [private] others
+org.argouml.uml.ui.PropPanel: *java.util.List* [private] actions
+org.argouml.uml.ui.TabConstraints$ConstraintModel: *java.util.ArrayList* [private] theMAlConstraints
+org.argouml.uml.ui.UMLComboBoxModel2: *java.util.List* [private] objects
+org.argouml.uml.util.namespace.StringNamespace: *java.util.Stack* [private] ns
+org.argouml.uml.util.SortedListModel: *java.util.Set* [private] delegate
+org.argouml.util.MyTokenizer: *java.util.List* [private] customSeps
+
+ARRAYS REPORT
+=============
+
+org.argouml.model.mdr.XmiReaderImpl: *java.lang.String[]* [private] ignoredElements
+org.argouml.moduleloader.SettingsTabModules: *java.lang.String[]* [private] columnNames
+org.argouml.moduleloader.SettingsTabModules: *java.lang.Object[][]* [private] elements
+org.argouml.persistence.XMLTokenTableBase: *java.lang.String[]* [private] openTags
+org.argouml.ui.ArgoToolbarManager$2: *javax.swing.JToolBar[]* [final] val$toolbars [no-stores]
+org.argouml.ui.CheckboxTableModel: *java.lang.Object[][]* [private] elements
+org.argouml.ui.cmd.LastRecentlyUsedMenuList: *javax.swing.JMenuItem[]* [private] menuItems
+org.argouml.ui.cmd.LastRecentlyUsedMenuList: *org.argouml.configuration.ConfigurationKey[]* [private] confKeys
+org.argouml.ui.cmd.SettingsTabShortcuts: *org.argouml.ui.cmd.ActionWrapper[]* [private] actions
+org.argouml.ui.cmd.SettingsTabShortcuts: *java.lang.String[]* [private] [final] columnNames
+org.argouml.ui.cmd.SettingsTabShortcuts: *java.lang.Object[][]* [private] elements
+org.argouml.ui.HelpBox: *javax.swing.JEditorPane[]* [private] panes
+org.argouml.ui.HelpBox: *java.lang.String[][]* [private] pages
+org.argouml.ui.MultiEditorPane: *javax.swing.JPanel[]* [private] [final] tabInstances [mod]
+org.argouml.ui.ProjectBrowser$2: *javax.swing.JToolBar[]* [final] val$toolbars [no-stores]
+org.argouml.ui.targetmanager.TargetEvent: *java.lang.Object[]* [private] theOldTargets [no-stores]
+org.argouml.ui.targetmanager.TargetEvent: *java.lang.Object[]* [private] theNewTargets [no-stores]
+org.argouml.uml.diagram.sequence.ui.UMLSequenceDiagram: *java.lang.Object[]* [private] actions
+org.argouml.uml.diagram.ui.FigSingleLineText: *java.lang.String[]* [private] properties
+org.argouml.uml.diagram.ui.ImageSelection: *java.awt.datatransfer.DataFlavor[]* [private] supportedFlavors
+org.argouml.uml.generator.ui.ClassGenerationDialog$TableModelClassChecks: *java.util.Set[]* [private] checked [[Ljava/util/Set<Ljava/lang/Object;>;]
+org.argouml.uml.reveng.ImportCommon: *java.io.File[]* [private] selectedFiles
+org.argouml.uml.ui.TabSrc: *org.argouml.uml.generator.SourceUnit[]* [private] files [no-stores]
+org.argouml.uml.ui.TabStyle: *java.lang.String[]* [private] stylePanelNames
+org.argouml.util.PredicateStringMatch: *java.lang.String[]* [private] patterns
+org.argouml.util.PredicateType: *java.lang.Class[]* [private] patterns
+org.argouml.util.SuffixFilter: *java.lang.String[]* [private] [final] suffixes [arraycopy]
+
+N-CYCLES
+========
+[org/argouml/cognitive/ToDoList, org/argouml/cognitive/Designer]
+[org/argouml/ui/targetmanager/TargetManager$Remover, org/argouml/ui/targetmanager/TargetManager$HistoryManager, org/argouml/ui/targetmanager/TargetManager]
+[org/argouml/ui/ProjectBrowser$TitleHandler, org/argouml/ui/ProjectBrowser]
+[org/argouml/profile/UserDefinedProfile$UserDefinedFigNodeStrategy, org/argouml/profile/UserDefinedProfile]
+[org/argouml/uml/generator/ui/ClassGenerationDialog$TableModelClassChecks, org/argouml/uml/generator/ui/ClassGenerationDialog]
+[org/argouml/uml/diagram/sequence/MessageNode, org/argouml/uml/diagram/sequence/ui/FigMessagePort]
+[org/argouml/ui/explorer/ExplorerTreeModel$ExplorerUpdater, org/argouml/ui/explorer/ExplorerTreeModel]
+[org/argouml/kernel/DefaultUndoManager$RedoStack, org/argouml/kernel/DefaultUndoManager$UndoStack, org/argouml/kernel/DefaultUndoManager]
+[org/argouml/uml/ui/UMLEditableComboBox$UMLComboBoxEditor$UMLImagePanel, org/argouml/uml/ui/UMLEditableComboBox$UMLComboBoxEditor]
+[org/argouml/uml/ui/UMLMultiplicityPanel$MultiplicityComboBoxModel, org/argouml/uml/ui/UMLMultiplicityPanel]
+[org/argouml/profile/internal/ProfileJava, org/argouml/profile/internal/ProfileManagerImpl]
+[org/argouml/cognitive/checklist/ui/TableModelChecklist, org/argouml/cognitive/checklist/ui/TabChecklist]
+[org/argouml/model/mdr/KindsMDRImpl, org/argouml/model/mdr/CopyHelper, org/argouml/model/mdr/ModelEventPumpMDRImpl, org/argouml/model/mdr/MDRModelImplementation]
+[org/argouml/persistence/ProfileConfigurationParser$ProfileConfigurationTokenTable, org/argouml/persistence/ProfileConfigurationParser]

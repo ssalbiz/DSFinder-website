@@ -1,0 +1,108 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.log4j.chainsaw.MyTableModel: *java.lang.Object* [private] [final] mLock
+org.apache.log4j.config.PropertySetterException: *java.lang.Throwable* [protected] rootCause
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor: *java.lang.Object* [protected] _value
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.lang.Object* [protected] _lock
+
+Linked List-like Data Structures:
+org.apache.log4j.helpers.PatternConverter: [public] next
+org.apache.log4j.spi.Filter: [public] next
+
+Parent- and outer-type Data Structures:
+org.apache.log4j.Category: [protected] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+java.lang.Object Fields:
+org.apache.log4j.config.PropertyGetter: *java.lang.Object* [protected] obj
+org.apache.log4j.config.PropertySetter: *java.lang.Object* [protected] obj
+org.apache.log4j.MDC: *java.lang.Object* tlm
+org.apache.log4j.spi.LoggingEvent: *java.lang.Object* [private] message
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.apache.log4j.AsyncAppender: *java.util.List* [private] [final] buffer
+org.apache.log4j.AsyncAppender: *java.util.Map* [private] [final] discardMap
+org.apache.log4j.AsyncAppender$Dispatcher: *java.util.List* [private] [final] buffer
+org.apache.log4j.AsyncAppender$Dispatcher: *java.util.Map* [private] [final] discardMap
+org.apache.log4j.chainsaw.MyTableModel: *java.util.SortedSet* [private] [final] mAllEvents
+org.apache.log4j.chainsaw.MyTableModel: *java.util.List* [private] [final] mPendingEvents
+org.apache.log4j.config.PropertyPrinter: *java.util.Hashtable* [protected] appenderNames
+org.apache.log4j.config.PropertyPrinter: *java.util.Hashtable* [protected] layoutNames
+org.apache.log4j.helpers.AppenderAttachableImpl: *java.util.Vector* [protected] appenderList
+org.apache.log4j.Hierarchy: *java.util.Vector* [private] listeners
+org.apache.log4j.Hierarchy: *java.util.Hashtable* ht
+org.apache.log4j.jdbc.JDBCAppender: *java.util.ArrayList* [protected] buffer
+org.apache.log4j.jdbc.JDBCAppender: *java.util.ArrayList* [protected] removes
+org.apache.log4j.jmx.AppenderDynamicMBean: *java.util.Vector* [private] dAttributes
+org.apache.log4j.jmx.AppenderDynamicMBean: *java.util.Hashtable* [private] dynamicProps
+org.apache.log4j.jmx.HierarchyDynamicMBean: *java.util.Vector* [private] vAttributes
+org.apache.log4j.jmx.LayoutDynamicMBean: *java.util.Vector* [private] dAttributes
+org.apache.log4j.jmx.LayoutDynamicMBean: *java.util.Hashtable* [private] dynamicProps
+org.apache.log4j.jmx.LoggerDynamicMBean: *java.util.Vector* [private] dAttributes
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath: *java.util.LinkedList* [protected] _categoryElements
+org.apache.log4j.lf5.viewer.configure.MRUFileManager: *java.util.LinkedList* [private] _mruFileList
+org.apache.log4j.lf5.viewer.FilteredLogTableModel: *java.util.List* [protected] _allRecords
+org.apache.log4j.lf5.viewer.FilteredLogTableModel: *java.util.List* [protected] _filteredRecords
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.List* [protected] _displayedLogBrokerProperties
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.Map* [protected] _logLevelMenuItems
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.Map* [protected] _logTableColumnMenuItems
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.List* [protected] _levels
+org.apache.log4j.lf5.viewer.LogBrokerMonitor: *java.util.List* [protected] _columns
+org.apache.log4j.net.SocketHubAppender: *java.util.Vector* [private] oosList
+org.apache.log4j.net.SocketHubAppender$ServerMonitor: *java.util.Vector* [private] oosList
+org.apache.log4j.net.SocketServer: *java.util.Hashtable* hierarchyMap
+org.apache.log4j.net.TelnetAppender$SocketHandler: *java.util.Vector* [private] writers
+org.apache.log4j.net.TelnetAppender$SocketHandler: *java.util.Vector* [private] connections
+org.apache.log4j.or.RendererMap: *java.util.Hashtable* map
+org.apache.log4j.PropertyConfigurator: *java.util.Hashtable* [protected] registry
+org.apache.log4j.spi.LoggingEvent: *java.util.Hashtable* [private] mdcCopy
+org.apache.log4j.spi.VectorWriter: *java.util.Vector* [private] v
+org.apache.log4j.varia.FallbackErrorHandler: *java.util.Vector* loggers
+org.apache.log4j.xml.DOMConfigurator: *java.util.Hashtable* appenderBag
+org.apache.log4j.xml.DOMConfigurator: *java.util.Properties* props
+
+ARRAYS REPORT
+=============
+
+org.apache.log4j.chainsaw.EventDetails: *java.lang.String[]* [private] [final] mThrowableStrRep [no-stores]
+org.apache.log4j.chainsaw.MyTableModel: *org.apache.log4j.chainsaw.EventDetails[]* [private] mFilteredEvents
+org.apache.log4j.chainsaw.XMLFileHandler: *java.lang.String[]* [private] mThrowableStrRep
+org.apache.log4j.config.PropertyGetter: *java.beans.PropertyDescriptor[]* [protected] props [no-stores]
+org.apache.log4j.config.PropertySetter: *java.beans.PropertyDescriptor[]* [protected] props
+org.apache.log4j.helpers.BoundedFIFO: *org.apache.log4j.spi.LoggingEvent[]* buf [arraycopy]
+org.apache.log4j.helpers.CyclicBuffer: *org.apache.log4j.spi.LoggingEvent[]* ea [mod]
+org.apache.log4j.helpers.DateTimeDateFormat: *java.lang.String[]* shortMonths [no-stores]
+org.apache.log4j.jmx.AppenderDynamicMBean: *javax.management.MBeanConstructorInfo[]* [private] dConstructors
+org.apache.log4j.jmx.AppenderDynamicMBean: *javax.management.MBeanOperationInfo[]* [private] dOperations
+org.apache.log4j.jmx.HierarchyDynamicMBean: *javax.management.MBeanConstructorInfo[]* [private] dConstructors
+org.apache.log4j.jmx.HierarchyDynamicMBean: *javax.management.MBeanOperationInfo[]* [private] dOperations
+org.apache.log4j.jmx.LayoutDynamicMBean: *javax.management.MBeanConstructorInfo[]* [private] dConstructors
+org.apache.log4j.jmx.LayoutDynamicMBean: *javax.management.MBeanOperationInfo[]* [private] dOperations
+org.apache.log4j.jmx.LoggerDynamicMBean: *javax.management.MBeanConstructorInfo[]* [private] dConstructors
+org.apache.log4j.jmx.LoggerDynamicMBean: *javax.management.MBeanOperationInfo[]* [private] dOperations
+org.apache.log4j.lf5.viewer.FilteredLogTableModel: *java.lang.String[]* [protected] _colNames
+org.apache.log4j.lf5.viewer.LogTable: *javax.swing.table.TableColumn[]* [protected] _tableColumns
+org.apache.log4j.lf5.viewer.LogTable: *org.apache.log4j.lf5.viewer.LogTableColumn[]* [protected] _colNames
+org.apache.log4j.spi.ThrowableInformation: *java.lang.String[]* [private] rep [no-stores]
+
+N-CYCLES
+========
+[org/apache/log4j/varia/ExternallyRolledFileAppender, org/apache/log4j/varia/HUP]
+[org/apache/log4j/lf5/viewer/configure/ConfigurationManager, org/apache/log4j/lf5/viewer/LogBrokerMonitor]
+[org/apache/log4j/net/SocketHubAppender$ServerMonitor, org/apache/log4j/net/SocketHubAppender]
+[org/apache/log4j/net/TelnetAppender, org/apache/log4j/net/TelnetAppender$SocketHandler]
+[org/apache/log4j/net/SocketAppender$Connector, org/apache/log4j/net/SocketAppender]

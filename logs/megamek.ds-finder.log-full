@@ -1,0 +1,326 @@
+DSFinder has run for 0 min. 9 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+megamek.client.ui.AWT.BoardComponent: *java.awt.Panel* [private] panBlank
+megamek.client.ui.AWT.BoardSelectionDialog: *java.awt.Dialog* mapPreviewW
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panPlayerInfo
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panMinefield
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panBoardSettings
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panEntities
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panStarts
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panBVs
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panMain
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panUnits
+megamek.client.ui.AWT.ChatLounge: *java.awt.Panel* [private] panTop
+megamek.client.ui.AWT.ClientGUI: *java.awt.Component* [private] bvc
+megamek.client.ui.AWT.ClientGUI: *java.awt.Component* [protected] curPanel
+megamek.client.ui.AWT.ClientGUI: *java.awt.Panel* [private] panMain
+megamek.client.ui.AWT.ClientGUI: *java.awt.Panel* [private] panSecondary
+megamek.client.ui.AWT.ConfirmDialog: *java.awt.Component* [private] firstFocusable
+megamek.client.ui.AWT.DeploymentDisplay: *java.awt.Panel* [private] panButtons
+megamek.client.ui.AWT.DeployMinefieldDisplay: *java.awt.Panel* [private] panButtons
+megamek.client.ui.AWT.DialogOptionComponent$BasicOption: *java.lang.Object* [private] value
+megamek.client.ui.AWT.FiringDisplay: *java.awt.Container* [private] panButtons
+megamek.client.ui.AWT.MovementDisplay: *java.awt.Panel* [private] panButtons
+megamek.client.ui.AWT.PhysicalDisplay: *java.awt.Container* [private] panButtons
+megamek.client.ui.AWT.SelectArtyAutoHitHexDisplay: *java.awt.Panel* [private] panButtons
+megamek.client.ui.AWT.StatusBarPhaseDisplay: *java.awt.Panel* [protected] panStatus
+megamek.client.ui.AWT.TargetingPhaseDisplay: *java.awt.Container* [private] panButtons
+megamek.client.ui.AWT.util.StraightArrowPolygon: *java.awt.Polygon* [private] hotArea
+megamek.client.ui.swing.BoardEditor: *java.awt.Component* [private] bvc
+megamek.client.ui.swing.BoardSelectionDialog: *javax.swing.JDialog* mapPreviewW
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panPlayerInfo
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panMinefield
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panBoardSettings
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panEntities
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panStarts
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panBVs
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panMain
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panUnits
+megamek.client.ui.swing.ChatLounge: *javax.swing.JPanel* [private] panTop
+megamek.client.ui.swing.ClientGUI: *java.awt.Component* [private] bvc
+megamek.client.ui.swing.ClientGUI: *javax.swing.JComponent* [protected] curPanel
+megamek.client.ui.swing.ClientGUI: *javax.swing.JPanel* [private] panMain
+megamek.client.ui.swing.ClientGUI: *javax.swing.JPanel* [private] panSecondary
+megamek.client.ui.swing.DeploymentDisplay: *javax.swing.JPanel* [private] panButtons
+megamek.client.ui.swing.DeployMinefieldDisplay: *javax.swing.JPanel* [private] panButtons
+megamek.client.ui.swing.DialogOptionComponent$BasicOption: *java.lang.Object* [private] value
+megamek.client.ui.swing.FiringDisplay: *javax.swing.JComponent* [private] panButtons
+megamek.client.ui.swing.MapMenu: *java.awt.Component* [private] currentPanel
+megamek.client.ui.swing.MechDisplay: *javax.swing.JPanel* [private] displayP
+megamek.client.ui.swing.MovementDisplay: *javax.swing.JPanel* [private] panButtons
+megamek.client.ui.swing.PhysicalDisplay: *javax.swing.JComponent* [private] panButtons
+megamek.client.ui.swing.SelectArtyAutoHitHexDisplay: *javax.swing.JPanel* [private] panButtons
+megamek.client.ui.swing.StatusBarPhaseDisplay: *javax.swing.JPanel* [protected] panStatus
+megamek.client.ui.swing.TargetingPhaseDisplay: *javax.swing.JComponent* [private] panButtons
+megamek.client.ui.swing.util.StraightArrowPolygon: *java.awt.Polygon* [private] hotArea
+megamek.common.options.Option: *java.lang.Object* [private] defaultValue
+megamek.common.options.Option: *java.lang.Object* [private] value
+megamek.common.preference.PreferenceChangeEvent: *java.lang.Object* [protected] oldValue
+megamek.common.preference.PreferenceChangeEvent: *java.lang.Object* [protected] newValue
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+megamek.common.HitData: [private] undoneLocation
+megamek.common.Mounted: [private] linked
+megamek.common.Mounted: [private] linkedBy
+Non-Object Fields:
+megamek.client.bot.AttackOption: *megamek.common.ToHitData* [public] toHit
+megamek.client.ui.AWT.MechDisplay: *megamek.client.ui.AWT.widget.BufferedPanel* [public] displayP
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+megamek.client.bot.CEntity: *megamek.client.bot.MoveOption$Table* [private] moves
+megamek.client.bot.CEntity: *megamek.client.bot.MoveOption$Table* pass
+megamek.client.bot.GAAttack: *megamek.client.bot.CEntity$Table* [protected] targets
+megamek.client.bot.TestBot: *megamek.client.bot.CEntity$Table* [public] centities
+megamek.client.ui.AWT.ClientGUI: *java.util.HashMap* phaseComponents [Ljava/util/HashMap<Ljava/lang/String;Ljava/awt/Component;>;]
+megamek.client.ui.AWT.util.ImageCache: *java.util.Hashtable* [private] cache [Ljava/util/Hashtable<TK;TV;>;]
+megamek.client.ui.AWT.util.ImageCache: *java.util.LinkedList* [private] lru [Ljava/util/LinkedList<TK;>;]
+megamek.client.ui.swing.ClientGUI: *java.util.HashMap* phaseComponents [Ljava/util/HashMap<Ljava/lang/String;Ljavax/swing/JComponent;>;]
+megamek.client.ui.swing.util.ImageCache: *java.util.Hashtable* [private] cache [Ljava/util/Hashtable<TK;TV;>;]
+megamek.client.ui.swing.util.ImageCache: *java.util.LinkedList* [private] lru [Ljava/util/LinkedList<TK;>;]
+megamek.common.FighterSquadron: *java.util.Vector* [public] fighters [Ljava/util/Vector<Lmegamek/common/Aero;>;]
+megamek.common.Game: *java.util.HashMap* [private] victoryContext [Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Object;>;]
+megamek.common.preference.PreferenceStore: *java.util.Properties* [protected] properties
+megamek.common.preference.PreferenceStore: *java.util.Properties* [protected] defaultProperties
+megamek.common.util.ZippedItems: *java.util.TreeMap* [private] categories [Ljava/util/TreeMap<Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;]
+megamek.common.weapons.ArtilleryWeaponIndirectFireHandler$1: *java.util.Vector* [final] val$spottersBefore
+
+ARRAYS REPORT
+=============
+
+megamek.client.bot.ga.GA: *megamek.client.bot.ga.Chromosome[]* [protected] [final] chromosomes [mod]
+megamek.client.bot.ga.GA: *megamek.client.bot.ga.Chromosome[]* chromNextGen [mod]
+megamek.client.bot.GALance: *java.lang.Object[]* [protected] enemy_array [no-stores] [mod]
+megamek.client.ui.AWT.AimedShotDialog: *megamek.client.ui.AWT.widget.IndexedCheckbox[]* [private] checkboxes
+megamek.client.ui.AWT.BoardView1: *java.awt.Polygon[]* facingPolys [mod] [arraycopy]
+megamek.client.ui.AWT.BoardView1: *java.awt.Polygon[]* movementPolys [mod] [arraycopy]
+megamek.client.ui.AWT.BoardView1$TooltipCanvas: *java.lang.String[]* [private] tipStrings [no-stores]
+megamek.client.ui.AWT.boardview3d.BoardModel: *javax.media.j3d.SharedGroup[]* shared [no-stores]
+megamek.client.ui.AWT.BombPayloadDialog: *java.awt.Checkbox[]* [private] b_choices [no-stores]
+megamek.client.ui.AWT.BombPayloadDialog: *java.awt.Label[]* [private] b_labels [no-stores]
+megamek.client.ui.AWT.ChatterBox: *java.lang.String[]* [public] chatBuffer [no-stores]
+megamek.client.ui.AWT.ChoiceDialog: *java.awt.Checkbox[]* [private] checkboxes [arraycopy]
+megamek.client.ui.AWT.CommonSettingsDialog: *java.io.File[]* [private] tileSets
+megamek.client.ui.AWT.CustomFighterSquadronDialog: *java.lang.String[]* [private] m_saSorts
+megamek.client.ui.AWT.CustomFighterSquadronDialog: *megamek.common.MechSummary[]* [private] m_mechsCurrent
+megamek.client.ui.AWT.CustomMechDialog$BombChoicePanel: *java.awt.Choice[]* [private] b_choices
+megamek.client.ui.AWT.CustomMechDialog$BombChoicePanel: *java.awt.Label[]* [private] b_labels
+megamek.client.ui.AWT.FiringDisplay: *megamek.common.Entity[]* [private] visibleTargets [mod]
+megamek.client.ui.AWT.LOSDialog: *java.awt.Checkbox[]* [private] checkboxes1
+megamek.client.ui.AWT.LOSDialog: *java.awt.Checkbox[]* [private] checkboxes2
+megamek.client.ui.AWT.ManeuverChoiceDialog: *java.awt.Checkbox[]* [private] checkboxes [arraycopy]
+megamek.client.ui.AWT.MechSelectorDialog: *java.lang.String[]* [private] m_saSorts
+megamek.client.ui.AWT.MechSelectorDialog: *megamek.common.MechSummary[]* [private] m_mechsCurrent
+megamek.client.ui.AWT.ScenarioDialog: *megamek.common.Player[]* [private] m_players
+megamek.client.ui.AWT.ScenarioDialog: *java.awt.Label[]* [private] m_labels
+megamek.client.ui.AWT.ScenarioDialog: *java.awt.Choice[]* [private] m_typeChoices
+megamek.client.ui.AWT.ScenarioDialog: *megamek.client.ui.AWT.widget.ImageButton[]* [private] m_camoButtons
+megamek.client.ui.AWT.StartingPositionDialog: *java.awt.Button[]* [private] butStartPos
+megamek.client.ui.AWT.TargetingPhaseDisplay: *megamek.common.Entity[]* [private] visibleTargets [mod]
+megamek.client.ui.AWT.TilesetManager$EntityImage: *java.awt.Image[]* [private] facings
+megamek.client.ui.AWT.TilesetManager$EntityImage: *java.awt.Image[]* [private] wreckFacings
+megamek.client.ui.AWT.widget.AdvancedLabel: *java.awt.Color[]* [private] colorArray [no-stores]
+megamek.client.ui.AWT.widget.AeroMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.AeroMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.AeroMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.ArmlessMechMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.ArmlessMechMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.ArmlessMechMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.BattleArmorMapSet: *java.awt.Image[]* [private] armorImage
+megamek.client.ui.AWT.widget.BattleArmorMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] unitAreas
+megamek.client.ui.AWT.widget.BattleArmorMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] armorAreas
+megamek.client.ui.AWT.widget.BattleArmorMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] armorLabels
+megamek.client.ui.AWT.widget.GeneralInfoMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] advantagesR
+megamek.client.ui.AWT.widget.GunEmplacementMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.GunEmplacementMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.GunEmplacementMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.InfantryMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] areas [mod]
+megamek.client.ui.AWT.widget.JumpshipMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.JumpshipMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.JumpshipMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.LargeSupportTankMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.LargeSupportTankMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.LargeSupportTankMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.MechMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.MechMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.MechMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.MechPanelTabStrip: *megamek.client.ui.AWT.widget.PMPicPolygonalArea[]* [private] tabs
+megamek.client.ui.AWT.widget.ProtomechMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] sectionLabels
+megamek.client.ui.AWT.widget.ProtomechMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] armorLabels
+megamek.client.ui.AWT.widget.ProtomechMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] internalLabels
+megamek.client.ui.AWT.widget.ProtomechMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.QuadMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.QuadMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.QuadMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.SpheroidMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.SpheroidMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.SpheroidMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.SquadronMapSet: *java.awt.Image[]* [private] armorImage
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] armorArea
+megamek.client.ui.AWT.widget.SquadronMapSet: *java.awt.Image[]* [private] avCritImage
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] avCritArea
+megamek.client.ui.AWT.widget.SquadronMapSet: *java.awt.Image[]* [private] engineCritImage
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] engineCritArea
+megamek.client.ui.AWT.widget.SquadronMapSet: *java.awt.Image[]* [private] fcsCritImage
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] fcsCritArea
+megamek.client.ui.AWT.widget.SquadronMapSet: *java.awt.Image[]* [private] sensorCritImage
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] sensorCritArea
+megamek.client.ui.AWT.widget.SquadronMapSet: *java.awt.Image[]* [private] pilotCritImage
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMPicArea[]* [private] pilotCritArea
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] nameLabel
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] armorVLabel
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] avCritLabel
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] engineCritLabel
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] fcsCritLabel
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] sensorCritLabel
+megamek.client.ui.AWT.widget.SquadronMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] pilotCritLabel
+megamek.client.ui.AWT.widget.TankMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.TankMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.TankMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.VTOLMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.VTOLMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.VTOLMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.AWT.widget.WarshipMapSet: *megamek.client.ui.AWT.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.AWT.widget.WarshipMapSet: *megamek.client.ui.AWT.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.AWT.widget.WarshipMapSet: *megamek.client.ui.AWT.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.AimedShotDialog: *megamek.client.ui.swing.widget.IndexedCheckbox[]* [private] checkboxes
+megamek.client.ui.swing.BoardView1: *java.awt.Polygon[]* facingPolys [mod] [arraycopy]
+megamek.client.ui.swing.BoardView1: *java.awt.Polygon[]* movementPolys [mod] [arraycopy]
+megamek.client.ui.swing.ChoiceDialog: *javax.swing.AbstractButton[]* [private] checkboxes [arraycopy]
+megamek.client.ui.swing.CommonSettingsDialog: *java.io.File[]* [private] tileSets
+megamek.client.ui.swing.CustomFighterSquadronDialog: *java.lang.String[]* [private] m_saSorts
+megamek.client.ui.swing.CustomFighterSquadronDialog: *megamek.common.MechSummary[]* [private] m_mechsCurrent
+megamek.client.ui.swing.CustomMechDialog$BombChoicePanel: *javax.swing.JComboBox[]* [private] b_choices
+megamek.client.ui.swing.CustomMechDialog$BombChoicePanel: *javax.swing.JLabel[]* [private] b_labels
+megamek.client.ui.swing.FiringDisplay: *megamek.common.Entity[]* [private] visibleTargets [mod]
+megamek.client.ui.swing.LOSDialog: *javax.swing.JCheckBox[]* checkboxes1
+megamek.client.ui.swing.LOSDialog: *javax.swing.JCheckBox[]* [private] checkboxes2
+megamek.client.ui.swing.ManeuverChoiceDialog: *javax.swing.AbstractButton[]* [private] checkboxes [arraycopy]
+megamek.client.ui.swing.MechSelectorDialog: *java.lang.String[]* [private] m_saSorts
+megamek.client.ui.swing.MechSelectorDialog: *megamek.common.MechSummary[]* [private] m_mechsCurrent
+megamek.client.ui.swing.ScenarioDialog: *megamek.common.Player[]* [private] m_players
+megamek.client.ui.swing.ScenarioDialog: *javax.swing.JLabel[]* [private] m_labels
+megamek.client.ui.swing.ScenarioDialog: *javax.swing.JComboBox[]* [private] m_typeChoices
+megamek.client.ui.swing.ScenarioDialog: *javax.swing.JButton[]* [private] m_camoButtons
+megamek.client.ui.swing.StartingPositionDialog: *javax.swing.JButton[]* [private] butStartPos
+megamek.client.ui.swing.TargetingPhaseDisplay: *megamek.common.Entity[]* [private] visibleTargets [mod]
+megamek.client.ui.swing.TilesetManager$EntityImage: *java.awt.Image[]* [private] facings
+megamek.client.ui.swing.TilesetManager$EntityImage: *java.awt.Image[]* [private] wreckFacings
+megamek.client.ui.swing.widget.AeroMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.AeroMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.AeroMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.ArmlessMechMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.ArmlessMechMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.ArmlessMechMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.BattleArmorMapSet: *java.awt.Image[]* [private] armorImage
+megamek.client.ui.swing.widget.BattleArmorMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] unitAreas
+megamek.client.ui.swing.widget.BattleArmorMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] armorAreas
+megamek.client.ui.swing.widget.BattleArmorMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] armorLabels
+megamek.client.ui.swing.widget.GeneralInfoMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] advantagesR
+megamek.client.ui.swing.widget.GunEmplacementMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.GunEmplacementMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.GunEmplacementMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.InfantryMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] areas [mod]
+megamek.client.ui.swing.widget.JumpshipMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.JumpshipMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.JumpshipMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.LargeSupportTankMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.LargeSupportTankMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.LargeSupportTankMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.MechMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.MechMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.MechMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.MechPanelTabStrip: *megamek.client.ui.swing.widget.PMPicPolygonalArea[]* [private] tabs
+megamek.client.ui.swing.widget.ProtomechMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] sectionLabels
+megamek.client.ui.swing.widget.ProtomechMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] armorLabels
+megamek.client.ui.swing.widget.ProtomechMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] internalLabels
+megamek.client.ui.swing.widget.ProtomechMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.QuadMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.QuadMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.QuadMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.SpheroidMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.SpheroidMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.SpheroidMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.SquadronMapSet: *java.awt.Image[]* [private] armorImage
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] armorArea
+megamek.client.ui.swing.widget.SquadronMapSet: *java.awt.Image[]* [private] avCritImage
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] avCritArea
+megamek.client.ui.swing.widget.SquadronMapSet: *java.awt.Image[]* [private] engineCritImage
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] engineCritArea
+megamek.client.ui.swing.widget.SquadronMapSet: *java.awt.Image[]* [private] fcsCritImage
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] fcsCritArea
+megamek.client.ui.swing.widget.SquadronMapSet: *java.awt.Image[]* [private] sensorCritImage
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] sensorCritArea
+megamek.client.ui.swing.widget.SquadronMapSet: *java.awt.Image[]* [private] pilotCritImage
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMPicArea[]* [private] pilotCritArea
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] nameLabel
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] armorVLabel
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] avCritLabel
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] engineCritLabel
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] fcsCritLabel
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] sensorCritLabel
+megamek.client.ui.swing.widget.SquadronMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] pilotCritLabel
+megamek.client.ui.swing.widget.TankMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.TankMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.TankMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.VTOLMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.VTOLMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.VTOLMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.client.ui.swing.widget.WarshipMapSet: *megamek.client.ui.swing.widget.PMSimplePolygonArea[]* [private] areas
+megamek.client.ui.swing.widget.WarshipMapSet: *megamek.client.ui.swing.widget.PMSimpleLabel[]* [private] labels
+megamek.client.ui.swing.widget.WarshipMapSet: *megamek.client.ui.swing.widget.PMValueLabel[]* [private] vLabels
+megamek.common.Board: *megamek.common.IHex[]* [private] data [mod]
+megamek.common.Entity: *megamek.common.CriticalSlot[][]* [protected] crits [mod]
+megamek.common.Hex: *megamek.common.ITerrain[]* [private] terrains
+megamek.common.loaders.MepFile: *java.lang.String[]* equipData
+megamek.common.loaders.MepFile: *java.lang.String[]* critData
+megamek.common.loaders.MtfFile: *java.lang.String[]* armorValues
+megamek.common.loaders.MtfFile: *java.lang.String[]* weaponData
+megamek.common.loaders.MtfFile: *java.lang.String[][]* critData
+megamek.common.loaders.TdbFile: *java.lang.String[][][]* [private] critData
+megamek.common.MechSummaryCache: *megamek.common.MechSummary[]* [private] m_data [no-stores]
+megamek.common.MMRandom$Pool36Random: *megamek.common.MMShuffle[]* pool
+megamek.common.net.Packet: *java.lang.Object[]* [private] data
+megamek.common.util.AbstractCommandLineParser: *java.lang.String[]* [private] args [no-stores]
+megamek.MegaMek$CommandLineParser: *java.lang.String[]* [private] restArgs [no-stores]
+megamek.server.ElevatorProcessor: *megamek.server.ElevatorProcessor$ElevatorInfo[]* [private] elevators
+megamek.server.victory.SummingThresholdVictory: *megamek.server.victory.Victory[]* [protected] vs [no-stores]
+
+N-CYCLES
+========
+[megamek/common/actions/DisplacementAttackAction, megamek/common/Player, megamek/common/Entity]
+[megamek/server/Server, megamek/common/weapons/WeaponHandler]
+[megamek/client/bot/GALance, megamek/client/bot/CEntity$Table, megamek/client/bot/TestBot]
+[megamek/client/bot/CEntity, megamek/client/bot/MoveOption]
+[megamek/client/ui/AWT/MechTileset$MechEntry, megamek/client/ui/AWT/MechTileset]
+[megamek/client/ui/AWT/PlanetaryConditionsDialog, megamek/client/ui/AWT/CustomInitiativeDialog, megamek/client/ui/AWT/RandomSkillDialog, megamek/client/ui/AWT/RandomArmyDialog, megamek/client/ui/AWT/PlayerListDialog, megamek/client/ui/AWT/StartingPositionDialog, megamek/client/ui/AWT/CustomFighterSquadronDialog, megamek/client/ui/AWT/CustomBattleArmorDialog, megamek/client/ui/AWT/MechSelectorDialog, megamek/client/ui/AWT/GameOptionsDialog, megamek/client/ui/AWT/RandomMapDialog, megamek/client/ui/AWT/BoardSelectionDialog, megamek/client/ui/AWT/ChatLounge, megamek/client/ui/AWT/Ruler, megamek/client/ui/AWT/UnitOverview, megamek/client/ui/AWT/MiniMap, megamek/client/ui/AWT/MechDisplay$ExtraPanel, megamek/client/ui/AWT/MechDisplay$SystemPanel, megamek/client/ui/AWT/widget/TransparentLabel, megamek/client/ui/AWT/MechDisplay$WeaponPanel, megamek/client/ui/AWT/widget/WarshipMapSet, megamek/client/ui/AWT/widget/SpheroidMapSet, megamek/client/ui/AWT/widget/JumpshipMapSet, megamek/client/ui/AWT/widget/SquadronMapSet, megamek/client/ui/AWT/widget/CapitalFighterMapSet, megamek/client/ui/AWT/widget/AeroMapSet, megamek/client/ui/AWT/widget/LargeSupportTankMapSet, megamek/client/ui/AWT/widget/ArmlessMechMapSet, megamek/client/ui/AWT/widget/GunEmplacementMapSet, megamek/client/ui/AWT/widget/QuadMapSet, megamek/client/ui/AWT/widget/VTOLMapSet, megamek/client/ui/AWT/widget/ProtomechMapSet, megamek/client/ui/AWT/widget/BattleArmorMapSet, megamek/client/ui/AWT/widget/InfantryMapSet, megamek/client/ui/AWT/widget/MechMapSet, megamek/client/ui/AWT/widget/TankMapSet, megamek/client/ui/AWT/MechDisplay$ArmorPanel, megamek/client/ui/AWT/MechDisplay$MovementPanel, megamek/client/ui/AWT/widget/MechPanelTabStrip, megamek/client/ui/AWT/MechDisplay, megamek/client/ui/AWT/ChatterBox, megamek/client/ui/AWT/CommonMenuBar, megamek/client/ui/AWT/ClientGUI, megamek/client/ui/AWT/CustomMechDialog$BombChoicePanel, megamek/client/ui/AWT/CustomMechDialog]
+[megamek/client/ui/AWT/FiringDisplay$AimedShotHandler, megamek/client/ui/AWT/FiringDisplay]
+[megamek/client/ui/AWT/PhysicalDisplay$AimedShotHandler, megamek/client/ui/AWT/PhysicalDisplay]
+[megamek/client/ui/AWT/BoardView1$RedrawWorker, megamek/client/ui/AWT/BoardView1$CursorSprite, megamek/client/ui/AWT/BoardView1]
+[megamek/client/ui/swing/PlanetaryConditionsDialog, megamek/client/ui/swing/CustomInitiativeDialog, megamek/client/ui/swing/RandomSkillDialog, megamek/client/ui/swing/RandomArmyDialog, megamek/client/ui/swing/PlayerListDialog, megamek/client/ui/swing/StartingPositionDialog, megamek/client/ui/swing/CustomFighterSquadronDialog, megamek/client/ui/swing/CustomBattleArmorDialog, megamek/client/ui/swing/MechSelectorDialog, megamek/client/ui/swing/GameOptionsDialog, megamek/client/ui/swing/RandomMapDialog, megamek/client/ui/swing/BoardSelectionDialog, megamek/client/ui/swing/Ruler, megamek/client/ui/swing/UnitOverview, megamek/client/ui/swing/MapMenu, megamek/client/ui/swing/MiniMap, megamek/client/ui/swing/MechDisplay$ExtraPanel, megamek/client/ui/swing/MechDisplay$SystemPanel, megamek/client/ui/swing/MechDisplay$WeaponPanel, megamek/client/ui/swing/widget/WarshipMapSet, megamek/client/ui/swing/widget/SpheroidMapSet, megamek/client/ui/swing/widget/JumpshipMapSet, megamek/client/ui/swing/widget/SquadronMapSet, megamek/client/ui/swing/widget/CapitalFighterMapSet, megamek/client/ui/swing/widget/AeroMapSet, megamek/client/ui/swing/widget/LargeSupportTankMapSet, megamek/client/ui/swing/widget/ArmlessMechMapSet, megamek/client/ui/swing/widget/GunEmplacementMapSet, megamek/client/ui/swing/widget/QuadMapSet, megamek/client/ui/swing/widget/VTOLMapSet, megamek/client/ui/swing/widget/ProtomechMapSet, megamek/client/ui/swing/widget/BattleArmorMapSet, megamek/client/ui/swing/widget/MechMapSet, megamek/client/ui/swing/widget/TankMapSet, megamek/client/ui/swing/MechDisplay$ArmorPanel, megamek/client/ui/swing/MechDisplay$MovementPanel, megamek/client/ui/swing/widget/MechPanelTabStrip, megamek/client/ui/swing/MechDisplay, megamek/client/ui/swing/ChatterBox, megamek/client/ui/swing/CommonMenuBar, megamek/client/ui/swing/ClientGUI, megamek/client/ui/swing/ChatLounge, megamek/client/ui/swing/CamoChoiceListener]
+[megamek/client/ui/swing/FiringDisplay$AimedShotHandler, megamek/client/ui/swing/FiringDisplay]
+[megamek/client/ui/swing/MechTileset$MechEntry, megamek/client/ui/swing/MechTileset]
+[megamek/client/ui/swing/BoardView1$RedrawWorker, megamek/client/ui/swing/BoardView1$CursorSprite, megamek/client/ui/swing/BoardView1]
+[megamek/client/ui/swing/PhysicalDisplay$AimedShotHandler, megamek/client/ui/swing/PhysicalDisplay]
+[megamek/client/ui/swing/CustomMechDialog$BombChoicePanel, megamek/client/ui/swing/CustomMechDialog]
+[megamek/client/ui/swing/BoardEditor, megamek/client/ui/swing/BoardEditor$HexCanvas]
+[megamek/client/ui/swing/ScenarioDialog, megamek/client/ui/swing/ScenarioDialog$1]
+[megamek/client/ui/AWT/boardview3d/HoverInfo, megamek/client/ui/AWT/boardview3d/MoveGroup, megamek/client/ui/AWT/boardview3d/EntityGroup, megamek/client/ui/AWT/boardview3d/BoardView3D]
+[megamek/client/ui/AWT/BoardEditor, megamek/client/ui/AWT/BoardEditor$HexCanvas]

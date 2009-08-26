@@ -1,0 +1,313 @@
+DSFinder has run for 0 min. 8 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.geronimo.gbean.DynamicGBeanDelegate$Operation: *java.lang.Object* [private] [final] target
+org.apache.geronimo.gbean.runtime.GBeanAttribute: *java.lang.Object* [private] persistentValue
+org.apache.geronimo.gbean.runtime.GBeanInstance: *java.lang.Object* [private] target
+org.apache.geronimo.gshell.common.DurationFormatUtils$Token: *java.lang.Object* [private] value
+org.apache.geronimo.kernel.basic.BasicProxyMap$ReferenceEntry: *java.lang.Object* [private] value
+org.apache.geronimo.kernel.classloader.UrlResourceFinder: *java.lang.Object* [private] [final] lock
+org.apache.geronimo.kernel.KernelRegistry$KernelReference: *java.lang.Object* [private] [final] key
+org.apache.geronimo.management.geronimo.WebManager$ConnectorAttribute: *java.lang.Object* [private] value [TT;]
+
+Linked List-like Data Structures:
+org.apache.geronimo.gshell.parser.Token: [public] next
+org.apache.geronimo.kernel.basic.BasicProxyMap$ReferenceEntry: [private] next
+org.apache.geronimo.kernel.classloader.ResourceEnumeration: *java.lang.Object* [private] next
+org.apache.geronimo.security.jaas.JaasLoginModuleUse: [private] [final] next
+
+Parent- and outer-type Data Structures:
+org.apache.geronimo.gshell.layout.model.Node: [protected] parent
+org.apache.geronimo.gshell.ShellSecurityManager: *java.lang.SecurityManager* [private] [final] parent
+org.apache.geronimo.kernel.config.Configuration: [private] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.apache.geronimo.gshell.parser.Token: [public] specialToken
+Non-Object Fields:
+org.apache.geronimo.crypto.asn1.x509.AttCertIssuer: *org.apache.geronimo.crypto.asn1.ASN1Encodable* obj
+org.apache.geronimo.deployment.util.NestedJarEntry: *java.util.jar.JarEntry* [private] [final] baseEntry
+org.apache.geronimo.deployment.util.NestedJarFile: *java.util.jar.JarFile* [private] baseJar
+org.apache.geronimo.deployment.util.UnclosableInputStream: *java.io.InputStream* [private] [final] delegate
+org.apache.geronimo.deployment.util.UnclosableOutputStream: *java.io.OutputStream* [private] [final] delegate
+org.apache.geronimo.kernel.rmi.RMIClassLoaderSpiImpl: *java.rmi.server.RMIClassLoaderSpi* [private] delegate
+org.apache.geronimo.security.jaas.GeronimoLoginConfiguration: *javax.security.auth.login.Configuration* [private] oldConfiguration
+org.apache.geronimo.security.jacc.mappingprovider.GeronimoPolicy: *java.security.Policy* [private] [final] root
+org.apache.geronimo.system.configuration.ConfigurationStoreUtil$ChecksumOutputStream: *java.io.OutputStream* [private] [final] out
+java.lang.Object Fields:
+org.apache.geronimo.gbean.ReferenceCollectionEvent: *java.lang.Object* [private] [final] member
+org.apache.geronimo.gbean.runtime.AbstractGBeanReference: *java.lang.Object* [private] proxy
+org.apache.geronimo.gshell.clp.CommandLineProcessor: *java.lang.Object* [private] [final] bean
+org.apache.geronimo.gshell.clp.setter.FieldSetter: *java.lang.Object* [protected] [final] bean
+org.apache.geronimo.gshell.clp.setter.MethodSetter: *java.lang.Object* [private] [final] bean
+org.apache.geronimo.gshell.common.tostring.ToStringBuilder: *java.lang.Object* [private] [final] object
+org.apache.geronimo.gshell.prefs.PreferencesProcessor: *java.lang.Object* [private] [final] bean
+org.apache.geronimo.interceptor.SimpleInvocationResult: *java.lang.Object* [private] [final] result
+org.apache.geronimo.system.configuration.GBeanOverride: *java.lang.Object* [private] [final] name
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.apache.geronimo.kernel.basic.BasicDependencyManager: *java.util.Map* [private] [final] childToParentMap
+org.apache.geronimo.kernel.basic.BasicDependencyManager: *java.util.Map* [private] [final] parentToChildMap
+org.apache.geronimo.kernel.config.Configuration: *java.util.List* children [Ljava/util/List<Lorg/apache/geronimo/kernel/config/Configuration;>;]
+org.apache.geronimo.kernel.config.ConfigurationData: *java.util.Map* [private] [final] childConfigurations [Ljava/util/Map<Ljava/lang/String;Lorg/apache/geronimo/kernel/config/ConfigurationData;>;]
+org.apache.geronimo.kernel.config.ConfigurationInfo: *java.util.Set* [private] [final] childConfigurations
+org.apache.geronimo.kernel.config.ConfigurationStatus: *java.util.LinkedHashSet* [private] [final] loadChildren
+org.apache.geronimo.kernel.config.ConfigurationStatus: *java.util.LinkedHashSet* [private] [final] startChildren
+==
+org.apache.geronimo.commands.BaseJavaCommand: *java.util.Map* [private] properties
+org.apache.geronimo.commands.GeronimoBranding: *java.util.Properties* [private] props
+org.apache.geronimo.commands.ServerProxy: *java.util.Map* [private] environment
+org.apache.geronimo.crypto.asn1.ASN1Sequence: *java.util.Vector* [private] seq
+org.apache.geronimo.crypto.asn1.ASN1Set: *java.util.Vector* [protected] set
+org.apache.geronimo.crypto.asn1.BERConstructedOctetString: *java.util.Vector* [private] octs
+org.apache.geronimo.crypto.asn1.DEREncodableVector: *java.util.Vector* [private] v
+org.apache.geronimo.crypto.asn1.x509.CertificatePolicies: *java.util.Vector* policies
+org.apache.geronimo.crypto.asn1.x509.ExtendedKeyUsage: *java.util.Hashtable* usageTable
+org.apache.geronimo.crypto.asn1.x509.IetfAttrSyntax: *java.util.Vector* values
+org.apache.geronimo.crypto.asn1.x509.V2TBSCertListGenerator: *java.util.Vector* [private] crlentries
+org.apache.geronimo.crypto.asn1.x509.X509Extensions: *java.util.Hashtable* [private] extensions
+org.apache.geronimo.crypto.asn1.x509.X509Extensions: *java.util.Vector* [private] ordering
+org.apache.geronimo.crypto.asn1.x509.X509Name: *java.util.Vector* [private] ordering
+org.apache.geronimo.crypto.asn1.x509.X509Name: *java.util.Vector* [private] values
+org.apache.geronimo.crypto.asn1.x509.X509Name: *java.util.Vector* [private] added
+org.apache.geronimo.crypto.jce.provider.JCEDHPrivateKey: *java.util.Hashtable* [private] pkcs12Attributes
+org.apache.geronimo.crypto.jce.provider.JCEDHPrivateKey: *java.util.Vector* [private] pkcs12Ordering
+org.apache.geronimo.crypto.jce.provider.JCERSAPrivateKey: *java.util.Hashtable* [private] pkcs12Attributes
+org.apache.geronimo.crypto.jce.provider.JCERSAPrivateKey: *java.util.Vector* [private] pkcs12Ordering
+org.apache.geronimo.crypto.jce.provider.JDKDSAPrivateKey: *java.util.Hashtable* [private] pkcs12Attributes
+org.apache.geronimo.crypto.jce.provider.JDKDSAPrivateKey: *java.util.Vector* [private] pkcs12Ordering
+org.apache.geronimo.crypto.jce.provider.X509CertificateObject: *java.util.Hashtable* [private] pkcs12Attributes
+org.apache.geronimo.crypto.jce.provider.X509CertificateObject: *java.util.Vector* [private] pkcs12Ordering
+org.apache.geronimo.deployment.AbstractBuilderCollection: *java.util.Collection* [protected] [final] builders [Ljava/util/Collection<TT;>;]
+org.apache.geronimo.deployment.Deployer: *java.util.Collection* [private] [final] builders
+org.apache.geronimo.deployment.Deployer: *java.util.Collection* [private] [final] stores
+org.apache.geronimo.deployment.Deployer: *java.util.Collection* [private] [final] watchers
+org.apache.geronimo.deployment.Deployer$DeployerReaper: *java.util.Properties* [private] [final] pendingDeletionIndex
+org.apache.geronimo.deployment.InPlaceResourceContext: *java.util.Set* [private] [final] zipFilesToExpand
+org.apache.geronimo.deployment.plugin.ConfigIDExtractor$ConfigIdHandler: *java.util.Stack* [private] parent
+org.apache.geronimo.deployment.plugin.local.CommandSupport: *java.util.Set* [private] [final] listeners
+org.apache.geronimo.deployment.plugin.local.CommandSupport: *java.util.List* [private] [final] moduleIDs
+org.apache.geronimo.deployment.service.GBeanBuilder: *java.util.Map* [protected] attrRefMap
+org.apache.geronimo.deployment.service.GBeanBuilder: *java.util.Map* [protected] refRefMap
+org.apache.geronimo.deployment.service.ServiceConfigBuilder: *java.util.Collection* [private] [final] repositories
+org.apache.geronimo.deployment.service.SingleGBeanBuilder: *java.util.Map* [private] [final] xmlAttributeBuilderMap
+org.apache.geronimo.deployment.service.SingleGBeanBuilder: *java.util.Map* [private] [final] xmlReferenceBuilderMap
+org.apache.geronimo.deployment.SingleFileHotDeployer: *java.util.Collection* [private] [final] builders
+org.apache.geronimo.gbean.AbstractName: *java.util.Map* [private] [final] name
+org.apache.geronimo.gbean.AbstractNameQuery: *java.util.Map* [private] [final] name
+org.apache.geronimo.gbean.AbstractNameQuery: *java.util.Set* [private] [final] interfaceTypes
+org.apache.geronimo.gbean.DynamicGBeanDelegate: *java.util.Map* [protected] [final] getters
+org.apache.geronimo.gbean.DynamicGBeanDelegate: *java.util.Map* [protected] [final] setters
+org.apache.geronimo.gbean.DynamicGBeanDelegate: *java.util.Map* [protected] [final] operations
+org.apache.geronimo.gbean.GBeanData: *java.util.Map* [private] [final] attributes [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.apache.geronimo.gbean.GBeanInfo: *java.util.Map* [private] [final] attributesByName
+org.apache.geronimo.gbean.GBeanInfo: *java.util.Set* [private] [final] operations
+org.apache.geronimo.gbean.GBeanInfo: *java.util.Set* [private] [final] notifications
+org.apache.geronimo.gbean.GBeanInfo: *java.util.Set* [private] [final] references
+org.apache.geronimo.gbean.GBeanInfo: *java.util.Map* [private] [final] referencesByName
+org.apache.geronimo.gbean.GBeanInfo: *java.util.Set* [private] [final] interfaces
+org.apache.geronimo.gbean.GBeanInfoBuilder: *java.util.Map* [private] [final] attributes
+org.apache.geronimo.gbean.GBeanInfoBuilder: *java.util.Map* [private] [final] operations
+org.apache.geronimo.gbean.GBeanInfoBuilder: *java.util.Map* [private] [final] references
+org.apache.geronimo.gbean.GBeanInfoBuilder: *java.util.Set* [private] [final] interfaces
+org.apache.geronimo.gbean.GConstructorInfo: *java.util.List* [private] [final] attributeNames
+org.apache.geronimo.gbean.GNotificationInfo: *java.util.Set* [private] [final] notificationTypes
+org.apache.geronimo.gbean.GOperationInfo: *java.util.List* [private] [final] parameters
+org.apache.geronimo.gbean.ReferenceMap: *java.util.Map* [private] [final] map
+org.apache.geronimo.gbean.runtime.GBeanCollectionReference: *java.util.Set* [private] patterns
+org.apache.geronimo.gbean.runtime.GBeanCollectionReference: *java.util.Set* [private] [final] targets
+org.apache.geronimo.gbean.runtime.GBeanInstance: *java.util.Map* [private] [final] attributeIndex
+org.apache.geronimo.gbean.runtime.GBeanInstance: *java.util.Map* [private] [final] referenceIndex
+org.apache.geronimo.gbean.runtime.GBeanInstance: *java.util.Map* [private] [final] operationIndex
+org.apache.geronimo.gbean.runtime.GBeanOperation: *java.util.List* [private] [final] parameterTypes
+org.apache.geronimo.gbean.runtime.ProxyCollection: *java.util.Map* [private] [final] proxies
+org.apache.geronimo.gbean.runtime.ProxyCollection: *java.util.Set* [private] [final] listeners
+org.apache.geronimo.gbean.runtime.ProxyCollection$1: *org.apache.geronimo.gbean.runtime.ProxyCollection* [final] this$0
+org.apache.geronimo.gbean.runtime.ProxyCollection$2: *org.apache.geronimo.gbean.runtime.ProxyCollection* [final] this$0
+org.apache.geronimo.gbean.runtime.RawInvoker: *java.util.Map* [private] [final] attributeIndex
+org.apache.geronimo.gbean.runtime.RawInvoker: *java.util.Map* [private] [final] operationIndex
+org.apache.geronimo.gbean.SingleElementCollection: *java.util.Collection* [private] [final] collection [Ljava/util/Collection<TT;>;]
+org.apache.geronimo.gjndi.binding.GBeanBinding: *java.util.LinkedHashMap* [private] [final] bindings [Ljava/util/LinkedHashMap<Lorg/apache/geronimo/gbean/AbstractName;Ljava/lang/Object;>;]
+org.apache.geronimo.gshell.branding.PropertiesVersionLoader: *java.util.Properties* [private] props
+org.apache.geronimo.gshell.DefaultVariables: *java.util.Map* [private] [final] map [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.apache.geronimo.gshell.layout.model.GroupNode: *java.util.Set* [protected] nodes [Ljava/util/Set<Lorg/apache/geronimo/gshell/layout/model/Node;>;]
+org.apache.geronimo.gshell.parser.CommandLineParser: *java.util.Vector* [private] jj_expentries
+org.apache.geronimo.gshell.parser.JJTCommandLineParserState: *java.util.Stack* [private] nodes
+org.apache.geronimo.gshell.parser.JJTCommandLineParserState: *java.util.Stack* [private] marks
+org.apache.geronimo.j2ee.management.impl.J2EEApplicationImpl: *java.util.Collection* [private] [final] resources
+org.apache.geronimo.j2ee.management.impl.J2EEApplicationImpl: *java.util.Collection* [private] [final] appClientModules
+org.apache.geronimo.j2ee.management.impl.J2EEApplicationImpl: *java.util.Collection* [private] [final] ejbModules
+org.apache.geronimo.j2ee.management.impl.J2EEApplicationImpl: *java.util.Collection* [private] [final] resourceAdapterModules
+org.apache.geronimo.j2ee.management.impl.J2EEApplicationImpl: *java.util.Collection* [private] [final] webModules
+org.apache.geronimo.j2ee.management.impl.J2EEDomainImpl: *java.util.Collection* [private] [final] servers
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] jvms
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] resources
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] j2eeApplications
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] appClientModules
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] webModules
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] ejbModules
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] resourceAdapterModules
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] webManagers
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] ejbManagers
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] jmsManagers
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] threadPools
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] repositories
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] writableRepos
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] securityRealms
+org.apache.geronimo.j2ee.management.impl.J2EEServerImpl: *java.util.Collection* [private] [final] keystoreManagers
+org.apache.geronimo.kernel.basic.BasicKernel: *java.util.LinkedList* [private] [final] shutdownHooks
+org.apache.geronimo.kernel.basic.BasicLifecycleMonitor: *java.util.Map* [private] [final] boundListeners
+org.apache.geronimo.kernel.basic.BasicLifecycleMonitor: *java.util.Map* [private] [final] listenerPatterns
+org.apache.geronimo.kernel.basic.BasicLifecycleMonitor$RawLifecycleBroadcaster: *java.util.Set* [private] [final] interfaceTypes
+org.apache.geronimo.kernel.basic.BasicLifecycleMonitor$SourceInfo: *java.util.Set* [private] [final] interfaceTypes
+org.apache.geronimo.kernel.basic.BasicLifecycleMonitor$SourceInfo: *java.util.HashSet* [private] [final] listeners
+org.apache.geronimo.kernel.basic.BasicProxyManager: *java.util.Map* [private] [final] interceptors
+org.apache.geronimo.kernel.basic.BasicRegistry: *java.util.Map* [private] [final] objectNameRegistry
+org.apache.geronimo.kernel.basic.BasicRegistry: *java.util.Map* [private] [final] infoRegistry
+org.apache.geronimo.kernel.basic.BasicRegistry: *java.util.IdentityHashMap* [private] [final] instanceRegistry
+org.apache.geronimo.kernel.classloader.UnionEnumeration: *java.util.LinkedList* [private] [final] enumerations [Ljava/util/LinkedList<Ljava/util/Enumeration<TT;>;>;]
+org.apache.geronimo.kernel.config.Configuration: *java.util.List* [private] [final] classParents [Ljava/util/List<Lorg/apache/geronimo/kernel/config/Configuration;>;]
+org.apache.geronimo.kernel.config.Configuration: *java.util.List* [private] [final] serviceParents [Ljava/util/List<Lorg/apache/geronimo/kernel/config/Configuration;>;]
+org.apache.geronimo.kernel.config.Configuration: *java.util.List* [private] [final] allServiceParents [Ljava/util/List<Lorg/apache/geronimo/kernel/config/Configuration;>;]
+org.apache.geronimo.kernel.config.ConfigurationInfo: *java.util.Set* [private] [final] ownedConfigurations
+org.apache.geronimo.kernel.config.ConfigurationModel: *java.util.Map* [private] [final] configurations
+org.apache.geronimo.kernel.config.ConfigurationStatus: *java.util.Set* [private] [final] loadParents
+org.apache.geronimo.kernel.config.ConfigurationStatus: *java.util.Set* [private] [final] startParents
+org.apache.geronimo.kernel.config.LifecycleResults: *java.util.Set* [private] [final] loaded
+org.apache.geronimo.kernel.config.LifecycleResults: *java.util.Set* [private] [final] unloaded
+org.apache.geronimo.kernel.config.LifecycleResults: *java.util.Set* [private] [final] started
+org.apache.geronimo.kernel.config.LifecycleResults: *java.util.Set* [private] [final] stopped
+org.apache.geronimo.kernel.config.LifecycleResults: *java.util.Map* [private] [final] failed
+org.apache.geronimo.kernel.config.SerializedGBeanState: *java.util.List* [private] [final] gbeans
+org.apache.geronimo.kernel.config.SimpleConfigurationManager: *java.util.Collection* [protected] [final] stores
+org.apache.geronimo.kernel.config.SimpleConfigurationManager: *java.util.Map* [protected] [final] configurations
+org.apache.geronimo.kernel.config.SimpleConfigurationManager: *java.util.Collection* [protected] [final] watchers
+org.apache.geronimo.kernel.config.SimpleConfigurationManager$UnloadedConfiguration: *java.util.LinkedHashSet* [private] [final] resolvedParentIds
+org.apache.geronimo.kernel.config.xstream.XStreamGBeanState: *java.util.List* [private] [final] gbeans
+org.apache.geronimo.kernel.repository.DefaultArtifactManager: *java.util.Map* [private] [final] artifactsByLoader
+org.apache.geronimo.kernel.repository.DefaultArtifactManager: *java.util.Map* [private] [final] artifactsByArtifact
+org.apache.geronimo.kernel.repository.Environment: *java.util.LinkedHashSet* [private] [final] dependencies
+org.apache.geronimo.kernel.repository.Environment: *java.util.Set* [private] [final] hiddenClasses
+org.apache.geronimo.kernel.repository.Environment: *java.util.Set* [private] [final] nonOverrideableClasses
+org.apache.geronimo.kernel.rmi.RMIClassLoaderSpiImpl: *java.util.concurrent.ConcurrentHashMap* [private] cachedCodebases
+org.apache.geronimo.naming.reference.PersistenceContextReference: *java.util.Map* [private] properties
+org.apache.geronimo.pool.ThreadPool: *java.util.Map* [private] clients
+org.apache.geronimo.pool.ThreadPool$PoolStatsImpl: *java.util.Map* [private] consumers
+org.apache.geronimo.security.ca.FileCertificateRequestStore: *java.util.Properties* [private] requestStatus
+org.apache.geronimo.security.ca.FileCertificateStore: *java.util.Properties* [private] challenges
+org.apache.geronimo.security.credentialstore.SimpleCredentialStoreImpl$1: *java.util.Map* [final] val$callbackInfos
+org.apache.geronimo.security.deploy.LoginDomain: *java.util.Set* [private] principals
+org.apache.geronimo.security.deploy.Realm: *java.util.Map* [private] domains
+org.apache.geronimo.security.jaas.LoginModuleGBean: *java.util.Map* [private] options [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.apache.geronimo.security.jacc.mappingprovider.ApplicationPrincipalRoleConfigurationManager: *java.util.Map* [private] [final] principalRoleMap
+org.apache.geronimo.security.keystore.FileKeystoreInstance: *java.util.List* [private] privateKeys
+org.apache.geronimo.security.keystore.FileKeystoreInstance: *java.util.List* [private] trustCerts
+org.apache.geronimo.security.keystore.FileKeystoreManager: *java.util.Collection* [private] keystores
+org.apache.geronimo.security.realm.providers.CertificatePropertiesFileLoginModule: *java.util.Map* [private] [final] users
+org.apache.geronimo.security.realm.providers.CertificatePropertiesFileLoginModule: *java.util.Map* [final] groups
+org.apache.geronimo.security.realm.providers.GeronimoPropertiesFileMappedPasswordCredentialLoginModule: *java.util.Properties* [private] [final] credentials
+org.apache.geronimo.security.realm.providers.PropertiesFileLoginModule: *java.util.Properties* [final] users
+org.apache.geronimo.security.realm.providers.SQLLoginModule: *java.util.Properties* [private] properties
+org.apache.geronimo.system.configuration.condition.JexlConditionParser: *java.util.Map* [private] [final] vars [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.apache.geronimo.system.configuration.condition.OgnlConditionParser: *java.util.Map* [private] [final] vars [Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;]
+org.apache.geronimo.system.configuration.ConfigurationOverride: *java.util.Map* [private] [final] gbeans [Ljava/util/Map<Ljava/lang/Object;Lorg/apache/geronimo/system/configuration/GBeanOverride;>;]
+org.apache.geronimo.system.configuration.LocalAttributeManager: *java.util.Properties* [private] localConfigSubstitutions
+org.apache.geronimo.system.jmx.KernelMBeanServer: *java.util.HashMap* [private] [final] objetNameToAbstractName
+org.apache.geronimo.system.jmx.MBeanServerKernelBridge: *java.util.HashMap* [private] [final] registry
+org.apache.geronimo.system.main.CommandLineManifest: *java.util.List* [private] [final] configurations
+org.apache.geronimo.system.main.CommandLineManifest: *java.util.List* [private] [final] endorsedDirs
+org.apache.geronimo.system.main.CommandLineManifest: *java.util.List* [private] [final] extensionDirs
+org.apache.geronimo.system.plugin.model.AttributeType: *java.util.List* [protected] content [Ljava/util/List<Ljava/lang/Object;>;]
+org.apache.geronimo.system.plugin.PluginInstallerGBean: *java.util.Map* [private] [final] asyncKeys [Ljava/util/Map<Ljava/lang/Object;Lorg/apache/geronimo/system/plugin/DownloadResults;>;]
+org.apache.geronimo.system.plugin.PluginInstallerGBean$1: *java.util.Map* [final] val$servers
+org.apache.geronimo.validator.Messages: *java.util.Hashtable* [private] formats
+org.apache.geronimo.validator.ValidationContext: *java.util.ArrayList* [protected] failures
+org.apache.geronimo.validator.ValidationContext: *java.util.ArrayList* [protected] warnings
+org.apache.geronimo.validator.ValidationContext: *java.util.ArrayList* [protected] errors
+org.apache.geronimo.validator.ValidationContext: *java.util.Map* [protected] attributes
+
+ARRAYS REPORT
+=============
+
+org.apache.geronimo.cli.AbstractCLI: *java.lang.String[]* [private] [final] args [no-stores]
+org.apache.geronimo.cli.deployer.BaseCommandArgs: *java.lang.String[]* [private] [final] args [no-stores]
+org.apache.geronimo.commands.DistributeCommandArgsImpl: *java.lang.String[]* [private] args [no-stores]
+org.apache.geronimo.commands.ListModulesCommandArgsImpl: *java.lang.String[]* [private] args [no-stores]
+org.apache.geronimo.crypto.asn1.x509.AuthorityInformationAccess: *org.apache.geronimo.crypto.asn1.x509.AccessDescription[]* [private] descriptions
+org.apache.geronimo.crypto.asn1.x509.TBSCertList: *org.apache.geronimo.crypto.asn1.x509.TBSCertList$CRLEntry[]* revokedCertificates
+org.apache.geronimo.deployment.cli.DeployTool: *java.lang.String[]* generalArgs [mod]
+org.apache.geronimo.deployment.cli.StopServer: *java.lang.String[]* [private] args
+org.apache.geronimo.deployment.plugin.local.DistributeCommand: *javax.enterprise.deploy.spi.Target[]* [protected] [final] targetList [no-stores]
+org.apache.geronimo.deployment.plugin.local.RedeployCommand: *javax.enterprise.deploy.spi.TargetModuleID[]* [private] [final] modules
+org.apache.geronimo.deployment.plugin.local.StartCommand: *javax.enterprise.deploy.spi.TargetModuleID[]* [private] [final] modules [no-stores]
+org.apache.geronimo.deployment.plugin.local.StopCommand: *javax.enterprise.deploy.spi.TargetModuleID[]* [private] [final] modules [no-stores]
+org.apache.geronimo.deployment.plugin.local.UndeployCommand: *javax.enterprise.deploy.spi.TargetModuleID[]* [private] [final] modules
+org.apache.geronimo.deployment.plugin.TargetModuleIDImpl: *javax.enterprise.deploy.spi.TargetModuleID[]* [private] [final] childTargetModuleID [hashcode]
+org.apache.geronimo.deployment.service.jsr88.EnvironmentData: *org.apache.geronimo.deployment.service.jsr88.Artifact[]* [private] dependencies
+org.apache.geronimo.deployment.SingleFileHotDeployer: *java.lang.String[]* [private] [final] watchPaths
+org.apache.geronimo.gbean.GBeanData: *java.io.Externalizable[]* [private] backwardExternalizables
+org.apache.geronimo.gbean.GOperationSignature: *java.lang.String[]* [private] [final] argumentTypes [hashcode]
+org.apache.geronimo.gbean.runtime.GBeanInstance: *java.lang.String[]* [private] [final] interfaces [hashcode]
+org.apache.geronimo.gbean.runtime.GBeanInstance: *org.apache.geronimo.gbean.runtime.GBeanAttribute[]* [private] [final] attributes [hashcode]
+org.apache.geronimo.gbean.runtime.GBeanInstance: *org.apache.geronimo.gbean.runtime.GBeanReference[]* [private] [final] references [hashcode]
+org.apache.geronimo.gbean.runtime.GBeanInstance: *org.apache.geronimo.gbean.runtime.GBeanDependency[]* [private] [final] dependencies [hashcode]
+org.apache.geronimo.gbean.runtime.GBeanInstance: *org.apache.geronimo.gbean.runtime.GBeanOperation[]* [private] [final] operations [hashcode]
+org.apache.geronimo.gbean.runtime.GBeanOperation$1: *java.lang.String[]* [private] types [no-stores]
+org.apache.geronimo.gshell.clp.CommandLineProcessor$ParametersImpl: *java.lang.String[]* [private] [final] args
+org.apache.geronimo.gshell.clp.OptionDescriptor: *java.lang.String[]* [private] [final] aliases [no-stores]
+org.apache.geronimo.gshell.common.tostring.ReflectionToStringBuilder: *java.lang.String[]* [private] excludeFieldNames
+org.apache.geronimo.gshell.i18n.ResourceBundleMessageSource: *java.lang.String[]* [private] [final] bundleNames
+org.apache.geronimo.gshell.i18n.ResourceBundleMessageSource: *java.util.ResourceBundle[]* [private] cachedBundles
+org.apache.geronimo.gshell.parser.ParseException: *java.lang.String[]* [public] tokenImage [no-stores]
+org.apache.geronimo.gshell.parser.SimpleNode: *org.apache.geronimo.gshell.parser.Node[]* [protected] children [arraycopy]
+org.apache.geronimo.kernel.basic.BasicProxyMap: *org.apache.geronimo.kernel.basic.BasicProxyMap$ReferenceEntry[]* [private] data
+org.apache.geronimo.kernel.basic.KernelOperationInvoker: *java.lang.String[]* [private] [final] argumentTypes
+org.apache.geronimo.kernel.basic.ProxyMethodInterceptor: *org.apache.geronimo.kernel.basic.ProxyInvoker[]* [private] gbeanInvokers
+org.apache.geronimo.kernel.classloader.JarFileClassLoader$2: *java.net.URL[]* [final] val$urls [no-stores]
+org.apache.geronimo.kernel.config.MultiParentClassLoader: *java.lang.ClassLoader[]* [private] [final] parents
+org.apache.geronimo.kernel.config.MultiParentClassLoader: *java.lang.String[]* [private] [final] hiddenClasses
+org.apache.geronimo.kernel.config.MultiParentClassLoader: *java.lang.String[]* [private] [final] nonOverridableClasses
+org.apache.geronimo.kernel.config.MultiParentClassLoader: *java.lang.String[]* [private] [final] hiddenResources
+org.apache.geronimo.kernel.config.MultiParentClassLoader: *java.lang.String[]* [private] [final] nonOverridableResources
+org.apache.geronimo.management.geronimo.Log$SearchResults: *org.apache.geronimo.management.geronimo.Log$LogMessage[]* [private] [final] results [no-stores]
+org.apache.geronimo.management.stats.JCAStatsImpl: *javax.management.j2ee.statistics.JCAConnectionStats[]* [private] connectionsStats [no-stores]
+org.apache.geronimo.management.stats.JCAStatsImpl: *javax.management.j2ee.statistics.JCAConnectionPoolStats[]* [private] connectionPoolsStats [no-stores]
+org.apache.geronimo.management.stats.JDBCStatsImpl: *javax.management.j2ee.statistics.JDBCConnectionStats[]* [private] connections [no-stores]
+org.apache.geronimo.management.stats.JDBCStatsImpl: *javax.management.j2ee.statistics.JDBCConnectionPoolStats[]* [private] connectionPools [no-stores]
+org.apache.geronimo.management.stats.JMSConnectionStatsImpl: *javax.management.j2ee.statistics.JMSSessionStats[]* [private] sessionsStats [no-stores]
+org.apache.geronimo.management.stats.JMSSessionStatsImpl: *javax.management.j2ee.statistics.JMSProducerStats[]* [private] producersStats [no-stores]
+org.apache.geronimo.management.stats.JMSSessionStatsImpl: *javax.management.j2ee.statistics.JMSConsumerStats[]* [private] consumersStats [no-stores]
+org.apache.geronimo.management.stats.JMSStatsImpl: *javax.management.j2ee.statistics.JMSConnectionStats[]* [private] connections [no-stores]
+org.apache.geronimo.naming.reference.AbstractEntryFactory: *org.apache.geronimo.kernel.repository.Artifact[]* [private] [final] configId [no-stores]
+org.apache.geronimo.naming.reference.ConfigurationAwareReference: *org.apache.geronimo.kernel.repository.Artifact[]* [private] [final] configId [no-stores]
+org.apache.geronimo.security.realm.GenericSecurityRealm: *javax.security.auth.login.AppConfigurationEntry[]* [private] config
+org.apache.geronimo.security.realm.GenericSecurityRealm: *java.lang.String[]* [private] domains
+org.apache.geronimo.security.realm.providers.CertificateChainCallback: *java.security.cert.Certificate[]* certificateChain [no-stores]
+org.apache.geronimo.security.realm.providers.CertificateChainCallbackHandler: *java.security.cert.Certificate[]* certificateChain [no-stores]
+org.apache.geronimo.system.jmx.JMXProxyMethodInterceptor: *org.apache.geronimo.kernel.basic.ProxyInvoker[]* [private] gbeanInvokers
+org.apache.geronimo.system.logging.SystemLog$SearchResults: *org.apache.geronimo.system.logging.SystemLog$LogMessage[]* [private] [final] results [no-stores]
+org.apache.geronimo.system.main.ProgressBarStartupMonitor: *org.apache.geronimo.kernel.repository.Artifact[]* [private] modules [no-stores]
+org.apache.geronimo.system.main.SimpleProgressBarStartupMonitor: *org.apache.geronimo.kernel.repository.Artifact[]* [private] modules [no-stores]
+org.apache.geronimo.validator.ValidationException: *java.lang.Object[]* [protected] details
+
+N-CYCLES
+========
+[org/apache/geronimo/gbean/runtime/RawInvoker, org/apache/geronimo/gbean/runtime/GBeanInstanceState, org/apache/geronimo/gbean/runtime/GBeanInstance]
+[org/apache/geronimo/kernel/config/ConfigurationResolver, org/apache/geronimo/kernel/config/Configuration]
+[org/apache/geronimo/crypto/asn1/x509/AlgorithmIdentifier, org/apache/geronimo/crypto/asn1/x509/ObjectDigestInfo, org/apache/geronimo/crypto/asn1/x509/Holder]
+[org/apache/geronimo/crypto/asn1/x509/SubjectPublicKeyInfo, org/apache/geronimo/crypto/asn1/x509/V1TBSCertificateGenerator]
+[org/apache/geronimo/system/main/SimpleProgressBarStartupMonitor$UpdateThread, org/apache/geronimo/system/main/SimpleProgressBarStartupMonitor]
+[org/apache/geronimo/crypto/asn1/x509/TBSCertList, org/apache/geronimo/crypto/asn1/x509/TBSCertList$CRLEntry]
+[org/apache/geronimo/deployment/Deployer, org/apache/geronimo/deployment/Deployer$DeployerReaper]
+[org/apache/geronimo/system/main/ProgressBarStartupMonitor, org/apache/geronimo/system/main/ProgressBarStartupMonitor$UpdateThread]
+[org/apache/geronimo/gshell/url/DefaultURLHandlerFactory$Factory, org/apache/geronimo/gshell/url/DefaultURLHandlerFactory]

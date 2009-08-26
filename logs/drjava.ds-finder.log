@@ -1,0 +1,99 @@
+DSFinder has run for 0 min. 7 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/drjava/drjava/classes/base:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/drjava/drjava/lib/plt.jar:/home/albiz/dev/drjava/drjava/lib/dynamicjava-base.jar:/home/albiz/dev/drjava/drjava/lib/javalanglevels-base.jar:/home/albiz/dev/drjava/drjava/lib/platform.jar:/home/albiz/dev/drjava/drjava/lib/asm-3.1.jar:/home/albiz/dev/drjava/drjava/classes/lib:/home/albiz/dev/drjava/drjava/lib/buildlib/ant-contrib.jar:/home/albiz/dev/drjava/drjava/lib/buildlib/cenquatasks.jar:/home/albiz/dev/drjava/drjava/lib/buildlib/findbugs-ant.jar:/home/albiz/dev/drjava/drjava/lib/buildlib/junit.jar:/home/albiz/dev/drjava/drjava/lib/buildlib/plt-ant.jar:/home/albiz/dev/drjava/drjava/lib/looks-2.1.4.jar:/home/albiz/dev/drjava/drjava/lib/forms-1.0.7.jar:/home/albiz/dev/drjava/drjava/lib/docs.jar:/home/albiz/dev/drjava/drjava/lib/ant.jar:/home/albiz/dev/drjava/drjava/lib/ant-junit.jar:/home/albiz/dev/drjava/drjava/lib/ant-launcher.jar:/home/albiz/dev/drjava/drjava/lib/jdom.jar:/home/albiz/dev/drjava/drjava/lib/apple-extensions.jar, -p, --include=edu/rice/cs/, --title=/home/albiz/dev/sootOutput/logs/drjava.ds-finder.log, edu.rice.cs.drjava.RemoteControlClient]
+Processed 3155 non-library classes (10033 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						7
+Parents/outers						3
+Others (90 java.lang.Object, 49 non-Object fields)	139
+ exact matching fields					3
+
+Distinct classes containing linked lists and parents:	8
+
+N-cycles						31
+
+Arrays							60
+	 read-only:					46
+	 w/arraycopy:					0
+	 hashtable-like:				15
+	 (error bars:) [3]				17
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.Map						21
+java.util.LinkedList					21
+java.util.List						20
+edu.rice.cs.plt.collect.PredicateSet			12
+java.util.Set						10
+Others							93
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+edu.rice.cs.dynamicjava.interpreter.RuntimeBindings	8
+edu.rice.cs.javalanglevels.parser.Token			8
+...drjava.model.definitions.reducedmodel.ModelList$Node	5
+edu.rice.cs.javalanglevels.Data				4
+edu.rice.cs.drjava.ui.HTMLFrame$HistoryList		3
+Others							3
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.LinkedList					510
+java.util.ArrayList					452
+java.util.HashMap					180
+java.util.HashSet					128
+java.util.Vector					106
+Others							526
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+edu.rice.cs.javalanglevels.parser.Token			10
+edu.rice.cs.dynamicjava.interpreter.RuntimeBindings	9
+edu.rice.cs.util.XMLConfig				9
+edu.rice.cs.javalanglevels.parser.JExprParser$JJCalls	7
+edu.rice.cs.plt.iter.SequenceIterator			4
+Others							5
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			193
+Collections are potential data structures		136
+
+ total edu.rice.cs.*					172
+
+java.lang.String					72
+java.lang.Object					5
+Ad-Hoc types:
+=============
+edu.rice.cs.plt.tuple.Pair				12
+edu.rice.cs.drjava.model.OpenDefinitionsDocument	9
+edu.rice.cs.dynamicjava.symbol.DJClass			7
+edu.rice.cs.dynamicjava.symbol.type.VariableType	6
+edu.rice.cs.plt.tuple.Triple				4
+Others							134
+
+System types:
+==============
+java.lang.String					72
+java.lang.Integer					14
+java.io.File						14
+java.lang.Object					5
+java.awt.Color						4
+Others							60
+
+TEMPLATE PARAMETERS					134
+UNKNOWN							77
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

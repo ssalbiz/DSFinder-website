@@ -1,0 +1,118 @@
+# M: Menu Entry
+# L: Label text
+# T: Tool tips
+# E: Error
+
+M001=&Open
+M002=&Exit
+
+M003=&Help
+M004=&License
+M005=&Changelog
+M006=&About Highlight...
+M007=&File
+M008=&Language
+M009=&Tips
+
+M010=&Project
+M011=&Load
+M012=&Save
+M013=Load default project
+
+L001=Choose files
+L004=Output format
+L005=Embed style in output
+L006=HTML anchors
+L011=File to include in
+L009=Referenced style file:
+L010=Colour theme:
+L013=Include line numbers
+L014=Omit header and footer
+L008=Generate index file
+L015=Convert files
+L022=Choose file
+L002=Output directory
+L007=Reformat:
+L025=Error
+L026=Please restart Highlight...
+L027=Line wrap
+L028=Intelligent wrap
+L029=LaTeX Escape quotes
+L030=Tab width:
+L031=Pad with zeroes
+L032=Write to source directories
+L033=Remove selection
+L034=Error summary
+L035=style
+L036=Encoding:
+L037=HTML ordered list
+L038=LaTeX Babel compatibility
+L039=RTF page size:
+L040=Save as...
+L041=Default project
+L042=HTML file name as anchor
+L043=Preview (%s):
+L044=Preparing preview...
+L045=no input file selected
+L046=Line length:
+L047=Keyword case:
+L019=Info
+L023=Done: %d files in %ld ms.
+L003=Clear file list
+L016=<No files selected>
+L020=Please choose a valid output directory.
+L021=Please choose a style output file.
+L048=Inline CSS
+L049=Clipboard
+L050=Enclose in <pre>
+
+E000=Only C, C++, C# and Java files may be reformatted.
+E001=Error executing Notepad.exe
+E002=Language definition %s.lang not found!
+E003=Could not read:
+E004=Could not write:
+E005=Could not read themes. Check installation.
+E006=Error writing preferences file!
+E007=Could not create index file.
+E008=Could not read file extensions. Check installation.
+E009=Could not read indentation schemes. Check installation.
+E010=Could not reformat:
+
+T001=Add source files you want to convert.\nDrag and drop also possible.
+T002=Choose an output directory.
+T003=Choose style input file to include in the final style definition.
+T004=Clear input file list.
+T005=Name of the style output file.
+T006=Path of the style input file.
+T007=Path of the output directory.
+T008=Include formatting information in output files.
+T009=Omit header and footer of the output files.
+T010=Attach line numbers.
+T011=Attach HTML anchors to the line numbers.
+T012=Reformat and indent C, C++, C# and Java source code.
+T013=Choose one of the output formats.
+T014=Start the conversion of your input files.
+T015=Generate index file with hyperlinks to output files
+T016=Choose a formatting and indentation style.
+T017=Choose a colour theme you like.
+T018=Wrap lines longer than 80 (75 if line numbers turned on) characters.
+T019=Wrap lines and indent statements and function parameters.
+T020=Escape quotes with \dq.\nUseful when using the German package in LaTeX.
+T021=Replace tabs by chosen number of spaces\n(do not replace if value equals zero).
+T022=Fill leading space of line numbers with zeroes.
+T023=Save output in the directories of the input files.
+T024=Remove selected entries from input file list.
+T025=Use an output encoding, which matches the input file encoding.
+T026=Output source code lines as ordered list elements.
+T027=Disable Babel shorthands in LaTeX output
+T028=Page size for RTF output
+T029=Set HTML anchor name to input file name
+T030=Click an input file to show its content using the current settings (max 500 lines are shown).
+T031=Maximum line length before wrapped.
+T032=Convert all keywords to upper or lower case if language syntax is not case sensitive.
+T033=Insert CSS information into each HTML element (generates verbose code).
+T034=Copy highlighted code of the selected file into the clipboard.
+T035=Enclose fragmented output in pre tag.
+
+L024=Ready.
+L017=Processing files....

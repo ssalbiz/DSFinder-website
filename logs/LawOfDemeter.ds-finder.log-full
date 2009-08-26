@@ -1,0 +1,44 @@
+DSFinder has run for 0 min. 5 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+certrevsim.SimulatorApplet: *java.awt.Panel* [private] generalInputPanel
+certrevsim.SimulatorApplet: *java.awt.Panel* [private] schemeInputPanel
+certrevsim.SimulatorApplet: *java.awt.Panel* [private] commandPanel
+certrevsim.SimulatorApplet: *java.awt.Panel* [private] graphPanel
+certrevsim.SimulatorApplet: *java.awt.Panel* [private] resultPanel
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+jsim.queue.PQ_Node: left
+jsim.queue.Q_Node: right
+Non-Object Fields:
+java.lang.Object Fields:
+jsim.queue.Q_Node: *java.lang.Object* item
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+
+ARRAYS REPORT
+=============
+
+certrevsim.EndEntity: *certrevsim.RevocationInfo[]* [private] revocationInfo
+certrevsim.EndEntity: *certrevsim.DeltaRevocationInfo[]* [private] deltaRevocationInfo
+certrevsim.Simulator: *certrevsim.Repository[]* [private] theRepositories
+certrevsim.Simulator: *certrevsim.EndEntity[]* [private] theEndEntities
+
+N-CYCLES
+========

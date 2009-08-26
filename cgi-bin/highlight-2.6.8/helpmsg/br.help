@@ -1,0 +1,105 @@
+USO:   highlight [afghlpqrvwzACEILPRTXYVWZ] [-i input file] [-o output file]
+                  [-S syntax] [-O outdir] [-b wildcard] [-B wildcard]
+                  [-t num] [-c css_outfile] [-e css_infile] [-s CSS_style]
+                  [-D new data dir] [-E data dir] [input files]
+
+
+ Opções Gerais:
+
+ -B, --batch-recursive=<wc>     converte todos os arquivos recursivamente
+                                do diretório atual
+                                (Exemplo: highlight -B '*.cpp')
+ -D, --data-dir=<directory>     ajusta diretório de dados
+ -E, --add-data-dir=<directory> ajusta um diretório de dados adicional, 
+                                que seja procurarado primeiramente
+     --add-config-dir=<dir>     set path to an additional config directory
+ -h, --help                     mostra esta ajuda
+     --help-int=<lang>          mostra ajuda da língua desejada
+                                <lang> = ["cz", "en", "es", "de", "fr", "br"]
+ -i, --input=<file>             nome do único arquivo de entrada
+ -o, --output=<file>            nome do único arquivo de saída
+ -O, --outdir=<directory>       nome do diretório de saída
+ -p, --list-langs               lista de definições de linguagens instaladas
+ -P, --progress                 mostra barra de progresso no modo recursivo (-B)
+ -q, --quiet                    modo silêncioso para o modo recursivo (-B)
+ -S, --syntax=<type>            especifíca o tipo de código fonte
+ -v, --verbose                  modo verbal (debug mode)
+ -w, --list-themes              mostra os temas de cores instalados
+     --force                    generate output if language type is unknown
+     --print-config             print path configuration
+     --validate-input           test if input is a valid text file
+     --version                  mostra a versão e licença
+
+
+ Formatos de saída:
+
+ -H, --html                     gera um arquivo  HTML (default)
+ -A, --ansi                     gera seqüências de controle de terminais ANSI
+ -L, --latex                    gera um arquivo LaTeX
+ -M, --xterm256                 generate terminal output (256 colours)
+ -R, --rtf                      gera um arquivo RTF
+ -T, --tex                      gera um arquivo TeX
+ -X, --xhtml                    gera um arquivo XHTML 1.1
+ -Z, --xml                      gera um arquivo XML
+
+
+ Opções do formato de saída:
+
+ -c, --style-outfile=<file>     name of style file or output to stdout, if
+                                "stdout" is given as file argument
+ -d, --doc-title=<title>        document title
+ -e, --style-infile=<file>      nome do arquivo a ser incluido no arquivo de saída CSS
+ -I, --include-style            incluir definição CSS
+ -f, --fragment                 omitir cabeçalho e rodapé
+ -F, --reformat=<style>         reformatar e identar o arquivo de saída no estilo selecionado
+                                <style> = ["ansi", "gnu", "java", "kr", "linux"]
+ -J, --line-length=<num>        line length before wrapping (see -W, -V)
+ -j, --line-number-length=<num> line number width incl. left padding
+ -k, --font=<font>              defines font (specific to output format)
+ -K, --font-size=<num?>         defines font size (specific to output format)
+ -l, --linenumbers              mostra numeros de linhas do arquivo de saída
+ -m, --line-number-start=<cnt>  start line numbering with cnt (assumes -l)
+ -s, --style=<style>            especifíca o estilo de cor
+ -t, --replace-tabs=<num>       substitui tabulações por espaços <num>
+ -u, --encoding=<enc>           define output encoding which matches input file
+                                encoding; omit encoding info if enc=NONE
+ -V, --wrap-simple              quebra linhas longas sem recortar parâmetros e 
+                                indicações da função
+ -W, --wrap                     quebra de linha
+ -z, --zeroes                   pre-encha espaço principal de números da linha com zeros (0)
+     --kw-case=<case>           change case of case insensitive keywords
+                                <case> =  ['upper', 'lower', 'capitalize']
+
+ Opções de saída (X)HTML:
+
+ -a, --anchors                  inseri hyperlinks aos numeros de linhas
+ -y, --anchor-prefix=<str>      define anchor name prefix
+ -N, --anchor-filename          use input file name as anchor name
+ -G, --class-name=<str>         define CSS class name prefix
+ -C, --print-index              gera um arquivo index com hyperlinks para os arquivos de saída
+     --inline-css               output CSS within each tag (generates verbose output)
+     --mark-line="n[=txt]; m"   mark given lines n..m and add optional help text as tooltip
+     --enclose-pre              enclose fragmented output with pre tag 
+                                (assumes -f)
+
+
+ Opções de saída LaTeX:
+
+ -r, --replace-quotes           substituir citações duplas por \dq{} (asume -f)
+
+
+ -t será ignorado se -F for usado.
+ -i e -o serão ignorados se -b ou -B forem usados.
+ -r será ignorado se -f não for usado.
+ -c será ignorado se o formato de saída não suportar o referido estilo.
+ Se os arquivos de entrada e saída não forem especificdos, stdin e stout serão
+ para input ou output.
+ HTML será gerada, se outro formato de saída não for especificado. Definições de estilo
+ serão guardados em highlight.css (HTML, XHTML) ou highlight.sty (LaTeX, TeX) se -c ou -I 
+ forem especificados.
+ Reformatação de código funciona somente com C, C++, C# e Java. 
+ Quebra de linhas com -V ou -W causam defeito em cores de comentários
+ e em linhas longas. Usar com cuidado
+
+ Atualizações e informações: http://www.andre-simon.de/
+ Traduzido por: Adão Raul <adao.raul@terra.com.br>

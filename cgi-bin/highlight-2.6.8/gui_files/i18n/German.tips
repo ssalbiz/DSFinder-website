@@ -1,0 +1,15 @@
+Highlight kann mit Eingabedateien als Kommandozeilenparameter aufgerufen werden.
+Sie können Dateien per Drag and Drop auf das Fenster ziehen.
+Sie können verschiedene Sourcecode-Typen auf einmal konvertieren.
+Sie sollten immer referenzierte CSS Dateien in der HTML-Ausgabe verwenden, um die Formateigenschaften zentral verwalten zu können.
+Aktivieren Sie die "Ersetze Quotes"-Option, um LaTeX-Code zu erzeugen, der mit dem German-Paket kompatibel ist.
+Die XSL-FO Ausgabe ist kompatibel zu Apache FOP.
+Erzeugen Sie RTF, um die Ausgabe in Textverarbeitungen zu importieren.
+Beim automatischen Zeilenumbruch werden Funktionsparameter und Zuweisungen passend eingerückt.
+Mit der "Kopf-und Fußteil auslassen"-Option werden unvollständige Dateien ohne Dokumentstruktur erzeugt, die in bestehende Texte eingefügt werden können.
+Die "Ersetze Quotes"-Option ist verfügbar, wenn LaTeX-Ausgabe und die "Kopf-und Fußteil auslassen"-Option gewählt ist.
+Sie können eigene CSS Definitionen in die CSS Ausgabe einfügen.
+Sie können neue Farbschemen und Sprachdefinitionen definieren. Siehe README als Referenz.
+Das "Formatieren"-Feature ermöglicht eine einheitliche Formatierung von C. C++, C Sharp und Java Code.
+Auf der Highlight Homepage finden sie auch Kommandozeilenversionen (Windows und UNIX).
+

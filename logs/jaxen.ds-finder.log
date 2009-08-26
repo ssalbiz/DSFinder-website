@@ -1,0 +1,87 @@
+DSFinder has run for 0 min. 3 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/jaxen-1.1.1/target/classes:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:/home/albiz/dev/jaxen-1.1.1/target/lib/jdom-1.0.jar:/home/albiz/dev/jaxen-1.1.1/target/lib/xom-1.0.jar:/home/albiz/dev/jaxen-1.1.1/target/lib/dom4j-1.6.1.jar:/home/albiz/dev/jaxen-1.1.1/target/lib/xercesImpl-2.6.2.jar, -s, -p, --include=org/jaxen/, --title=/home/albiz/dev/sootOutput/logs/jaxen.ds-finder.log, org.jaxen.Function]
+Processed 213 non-library classes (2707 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						1
+Parents/outers						2
+Others (9 java.lang.Object, 3 non-Object fields)	12
+ exact matching fields					0
+
+Distinct classes containing linked lists and parents:	3
+
+N-cycles						1
+
+Arrays							0
+	 read-only:					0
+	 w/arraycopy:					0
+	 hashtable-like:				0
+	 (error bars:) [3]				0
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.List						6
+java.util.ArrayList					3
+java.util.LinkedList					2
+java.util.Map						2
+java.util.HashMap					2
+Others							2
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+org.jaxen.javabean.Element				2
+Others							0
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.ArrayList					56
+java.util.HashMap					20
+java.util.LinkedList					12
+java.util.HashSet					10
+org.jaxen.util.SingletonList				8
+Others							0
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+org.jaxen.pattern.LocationPathPattern			8
+org.jaxen.javabean.Element				4
+org.jaxen.util.PrecedingSiblingAxisIterator		2
+Others							0
+
+
+INSTANTIATED ARRAYS
+===================
+Others							0
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			0
+Collections are potential data structures		16
+
+
+java.lang.String					0
+java.lang.Object					0
+Ad-Hoc types:
+=============
+Others							0
+
+System types:
+==============
+Others							0
+
+TEMPLATE PARAMETERS					0
+UNKNOWN							17
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

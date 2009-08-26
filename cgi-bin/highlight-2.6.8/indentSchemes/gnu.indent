@@ -1,0 +1,8 @@
+# GNU indentation scheme
+
+$indent-blocks=true
+$indent-spaces=2
+$brackets=break
+$indent-classes=false
+$indent-switches=false
+$indent-namespaces=false

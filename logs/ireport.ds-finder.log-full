@@ -1,0 +1,434 @@
+DSFinder has run for 0 min. 21 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+it.businesslogic.ireport.chart.CategoryDatasetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.CategoryDatasetPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.chart.gui.SectionItemHyperlinkPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.gui.SectionItemHyperlinkPanel: *javax.swing.JPanel* [private] jPanel3
+it.businesslogic.ireport.chart.gui.SectionItemHyperlinkPanel: *javax.swing.JPanel* [private] jPanelAnchor
+it.businesslogic.ireport.chart.gui.SectionItemHyperlinkPanel: *javax.swing.JPanel* [private] jPanelLinkParams
+it.businesslogic.ireport.chart.gui.SectionItemHyperlinkPanel: *javax.swing.JPanel* [private] jPanelPage
+it.businesslogic.ireport.chart.gui.SectionItemHyperlinkPanel: *javax.swing.JPanel* [private] jPanelReference
+it.businesslogic.ireport.chart.gui.SectionItemHyperlinkPanel: *javax.swing.JPanel* [private] jPanelTooltip
+it.businesslogic.ireport.chart.HighLowDatasetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.HighLowDatasetPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.chart.HighLowDatasetPanel: *javax.swing.JPanel* [private] jPanelHL
+it.businesslogic.ireport.chart.HighLowDatasetPanel: *javax.swing.JPanel* [private] jPanelOC
+it.businesslogic.ireport.chart.PieDatasetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.PieDatasetPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.chart.TimePeriodDatasetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.TimePeriodDatasetPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.chart.TimeSeriesDatasetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.TimeSeriesDatasetPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.chart.TimeSeriesDatasetPanel: *javax.swing.JPanel* [private] jPanelPeriod
+it.businesslogic.ireport.chart.ValueDatasetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.XYDatasetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.XYDatasetPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.chart.XYZDatasetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.chart.XYZDatasetPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel10
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel11
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel12
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel4
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel5
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel6
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel7
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel8
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel9
+it.businesslogic.ireport.connection.gui.CSVDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanelCSV
+it.businesslogic.ireport.connection.gui.EJBQLConnectionEditor: *javax.swing.JPanel* [private] jPanelEJBQL
+it.businesslogic.ireport.connection.gui.JavaBeanDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanelBeansSet
+it.businesslogic.ireport.connection.gui.JDBCConnectionEditor: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.connection.gui.JDBCConnectionEditor: *javax.swing.JPanel* [private] jPanelJDBC
+it.businesslogic.ireport.connection.gui.JRCustomDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanelCustomDataSourceFactory
+it.businesslogic.ireport.connection.gui.JRDataSourceProviderConnectionEditor: *javax.swing.JPanel* [private] jPanelDatasourceProvider
+it.businesslogic.ireport.connection.gui.JREmptyDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanelEmptyDataSource
+it.businesslogic.ireport.connection.gui.JREmptyDataSourceConnectionEditor_1: *javax.swing.JPanel* [private] jPanelEmptyDataSource
+it.businesslogic.ireport.connection.gui.JRHibernateConnectionEditor: *javax.swing.JPanel* [private] jPanelHibernate
+it.businesslogic.ireport.connection.gui.JRSpringLoadedHibernateConnectionEditor: *javax.swing.JPanel* [private] jPanelSpringLoadedHibernate
+it.businesslogic.ireport.connection.gui.JRXMLDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel13
+it.businesslogic.ireport.connection.gui.JRXMLDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel3
+it.businesslogic.ireport.connection.gui.JRXMLDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanelXML
+it.businesslogic.ireport.connection.gui.MondrianConnectionEditor: *javax.swing.JPanel* [private] jPanel14
+it.businesslogic.ireport.connection.gui.MondrianConnectionEditor: *javax.swing.JPanel* [private] jPanelMondrian
+it.businesslogic.ireport.connection.gui.QueryExecuterConnectionEditor: *javax.swing.JPanel* [private] jPanelEJBQL
+it.businesslogic.ireport.connection.gui.XMLADataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel16
+it.businesslogic.ireport.connection.gui.XMLADataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanelXMLA
+it.businesslogic.ireport.crosstab.gui.CrosstabEditor: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.crosstab.gui.CrosstabEditor: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.crosstab.gui.CrosstabEditor: *javax.swing.JPanel* [private] jPanel3
+it.businesslogic.ireport.data.BeanInspectorPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.data.BeanInspectorPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.data.olap.OlapBrowser: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.data.olap.OlapBrowser: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.data.xml.XMLFieldMappingEditor: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.box.BoxBorderEditorPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.box.BoxBorderEditorPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.gui.box.BoxBorderEditorPanel: *javax.swing.JPanel* [private] jPanel4
+it.businesslogic.ireport.gui.box.BoxBorderEditorPanel: *javax.swing.JPanel* [private] jPanelColorSelector
+it.businesslogic.ireport.gui.box.BoxBorderEditorPanel: *javax.swing.JPanel* [private] jPanelPreview
+it.businesslogic.ireport.gui.box.BoxPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.box.BoxPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.gui.box.BoxPanel: *javax.swing.JPanel* [private] jPanel3
+it.businesslogic.ireport.gui.box.BoxPanel: *javax.swing.JPanel* [private] jPanelBorderEditorContainer
+it.businesslogic.ireport.gui.box.JBoxButton: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.box.JBoxButtonPopup: *java.awt.Component* [private] parent
+it.businesslogic.ireport.gui.box.JBoxButtonPopup: *java.awt.Component* [private] component
+it.businesslogic.ireport.gui.docking.DockingContainer: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.documentstructure.DocumentStructurePanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.event.ReportElementChangedEvent: *java.lang.Object* [private] newValue
+it.businesslogic.ireport.gui.event.SheetPropertyValueChangedEvent: *java.lang.Object* [private] oldValue
+it.businesslogic.ireport.gui.event.SheetPropertyValueChangedEvent: *java.lang.Object* [private] newValue
+it.businesslogic.ireport.gui.event.SubDatasetObjectChangedEvent: *java.lang.Object* [private] oldValue
+it.businesslogic.ireport.gui.event.SubDatasetObjectChangedEvent: *java.lang.Object* [private] newValue
+it.businesslogic.ireport.gui.expbuilder.ArithmeticOperationHelper: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.expbuilder.ArithmeticOperationHelper: *javax.swing.JPanel* [private] jPanelReturnType
+it.businesslogic.ireport.gui.expbuilder.ArithmeticOperationHelper: *javax.swing.JPanel* [private] jPanelValue1
+it.businesslogic.ireport.gui.expbuilder.ArithmeticOperationHelper: *javax.swing.JPanel* [private] jPanelValue2
+it.businesslogic.ireport.gui.fonts.CheckBoxListEntry: *java.lang.Object* [private] value
+it.businesslogic.ireport.gui.JMDIFrame: *javax.swing.JComponent* northPane
+it.businesslogic.ireport.gui.prompt.JDateTimePicker: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.prompt.PromptDialog: *java.lang.Object* [private] value
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanel3
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanelEditors
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanelFiller
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanelFillerEditors
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanelFillerLabels
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanelLabels
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *javax.swing.JPanel* [private] jPanelSheet
+it.businesslogic.ireport.gui.sheet.ColorSelectorPanel: *javax.swing.JPanel* [private] jPanelColor
+it.businesslogic.ireport.gui.sheet.HexColorChooserPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.sheet.MeterIntervalsSheetPropertyComponent: *javax.swing.JPanel* [private] jPanelColors
+it.businesslogic.ireport.gui.sheet.MeterIntervalsSheetPropertyComponent: *javax.swing.JPanel* [private] jPanelSample
+it.businesslogic.ireport.gui.sheet.MeterIntervalsSheetPropertyComponent: *javax.swing.JPanel* [private] jPanelSpacer
+it.businesslogic.ireport.gui.sheet.SeriesColorsSheetPropertyComponent: *javax.swing.JPanel* [private] jPanelColors
+it.businesslogic.ireport.gui.sheet.SeriesColorsSheetPropertyComponent: *javax.swing.JPanel* [private] jPanelSample
+it.businesslogic.ireport.gui.sheet.SeriesColorsSheetPropertyComponent: *javax.swing.JPanel* [private] jPanelSpacer
+it.businesslogic.ireport.gui.sheet.SheetPanel: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.sheet.SheetPanel: *javax.swing.JPanel* [private] jPanelEditors
+it.businesslogic.ireport.gui.sheet.SheetPanel: *javax.swing.JPanel* [private] jPanelFillerEditors
+it.businesslogic.ireport.gui.sheet.SheetPanel: *javax.swing.JPanel* [private] jPanelFillerLabels
+it.businesslogic.ireport.gui.sheet.SheetPanel: *javax.swing.JPanel* [private] jPanelLabels
+it.businesslogic.ireport.gui.sheet.SheetPanel: *javax.swing.JPanel* [private] jPanelSheet
+it.businesslogic.ireport.gui.sheet.SheetProperty: *java.lang.Object* [protected] defaultValue
+it.businesslogic.ireport.gui.sheet.SheetProperty: *java.lang.Object* [protected] value
+it.businesslogic.ireport.gui.sheet.Tag: *java.lang.Object* [private] value
+it.businesslogic.ireport.gui.style.StylesView: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.ValuesPanel: *javax.swing.JPanel* [private] jPanelButtons
+it.businesslogic.ireport.gui.ValuesPanel: *javax.swing.JPanel* [private] jPanelButtons1
+it.businesslogic.ireport.gui.ValuesPanel: *javax.swing.JPanel* [private] jPanelButtons2
+it.businesslogic.ireport.gui.ValuesPanel: *javax.swing.JPanel* [private] jPanelFields
+it.businesslogic.ireport.gui.ValuesPanel: *javax.swing.JPanel* [private] jPanelParameters
+it.businesslogic.ireport.gui.ValuesPanel: *javax.swing.JPanel* [private] jPanelVariables
+it.businesslogic.ireport.gui.wizard.BaseWizardPanel: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.gui.wizard.BaseWizardPanel: *javax.swing.JPanel* [private] jPanelContent
+it.businesslogic.ireport.gui.wizard.BaseWizardPanel: *javax.swing.JPanel* [private] jPanelContentButtons
+it.businesslogic.ireport.gui.wizard.BaseWizardPanel: *javax.swing.JPanel* [private] jPanelLabels
+it.businesslogic.ireport.gui.wizard.BaseWizardPanel: *javax.swing.JPanel* [private] jPanelStepContainer
+it.businesslogic.ireport.gui.wizard.BaseWizardPanel: *javax.swing.JPanel* [private] jPanelSteps
+it.businesslogic.ireport.gui.wizard.ReportGroupWizard: *javax.swing.JPanel* [private] jPanel0
+it.businesslogic.ireport.gui.wizard.ReportGroupWizard: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.wizard.ReportGroupWizard: *javax.swing.JPanel* [private] jPanel6
+it.businesslogic.ireport.gui.wizard.ReportGroupWizard: *javax.swing.JPanel* [private] jPanel61
+it.businesslogic.ireport.gui.wizard.SubreportWizard: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.wizard.SubreportWizard: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.gui.wizard.SubreportWizardExistingReport: *javax.swing.JPanel* [private] jPanel0
+it.businesslogic.ireport.gui.wizard.SubreportWizardExistingReport: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.wizard.SubreportWizardExistingReport: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.gui.wizard.SubreportWizardExistingReport: *javax.swing.JPanel* [private] jPanel3
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel0
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel2
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel3
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel4
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel41
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel5
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel6
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel61
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanel7
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *javax.swing.JPanel* [private] jPanelButtons
+it.businesslogic.ireport.JRParameter: *java.lang.Object* [private] lastDefaultValue
+it.businesslogic.ireport.plugin.jrx.JRXMLDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel1
+it.businesslogic.ireport.plugin.jrx.JRXMLDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanel3
+it.businesslogic.ireport.plugin.jrx.JRXMLDataSourceConnectionEditor: *javax.swing.JPanel* [private] jPanelXML
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+it.businesslogic.ireport.JasperTemplate: [private] parent
+it.businesslogic.ireport.ReportElement: [private] parentElement
+it.businesslogic.ireport.util.TreeNode: [private] parent
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+it.businesslogic.ireport.Style: [private] defaultStyle
+Non-Object Fields:
+it.businesslogic.ireport.connection.JRCustomConnection: *it.businesslogic.ireport.IReportConnection* [private] innerConnection
+java.lang.Object Fields:
+it.businesslogic.ireport.crosstab.gui.WizardFieldObject: *java.lang.Object* [private] obj
+it.businesslogic.ireport.data.olap.WalkableWrapper: *java.lang.Object* walkable
+it.businesslogic.ireport.gui.dnd.TransferableObject: *java.lang.Object* obj
+it.businesslogic.ireport.gui.docking.PanelTransferable: *java.lang.Object* obj
+it.businesslogic.ireport.gui.event.CrosstabLayoutChangedEvent: *java.lang.Object* [private] source
+it.businesslogic.ireport.gui.event.ReportBandChangedEvent: *java.lang.Object* [private] source
+it.businesslogic.ireport.gui.event.ReportElementChangedEvent: *java.lang.Object* [private] eventSource
+it.businesslogic.ireport.gui.event.ReportFrameActivatedEvent: *java.lang.Object* [private] source
+it.businesslogic.ireport.gui.event.SheetPropertyValueChangedEvent: *java.lang.Object* [private] source
+it.businesslogic.ireport.gui.event.StyleChangedEvent: *java.lang.Object* [private] source
+it.businesslogic.ireport.gui.event.TemplateChangedEvent: *java.lang.Object* [private] source
+it.businesslogic.ireport.gui.export.ExportPreferencesDialog: *java.lang.Object* [private] I18
+it.businesslogic.ireport.gui.library.objects.TotalObjectDialog: *java.lang.Object* [private] selectedObject
+it.businesslogic.ireport.gui.logpane.ProblemItem: *java.lang.Object* [private] problemReference
+it.businesslogic.ireport.gui.sheet.SimpleComboBoxEditor: *java.lang.Object* [private] item
+it.businesslogic.ireport.gui.table.SortChangedEvent: *java.lang.Object* [private] source
+it.businesslogic.ireport.undo.ElementTransformation: *java.lang.Object* [private] oldFontSize
+it.businesslogic.ireport.undo.ElementTransformation: *java.lang.Object* [private] newFontSize
+it.businesslogic.ireport.util.TreeNode: *java.lang.Object* [private] userObject
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+it.businesslogic.ireport.compiler.xml.SourceTraceDigester$ElementStack$ElementInfo: *java.util.Map* [private] [final] childrenCounts
+it.businesslogic.ireport.connection.FieldNode: *java.util.Vector* [private] children
+it.businesslogic.ireport.util.TreeNode: *java.util.List* [private] childs
+==
+it.businesslogic.ireport.chart.CategoryDataset: *java.util.Vector* [private] categorySeries
+it.businesslogic.ireport.chart.Chart: *java.util.List* [private] linkParameters
+it.businesslogic.ireport.chart.ChartDefinition: *java.util.Vector* [private] sheetProperties
+it.businesslogic.ireport.chart.Dataset: *java.util.Vector* [private] subreportParameters
+it.businesslogic.ireport.chart.gui.IReportChartDialog: *java.util.Properties* [private] properties
+it.businesslogic.ireport.chart.MeterPlot: *java.util.List* [private] meterIntervals
+it.businesslogic.ireport.chart.MultiAxisPlot: *java.util.List* [private] axis
+it.businesslogic.ireport.chart.Plot: *java.util.List* [private] seriesColors
+it.businesslogic.ireport.chart.SectionItemHyperlink: *java.util.List* [private] hyperlinkParameters
+it.businesslogic.ireport.chart.TimePeriodDataset: *java.util.Vector* [private] timePeriodSeries
+it.businesslogic.ireport.chart.TimeSeriesDataset: *java.util.Vector* [private] timeSeries
+it.businesslogic.ireport.chart.XYDataset: *java.util.Vector* [private] categorySeries
+it.businesslogic.ireport.chart.XYZDataset: *java.util.Vector* [private] xYZSeries
+it.businesslogic.ireport.ChartReportElement: *java.util.Properties* [private] props
+it.businesslogic.ireport.compiler.ErrorsCollector: *java.util.List* [private] problemItems
+it.businesslogic.ireport.compiler.ExtendedJRJdtCompiler$CompilerRequestor: *java.util.Map* [private] [final] expressionErrors
+it.businesslogic.ireport.compiler.xml.SourceTraceDigester: *java.util.Map* [private] [final] sourceLocations
+it.businesslogic.ireport.compiler.xml.SourceTraceDigester$ElementStack: *java.util.LinkedList* [private] [final] infoStack
+it.businesslogic.ireport.connection.EJBQLConnection: *java.util.HashMap* [private] map
+it.businesslogic.ireport.connection.FieldNode: *java.util.Properties* [private] attributes
+it.businesslogic.ireport.connection.JRCSVDataSourceConnection: *java.util.Vector* [private] columnNames
+it.businesslogic.ireport.connection.JRCsvDataSourceInspector: *java.util.HashMap* [private] columnNames
+it.businesslogic.ireport.connection.JRCsvDataSourceInspector: *java.util.Vector* [private] fields
+it.businesslogic.ireport.connection.JRCustomConnection: *java.util.HashMap* [private] innerConnectionProperties
+it.businesslogic.ireport.connection.JRDataSourceProviderConnection: *java.util.HashMap* [private] properties
+it.businesslogic.ireport.connection.MondrianConnection: *java.util.HashMap* [private] map
+it.businesslogic.ireport.connection.NullConnection: *java.util.HashMap* [private] map
+it.businesslogic.ireport.connection.QueryExecuterConnection: *java.util.HashMap* [private] map
+it.businesslogic.ireport.crosstab.gui.CrosstabEditorPanel: *java.util.List* [private] openedNodesDocumentStructure
+it.businesslogic.ireport.crosstab.gui.CrosstabEditorPanel: *java.util.Vector* [private] rowBands
+it.businesslogic.ireport.crosstab.gui.CrosstabEditorPanel: *java.util.Vector* [private] columnBands
+it.businesslogic.ireport.crosstab.gui.CrosstabEditorPanel: *java.util.List* [private] columns
+it.businesslogic.ireport.crosstab.gui.CrosstabEditorPanel: *java.util.List* [private] rows
+it.businesslogic.ireport.crosstab.gui.CrosstabEditorPanel: *java.util.Vector* [private] selectedElements
+it.businesslogic.ireport.crosstab.gui.CrosstabWizardDialog: *java.util.Vector* [private] stepsPanels
+it.businesslogic.ireport.crosstab.gui.CrosstabWizardDialog: *java.util.Vector* [private] stepsLabels
+it.businesslogic.ireport.crosstab.gui.GroupByFieldPanel: *java.util.Vector* [private] objects
+it.businesslogic.ireport.CrosstabReportElement: *java.util.Vector* [private] crosstabParameters
+it.businesslogic.ireport.CrosstabReportElement: *java.util.Vector* [private] measures
+it.businesslogic.ireport.CrosstabReportElement: *java.util.Vector* [private] rowGroups
+it.businesslogic.ireport.CrosstabReportElement: *java.util.Vector* [private] columnGroups
+it.businesslogic.ireport.CrosstabReportElement: *java.util.Vector* [private] elements
+it.businesslogic.ireport.CrosstabReportElement: *java.util.Vector* [private] cells
+it.businesslogic.ireport.data.BeanInspectorPanel$6: *java.util.List* [final] val$columns
+it.businesslogic.ireport.data.BeanInspectorPanel$7: *java.util.Vector* [final] val$v
+it.businesslogic.ireport.data.ejbql.EJBQLFieldsReader: *java.util.Vector* [private] reportParameters
+it.businesslogic.ireport.data.ejbql.EJBQLFieldsReader: *java.util.HashMap* [private] queryParameters
+it.businesslogic.ireport.data.hibernate.HQLFieldsReader: *java.util.Vector* [private] reportParameters
+it.businesslogic.ireport.data.hibernate.HQLFieldsReader: *java.util.HashMap* [private] queryParameters
+it.businesslogic.ireport.data.hibernate.HQLFieldsReader: *java.util.Vector* [private] notScalars
+it.businesslogic.ireport.data.olap.OLAPQueryExecuter: *java.util.Vector* [private] reportParameters
+it.businesslogic.ireport.data.olap.OLAPQueryExecuter: *java.util.HashMap* [private] queryParameters
+it.businesslogic.ireport.data.xml.XMLFieldMappingEditor: *java.util.List* [private] recordNodes
+it.businesslogic.ireport.ExpressionContext: *java.util.Vector* [private] crosstabReportElements
+it.businesslogic.ireport.gui.command.FormatCommand: *java.util.Vector* oldSelectedElements
+it.businesslogic.ireport.gui.command.FormatCommandDecreaseSpaceH: *java.util.Vector* bandElements
+it.businesslogic.ireport.gui.command.FormatCommandDecreaseSpaceV: *java.util.Vector* bandElements
+it.businesslogic.ireport.gui.command.FormatCommandEqualsSpaceH: *java.util.Vector* bands
+it.businesslogic.ireport.gui.command.FormatCommandEqualsSpaceV: *java.util.Vector* bands
+it.businesslogic.ireport.gui.command.FormatCommandRemoveSpaceV: *java.util.Vector* myElements
+it.businesslogic.ireport.gui.command.FormatCommandRemoveSpaceV: *java.util.Vector* bands
+it.businesslogic.ireport.gui.docking.DockingContainer: *java.util.Vector* [private] panelViews
+it.businesslogic.ireport.gui.docking.DockingContainer: *java.util.Vector* [private] tabPanes
+it.businesslogic.ireport.gui.docking.ExtendedTabbedPane: *java.util.List* [private] disabledCloseButtons
+it.businesslogic.ireport.gui.event.FontsListChangedEvent: *java.util.Vector* [private] updatedList
+it.businesslogic.ireport.gui.event.ReportBandsSelectionEvent: *java.util.Vector* [private] selectedBands
+it.businesslogic.ireport.gui.event.ReportElementChangedEvent: *java.util.Vector* [private] elements
+it.businesslogic.ireport.gui.event.ReportElementsSelectionEvent: *java.util.Vector* selectedElements
+it.businesslogic.ireport.gui.event.ReportObjectsSelectionEvent: *java.util.Vector* [private] selectedObjects
+it.businesslogic.ireport.gui.event.ReportSubDatasetChangedEvent: *java.util.Vector* [private] elements
+it.businesslogic.ireport.gui.export.ExportPreferencesDialog: *java.util.Properties* [private] defaultValues
+it.businesslogic.ireport.gui.ExpressionEditor: *java.util.Vector* [private] crosstabElements
+it.businesslogic.ireport.gui.JNumberComboBox: *java.util.Vector* [private] entries
+it.businesslogic.ireport.gui.JReportFrame: *java.util.List* paintedAlignLines
+it.businesslogic.ireport.gui.JReportFrame: *java.util.List* [private] reportProblems
+it.businesslogic.ireport.gui.JReportFrame: *java.util.List* [private] verticalObjectsLines
+it.businesslogic.ireport.gui.JReportFrame: *java.util.List* [private] horizontalObjectsLines
+it.businesslogic.ireport.gui.JReportFrame: *java.util.List* [private] openedNodesDocumentStructure
+it.businesslogic.ireport.gui.JReportFrame: *java.util.Vector* [private] selectedBands
+it.businesslogic.ireport.gui.JReportFrame: *java.util.Vector* [private] selectedObjects
+it.businesslogic.ireport.gui.JReportFrame: *java.util.Vector* [private] undoOperations
+it.businesslogic.ireport.gui.JReportFrame: *java.util.Vector* [private] clipboardObjects
+it.businesslogic.ireport.gui.JReportFrame: *java.util.Vector* [private] selectedElements
+it.businesslogic.ireport.gui.JRFieldDialog: *java.util.List* [private] properties
+it.businesslogic.ireport.gui.JRParameterDialog: *java.util.List* [private] properties
+it.businesslogic.ireport.gui.JRTextExpressionArea: *java.util.Vector* [private] crosstabElements
+it.businesslogic.ireport.gui.JRulePanel: *java.util.List* [private] guideLines
+it.businesslogic.ireport.gui.logpane.LogPane: *java.util.Vector* [private] logsComponents
+it.businesslogic.ireport.gui.logpane.LogPane: *java.util.Properties* [private] properties
+it.businesslogic.ireport.gui.logpane.LogTextArea: *java.util.Properties* [private] properties
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] toolBarControls
+it.businesslogic.ireport.gui.MainFrame: *java.util.HashMap* [private] pluginEntries
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] ttfFonts
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] connections
+it.businesslogic.ireport.gui.MainFrame: *java.util.Properties* [private] properties
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] recentFilesList
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] favoriteFilesList
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] recentProjectsList
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] classpath
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] fontspath
+it.businesslogic.ireport.gui.MainFrame: *java.util.List* [private] userChoicesWizardTemplates
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] chartSeriesClipBoard
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] measuresClipBoard
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] queryExecuters
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] linkTypes
+it.businesslogic.ireport.gui.MainFrame: *java.util.List* [private] connectionImplementations
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector* [private] styleLibrarySet
+it.businesslogic.ireport.gui.MainFrame$5: *java.util.Map* [final] val$args
+it.businesslogic.ireport.gui.OptionsDialog: *java.util.List* listOfLanguages
+it.businesslogic.ireport.gui.OptionsDialog: *java.util.List* listOfPLAF
+it.businesslogic.ireport.gui.PropertiesDialog: *java.util.List* [private] properties
+it.businesslogic.ireport.gui.ReportQueryDialog: *java.util.Map* parameterNameToExpressionID
+it.businesslogic.ireport.gui.ReportQueryDialog$FieldReader$1: *java.util.List* [final] val$columns
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *java.util.Vector* [protected] properties
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *java.util.Vector* [protected] categories
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *java.util.HashMap* [protected] propCategories
+it.businesslogic.ireport.gui.sheet.CategorySheetPanel: *java.util.Vector* [protected] compressedCategories
+it.businesslogic.ireport.gui.sheet.MeterIntervalsDialog: *java.util.List* [private] meterIntervals
+it.businesslogic.ireport.gui.sheet.MeterIntervalsSheetPropertyComponent: *java.util.List* [private] listOfMeterIntervals
+it.businesslogic.ireport.gui.sheet.PropertiesSheetPropertyComponent: *java.util.List* [private] propertiesList
+it.businesslogic.ireport.gui.sheet.ReportBandSheetPanel: *java.util.Vector* [private] bandSelection
+it.businesslogic.ireport.gui.sheet.ReportElementSheetPanel: *java.util.Vector* [private] elementSelection
+it.businesslogic.ireport.gui.sheet.ReportObjectSheetPanel: *java.util.Vector* [private] objectSelection
+it.businesslogic.ireport.gui.sheet.SeriesColorsDialog: *java.util.List* [private] seriescolors
+it.businesslogic.ireport.gui.sheet.SeriesColorsSheetPropertyComponent: *java.util.List* [private] listOfSeriesColor
+it.businesslogic.ireport.gui.sheet.SheetPanel: *java.util.Vector* [private] properties
+it.businesslogic.ireport.gui.sheet.SheetProperty: *java.util.Vector* [private] tags
+it.businesslogic.ireport.gui.sheet.SheetProperty: *java.util.Vector* [private] currentSelection
+it.businesslogic.ireport.gui.ValuesPanel: *java.util.Vector* [private] clipboardFields
+it.businesslogic.ireport.gui.ValuesPanel: *java.util.Vector* [private] clipboardVariables
+it.businesslogic.ireport.gui.ValuesPanel: *java.util.Vector* [private] clipboardParameters
+it.businesslogic.ireport.gui.wizard.ReportGroupWizard: *java.util.Vector* templates
+it.businesslogic.ireport.gui.wizard.SubreportWizardNewReport: *java.util.Vector* templates
+it.businesslogic.ireport.gui.wizard.UserChoicesWizardTemplate: *java.util.List* [private] groupExpressions
+it.businesslogic.ireport.gui.wizard.UserChoicesWizardTemplate: *java.util.List* [private] displayFields
+it.businesslogic.ireport.gui.WizardDialog: *java.util.Vector* templates
+it.businesslogic.ireport.ImageReportElement: *java.util.List* [private] linkParameters
+it.businesslogic.ireport.IReportCompiler: *java.util.HashMap* [private] properties
+it.businesslogic.ireport.IReportHashMapBean: *java.util.HashMap* [private] beanProperties
+it.businesslogic.ireport.IReportScriptlet: *java.util.HashMap* series
+it.businesslogic.ireport.IReportScriptlet: *java.util.HashMap* groupStarted
+it.businesslogic.ireport.JasperTemplate: *java.util.ArrayList* [private] templates [Ljava/util/ArrayList<Lit/businesslogic/ireport/JasperTemplate;>;]
+it.businesslogic.ireport.JRField: *java.util.List* [private] properties
+it.businesslogic.ireport.JRParameter: *java.util.List* [private] properties
+it.businesslogic.ireport.plugin.locale.JasperBabylonRunner: *java.util.Properties* [private] props
+it.businesslogic.ireport.plugin.locale.QueryLocalesDialog: *java.util.Properties* [private] localeProperties
+it.businesslogic.ireport.plugin.locale.TranslationStatusDetailDialog: *java.util.Properties* [private] properties
+it.businesslogic.ireport.Report: *java.util.Vector* [private] elements
+it.businesslogic.ireport.Report: *java.util.Vector* [private] bands
+it.businesslogic.ireport.Report: *java.util.Vector* [private] imports
+it.businesslogic.ireport.Report: *java.util.Vector* [private] templates
+it.businesslogic.ireport.Report: *java.util.Vector* [private] subDatasets
+it.businesslogic.ireport.Report: *java.util.Vector* [private] fonts
+it.businesslogic.ireport.Report: *java.util.Vector* [private] styles
+it.businesslogic.ireport.Report: *java.util.HashMap* [private] proposedValues
+it.businesslogic.ireport.ReportClassLoader: *java.util.ArrayList* [private] fPathItems
+it.businesslogic.ireport.ReportClassLoader: *java.util.ArrayList* [private] fPathChachedItems
+it.businesslogic.ireport.ReportClassLoader: *java.util.HashMap* [private] cachedClasses
+it.businesslogic.ireport.ReportElement: *java.util.List* [public] elementProperties
+it.businesslogic.ireport.ReportElement: *java.util.Vector* [public] intersections
+it.businesslogic.ireport.ScriptletCode: *java.util.HashMap* [protected] code_portions
+it.businesslogic.ireport.Style: *java.util.Vector* [private] conditionedStyles
+it.businesslogic.ireport.Style: *java.util.HashMap* [private] attributes
+it.businesslogic.ireport.SubDataset: *java.util.Vector* [private] fields
+it.businesslogic.ireport.SubDataset: *java.util.Vector* [private] parameters
+it.businesslogic.ireport.SubDataset: *java.util.Vector* [private] variables
+it.businesslogic.ireport.SubDataset: *java.util.Vector* [private] groups
+it.businesslogic.ireport.SubDataset: *java.util.Vector* [private] sortFields
+it.businesslogic.ireport.SubDataset: *java.util.Vector* [private] JRproperties
+it.businesslogic.ireport.SubReportElement: *java.util.Vector* [private] subreportParameters
+it.businesslogic.ireport.SubReportElement: *java.util.Vector* [private] returnValues
+it.businesslogic.ireport.TextFieldReportElement: *java.util.List* [private] linkParameters
+it.businesslogic.ireport.undo.BandDraggedOperation: *java.util.Vector* [private] transformations
+it.businesslogic.ireport.undo.ChangeEmentsOrderOperation: *java.util.Vector* [private] elements
+it.businesslogic.ireport.undo.DeleteElementsOperation: *java.util.Vector* [private] elements
+it.businesslogic.ireport.undo.GroupEmentsOperation: *java.util.Vector* [private] elements
+it.businesslogic.ireport.undo.PasteStyleOperation: *java.util.Vector* [private] transformations
+it.businesslogic.ireport.undo.ReplacedElementsOperation: *java.util.Vector* [private] elements
+it.businesslogic.ireport.undo.TransformElementsOperation: *java.util.Vector* [private] transformations
+it.businesslogic.ireport.undo.UnGroupEmentsOperation: *java.util.Vector* [private] elements
+
+ARRAYS REPORT
+=============
+
+it.businesslogic.ireport.chart.CategoryDatasetPanel: *java.lang.Object[]* [public] newInfo
+it.businesslogic.ireport.chart.ChartDefinition: *java.lang.String[]* [private] neededSeries [no-stores]
+it.businesslogic.ireport.chart.gui.ChartPropertiesDialog: *java.lang.Object[]* [private] meterIntervalsHilightExpression
+it.businesslogic.ireport.chart.gui.ChartPropertiesDialog: *java.lang.Object[]* [private] subdatasetParameterHighlightExpression
+it.businesslogic.ireport.chart.TimePeriodDatasetPanel: *java.lang.Object[]* [public] newInfo
+it.businesslogic.ireport.chart.TimeSeriesDatasetPanel: *java.lang.Object[]* [public] newInfo
+it.businesslogic.ireport.chart.XYDatasetPanel: *java.lang.Object[]* [public] newInfo
+it.businesslogic.ireport.chart.XYZDatasetPanel: *java.lang.Object[]* [public] newInfo
+it.businesslogic.ireport.compiler.ExtendedJRJdtCompiler$CompilerRequestor: *net.sf.jasperreports.engine.design.JRCompilationUnit[]* [private] [final] units [no-stores]
+it.businesslogic.ireport.connection.gui.BasicIReportConnectionEditor$1: *java.lang.Class[]* types
+it.businesslogic.ireport.connection.JRExtendedBeanDataSource: *java.lang.Object[]* [private] beans [no-stores]
+it.businesslogic.ireport.crosstab.gui.CrosstabPropertiesDialog: *java.lang.Object[]* [private] subdatasetParameterHighlightExpression
+it.businesslogic.ireport.examples.beans.PersonBean: *it.businesslogic.ireport.examples.beans.HobbyBean[]* [private] hobbies [no-stores]
+it.businesslogic.ireport.gui.ConnectionDialog$27: *java.lang.Class[]* types
+it.businesslogic.ireport.gui.ConnectionsDialog$4: *java.lang.Class[]* types
+it.businesslogic.ireport.gui.DatasetPropertiesDialog$5: *java.lang.Class[]* types
+it.businesslogic.ireport.gui.docking.VTextIcon: *java.lang.String[]* fCharStrings
+it.businesslogic.ireport.gui.fonts.FontsPathDialog$4: *java.lang.String[]* strings
+it.businesslogic.ireport.gui.JQueryDesigner$2: *java.lang.Class[]* types
+it.businesslogic.ireport.gui.JReportFrame: *java.awt.image.BufferedImage[]* [private] shadowsImages [mod]
+it.businesslogic.ireport.gui.logpane.ProblemsPanel$2: *java.lang.Class[]* types
+it.businesslogic.ireport.gui.MainFrame: *java.util.Vector[]* [private] clipboards
+it.businesslogic.ireport.gui.MainFrame: *it.businesslogic.ireport.ReportElement[]* [private] styleClipboards
+it.businesslogic.ireport.gui.OptionsDialog: *it.businesslogic.ireport.util.Unit[]* units
+it.businesslogic.ireport.gui.PropertiesDialog$5: *java.lang.Class[]* types
+it.businesslogic.ireport.gui.queryexecuters.QueryExecutersDialog$6: *java.lang.Class[]* types
+it.businesslogic.ireport.gui.ReportPropertiesFrame: *it.businesslogic.ireport.util.Unit[]* [private] units [no-stores]
+it.businesslogic.ireport.gui.sheet.MeterIntervalsDialog: *java.lang.Object[]* [public] newInfo
+it.businesslogic.ireport.gui.sheet.MeterIntervalsDialog$3: *java.lang.Class[]* types
+it.businesslogic.ireport.gui.sheet.MeterIntervalsSheetPropertyComponent: *java.lang.Object[]* [private] meterIntervalsHilightExpression [no-stores]
+it.businesslogic.ireport.plugin.locale.QueryLocalesDialog$3: *java.lang.String[]* strings
+it.businesslogic.ireport.plugin.locale.TranslationStatusDetailDialog$5: *java.lang.Class[]* types
+it.businesslogic.ireport.plugin.textwizard.TextWizardForm$3: *java.lang.Class[]* types
+it.businesslogic.ireport.ScriptletCode: *java.lang.String[]* [public] portion_keywords
+it.businesslogic.ireport.util.ShapeStroke: *java.awt.Shape[]* [private] shapes [mod]
+
+N-CYCLES
+========
+[it/businesslogic/ireport/gui/JMDIFrame, it/businesslogic/ireport/gui/JMDIMenuBar]
+[it/businesslogic/ireport/gui/box/JBoxButton, it/businesslogic/ireport/compiler/ErrorLocator, it/businesslogic/ireport/gui/logpane/ProblemsPanel, it/businesslogic/ireport/gui/logpane/LogTextArea, it/businesslogic/ireport/gui/logpane/LogPane, it/businesslogic/ireport/gui/style/StylesView, it/businesslogic/ireport/gui/sheet/ReportObjectSheetPanel, it/businesslogic/ireport/gui/sheet/ReportSheetPanel, it/businesslogic/ireport/gui/sheet/ReportBandSheetPanel, it/businesslogic/ireport/gui/sheet/DocumentSheetPanel, it/businesslogic/ireport/crosstab/gui/CrosstabEditor, it/businesslogic/ireport/crosstab/gui/CrosstabEditorPanel, it/businesslogic/ireport/gui/documentstructure/CrosstabStructurePanel, it/businesslogic/ireport/gui/documentstructure/DocumentStructurePanel, it/businesslogic/ireport/crosstab/gui/CrosstabMeasuresView, it/businesslogic/ireport/gui/library/LibraryPanel, it/businesslogic/ireport/gui/ToolbarConnectionPanel, it/businesslogic/ireport/gui/ToolbarFormatPanel, it/businesslogic/ireport/gui/ReportQueryDialog$FieldReader, it/businesslogic/ireport/data/BeanInspectorPanel, it/businesslogic/ireport/gui/ReportQueryDialog, it/businesslogic/ireport/gui/locale/LocaleResourceFilesDialog, it/businesslogic/ireport/gui/FontsDialog, it/businesslogic/ireport/gui/BandsDialog, it/businesslogic/ireport/gui/GroupsDialog, it/businesslogic/ireport/gui/ValuesPanel, it/businesslogic/ireport/gui/ValuesDialog, it/businesslogic/ireport/gui/EventsForm, it/businesslogic/ireport/gui/JRTextExpressionArea, it/businesslogic/ireport/ExpressionContext, it/businesslogic/ireport/gui/sheet/ExpressionSheetPropertyComponent, it/businesslogic/ireport/gui/sheet/ExpressionSheetProperty, it/businesslogic/ireport/gui/sheet/ReportElementSheetPanel, it/businesslogic/ireport/gui/box/BoxBorderSelectionPanel, it/businesslogic/ireport/gui/box/BoxBorderEditorPanel, it/businesslogic/ireport/gui/box/SampleBoxPanel, it/businesslogic/ireport/gui/box/BoxPanel, it/businesslogic/ireport/chart/Dataset, it/businesslogic/ireport/CrosstabReportElement, it/businesslogic/ireport/Style, it/businesslogic/ireport/crosstab/CrosstabCell, it/businesslogic/ireport/ReportElement, it/businesslogic/ireport/gui/ReportPanelToolTip, it/businesslogic/ireport/gui/JReportPanel, it/businesslogic/ireport/DesignVerifyerThread, it/businesslogic/ireport/TextReportElement, it/businesslogic/ireport/gui/JRulePanel, it/businesslogic/ireport/Group, it/businesslogic/ireport/Report, it/businesslogic/ireport/Band, it/businesslogic/ireport/gui/JReportFrame, it/businesslogic/ireport/gui/ElementPropertiesDialog, it/businesslogic/ireport/gui/MainFrame]
+[it/businesslogic/ireport/chart/ChartLegend, it/businesslogic/ireport/chart/Chart]
+[it/businesslogic/ireport/chart/gui/SectionItemHyperlinkPanel, it/businesslogic/ireport/chart/XYSeriesDialog]
+[it/businesslogic/ireport/connection/gui/XMLADataSourceConnectionEditor$jComboBoxdsListener, it/businesslogic/ireport/connection/gui/XMLADataSourceConnectionEditor$jComboBoxCatListener, it/businesslogic/ireport/connection/gui/XMLADataSourceConnectionEditor]
+[it/businesslogic/ireport/gui/style/JPanelStyleSample, it/businesslogic/ireport/gui/style/StyleDialog]
+[it/businesslogic/ireport/gui/ConnectionDialog$jComboBoxCatListener, it/businesslogic/ireport/gui/ConnectionDialog, it/businesslogic/ireport/gui/ConnectionDialog$jComboBoxdsListener]
+[it/businesslogic/ireport/plugin/massivecompiler/CompileThread, it/businesslogic/ireport/plugin/massivecompiler/FindThread, it/businesslogic/ireport/plugin/massivecompiler/MassiveCompilerFrame]

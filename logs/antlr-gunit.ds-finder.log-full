@@ -1,0 +1,42 @@
+DSFinder has run for 0 min. 6 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.antlr.gunit.swingui.TestCaseEditController$AbstractEditorPane: *javax.swing.JComponent* [private] editor
+
+Linked List-like Data Structures:
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+java.lang.Object Fields:
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.antlr.gunit.gUnitParser: *java.util.Stack* [protected] testsuite_stack
+org.antlr.gunit.swingui.parsers.ANTLRv3Parser: *java.util.Stack* [protected] rule_stack
+
+ARRAYS REPORT
+=============
+
+
+N-CYCLES
+========
+[org/antlr/gunit/swingui/TestCaseEditController$OutputReturnEditor, org/antlr/gunit/swingui/TestCaseEditController$OutputStdEditor, org/antlr/gunit/swingui/TestCaseEditController$OutputAstEditor, org/antlr/gunit/swingui/TestCaseEditController$OutputResultEditor, org/antlr/gunit/swingui/TestCaseEditController$InputMultiEditor, org/antlr/gunit/swingui/TestCaseEditController$InputStringEditor, org/antlr/gunit/swingui/TestCaseEditController$InputFileEditor, org/antlr/gunit/swingui/TestCaseEditController$AbstractEditorPane, org/antlr/gunit/swingui/TestCaseEditController]
+[org/antlr/gunit/swingui/RunnerController$RunnerView, org/antlr/gunit/swingui/RunnerController]
+[org/antlr/gunit/swingui/RuleListController, org/antlr/gunit/swingui/WorkSpaceView, org/antlr/gunit/swingui/WorkSpaceController]
+[org/antlr/gunit/swingui/parsers/ANTLRv3Parser$DFA72, org/antlr/gunit/swingui/parsers/ANTLRv3Parser$DFA67, org/antlr/gunit/swingui/parsers/ANTLRv3Parser$DFA64, org/antlr/gunit/swingui/parsers/ANTLRv3Parser$DFA46, org/antlr/gunit/swingui/parsers/ANTLRv3Parser]
+[org/antlr/gunit/swingui/parsers/StGUnitLexer$DFA19, org/antlr/gunit/swingui/parsers/StGUnitLexer$DFA16, org/antlr/gunit/swingui/parsers/StGUnitLexer$DFA13, org/antlr/gunit/swingui/parsers/StGUnitLexer]
+[org/antlr/gunit/swingui/parsers/ANTLRv3Lexer$DFA22, org/antlr/gunit/swingui/parsers/ANTLRv3Lexer$DFA13, org/antlr/gunit/swingui/parsers/ANTLRv3Lexer$DFA9, org/antlr/gunit/swingui/parsers/ANTLRv3Lexer$DFA2, org/antlr/gunit/swingui/parsers/ANTLRv3Lexer]
+[org/antlr/gunit/gUnitLexer$DFA19, org/antlr/gunit/gUnitLexer$DFA16, org/antlr/gunit/gUnitLexer$DFA13, org/antlr/gunit/gUnitLexer]

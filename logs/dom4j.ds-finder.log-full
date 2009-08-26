@@ -1,0 +1,129 @@
+DSFinder has run for 0 min. 4 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.dom4j.datatype.DatatypeAttribute: *java.lang.Object* [private] data
+org.dom4j.datatype.DatatypeElement: *java.lang.Object* [private] data
+org.dom4j.DocumentException: *java.lang.Throwable* [private] nestedException
+org.dom4j.swing.XMLTableDefinition: *java.lang.Object* [private] rowValue
+org.dom4j.tree.ConcurrentReaderHashMap$Entry: *java.lang.Object* [protected] [final] key
+org.dom4j.tree.ConcurrentReaderHashMap$Entry: *java.lang.Object* [protected] value
+org.dom4j.tree.ConcurrentReaderHashMap$HashIterator: *java.lang.Object* [protected] currentKey
+org.dom4j.tree.ConcurrentReaderHashMap$HashIterator: *java.lang.Object* [protected] currentValue
+org.dom4j.util.UserDataAttribute: *java.lang.Object* [private] data
+org.dom4j.util.UserDataElement: *java.lang.Object* [private] data
+
+Linked List-like Data Structures:
+org.dom4j.tree.ConcurrentReaderHashMap$Entry: [protected] [final] next
+org.dom4j.tree.FilterIterator: *java.lang.Object* [private] next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+Non-Object Fields:
+java.lang.Object Fields:
+org.dom4j.bean.BeanElement: *java.lang.Object* [private] bean
+org.dom4j.swing.XMLTableModel: *java.lang.Object* [private] source
+org.dom4j.tree.ConcurrentReaderHashMap: *java.lang.Object* [protected] lastWrite
+org.dom4j.tree.DefaultElement: *java.lang.Object* [private] content
+org.dom4j.tree.DefaultElement: *java.lang.Object* [private] attributes
+org.dom4j.tree.SingleIterator: *java.lang.Object* [private] object
+org.dom4j.util.SimpleSingleton: *java.lang.Object* [private] singletonInstance
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+org.dom4j.datatype.DatatypeElementFactory: *java.util.Map* [private] childrenXSDatatypes
+org.dom4j.swing.BranchTreeNode: *java.util.List* [protected] children
+==
+org.dom4j.bean.BeanAttribute: *org.dom4j.bean.BeanAttributeList* [private] [final] beanList
+org.dom4j.bean.BeanMetaData: *java.util.Map* [private] nameMap
+org.dom4j.datatype.DatatypeElementFactory: *java.util.Map* [private] attributeXSDatatypes
+org.dom4j.datatype.NamedTypeResolver: *java.util.Map* [protected] complexTypeMap
+org.dom4j.datatype.NamedTypeResolver: *java.util.Map* [protected] simpleTypeMap
+org.dom4j.datatype.NamedTypeResolver: *java.util.Map* [protected] typedElementMap
+org.dom4j.datatype.NamedTypeResolver: *java.util.Map* [protected] elementFactoryMap
+org.dom4j.datatype.SchemaParser: *java.util.Map* [private] dataTypeCache
+org.dom4j.DocumentFactory: *java.util.Map* [private] xpathNamespaceURIs
+org.dom4j.dom.DOMNodeHelper$1: *java.util.List* [private] [final] val$list
+org.dom4j.io.DispatchHandler: *java.util.ArrayList* [private] pathStack
+org.dom4j.io.DispatchHandler: *java.util.ArrayList* [private] handlerStack
+org.dom4j.io.DispatchHandler: *java.util.HashMap* [private] handlers
+org.dom4j.io.HTMLWriter: *java.util.Stack* [private] formatStack
+org.dom4j.io.HTMLWriter: *java.util.HashSet* [private] preformattedTags
+org.dom4j.io.HTMLWriter: *java.util.HashSet* [private] omitElementCloseSet
+org.dom4j.io.SAXContentHandler: *java.util.Map* [private] availableNamespaceMap
+org.dom4j.io.SAXContentHandler: *java.util.List* [private] declaredNamespaceList
+org.dom4j.io.SAXContentHandler: *java.util.List* [private] internalDTDDeclarations
+org.dom4j.io.SAXContentHandler: *java.util.List* [private] externalDTDDeclarations
+org.dom4j.io.SAXEventRecorder: *java.util.List* [private] events
+org.dom4j.io.SAXEventRecorder: *java.util.Map* [private] prefixMappings
+org.dom4j.io.SAXEventRecorder$SAXEvent: *java.util.List* [protected] parms
+org.dom4j.io.SAXModifier: *java.util.HashMap* [private] modifiers
+org.dom4j.io.SAXWriter: *java.util.Map* [private] features
+org.dom4j.io.SAXWriter: *java.util.Map* [private] properties
+org.dom4j.io.XMLWriter: *java.util.Map* [private] namespacesMap
+org.dom4j.jaxb.JAXBModifier: *java.util.HashMap* [private] modifiers
+org.dom4j.rule.Mode: *java.util.Map* [private] elementNameRuleSets
+org.dom4j.rule.Mode: *java.util.Map* [private] attributeNameRuleSets
+org.dom4j.rule.RuleManager: *java.util.HashMap* [private] modes
+org.dom4j.rule.RuleSet: *java.util.ArrayList* [private] rules
+org.dom4j.swing.XMLTableDefinition: *java.util.List* [private] columns
+org.dom4j.swing.XMLTableDefinition: *java.util.Map* [private] columnNameIndex
+org.dom4j.swing.XMLTableModel: *java.util.List* [private] rows
+org.dom4j.tree.BackedList: *java.util.List* [private] branchContent
+org.dom4j.tree.BaseElement: *java.util.List* [protected] content
+org.dom4j.tree.BaseElement: *java.util.List* [protected] attributes
+org.dom4j.tree.ConcurrentReaderHashMap: *java.util.Set* [protected] keySet
+org.dom4j.tree.ConcurrentReaderHashMap: *java.util.Set* [protected] entrySet
+org.dom4j.tree.ConcurrentReaderHashMap: *java.util.Collection* [protected] values
+org.dom4j.tree.ConcurrentReaderHashMap$EntrySet: *org.dom4j.tree.ConcurrentReaderHashMap* [private] [final] this$0
+org.dom4j.tree.ConcurrentReaderHashMap$HashIterator: *org.dom4j.tree.ConcurrentReaderHashMap* [private] [final] this$0
+org.dom4j.tree.ConcurrentReaderHashMap$KeyIterator: *org.dom4j.tree.ConcurrentReaderHashMap* [private] [final] this$0
+org.dom4j.tree.ConcurrentReaderHashMap$KeySet: *org.dom4j.tree.ConcurrentReaderHashMap* [private] [final] this$0
+org.dom4j.tree.ConcurrentReaderHashMap$ValueIterator: *org.dom4j.tree.ConcurrentReaderHashMap* [private] [final] this$0
+org.dom4j.tree.ConcurrentReaderHashMap$Values: *org.dom4j.tree.ConcurrentReaderHashMap* [private] [final] this$0
+org.dom4j.tree.ContentListFacade: *java.util.List* [private] branchContent
+org.dom4j.tree.DefaultDocument: *java.util.List* [private] content
+org.dom4j.tree.DefaultDocumentType: *java.util.List* [private] internalDeclarations
+org.dom4j.tree.DefaultDocumentType: *java.util.List* [private] externalDeclarations
+org.dom4j.tree.FlyweightProcessingInstruction: *java.util.Map* [protected] values
+org.dom4j.tree.NamespaceStack: *java.util.ArrayList* [private] namespaceStack
+org.dom4j.tree.NamespaceStack: *java.util.ArrayList* [private] namespaceCacheList
+org.dom4j.tree.NamespaceStack: *java.util.Map* [private] currentNamespaceCache
+org.dom4j.tree.NamespaceStack: *java.util.Map* [private] rootNamespaceCache
+org.dom4j.tree.QNameCache: *java.util.Map* [protected] noNamespaceCache
+org.dom4j.tree.QNameCache: *java.util.Map* [protected] namespaceCache
+org.dom4j.util.IndexedElement: *java.util.Map* [private] elementIndex
+org.dom4j.util.IndexedElement: *java.util.Map* [private] attributeIndex
+org.dom4j.xpath.DefaultXPath$1: *java.util.Map* [private] [final] val$sortValues
+
+ARRAYS REPORT
+=============
+
+org.dom4j.bean.BeanAttributeList: *org.dom4j.bean.BeanAttribute[]* [private] attributes
+org.dom4j.bean.BeanMetaData: *java.beans.PropertyDescriptor[]* [private] propertyDescriptors
+org.dom4j.bean.BeanMetaData: *org.dom4j.QName[]* [private] qNames
+org.dom4j.bean.BeanMetaData: *java.lang.reflect.Method[]* [private] readMethods
+org.dom4j.bean.BeanMetaData: *java.lang.reflect.Method[]* [private] writeMethods
+org.dom4j.io.ElementStack: *org.dom4j.Element[]* [protected] stack [arraycopy]
+org.dom4j.io.PruningElementStack: *java.lang.String[]* [private] path [no-stores]
+org.dom4j.rule.Mode: *org.dom4j.rule.RuleSet[]* [private] ruleSets
+org.dom4j.rule.RuleSet: *org.dom4j.rule.Rule[]* [private] ruleArray [no-stores]
+org.dom4j.swing.XMLTableDefinition: *org.dom4j.swing.XMLTableColumnDefinition[]* [private] columnArray [no-stores]
+org.dom4j.tree.ConcurrentReaderHashMap: *org.dom4j.tree.ConcurrentReaderHashMap$Entry[]* [protected] table [hashcode]
+org.dom4j.tree.ConcurrentReaderHashMap$HashIterator: *org.dom4j.tree.ConcurrentReaderHashMap$Entry[]* [protected] [final] tab [no-stores]
+
+N-CYCLES
+========
+[org/dom4j/tree/QNameCache, org/dom4j/DocumentFactory]
+[org/dom4j/io/SAXModifyReader, org/dom4j/io/SAXModifier]
+[org/dom4j/datatype/DatatypeDocumentFactory, org/dom4j/datatype/SchemaParser]

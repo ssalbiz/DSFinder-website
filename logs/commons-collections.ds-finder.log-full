@@ -1,0 +1,353 @@
+DSFinder has run for 0 min. 8 sec.
+
+0-CYCLES REPORT
+===============
+
+
+Blacklisted, likely not data structures:
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySetIterator: *java.lang.Object* [protected] lastKey
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$ValuesIterator: *java.lang.Object* [protected] lastValue
+org.apache.commons.collections.BufferOverflowException: *java.lang.Throwable* [private] [final] throwable
+org.apache.commons.collections.BufferUnderflowException: *java.lang.Throwable* [private] [final] throwable
+org.apache.commons.collections.collection.SynchronizedCollection: *java.lang.Object* [protected] [final] lock
+org.apache.commons.collections.DefaultMapEntry: *java.lang.Object* [private] key
+org.apache.commons.collections.DefaultMapEntry: *java.lang.Object* [private] value
+org.apache.commons.collections.FunctorException: *java.lang.Throwable* [private] [final] rootCause
+org.apache.commons.collections.functors.EqualPredicate: *java.lang.Object* [private] [final] iValue
+org.apache.commons.collections.functors.IdentityPredicate: *java.lang.Object* [private] [final] iValue
+org.apache.commons.collections.iterators.ObjectGraphIterator: *java.lang.Object* [protected] currentValue
+org.apache.commons.collections.keyvalue.AbstractKeyValue: *java.lang.Object* [protected] key
+org.apache.commons.collections.keyvalue.AbstractKeyValue: *java.lang.Object* [protected] value
+org.apache.commons.collections.keyvalue.TiedMapEntry: *java.lang.Object* [private] [final] key
+org.apache.commons.collections.list.AbstractLinkedList$Node: *java.lang.Object* [protected] value
+org.apache.commons.collections.list.TreeList$AVLNode: *java.lang.Object* [private] value
+org.apache.commons.collections.map.AbstractHashedMap$HashEntry: *java.lang.Object* [protected] key
+org.apache.commons.collections.map.AbstractHashedMap$HashEntry: *java.lang.Object* [protected] value
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator: *java.lang.Object* nextKey
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator: *java.lang.Object* nextValue
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator: *java.lang.Object* currentKey
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator: *java.lang.Object* currentValue
+org.apache.commons.collections.map.DefaultedMap: *java.lang.Object* [protected] [final] value
+org.apache.commons.collections.map.Flat3Map: *java.lang.Object* [private] key1
+org.apache.commons.collections.map.Flat3Map: *java.lang.Object* [private] key2
+org.apache.commons.collections.map.Flat3Map: *java.lang.Object* [private] key3
+org.apache.commons.collections.map.Flat3Map: *java.lang.Object* [private] value1
+org.apache.commons.collections.map.Flat3Map: *java.lang.Object* [private] value2
+org.apache.commons.collections.map.Flat3Map: *java.lang.Object* [private] value3
+org.apache.commons.collections.map.MultiValueMap$ValuesIterator: *java.lang.Object* [private] [final] key
+org.apache.commons.collections.map.SingletonMap: *java.lang.Object* [private] [final] key
+org.apache.commons.collections.map.SingletonMap: *java.lang.Object* [private] value
+org.apache.commons.collections.map.StaticBucketMap$Node: *java.lang.Object* [protected] key
+org.apache.commons.collections.map.StaticBucketMap$Node: *java.lang.Object* [protected] value
+org.apache.commons.collections.ReferenceMap$Entry: *java.lang.Object* key
+org.apache.commons.collections.ReferenceMap$Entry: *java.lang.Object* value
+org.apache.commons.collections.ReferenceMap$EntryIterator: *java.lang.Object* nextKey
+org.apache.commons.collections.ReferenceMap$EntryIterator: *java.lang.Object* nextValue
+org.apache.commons.collections.ReferenceMap$EntryIterator: *java.lang.Object* currentKey
+org.apache.commons.collections.ReferenceMap$EntryIterator: *java.lang.Object* currentValue
+org.apache.commons.collections.SequencedHashMap$Entry: *java.lang.Object* [private] [final] key
+org.apache.commons.collections.SequencedHashMap$Entry: *java.lang.Object* [private] value
+org.apache.commons.collections.set.MapBackedSet: *java.lang.Object* [protected] [final] dummyValue
+org.apache.commons.collections.StaticBucketMap$Node: *java.lang.Object* [protected] key
+org.apache.commons.collections.StaticBucketMap$Node: *java.lang.Object* [protected] value
+
+Linked List-like Data Structures:
+org.apache.commons.collections.CursorableLinkedList$Listable: [private] _prev
+org.apache.commons.collections.CursorableLinkedList$Listable: [private] _next
+org.apache.commons.collections.iterators.FilterIterator: *java.lang.Object* [private] nextObject
+org.apache.commons.collections.iterators.FilterListIterator: *java.lang.Object* [private] nextObject/previousObject
+org.apache.commons.collections.list.AbstractLinkedList$Node: [protected] next/previous
+org.apache.commons.collections.map.AbstractHashedMap$HashEntry: [protected] next
+org.apache.commons.collections.map.StaticBucketMap$Node: [protected] next
+org.apache.commons.collections.ReferenceMap$Entry: next
+org.apache.commons.collections.SequencedHashMap$Entry: next/prev
+org.apache.commons.collections.StaticBucketMap$Node: [protected] next
+
+Parent- and outer-type Data Structures:
+
+Whitelisted, probable data structures:
+
+
+Others:
+Exact Field Matches:
+org.apache.commons.collections.bidimap.UnmodifiableBidiMap: [private] inverse
+org.apache.commons.collections.bidimap.UnmodifiableOrderedBidiMap: [private] inverse
+org.apache.commons.collections.bidimap.UnmodifiableSortedBidiMap: [private] inverse
+org.apache.commons.collections.ExtendedProperties: [private] defaults
+org.apache.commons.collections.list.TreeList$AVLNode: [private] left
+org.apache.commons.collections.list.TreeList$AVLNode: [private] right
+org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry: [protected] before
+org.apache.commons.collections.map.AbstractLinkedMap$LinkEntry: [protected] after
+Non-Object Fields:
+org.apache.commons.collections.CursorableSubList: *org.apache.commons.collections.CursorableLinkedList* [protected] _list
+org.apache.commons.collections.FastArrayList: *java.util.ArrayList* [protected] list
+org.apache.commons.collections.FastHashMap: *java.util.HashMap* [protected] map
+org.apache.commons.collections.FastTreeMap: *java.util.TreeMap* [protected] map
+java.lang.Object Fields:
+org.apache.commons.collections.BeanMap: *java.lang.Object* [private] bean
+org.apache.commons.collections.CursorableLinkedList$Listable: *java.lang.Object* [private] _val
+org.apache.commons.collections.DefaultMapBag$BagIterator: *java.lang.Object* [private] _current
+org.apache.commons.collections.functors.ConstantFactory: *java.lang.Object* [private] [final] iConstant
+org.apache.commons.collections.functors.ConstantTransformer: *java.lang.Object* [private] [final] iConstant
+org.apache.commons.collections.functors.PrototypeFactory$PrototypeCloneFactory: *java.lang.Object* [private] [final] iPrototype
+org.apache.commons.collections.iterators.ArrayIterator: *java.lang.Object* [protected] array
+org.apache.commons.collections.iterators.EnumerationIterator: *java.lang.Object* [private] last
+org.apache.commons.collections.iterators.ObjectGraphIterator: *java.lang.Object* [protected] root
+org.apache.commons.collections.iterators.SingletonIterator: *java.lang.Object* [private] object
+org.apache.commons.collections.iterators.SingletonListIterator: *java.lang.Object* [private] object
+org.apache.commons.collections.list.SetUniqueList$SetListIterator: *java.lang.Object* [protected] last
+org.apache.commons.collections.list.SetUniqueList$SetListListIterator: *java.lang.Object* [protected] last
+org.apache.commons.collections.map.ListOrderedMap$ListOrderedIterator: *java.lang.Object* [private] last
+org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapIterator: *java.lang.Object* [private] last
+org.apache.commons.collections.set.ListOrderedSet$OrderedSetIterator: *java.lang.Object* [protected] last
+
+COLLECTIONS REPORT
+==================
+
+Whitelisted: Possible compound data structures
+==
+org.apache.commons.collections.bag.AbstractMapBag: *java.util.Map* [private] map
+org.apache.commons.collections.bag.AbstractMapBag: *java.util.Set* [private] uniqueSet
+org.apache.commons.collections.bag.AbstractMapBag$BagIterator: *org.apache.commons.collections.bag.AbstractMapBag* [private] parent
+org.apache.commons.collections.bag.SynchronizedBag$SynchronizedBagSet: *org.apache.commons.collections.bag.SynchronizedBag* [final] this$0
+org.apache.commons.collections.BeanMap: *java.util.HashMap* [private] readMethods
+org.apache.commons.collections.BeanMap: *java.util.HashMap* [private] writeMethods
+org.apache.commons.collections.BeanMap: *java.util.HashMap* [private] types
+org.apache.commons.collections.BeanMap$10: *org.apache.commons.collections.BeanMap* [final] this$0
+org.apache.commons.collections.BeanMap$11: *org.apache.commons.collections.BeanMap* [final] this$0
+org.apache.commons.collections.BeanMap$9: *org.apache.commons.collections.BeanMap* [final] this$0
+org.apache.commons.collections.BeanMap$MyMapEntry: *org.apache.commons.collections.BeanMap* [private] owner
+org.apache.commons.collections.bidimap.AbstractDualBidiMap: *org.apache.commons.collections.BidiMap* [protected] inverseBidiMap
+org.apache.commons.collections.bidimap.AbstractDualBidiMap: *java.util.Set* [protected] keySet
+org.apache.commons.collections.bidimap.AbstractDualBidiMap: *java.util.Collection* [protected] values
+org.apache.commons.collections.bidimap.AbstractDualBidiMap: *java.util.Set* [protected] entrySet
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$BidiMapIterator: *org.apache.commons.collections.bidimap.AbstractDualBidiMap* [protected] [final] parent
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$EntrySetIterator: *org.apache.commons.collections.bidimap.AbstractDualBidiMap* [protected] [final] parent
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$KeySetIterator: *org.apache.commons.collections.bidimap.AbstractDualBidiMap* [protected] [final] parent
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$MapEntry: *org.apache.commons.collections.bidimap.AbstractDualBidiMap* [protected] [final] parent
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$ValuesIterator: *org.apache.commons.collections.bidimap.AbstractDualBidiMap* [protected] [final] parent
+org.apache.commons.collections.bidimap.AbstractDualBidiMap$View: *org.apache.commons.collections.bidimap.AbstractDualBidiMap* [protected] [final] parent
+org.apache.commons.collections.bidimap.DualTreeBidiMap$BidiOrderedMapIterator: *org.apache.commons.collections.bidimap.AbstractDualBidiMap* [protected] [final] parent
+org.apache.commons.collections.bidimap.DualTreeBidiMap$ViewMap: *org.apache.commons.collections.bidimap.DualTreeBidiMap* [final] bidi
+org.apache.commons.collections.bidimap.TreeBidiMap: *java.util.Set* [private] keySet
+org.apache.commons.collections.bidimap.TreeBidiMap: *java.util.Set* [private] valuesSet
+org.apache.commons.collections.bidimap.TreeBidiMap: *java.util.Set* [private] entrySet
+org.apache.commons.collections.bidimap.TreeBidiMap: *org.apache.commons.collections.bidimap.TreeBidiMap$Inverse* [private] inverse
+org.apache.commons.collections.bidimap.TreeBidiMap$Inverse: *org.apache.commons.collections.bidimap.TreeBidiMap* [private] [final] main
+org.apache.commons.collections.bidimap.TreeBidiMap$Inverse: *java.util.Set* [private] keySet
+org.apache.commons.collections.bidimap.TreeBidiMap$Inverse: *java.util.Set* [private] valuesSet
+org.apache.commons.collections.bidimap.TreeBidiMap$Inverse: *java.util.Set* [private] entrySet
+org.apache.commons.collections.bidimap.TreeBidiMap$View: *org.apache.commons.collections.bidimap.TreeBidiMap* [protected] [final] main
+org.apache.commons.collections.bidimap.TreeBidiMap$ViewIterator: *org.apache.commons.collections.bidimap.TreeBidiMap* [protected] [final] main
+org.apache.commons.collections.bidimap.UnmodifiableBidiMap: [private] inverse
+org.apache.commons.collections.bidimap.UnmodifiableOrderedBidiMap: [private] inverse
+org.apache.commons.collections.bidimap.UnmodifiableSortedBidiMap: [private] inverse
+org.apache.commons.collections.BinaryHeap$1: *org.apache.commons.collections.BinaryHeap* [final] this$0
+org.apache.commons.collections.BoundedFifoBuffer$1: *org.apache.commons.collections.BoundedFifoBuffer* [final] this$0
+org.apache.commons.collections.buffer.BoundedBuffer$NotifyingIterator: *org.apache.commons.collections.buffer.BoundedBuffer* [final] this$0
+org.apache.commons.collections.buffer.BoundedFifoBuffer$1: *org.apache.commons.collections.buffer.BoundedFifoBuffer* [final] this$0
+org.apache.commons.collections.buffer.PriorityBuffer$1: *org.apache.commons.collections.buffer.PriorityBuffer* [final] this$0
+org.apache.commons.collections.buffer.UnboundedFifoBuffer$1: *org.apache.commons.collections.buffer.UnboundedFifoBuffer* [final] this$0
+org.apache.commons.collections.collection.AbstractCollectionDecorator: *java.util.Collection* [protected] collection
+org.apache.commons.collections.collection.SynchronizedCollection: *java.util.Collection* [protected] [final] collection
+org.apache.commons.collections.comparators.ComparatorChain: *java.util.List* [protected] comparatorChain
+org.apache.commons.collections.comparators.FixedOrderComparator: *java.util.Map* [private] [final] map
+org.apache.commons.collections.CursorableLinkedList: *java.util.List* [protected] _cursors
+org.apache.commons.collections.CursorableLinkedList$Cursor: *org.apache.commons.collections.CursorableLinkedList* [final] this$0
+org.apache.commons.collections.CursorableLinkedList$ListIter: *org.apache.commons.collections.CursorableLinkedList* [final] this$0
+org.apache.commons.collections.CursorableSubList: *org.apache.commons.collections.CursorableLinkedList* [protected] _list
+org.apache.commons.collections.DefaultMapBag: *java.util.Map* [private] _map
+org.apache.commons.collections.DefaultMapBag$BagIterator: *org.apache.commons.collections.DefaultMapBag* [private] _parent
+org.apache.commons.collections.DoubleOrderedMap$1: *org.apache.commons.collections.DoubleOrderedMap* [final] this$0
+org.apache.commons.collections.DoubleOrderedMap$1$1: *org.apache.commons.collections.DoubleOrderedMap$1* [final] this$1
+org.apache.commons.collections.DoubleOrderedMap$2: *org.apache.commons.collections.DoubleOrderedMap* [final] this$0
+org.apache.commons.collections.DoubleOrderedMap$2$1: *org.apache.commons.collections.DoubleOrderedMap$2* [final] this$1
+org.apache.commons.collections.DoubleOrderedMap$3: *org.apache.commons.collections.DoubleOrderedMap* [final] this$0
+org.apache.commons.collections.DoubleOrderedMap$3$1: *org.apache.commons.collections.DoubleOrderedMap$3* [final] this$1
+org.apache.commons.collections.DoubleOrderedMap$4: *org.apache.commons.collections.DoubleOrderedMap* [final] this$0
+org.apache.commons.collections.DoubleOrderedMap$4$1: *org.apache.commons.collections.DoubleOrderedMap$4* [final] this$1
+org.apache.commons.collections.DoubleOrderedMap$5: *org.apache.commons.collections.DoubleOrderedMap* [final] this$0
+org.apache.commons.collections.DoubleOrderedMap$5$1: *org.apache.commons.collections.DoubleOrderedMap$5* [final] this$1
+org.apache.commons.collections.DoubleOrderedMap$6: *org.apache.commons.collections.DoubleOrderedMap* [final] this$0
+org.apache.commons.collections.DoubleOrderedMap$6$1: *org.apache.commons.collections.DoubleOrderedMap$6* [final] this$1
+org.apache.commons.collections.DoubleOrderedMap$DoubleOrderedMapIterator: *org.apache.commons.collections.DoubleOrderedMap* [final] this$0
+org.apache.commons.collections.ExtendedProperties: [private] defaults
+org.apache.commons.collections.ExtendedProperties: *java.util.ArrayList* [protected] keysAsListed
+org.apache.commons.collections.FastArrayList: *java.util.ArrayList* [protected] list
+org.apache.commons.collections.FastArrayList$ListIter: *java.util.List* [private] expected
+org.apache.commons.collections.FastArrayList$ListIter: *org.apache.commons.collections.FastArrayList* [final] this$0
+org.apache.commons.collections.FastArrayList$SubList: *java.util.List* [private] expected
+org.apache.commons.collections.FastArrayList$SubList: *org.apache.commons.collections.FastArrayList* [final] this$0
+org.apache.commons.collections.FastArrayList$SubList$SubListIter: *java.util.List* [private] expected
+org.apache.commons.collections.FastArrayList$SubList$SubListIter: *org.apache.commons.collections.FastArrayList$SubList* [final] this$1
+org.apache.commons.collections.FastHashMap: *java.util.HashMap* [protected] map
+org.apache.commons.collections.FastHashMap$CollectionView: *org.apache.commons.collections.FastHashMap* [final] this$0
+org.apache.commons.collections.FastHashMap$CollectionView$CollectionViewIterator: *java.util.Map* [private] expected
+org.apache.commons.collections.FastHashMap$CollectionView$CollectionViewIterator: *org.apache.commons.collections.FastHashMap$CollectionView* [final] this$1
+org.apache.commons.collections.FastHashMap$EntrySet: *org.apache.commons.collections.FastHashMap* [final] this$0
+org.apache.commons.collections.FastHashMap$KeySet: *org.apache.commons.collections.FastHashMap* [final] this$0
+org.apache.commons.collections.FastHashMap$Values: *org.apache.commons.collections.FastHashMap* [final] this$0
+org.apache.commons.collections.FastTreeMap: *java.util.TreeMap* [protected] map
+org.apache.commons.collections.FastTreeMap$CollectionView: *org.apache.commons.collections.FastTreeMap* [final] this$0
+org.apache.commons.collections.FastTreeMap$CollectionView$CollectionViewIterator: *java.util.Map* [private] expected
+org.apache.commons.collections.FastTreeMap$CollectionView$CollectionViewIterator: *org.apache.commons.collections.FastTreeMap$CollectionView* [final] this$1
+org.apache.commons.collections.FastTreeMap$EntrySet: *org.apache.commons.collections.FastTreeMap* [final] this$0
+org.apache.commons.collections.FastTreeMap$KeySet: *org.apache.commons.collections.FastTreeMap* [final] this$0
+org.apache.commons.collections.FastTreeMap$Values: *org.apache.commons.collections.FastTreeMap* [final] this$0
+org.apache.commons.collections.functors.MapTransformer: *java.util.Map* [private] [final] iMap
+org.apache.commons.collections.functors.UniquePredicate: *java.util.Set* [private] [final] iSet
+org.apache.commons.collections.iterators.CollatingIterator: *java.util.ArrayList* [private] iterators
+org.apache.commons.collections.iterators.CollatingIterator: *java.util.ArrayList* [private] values
+org.apache.commons.collections.iterators.EntrySetMapIterator: *java.util.Map* [private] [final] map
+org.apache.commons.collections.iterators.EnumerationIterator: *java.util.Collection* [private] collection
+org.apache.commons.collections.iterators.IteratorChain: *java.util.List* [protected] [final] iteratorChain
+org.apache.commons.collections.iterators.ListIteratorWrapper: *java.util.List* [private] [final] list
+org.apache.commons.collections.iterators.LoopingIterator: *java.util.Collection* [private] collection
+org.apache.commons.collections.iterators.LoopingListIterator: *java.util.List* [private] list
+org.apache.commons.collections.iterators.ObjectGraphIterator: *org.apache.commons.collections.ArrayStack* [protected] [final] stack
+org.apache.commons.collections.iterators.ReverseListIterator: *java.util.List* [private] [final] list
+org.apache.commons.collections.keyvalue.TiedMapEntry: *java.util.Map* [private] [final] map
+org.apache.commons.collections.list.AbstractLinkedList$LinkedListIterator: *org.apache.commons.collections.list.AbstractLinkedList* [protected] [final] parent
+org.apache.commons.collections.list.AbstractLinkedList$LinkedSubList: *org.apache.commons.collections.list.AbstractLinkedList* parent
+org.apache.commons.collections.list.AbstractLinkedList$LinkedSubListIterator: *org.apache.commons.collections.list.AbstractLinkedList$LinkedSubList* [protected] [final] sub
+org.apache.commons.collections.list.CursorableLinkedList: *java.util.List* [protected] cursors
+org.apache.commons.collections.list.CursorableLinkedList$SubCursor: *org.apache.commons.collections.list.AbstractLinkedList$LinkedSubList* [protected] [final] sub
+org.apache.commons.collections.list.PredicatedList$PredicatedListIterator: *org.apache.commons.collections.list.PredicatedList* [final] this$0
+org.apache.commons.collections.list.SetUniqueList: *java.util.Set* [protected] [final] set
+org.apache.commons.collections.list.SetUniqueList$SetListIterator: *java.util.Set* [protected] [final] set
+org.apache.commons.collections.list.SetUniqueList$SetListListIterator: *java.util.Set* [protected] [final] set
+org.apache.commons.collections.list.TransformedList$TransformedListIterator: *org.apache.commons.collections.list.TransformedList* [final] this$0
+org.apache.commons.collections.list.TreeList$TreeListIterator: *org.apache.commons.collections.list.TreeList* [protected] [final] parent
+org.apache.commons.collections.map.AbstractHashedMap: *org.apache.commons.collections.map.AbstractHashedMap$EntrySet* [protected] entrySet
+org.apache.commons.collections.map.AbstractHashedMap: *org.apache.commons.collections.map.AbstractHashedMap$KeySet* [protected] keySet
+org.apache.commons.collections.map.AbstractHashedMap: *org.apache.commons.collections.map.AbstractHashedMap$Values* [protected] values
+org.apache.commons.collections.map.AbstractHashedMap$EntrySet: *org.apache.commons.collections.map.AbstractHashedMap* [protected] [final] parent
+org.apache.commons.collections.map.AbstractHashedMap$HashIterator: *org.apache.commons.collections.map.AbstractHashedMap* [protected] [final] parent
+org.apache.commons.collections.map.AbstractHashedMap$KeySet: *org.apache.commons.collections.map.AbstractHashedMap* [protected] [final] parent
+org.apache.commons.collections.map.AbstractHashedMap$Values: *org.apache.commons.collections.map.AbstractHashedMap* [protected] [final] parent
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$EntrySet: *org.apache.commons.collections.map.AbstractInputCheckedMapDecorator* [private] [final] parent
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$EntrySetIterator: *org.apache.commons.collections.map.AbstractInputCheckedMapDecorator* [private] [final] parent
+org.apache.commons.collections.map.AbstractInputCheckedMapDecorator$MapEntry: *org.apache.commons.collections.map.AbstractInputCheckedMapDecorator* [private] [final] parent
+org.apache.commons.collections.map.AbstractLinkedMap$LinkIterator: *org.apache.commons.collections.map.AbstractLinkedMap* [protected] [final] parent
+org.apache.commons.collections.map.AbstractMapDecorator: *java.util.Map* [protected] map
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntry: *org.apache.commons.collections.map.AbstractReferenceMap* [protected] [final] parent
+org.apache.commons.collections.map.AbstractReferenceMap$ReferenceEntrySetIterator: *org.apache.commons.collections.map.AbstractReferenceMap* [final] parent
+org.apache.commons.collections.map.Flat3Map: *org.apache.commons.collections.map.AbstractHashedMap* [private] delegateMap
+org.apache.commons.collections.map.Flat3Map$EntrySet: *org.apache.commons.collections.map.Flat3Map* [private] [final] parent
+org.apache.commons.collections.map.Flat3Map$EntrySetIterator: *org.apache.commons.collections.map.Flat3Map* [private] [final] parent
+org.apache.commons.collections.map.Flat3Map$FlatMapIterator: *org.apache.commons.collections.map.Flat3Map* [private] [final] parent
+org.apache.commons.collections.map.Flat3Map$KeySet: *org.apache.commons.collections.map.Flat3Map* [private] [final] parent
+org.apache.commons.collections.map.Flat3Map$Values: *org.apache.commons.collections.map.Flat3Map* [private] [final] parent
+org.apache.commons.collections.map.LinkedMap$LinkedMapList: *org.apache.commons.collections.map.LinkedMap* [final] parent
+org.apache.commons.collections.map.ListOrderedMap: *java.util.List* [protected] [final] insertOrder
+org.apache.commons.collections.map.ListOrderedMap$EntrySetView: *org.apache.commons.collections.map.ListOrderedMap* [private] [final] parent
+org.apache.commons.collections.map.ListOrderedMap$EntrySetView: *java.util.List* [private] [final] insertOrder
+org.apache.commons.collections.map.ListOrderedMap$EntrySetView: *java.util.Set* [private] entrySet
+org.apache.commons.collections.map.ListOrderedMap$KeySetView: *org.apache.commons.collections.map.ListOrderedMap* [private] [final] parent
+org.apache.commons.collections.map.ListOrderedMap$KeySetView$1: *org.apache.commons.collections.map.ListOrderedMap$KeySetView* [final] this$0
+org.apache.commons.collections.map.ListOrderedMap$ListOrderedIterator: *org.apache.commons.collections.map.ListOrderedMap* [private] [final] parent
+org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapEntry: *org.apache.commons.collections.map.ListOrderedMap* [private] [final] parent
+org.apache.commons.collections.map.ListOrderedMap$ListOrderedMapIterator: *org.apache.commons.collections.map.ListOrderedMap* [private] [final] parent
+org.apache.commons.collections.map.ListOrderedMap$ValuesView: *org.apache.commons.collections.map.ListOrderedMap* [private] [final] parent
+org.apache.commons.collections.map.ListOrderedMap$ValuesView$1: *org.apache.commons.collections.map.ListOrderedMap$ValuesView* [final] this$0
+org.apache.commons.collections.map.MultiKeyMap: *org.apache.commons.collections.map.AbstractHashedMap* [protected] [final] map
+org.apache.commons.collections.map.MultiValueMap: *java.util.Collection* [private] values
+org.apache.commons.collections.map.MultiValueMap$Values: *org.apache.commons.collections.map.MultiValueMap* [final] this$0
+org.apache.commons.collections.map.MultiValueMap$ValuesIterator: *java.util.Collection* [private] [final] values
+org.apache.commons.collections.map.MultiValueMap$ValuesIterator: *org.apache.commons.collections.map.MultiValueMap* [final] this$0
+org.apache.commons.collections.map.SingletonMap$SingletonMapIterator: *org.apache.commons.collections.map.SingletonMap* [private] [final] parent
+org.apache.commons.collections.map.SingletonMap$SingletonValues: *org.apache.commons.collections.map.SingletonMap* [private] [final] parent
+org.apache.commons.collections.map.StaticBucketMap$EntryIterator: *java.util.ArrayList* [private] current
+org.apache.commons.collections.map.StaticBucketMap$EntryIterator: *org.apache.commons.collections.map.StaticBucketMap* [final] this$0
+org.apache.commons.collections.map.StaticBucketMap$EntrySet: *org.apache.commons.collections.map.StaticBucketMap* [final] this$0
+org.apache.commons.collections.map.StaticBucketMap$KeyIterator: *org.apache.commons.collections.map.StaticBucketMap* [final] this$0
+org.apache.commons.collections.map.StaticBucketMap$KeySet: *org.apache.commons.collections.map.StaticBucketMap* [final] this$0
+org.apache.commons.collections.map.StaticBucketMap$ValueIterator: *org.apache.commons.collections.map.StaticBucketMap* [final] this$0
+org.apache.commons.collections.map.StaticBucketMap$Values: *org.apache.commons.collections.map.StaticBucketMap* [final] this$0
+org.apache.commons.collections.MultiHashMap: *java.util.Collection* [private] values
+org.apache.commons.collections.MultiHashMap$ValueIterator: *org.apache.commons.collections.MultiHashMap* [final] this$0
+org.apache.commons.collections.MultiHashMap$Values: *org.apache.commons.collections.MultiHashMap* [final] this$0
+org.apache.commons.collections.ProxyMap: *java.util.Map* [protected] map
+org.apache.commons.collections.ReferenceMap: *java.util.Set* [private] keySet
+org.apache.commons.collections.ReferenceMap: *java.util.Set* [private] entrySet
+org.apache.commons.collections.ReferenceMap: *java.util.Collection* [private] values
+org.apache.commons.collections.ReferenceMap$1: *org.apache.commons.collections.ReferenceMap* [final] this$0
+org.apache.commons.collections.ReferenceMap$2: *org.apache.commons.collections.ReferenceMap* [final] this$0
+org.apache.commons.collections.ReferenceMap$3: *org.apache.commons.collections.ReferenceMap* [final] this$0
+org.apache.commons.collections.ReferenceMap$Entry: *org.apache.commons.collections.ReferenceMap* [final] this$0
+org.apache.commons.collections.ReferenceMap$EntryIterator: *org.apache.commons.collections.ReferenceMap* [final] this$0
+org.apache.commons.collections.ReferenceMap$KeyIterator: *org.apache.commons.collections.ReferenceMap* [final] this$0
+org.apache.commons.collections.ReferenceMap$ValueIterator: *org.apache.commons.collections.ReferenceMap* [final] this$0
+org.apache.commons.collections.SequencedHashMap: *java.util.HashMap* [private] entries
+org.apache.commons.collections.SequencedHashMap$1: *org.apache.commons.collections.SequencedHashMap* [final] this$0
+org.apache.commons.collections.SequencedHashMap$2: *org.apache.commons.collections.SequencedHashMap* [final] this$0
+org.apache.commons.collections.SequencedHashMap$3: *org.apache.commons.collections.SequencedHashMap* [final] this$0
+org.apache.commons.collections.SequencedHashMap$OrderedIterator: *org.apache.commons.collections.SequencedHashMap* [final] this$0
+org.apache.commons.collections.set.ListOrderedSet: *java.util.List* [protected] [final] setOrder
+org.apache.commons.collections.set.ListOrderedSet$OrderedSetIterator: *java.util.Collection* [protected] [final] set
+org.apache.commons.collections.set.MapBackedSet: *java.util.Map* [protected] [final] map
+org.apache.commons.collections.StaticBucketMap$EntryIterator: *java.util.ArrayList* [private] current
+org.apache.commons.collections.StaticBucketMap$EntryIterator: *org.apache.commons.collections.StaticBucketMap* [final] this$0
+org.apache.commons.collections.StaticBucketMap$EntrySet: *org.apache.commons.collections.StaticBucketMap* [final] this$0
+org.apache.commons.collections.StaticBucketMap$KeyIterator: *org.apache.commons.collections.StaticBucketMap* [final] this$0
+org.apache.commons.collections.StaticBucketMap$KeySet: *org.apache.commons.collections.StaticBucketMap* [final] this$0
+org.apache.commons.collections.StaticBucketMap$ValueIterator: *org.apache.commons.collections.StaticBucketMap* [final] this$0
+org.apache.commons.collections.StaticBucketMap$Values: *org.apache.commons.collections.StaticBucketMap* [final] this$0
+org.apache.commons.collections.UnboundedFifoBuffer$1: *org.apache.commons.collections.UnboundedFifoBuffer* [final] this$0
+
+ARRAYS REPORT
+=============
+
+org.apache.commons.collections.bidimap.AbstractDualBidiMap: *java.util.Map[]* [protected] [final] maps [hashcode]
+org.apache.commons.collections.bidimap.TreeBidiMap: *org.apache.commons.collections.bidimap.TreeBidiMap$Node[]* [private] rootNode [hashcode]
+org.apache.commons.collections.bidimap.TreeBidiMap$Node: *java.lang.Comparable[]* [private] data [hashcode]
+org.apache.commons.collections.bidimap.TreeBidiMap$Node: *org.apache.commons.collections.bidimap.TreeBidiMap$Node[]* [private] leftNode [hashcode]
+org.apache.commons.collections.bidimap.TreeBidiMap$Node: *org.apache.commons.collections.bidimap.TreeBidiMap$Node[]* [private] rightNode [hashcode]
+org.apache.commons.collections.bidimap.TreeBidiMap$Node: *org.apache.commons.collections.bidimap.TreeBidiMap$Node[]* [private] parentNode [hashcode]
+org.apache.commons.collections.BinaryHeap: *java.lang.Object[]* m_elements [arraycopy]
+org.apache.commons.collections.BoundedFifoBuffer: *java.lang.Object[]* [private] [final] m_elements
+org.apache.commons.collections.buffer.BoundedFifoBuffer: *java.lang.Object[]* [private] elements
+org.apache.commons.collections.buffer.PriorityBuffer: *java.lang.Object[]* [protected] elements [arraycopy]
+org.apache.commons.collections.buffer.UnboundedFifoBuffer: *java.lang.Object[]* [protected] buffer
+org.apache.commons.collections.collection.CompositeCollection: *java.util.Collection[]* [protected] all
+org.apache.commons.collections.DoubleOrderedMap: *org.apache.commons.collections.DoubleOrderedMap$Node[]* [private] rootNode
+org.apache.commons.collections.DoubleOrderedMap: *java.util.Set[]* [private] setOfKeys
+org.apache.commons.collections.DoubleOrderedMap: *java.util.Set[]* [private] setOfEntries
+org.apache.commons.collections.DoubleOrderedMap: *java.util.Collection[]* [private] collectionOfValues
+org.apache.commons.collections.DoubleOrderedMap$Node: *java.lang.Comparable[]* [private] data [hashcode]
+org.apache.commons.collections.DoubleOrderedMap$Node: *org.apache.commons.collections.DoubleOrderedMap$Node[]* [private] leftNode [hashcode]
+org.apache.commons.collections.DoubleOrderedMap$Node: *org.apache.commons.collections.DoubleOrderedMap$Node[]* [private] rightNode [hashcode]
+org.apache.commons.collections.DoubleOrderedMap$Node: *org.apache.commons.collections.DoubleOrderedMap$Node[]* [private] parentNode [hashcode]
+org.apache.commons.collections.functors.AllPredicate: *org.apache.commons.collections.Predicate[]* [private] [final] iPredicates [no-stores]
+org.apache.commons.collections.functors.AnyPredicate: *org.apache.commons.collections.Predicate[]* [private] [final] iPredicates [no-stores]
+org.apache.commons.collections.functors.ChainedClosure: *org.apache.commons.collections.Closure[]* [private] [final] iClosures
+org.apache.commons.collections.functors.ChainedTransformer: *org.apache.commons.collections.Transformer[]* [private] [final] iTransformers
+org.apache.commons.collections.functors.InstantiateFactory: *java.lang.Class[]* [private] [final] iParamTypes [no-stores]
+org.apache.commons.collections.functors.InstantiateFactory: *java.lang.Object[]* [private] [final] iArgs [no-stores]
+org.apache.commons.collections.functors.InstantiateTransformer: *java.lang.Class[]* [private] [final] iParamTypes [no-stores]
+org.apache.commons.collections.functors.InstantiateTransformer: *java.lang.Object[]* [private] [final] iArgs [no-stores]
+org.apache.commons.collections.functors.InvokerTransformer: *java.lang.Class[]* [private] [final] iParamTypes [no-stores]
+org.apache.commons.collections.functors.InvokerTransformer: *java.lang.Object[]* [private] [final] iArgs [no-stores]
+org.apache.commons.collections.functors.NonePredicate: *org.apache.commons.collections.Predicate[]* [private] [final] iPredicates [no-stores]
+org.apache.commons.collections.functors.OnePredicate: *org.apache.commons.collections.Predicate[]* [private] [final] iPredicates [no-stores]
+org.apache.commons.collections.functors.SwitchClosure: *org.apache.commons.collections.Predicate[]* [private] [final] iPredicates
+org.apache.commons.collections.functors.SwitchClosure: *org.apache.commons.collections.Closure[]* [private] [final] iClosures
+org.apache.commons.collections.functors.SwitchTransformer: *org.apache.commons.collections.Predicate[]* [private] [final] iPredicates
+org.apache.commons.collections.functors.SwitchTransformer: *org.apache.commons.collections.Transformer[]* [private] [final] iTransformers
+org.apache.commons.collections.iterators.ObjectArrayIterator: *java.lang.Object[]* [protected] array [no-stores]
+org.apache.commons.collections.keyvalue.MultiKey: *java.lang.Object[]* [private] [final] keys [hashcode]
+org.apache.commons.collections.map.AbstractHashedMap: *org.apache.commons.collections.map.AbstractHashedMap$HashEntry[]* [protected] data [hashcode]
+org.apache.commons.collections.map.CompositeMap: *java.util.Map[]* [private] composite [arraycopy] [hashcode]
+org.apache.commons.collections.map.StaticBucketMap: *org.apache.commons.collections.map.StaticBucketMap$Node[]* [private] buckets [mod] [hashcode]
+org.apache.commons.collections.map.StaticBucketMap: *org.apache.commons.collections.map.StaticBucketMap$Lock[]* [private] locks [mod] [hashcode]
+org.apache.commons.collections.ReferenceMap: *org.apache.commons.collections.ReferenceMap$Entry[]* [private] table [hashcode]
+org.apache.commons.collections.StaticBucketMap: *org.apache.commons.collections.StaticBucketMap$Node[]* [private] m_buckets [mod] [hashcode]
+org.apache.commons.collections.StaticBucketMap: *org.apache.commons.collections.StaticBucketMap$Lock[]* [private] m_locks [mod] [hashcode]
+org.apache.commons.collections.UnboundedFifoBuffer: *java.lang.Object[]* [protected] m_buffer
+
+N-CYCLES
+========
+[org/apache/commons/collections/bidimap/TreeBidiMap$Inverse, org/apache/commons/collections/bidimap/TreeBidiMap]
+[org/apache/commons/collections/map/AbstractReferenceMap$ReferenceEntry, org/apache/commons/collections/map/AbstractReferenceMap$ReferenceEntrySetIterator]
+[org/apache/commons/collections/map/AbstractHashedMap$KeySet, org/apache/commons/collections/map/AbstractHashedMap$EntrySet, org/apache/commons/collections/map/AbstractHashedMap, org/apache/commons/collections/map/AbstractHashedMap$Values]
+[org/apache/commons/collections/CursorableLinkedList, org/apache/commons/collections/CursorableLinkedList$ListIter]

@@ -1,0 +1,14 @@
+Highlight kan startes med filnavnene til innfiler som kommando linje parameter.
+Du kan dra og slippe innfiler i Highlight vinduet.
+Du kan konvertere flere typer kildekode på en gang.
+Du bør alltid bruke en eksterne CSS filer i HTML for å samle stil definisjoner på et sted.
+Bruk valget "Erstatt anførselstegn" når du generer LaTeX kode som skal benyttes sammen med Tysk språk modul.
+XSL-FO formatet er kompatibelt med Apache FOP.
+Generer RTF til bruk i tekst behandlings programmer.
+Aktiver tekstbrytning for å få Highlight til rykke inn funksjoner og parameter i lange linjer med kode.
+Bruk valget "Utelat topp og bunntekst" for å generere kode som kan inkluderes i eksisterende dokumenter.
+Valget "Erstatt anførselstegn" er tilgjengelig dersom LaTeX er valgt som utfil format samtidig som valget "Utelat topp og bunntekst" er aktivert.
+Du kan inkludere dine egne CSS definisjoner i den ferdige CSS utfilen.
+Du kan lage nye farge temaer og språk definisjoner. Les Highlights README for videre instruksjoner.
+Valget "Reformater" aktiverer en konsistent formattering av C, C++, Java og C# kode filer.
+Se etter konsoll versjoner (Win32 og Unix bygg) på Highlights hjemmeside.

@@ -1,0 +1,88 @@
+DSFinder has run for 0 min. 4 sec.
+SUMMARY
+=======
+
+args: [--classpath=/home/albiz/dev/soot//soot-2.3.0/lib/sootclasses-2.3.0.jar:/home/albiz/dev/soot//jasmin-2.3.0/classes:/home/albiz/dev/soot//soot-2.3.0/lib/polyglotclasses.jar:/usr/share/javacup/lib/javacup.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/rt.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jce.jar:/usr/share/junit/lib/junit.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/jre/lib/jsse.jar:/home/albiz/.gentoo/java-config-2/current-user-vm/lib/tools.jar:/opt/sun-jdk-1.4.2.19/lib/tools.jar:/home/albiz/dev/ds-finder/classes/:/home/albiz/dev/xerces-2_9_1//build/classes:/usr/share/asm-3/lib/asm.jar:/usr/share/asm-3/lib/asm-commons.jar:/usr/share/asm-3/lib/asm-tree.jar:/home/albiz/dev/ds-finder/lib/jargs.jar:, -p, --include=org/apache/xerces/, --title=/home/albiz/dev/sootOutput/logs/xerces.ds-finder.log, org.apache.xerces.impl.xpath.XPath]
+Processed 710 non-library classes (2907 with libraries.)
+
+COUNTS OF IMPLEMENTATIONS
+=========================
+
+Linked lists						10
+Parents/outers						0
+Others (10 java.lang.Object, 30 non-Object fields)	40
+ exact matching fields					6
+
+Distinct classes containing linked lists and parents:	10
+
+N-cycles						25
+
+Arrays							73
+	 read-only:					22
+	 w/arraycopy:					99
+	 hashtable-like:				12
+	 (error bars:) [3]				80
+
+DECLARED SYSTEM COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+java.util.Hashtable					60
+java.util.Vector					39
+java.util.ArrayList					16
+java.util.Stack						10
+java.util.HashMap					10
+Others							3
+
+
+DECLARED AD-HOC COLLECTION FIELDS, BY IMPLEMENTING CLASS
+========================================================
+org.apache.xerces.impl.xpath.regex.Op			6
+org.apache.xerces.dom.ChildNode				4
+org.apache.xerces.dom.NodeListCache			3
+...erces.jaxp.validation.SoftReferenceGrammarPool$Entry	3
+org.apache.xerces.util.SoftReferenceSymbolTable$SREntry	2
+Others							6
+
+
+INSTANTIATED SYSTEM COLLECTIONS (counts of `new' statements)
+============================================================
+java.util.Hashtable					162
+java.util.Vector					146
+java.util.ArrayList					70
+java.util.HashMap					56
+java.util.Stack						24
+Others							18
+
+
+INSTANTIATED AD-HOC COLLECTIONS
+===============================
+org.apache.xerces.util.XMLAttributesImpl$Attribute	5
+org.apache.xerces.impl.xs.traversers.XSAnnotationInfo	4
+org.apache.xerces.util.SoftReferenceSymbolTable$SREntry	2
+org.apache.xerces.util.SymbolHash$Entry			2
+org.apache.xerces.util.SymbolTable$Entry		2
+Others							4
+
+
+DECLARED COLLECTION PARAMETER TYPES [1]
+=======================================
+Collections are not data structures [2]			0
+Collections are potential data structures		63
+
+
+java.lang.String					0
+java.lang.Object					0
+Ad-Hoc types:
+=============
+Others							0
+
+System types:
+==============
+Others							0
+
+TEMPLATE PARAMETERS					0
+UNKNOWN							138
+
+[1] sums to more than count of non-array collections: consider HashMap<A,B>.
+[2] e.g. class Foo { List<String> NotDataStructure; }
+[3] number of counted arrays in classes with multiple arrays.
+

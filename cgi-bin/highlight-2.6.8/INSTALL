@@ -1,0 +1,108 @@
+Highlight installation instructions
+-----------------------------------
+
+Content
+=======
+
+1. Basic installation
+2. Known compiler issues
+3. LaTeX unicode support
+4. Lazy pointer issue under MacOS X
+5. Static linking (run highlight as service)
+
+
+1. Basic installation
+=====================
+
+ 1. tar xzvf highlight-x.x-x.tar.gz
+
+ 2. cd highlight-x.x-x
+
+ 3. make help
+
+ 4. make                 (for Linux systems)
+    make all-gui         (optional, compile the wxWidgets GUI)
+    make all-localgetopt (for systems without GNU getopt)
+
+ 5, make install
+    (depending on your installation destination, you need to be root)
+
+ 6. make install-gui (optional)
+    Install additional files if you have compiled the highlight GUI binary.
+    (depending on your installation destination, you need to be root)
+
+ 7. make clean (optional)
+
+ 8. make apidocs (optional)
+    (you need to have doxygen installed)
+
+ Highlight's default data directory is /usr/share/highlight.
+ You may alter this directory at compile time or at run time:
+ - See the makefile how to add a compiler directive which defines an
+   installation directory (data_dir variable)
+ - Use the --data-dir option to define a new directory at run time. You may
+   want to save this parameter in the highlight configuration file
+   ($HOME/.highlightrc)
+ - You can add an additional data directory by the --add-data-dir option.
+   Files will be searched in this directory first. This may also be configured
+   in $HOME/.highlightrc.
+ - See the makefile to change the configuration file directory 
+   (conf_dir variable).
+
+
+ Since highlight is a tool without major dependencies, I removed the Autoconf
+ installation process in release 2.0-13 to provide a smaller sized package.
+
+
+2. Known compiler issues
+========================
+
+ 1. Is there a stringstream / sstream header for gcc 2.95.2?
+
+ See http://sources.redhat.com/ml/libstdc++/2000-q2/msg00700/sstream
+
+ 2. Core dumps with gcc 2.96 (RedHat 7.1, 7.3)
+
+ RedHat included this unofficial release of gcc, which had a buggy stringstream
+ implementation.
+ See http://www.mail-archive.com/gcc-bugs@gcc.gnu.org/msg22146.html
+ There is no workaround, please upgrade to gcc 3.x. (Reported by Mark Hessling)
+
+ 3. Compilation error with "right" IO manipulator
+
+ In htmlcode.cpp: `right' undeclared (first use this function)
+ (Each undeclared identifier is reported only once for each function it
+  appears in.)
+ There is no workaround, please upgrade to gcc 3.x. (Reported by Christoph Bier)
+
+
+3. LaTeX unicode support
+========================
+
+To enable UTF-8 support in LaTeX, the ucs package has to be installed.
+See the following package names or sources:
+
+Fedora: tetex-unicode
+SuSE:   latex-ucs
+
+Source: http://www.unruh.de/DniQ/latex/unicode/
+
+
+4. Lazy pointer issue under MacOS X
+===================================
+
+Stripping the highlight binary causes program termination at runtime:
+
+dyld: lazy symbol binding failed: lazy pointer not found
+dyld: lazy pointer not found
+Trace/BPT trap
+
+To avoid this issue, edit the makefile to not strip the binary after
+linkage (clear the LDFLAGS variable).
+
+
+5. Static linking (run highlight as service)
+============================================
+
+If highlight cannot be run as service because of shared linkage, link
+it with the -static option (see src/makefile, LDFLAGS variable).
