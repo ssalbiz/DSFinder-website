@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ##SET DIR
-STAGING_DIR=/var/www/localhost/staging
-BENCHMARKS_DIR=/home/albiz/dev/
+STAGING_DIR=
+BENCHMARKS_DIR=
 ##
 
 FILE=$1
