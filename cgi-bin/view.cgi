@@ -13,7 +13,7 @@ $class =~ s/\./\//g;
 #inner classes will be declared in their parent class' .java files
 $class =~ s/\$.*//;
 $class = "$class.java";
-#read source directory prefix from file
+#should read source directory prefix from file
 my $benchmark_root="/home/albiz/dev/";
 my %path_prefix= ("Bean", "$benchmark_root/soot/aspectjBenchmarkSuite/Bean/src/", 
                "DCM", "$benchmark_root/soot/aspectjBenchmarkSuite/DCM/src/", 
