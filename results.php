@@ -26,12 +26,12 @@ a {color: black; }
 
 $dbcnx = @mysql_connect('localhost', 'dsfinder_user', 'password');
 if (!$dbcnx) {
-  echo "<p> unable to connect to database 1</p>";
+  echo "<p> Unable to connect to database! </p>";
   exit();
 }
 
 if (! @mysql_select_db('dsfinder_new', $dbcnx) ) {
-  echo "<p> unable to connect to database</p>";
+  echo "<p> Unable to connect to database!</p>";
   exit();
 }
 
@@ -44,7 +44,8 @@ foreach ($pkglist as $pkg) {
 echo "</div>\n";
 
 echo "<div id=\"main\">";
-echo "<p><a href=\"tool.html\"> Analyze JAR File </a></p>";
+echo "<p><a href=\"index.html\"> Home </a></p>";
+echo "<p><a href=\"tool.html\"> Upload/Analyze JAR File </a></p>";
 if (isset($_GET['pkg'])) {
   if (!in_array($_GET['pkg'], $pkglist)) {
     echo "<p> Invalid benchmark! </p>\n";
