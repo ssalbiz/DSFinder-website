@@ -19,27 +19,19 @@ body { background:#06005c; color:white; }
 <body>
 
 <div id="header">
-<h1>DSFinder Web Tool</h1>
+<h1>Other Results</h1>
 </div>
 
 <div id="sidebar">
  <p> <a href="index.html">Home</a></p>
  <p> <a href="results.php">DSFinder Results</a></p>
- <p> <a href="other.html">Other Results</a></p>
  <p> <a href="sources.html">Downloads</a></p>
+ <p> <a href="tool.html">Analyze/Upload JAR File</a></p>
 </div>
 
 <div id="main">
+<p> Results go here</p>
 
-<form action="tool.php" method="post" enctype="multipart/form-data">
-<p>
-  <input type="text" name="package_name"  id="package_name" value="" size="40" /><label for="package_name">  Package prefix to analyze(e.g. java.util)</label><br />
-  <input type="file" name="inputjar" id="inputjar" size="40" /><label for="inputjar">  File</label><br />
-  <input type="hidden" name="_submit_check" id="_submit_check" value="1" />
-  <input type="submit" value="Submit" /><br />
-  
-</p>
-</form>
 </div>
 </body>
 </html>
