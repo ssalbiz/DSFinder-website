@@ -30,7 +30,7 @@ echo "</div>";
 if (isset($_GET['log'])) {
   echo "<div id=\"main\">";
   echo "<pre>";
-  echo "<!--#include virtual=\"$log\" -->";
+  echo "<!--#include virtual=\"", $_GET['log'],"\" -->";
   echo "</pre>";
   echo "</div>";
 } else if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
