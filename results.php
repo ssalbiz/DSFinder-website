@@ -42,14 +42,14 @@ if (! @mysql_select_db('dsfinder_new', $dbcnx) ) {
 $pkglist=array('Bean', 'DCM', 'LawOfDemeter', 'NullCheck', 'ProdLine', 'StarJ-Pool', 'Tetris', 'aglets', 'antlr-gunit', 'aoi', 'argoUML', 'asm', 'axion', 'azureus', 'bcel', 'bloat', 'cglib', 'colt', 'columba', 'commons-cli', 'commons-collections', 'commons-lang', 'commons-logging', 'derby', 'dom4j', 'drjava', 'fit', 'fop', 'galleon', 'gantt', 'hibernate', 'hsqldb', 'ireport', 'jag', 'jasper', 'javacc', 'jaxen', 'jchem', 'jcm', 'jedit', 'jeppers', 'jetty', 'jext', 'jfreechart', 'jgraph', 'jmeter', 'jre', 'jung', 'junit', 'jython', 'log4j', 'lucene', 'megamek', 'pmd', 'poi', 'proxool', 'regexp', 'sablecc', 'sandmark', 'tomcat', 'xerces', 'xstream');
 
 echo "<div id=\"sidebar\">\n";
+echo "<p><a href=\"index.html\"> Home </a></p>";
+echo "<hr />";
 foreach ($pkglist as $pkg) {
   print_links($pkg);
 }
 echo "</div>\n";
 
 echo "<div id=\"main\">";
-echo "<p><a href=\"index.html\"> Home </a></p>";
-echo "<p><a href=\"tool.html\"> Upload/Analyze JAR File </a></p>";
 if (isset($_GET['pkg'])) {
   if (!in_array($_GET['pkg'], $pkglist)) {
     echo "<p> Invalid benchmark! </p>\n";
