@@ -2,7 +2,7 @@
 
 ##SET DIR
 STAGING_DIR=
-BENCHMARKS_DIR=
+BENCHMARKS_DIR= ##
 ##
 
 FILE=$1
@@ -17,10 +17,10 @@ export PACKAGE=$2
 echo ". benchmark.sh staging ds-finder"
 
 ##USE LOCAL DSFINDER
-. ${BENCHMARKS_DIR}/benchmark_hacks/benchmark.sh staging ds-finder 
+. ${BENCHMARKS_DIR}/scripts/benchmark.sh staging ds-finder 
 
-cp ${BENCHMARKS_DIR}/sootOutput/logs/staging.ds-finder.log staging.ds-finder.log
-cp ${BENCHMARKS_DIR}/sootOutput/logs/staging.ds-finder.log-full staging.ds-finder.log-full
+cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log staging.ds-finder.log
+cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full staging.ds-finder.log-full
 
 mv ${STAGING_DIR}/* /tmp/
 unset MAIN_CLASS
