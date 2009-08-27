@@ -8,7 +8,7 @@ BENCHMARKS_DIR= ##
 FILE=$1
 echo $FILE >> ${STAGING_DIR}/tout
 unzip $FILE -d ${STAGING_DIR}/ 
-BASE=`basename STAGING_DIR`
+BASE=`basename $STAGING_DIR`
 TMP=`find ${STAGING_DIR}/ -name *\.class |  sed 's/Binary\ file//g' | sed 's/matches//g' | sed 's/\.class//g' | sed s/.*$BASE\\///g | sed 's/\//\./g' | head -1`
 echo $TMP >> ${STAGING_DIR}/tout
 export MAIN_CLASS=$TMP
