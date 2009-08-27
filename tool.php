@@ -30,7 +30,7 @@ if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
   
   echo "</div>";
   echo "<div id=\"main\">";
-  $dir = '/home/albiz/dev/staging/';
+  $dir = '/tmp/';
   $package = $_POST['package_name'];
   $file = $dir . basename($_FILES['inputjar']['name']);
   $tmpfile = $_FILES['inputjar']['tmp_name'];
