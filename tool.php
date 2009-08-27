@@ -22,6 +22,12 @@ if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
   echo "<p> <a href=\"staging.ds-finder.log\">Summary Results</a> </p>";
   echo "<p> <a href=\"staging.ds-finder.log-full\">Complete Logs</a> </p>";
   echo "<p> <a href=\"tool.html\"> Back </a> </p>";
+  echo "<hr />";
+  echo "<p> <a href=\"results.php\">DSFinder Results</a> </p>";
+  echo "<p> <a href=\"other.html\">Other Results</a> </p>";
+  echo "<p> <a href=\"sources.html\">Downloads</a> </p>";
+  echo "<p> <a href=\"tool.html\"> Upload/Analyze JAR File </a> </p>";
+  
   echo "</div>";
   echo "<div id=\"main\">";
   $dir = '/home/albiz/dev/staging/';
