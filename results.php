@@ -43,6 +43,8 @@ $pkglist=array('Bean', 'DCM', 'LawOfDemeter', 'NullCheck', 'ProdLine', 'StarJ-Po
 
 echo "<div id=\"sidebar\">\n";
 echo "<p><a href=\"index.html\"> Home </a></p>";
+echo "<p><a href=\"tool.html\"> Upload/Analyze JAR File </a></p>";
+echo "<p><a href=\"sources.html\"> Downloads </a></p>";
 echo "<hr />";
 foreach ($pkglist as $pkg) {
   print_links($pkg);
