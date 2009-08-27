@@ -94,8 +94,8 @@ global $total_object ;
   }
   echo "<p><a href=\"#\" onclick=\"display_report('", $pkg_name, "')\">", Hide, "</a></p>\n";
   echo "<div id=\"", $pkg_name, "\" class=\"unhidden\">\n";
-  echo "<a href=\"?log=", $pkg_name, ".ds-finder.log>",$pkg_name, " summary log</a><br />\n";
-  echo "<a href=\"?log=", $pkg_name, ".ds-finder.log-full>",$pkg_name, " summary log-full</a><br />\n";
+  echo "<a href=\"?log=", $pkg_name, ".ds-finder.log\">",$pkg_name, " summary log</a><br />\n";
+  echo "<a href=\"?log=", $pkg_name, ".ds-finder.log-full\">",$pkg_name, " summary log-full</a><br />\n";
 //  echo "<a href=\"logs/$pkg_name.ds-finder.log\">",$pkg_name, " summary log</a><br />\n";
 //  echo "<a href=\"logs/$pkg_name.ds-finder.log-full\">",$pkg_name, " full logged output</a><br />\n";
   echo "<p>EXACT FIELD MATCHES:</p>\n";
