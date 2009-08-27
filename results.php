@@ -5,13 +5,15 @@
 <title>DSFinder Results</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <style type="text/css">
-#header { padding: 35px 30px 10px 30px; }
+#header { padding: 35px 30px 10px 30px; background-color:#202080;}
 #header h1 { font-variant: small-caps; }
-#sidebar { float: left; width: 20%; padding: 1% 1% 0 1%; margin: 0; }
+#sidebar { float: left; width: 18%; padding: 1% 1% 0 1%; margin: 1%; background-color:#202080;}
 #main {float: right; width: 78%; padding 0 0 0 0; margin: 0; }
-a {color: black; }
 .hidden { display: none; }
 .unhidden { display: block; }
+a:link {color:#8aede7; background-color:inherit !important;}
+a:visited {color:#33FFFF; background-color:inherit !important;}
+body { background:#06005c; color:white; } 
 </style>
 </head>
 
@@ -26,11 +28,13 @@ a {color: black; }
 
 $dbcnx = @mysql_connect('localhost', 'dsfinder_user', 'password');
 if (!$dbcnx) {
-  echo "<p> Unable to connect to database! </p>";
+ echo "<p><a href=\"index.html\"> Home </a></p>";
+ echo "<p> Unable to connect to database! </p>";
   exit();
 }
 
 if (! @mysql_select_db('dsfinder_new', $dbcnx) ) {
+  echo "<p><a href=\"index.html\"> Home </a></p>";
   echo "<p> Unable to connect to database!</p>";
   exit();
 }
