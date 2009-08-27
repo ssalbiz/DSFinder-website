@@ -23,7 +23,7 @@ cd -
 cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log staging.ds-finder.log
 cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full staging.ds-finder.log-full
 
-mv ${STAGING_DIR}/* /tmp/
+rm -fr ${STAGING_DIR}/*
 unset MAIN_CLASS
 unset TMP
 
