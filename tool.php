@@ -1,70 +1,70 @@
-<?php
-echo "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"
-\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
-<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>DSFinder JAR Analysis Tool</title>
-<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\" />
-<style type=\"text/css\">
-#header { padding: 35px 30px 10px 30px; background-color:#202080;}
-#header h1 { font-variant: small-caps; }
-#sidebar { float: left; width: 15%; padding: 1% 1% 0 1%; margin: 1%; color:#5ed6ff; background-color:#202080; }
-#main {float: right; width: 80%; padding: 0 0 0 0; margin: 0; }
-a:link {color:#8aede7; background-color:inherit !important;}
-a:visited {color:#33FFFF; background-color:inherit !important;}
-body { background:#06005c; color:white; } 
-</style>
-</head><body>
-<div id=\"header\"><h1>Results</h1></div>";
-echo "<div id=\"sidebar\">";
-echo "<p> <a href=\"?log=staging.ds-finder.log\">Summary Results</a> </p>";
-echo "<p> <a href=\"?log=staging.ds-finder.log-full\">Complete Logs</a> </p>";
-echo "<p> <a href=\"tool.html\"> Back </a> </p>";
-echo "<hr />";
-echo "<p> <a href=\"results.php\">DSFinder Results</a> </p>";
-echo "<p> <a href=\"other.html\">Other Results</a> </p>";
-echo "<p> <a href=\"sources.html\">Downloads</a> </p>";
-echo "<p> <a href=\"tool.html\"> Upload/Analyze JAR File </a> </p>";
-echo "</div>";
+<title>DSFinder Web Tool</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link ref="stylesheet" href="styles.css" type="text/css" >
+</head>
+<body>
 
-if (isset($_GET['log'])) {
-  echo "<div id=\"main\">";
-  echo "<pre>";
-  echo "<!--#include virtual=\"", $_GET['log'],"\" -->";
-  echo "</pre>";
-  echo "</div>";
-} else if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
+<div id="header">
+<h1>DSFinder Web Tool</h1>
+</div>
+
+<div id="sidebar">
+  <?php include('menu.php') ?>
+</div>
+
+<div id="main">
+
+<?php
+if (isset($_POST['_submit_check'])) {
+ if (isset($_GET['log'])) {
    echo "<div id=\"main\">";
-  $dir = '/tmp/';
-  $package = $_POST['package_name'];
-  $file = $dir . basename($_FILES['inputjar']['name']);
-  $tmpfile = $_FILES['inputjar']['tmp_name'];
+   echo "<pre>";
+   echo "<!--#include virtual=\"", $_GET['log'],"\" -->";
+   echo "</pre>";
+   echo "</div>";
+ } else if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
+    echo "<div id=\"main\">";
+   $dir = '/tmp/';
+   $package = $_POST['package_name'];
+   $file = $dir . basename($_FILES['inputjar']['name']);
+   $tmpfile = $_FILES['inputjar']['tmp_name'];
 
-  if (!move_uploaded_file($_FILES['inputjar']['tmp_name'], $file)) {
-    echo "<pre>FAILED to move :", $tmpfile, ": to ", $file, "</pre>";
-    exit(1);
-  } else {
-    echo "<pre>moved :", $tmpfile, ": to ", $file, "</pre>";
-  }
+   if (!move_uploaded_file($_FILES['inputjar']['tmp_name'], $file)) {
+     echo "<pre>FAILED to move :", $tmpfile, ": to ", $file, "</pre>";
+     exit(1);
+   } else {
+     echo "<pre>moved :", $tmpfile, ": to ", $file, "</pre>";
+   }
 
-  echo "<pre>";
-  echo "Received ", basename($file), "\n";
-  
-  system("bash -- process.sh $file $package", $rc);
-  //system('whoami', $rc);
-  echo $rc;
+   echo "<pre>";
+   echo "Received ", basename($file), "\n";
+   
+   system("bash -- process.sh $file $package", $rc);
+   //system('whoami', $rc);
+   echo $rc;
 
-  echo "</pre>";
-  echo "</div>";
- // unzip the jar
- // locate entry point
- // determine packages
- // run benchmarks
-
-
-} else {
-  echo "<pre>:",$_POST['_submit_check'],":</pre>";
+   echo "</pre>";
+   echo "</div>";
+  // unzip the jar
+  // locate entry point
+  // determine packages
+  // run benchmarks
+ }
+ exit(0);
 }
-
-echo "</body></html>";
 ?>
+
+<form action="tool.php" method="post" enctype="multipart/form-data">
+  <input type="text" name="package_name"  id="package_name" value="" size="40" />
+  <label for="package_name">  Package prefix to analyze(e.g. java.util)</label><br />
+  <input type="file" name="inputjar" id="inputjar" size="40" /><label for="inputjar">  File</label><br />
+  <input type="hidden" name="_submit_check" id="_submit_check" value="1" />
+  <input type="submit" value="Submit" /><br />
+</form>
+</div>
+</body>
+</html>

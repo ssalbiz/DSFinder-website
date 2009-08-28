@@ -4,17 +4,8 @@
 <head>
 <title>DSFinder Results</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<style type="text/css">
-#header { padding: 35px 30px 10px 30px; background-color:#202080;}
-#header h1 { font-variant: small-caps; }
-#sidebar { float: left; width: 18%; padding: 1% 1% 1% 1%; margin: 1%; background-color:#202080;}
-#main {float: right; width: 78%; padding 0 0 0 0; margin: 0; }
-.hidden { display: none; }
-.unhidden { display: block; }
-a:link {color:#8aede7; background-color:inherit !important;}
-a:visited {color:#33FFFF; background-color:inherit !important;}
-body { background:#06005c; color:white; } 
-</style>
+<link ref="stylesheet" href="styles.css" type="text/css" >
+
 </head>
 
 <body>
@@ -41,12 +32,13 @@ if (! @mysql_select_db('dsfinder_new', $dbcnx) ) {
 
 $pkglist=array('Bean', 'DCM', 'LawOfDemeter', 'NullCheck', 'ProdLine', 'StarJ-Pool', 'Tetris', 'aglets', 'antlr-gunit', 'aoi', 'argoUML', 'asm', 'axion', 'azureus', 'bcel', 'bloat', 'cglib', 'colt', 'columba', 'commons-cli', 'commons-collections', 'commons-lang', 'commons-logging', 'derby', 'dom4j', 'drjava', 'fit', 'fop', 'galleon', 'gantt', 'hibernate', 'hsqldb', 'ireport', 'jag', 'jasper', 'javacc', 'jaxen', 'jchem', 'jcm', 'jedit', 'jeppers', 'jetty', 'jext', 'jfreechart', 'jgraph', 'jmeter', 'jre', 'jung', 'junit', 'jython', 'log4j', 'lucene', 'megamek', 'pmd', 'poi', 'proxool', 'regexp', 'sablecc', 'sandmark', 'tomcat', 'xerces', 'xstream');
 
-echo "<div id=\"sidebar\">\n";
-echo "<p><a href=\"index.html\"> Home </a></p>";
-echo "<p><a href=\"other.html\"> Other Results </a></p>";
-echo "<p><a href=\"tool.html\"> Upload/Analyze JAR File </a></p>";
-echo "<p><a href=\"sources.html\"> Downloads </a></p>";
-echo "<hr />";
+?>
+<div id="sidebar">
+
+<?php include('menu.php') ?>
+<hr />
+
+<?
 foreach ($pkglist as $pkg) {
   print_links($pkg);
 }

@@ -4,25 +4,13 @@
 <head>
 <title>DSFinder Results</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<style type="text/css">
-#header { padding: 35px 30px 10px 30px; background-color:#202080;}
-#header h1 { font-variant: small-caps; }
-#sidebar { float: left; width: 15%; padding: 1% 1% 0 1%; margin: 1%; color:#5ed6ff; background-color:#202080; }
-#main {float: right; width: 80%; padding: 0 0 0 0; margin: 0; }
-a:link {color:#8aede7; background-color:inherit !important;}
-a:visited {color:#33FFFF; background-color:inherit !important;}
-body { background:#06005c; color:white; } 
-
-</style>
+<link ref="stylesheet" href="styles.css" type="text/css" >
 </head>
 <body>
 
 <div id="header"> <h1>Data Structure Use and Implementation</h1></div>
 <div id="sidebar"> 
-  <p> <a href="results.php">DSFinder Results</a> </p>
-  <p> <a href="other.html">Other Results</a> </p>
-  <p> <a href="sources.html">Downloads</a> </p>
-  <p> <a href="tool.html"> Upload/Analyze JAR File </a> </p>
+  <?php include('menu.php') ?>
 </div>
 <div id="main">
   <p>
