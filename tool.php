@@ -14,6 +14,9 @@
 
 <div id="sidebar">
   <?php include('menu.php') ?>
+  <hr /> 
+  <p><a href="?log=staging.ds-finder.log">Summary log </a></p>
+  <p><a href="?log=staging.ds-finder.log">Detailed log </a></p>
 </div>
 
 <div id="main">
