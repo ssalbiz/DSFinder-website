@@ -16,19 +16,21 @@
   <?php include('menu.php') ?>
   <hr /> 
   <p><a href="?log=staging.ds-finder.log">Summary log </a></p>
-  <p><a href="?log=staging.ds-finder.log">Detailed log </a></p>
+  <p><a href="?log=staging.ds-finder.log-full">Detailed log </a></p>
 </div>
 
 <div id="main">
 
 <?php
-if (isset($_POST['_submit_check'])) {
  if (isset($_GET['log'])) {
    echo "<pre>";
-   echo "<!--#include virtual=\"", $_GET['log'],"\" -->";
+   include ($_GET['log']);
    echo "</pre>";
-   echo "</div>";
- } else if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
+   echo "</pre></div></body></html>";
+   exit(0);
+ }
+ else if (isset($_POST['_submit_check'])) {
+ if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
    $dir = '/tmp/';
    $package = $_POST['package_name'];
    $file = $dir . basename($_FILES['inputjar']['name']);
@@ -37,8 +39,6 @@ if (isset($_POST['_submit_check'])) {
    if (!move_uploaded_file($_FILES['inputjar']['tmp_name'], $file)) {
      echo "<pre>FAILED to move :", $tmpfile, ": to ", $file, "</pre>";
      exit(1);
-   } else {
-     echo "<pre>moved :", $tmpfile, ": to ", $file, "</pre>";
    }
 
    echo "<pre>";
@@ -48,14 +48,13 @@ if (isset($_POST['_submit_check'])) {
    //system('whoami', $rc);
    echo $rc;
 
-   echo "</pre>";
-   echo "</div>";
+   echo "</pre></div></body></html>";
+   exit(0);
   // unzip the jar
   // locate entry point
   // determine packages
   // run benchmarks
  }
- exit(0);
 }
 ?>
 

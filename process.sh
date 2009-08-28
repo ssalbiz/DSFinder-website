@@ -12,13 +12,12 @@ export PROJECT_ROOT=$STAGING_DIR
 export CLASSES_DIR=$FILE
 
 ##USE LOCAL DSFINDER
-cd ${BENCHMARKS_DIR}/scripts
+cd ${BENCHMARKS_DIR}/scripts > /dev/null
 . ${BENCHMARKS_DIR}/scripts/benchmark.sh staging ds-finder
+cd - > /dev/null
 
 /bin/cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log staging.ds-finder.log
 /bin/cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full staging.ds-finder.log-full
-/bin/rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log 
-/bin/rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full 
 
 /bin/rm -fr ${STAGING_DIR}/*
 unset MAIN_CLASS
