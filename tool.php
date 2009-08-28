@@ -4,7 +4,7 @@
 <head>
 <title>DSFinder Web Tool</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="styles.css" type="text/css" >
+<link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
 <body>
 
@@ -58,10 +58,17 @@ if (isset($_POST['_submit_check'])) {
 }
 ?>
 
-<form action="tool.php" method="post" enctype="multipart/form-data">
+<form action="tool.php" class="compactform" method="post" enctype="multipart/form-data">
+ <div class="oneper">
+  <label for="package_name">Package prefix to analyze(e.g. java.util)
   <input type="text" name="package_name"  id="package_name" value="" size="40" />
-  <label for="package_name">  Package prefix to analyze(e.g. java.util)</label><br />
-  <input type="file" name="inputjar" id="inputjar" size="40" /><label for="inputjar">  File</label><br />
+  </label>
+ </div>
+ <div class="oneper">
+  <label for="inputjar">File
+  <input type="file" name="inputjar" id="inputjar" size="40" />
+  </label>
+ </div>
   <input type="hidden" name="_submit_check" id="_submit_check" value="1" />
   <input type="submit" value="Submit" /><br />
 </form>

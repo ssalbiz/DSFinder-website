@@ -11,3 +11,61 @@ td { padding: 0px 4px 0px; }
 .c2 { background-color: #66c; }
 .right { text-align:right; }
 
+/* Zero out padding and margin, adjust where needed later */
+form, fieldset, label, input, .checkbox, textarea, select, option, form div {
+  margin: 2px;
+  padding: 0;
+}
+
+legend {
+  font-weight: bold;
+  margin: 5px 2% 0 0;
+}
+
+.compactform { overflow: hidden; } 
+.compactform div, 
+.compactform label, 
+.compactform input, 
+.compactform select, 
+.compactform textarea {
+  float: left;
+}
+.compactform input.text, 
+.compactform select, 
+.compactform textarea {
+  /* set width: auto to allow form element content 
+  to set width otherwise 90% is a good setting */
+  width: auto; /* determines space between form elements */
+}
+/* Increase width of elements in twoper 
+   columns to provide better alignment */
+.compactform .twoper input.text, 
+.compactform .twoper select, 
+.compactform .twoper textarea {
+  width: 95%;
+}
+.compactform div {
+  width: 99%;
+  margin-bottom: 1em; /* space between rows */
+  clear: both;
+}
+/* Nested divs shouldn't clear floated elements */
+/* keeps nested divs from compounding margin value */
+.compactform div div {
+  margin-bottom: 0; 
+  clear: none;
+}
+/* Nested div label contents should determine their own width */
+.compactform div div label {
+  width: auto;
+  white-space: normal;
+  /* unccomment to stack form inputs inside a row */
+  /* clear: left; */
+  margin-right: 1em;
+}
+/* Fix paragraph white space in Safari */
+.compactform div div p {
+  margin: 0;
+  padding: 0;
+}
+ 
