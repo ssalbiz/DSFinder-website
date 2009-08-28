@@ -7,7 +7,7 @@
 <style type="text/css">
 #header { padding: 35px 30px 10px 30px; background-color:#202080;}
 #header h1 { font-variant: small-caps; }
-#sidebar { float: left; width: 18%; padding: 1% 1% 0 1%; margin: 1%; background-color:#202080;}
+#sidebar { float: left; width: 18%; padding: 1% 1% 1% 1%; margin: 1%; background-color:#202080;}
 #main {float: right; width: 78%; padding 0 0 0 0; margin: 0; }
 .hidden { display: none; }
 .unhidden { display: block; }
@@ -26,7 +26,7 @@ body { background:#06005c; color:white; }
 
 <?php
 
-$dbcnx = @mysql_connect('localhost', 'dsfinder_user', 'password');
+$dbcnx = @mysql_connect('localhost', 'dsfinder_user', 'bn48fn');
 if (!$dbcnx) {
  echo "<p><a href=\"index.html\"> Home </a></p>";
  echo "<p> Unable to connect to database! </p>";
