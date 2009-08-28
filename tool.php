@@ -4,7 +4,7 @@
 <head>
 <title>DSFinder Web Tool</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link ref="stylesheet" href="styles.css" type="text/css" >
+<link rel="stylesheet" href="styles.css" type="text/css" >
 </head>
 <body>
 
