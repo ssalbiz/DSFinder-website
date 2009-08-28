@@ -21,6 +21,8 @@ cd ${BENCHMARKS_DIR}/scripts
 cd -
 cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log staging.ds-finder.log
 cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full staging.ds-finder.log-full
+rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log 
+rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full 
 
 rm -fr ${STAGING_DIR}/*
 unset MAIN_CLASS
