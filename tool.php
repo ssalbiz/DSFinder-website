@@ -21,13 +21,11 @@
 <?php
 if (isset($_POST['_submit_check'])) {
  if (isset($_GET['log'])) {
-   echo "<div id=\"main\">";
    echo "<pre>";
    echo "<!--#include virtual=\"", $_GET['log'],"\" -->";
    echo "</pre>";
    echo "</div>";
  } else if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
-    echo "<div id=\"main\">";
    $dir = '/tmp/';
    $package = $_POST['package_name'];
    $file = $dir . basename($_FILES['inputjar']['name']);
@@ -65,7 +63,7 @@ if (isset($_POST['_submit_check'])) {
   </label>
  </div>
  <div class="oneper">
-  <label for="inputjar">File
+  <label for="inputjar">JAR File
   <input type="file" name="inputjar" id="inputjar" size="40" />
   </label>
  </div>

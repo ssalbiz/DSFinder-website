@@ -1,10 +1,11 @@
 #!/bin/bash
 
 ##SET DIR
-STAGING_DIR=
-BENCHMARKS_DIR= ##
+STAGING_DIR=/tmp/dsfinder
+BENCHMARKS_DIR=/xtra/benchmark_sources ##
 ##
 
+/bin/mkdir -p $STAGING_DIR
 FILE=$1
 export PACKAGE=$2
 export PROJECT_ROOT=$STAGING_DIR
@@ -14,12 +15,12 @@ export CLASSES_DIR=$FILE
 cd ${BENCHMARKS_DIR}/scripts
 . ${BENCHMARKS_DIR}/scripts/benchmark.sh staging ds-finder
 
-cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log staging.ds-finder.log
-cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full staging.ds-finder.log-full
-rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log 
-rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full 
+/bin/cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log staging.ds-finder.log
+/bin/cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full staging.ds-finder.log-full
+/bin/rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log 
+/bin/rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full 
 
-rm -fr ${STAGING_DIR}/*
+/bin/rm -fr ${STAGING_DIR}/*
 unset MAIN_CLASS
 unset TMP
 
