@@ -13,7 +13,7 @@ export CLASSES_DIR=$FILE
 ##USE LOCAL DSFINDER
 cd ${BENCHMARKS_DIR}/scripts
 . ${BENCHMARKS_DIR}/scripts/benchmark.sh staging ds-finder
-cd -
+
 cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log staging.ds-finder.log
 cp ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log-full staging.ds-finder.log-full
 rm -f ${BENCHMARKS_DIR}/Output/logs/staging.ds-finder.log 
