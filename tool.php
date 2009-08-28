@@ -16,15 +16,26 @@ body { background:#06005c; color:white; }
 </style>
 </head><body>
 <div id=\"header\"><h1>Results</h1></div>";
+echo "<div id=\"sidebar\">";
+echo "<p> <a href=\"?log=staging.ds-finder.log\">Summary Results</a> </p>";
+echo "<p> <a href=\"?log=staging.ds-finder.log-full\">Complete Logs</a> </p>";
+echo "<p> <a href=\"tool.html\"> Back </a> </p>";
+echo "<hr />";
+echo "<p> <a href=\"results.php\">DSFinder Results</a> </p>";
+echo "<p> <a href=\"other.html\">Other Results</a> </p>";
+echo "<p> <a href=\"sources.html\">Downloads</a> </p>";
+echo "<p> <a href=\"tool.html\"> Upload/Analyze JAR File </a> </p>";
+echo "</div>";
 
-if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
-  echo "<div id=\"sidebar\">";
-  echo "<p> <a href=\"staging.ds-finder.log\">Summary Results</a> </p>";
-  echo "<p> <a href=\"staging.ds-finder.log-full\">Complete Logs</a> </p>";
-  echo "<p> <a href=\"tool.html\"> Back </a> </p>";
-  echo "</div>";
+if (isset($_GET['log'])) {
   echo "<div id=\"main\">";
-  $dir = '/home/albiz/dev/staging/';
+  echo "<pre>";
+  echo "<!--#include virtual=\"", $_GET['log'],"\" -->";
+  echo "</pre>";
+  echo "</div>";
+} else if ($_FILES['inputjar']['error'] == UPLOAD_ERR_OK) {
+   echo "<div id=\"main\">";
+  $dir = '/tmp/';
   $package = $_POST['package_name'];
   $file = $dir . basename($_FILES['inputjar']['name']);
   $tmpfile = $_FILES['inputjar']['tmp_name'];

@@ -42,14 +42,17 @@ if (! @mysql_select_db('dsfinder_new', $dbcnx) ) {
 $pkglist=array('Bean', 'DCM', 'LawOfDemeter', 'NullCheck', 'ProdLine', 'StarJ-Pool', 'Tetris', 'aglets', 'antlr-gunit', 'aoi', 'argoUML', 'asm', 'axion', 'azureus', 'bcel', 'bloat', 'cglib', 'colt', 'columba', 'commons-cli', 'commons-collections', 'commons-lang', 'commons-logging', 'derby', 'dom4j', 'drjava', 'fit', 'fop', 'galleon', 'gantt', 'hibernate', 'hsqldb', 'ireport', 'jag', 'jasper', 'javacc', 'jaxen', 'jchem', 'jcm', 'jedit', 'jeppers', 'jetty', 'jext', 'jfreechart', 'jgraph', 'jmeter', 'jre', 'jung', 'junit', 'jython', 'log4j', 'lucene', 'megamek', 'pmd', 'poi', 'proxool', 'regexp', 'sablecc', 'sandmark', 'tomcat', 'xerces', 'xstream');
 
 echo "<div id=\"sidebar\">\n";
+echo "<p><a href=\"index.html\"> Home </a></p>";
+echo "<p><a href=\"other.html\"> Other Results </a></p>";
+echo "<p><a href=\"tool.html\"> Upload/Analyze JAR File </a></p>";
+echo "<p><a href=\"sources.html\"> Downloads </a></p>";
+echo "<hr />";
 foreach ($pkglist as $pkg) {
   print_links($pkg);
 }
 echo "</div>\n";
 
 echo "<div id=\"main\">";
-echo "<p><a href=\"index.html\"> Home </a></p>";
-echo "<p><a href=\"tool.html\"> Upload/Analyze JAR File </a></p>";
 if (isset($_GET['pkg'])) {
   if (!in_array($_GET['pkg'], $pkglist)) {
     echo "<p> Invalid benchmark! </p>\n";
@@ -60,10 +63,18 @@ if (isset($_GET['pkg'])) {
 //  printf("TOTAL NON_OBJECT STRUCTURES: %d OUT OF %d : %0.2f%s<br />", $total_nonobject_hits, $total_nonobject,  ($total_nonobject_hits*100.0/$total_nonobject), "%");
 //  printf("TOTAL OBJECT STRUCTURES: %d OUT OF %d : %0.2f%s<br />", $total_object_hits, $total_object, ($total_object_hits*100.0/$total_object) ,"%");
   echo "<p>TOTAL PACKAGES: ", count($pkglist), "<br /></p>";
+} else if (isset($_GET['log'])) {
+  print_raw_logs($_GET['log']);
 }
 echo "</div>";
 function print_links($pkg_name) {
   echo "<a href=\"?pkg=",$pkg_name,"\" >", $pkg_name, "</a><br />\n";
+}
+
+function print_raw_logs($log) {
+  echo "<pre>";
+  echo "<!--#include virtual=\"logs/$log\" -->";
+  echo "</pre>";
 }
 
 function getlogs($pkg_name) {
@@ -83,8 +94,10 @@ global $total_object ;
   }
   echo "<p><a href=\"#\" onclick=\"display_report('", $pkg_name, "')\">", Hide, "</a></p>\n";
   echo "<div id=\"", $pkg_name, "\" class=\"unhidden\">\n";
-  echo "<a href=\"logs/$pkg_name.ds-finder.log\">",$pkg_name, " summary log</a><br />\n";
-  echo "<a href=\"logs/$pkg_name.ds-finder.log-full\">",$pkg_name, " full logged output</a><br />\n";
+  echo "<a href=\"?log=", $pkg_name, ".ds-finder.log\">",$pkg_name, " summary log</a><br />\n";
+  echo "<a href=\"?log=", $pkg_name, ".ds-finder.log-full\">",$pkg_name, " summary log-full</a><br />\n";
+//  echo "<a href=\"logs/$pkg_name.ds-finder.log\">",$pkg_name, " summary log</a><br />\n";
+//  echo "<a href=\"logs/$pkg_name.ds-finder.log-full\">",$pkg_name, " full logged output</a><br />\n";
   echo "<p>EXACT FIELD MATCHES:</p>\n";
   printResults($result, $total_exact, $total_exact_hits);
   $sql = 'SELECT * FROM fields WHERE pkgname="' . mysql_real_escape_string($pkg_name) . '" AND type!=classname AND type!="java.lang.Object";';
