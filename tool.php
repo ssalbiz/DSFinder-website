@@ -44,8 +44,9 @@
    echo "<pre>";
    echo "Received ", basename($file), "\n";
    
-   system("bash -- process.sh $file $package", $rc);
-   //system('whoami', $rc);
+
+   $cmd = 'java -Xmx1800M -cp /usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/lib/tools.jar:/xtra/benchmark_sources/scripts/DSFinder-20090828.jar:/usr/share/java/asm3.jar:/usr/share/java/asm3-commons.jar:/usr/share/java/asm3-tree.jar:/xtra/benchmark_sources/scripts/jargs.jar:' . escapeshellarg($file) . ' ca.patricklam.DSFinder --classpath=/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/lib/tools.jar:/xtra/benchmark_sources/scripts/DSFinder-20090828.jar:/usr/share/java/asm3.jar:/usr/share/java/asm3-commons.jar:/usr/share/java/asm3-tree.jar:/xtra/benchmark_sources/scripts/jargs.jar:' . escapeshellarg($file) . '-s -p --include='. escapeshellarg($package) .' --title=/tmp/staging.log';
+   system(escapeshellcmd($cmd), $rc);
    echo $rc;
 
    echo "</pre></div></body></html>";
